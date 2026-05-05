@@ -1,0 +1,1390 @@
+[
+  {
+    "id": "money-shortage",
+    "domain": "money",
+    "label": {
+      "ja": "生活費が足りない・お金がない",
+      "en": "Can't afford living expenses",
+      "pt": "Sem dinheiro para viver"
+    },
+    "search_phrases": {
+      "ja": [
+        "お金がない",
+        "生活が苦しい",
+        "生活費が足りない",
+        "食費がない"
+      ],
+      "en": [
+        "no money",
+        "can't pay bills",
+        "living expenses"
+      ],
+      "pt": [
+        "sem dinheiro",
+        "não consigo pagar"
+      ]
+    }
+  },
+  {
+    "id": "rent-unpayable",
+    "domain": "money",
+    "label": {
+      "ja": "家賃が払えない・追い出される",
+      "en": "Can't pay rent",
+      "pt": "Não consigo pagar o aluguel"
+    },
+    "search_phrases": {
+      "ja": [
+        "家賃が払えない",
+        "立ち退きを迫られた",
+        "アパートを追い出される"
+      ],
+      "en": [
+        "can't pay rent",
+        "eviction"
+      ],
+      "pt": [
+        "não pago aluguel",
+        "despejo"
+      ]
+    }
+  },
+  {
+    "id": "debt-crisis",
+    "domain": "money",
+    "label": {
+      "ja": "借金が返せない・取り立てが怖い",
+      "en": "Can't repay debts",
+      "pt": "Não consigo pagar dívidas"
+    },
+    "search_phrases": {
+      "ja": [
+        "借金が返せない",
+        "取り立てが来る",
+        "自己破産したい"
+      ],
+      "en": [
+        "can't repay debt",
+        "debt collector"
+      ],
+      "pt": [
+        "dívida",
+        "não consigo pagar"
+      ]
+    }
+  },
+  {
+    "id": "tax-unpayable",
+    "domain": "money",
+    "label": {
+      "ja": "税金が払えない",
+      "en": "Can't pay taxes",
+      "pt": "Não consigo pagar impostos"
+    },
+    "search_phrases": {
+      "ja": [
+        "税金が払えない",
+        "市税の滞納",
+        "固定資産税が払えない"
+      ],
+      "en": [
+        "can't pay tax",
+        "tax debt"
+      ],
+      "pt": [
+        "não pago imposto",
+        "dívida fiscal"
+      ]
+    }
+  },
+  {
+    "id": "education-cost",
+    "domain": "money",
+    "label": {
+      "ja": "教育費が出せない",
+      "en": "Can't afford education costs",
+      "pt": "Não tenho dinheiro para educação"
+    },
+    "search_phrases": {
+      "ja": [
+        "学費が払えない",
+        "給食費が払えない",
+        "修学旅行費が出せない"
+      ],
+      "en": [
+        "school fees",
+        "education cost"
+      ],
+      "pt": [
+        "taxa escolar",
+        "educação"
+      ]
+    }
+  },
+  {
+    "id": "medical-cost",
+    "domain": "money",
+    "label": {
+      "ja": "医療費が高い・病院に行けない",
+      "en": "Medical costs are too high",
+      "pt": "Custo médico alto"
+    },
+    "search_phrases": {
+      "ja": [
+        "医療費が高い",
+        "病院に行けない",
+        "保険がない",
+        "お金がなくて病院に行けない"
+      ],
+      "en": [
+        "can't afford hospital",
+        "medical cost"
+      ],
+      "pt": [
+        "custo médico",
+        "hospital caro"
+      ]
+    }
+  },
+  {
+    "id": "emergency-fund",
+    "domain": "money",
+    "label": {
+      "ja": "急にお金が必要",
+      "en": "Need money urgently",
+      "pt": "Preciso de dinheiro urgente"
+    },
+    "search_phrases": {
+      "ja": [
+        "急にお金が必要",
+        "今すぐお金を借りたい",
+        "緊急の出費"
+      ],
+      "en": [
+        "need money urgently",
+        "emergency loan"
+      ],
+      "pt": [
+        "precisar de dinheiro urgente",
+        "empréstimo emergência"
+      ]
+    }
+  },
+  {
+    "id": "child-allowance-q",
+    "domain": "money",
+    "label": {
+      "ja": "児童手当がほしい",
+      "en": "I want child allowance",
+      "pt": "Quero receber benefício por filho"
+    },
+    "search_phrases": {
+      "ja": [
+        "児童手当",
+        "子供の手当",
+        "子育て給付"
+      ],
+      "en": [
+        "child allowance",
+        "child benefit"
+      ],
+      "pt": [
+        "benefício filho",
+        "auxílio criança"
+      ]
+    }
+  },
+  {
+    "id": "child-medical-q",
+    "domain": "money",
+    "label": {
+      "ja": "子供の医療費が心配",
+      "en": "Worried about child medical costs",
+      "pt": "Preocupado com custo médico do filho"
+    },
+    "search_phrases": {
+      "ja": [
+        "子供の医療費",
+        "子どもの通院費",
+        "乳幼児医療費"
+      ],
+      "en": [
+        "child medical cost",
+        "pediatric care"
+      ],
+      "pt": [
+        "custo médico filho",
+        "médico criança"
+      ]
+    }
+  },
+  {
+    "id": "reform-cost",
+    "domain": "money",
+    "label": {
+      "ja": "リフォームが高い",
+      "en": "Home renovation costs are high",
+      "pt": "Reforma cara"
+    },
+    "search_phrases": {
+      "ja": [
+        "リフォーム補助",
+        "改修費が高い",
+        "家の修繕"
+      ],
+      "en": [
+        "home renovation subsidy",
+        "repair cost"
+      ],
+      "pt": [
+        "reforma subsidiada",
+        "custo reforma"
+      ]
+    }
+  },
+  {
+    "id": "job-lost",
+    "domain": "work",
+    "label": {
+      "ja": "失業・クビになった",
+      "en": "Lost my job",
+      "pt": "Perdi meu emprego"
+    },
+    "search_phrases": {
+      "ja": [
+        "失業した",
+        "クビになった",
+        "解雇された",
+        "会社が倒産した"
+      ],
+      "en": [
+        "lost job",
+        "fired",
+        "unemployed"
+      ],
+      "pt": [
+        "perdi emprego",
+        "demitido",
+        "desempregado"
+      ]
+    }
+  },
+  {
+    "id": "new-job-insurance",
+    "domain": "work",
+    "label": {
+      "ja": "就職したら保険はどうなる？",
+      "en": "What about insurance when starting a job?",
+      "pt": "Seguro ao começar novo emprego?"
+    },
+    "search_phrases": {
+      "ja": [
+        "就職したら保険",
+        "転職後の健保",
+        "社会保険の切り替え"
+      ],
+      "en": [
+        "insurance new job",
+        "health insurance change"
+      ],
+      "pt": [
+        "seguro novo emprego",
+        "previdência"
+      ]
+    }
+  },
+  {
+    "id": "black-company",
+    "domain": "work",
+    "label": {
+      "ja": "ブラック企業・残業代が出ない",
+      "en": "Abusive employer, unpaid overtime",
+      "pt": "Empresa abusiva, hora extra não paga"
+    },
+    "search_phrases": {
+      "ja": [
+        "残業代が出ない",
+        "ブラック企業",
+        "パワハラ",
+        "有給が取れない"
+      ],
+      "en": [
+        "unpaid overtime",
+        "abusive workplace"
+      ],
+      "pt": [
+        "hora extra não paga",
+        "empresa abusiva"
+      ]
+    }
+  },
+  {
+    "id": "work-injury",
+    "domain": "work",
+    "label": {
+      "ja": "仕事中のケガ・労災",
+      "en": "Injured at work",
+      "pt": "Acidente de trabalho"
+    },
+    "search_phrases": {
+      "ja": [
+        "仕事中にケガをした",
+        "労働災害",
+        "労災申請"
+      ],
+      "en": [
+        "work injury",
+        "workers compensation"
+      ],
+      "pt": [
+        "acidente trabalho",
+        "indenização"
+      ]
+    }
+  },
+  {
+    "id": "harassment",
+    "domain": "work",
+    "label": {
+      "ja": "パワハラ・セクハラ",
+      "en": "Harassment at work",
+      "pt": "Assédio no trabalho"
+    },
+    "search_phrases": {
+      "ja": [
+        "パワハラ",
+        "セクハラ",
+        "職場での嫌がらせ"
+      ],
+      "en": [
+        "harassment",
+        "bullying at work"
+      ],
+      "pt": [
+        "assédio",
+        "bullying trabalho"
+      ]
+    }
+  },
+  {
+    "id": "cant-find-job",
+    "domain": "work",
+    "label": {
+      "ja": "仕事が見つからない",
+      "en": "Can't find a job",
+      "pt": "Não consigo emprego"
+    },
+    "search_phrases": {
+      "ja": [
+        "仕事が見つからない",
+        "就職活動がうまくいかない",
+        "ハローワーク"
+      ],
+      "en": [
+        "can't find job",
+        "job hunting",
+        "employment support"
+      ],
+      "pt": [
+        "não acho emprego",
+        "apoio empregos"
+      ]
+    }
+  },
+  {
+    "id": "start-business-q",
+    "domain": "work",
+    "label": {
+      "ja": "起業したい",
+      "en": "Want to start a business",
+      "pt": "Quero abrir empresa"
+    },
+    "search_phrases": {
+      "ja": [
+        "起業したい",
+        "創業支援",
+        "小さいお店を開きたい"
+      ],
+      "en": [
+        "start business",
+        "startup support"
+      ],
+      "pt": [
+        "abrir empresa",
+        "apoio empreendedor"
+      ]
+    }
+  },
+  {
+    "id": "child-emergency",
+    "domain": "health",
+    "label": {
+      "ja": "子供が夜中に高熱・救急",
+      "en": "Child high fever at night, emergency",
+      "pt": "Filho com febre alta à noite"
+    },
+    "search_phrases": {
+      "ja": [
+        "子供の急病",
+        "夜中に熱が出た",
+        "救急病院",
+        "小児救急"
+      ],
+      "en": [
+        "child emergency",
+        "pediatric emergency"
+      ],
+      "pt": [
+        "emergência filho",
+        "febre criança noite"
+      ]
+    }
+  },
+  {
+    "id": "hospitalization",
+    "domain": "health",
+    "label": {
+      "ja": "自分が入院した・長期入院",
+      "en": "Hospitalized for a long time",
+      "pt": "Internação prolongada"
+    },
+    "search_phrases": {
+      "ja": [
+        "入院した",
+        "長期入院",
+        "入院費が払えない"
+      ],
+      "en": [
+        "hospitalization",
+        "long-term care"
+      ],
+      "pt": [
+        "internação",
+        "longa hospitalização"
+      ]
+    }
+  },
+  {
+    "id": "disability-cert",
+    "domain": "health",
+    "label": {
+      "ja": "障害者手帳がほしい",
+      "en": "Want disability certificate",
+      "pt": "Quero carteira de deficiência"
+    },
+    "search_phrases": {
+      "ja": [
+        "障害者手帳",
+        "身体障害",
+        "精神障害者保健福祉手帳"
+      ],
+      "en": [
+        "disability certificate",
+        "disability card"
+      ],
+      "pt": [
+        "carteira deficiência",
+        "certificado deficiência"
+      ]
+    }
+  },
+  {
+    "id": "mental-crisis",
+    "domain": "health",
+    "label": {
+      "ja": "心がつらい・死にたい",
+      "en": "Feeling suicidal or very low",
+      "pt": "Sentindo-se mal mentalmente"
+    },
+    "search_phrases": {
+      "ja": [
+        "死にたい",
+        "消えたい",
+        "心がつらい",
+        "うつ",
+        "自殺を考えている"
+      ],
+      "en": [
+        "suicidal",
+        "mental crisis",
+        "depression"
+      ],
+      "pt": [
+        "suicídio",
+        "crise mental",
+        "depressão"
+      ]
+    }
+  },
+  {
+    "id": "addiction",
+    "domain": "health",
+    "label": {
+      "ja": "依存症（ギャンブル・アルコール等）",
+      "en": "Addiction (gambling, alcohol, etc.)",
+      "pt": "Dependência (jogo, álcool)"
+    },
+    "search_phrases": {
+      "ja": [
+        "ギャンブル依存",
+        "アルコール依存",
+        "依存症の相談"
+      ],
+      "en": [
+        "addiction",
+        "gambling addiction",
+        "alcohol abuse"
+      ],
+      "pt": [
+        "dependência jogo",
+        "alcoolismo"
+      ]
+    }
+  },
+  {
+    "id": "nursing-care-q",
+    "domain": "health",
+    "label": {
+      "ja": "介護が必要になった",
+      "en": "Need nursing care",
+      "pt": "Precisa de cuidados de enfermagem"
+    },
+    "search_phrases": {
+      "ja": [
+        "介護保険",
+        "介護サービス",
+        "親の介護",
+        "要介護認定"
+      ],
+      "en": [
+        "nursing care",
+        "elderly care",
+        "care insurance"
+      ],
+      "pt": [
+        "cuidados idoso",
+        "seguro enfermagem"
+      ]
+    }
+  },
+  {
+    "id": "vaccination-q",
+    "domain": "health",
+    "label": {
+      "ja": "予防接種はいつ？",
+      "en": "When to get vaccinated?",
+      "pt": "Quando vacinar?"
+    },
+    "search_phrases": {
+      "ja": [
+        "予防接種",
+        "ワクチン",
+        "定期接種",
+        "乳幼児のワクチン"
+      ],
+      "en": [
+        "vaccination schedule",
+        "immunization"
+      ],
+      "pt": [
+        "vacinação",
+        "calendário vacinal"
+      ]
+    }
+  },
+  {
+    "id": "checkup-q",
+    "domain": "health",
+    "label": {
+      "ja": "健康診断を受けたい",
+      "en": "Want a health checkup",
+      "pt": "Quero fazer exame de saúde"
+    },
+    "search_phrases": {
+      "ja": [
+        "健康診断",
+        "特定健診",
+        "がん検診",
+        "無料検診"
+      ],
+      "en": [
+        "health checkup",
+        "medical exam"
+      ],
+      "pt": [
+        "exame saúde",
+        "check-up gratuito"
+      ]
+    }
+  },
+  {
+    "id": "elderly-insurance-q",
+    "domain": "health",
+    "label": {
+      "ja": "75歳以上の保険",
+      "en": "Insurance for age 75+",
+      "pt": "Seguro para maiores de 75"
+    },
+    "search_phrases": {
+      "ja": [
+        "後期高齢者医療",
+        "75歳以上の保険",
+        "長寿医療制度"
+      ],
+      "en": [
+        "elderly medical insurance",
+        "age 75 insurance"
+      ],
+      "pt": [
+        "seguro idoso",
+        "plano saúde 75"
+      ]
+    }
+  },
+  {
+    "id": "dementia-support",
+    "domain": "health",
+    "label": {
+      "ja": "認知症・成年後見",
+      "en": "Dementia and adult guardianship",
+      "pt": "Demência e tutela adulta"
+    },
+    "search_phrases": {
+      "ja": [
+        "認知症",
+        "成年後見",
+        "もの忘れ外来",
+        "介護"
+      ],
+      "en": [
+        "dementia",
+        "adult guardianship"
+      ],
+      "pt": [
+        "demência",
+        "tutela adulto"
+      ]
+    }
+  },
+  {
+    "id": "dv-violence",
+    "domain": "family",
+    "label": {
+      "ja": "DV・配偶者暴力",
+      "en": "Domestic violence",
+      "pt": "Violência doméstica"
+    },
+    "search_phrases": {
+      "ja": [
+        "DV",
+        "配偶者に暴力を振るわれた",
+        "夫に殴られた",
+        "妻に暴力"
+      ],
+      "en": [
+        "domestic violence",
+        "DV",
+        "partner abuse"
+      ],
+      "pt": [
+        "violência doméstica",
+        "abuso parceiro"
+      ]
+    }
+  },
+  {
+    "id": "child-abuse",
+    "domain": "family",
+    "label": {
+      "ja": "虐待を見た・してしまいそう",
+      "en": "Witnessed or at risk of child abuse",
+      "pt": "Vi ou posso maltratar criança"
+    },
+    "search_phrases": {
+      "ja": [
+        "虐待",
+        "子供を虐待してしまいそう",
+        "虐待を見た",
+        "児童相談所"
+      ],
+      "en": [
+        "child abuse",
+        "abuse report"
+      ],
+      "pt": [
+        "abuso infantil",
+        "maus-tratos criança"
+      ]
+    }
+  },
+  {
+    "id": "hikikomori",
+    "domain": "family",
+    "label": {
+      "ja": "ひきこもりの家族",
+      "en": "Family member with social withdrawal",
+      "pt": "Familiar recluso (hikikomori)"
+    },
+    "search_phrases": {
+      "ja": [
+        "ひきこもり",
+        "引きこもりの子供",
+        "家から出ない"
+      ],
+      "en": [
+        "social withdrawal",
+        "hikikomori"
+      ],
+      "pt": [
+        "recluso",
+        "isolamento social"
+      ]
+    }
+  },
+  {
+    "id": "neighbor-trouble",
+    "domain": "family",
+    "label": {
+      "ja": "近所トラブル・騒音",
+      "en": "Neighbor dispute, noise",
+      "pt": "Conflito de vizinhança, barulho"
+    },
+    "search_phrases": {
+      "ja": [
+        "近所トラブル",
+        "騒音問題",
+        "隣人とのトラブル"
+      ],
+      "en": [
+        "neighbor dispute",
+        "noise complaint"
+      ],
+      "pt": [
+        "conflito vizinho",
+        "barulho"
+      ]
+    }
+  },
+  {
+    "id": "unexpected-pregnancy",
+    "domain": "family",
+    "label": {
+      "ja": "予期せぬ妊娠",
+      "en": "Unexpected pregnancy",
+      "pt": "Gravidez inesperada"
+    },
+    "search_phrases": {
+      "ja": [
+        "望まない妊娠",
+        "予期せぬ妊娠",
+        "妊娠したかもしれない",
+        "産前相談"
+      ],
+      "en": [
+        "unexpected pregnancy",
+        "unplanned pregnancy"
+      ],
+      "pt": [
+        "gravidez inesperada",
+        "gravidez não planejada"
+      ]
+    }
+  },
+  {
+    "id": "bullying-school",
+    "domain": "family",
+    "label": {
+      "ja": "子供のいじめ・不登校",
+      "en": "Child bullying or school refusal",
+      "pt": "Bullying ou recusa escolar"
+    },
+    "search_phrases": {
+      "ja": [
+        "いじめ",
+        "不登校",
+        "学校に行けない",
+        "子供がいじめられている"
+      ],
+      "en": [
+        "bullying",
+        "school refusal"
+      ],
+      "pt": [
+        "bullying escolar",
+        "recusa escola"
+      ]
+    }
+  },
+  {
+    "id": "divorce-q",
+    "domain": "family",
+    "label": {
+      "ja": "離婚したい",
+      "en": "Want to get divorced",
+      "pt": "Quero me divorciar"
+    },
+    "search_phrases": {
+      "ja": [
+        "離婚したい",
+        "離婚の手続き",
+        "離婚届"
+      ],
+      "en": [
+        "divorce",
+        "separation"
+      ],
+      "pt": [
+        "divórcio",
+        "separação"
+      ]
+    }
+  },
+  {
+    "id": "parenting-stress",
+    "domain": "family",
+    "label": {
+      "ja": "子育てがつらい",
+      "en": "Parenting is overwhelming",
+      "pt": "Paternidade difícil"
+    },
+    "search_phrases": {
+      "ja": [
+        "子育てがつらい",
+        "育児疲れ",
+        "ワンオペ育児",
+        "子育て相談"
+      ],
+      "en": [
+        "parenting stress",
+        "overwhelmed parent"
+      ],
+      "pt": [
+        "estresse paternidade",
+        "criação filho difícil"
+      ]
+    }
+  },
+  {
+    "id": "family-death-q",
+    "domain": "family",
+    "label": {
+      "ja": "家族が亡くなった",
+      "en": "A family member died",
+      "pt": "Um familiar faleceu"
+    },
+    "search_phrases": {
+      "ja": [
+        "家族が亡くなった",
+        "死亡届",
+        "葬儀後の手続き",
+        "相続"
+      ],
+      "en": [
+        "family member died",
+        "death registration"
+      ],
+      "pt": [
+        "familiar faleceu",
+        "registro óbito"
+      ]
+    }
+  },
+  {
+    "id": "water-start",
+    "domain": "housing",
+    "label": {
+      "ja": "水道を開けたい・水が出ない",
+      "en": "Want to set up water supply",
+      "pt": "Quero ligar água"
+    },
+    "search_phrases": {
+      "ja": [
+        "水道を開く",
+        "水道の開栓",
+        "水が出ない"
+      ],
+      "en": [
+        "water supply setup",
+        "water connection"
+      ],
+      "pt": [
+        "ligar água",
+        "abastecimento água"
+      ]
+    }
+  },
+  {
+    "id": "homeless",
+    "domain": "housing",
+    "label": {
+      "ja": "住む場所がない",
+      "en": "Homeless or losing housing",
+      "pt": "Sem moradia"
+    },
+    "search_phrases": {
+      "ja": [
+        "住む場所がない",
+        "ホームレス",
+        "路上生活",
+        "宿泊場所"
+      ],
+      "en": [
+        "homeless",
+        "no housing",
+        "shelter"
+      ],
+      "pt": [
+        "sem moradia",
+        "abrigo",
+        "sem-teto"
+      ]
+    }
+  },
+  {
+    "id": "scam-victim",
+    "domain": "housing",
+    "label": {
+      "ja": "悪質商法・詐欺被害",
+      "en": "Victim of scam or fraud",
+      "pt": "Vítima de fraude"
+    },
+    "search_phrases": {
+      "ja": [
+        "詐欺被害",
+        "悪質商法",
+        "訪問販売のトラブル",
+        "消費者相談"
+      ],
+      "en": [
+        "scam",
+        "fraud",
+        "consumer complaint"
+      ],
+      "pt": [
+        "fraude",
+        "golpe",
+        "enganação"
+      ]
+    }
+  },
+  {
+    "id": "net-trouble",
+    "domain": "housing",
+    "label": {
+      "ja": "ネットトラブル・闇バイト",
+      "en": "Internet trouble or illegal job",
+      "pt": "Problema internet ou trabalho ilegal"
+    },
+    "search_phrases": {
+      "ja": [
+        "闇バイト",
+        "ネット詐欺",
+        "SNS詐欺",
+        "フィッシング"
+      ],
+      "en": [
+        "internet fraud",
+        "illegal job"
+      ],
+      "pt": [
+        "fraude internet",
+        "trabalho ilegal"
+      ]
+    }
+  },
+  {
+    "id": "moved-in-q",
+    "domain": "housing",
+    "label": {
+      "ja": "引っ越してきた",
+      "en": "Just moved in",
+      "pt": "Acabei de me mudar"
+    },
+    "search_phrases": {
+      "ja": [
+        "引っ越してきた",
+        "転入届",
+        "住民票の移し方"
+      ],
+      "en": [
+        "just moved in",
+        "address change",
+        "move-in registration"
+      ],
+      "pt": [
+        "mudei para cá",
+        "registro endereço"
+      ]
+    }
+  },
+  {
+    "id": "garbage-q",
+    "domain": "housing",
+    "label": {
+      "ja": "ゴミの出し方がわからない",
+      "en": "Don't know how to dispose garbage",
+      "pt": "Não sei descartar lixo"
+    },
+    "search_phrases": {
+      "ja": [
+        "ゴミの出し方",
+        "分別がわからない",
+        "燃えるゴミの日"
+      ],
+      "en": [
+        "garbage disposal",
+        "trash rules"
+      ],
+      "pt": [
+        "descarte lixo",
+        "separação lixo"
+      ]
+    }
+  },
+  {
+    "id": "big-garbage-q",
+    "domain": "housing",
+    "label": {
+      "ja": "大きいゴミを捨てたい",
+      "en": "Want to dispose large items",
+      "pt": "Quero descartar item grande"
+    },
+    "search_phrases": {
+      "ja": [
+        "粗大ごみ",
+        "大きいゴミ",
+        "家具を捨てたい"
+      ],
+      "en": [
+        "large item disposal",
+        "oversized garbage"
+      ],
+      "pt": [
+        "lixo grande",
+        "descarte móveis"
+      ]
+    }
+  },
+  {
+    "id": "earthquake-house",
+    "domain": "housing",
+    "label": {
+      "ja": "家が古くて地震が怖い",
+      "en": "Old house, worried about earthquake",
+      "pt": "Casa velha, medo de terremoto"
+    },
+    "search_phrases": {
+      "ja": [
+        "耐震工事",
+        "古い家の地震対策",
+        "耐震改修補助"
+      ],
+      "en": [
+        "earthquake retrofit",
+        "old house safety"
+      ],
+      "pt": [
+        "reforço sísmico",
+        "casa velha terremoto"
+      ]
+    }
+  },
+  {
+    "id": "evacuation",
+    "domain": "safety",
+    "label": {
+      "ja": "地震が来たらどこに逃げる",
+      "en": "Where to evacuate in an earthquake",
+      "pt": "Para onde fugir em terremoto"
+    },
+    "search_phrases": {
+      "ja": [
+        "避難場所",
+        "地震の避難",
+        "避難所はどこ"
+      ],
+      "en": [
+        "evacuation site",
+        "earthquake shelter"
+      ],
+      "pt": [
+        "local evacuação",
+        "abrigo terremoto"
+      ]
+    }
+  },
+  {
+    "id": "disaster-prep",
+    "domain": "safety",
+    "label": {
+      "ja": "台風・水害に備えたい",
+      "en": "Prepare for typhoon or flood",
+      "pt": "Preparar para tufão ou enchente"
+    },
+    "search_phrases": {
+      "ja": [
+        "台風対策",
+        "水害に備える",
+        "ハザードマップ",
+        "防災グッズ"
+      ],
+      "en": [
+        "typhoon preparation",
+        "flood preparation"
+      ],
+      "pt": [
+        "preparação tufão",
+        "enchente"
+      ]
+    }
+  },
+  {
+    "id": "disaster-damage",
+    "domain": "safety",
+    "label": {
+      "ja": "災害で家が壊れた",
+      "en": "Home damaged by disaster",
+      "pt": "Casa danificada por desastre"
+    },
+    "search_phrases": {
+      "ja": [
+        "災害で家が壊れた",
+        "被災した",
+        "罹災証明",
+        "災害支援"
+      ],
+      "en": [
+        "disaster damage",
+        "home destroyed"
+      ],
+      "pt": [
+        "dano desastre",
+        "casa destruída"
+      ]
+    }
+  },
+  {
+    "id": "traffic-accident",
+    "domain": "safety",
+    "label": {
+      "ja": "交通事故にあった",
+      "en": "Involved in a traffic accident",
+      "pt": "Sofri acidente de trânsito"
+    },
+    "search_phrases": {
+      "ja": [
+        "交通事故",
+        "事故にあった",
+        "車にひかれた",
+        "示談"
+      ],
+      "en": [
+        "traffic accident",
+        "car accident"
+      ],
+      "pt": [
+        "acidente trânsito",
+        "carro"
+      ]
+    }
+  },
+  {
+    "id": "aed-firstaid",
+    "domain": "safety",
+    "label": {
+      "ja": "AEDの使い方を知りたい",
+      "en": "Want to learn how to use AED",
+      "pt": "Quero aprender usar DEA"
+    },
+    "search_phrases": {
+      "ja": [
+        "AED",
+        "心肺蘇生",
+        "応急手当",
+        "救命講習"
+      ],
+      "en": [
+        "AED",
+        "CPR",
+        "first aid training"
+      ],
+      "pt": [
+        "DEA",
+        "RCP",
+        "primeiros socorros"
+      ]
+    }
+  },
+  {
+    "id": "no-japanese",
+    "domain": "foreigner",
+    "label": {
+      "ja": "日本語がわからない",
+      "en": "Don't understand Japanese",
+      "pt": "Não entendo japonês"
+    },
+    "search_phrases": {
+      "ja": [
+        "日本語がわからない",
+        "通訳",
+        "多言語相談"
+      ],
+      "en": [
+        "don't speak Japanese",
+        "multilingual support"
+      ],
+      "pt": [
+        "não falo japonês",
+        "tradução",
+        "suporte multilíngue"
+      ]
+    }
+  },
+  {
+    "id": "visa-renewal",
+    "domain": "foreigner",
+    "label": {
+      "ja": "在留カード・ビザ更新",
+      "en": "Residence card / visa renewal",
+      "pt": "Renovação de visto"
+    },
+    "search_phrases": {
+      "ja": [
+        "在留カード更新",
+        "ビザ更新",
+        "在留資格"
+      ],
+      "en": [
+        "residence card",
+        "visa renewal"
+      ],
+      "pt": [
+        "renovação visto",
+        "carteira residência"
+      ]
+    }
+  },
+  {
+    "id": "learn-japanese",
+    "domain": "foreigner",
+    "label": {
+      "ja": "日本語を勉強したい",
+      "en": "Want to study Japanese",
+      "pt": "Quero estudar japonês"
+    },
+    "search_phrases": {
+      "ja": [
+        "日本語教室",
+        "日本語を学びたい",
+        "日本語ボランティア"
+      ],
+      "en": [
+        "Japanese class",
+        "learn Japanese"
+      ],
+      "pt": [
+        "aula japonês",
+        "aprender japonês"
+      ]
+    }
+  },
+  {
+    "id": "foreign-child-school",
+    "domain": "foreigner",
+    "label": {
+      "ja": "子供を学校に入れたい",
+      "en": "Want to enroll child in school",
+      "pt": "Quero matricular filho na escola"
+    },
+    "search_phrases": {
+      "ja": [
+        "外国人の子供の学校",
+        "転校手続き",
+        "学校に入れたい"
+      ],
+      "en": [
+        "school enrollment",
+        "foreign child school"
+      ],
+      "pt": [
+        "matrícula escola filho",
+        "escola estrangeiro"
+      ]
+    }
+  },
+  {
+    "id": "cultural-conflict",
+    "domain": "foreigner",
+    "label": {
+      "ja": "文化・宗教の違いで困った",
+      "en": "Struggling with cultural or religious differences",
+      "pt": "Dificuldades culturais ou religiosas"
+    },
+    "search_phrases": {
+      "ja": [
+        "文化の違い",
+        "宗教的配慮",
+        "多文化共生"
+      ],
+      "en": [
+        "cultural difference",
+        "religious accommodation"
+      ],
+      "pt": [
+        "diferença cultural",
+        "religião no Japão"
+      ]
+    }
+  },
+  {
+    "id": "lgbtq-support",
+    "domain": "foreigner",
+    "label": {
+      "ja": "LGBTQ相談",
+      "en": "LGBTQ support",
+      "pt": "Apoio LGBTQ"
+    },
+    "search_phrases": {
+      "ja": [
+        "LGBTQ",
+        "性的マイノリティ",
+        "パートナーシップ証明"
+      ],
+      "en": [
+        "LGBTQ",
+        "gender identity",
+        "partnership certificate"
+      ],
+      "pt": [
+        "LGBTQ",
+        "identidade gênero",
+        "parceria civil"
+      ]
+    }
+  },
+  {
+    "id": "end-of-life",
+    "domain": "foreigner",
+    "label": {
+      "ja": "終活・相続の準備",
+      "en": "End-of-life planning and inheritance",
+      "pt": "Planejamento fim de vida e herança"
+    },
+    "search_phrases": {
+      "ja": [
+        "終活",
+        "相続",
+        "遺言書",
+        "エンディングノート"
+      ],
+      "en": [
+        "end-of-life planning",
+        "inheritance"
+      ],
+      "pt": [
+        "planejamento herança",
+        "testamento"
+      ]
+    }
+  }
+]

@@ -1,0 +1,233 @@
+---
+/**
+ * /[lang]/[municipality]/journey/[id]/ — ミッションロードページ
+ * ゲームのクエストのようにライフイベントの手順を一覧表示
+ * LocalStorageでチェック状態を保持
+ */
+import { getCollection } from 'astro:content';
+import LightLayout from '../../../../layouts/LightLayout.astro';
+import { CATEGORY_META, type Category } from '../../../../lib/categories';
+import journeys from '../../../../data/journey_master.json';
+
+export async function getStaticPaths() {
+  const allItems = await getCollection('subsidies');
+  const municipalities = [...new Set(allItems.map(i => i.data.municipality))];
+  const langs = ['ja', 'en', 'pt'];
+  const paths = [];
+  for (const municipality of municipalities) {
+    for (const lang of langs) {
+      const municipalityJourneys = (journeys as any[]).filter(j => j.municipality === municipality);
+      for (const journey of municipalityJourneys) {
+        paths.push({
+          params: { lang, municipality, id: journey.id },
+          props: { journey, municipality, lang }
+        });
+      }
+    }
+  }
+  return paths;
+}
+
+const { journey, municipality, lang } = Astro.props as any;
+const allItems = await getCollection('subsidies');
+const localeData = journey.locales[lang] ?? journey.locales['ja'];
+
+// 各ステップの記事データを取得
+const steps = (journey.steps as any[]).map(step => {
+  const article = allItems.find(a => a.data.id === step.article_id);
+  const stepLocale = step.locales?.[lang] ?? step.locales?.['ja'];
+  const articleLocale = article?.data?.locales?.[lang] ?? article?.data?.locales?.['ja'];
+  return { ...step, article, stepLocale, articleLocale };
+});
+
+const labels = {
+  back:        { ja: 'ミッション一覧へ', en: 'All Missions', pt: 'Todas as Missões' },
+  missionRoad: { ja: 'ミッションロード', en: 'Mission Road', pt: 'Roteiro da Missão' },
+  progress:    { ja: '進捗', en: 'Progress', pt: 'Progresso' },
+  steps:       { ja: 'ステップ', en: 'Steps', pt: 'Etapas' },
+  complete:    { ja: '完了！おつかれさまでした 🎉', en: 'All Done! Great work 🎉', pt: 'Tudo feito! Parabéns 🎉' },
+  goDetail:    { ja: '詳しく見る →', en: 'Learn more →', pt: 'Saiba mais →' },
+  check:       { ja: '済', en: 'Done', pt: 'Feito' },
+  open:        { ja: '受付中', en: 'Open', pt: 'Aberto' },
+  warning:     { ja: 'このページは現在日本語のみです', en: 'This page is currently only available in Japanese.', pt: 'Disponível apenas em japonês.' },
+};
+const L = (k: keyof typeof labels) => (labels[k] as any)[lang] ?? (labels[k] as any)['ja'];
+const pageId = `journey-${journey.id}-${municipality}`;
+---
+
+<LightLayout
+  title={`${journey.emoji} ${localeData.trigger}`}
+  description={localeData.description}
+  lang={lang}
+  municipality={municipality}
+  backUrl={`/${lang}/${municipality}/`}
+  backLabel={L('back')}
+>
+  <!-- Header -->
+  <div class="breadcrumb">
+    <a href={`/${lang}/`}>{lang==='ja'?'トップ':'Top'}</a>
+    <span>›</span>
+    <a href={`/${lang}/${municipality}/`}>{L('missionRoad')}</a>
+    <span>›</span>
+    <span>{localeData.trigger}</span>
+  </div>
+
+  <div style="margin-bottom:2rem">
+    <div style="font-size:3.5rem;margin-bottom:.75rem">{journey.emoji}</div>
+    <h1 style="font-size:clamp(1.35rem,4vw,1.875rem);font-weight:800;letter-spacing:-.03em;line-height:1.25;margin-bottom:.875rem">
+      {localeData.trigger}
+    </h1>
+    <p style="color:var(--text-muted);font-size:var(--text-base);line-height:1.75">{localeData.description}</p>
+  </div>
+
+  <!-- Progress bar -->
+  <div style="background:var(--surface);border:1px solid var(--border);border-radius:var(--r-lg);padding:1.25rem;margin-bottom:2rem">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:.75rem">
+      <span style="font-size:var(--text-sm);font-weight:700;color:var(--text-muted)">{L('progress')}</span>
+      <span id="progress-label" style="font-size:var(--text-sm);font-weight:700;color:var(--city)">0 / {steps.length} {L('steps')}</span>
+    </div>
+    <div style="background:var(--border);border-radius:999px;height:8px;overflow:hidden">
+      <div id="progress-bar" style={`width:0%;height:100%;background:linear-gradient(90deg,var(--city),var(--city-accent));border-radius:999px;transition:width .4s var(--ease)`}></div>
+    </div>
+    <div id="complete-msg" style="display:none;margin-top:.875rem;text-align:center;font-weight:700;font-size:var(--text-base);color:var(--city)">
+      {L('complete')}
+    </div>
+  </div>
+
+  <!-- Steps timeline -->
+  <ol id="step-list" style="list-style:none;position:relative;padding-left:0">
+    <!-- Vertical line -->
+    <div style="position:absolute;left:1.375rem;top:2.5rem;bottom:2.5rem;width:2px;background:linear-gradient(180deg,var(--city-mid),var(--border));z-index:0" aria-hidden="true"></div>
+
+    {steps.map((step: any, idx: number) => {
+      const article = step.article;
+      const catMeta = article ? CATEGORY_META[article.data.category as Category] : null;
+      const isActive = article?.data?.status === 'active';
+      const stepKey = `${pageId}-step-${idx}`;
+      return (
+        <li class="step-item" data-key={stepKey} style="position:relative;z-index:1;display:flex;gap:1rem;margin-bottom:1.25rem;align-items:flex-start">
+          <!-- Number circle -->
+          <div class="step-num" data-idx={idx} style={`flex-shrink:0;width:2.75rem;height:2.75rem;border-radius:50%;background:var(--surface);border:2px solid var(--city-mid);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:var(--text-base);color:var(--city);transition:all .2s;cursor:pointer`}>
+            {idx + 1}
+          </div>
+
+          <!-- Card -->
+          <div class="step-card" data-idx={idx} style="flex:1;background:var(--surface);border:1px solid var(--border);border-radius:var(--r-lg);padding:1.125rem;transition:all .2s">
+            <!-- Step meta -->
+            <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.625rem">
+              {catMeta && <span class="badge badge--cat">{catMeta.icon} {catMeta[lang] ?? catMeta.ja}</span>}
+              {isActive && <span class="badge badge--active">{L('open')}</span>}
+            </div>
+
+            <!-- Title -->
+            <div style="font-size:var(--text-xl);font-weight:700;line-height:1.3;margin-bottom:.5rem;color:var(--text-main)">
+              {step.articleLocale?.title ?? step.article_id}
+            </div>
+
+            <!-- Step note (unique per journey) -->
+            {step.stepLocale?.note && (
+              <div class="highlight" style="margin-bottom:.75rem;font-size:var(--text-sm)">
+                {step.stepLocale.note}
+              </div>
+            )}
+
+            <!-- Bottom line summary -->
+            {step.articleLocale?.bottom_line && (
+              <div style="font-size:var(--text-sm);color:var(--text-muted);line-height:1.6;margin-bottom:.875rem">
+                {step.articleLocale.bottom_line}
+              </div>
+            )}
+
+            <!-- Actions -->
+            <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.5rem">
+              {article && (
+                <a href={`/${lang}/${municipality}/item/${article.data.id}/`} class="badge badge--cat" style="text-decoration:none;font-size:var(--text-sm)">
+                  {L('goDetail')}
+                </a>
+              )}
+              <button
+                class="check-btn"
+                data-key={stepKey}
+                data-idx={idx}
+                data-total={steps.length}
+                style={`padding:.375rem .875rem;border-radius:var(--r-full);border:2px solid var(--city-mid);background:transparent;font-size:var(--text-xs);font-weight:700;color:var(--text-muted);cursor:pointer;transition:all .2s`}
+              >
+                ✓ {L('check')}
+              </button>
+            </div>
+          </div>
+        </li>
+      );
+    })}
+  </ol>
+
+  <script define:vars={{ pageId, totalSteps: steps.length, labels, lang }}>
+    // ─── LocalStorageでチェック状態を管理 ───
+    const getChecked = () => JSON.parse(localStorage.getItem(pageId) || '[]');
+    const saveChecked = (arr) => localStorage.setItem(pageId, JSON.stringify(arr));
+
+    function updateProgress() {
+      const checked = getChecked();
+      const count = checked.length;
+      const pct = totalSteps > 0 ? Math.round(count / totalSteps * 100) : 0;
+      document.getElementById('progress-bar').style.width = pct + '%';
+      document.getElementById('progress-label').textContent = `${count} / ${totalSteps} ${(labels.steps[lang] ?? labels.steps['ja'])}`;
+      const completeMsg = document.getElementById('complete-msg');
+      if (count >= totalSteps) {
+        completeMsg.style.display = 'block';
+      } else {
+        completeMsg.style.display = 'none';
+      }
+    }
+
+    function applyVisual(idx, isDone) {
+      const numEl = document.querySelector(`.step-num[data-idx="${idx}"]`);
+      const cardEl = document.querySelector(`.step-card[data-idx="${idx}"]`);
+      const btnEl = document.querySelector(`.check-btn[data-idx="${idx}"]`);
+      if (!numEl || !cardEl || !btnEl) return;
+      if (isDone) {
+        numEl.style.background = 'var(--city)';
+        numEl.style.borderColor = 'var(--city)';
+        numEl.style.color = '#fff';
+        numEl.textContent = '✓';
+        cardEl.style.opacity = '.7';
+        cardEl.style.borderColor = 'var(--city-mid)';
+        btnEl.style.background = 'var(--city)';
+        btnEl.style.borderColor = 'var(--city)';
+        btnEl.style.color = '#fff';
+      } else {
+        numEl.style.background = 'var(--surface)';
+        numEl.style.borderColor = 'var(--city-mid)';
+        numEl.style.color = 'var(--city)';
+        numEl.textContent = idx + 1;
+        cardEl.style.opacity = '1';
+        cardEl.style.borderColor = 'var(--border)';
+        btnEl.style.background = 'transparent';
+        btnEl.style.borderColor = 'var(--city-mid)';
+        btnEl.style.color = 'var(--text-muted)';
+      }
+    }
+
+    // 初期化
+    const checked = getChecked();
+    checked.forEach(idx => applyVisual(idx, true));
+    updateProgress();
+
+    // ボタンクリック
+    document.querySelectorAll('.check-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const idx = parseInt(btn.dataset.idx);
+        let arr = getChecked();
+        if (arr.includes(idx)) {
+          arr = arr.filter(i => i !== idx);
+          applyVisual(idx, false);
+        } else {
+          arr.push(idx);
+          applyVisual(idx, true);
+        }
+        saveChecked(arr);
+        updateProgress();
+      });
+    });
+  </script>
+</LightLayout>

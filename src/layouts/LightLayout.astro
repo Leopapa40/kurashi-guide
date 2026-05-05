@@ -1,0 +1,211 @@
+---
+/**
+ * LightLayout — 全ページ共通（YouTube型固定サイドバー）
+ * PC: 左サイドバー(240px) + メインコンテンツ
+ * スマホ: サイドバー非表示 + ボトムナビ
+ */
+import '../styles/global.css';
+import '../styles/dark.css';
+import '../styles/components.css';
+import { MUNICIPALITY_THEME, getMunicipalityCSS, CATEGORY_META, CATEGORIES, DOMAIN_META, DOMAINS } from '../lib/categories';
+import journeyData from '../data/journey_master.json';
+
+interface Props {
+  title: string;
+  description: string;
+  lang: 'ja' | 'en' | 'pt';
+  municipality: string;
+  status?: string;
+  backUrl?: string;
+  backLabel?: string;
+}
+const { title, description, lang, municipality, status, backUrl, backLabel } = Astro.props;
+const canonicalURL = new URL(Astro.url.pathname, 'https://kurashiguide.com');
+function getLangUrl(l: string) {
+  return Astro.url.pathname.replace(/^\/[a-z]{2}\//, `/${l}/`);
+}
+const cityCSS = getMunicipalityCSS(municipality);
+const cityMeta = MUNICIPALITY_THEME[municipality];
+const siteName = lang === 'ja' ? 'くらしガイド' : 'Kurashi Guide';
+const cityName = cityMeta
+  ? (lang === 'ja' ? cityMeta.name_ja : cityMeta.name_en)
+  : municipality;
+
+// サイドバー用ジャーニーデータ
+const journeys = (journeyData as any[]).filter((j: any) => j.municipality === municipality);
+
+// 現在のパスからアクティブ判定
+const currentPath = Astro.url.pathname;
+
+// ラベル
+const sidebarLabels = {
+  home:     { ja: 'ホーム',    en: 'Home',     pt: 'Início'    },
+  category: { ja: 'カテゴリ',  en: 'Category', pt: 'Categoria' },
+  troubles: { ja: '困りごと',  en: 'Troubles', pt: 'Problemas' },
+  journey:  { ja: 'ジャーニー', en: 'Journey',  pt: 'Jornada'   },
+};
+const SL = (k: keyof typeof sidebarLabels) => (sidebarLabels[k] as any)[lang] ?? (sidebarLabels[k] as any)['ja'];
+---
+<!doctype html>
+<html lang={lang}>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title} | {cityName} {siteName}</title>
+  <meta name="description" content={description} />
+  <link rel="canonical" href={canonicalURL} />
+  <link rel="alternate" hreflang="ja" href={new URL(getLangUrl('ja'), canonicalURL)} />
+  <link rel="alternate" hreflang="en" href={new URL(getLangUrl('en'), canonicalURL)} />
+  <link rel="alternate" hreflang="pt" href={new URL(getLangUrl('pt'), canonicalURL)} />
+  <link rel="alternate" hreflang="x-default" href={new URL(getLangUrl('ja'), canonicalURL)} />
+  {cityCSS && <style set:html={`:root{${cityCSS}}`} />}
+
+  {/* expired 記事の noindex 制御 */}
+  {status === 'expired' && <meta name="robots" content="noindex, follow" />}
+
+  {/* Open Graph */}
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content={`${title} | ${cityName} ${siteName}`} />
+  <meta property="og:description" content={description} />
+  <meta property="og:url" content={String(canonicalURL)} />
+  <meta property="og:site_name" content={`${cityName} ${siteName}`} />
+  <meta property="og:locale" content={lang === 'ja' ? 'ja_JP' : lang === 'en' ? 'en_US' : 'pt_BR'} />
+
+  {/* Twitter Card */}
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content={`${title} | ${cityName} ${siteName}`} />
+  <meta name="twitter:description" content={description} />
+</head>
+<body>
+  <div class="aurora-light" aria-hidden="true"></div>
+
+  <!-- ヘッダー（全幅・ロゴ＋言語のみ） -->
+  <header class="header-light">
+    <div class="header-light__inner">
+      <a class="logo" href={`/${lang}/`}>{cityName} {siteName}</a>
+      <nav class="lang-nav" aria-label="言語切替">
+        <a href={getLangUrl('ja')} class={lang === 'ja' ? 'active' : ''}>JP</a>
+        <a href={getLangUrl('en')} class={lang === 'en' ? 'active' : ''}>EN</a>
+        <a href={getLangUrl('pt')} class={lang === 'pt' ? 'active' : ''}>PT</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- サイドバー + メイン のグリッド -->
+  <div class="app-layout">
+
+    <!-- 左サイドバー（PC専用・全ページ共通） -->
+    <aside class="sidebar" aria-label="サイドナビゲーション">
+      <nav class="sidebar__nav">
+
+        <!-- ホーム -->
+        <a
+          href={`/${lang}/`}
+          class={`sidebar__item sidebar__item--home ${currentPath === `/${lang}/` ? 'sidebar__item--active' : ''}`}
+        >
+          <span>🏠</span>
+          <span>{SL('home')}</span>
+        </a>
+
+        <div class="sidebar__divider"></div>
+
+        <!-- カテゴリ -->
+        <div class="sidebar__section-title">{SL('category')}</div>
+        {CATEGORIES.map(cat => {
+          const meta = CATEGORY_META[cat];
+          const label = (meta as any)[lang] ?? meta.ja;
+          const href = `/${lang}/${municipality}/category/${cat}/`;
+          const isActive = currentPath.startsWith(href);
+          return (
+            <a href={href} class={`sidebar__item ${isActive ? 'sidebar__item--active' : ''}`}>
+              <span>{meta.icon}</span>
+              <span>{label}</span>
+            </a>
+          );
+        })}
+
+        <div class="sidebar__divider"></div>
+
+        <!-- 困りごと -->
+        <div class="sidebar__section-title">{SL('troubles')}</div>
+        {DOMAINS.map(domain => {
+          const meta = DOMAIN_META[domain];
+          const label = (meta as any)[lang] ?? meta.ja;
+          const href = `/${lang}/${municipality}/troubles/${domain}/`;
+          const isActive = currentPath.startsWith(href);
+          return (
+            <a href={href} class={`sidebar__item ${isActive ? 'sidebar__item--active' : ''}`}>
+              <span>{meta.icon}</span>
+              <span>{label}</span>
+            </a>
+          );
+        })}
+
+        {journeys.length > 0 && (
+          <>
+            <div class="sidebar__divider"></div>
+            <!-- ジャーニー -->
+            <div class="sidebar__section-title">{SL('journey')}</div>
+            {journeys.map((j: any) => {
+              const jl = j.locales?.[lang] ?? j.locales?.['ja'];
+              const href = `/${lang}/${municipality}/journey/${j.id}/`;
+              const isActive = currentPath.startsWith(href);
+              return (
+                <a href={href} class={`sidebar__item ${isActive ? 'sidebar__item--active' : ''}`}>
+                  <span>{j.emoji}</span>
+                  <span>{jl?.trigger ?? j.id}</span>
+                </a>
+              );
+            })}
+          </>
+        )}
+
+      </nav>
+    </aside>
+
+    <!-- メインコンテンツ -->
+    <main class="main-content relative">
+      <!-- パンくず代替: 戻るボタン（スマホ用） -->
+      {backUrl && (
+        <a href={backUrl} class="back-btn" style="display:inline-flex;align-items:center;gap:.375rem;margin-bottom:1rem;font-size:var(--text-sm);color:var(--text-muted);">
+          ← {backLabel ?? '一覧へ'}
+        </a>
+      )}
+      <slot />
+    </main>
+
+  </div>
+
+  <!-- フッター -->
+  <footer class="footer-light">
+    <div style="max-width:960px;margin:0 auto;padding:0 1.25rem">
+      <p>{cityName} {siteName} — AIが公式情報をわかりやすく要約しています</p>
+      <p style="margin-top:.375rem">手続き前には必ず<a href="https://www.city.ota.gunma.jp" target="_blank" rel="noopener">公式サイト</a>でご確認ください</p>
+    </div>
+  </footer>
+
+  <!-- ボトムナビ（スマホ専用・変更なし） -->
+  <nav class="bottom-nav" aria-label="スマホナビゲーション">
+    <a href={`/${lang}/`} class={`bottom-nav__item ${currentPath === `/${lang}/` ? 'bottom-nav__item--active' : ''}`}>
+      <span class="bottom-nav__icon">🏠</span>
+      <span>{lang === 'ja' ? 'ホーム' : lang === 'en' ? 'Home' : 'Início'}</span>
+    </a>
+    <a href={`/${lang}/${municipality}/`} class="bottom-nav__item">
+      <span class="bottom-nav__icon">📂</span>
+      <span>{lang === 'ja' ? 'カテゴリ' : lang === 'en' ? 'Category' : 'Categoria'}</span>
+    </a>
+    <a href={`/${lang}/${municipality}/troubles/`} class="bottom-nav__item">
+      <span class="bottom-nav__icon">🆘</span>
+      <span>{lang === 'ja' ? '困りごと' : lang === 'en' ? 'Troubles' : 'Problemas'}</span>
+    </a>
+    <div class="bottom-nav__lang">
+      <span class="bottom-nav__icon">🌐</span>
+      <div class="bottom-nav__lang-links">
+        <a href={getLangUrl('ja')} class={lang === 'ja' ? 'active' : ''}>JA</a>
+        <a href={getLangUrl('en')} class={lang === 'en' ? 'active' : ''}>EN</a>
+        <a href={getLangUrl('pt')} class={lang === 'pt' ? 'active' : ''}>PT</a>
+      </div>
+    </div>
+  </nav>
+</body>
+</html>

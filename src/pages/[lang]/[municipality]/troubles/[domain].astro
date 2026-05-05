@@ -1,0 +1,92 @@
+---
+/**
+ * /[lang]/[municipality]/troubles/[domain]/ — 困りごとドメイン詳細
+ */
+import { getCollection } from 'astro:content';
+import LightLayout from '../../../../layouts/LightLayout.astro';
+import { DOMAIN_META, DOMAINS, CATEGORY_META, type Category, type TroubleMaster } from '../../../../lib/categories';
+import troubleData from '../../../../data/trouble_master.json';
+
+export async function getStaticPaths() {
+  const allItems = await getCollection('subsidies');
+  const municipalities = [...new Set(allItems.map(i => i.data.municipality))];
+  const paths = [];
+  for (const lang of ['ja','en','pt'])
+    for (const m of municipalities)
+      for (const domain of DOMAINS)
+        paths.push({ params: { lang, municipality: m, domain } });
+  return paths;
+}
+
+const { lang, municipality, domain } = Astro.params as {
+  lang: 'ja'|'en'|'pt';
+  municipality: string;
+  domain: string;
+};
+const meta = DOMAIN_META[domain as keyof typeof DOMAIN_META];
+const allItems = await getCollection('subsidies');
+const troubles = (troubleData as TroubleMaster[]).filter(t => t.domain === domain);
+
+const troubleWithItems = troubles.map(t => ({
+  ...t,
+  items: allItems.filter(item =>
+    (item.data as any).situations?.includes(t.id)
+  ),
+}));
+
+// SEO: search_phrases をdescriptionに含める
+const description = troubles
+  .flatMap(t => (t.search_phrases as any)[lang] ?? t.search_phrases.ja ?? [])
+  .slice(0, 5)
+  .join('、') + (lang === 'pt' ? ' — Guia de Serviços de Ota' : lang === 'en' ? ' — Ota City Support Guide' : ' — 太田市の支援制度ガイド');
+
+const noItemsMsg = {
+  ja: '現在、この困りごとに対応する制度が見つかりません。',
+  en: 'No support services found for this category.',
+  pt: 'Nenhum serviço encontrado para esta categoria.',
+};
+---
+
+<LightLayout
+  title={`${meta.icon} ${(meta as any)[lang] ?? meta.ja}`}
+  description={description}
+  lang={lang}
+  municipality={municipality}
+  backUrl={`/${lang}/${municipality}/troubles/`}
+  backLabel={lang === 'ja' ? '困りごとトップ' : lang === 'en' ? 'Troubles Top' : 'Início Problemas'}
+>
+  <h1 style="font-size:var(--text-2xl);font-weight:800;margin-bottom:2rem">
+    {meta.icon} {(meta as any)[lang] ?? meta.ja}
+  </h1>
+
+  {troubleWithItems.map(t => (
+    <section class="trouble-group">
+      <h2 class="trouble-group__title">
+        {(t.label as any)[lang] ?? t.label.ja}
+      </h2>
+      <div class="trouble-group__phrases" aria-label="関連するキーワード">
+        {((t.search_phrases as any)[lang] ?? t.search_phrases.ja ?? [])
+          .map((p: string) => <span class="trouble-tag">{p}</span>)}
+      </div>
+      {t.items.length > 0 ? (
+        <div class="related-list">
+          {t.items.map((item: any) => {
+            const locale = item.data.locales[lang] ?? item.data.locales['ja'];
+            const catMeta = CATEGORY_META[item.data.category as Category];
+            return (
+              <a href={`/${lang}/${municipality}/item/${item.data.id}/`} class="related-link">
+                <span class="related-link__icon">{catMeta?.icon ?? '📄'}</span>
+                <span class="related-link__title">{locale.title}</span>
+                <span class="related-link__arrow">→</span>
+              </a>
+            );
+          })}
+        </div>
+      ) : (
+        <p style="font-size:var(--text-sm);color:var(--text-muted);padding:.5rem 0">
+          {noItemsMsg[lang] ?? noItemsMsg.ja}
+        </p>
+      )}
+    </section>
+  ))}
+</LightLayout>

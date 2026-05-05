@@ -1,0 +1,82 @@
+---
+/**
+ * /[lang]/[municipality]/ — 全記事一覧（ライトテーマ）
+ */
+import { getCollection } from 'astro:content';
+import LightLayout from '../../../layouts/LightLayout.astro';
+import { CATEGORY_META, CATEGORIES, type Category } from '../../../lib/categories';
+
+export async function getStaticPaths() {
+  const all = await getCollection('subsidies');
+  const municipalities = [...new Set(all.map(i => i.data.municipality))];
+  const paths = [];
+  for (const municipality of municipalities)
+    for (const lang of ['ja','en','pt'])
+      paths.push({ params: { lang, municipality }, props: { municipality, lang } });
+  return paths;
+}
+
+const { municipality, lang } = Astro.props as { municipality: string; lang: 'ja'|'en'|'pt' };
+const all = await getCollection('subsidies');
+const items = all.filter(i => i.data.municipality === municipality);
+
+const statusLabel = {
+  active:   { ja:'受付中', en:'Open', pt:'Aberto' },
+  upcoming: { ja:'まもなく', en:'Upcoming', pt:'Em breve' },
+  expired:  { ja:'終了', en:'Closed', pt:'Encerrado' },
+};
+const pageTitle = lang==='ja'?'すべての記事':lang==='en'?'All Articles':'Todos os Artigos';
+---
+
+<LightLayout
+  title={pageTitle}
+  description={lang==='ja'?'太田市の生活情報・補助金・手続きをすべて一覧で見る':'All life info and procedures for Ota City.'}
+  lang={lang}
+  municipality={municipality}
+  backUrl={`/${lang}/`}
+  backLabel={lang==='ja'?'トップへ':lang==='en'?'Top':'Início'}
+>
+  <h1 style="font-size:var(--text-2xl);font-weight:800;margin-bottom:2rem;letter-spacing:-.03em">
+    {pageTitle} <span style="font-size:var(--text-base);font-weight:400;color:var(--text-muted)">（{items.length}件）</span>
+  </h1>
+
+  <!-- カテゴリ別フィルター -->
+  <div style="display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:2rem">
+    <a href={`/${lang}/${municipality}/`} class="badge badge--cat" style="text-decoration:none">
+      すべて ({items.length})
+    </a>
+    {CATEGORIES.map(cat => {
+      const count = items.filter(i => i.data.category === cat).length;
+      if (count === 0) return null;
+      const meta = CATEGORY_META[cat];
+      return (
+        <a href={`/${lang}/${municipality}/category/${cat}/`} class="badge" style="background:var(--surface);border:1px solid var(--border);color:var(--text-muted);text-decoration:none">
+          {meta.icon} {meta[lang] ?? meta.ja} ({count})
+        </a>
+      );
+    })}
+  </div>
+
+  <div class="article-grid">
+    {items.map(item => {
+      const locale = item.data.locales[lang] ?? item.data.locales['ja'];
+      const st = item.data.status;
+      const catMeta = CATEGORY_META[item.data.category as Category];
+      return (
+        <a class="card card--link" href={`/${lang}/${municipality}/item/${item.data.id}/`}>
+          <div class="article-card">
+            <div class="article-card__meta">
+              <span class={`badge badge--${st}`}>{statusLabel[st]?.[lang] ?? st}</span>
+              <span class="badge badge--cat">{catMeta?.icon} {catMeta?.[lang] ?? item.data.category}</span>
+            </div>
+            <div class="article-card__title">{locale.title}</div>
+            <div class="article-card__summary">{locale.bottom_line}</div>
+            <div class="article-card__arrow">
+              {lang==='ja'?'詳細を見る →':lang==='en'?'Read more →':'Leia mais →'}
+            </div>
+          </div>
+        </a>
+      );
+    })}
+  </div>
+</LightLayout>

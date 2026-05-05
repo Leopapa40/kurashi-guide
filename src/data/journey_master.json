@@ -1,0 +1,670 @@
+[
+  {
+    "id": "getting-married",
+    "municipality": "ota-city",
+    "emoji": "💒",
+    "locales": {
+      "ja": {
+        "trigger": "結婚するとき",
+        "description": "おめでとうございます！結婚すると役所でやることが意外とたくさんあります。順番に一つずつ進めましょう。"
+      },
+      "en": {
+        "trigger": "Getting Married",
+        "description": "Congratulations! There are several procedures to complete after marriage. Take them one by one."
+      },
+      "pt": {
+        "trigger": "Casando-se",
+        "description": "Parabéns! Há vários procedimentos após o casamento. Faça-os um a um."
+      }
+    },
+    "steps": [
+      {
+        "step_no": 1,
+        "article_id": "marriage-registration",
+        "locales": {
+          "ja": {
+            "note": "まずここから。証人2名のサインが必要です。"
+          },
+          "en": {
+            "note": "Start here. Need 2 adult witnesses."
+          },
+          "pt": {
+            "note": "Comece aqui. Precisa de 2 testemunhas adultas."
+          }
+        }
+      },
+      {
+        "step_no": 2,
+        "article_id": "my-number-card",
+        "locales": {
+          "ja": {
+            "note": "苗字・住所が変わった場合は更新が必要です。"
+          },
+          "en": {
+            "note": "Update if your surname or address changed."
+          },
+          "pt": {
+            "note": "Atualize se sobrenome ou endereço mudou."
+          }
+        }
+      },
+      {
+        "step_no": 3,
+        "article_id": "national-health-insurance",
+        "locales": {
+          "ja": {
+            "note": "配偶者の扶養に入る場合・外れる場合は手続きが必要です。"
+          },
+          "en": {
+            "note": "May need to update if joining/leaving spouse's insurance."
+          },
+          "pt": {
+            "note": "Atualize se entrando/saindo do seguro do cônjuge."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "moving-to-ota",
+    "municipality": "ota-city",
+    "emoji": "📦",
+    "locales": {
+      "ja": {
+        "trigger": "太田市に引越してきたとき",
+        "description": "太田市へようこそ！引越し後14日以内にやるべき手続きをまとめました。期限があるものもあるので早めに動きましょう。"
+      },
+      "en": {
+        "trigger": "Moving to Ota City",
+        "description": "Welcome to Ota City! Here are the procedures to complete within 14 days of moving in."
+      },
+      "pt": {
+        "trigger": "Mudando para Ota",
+        "description": "Bem-vindo a Ota! Procedimentos a completar em 14 dias após a mudança."
+      }
+    },
+    "steps": [
+      {
+        "step_no": 1,
+        "article_id": "move-in-notification",
+        "locales": {
+          "ja": {
+            "note": "⚠️ 引越し後14日以内！最優先でここから。"
+          },
+          "en": {
+            "note": "⚠️ Within 14 days of moving! Top priority."
+          },
+          "pt": {
+            "note": "⚠️ Dentro de 14 dias! Prioridade máxima."
+          }
+        }
+      },
+      {
+        "step_no": 2,
+        "article_id": "national-health-insurance",
+        "locales": {
+          "ja": {
+            "note": "前の保険を脱退してから14日以内に加入手続きを。"
+          },
+          "en": {
+            "note": "Enroll within 14 days of leaving previous insurance."
+          },
+          "pt": {
+            "note": "Inscreva-se em 14 dias após sair do seguro anterior."
+          }
+        }
+      },
+      {
+        "step_no": 3,
+        "article_id": "my-number-card",
+        "locales": {
+          "ja": {
+            "note": "住所変更の記載変更（カード裏面）が必要です。"
+          },
+          "en": {
+            "note": "Update address on the back of your My Number Card."
+          },
+          "pt": {
+            "note": "Atualize o endereço no verso do cartão My Number."
+          }
+        }
+      },
+      {
+        "step_no": 4,
+        "article_id": "dog-registration",
+        "locales": {
+          "ja": {
+            "note": "犬を飼っている場合は登録の転入手続きが必要です。"
+          },
+          "en": {
+            "note": "If you have a dog, transfer the registration."
+          },
+          "pt": {
+            "note": "Se tiver cachorro, transfira o registro."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "baby-born",
+    "municipality": "ota-city",
+    "emoji": "👶",
+    "locales": {
+      "ja": {
+        "trigger": "赤ちゃんが生まれたとき",
+        "description": "ご出産おめでとうございます！生まれてすぐにやることが意外と多いです。14日ルールがあるので早めに動きましょう。"
+      },
+      "en": {
+        "trigger": "When a Baby is Born",
+        "description": "Congratulations! There are several procedures right after birth. The 14-day rule applies — act quickly."
+      },
+      "pt": {
+        "trigger": "Quando um Bebê Nasce",
+        "description": "Parabéns! Há vários procedimentos logo após o nascimento. A regra de 14 dias se aplica."
+      }
+    },
+    "steps": [
+      {
+        "step_no": 1,
+        "article_id": "birth-registration",
+        "locales": {
+          "ja": {
+            "note": "⚠️ 生まれた日から14日以内！病院でもらう「出生証明書」が必要です。"
+          },
+          "en": {
+            "note": "⚠️ Within 14 days of birth! Need hospital birth certificate."
+          },
+          "pt": {
+            "note": "⚠️ Em 14 dias do nascimento! Precisa da certidão do hospital."
+          }
+        }
+      },
+      {
+        "step_no": 2,
+        "article_id": "child-allowance",
+        "locales": {
+          "ja": {
+            "note": "出生届の後すぐに申請！15日以上遅れると月ごとに損をします。"
+          },
+          "en": {
+            "note": "Apply right after birth registration! Late = lost monthly payments."
+          },
+          "pt": {
+            "note": "Solicite logo após o registro! Atraso = pagamentos perdidos."
+          }
+        }
+      },
+      {
+        "step_no": 3,
+        "article_id": "national-health-insurance",
+        "locales": {
+          "ja": {
+            "note": "赤ちゃんを健康保険の扶養に追加する手続きが必要です。"
+          },
+          "en": {
+            "note": "Add baby to your health insurance as a dependent."
+          },
+          "pt": {
+            "note": "Adicione o bebê ao seu seguro de saúde como dependente."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "moving-out-of-ota",
+    "municipality": "ota-city",
+    "emoji": "🚚",
+    "locales": {
+      "ja": {
+        "trigger": "太田市から引越すとき",
+        "description": "太田市からのお引越し、手続き漏れのないように確認しましょう。引越し前に済ませる手続きと、引越し後に新住所でやる手続きがあります。"
+      },
+      "en": {
+        "trigger": "Moving Out of Ota",
+        "description": "Make sure you don't miss any procedures when leaving Ota City."
+      },
+      "pt": {
+        "trigger": "Saindo de Ota",
+        "description": "Certifique-se de não perder nenhum procedimento ao sair de Ota."
+      }
+    },
+    "steps": [
+      {
+        "step_no": 1,
+        "article_id": "move-out-notification",
+        "locales": {
+          "ja": {
+            "note": "引越し前〜引越し当日までに太田市役所で手続き。"
+          },
+          "en": {
+            "note": "Complete before or on the day of moving."
+          },
+          "pt": {
+            "note": "Complete antes ou no dia da mudança."
+          }
+        }
+      },
+      {
+        "step_no": 2,
+        "article_id": "national-health-insurance",
+        "locales": {
+          "ja": {
+            "note": "太田市の国保を脱退する手続きが必要です（保険証を返却）。"
+          },
+          "en": {
+            "note": "Cancel Ota City health insurance (return insurance card)."
+          },
+          "pt": {
+            "note": "Cancele o seguro de saúde de Ota (devolva o cartão)."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "family-death",
+    "municipality": "ota-city",
+    "emoji": "🕊️",
+    "locales": {
+      "ja": {
+        "trigger": "家族が亡くなったとき",
+        "description": "大変な時期にお気持ちお察しします。いくつかの手続きを期限内に行う必要があります。一つずつ確認してください。"
+      },
+      "en": {
+        "trigger": "When a Family Member Passes Away",
+        "description": "Our condolences. Several procedures must be completed within deadlines. Take them one at a time."
+      },
+      "pt": {
+        "trigger": "Falecimento de Familiar",
+        "description": "Nossos pêsames. Há vários procedimentos com prazo. Faça-os um por vez."
+      }
+    },
+    "steps": [
+      {
+        "step_no": 1,
+        "article_id": "death-registration",
+        "locales": {
+          "ja": {
+            "note": "⚠️ 死亡を知った日から7日以内（国外は3ヶ月以内）。病院の「死亡診断書」が必要です。"
+          },
+          "en": {
+            "note": "⚠️ Within 7 days of learning of the death. Need hospital death certificate."
+          },
+          "pt": {
+            "note": "⚠️ Em 7 dias. Precisa da certidão de óbito do hospital."
+          }
+        }
+      },
+      {
+        "step_no": 2,
+        "article_id": "national-health-insurance",
+        "locales": {
+          "ja": {
+            "note": "亡くなった方の保険証を返却し、加入資格の喪失手続きをします。"
+          },
+          "en": {
+            "note": "Return the deceased's insurance card and cancel membership."
+          },
+          "pt": {
+            "note": "Devolva o cartão e cancele a filiação do falecido."
+          }
+        }
+      },
+      {
+        "step_no": 3,
+        "article_id": "seal-registration",
+        "locales": {
+          "ja": {
+            "note": "亡くなった方の印鑑登録を廃止する手続きが必要な場合があります。"
+          },
+          "en": {
+            "note": "The deceased's seal registration may need to be cancelled."
+          },
+          "pt": {
+            "note": "O registro de selo do falecido pode precisar ser cancelado."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "start-business",
+    "municipality": "ota-city",
+    "emoji": "🏢",
+    "locales": {
+      "ja": {
+        "trigger": "起業・創業するとき",
+        "description": "太田市で起業を考えている方へ。使える支援制度をまとめました。専門家への無料相談から始めるのがおすすめです。"
+      },
+      "en": {
+        "trigger": "Starting a Business",
+        "description": "For those considering starting a business in Ota City. Here are the available support programs."
+      },
+      "pt": {
+        "trigger": "Abrindo um Negócio",
+        "description": "Para quem considera abrir um negócio em Ota. Aqui estão os programas de suporte disponíveis."
+      }
+    },
+    "steps": [
+      {
+        "step_no": 1,
+        "article_id": "startup-support-certificate",
+        "locales": {
+          "ja": {
+            "note": "まずここで認定を受けると、税制優遇や融資が有利になります。"
+          },
+          "en": {
+            "note": "Get certified first — unlocks tax benefits and favorable loans."
+          },
+          "pt": {
+            "note": "Obtenha certificação primeiro — desbloqueia benefícios fiscais e empréstimos."
+          }
+        }
+      },
+      {
+        "step_no": 2,
+        "article_id": "sme-loan-guide",
+        "locales": {
+          "ja": {
+            "note": "創業時の運転資金・設備資金の融資制度を確認しましょう。"
+          },
+          "en": {
+            "note": "Check available loans for startup operating and equipment costs."
+          },
+          "pt": {
+            "note": "Verifique empréstimos disponíveis para custos operacionais e de equipamentos."
+          }
+        }
+      },
+      {
+        "step_no": 3,
+        "article_id": "gunma-cross-start-subsidy",
+        "locales": {
+          "ja": {
+            "note": "創業後に設備投資した場合、補助金が受け取れる可能性があります。"
+          },
+          "en": {
+            "note": "May receive subsidies for equipment purchased after startup."
+          },
+          "pt": {
+            "note": "Pode receber subsídios para equipamentos após a abertura."
+          }
+        }
+      },
+      {
+        "step_no": 4,
+        "article_id": "advanced-facilities-implementation",
+        "locales": {
+          "ja": {
+            "note": "中小企業向けの設備投資支援制度です。固定資産税の軽減も受けられます。"
+          },
+          "en": {
+            "note": "Equipment investment support for SMEs. Also reduces fixed asset tax."
+          },
+          "pt": {
+            "note": "Suporte a investimento em equipamentos para PMEs. Também reduz imposto."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "home-reform",
+    "municipality": "ota-city",
+    "emoji": "🏠",
+    "locales": {
+      "ja": {
+        "trigger": "家をリフォームするとき",
+        "description": "太田市では家のリフォームに使える補助金制度があります。必ず工事前に申請が必要なので、リフォームを計画したらまずここを確認しましょう。"
+      },
+      "en": {
+        "trigger": "Home Renovation",
+        "description": "Ota City offers subsidies for home renovation. Apply BEFORE starting work!"
+      },
+      "pt": {
+        "trigger": "Reforma Residencial",
+        "description": "Ota oferece subsídios para reforma. Solicite ANTES de iniciar as obras!"
+      }
+    },
+    "steps": [
+      {
+        "step_no": 1,
+        "article_id": "housing-reform-subsidy",
+        "locales": {
+          "ja": {
+            "note": "⚠️ 必ず工事着工前に申請！着工後の申請は一切受け付けられません。"
+          },
+          "en": {
+            "note": "⚠️ Apply BEFORE work starts! No exceptions."
+          },
+          "pt": {
+            "note": "⚠️ Solicite ANTES do início das obras! Sem exceções."
+          }
+        }
+      },
+      {
+        "step_no": 2,
+        "article_id": "solar-power-business-incentive",
+        "locales": {
+          "ja": {
+            "note": "リフォームのついでに太陽光発電も設置すると報奨金がもらえます。"
+          },
+          "en": {
+            "note": "Adding solar panels during renovation also gets you a reward."
+          },
+          "pt": {
+            "note": "Adicionar painéis solares durante a reforma também rende recompensas."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "divorce",
+    "municipality": "ota-city",
+    "emoji": "💔",
+    "steps": [
+      {
+        "article_id": "divorce-registration",
+        "order": 1
+      },
+      {
+        "article_id": "national-health-insurance",
+        "order": 2
+      },
+      {
+        "article_id": "national-pension",
+        "order": 3
+      },
+      {
+        "article_id": "child-allowance",
+        "order": 4
+      },
+      {
+        "article_id": "legal-aid",
+        "order": 5
+      }
+    ],
+    "locales": {
+      "ja": {
+        "trigger": "離婚するとき",
+        "description": "離婚届から保険・年金切替、ひとり親支援まで"
+      },
+      "en": {
+        "trigger": "Getting Divorced",
+        "description": "From divorce registration to changing insurance/pension and single parent support"
+      },
+      "pt": {
+        "trigger": "Em caso de Divórcio",
+        "description": "Desde o registro de divórcio até mudança de seguro/pensão e apoio a pais solteiros"
+      }
+    }
+  },
+  {
+    "id": "retirement",
+    "municipality": "ota-city",
+    "emoji": "🏢",
+    "steps": [
+      {
+        "article_id": "retirement-procedure",
+        "order": 1
+      },
+      {
+        "article_id": "national-health-insurance",
+        "order": 2
+      },
+      {
+        "article_id": "national-pension",
+        "order": 3
+      },
+      {
+        "article_id": "job-search-support",
+        "order": 4
+      }
+    ],
+    "locales": {
+      "ja": {
+        "trigger": "退職したとき",
+        "description": "離職票が届いたら。保険・年金の手続きと就職相談"
+      },
+      "en": {
+        "trigger": "Retirement/Leaving a Job",
+        "description": "Insurance and pension procedures and job search consultation"
+      },
+      "pt": {
+        "trigger": "Ao sair do emprego/Aposentadoria",
+        "description": "Procedimentos de seguro e pensão e consulta de busca de emprego"
+      }
+    }
+  },
+  {
+    "id": "new-job",
+    "municipality": "ota-city",
+    "emoji": "💼",
+    "steps": [
+      {
+        "article_id": "job-start-procedure",
+        "order": 1
+      },
+      {
+        "article_id": "national-health-insurance",
+        "order": 2
+      }
+    ],
+    "locales": {
+      "ja": {
+        "trigger": "就職したとき",
+        "description": "会社の保険に入ったら、国保をやめる手続きが必要です"
+      },
+      "en": {
+        "trigger": "Starting a New Job",
+        "description": "Procedures to withdraw from National Health Insurance"
+      },
+      "pt": {
+        "trigger": "Ao começar um novo emprego",
+        "description": "Procedimentos para cancelar o Seguro Nacional de Saúde"
+      }
+    }
+  },
+  {
+    "id": "school-entry",
+    "municipality": "ota-city",
+    "emoji": "🎒",
+    "steps": [
+      {
+        "article_id": "elementary-transfer",
+        "order": 1
+      },
+      {
+        "article_id": "school-aid",
+        "order": 2
+      }
+    ],
+    "locales": {
+      "ja": {
+        "trigger": "子供が入学するとき",
+        "description": "学校の手続きと、学用品や給食費の援助（就学援助）"
+      },
+      "en": {
+        "trigger": "Child Entering School",
+        "description": "School procedures and financial assistance for school supplies"
+      },
+      "pt": {
+        "trigger": "Ingresso escolar da criança",
+        "description": "Procedimentos escolares e assistência financeira para material escolar"
+      }
+    }
+  },
+  {
+    "id": "disaster-prep",
+    "municipality": "ota-city",
+    "emoji": "🛡️",
+    "steps": [
+      {
+        "article_id": "evacuation-map",
+        "order": 1
+      },
+      {
+        "article_id": "disaster-prep-guide",
+        "order": 2
+      }
+    ],
+    "locales": {
+      "ja": {
+        "trigger": "災害に備えたい",
+        "description": "ハザードマップの確認と、今すぐできる防災準備"
+      },
+      "en": {
+        "trigger": "Preparing for Disasters",
+        "description": "Check hazard maps and disaster preparations you can do now"
+      },
+      "pt": {
+        "trigger": "Preparação para desastres",
+        "description": "Verifique os mapas de risco e preparações que você pode fazer agora"
+      }
+    }
+  },
+  {
+    "id": "foreigner-moving-in",
+    "municipality": "ota-city",
+    "emoji": "🌏",
+    "steps": [
+      {
+        "article_id": "move-in-notification",
+        "order": 1
+      },
+      {
+        "article_id": "visa-guide",
+        "order": 2
+      },
+      {
+        "article_id": "multilingual-consultation",
+        "order": 3
+      },
+      {
+        "article_id": "national-health-insurance",
+        "order": 4
+      },
+      {
+        "article_id": "japanese-class",
+        "order": 5
+      }
+    ],
+    "locales": {
+      "ja": {
+        "trigger": "外国人として太田市に来たとき",
+        "description": "転入届、ビザ、健康保険の手続きから日本語教室まで"
+      },
+      "en": {
+        "trigger": "Moving to Ota as a Foreigner",
+        "description": "From moving-in notification, visa, and health insurance to Japanese classes"
+      },
+      "pt": {
+        "trigger": "Mudando-se para Ota como Estrangeiro",
+        "description": "Desde a notificação de mudança, visto e seguro de saúde até aulas de japonês"
+      }
+    }
+  }
+]

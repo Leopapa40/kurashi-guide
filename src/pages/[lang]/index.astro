@@ -1,0 +1,124 @@
+---
+/**
+ * /[lang]/ — トップページ（YouTube型サイドバーレイアウト対応済み）
+ * サイドバーにカテゴリ・困りごと・ジャーニーが移動したため、
+ * トップページはヒーロー + 人気記事 + 統計バナーに簡素化
+ */
+import { getCollection } from 'astro:content';
+import LightLayout from '../../layouts/LightLayout.astro';
+import { CATEGORY_META, CATEGORIES, type Category } from '../../lib/categories';
+
+export async function getStaticPaths() {
+  return ['ja','en','pt'].map(lang => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params as { lang: 'ja'|'en'|'pt' };
+const allItems = await getCollection('subsidies');
+
+const MUNICIPALITY = 'ota-city';
+
+const recent = allItems.filter(i => i.data.status === 'active').slice(0, 6);
+
+const labels = {
+  eyebrow:       { ja: '群馬県 太田市 公式情報ガイド', en: 'Ota City, Gunma — Official Guide', pt: 'Guia Oficial de Ota, Gunma' },
+  h1a:           { ja: '役所の情報を、', en: 'Official city info,', pt: 'Informações oficiais,' },
+  h1b:           { ja: '人間の言葉で。', en: 'in plain language.', pt: 'em linguagem simples.' },
+  sub:           { ja: '結婚・引越し・出産・補助金…\n太田市のあらゆる手続きをわかりやすく解説します。', en: 'Marriage, moving, childbirth, subsidies…\nAll Ota City procedures explained clearly.', pt: 'Casamento, mudança, nascimento, subsídios…\nExplicamos todos os procedimentos de Ota.' },
+  searchPh:      { ja: '例：婚姻届、児童手当、粗大ごみ…', en: 'e.g. marriage, child allowance…', pt: 'ex: casamento, benefício infantil…' },
+  searchBtn:     { ja: '検索', en: 'Search', pt: 'Buscar' },
+  recentHeading: { ja: 'よく見られている記事', en: 'Popular Articles', pt: 'Artigos Populares' },
+  open:          { ja: '受付中', en: 'Open', pt: 'Aberto' },
+  upcoming:      { ja: 'まもなく', en: 'Upcoming', pt: 'Em breve' },
+  more:          { ja: '詳細を見る →', en: 'Read more →', pt: 'Leia mais →' },
+  seeAll:        { ja: 'すべての記事を見る →', en: 'View All Articles →', pt: 'Ver Todos →' },
+  statItems:     { ja: '件の手続き', en: 'Procedures', pt: 'Procedimentos' },
+  statCats:      { ja: 'カテゴリ', en: 'Categories', pt: 'Categorias' },
+  statLangs:     { ja: '言語対応', en: 'Languages', pt: 'Idiomas' },
+};
+const L = (k: keyof typeof labels) => (labels[k] as any)[lang] ?? (labels[k] as any)['ja'];
+---
+
+<LightLayout
+  title={lang === 'ja' ? '太田市くらしガイド' : lang === 'en' ? 'Ota City Living Guide' : 'Guia de Vida de Ota'}
+  description={lang === 'ja' ? '太田市の行政情報をAIがわかりやすく解説。補助金・届出・保険・子育て情報を日本語・英語・ポルトガル語で。' : 'AI-powered guide to Ota City services.'}
+  lang={lang}
+  municipality={MUNICIPALITY}
+>
+  <!-- ① ヒーロー（コンパクト版） -->
+  <section class="hero">
+    <div class="hero__eyebrow">
+      {L('eyebrow')}
+    </div>
+    <h1 class="hero__h1">
+      {L('h1a')}<br>
+      <span class="hero__h1-gradient">{L('h1b')}</span>
+    </h1>
+    <p class="hero__sub">{L('sub')}</p>
+
+    <!-- 検索バー -->
+    <div class="hero__search">
+      <input
+        type="search"
+        placeholder={`🔍　${L('searchPh')}`}
+        class="hero__search-input"
+        id="hero-search"
+      />
+      <button
+        type="button"
+        class="hero__search-btn"
+        id="hero-search-btn"
+      >{L('searchBtn')}</button>
+    </div>
+  </section>
+
+  <!-- ② よく見られている記事（2列グリッド） -->
+  <section class="home-section--sm">
+    <div class="section-title home-section-title">{L('recentHeading')}</div>
+    <div class="article-grid">
+      {recent.map(item => {
+        const locale = item.data.locales[lang] ?? item.data.locales['ja'];
+        const catMeta = CATEGORY_META[item.data.category as Category];
+        return (
+          <a class="card card--link" href={`/${lang}/${item.data.municipality}/item/${item.data.id}/`}>
+            <div class="article-card">
+              <div class="article-card__meta">
+                {item.data.status === 'active' && <span class="badge badge--active">{L('open')}</span>}
+                {item.data.status === 'upcoming' && <span class="badge badge--upcoming">{L('upcoming')}</span>}
+                <span class="badge badge--cat">{catMeta?.icon} {(catMeta as any)?.[lang] ?? item.data.category}</span>
+              </div>
+              <div class="article-card__title">{locale.title}</div>
+              <div class="article-card__summary">{locale.bottom_line}</div>
+              <div class="article-card__arrow">{L('more')}</div>
+            </div>
+          </a>
+        );
+      })}
+    </div>
+
+    <div class="home-more-action">
+      <a
+        href={`/${lang}/${MUNICIPALITY}/`}
+        class="btn-outline"
+      >
+        {L('seeAll')}
+      </a>
+    </div>
+  </section>
+
+  <!-- ③ 統計バナー -->
+  <div class="stats-banner">
+    <div class="stats-banner__item">
+      <div class="stats-banner__number">{allItems.length}</div>
+      <div class="stats-banner__label">{L('statItems')}</div>
+    </div>
+    <div class="stats-banner__item">
+      <div class="stats-banner__number">{CATEGORIES.length}</div>
+      <div class="stats-banner__label">{L('statCats')}</div>
+    </div>
+    <div class="stats-banner__item">
+      <div class="stats-banner__number">3</div>
+      <div class="stats-banner__label">{L('statLangs')}</div>
+    </div>
+  </div>
+
+</LightLayout>

@@ -1,0 +1,78 @@
+---
+/**
+ * /[lang]/[municipality]/troubles/ — 困りごとドメイン選択トップ
+ */
+import { getCollection } from 'astro:content';
+import LightLayout from '../../../../layouts/LightLayout.astro';
+import { DOMAIN_META, DOMAINS, type TroubleMaster } from '../../../../lib/categories';
+import troubleData from '../../../../data/trouble_master.json';
+
+export async function getStaticPaths() {
+  const allItems = await getCollection('subsidies');
+  const municipalities = [...new Set(allItems.map(i => i.data.municipality))];
+  const paths = [];
+  for (const lang of ['ja','en','pt'])
+    for (const m of municipalities)
+      paths.push({ params: { lang, municipality: m } });
+  return paths;
+}
+
+const { lang, municipality } = Astro.params as { lang: 'ja'|'en'|'pt'; municipality: string };
+const allItems = await getCollection('subsidies');
+const troubles = troubleData as TroubleMaster[];
+
+// ドメインごとに、そのドメインのtroubleに紐づくレコード数を計算
+const countByDomain = Object.fromEntries(
+  DOMAINS.map(d => {
+    const domainTroubleIds = troubles.filter(t => t.domain === d).map(t => t.id);
+    const count = allItems.filter(item =>
+      (item.data as any).situations?.some((s: string) => domainTroubleIds.includes(s))
+    ).length;
+    return [d, count];
+  })
+);
+
+const titles = {
+  ja: '何に困っていますか？',
+  en: 'What are you struggling with?',
+  pt: 'Com o que você está tendo problemas?',
+};
+const subs = {
+  ja: 'あなたの状況に合った太田市の支援制度を探せます',
+  en: 'Find support services in Ota City that match your situation',
+  pt: 'Encontre serviços de apoio em Ota que correspondam à sua situação',
+};
+---
+
+<LightLayout
+  title={titles[lang] ?? titles.ja}
+  description={subs[lang] ?? subs.ja}
+  lang={lang}
+  municipality={municipality}
+  backUrl={`/${lang}/`}
+  backLabel={lang === 'ja' ? 'トップへ' : lang === 'en' ? 'Top' : 'Início'}
+>
+  <section class="hero" style="text-align:center;padding:2rem 0">
+    <h1 style="font-size:var(--text-3xl);font-weight:800;margin-bottom:.75rem">
+      {titles[lang] ?? titles.ja}
+    </h1>
+    <p style="font-size:var(--text-base);color:var(--text-muted)">
+      {subs[lang] ?? subs.ja}
+    </p>
+  </section>
+
+  <div class="home-grid">
+    {DOMAINS.map(domain => {
+      const meta = DOMAIN_META[domain];
+      const label = (meta as any)[lang] ?? meta.ja;
+      const count = countByDomain[domain] ?? 0;
+      return (
+        <a href={`/${lang}/${municipality}/troubles/${domain}/`} class="card card--link category-card">
+          <span class="category-card__icon">{meta.icon}</span>
+          <div class="category-card__title">{label}</div>
+          <div class="category-card__count">{count}件の制度</div>
+        </a>
+      );
+    })}
+  </div>
+</LightLayout>

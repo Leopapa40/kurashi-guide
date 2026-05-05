@@ -1,0 +1,300 @@
+---
+/**
+ * /[lang]/[municipality]/item/[id]/ — 記事詳細ページ（1カラム版）
+ * I-7c: detail-layout 2カラムを廃止し、全セクションを縦積みに統一
+ */
+import { getCollection } from 'astro:content';
+import LightLayout from '../../../../layouts/LightLayout.astro';
+import { CATEGORY_META, type Category } from '../../../../lib/categories';
+import { marked } from 'marked';
+
+export async function getStaticPaths() {
+  const all = await getCollection('subsidies');
+  const paths = [];
+  for (const item of all)
+    for (const lang of ['ja','en','pt'])
+      paths.push({ params: { lang, municipality: item.data.municipality, id: item.data.id }, props: { item, lang } });
+  return paths;
+}
+
+const { item, lang } = Astro.props as { item: any; lang: 'ja'|'en'|'pt' };
+const d = item.data;
+const locale = d.locales[lang] ?? d.locales['ja'];
+const isFallback = !d.locales[lang];
+const catMeta = CATEGORY_META[d.category as Category];
+
+const labels = {
+  fallback: { ja:'このページは現在日本語のみご利用いただけます。', en:'This page is currently only available in Japanese.', pt:'Esta página está disponível apenas em japonês.' },
+  status: {
+    active:   { ja:'受付中', en:'Open', pt:'Aberto' },
+    upcoming: { ja:'まもなく開始', en:'Upcoming', pt:'Em breve' },
+    expired:  { ja:'受付終了', en:'Closed', pt:'Encerrado' },
+  },
+  aiWarning: { ja:'このページはAIが公式情報をもとに要約・編集したものです。手続き前には必ず公式ページで最新情報をご確認ください。', en:'This page is an AI summary of official information. Please check the official page before proceeding.', pt:'Esta página é um resumo de IA. Verifique a página oficial antes de prosseguir.' },
+  bottomLine: { ja:'💡 つまり、こういうことです', en:'💡 The Bottom Line', pt:'💡 Em Resumo' },
+  explain: { ja:'📖 わかりやすい解説', en:'📖 Easy Explanation', pt:'📖 Explicação Fácil' },
+  fiveW1H: { ja:'🗓 5W1H — 誰が・いつ・どこで・何を', en:'🗓 5W1H Overview', pt:'🗓 Visão Geral 5W1H' },
+  w: {
+    who:   { ja:'👤 誰が（対象）', en:'👤 Who', pt:'👤 Quem' },
+    what:  { ja:'📋 何を（内容）', en:'📋 What', pt:'📋 O quê' },
+    when:  { ja:'⏰ いつまでに', en:'⏰ When', pt:'⏰ Quando' },
+    where: { ja:'📍 どこで', en:'📍 Where', pt:'📍 Onde' },
+    why:   { ja:'❗ しないと？', en:'❗ Why', pt:'❗ Por quê' },
+    how:   { ja:'📝 どうやって', en:'📝 How', pt:'📝 Como' },
+  },
+  checklist: { ja:'✅ 持ち物・必要書類チェックリスト', en:'✅ Checklist', pt:'✅ Lista de verificação' },
+  required: { ja:'必須', en:'Required', pt:'Obrigatório' },
+  optional_: { ja:'任意', en:'Optional', pt:'Opcional' },
+  formGuide: { ja:'📄 申請書の書き方', en:'📄 How to Fill the Form', pt:'📄 Como Preencher o Formulário' },
+  download: { ja:'様式をダウンロード ↗', en:'Download Form ↗', pt:'Baixar Formulário ↗' },
+  origText: { ja:'📜 原文を表示する（役所の公式文章）', en:'📜 Show Original Text', pt:'📜 Mostrar Texto Original' },
+  audience: { ja:'👥 対象となる方', en:'👥 Who Qualifies', pt:'👥 Quem se Qualifica' },
+  terms: { ja:'❓ 用語解説', en:'❓ Terms & FAQ', pt:'❓ Termos e FAQ' },
+  ctaNote: { ja:'※内容はAIによる要約です。手続き前には必ず公式ページで最新情報をご確認ください。', en:'※AI summary. Please verify with the official page.', pt:'※Resumo de IA. Verifique a página oficial.' },
+  ctaBtn: { ja:'公式ページを見る ↗', en:'View Official Page ↗', pt:'Ver Página Oficial ↗' },
+  deadline: { ja:'締切', en:'Deadline', pt:'Prazo' },
+  estimatedTime: { ja:'⏱ 所要時間の目安', en:'⏱ Estimated Time', pt:'⏱ Tempo Estimado' },
+  faqTitle: { ja:'❓ よくある質問', en:'❓ FAQ', pt:'❓ Perguntas Frequentes' },
+  relatedTitle: { ja:'📎 次にやること・関連する手続き', en:'📎 Related Procedures', pt:'📎 Procedimentos Relacionados' },
+};
+const L = (k: keyof typeof labels) => (labels[k] as any)[lang] ?? (labels[k] as any)['ja'];
+const w5 = locale.five_w1h;
+const checklist = locale.checklist ?? [];
+const formGuide = locale.form_guide;
+const faq = (locale as any).faq ?? [];
+const estimatedTime = (locale as any).estimated_time ?? null;
+const relatedArticles = (locale as any).related_articles ?? [];
+const allSubsidies = await getCollection('subsidies');
+const relatedItems = relatedArticles
+  .map((rid: string) => allSubsidies.find((s: any) => s.data.id === rid))
+  .filter(Boolean);
+---
+
+<LightLayout
+  title={locale.title}
+  description={locale.bottom_line}
+  lang={lang}
+  municipality={d.municipality}
+  backUrl={`/${lang}/${d.municipality}/category/${d.category}/`}
+  backLabel={`${catMeta?.icon ?? ''} ${catMeta?.[lang] ?? d.category}`}
+>
+  <!-- Fallback warning -->
+  {isFallback && (
+    <div class="ai-warning" style="margin-bottom:1.25rem">
+      <span>⚠️</span><span>{L('fallback')}</span>
+    </div>
+  )}
+
+  <!-- AI disclaimer -->
+  <div class="ai-warning">
+    <span>✨</span><span>{L('aiWarning')}</span>
+  </div>
+
+  <!-- Breadcrumb -->
+  <div class="breadcrumb" style="margin-top:1rem">
+    <a href={`/${lang}/`}>{lang==='ja'?'トップ':lang==='en'?'Top':'Início'}</a>
+    <span>›</span>
+    <a href={`/${lang}/${d.municipality}/category/${d.category}/`}>{catMeta?.icon} {catMeta?.[lang] ?? d.category}</a>
+    <span>›</span>
+    <span style="color:var(--text-main)">{locale.title}</span>
+  </div>
+
+  <!-- Badges -->
+  <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin:1rem 0 .75rem">
+    <span class="badge badge--cat">{catMeta?.icon} {catMeta?.[lang] ?? d.category}</span>
+    <span class={`badge badge--${d.status}`}>{(labels.status[d.status] as any)[lang]}</span>
+    {d.deadline && <span class="badge badge--info">📅 {L('deadline')}: {d.deadline}</span>}
+  </div>
+
+  <!-- Title -->
+  <h1 style="font-size:clamp(1.35rem,4vw,1.875rem);font-weight:800;letter-spacing:-.03em;line-height:1.25;margin-bottom:1.5rem">
+    {locale.title}
+  </h1>
+
+  <!-- Amount card -->
+  {locale.amount_info && (
+    <div class="info-card" style="margin-bottom:1.5rem">
+      <div class="info-card__main">{locale.amount_info}</div>
+    </div>
+  )}
+
+  <!-- Bottom line -->
+  <div class="bottom-line" style="margin-bottom:1.5rem">
+    <div class="bottom-line__label">{L('bottomLine')}</div>
+    <div class="bottom-line__text">{locale.bottom_line}</div>
+  </div>
+
+  <!-- 5W1H（一言まとめの直後に配置） -->
+  {w5 && Object.values(w5).some(v => !!v) && (
+    <section style="margin-bottom:2rem">
+      <div class="section-title">{L('fiveW1H')}</div>
+      <div class="five-w1h-grid">
+        {(['who','what','when','where','why','how'] as const).map(key => {
+          const val = (w5 as any)[key];
+          if (!val) return null;
+          return (
+            <div class="five-w1h-item">
+              <div class="five-w1h-item__label">{(labels.w[key] as any)[lang]}</div>
+              <div class="five-w1h-item__value">{val}</div>
+            </div>
+          );
+        })}
+      </div>
+    </section>
+  )}
+
+  <!-- 所要時間 -->
+  {estimatedTime && (
+    <div class="estimated-time-card" style="margin-bottom:1.5rem">
+      <span class="estimated-time-card__icon">⏱</span>
+      <span class="estimated-time-card__text">{estimatedTime}</span>
+    </div>
+  )}
+
+  <!-- Easy explanation -->
+  <section style="margin-bottom:2.5rem">
+    <div class="section-title">{L('explain')}</div>
+    <div class="prose" set:html={marked.parse(locale.easy_explanation)} />
+  </section>
+
+  <!-- Checklist -->
+  {checklist.length > 0 && (
+    <section style="margin-bottom:2rem">
+      <div class="section-title">{L('checklist')}</div>
+      <ul class="checklist">
+        {checklist.map((c: any) => (
+          <li class="checklist__item">
+            <input type="checkbox" class="checklist__checkbox" id={`chk-${c.item}`} />
+            <div class="checklist__label">
+              <label for={`chk-${c.item}`} class="checklist__label-name">{c.item}</label>
+              {c.note && <div class="checklist__label-note">{c.note}</div>}
+            </div>
+            <span class="checklist__optional">
+              {c.required === false ? L('optional_') : L('required')}
+            </span>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  <!-- Form guide -->
+  {formGuide && (
+    <section class="form-guide" style="margin-bottom:2rem">
+      <div class="section-title">{L('formGuide')}</div>
+      {formGuide.download_url && (
+        <a href={formGuide.download_url} target="_blank" rel="noopener" class="badge badge--info" style="display:inline-flex;margin-bottom:1rem;text-decoration:none">
+          {L('download')}
+        </a>
+      )}
+      {formGuide.tips?.length > 0 && (
+        <div class="highlight" style="margin-bottom:1rem">
+          <strong>💡 記入のコツ</strong>
+          <ul style="margin-top:.5rem;padding-left:1.25rem">
+            {formGuide.tips.map((t: string) => <li style="font-size:var(--text-sm);line-height:1.7">{t}</li>)}
+          </ul>
+        </div>
+      )}
+      <div class="form-guide">
+        {formGuide.fields?.map((field: any) => (
+          <div class="form-field">
+            <div class="form-field__name">📝 {field.field_name}</div>
+            <div class="form-field__how">{field.how_to_fill}</div>
+            {field.example && <div class="form-field__example">{field.example}</div>}
+            {field.note && <div style="margin-top:.375rem;font-size:var(--text-xs);color:var(--amber-text)">⚠️ {field.note}</div>}
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <!-- Original text accordion -->
+  {d.original_text && (
+    <section style="margin-bottom:2rem">
+      <details class="accordion">
+        <summary>{L('origText')}</summary>
+        <div class="accordion__body accordion__body--pre">{d.original_text}</div>
+      </details>
+    </section>
+  )}
+
+  <!-- Target audience -->
+  {locale.target_audience?.length > 0 && (
+    <section style="margin-bottom:2rem">
+      <div class="section-title">{L('audience')}</div>
+      <ul class="audience-list">
+        {locale.target_audience.map((t: string) => <li>{t}</li>)}
+      </ul>
+    </section>
+  )}
+
+  <!-- Term explanations -->
+  {locale.term_explanations?.length > 0 && (
+    <section style="margin-bottom:2rem">
+      <div class="section-title">{L('terms')}</div>
+      {locale.term_explanations.map((te: any) => (
+        <details class="accordion">
+          <summary>{te.term}</summary>
+          <div class="accordion__body">{te.explanation}</div>
+        </details>
+      ))}
+    </section>
+  )}
+
+  <!-- FAQ -->
+  {faq.length > 0 && (
+    <section class="faq-section" style="margin-bottom:2rem">
+      <div class="section-title">{L('faqTitle')}</div>
+      {faq.map((f: any) => (
+        <details class="accordion">
+          <summary>{f.question}</summary>
+          <div class="accordion__body">{f.answer}</div>
+        </details>
+      ))}
+    </section>
+  )}
+
+  <!-- 関連する手続き -->
+  {relatedItems.length > 0 && (
+    <section style="margin-bottom:2rem">
+      <div class="section-title">{L('relatedTitle')}</div>
+      <div class="related-list">
+        {relatedItems.map((ri: any) => {
+          const riLocale = ri.data.locales[lang] ?? ri.data.locales['ja'];
+          const riCat = CATEGORY_META[ri.data.category as Category];
+          return (
+            <a href={`/${lang}/${ri.data.municipality}/item/${ri.data.id}/`} class="related-link">
+              <span class="related-link__icon">{riCat?.icon ?? '📄'}</span>
+              <span class="related-link__title">{riLocale.title}</span>
+              <span class="related-link__arrow">→</span>
+            </a>
+          );
+        })}
+      </div>
+    </section>
+  )}
+
+  <!-- CTA -->
+  <div class="cta-section">
+    <p class="cta-note">{L('ctaNote')}</p>
+    <a href={d.original_url} target="_blank" rel="noopener noreferrer" class="cta-btn">
+      {L('ctaBtn')}
+    </a>
+  </div>
+
+  <!-- FAQ JSON-LD（SEO用） -->
+  {faq.length > 0 && (
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": faq.map((f: any) => ({
+        "@type": "Question",
+        "name": f.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": f.answer,
+        },
+      })),
+    })} />
+  )}
+</LightLayout>

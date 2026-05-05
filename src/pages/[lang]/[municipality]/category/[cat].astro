@@ -1,0 +1,84 @@
+---
+/**
+ * /[lang]/[municipality]/category/[cat]/ — カテゴリ別記事一覧
+ */
+import { getCollection } from 'astro:content';
+import LightLayout from '../../../../layouts/LightLayout.astro';
+import { CATEGORY_META, CATEGORIES, type Category } from '../../../../lib/categories';
+
+export async function getStaticPaths() {
+  const all = await getCollection('subsidies');
+  const municipalities = [...new Set(all.map(i => i.data.municipality))];
+  const langs = ['ja','en','pt'];
+  const paths = [];
+  for (const municipality of municipalities)
+    for (const lang of langs)
+      for (const cat of CATEGORIES)
+        paths.push({ params: { lang, municipality, cat }, props: { municipality, lang, cat } });
+  return paths;
+}
+
+const { municipality, lang, cat } = Astro.props as { municipality: string; lang: 'ja'|'en'|'pt'; cat: Category };
+const all = await getCollection('subsidies');
+const items = all.filter(i => i.data.municipality === municipality && i.data.category === cat);
+const meta = CATEGORY_META[cat];
+
+const statusLabel = {
+  active:   { ja:'受付中', en:'Open', pt:'Aberto' },
+  upcoming: { ja:'まもなく開始', en:'Upcoming', pt:'Em breve' },
+  expired:  { ja:'受付終了', en:'Closed', pt:'Encerrado' },
+};
+---
+
+<LightLayout
+  title={`${meta.icon} ${meta[lang] ?? meta.ja}`}
+  description={meta.description_ja}
+  lang={lang}
+  municipality={municipality}
+  backUrl={`/${lang}/${municipality}/`}
+  backLabel={lang==='ja'?'全記事一覧':lang==='en'?'All articles':'Todos'}
+>
+  <div class="breadcrumb">
+    <a href={`/${lang}/`}>{lang==='ja'?'トップ':lang==='en'?'Top':'Início'}</a>
+    <span>›</span>
+    <a href={`/${lang}/${municipality}/`}>{lang==='ja'?'一覧':lang==='en'?'All':'Todos'}</a>
+    <span>›</span>
+    <span>{meta.icon} {meta[lang] ?? meta.ja}</span>
+  </div>
+
+  <h1 style="font-size:var(--text-2xl);font-weight:800;margin-bottom:.5rem;letter-spacing:-.03em">
+    {meta.icon} {meta[lang] ?? meta.ja}
+  </h1>
+  <p style="color:var(--text-muted);font-size:var(--text-sm);margin-bottom:2rem">{meta.description_ja}（{items.length}件）</p>
+
+  {items.length === 0 ? (
+    <div class="highlight" style="text-align:center;padding:2rem">
+      {lang==='ja'?'このカテゴリの記事は準備中です。':lang==='en'?'No articles yet.':'Em preparação.'}
+    </div>
+  ) : (
+    <div class="article-grid">
+      {items.map(item => {
+        const locale = item.data.locales[lang] ?? item.data.locales['ja'];
+        const st = item.data.status;
+        return (
+          <a class="card card--link" href={`/${lang}/${municipality}/item/${item.data.id}/`}>
+            <div class="article-card">
+              <div class="article-card__meta">
+                <span class={`badge badge--${st}`}>{statusLabel[st]?.[lang] ?? st}</span>
+                {item.data.deadline && <span class="badge badge--info">📅 {item.data.deadline}</span>}
+              </div>
+              <div class="article-card__title">{locale.title}</div>
+              {locale.amount_info && (
+                <div style="font-size:var(--text-xl);font-weight:800;color:var(--city-text)">{locale.amount_info}</div>
+              )}
+              <div class="article-card__summary">{locale.bottom_line}</div>
+              <div class="article-card__arrow">
+                {lang==='ja'?'詳細を見る →':lang==='en'?'Read more →':'Leia mais →'}
+              </div>
+            </div>
+          </a>
+        );
+      })}
+    </div>
+  )}
+</LightLayout>

@@ -1,0 +1,55 @@
+---
+/**
+ * DarkLayout — トップページ専用（ダークテーマ・Aurora背景）
+ */
+import '../styles/global.css';
+import '../styles/dark.css';
+import '../styles/components.css';
+
+interface Props {
+  title: string;
+  description: string;
+  lang: 'ja' | 'en' | 'pt';
+  municipality?: string;
+}
+const { title, description, lang, municipality = 'ota-city' } = Astro.props;
+const canonicalURL = new URL(Astro.url.pathname, 'https://kurashi-guide.vercel.app');
+function getLangUrl(l: string) {
+  return Astro.url.pathname.replace(/^\/[a-z]{2}\//, `/${l}/`);
+}
+---
+<!doctype html>
+<html lang={lang} class="dark-theme">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <link rel="canonical" href={canonicalURL} />
+  <link rel="alternate" hreflang="ja" href={new URL(getLangUrl('ja'), canonicalURL)} />
+  <link rel="alternate" hreflang="en" href={new URL(getLangUrl('en'), canonicalURL)} />
+  <link rel="alternate" hreflang="pt" href={new URL(getLangUrl('pt'), canonicalURL)} />
+  <link rel="alternate" hreflang="x-default" href={new URL(getLangUrl('ja'), canonicalURL)} />
+</head>
+<body class="dark-bg">
+  <header class="header-dark">
+    <div class="container" style="display:flex;justify-content:space-between;align-items:center">
+      <a class="logo" href={`/${lang}/`}>太田市くらしガイド</a>
+      <nav class="lang-nav" aria-label="言語切替" style="display:flex;gap:1rem">
+        <a href={getLangUrl('ja')} class={lang==='ja'?'active':''}>JP</a>
+        <a href={getLangUrl('en')} class={lang==='en'?'active':''}>EN</a>
+        <a href={getLangUrl('pt')} class={lang==='pt'?'active':''}>PT</a>
+      </nav>
+    </div>
+  </header>
+
+  <slot />
+
+  <footer class="footer-dark">
+    <div class="container">
+      <p>太田市くらしガイド — AIが公式情報をわかりやすく要約しています</p>
+      <p style="margin-top:.375rem">手続き前には必ず<a href="https://www.city.ota.gunma.jp" target="_blank" rel="noopener">公式サイト</a>でご確認ください</p>
+    </div>
+  </footer>
+</body>
+</html>

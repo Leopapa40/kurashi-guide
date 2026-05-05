@@ -1,0 +1,73 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+  lang: 'ja' | 'en' | 'pt';
+}
+
+const { title, description, lang } = Astro.props;
+
+// FIXME: 本番環境のURLに差し替えること
+const canonicalURL = new URL(Astro.url.pathname, 'https://example-civictech.com');
+
+// AstroのJSX内での正規表現リテラルエラーを回避するためのヘルパー関数
+function getLangUrl(targetLang: string) {
+  return Astro.url.pathname.replace(/^\/[a-z]{2}\//, `/${targetLang}/`);
+}
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalURL} />
+    
+    <!-- hreflang tags -->
+    <link rel="alternate" hreflang="ja" href={new URL(getLangUrl('ja'), canonicalURL)} />
+    <link rel="alternate" hreflang="en" href={new URL(getLangUrl('en'), canonicalURL)} />
+    <link rel="alternate" hreflang="pt" href={new URL(getLangUrl('pt'), canonicalURL)} />
+    <link rel="alternate" hreflang="x-default" href={new URL(getLangUrl('ja'), canonicalURL)} />
+  </head>
+  <body>
+    <!-- AI Warning Bar -->
+    <div style="background: linear-gradient(90deg, var(--color-accent), var(--color-primary)); color: white; text-align: center; padding: 0.75rem; font-size: 0.875rem; font-weight: 600; letter-spacing: 0.05em; position: sticky; top: 0; z-index: 100; box-shadow: var(--shadow-sm);">
+      <div class="container" style="display: flex; justify-content: center; align-items: center; gap: 0.5rem;">
+        <span style="font-size: 1.1rem;">✨</span>
+        {lang === 'ja' && 'AIが役所の情報をわかりやすく要約しています。公式の募集要項も必ずご確認ください。'}
+        {lang === 'en' && 'This information is summarized by AI. Please verify with official guidelines.'}
+        {lang === 'pt' && 'Esta informação é resumida por IA. Verifique as diretrizes oficiais.'}
+      </div>
+    </div>
+
+    <!-- Header (Logo & Language Switcher) -->
+    <header style="background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(255, 255, 255, 0.5); padding: 1rem 0; margin-bottom: 2rem; position: sticky; top: 40px; z-index: 90; box-shadow: var(--shadow-sm);">
+      <div class="container" style="display: flex; justify-content: space-between; align-items: center;">
+        <div style="font-size: 1.25rem; font-weight: 800; color: var(--color-text-main); letter-spacing: -0.02em;">
+          <a href={`/${lang}/`} style="color: inherit; text-decoration: none; display: flex; align-items: center; gap: 0.5rem;">
+            <span style="background: linear-gradient(135deg, var(--color-primary), var(--color-accent)); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">🏛️ CivicTech Navi</span>
+          </a>
+        </div>
+        <nav aria-label="Language options" style="display: flex; gap: 1.5rem; font-size: 0.875rem; font-weight: 600;">
+          <a href={getLangUrl('ja')} style={lang === 'ja' ? "color:var(--color-primary); border-bottom: 2px solid var(--color-primary);" : "color:var(--color-text-muted);"}>JP</a>
+          <a href={getLangUrl('en')} style={lang === 'en' ? "color:var(--color-primary); border-bottom: 2px solid var(--color-primary);" : "color:var(--color-text-muted);"}>EN</a>
+          <a href={getLangUrl('pt')} style={lang === 'pt' ? "color:var(--color-primary); border-bottom: 2px solid var(--color-primary);" : "color:var(--color-text-muted);"}>PT</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <slot />
+    </main>
+
+    <footer style="margin-top: 4rem; padding: 2rem 0; background-color: var(--color-bg-sub); border-top: 1px solid var(--color-border); font-size: 0.875rem; text-align: center;">
+      <div class="container">
+        <p>Built with CivicTech Platform / Data analyzed by Antigravity AI.</p>
+      </div>
+    </footer>
+  </body>
+</html>
