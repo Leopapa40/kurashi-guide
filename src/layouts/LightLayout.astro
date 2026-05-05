@@ -20,7 +20,7 @@ interface Props {
   backLabel?: string;
 }
 const { title, description, lang, municipality, status, backUrl, backLabel } = Astro.props;
-const canonicalURL = new URL(Astro.url.pathname, 'https://kurashiguide.com');
+const canonicalURL = new URL(Astro.url.pathname, 'https://kurashiguide.org');
 function getLangUrl(l: string) {
   return Astro.url.pathname.replace(/^\/[a-z]{2}\//, `/${l}/`);
 }
