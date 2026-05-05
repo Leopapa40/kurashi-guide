@@ -54,6 +54,7 @@ const SL = (k: keyof typeof sidebarLabels) => (sidebarLabels[k] as any)[lang] ??
   <title>{title} | {cityName} {siteName}</title>
   <meta name="description" content={description} />
   <link rel="canonical" href={canonicalURL} />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <link rel="alternate" hreflang="ja" href={new URL(getLangUrl('ja'), canonicalURL)} />
   <link rel="alternate" hreflang="en" href={new URL(getLangUrl('en'), canonicalURL)} />
   <link rel="alternate" hreflang="pt" href={new URL(getLangUrl('pt'), canonicalURL)} />
