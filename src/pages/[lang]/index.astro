@@ -196,4 +196,23 @@ const L = (k: keyof typeof labels) => (labels[k] as any)[lang] ?? (labels[k] as 
     });
   </script>
 
+  <!-- WebSite JSON-LD（SEO用 - サイト名認識） -->
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": lang === 'ja' ? 'くらしガイド' : 'Kurashi Guide',
+    "alternateName": lang === 'ja' ? 'Kurashi Guide' : 'くらしガイド',
+    "url": "https://kurashiguide.org/",
+    "inLanguage": ["ja", "en", "pt"],
+    "description": lang === 'ja'
+      ? '日本で暮らす外国人のための、多言語行政情報ガイド'
+      : lang === 'en'
+      ? 'A multilingual guide to government services in Japan'
+      : 'Guia multilíngue de serviços governamentais no Japão',
+    "publisher": {
+      "@type": "Organization",
+      "name": "Kurashi Guide",
+    },
+  })} />
+
 </LightLayout>

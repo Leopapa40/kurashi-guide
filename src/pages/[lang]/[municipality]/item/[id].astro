@@ -5,7 +5,7 @@
  */
 import { getCollection } from 'astro:content';
 import LightLayout from '../../../../layouts/LightLayout.astro';
-import { CATEGORY_META, type Category } from '../../../../lib/categories';
+import { CATEGORY_META, MUNICIPALITY_THEME, type Category } from '../../../../lib/categories';
 import { marked } from 'marked';
 
 export async function getStaticPaths() {
@@ -281,6 +281,61 @@ const relatedItems = relatedArticles
       {L('ctaBtn')}
     </a>
   </div>
+
+  <!-- BreadcrumbList JSON-LD（SEO用） -->
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": lang === 'ja' ? 'トップ' : lang === 'en' ? 'Top' : 'Início',
+        "item": `https://kurashiguide.org/${lang}/`,
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": catMeta?.[lang] ?? d.category,
+        "item": `https://kurashiguide.org/${lang}/${d.municipality}/category/${d.category}/`,
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": locale.title,
+      },
+    ],
+  })} />
+
+  <!-- GovernmentService JSON-LD（SEO用 - ナレッジグラフ） -->
+  {d.status !== 'expired' && d.original_url && (() => {
+    const munTheme = MUNICIPALITY_THEME[d.municipality];
+    return (
+      <script type="application/ld+json" set:html={JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "GovernmentService",
+        "name": locale.title,
+        "description": locale.bottom_line,
+        "serviceType": CATEGORY_META[d.category as Category]?.en ?? d.category,
+        "url": d.original_url,
+        "serviceOperator": {
+          "@type": "GovernmentOrganization",
+          "name": lang === 'ja' ? munTheme?.name_ja : munTheme?.name_en,
+          "url": munTheme?.official_url,
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": lang === 'ja' ? munTheme?.name_ja : munTheme?.name_en,
+        },
+        "jurisdiction": {
+          "@type": "AdministrativeArea",
+          "name": lang === 'ja' ? munTheme?.name_ja : munTheme?.name_en,
+        },
+        "availableLanguage": ["ja", "en", "pt"],
+        "inLanguage": lang,
+      })} />
+    );
+  })()}
 
   <!-- FAQ JSON-LD（SEO用） -->
   {faq.length > 0 && (

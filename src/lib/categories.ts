@@ -125,36 +125,42 @@ export const MUNICIPALITY_THEME: Record<string, {
   s: number;   // Saturation %
   l: number;   // Lightness %
   accent_h: number;  // アクセントカラーのHue
+  official_url: string;  // 市町村公式サイトURL（J-2 GovernmentService用）
 }> = {
   'ota-city': {
     name_ja: '群馬県 太田市',
     name_en: 'Ota City, Gunma',
     h: 158, s: 64, l: 38,       // ティールグリーン
     accent_h: 200,               // 水色（おおたんの水色）
+    official_url: 'https://www.city.ota.gunma.jp',
   },
   'maebashi-city': {
     name_ja: '群馬県 前橋市',
     name_en: 'Maebashi City, Gunma',
     h: 350, s: 72, l: 44,
     accent_h: 25,
+    official_url: 'https://www.city.maebashi.gunma.jp',
   },
   'takasaki-city': {
     name_ja: '群馬県 高崎市',
     name_en: 'Takasaki City, Gunma',
     h: 30, s: 85, l: 48,
     accent_h: 155,
+    official_url: 'https://www.city.takasaki.gunma.jp',
   },
   'kiryu-city': {
     name_ja: '群馬県 桐生市',
     name_en: 'Kiryu City, Gunma',
     h: 270, s: 60, l: 48,
     accent_h: 310,
+    official_url: 'https://www.city.kiryu.lg.jp',
   },
   'isesaki-city': {
     name_ja: '群馬県 伊勢崎市',
     name_en: 'Isesaki City, Gunma',
     h: 210, s: 75, l: 45,
     accent_h: 180,
+    official_url: 'https://www.city.isesaki.lg.jp',
   },
 };
 

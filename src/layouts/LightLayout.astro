@@ -55,6 +55,8 @@ const SL = (k: keyof typeof sidebarLabels) => (sidebarLabels[k] as any)[lang] ??
   <meta name="description" content={description} />
   <link rel="canonical" href={canonicalURL} />
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <!-- apple-touch-icon（J-5） -->
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
   <link rel="alternate" hreflang="ja" href={new URL(getLangUrl('ja'), canonicalURL)} />
   <link rel="alternate" hreflang="en" href={new URL(getLangUrl('en'), canonicalURL)} />
   <link rel="alternate" hreflang="pt" href={new URL(getLangUrl('pt'), canonicalURL)} />
@@ -72,8 +74,15 @@ const SL = (k: keyof typeof sidebarLabels) => (sidebarLabels[k] as any)[lang] ??
   <meta property="og:site_name" content={`${cityName} ${siteName}`} />
   <meta property="og:locale" content={lang === 'ja' ? 'ja_JP' : lang === 'en' ? 'en_US' : 'pt_BR'} />
 
+  <!-- OGP デフォルト画像（J-4） -->
+  <meta property="og:image" content="https://kurashiguide.org/og-default.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:type" content="image/png" />
+
   {/* Twitter Card */}
-  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://kurashiguide.org/og-default.png" />
   <meta name="twitter:title" content={`${title} | ${cityName} ${siteName}`} />
   <meta name="twitter:description" content={description} />
 </head>
