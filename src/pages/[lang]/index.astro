@@ -78,52 +78,57 @@ const L = (k: keyof typeof labels) => (labels[k] as any)[lang] ?? (labels[k] as 
     </div>
   </section>
 
-  <!-- ② カテゴリパネル -->
+  <!-- ② タブ切り替えナビ（カテゴリ・困りごと・ライフイベント） -->
   <section class="home-section--sm">
-    <div class="section-title home-section-title">{L('catHeading')}</div>
-    <div class="category-grid">
-      {CATEGORIES.map(catKey => {
-        const meta = CATEGORY_META[catKey];
-        return (
-          <a class="category-tile" href={`/${lang}/${MUNICIPALITY}/category/${catKey}/`}>
-            <span class="category-tile__icon">{meta.icon}</span>
-            <span class="category-tile__label">{(meta as any)[lang] ?? meta.ja}</span>
-          </a>
-        );
-      })}
+    <div class="browse-tabs" id="browse-tabs">
+      <button class="browse-tab active" data-tab="cat">{L('catHeading')}</button>
+      <button class="browse-tab" data-tab="trouble">{L('troubleHeading')}</button>
+      <button class="browse-tab" data-tab="life">{L('lifeHeading')}</button>
     </div>
-  </section>
 
-  <!-- ③ 困りごとから探す -->
-  <section class="home-section--sm">
-    <div class="section-title home-section-title">{L('troubleHeading')}</div>
-    <div class="category-grid">
-      {DOMAINS.map(domKey => {
-        const meta = DOMAIN_META[domKey];
-        return (
-          <a class="category-tile" href={`/${lang}/${MUNICIPALITY}/troubles/${domKey}/`}>
-            <span class="category-tile__icon">{meta.icon}</span>
-            <span class="category-tile__label">{(meta as any)[lang] ?? meta.ja}</span>
-          </a>
-        );
-      })}
+    <!-- カテゴリ -->
+    <div class="browse-panel active" id="panel-cat">
+      <div class="category-grid">
+        {CATEGORIES.map(catKey => {
+          const meta = CATEGORY_META[catKey];
+          return (
+            <a class="category-tile" href={`/${lang}/${MUNICIPALITY}/category/${catKey}/`}>
+              <span class="category-tile__icon">{meta.icon}</span>
+              <span class="category-tile__label">{(meta as any)[lang] ?? meta.ja}</span>
+            </a>
+          );
+        })}
+      </div>
     </div>
-  </section>
 
-  <!-- ④ ライフイベント -->
-  <section class="home-section--sm">
-    <div class="section-title home-section-title">{L('lifeHeading')}</div>
-    <div class="category-grid">
-      {journeys.map((j: any) => {
-        const locale = j.locales?.[lang] ?? j.locales?.['ja'];
-        const stepCount = j.steps?.length ?? 0;
-        return (
-          <a class="category-tile" href={`/${lang}/${MUNICIPALITY}/journey/${j.id}/`}>
-            <span class="category-tile__icon">{j.emoji}</span>
-            <span class="category-tile__label">{locale?.trigger ?? j.id}</span>
-          </a>
-        );
-      })}
+    <!-- 困りごと -->
+    <div class="browse-panel" id="panel-trouble">
+      <div class="category-grid">
+        {DOMAINS.map(domKey => {
+          const meta = DOMAIN_META[domKey];
+          return (
+            <a class="category-tile" href={`/${lang}/${MUNICIPALITY}/troubles/${domKey}/`}>
+              <span class="category-tile__icon">{meta.icon}</span>
+              <span class="category-tile__label">{(meta as any)[lang] ?? meta.ja}</span>
+            </a>
+          );
+        })}
+      </div>
+    </div>
+
+    <!-- ライフイベント -->
+    <div class="browse-panel" id="panel-life">
+      <div class="category-grid">
+        {journeys.map((j: any) => {
+          const locale = j.locales?.[lang] ?? j.locales?.['ja'];
+          return (
+            <a class="category-tile" href={`/${lang}/${MUNICIPALITY}/journey/${j.id}/`}>
+              <span class="category-tile__icon">{j.emoji}</span>
+              <span class="category-tile__label">{locale?.trigger ?? j.id}</span>
+            </a>
+          );
+        })}
+      </div>
     </div>
   </section>
 
@@ -176,5 +181,19 @@ const L = (k: keyof typeof labels) => (labels[k] as any)[lang] ?? (labels[k] as 
       <div class="stats-banner__label">{L('statLangs')}</div>
     </div>
   </div>
+
+  <script>
+    document.getElementById('browse-tabs')?.addEventListener('click', (e) => {
+      const btn = (e.target as HTMLElement).closest('.browse-tab') as HTMLElement | null;
+      if (!btn) return;
+      const tab = btn.dataset.tab;
+      // タブ切り替え
+      document.querySelectorAll('.browse-tab').forEach(t => t.classList.remove('active'));
+      btn.classList.add('active');
+      // パネル切り替え
+      document.querySelectorAll('.browse-panel').forEach(p => p.classList.remove('active'));
+      document.getElementById(`panel-${tab}`)?.classList.add('active');
+    });
+  </script>
 
 </LightLayout>
