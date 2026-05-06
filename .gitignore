@@ -15,7 +15,12 @@ pnpm-debug.log*
 
 # environment variables
 .env
+.env.*
 .env.production
+
+# secrets（リポジトリ内に誤って作成された場合の安全弁）
+.secrets/
+**/.secrets/
 
 # macOS-specific files
 .DS_Store

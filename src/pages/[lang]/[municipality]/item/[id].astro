@@ -246,7 +246,11 @@ const relatedItems = relatedArticles
     <section class="faq-section" style="margin-bottom:2rem">
       <div class="section-title">{L('faqTitle')}</div>
       {faq.map((f: any) => (
-        <details class="accordion">
+        <details
+          class="accordion"
+          data-faq-question={f.question}
+          ontoggle={`if(this.open){gtag('event','faq_expand',{question:this.dataset.faqQuestion});}`}
+        >
           <summary>{f.question}</summary>
           <div class="accordion__body">{f.answer}</div>
         </details>
@@ -277,7 +281,15 @@ const relatedItems = relatedArticles
   <!-- CTA -->
   <div class="cta-section">
     <p class="cta-note">{L('ctaNote')}</p>
-    <a href={d.original_url} target="_blank" rel="noopener noreferrer" class="cta-btn">
+    <a
+      href={d.original_url}
+      target="_blank"
+      rel="noopener noreferrer"
+      class="cta-btn"
+      id="cta-official-link"
+      data-ga-url={d.original_url}
+      onclick={`gtag('event','outbound_click',{link_url:this.dataset.gaUrl,link_text:this.innerText});`}
+    >
       {L('ctaBtn')}
     </a>
   </div>
@@ -352,4 +364,24 @@ const relatedItems = relatedArticles
       })),
     })} />
   )}
+
+  <!-- GA4 スクロール深度トラッキング -->
+  <script is:inline>
+    (function() {
+      const depths = [25, 50, 75, 100];
+      const fired = new Set();
+      function checkDepth() {
+        const docH = document.documentElement.scrollHeight - window.innerHeight;
+        if (docH <= 0) return;
+        const pct = Math.round((window.scrollY / docH) * 100);
+        depths.forEach(function(d) {
+          if (pct >= d && !fired.has(d)) {
+            fired.add(d);
+            gtag('event', 'scroll_depth', { depth: d });
+          }
+        });
+      }
+      window.addEventListener('scroll', checkDepth, { passive: true });
+    })();
+  </script>
 </LightLayout>

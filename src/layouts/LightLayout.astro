@@ -103,9 +103,12 @@ const SL = (k: keyof typeof sidebarLabels) => (sidebarLabels[k] as any)[lang] ??
     <div class="header-light__inner">
       <a class="logo" href={`/${lang}/`}>{cityName} {siteName}</a>
       <nav class="lang-nav" aria-label="言語切替">
-        <a href={getLangUrl('ja')} class={lang === 'ja' ? 'active' : ''}>JP</a>
-        <a href={getLangUrl('en')} class={lang === 'en' ? 'active' : ''}>EN</a>
-        <a href={getLangUrl('pt')} class={lang === 'pt' ? 'active' : ''}>PT</a>
+        <a href={getLangUrl('ja')} class={lang === 'ja' ? 'active' : ''}
+           onclick={lang !== 'ja' ? `gtag('event','language_change',{from_lang:'${lang}',to_lang:'ja'});` : undefined}>JP</a>
+        <a href={getLangUrl('en')} class={lang === 'en' ? 'active' : ''}
+           onclick={lang !== 'en' ? `gtag('event','language_change',{from_lang:'${lang}',to_lang:'en'});` : undefined}>EN</a>
+        <a href={getLangUrl('pt')} class={lang === 'pt' ? 'active' : ''}
+           onclick={lang !== 'pt' ? `gtag('event','language_change',{from_lang:'${lang}',to_lang:'pt'});` : undefined}>PT</a>
       </nav>
     </div>
   </header>
@@ -234,5 +237,17 @@ const SL = (k: keyof typeof sidebarLabels) => (sidebarLabels[k] as any)[lang] ??
       </div>
     </div>
   </nav>
+
+  <!-- GA4 サイドバークリックトラッキング -->
+  <script is:inline>
+    document.querySelector('.sidebar')?.addEventListener('click', function(e) {
+      const link = e.target.closest('a');
+      if (!link) return;
+      gtag('event', 'sidebar_nav_click', {
+        nav_label: link.innerText.trim(),
+        nav_href: link.getAttribute('href')
+      });
+    });
+  </script>
 </body>
 </html>
