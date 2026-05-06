@@ -1,0 +1,129 @@
+---
+/**
+ * about.astro — サイト概要・運営者情報ページ（3言語対応）
+ * E-E-A-T 向上のための信頼性ページ
+ */
+import '../../styles/global.css';
+import '../../styles/dark.css';
+import '../../styles/components.css';
+import LightLayout from '../../layouts/LightLayout.astro';
+
+export function getStaticPaths() {
+  return [
+    { params: { lang: 'ja' } },
+    { params: { lang: 'en' } },
+    { params: { lang: 'pt' } }
+  ];
+}
+
+const lang = Astro.params.lang as 'ja' | 'en' | 'pt';
+
+const content = {
+  ja: {
+    title: '運営者情報・サイトについて',
+    description: 'Kurashi Guide の運営者情報とサイト概要です。',
+    body: `
+<h1>運営者情報・サイトについて</h1>
+
+<h2>サイトについて</h2>
+<p><strong>Kurashi Guide（くらしガイド）</strong>は、行政の手続き情報をAIがわかりやすく要約し、
+日本語・英語・ポルトガル語の3言語で提供するサービスです。</p>
+<p>特に群馬県太田市に在住の外国人市民（主に日系ブラジル人コミュニティ）が、
+生活に必要な行政サービスへアクセスしやすくすることを目的としています。</p>
+
+<h2>コンテンツの性質</h2>
+<ul>
+  <li>本サイトのコンテンツはAI（人工知能）が太田市公式サイトの情報をもとに要約・翻訳したものです</li>
+  <li>正確性・最新性を保証するものではありません</li>
+  <li>実際の手続きの前には必ず<a href="https://www.city.ota.gunma.jp" target="_blank" rel="noopener">太田市公式サイト</a>をご確認ください</li>
+</ul>
+
+<h2>運営者</h2>
+<p>Kurashi Guide プロジェクト</p>
+
+<h2>お問い合わせ</h2>
+<p>サイトに関するご意見・ご指摘は以下までお寄せください：</p>
+<p><a href="mailto:milmakojack@gmail.com">milmakojack@gmail.com</a></p>
+
+<h2>関連リンク</h2>
+<ul>
+  <li><a href="/ja/">トップページ</a></li>
+  <li><a href="/ja/privacy/">プライバシーポリシー</a></li>
+</ul>
+    `,
+  },
+  en: {
+    title: 'About Kurashi Guide',
+    description: 'About Kurashi Guide - operator information and site overview.',
+    body: `
+<h1>About Kurashi Guide</h1>
+
+<h2>About This Site</h2>
+<p><strong>Kurashi Guide</strong> is a service that uses AI to summarize administrative procedure information
+in an easy-to-understand format, provided in Japanese, English, and Portuguese.</p>
+<p>It is designed to help foreign residents in Ota City, Gunma Prefecture
+(primarily the Japanese-Brazilian community) access government services they need in daily life.</p>
+
+<h2>Nature of Content</h2>
+<ul>
+  <li>Content on this site is AI-generated summaries and translations based on Ota City's official website</li>
+  <li>We do not guarantee accuracy or timeliness</li>
+  <li>Always check the <a href="https://www.city.ota.gunma.jp" target="_blank" rel="noopener">official Ota City website</a> before any procedures</li>
+</ul>
+
+<h2>Operator</h2>
+<p>Kurashi Guide Project</p>
+
+<h2>Contact</h2>
+<p>For feedback or corrections about this site:</p>
+<p><a href="mailto:milmakojack@gmail.com">milmakojack@gmail.com</a></p>
+
+<h2>Related Links</h2>
+<ul>
+  <li><a href="/en/">Home</a></li>
+  <li><a href="/en/privacy/">Privacy Policy</a></li>
+</ul>
+    `,
+  },
+  pt: {
+    title: 'Sobre o Kurashi Guide',
+    description: 'Informações do operador e visão geral do Kurashi Guide.',
+    body: `
+<h1>Sobre o Kurashi Guide</h1>
+
+<h2>Sobre Este Site</h2>
+<p><strong>Kurashi Guide</strong> é um serviço que usa IA para resumir informações sobre procedimentos administrativos
+de forma fácil de entender, disponível em japonês, inglês e português.</p>
+<p>Foi criado para ajudar residentes estrangeiros na cidade de Ota, Gunma
+(principalmente a comunidade nipo-brasileira) a acessar os serviços governamentais de que precisam no dia a dia.</p>
+
+<h2>Natureza do Conteúdo</h2>
+<ul>
+  <li>O conteúdo deste site é gerado por IA com base no site oficial da cidade de Ota</li>
+  <li>Não garantimos precisão ou atualidade</li>
+  <li>Sempre verifique o <a href="https://www.city.ota.gunma.jp" target="_blank" rel="noopener">site oficial da cidade de Ota</a> antes de qualquer procedimento</li>
+</ul>
+
+<h2>Operador</h2>
+<p>Projeto Kurashi Guide</p>
+
+<h2>Contato</h2>
+<p>Para comentários ou correções sobre este site:</p>
+<p><a href="mailto:milmakojack@gmail.com">milmakojack@gmail.com</a></p>
+
+<h2>Links Relacionados</h2>
+<ul>
+  <li><a href="/pt/">Início</a></li>
+  <li><a href="/pt/privacy/">Política de Privacidade</a></li>
+</ul>
+    `,
+  },
+};
+
+const c = content[lang] ?? content.ja;
+---
+<LightLayout title={c.title} description={c.description} lang={lang} municipality="ota-city">
+  <article style="max-width:720px;margin:0 auto;padding:1.5rem 0;line-height:1.8;">
+    <div set:html={c.body} />
+  </article>
+</LightLayout>

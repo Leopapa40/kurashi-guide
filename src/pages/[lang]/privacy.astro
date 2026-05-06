@@ -1,0 +1,107 @@
+---
+/**
+ * privacy.astro — プライバシーポリシーページ（3言語対応）
+ */
+import '../../styles/global.css';
+import '../../styles/dark.css';
+import '../../styles/components.css';
+import LightLayout from '../../layouts/LightLayout.astro';
+
+export function getStaticPaths() {
+  return [
+    { params: { lang: 'ja' } },
+    { params: { lang: 'en' } },
+    { params: { lang: 'pt' } }
+  ];
+}
+
+const lang = Astro.params.lang as 'ja' | 'en' | 'pt';
+
+const content = {
+  ja: {
+    title: 'プライバシーポリシー',
+    description: 'Kurashi Guide のプライバシーポリシーです。',
+    body: `
+<h1>プライバシーポリシー</h1>
+<p>Kurashi Guide（以下「当サイト」）は、ユーザーのプライバシーを尊重し、個人情報の保護に努めます。</p>
+
+<h2>1. アクセス解析について</h2>
+<p>当サイトでは、サービス改善のためGoogle アナリティクス 4（GA4）を使用しています。
+GA4 はCookieを使用してアクセス情報を収集しますが、個人を特定する情報は収集しません。
+詳しくは <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google のプライバシーポリシー</a>をご覧ください。</p>
+
+<h2>2. コンテンツについて</h2>
+<p>当サイトのコンテンツはAIが太田市の公式情報をもとに要約したものです。
+情報の正確性・最新性を保証するものではありません。
+実際の手続きの前には必ず<a href="https://www.city.ota.gunma.jp" target="_blank" rel="noopener">太田市公式サイト</a>でご確認ください。</p>
+
+<h2>3. 免責事項</h2>
+<p>当サイトの情報を利用した結果生じた損害について、当サイトは一切の責任を負いません。</p>
+
+<h2>4. お問い合わせ</h2>
+<p>プライバシーポリシーに関するご質問は、<a href="/ja/about/">運営者情報ページ</a>のメールアドレスまでお問い合わせください。</p>
+
+<p style="color:#64748b;font-size:.875rem;margin-top:2rem;">最終更新: 2026年5月</p>
+    `,
+  },
+  en: {
+    title: 'Privacy Policy',
+    description: 'Privacy Policy for Kurashi Guide.',
+    body: `
+<h1>Privacy Policy</h1>
+<p>Kurashi Guide ("this site") respects user privacy and is committed to protecting personal information.</p>
+
+<h2>1. Analytics</h2>
+<p>This site uses Google Analytics 4 (GA4) to improve our services.
+GA4 uses cookies to collect access information, but does not collect personally identifiable information.
+Please see <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a> for details.</p>
+
+<h2>2. Content</h2>
+<p>Content on this site is AI-generated summaries based on official Ota City information.
+We do not guarantee the accuracy or timeliness of the information.
+Please always check the <a href="https://www.city.ota.gunma.jp" target="_blank" rel="noopener">official Ota City website</a> before proceeding with any procedures.</p>
+
+<h2>3. Disclaimer</h2>
+<p>This site takes no responsibility for any damages resulting from the use of information on this site.</p>
+
+<h2>4. Contact</h2>
+<p>For questions about this privacy policy, please contact us via the email address on the <a href="/en/about/">About page</a>.</p>
+
+<p style="color:#64748b;font-size:.875rem;margin-top:2rem;">Last updated: May 2026</p>
+    `,
+  },
+  pt: {
+    title: 'Política de Privacidade',
+    description: 'Política de Privacidade do Kurashi Guide.',
+    body: `
+<h1>Política de Privacidade</h1>
+<p>O Kurashi Guide ("este site") respeita a privacidade dos usuários e está comprometido com a proteção de informações pessoais.</p>
+
+<h2>1. Análise de Acesso</h2>
+<p>Este site usa o Google Analytics 4 (GA4) para melhorar nossos serviços.
+O GA4 usa cookies para coletar informações de acesso, mas não coleta informações de identificação pessoal.
+Consulte a <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de Privacidade do Google</a> para detalhes.</p>
+
+<h2>2. Conteúdo</h2>
+<p>O conteúdo deste site é gerado por IA com base em informações oficiais da cidade de Ota.
+Não garantimos a precisão ou atualidade das informações.
+Sempre verifique o <a href="https://www.city.ota.gunma.jp" target="_blank" rel="noopener">site oficial da cidade de Ota</a> antes de qualquer procedimento.</p>
+
+<h2>3. Isenção de Responsabilidade</h2>
+<p>Este site não se responsabiliza por quaisquer danos resultantes do uso das informações deste site.</p>
+
+<h2>4. Contato</h2>
+<p>Para dúvidas sobre esta política de privacidade, entre em contato pelo e-mail na <a href="/pt/about/">página Sobre nós</a>.</p>
+
+<p style="color:#64748b;font-size:.875rem;margin-top:2rem;">Última atualização: Maio de 2026</p>
+    `,
+  },
+};
+
+const c = content[lang] ?? content.ja;
+---
+<LightLayout title={c.title} description={c.description} lang={lang} municipality="ota-city">
+  <article style="max-width:720px;margin:0 auto;padding:1.5rem 0;line-height:1.8;">
+    <div set:html={c.body} />
+  </article>
+</LightLayout>

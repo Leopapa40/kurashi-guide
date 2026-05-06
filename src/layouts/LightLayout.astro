@@ -200,6 +200,14 @@ const SL = (k: keyof typeof sidebarLabels) => (sidebarLabels[k] as any)[lang] ??
     <div style="max-width:960px;margin:0 auto;padding:0 1.25rem">
       <p>{cityName} {siteName} — AIが公式情報をわかりやすく要約しています</p>
       <p style="margin-top:.375rem">手続き前には必ず<a href="https://www.city.ota.gunma.jp" target="_blank" rel="noopener">公式サイト</a>でご確認ください</p>
+      <p style="margin-top:.5rem;font-size:.8rem;">
+        <a href={`/${lang}/about/`} style="color:var(--text-muted);text-decoration:none;margin-right:1rem;">
+          {lang === 'ja' ? '運営者情報' : lang === 'en' ? 'About' : 'Sobre'}
+        </a>
+        <a href={`/${lang}/privacy/`} style="color:var(--text-muted);text-decoration:none;">
+          {lang === 'ja' ? 'プライバシーポリシー' : lang === 'en' ? 'Privacy Policy' : 'Política de Privacidade'}
+        </a>
+      </p>
     </div>
   </footer>
 
