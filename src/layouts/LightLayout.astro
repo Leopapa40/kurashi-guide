@@ -86,6 +86,10 @@ const SL = (k: keyof typeof sidebarLabels) => (sidebarLabels[k] as any)[lang] ??
   <meta name="twitter:title" content={`${title} | ${cityName} ${siteName}`} />
   <meta name="twitter:description" content={description} />
 
+  <!-- GA4 preconnect -->
+  <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin />
+  <link rel="preconnect" href="https://www.google-analytics.com" crossorigin />
+
   {/* Google Analytics 4 */}
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-CHKD35FE22"></script>
   <script is:inline>
