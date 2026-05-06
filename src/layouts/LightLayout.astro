@@ -85,6 +85,15 @@ const SL = (k: keyof typeof sidebarLabels) => (sidebarLabels[k] as any)[lang] ??
   <meta name="twitter:image" content="https://kurashiguide.org/og-default.png" />
   <meta name="twitter:title" content={`${title} | ${cityName} ${siteName}`} />
   <meta name="twitter:description" content={description} />
+
+  {/* Google Analytics 4 */}
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CHKD35FE22"></script>
+  <script is:inline>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-CHKD35FE22');
+  </script>
 </head>
 <body>
   <div class="aurora-light" aria-hidden="true"></div>
