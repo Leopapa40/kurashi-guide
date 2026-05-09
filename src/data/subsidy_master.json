@@ -8497,24 +8497,20 @@
         ],
         "term_explanations": [
           {
-            "term": "転校（てんこう）",
-            "explanation": "引っ越しなどにより、通っていた学校から別の学校に移ることです。転居先の市区町村で手続きが必要です。"
+            "term": "転校",
+            "explanation": "引っ越しなどにより、通っていた学校から別の学校に移ることです。転居先の市区町村などで手続きが必要です。"
           },
           {
-            "term": "就学通知書（しゅうがくつうちしょ）",
-            "explanation": "どの小学校・中学校に通うかを知らせる市からの通知書です。転入（引っ越してきた）時には、転入先の市から新たな就学通知書が発行されます。"
+            "term": "入学通知書",
+            "explanation": "どの学校に通うかを知らせる市からの通知書です。転入・転居の手続き後、市から交付されます。"
           },
           {
-            "term": "学区（がっく）",
-            "explanation": "どの学校に通うかが住所によって決まるエリアのことです。引っ越し先の住所によって通う学校が変わります。"
+            "term": "在学証明書",
+            "explanation": "現在どの学校に在籍しているか（または在籍していたか）を証明する書類です。転校手続きの際に、現在（前）の学校から発行してもらいます。"
           },
           {
-            "term": "在学証明書（ざいがくしょうめいしょ）",
-            "explanation": "現在どの学校に在籍しているかを証明する書類です。転校手続きの際に、転校前の学校から発行してもらいます。"
-          },
-          {
-            "term": "教科書（きょうかしょ）",
-            "explanation": "学校の授業で使う公式の教材です。転校先の学校で指定されたものを受け取ります。"
+            "term": "教科書給与証明書",
+            "explanation": "転校時に教科書を新しく給与されるための証明書です。在学証明書と一緒に学校から発行されます。"
           }
         ],
         "five_w1h": {
@@ -8578,7 +8574,24 @@
         "target_audience": [
           "Parents of children who need to transfer schools due to moving"
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "Transfer (Tenkou)",
+            "explanation": "Moving from one school to another due to moving. Procedures are required at the new municipality."
+          },
+          {
+            "term": "Notice of Admission",
+            "explanation": "A notice from the city indicating which school to attend. Issued after moving procedures."
+          },
+          {
+            "term": "Certificate of Enrollment",
+            "explanation": "A document proving which school you are currently (or were previously) enrolled in. Issued by your current/former school."
+          },
+          {
+            "term": "Textbook Provision Certificate",
+            "explanation": "A certificate to receive new textbooks when transferring. Issued along with the Certificate of Enrollment."
+          }
+        ],
         "five_w1h": {
           "who": "Parents of elementary/junior high students moving in, out, or within Ota City",
           "what": "Procedures required for transferring schools (obtaining Certificate of Student Status, receiving Notice of School Enrollment)",
@@ -8638,7 +8651,24 @@
         "target_audience": [
           "Pais de crianças que precisam ser transferidas de escola devido a mudança"
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "Transferência",
+            "explanation": "Mudar de uma escola para outra devido a mudança de endereço. Procedimentos são necessários no novo município."
+          },
+          {
+            "term": "Aviso de Admissão",
+            "explanation": "Um aviso da prefeitura indicando qual escola frequentar. Emitido após os procedimentos de mudança."
+          },
+          {
+            "term": "Certificado de Matrícula",
+            "explanation": "Um documento que comprova em qual escola você está (ou estava) matriculado. Emitido pela sua escola atual/anterior."
+          },
+          {
+            "term": "Certificado de Fornecimento de Livros Didáticos",
+            "explanation": "Um certificado para receber novos livros didáticos ao transferir. Emitido junto com o Certificado de Matrícula."
+          }
+        ],
         "five_w1h": {
           "who": "Pais de alunos do ensino fundamental/médio que estão se mudando",
           "what": "Procedimentos necessários para transferência de escola (obtenção do Certificado de Matrícula, recebimento do Aviso de Matrícula Escolar)",
@@ -8708,26 +8738,18 @@
       "ja": {
         "title": "子育て支援センター",
         "easy_explanation": "## 子育て支援センターとは\n親子で一緒に楽しいひとときを過ごしたり、子育てについて困っていることなどを気軽にお話しするふれあいの場です。親同士、子ども同士のコミュニケーションの場として利用できます。\n\n## ご利用にあたって\n利用には登録が必要です。希望する支援センターにご連絡の上、ご利用ください。太田市内に複数の施設があります。\n利用料は基本無料ですが、実費をいただくことがあります。",
-        "bottom_line": "就学前の子どもと保護者が無料で遊べる施設です。子育ての相談や親同士の交流もできます。",
-        "amount_info": "利用無料",
+        "bottom_line": "就学前の子どもと保護者が遊んだり交流できる施設です。利用は基本無料ですが、実費がかかる場合があります。",
+        "amount_info": "基本無料（一部実費がかかる場合あり）",
         "target_audience": [
           "就学前の子どもとその保護者"
         ],
         "term_explanations": [
           {
-            "term": "子育て支援センター（こそだてしえんせんたー）",
-            "explanation": "未就学児と保護者が自由に集まって遊んだり、子育ての相談ができる施設です。太田市内に複数か所あります。"
+            "term": "子育て支援センター",
+            "explanation": "親子で自由に集まって遊んだり、子育ての相談ができる施設です。太田市内に複数か所あります。"
           },
           {
-            "term": "一時預かり（いちじあずかり）",
-            "explanation": "保育園等に入っていない子どもを、必要なときだけ短時間預かるサービスです。急用や親の休息のために利用できます。"
-          },
-          {
-            "term": "こども家庭センター（こどもかていせんたー）",
-            "explanation": "妊娠期から子育て期まで切れ目なく支援支援を行う総合窓口です。子育ての相談や福祉サービスへのつなぎを行います。"
-          },
-          {
-            "term": "未就学児（みしゅうがくじ）",
+            "term": "就学前の子ども",
             "explanation": "小学校に入学していない子ども（0〜5歳の子ども）のことです。"
           }
         ],
@@ -8779,12 +8801,21 @@
       "en": {
         "title": "Childcare Support Center",
         "easy_explanation": "## Child Support Center\nIt is a place where parents and children can spend a fun time together and casually talk about parenting concerns. It serves as a communication space for parents and children.\n\n## Usage\nRegistration is required to use the center. Please contact your desired support center before using. There are multiple facilities in Ota City.\nUsage is basically free, but there may be actual expenses charged.",
-        "bottom_line": "This is a free facility where preschool children and their parents can play. You can also consult about childcare and interact with other parents.",
-        "amount_info": "Free to use",
+        "bottom_line": "A facility where preschool children and their parents can play and interact. Usage is basically free, but actual expenses may apply.",
+        "amount_info": "Basically free (actual expenses may apply)",
         "target_audience": [
           "Preschool children and their parents"
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "Child Support Center",
+            "explanation": "A facility where parents and children can freely gather to play and consult about child-rearing. There are multiple locations in Ota City."
+          },
+          {
+            "term": "Preschool Children",
+            "explanation": "Children who have not yet entered elementary school (children aged 0 to 5)."
+          }
+        ],
         "five_w1h": {
           "who": "Parents and children",
           "what": "Use of Childcare Support Centers (providing childcare consultation, a place for parent-child play, and local interaction)",
@@ -8831,12 +8862,21 @@
       "pt": {
         "title": "Centro de Apoio à Criança",
         "easy_explanation": "## Centro de Apoio à Criança\nÉ um local onde pais e filhos podem passar momentos divertidos juntos e conversar casualmente sobre as preocupações com a criação dos filhos.\n\n## Uso\nO registro é necessário para usar o centro. Entre em contato com o centro de apoio desejado antes de usar. Existem várias instalações em Ota.\nO uso é basicamente gratuito, mas podem ser cobradas despesas reais.",
-        "bottom_line": "Este é um local gratuito onde crianças em idade pré-escolar e seus pais podem brincar. Você também pode obter conselhos sobre como criar os filhos e interagir com outros pais.",
-        "amount_info": "Uso gratuito",
+        "bottom_line": "Uma instalação onde crianças em idade pré-escolar e seus pais podem brincar e interagir. O uso é basicamente gratuito, mas podem haver despesas.",
+        "amount_info": "Basicamente gratuito (podem haver despesas reais)",
         "target_audience": [
           "Crianças em idade pré-escolar e seus pais"
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "Centro de Apoio à Criança",
+            "explanation": "Uma instalação onde pais e filhos podem se reunir livremente para brincar e obter aconselhamento. Existem vários locais em Ota."
+          },
+          {
+            "term": "Crianças em Idade Pré-Escolar",
+            "explanation": "Crianças que ainda não ingressaram no ensino fundamental (0 a 5 anos)."
+          }
+        ],
         "five_w1h": {
           "who": "Pais e filhos",
           "what": "Uso de Centros de Apoio à Criança (fornecendo consultas sobre cuidados infantis, um local para brincadeiras entre pais e filhos e interação local)",
