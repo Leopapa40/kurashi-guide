@@ -8135,7 +8135,7 @@
     "locales": {
       "ja": {
         "title": "幼稚園の入園手続き",
-        "easy_explanation": "## 幼稚園とは\n満3歳から小学校入学前までの子どもを対象とした教育施設です。\n保育園とは異なり、保護者の就労状況に関わらず入園できます。\n\n## 申し込み方法\n市立幼稚園と私立幼稚園で手続きが異なります。\n- 市立幼稚園: 市役所または各幼稚園で受付を行います。\n- 私立幼稚園: 各幼稚園に直接お問い合わせ・お申し込みください。\n\n## 幼児教育・保育の無償化\n満3歳児から5歳児クラスの全ての子どもの利用料が無料になります（一部、対象外の費用もあります）。",
+        "easy_explanation": "## 幼稚園・認定こども園とは\n幼稚園は満3歳から6歳までの幼児のための教育機関です。認定こども園は、保護者の就労に関わらず受け入れる幼稚園の機能と、保育園の機能を併せ持つ施設です。\n\n## 申し込み方法\n幼稚園および認定こども園（幼稚園部分）への入園手続きは、市役所ではなく各施設で直接行います。申し込み時期や必要書類は施設ごとに異なるため、詳細は希望する施設へお問い合わせください。",
         "bottom_line": "満3歳から入園できる教育施設です。無償化の対象となり、利用料が無料になります。",
         "amount_info": "満3歳〜5歳の利用料は無償",
         "target_audience": [
@@ -8166,55 +8166,33 @@
         "five_w1h": {
           "who": "3〜5歳の幼児を持つ保護者",
           "what": "幼稚園・認定こども園（教育部分）への入園手続き",
-          "when": "翌年度入園の場合は10〜11月頃に各園で募集（施設によって異なる）",
-          "where": "希望する幼稚園・認定こども園へ直接申し込む",
+          "when": "各施設によって異なるため直接お問い合わせください",
+          "where": "希望する幼稚園・認定こども園の各施設",
           "why": "就学前の幼児教育を受けさせるため",
-          "how": "希望の園に直接問い合わせ・申し込みをする。無償化制度の認定は市役所こども課へ"
+          "how": "入園手続きは各施設で直接行ってください"
         },
         "checklist": [
           {
-            "item": "入園願書（幼稚園所定様式）",
-            "note": "各幼稚園から直接入手（公立・私立で手続き先が異なる）",
+            "item": "各施設が指定する入園願書等の書類",
+            "note": "手続きや必要書類は施設ごとに異なるため、各施設に直接お問い合わせください",
             "required": true
-          },
-          {
-            "item": "子どもの健康保険証（写し）",
-            "note": "加入状況の確認に使用",
-            "required": true
-          },
-          {
-            "item": "保護者の本人確認書類",
-            "note": "運転免許証・マイナンバーカード等",
-            "required": true
-          },
-          {
-            "item": "マイナンバー確認書類（保護者・児童）",
-            "note": "幼児教育・保育無償化の手続きに必要",
-            "required": true
-          },
-          {
-            "item": "保護者の課税証明書または所得証明書",
-            "note": "世帯の所得に基づき保育料が決まる（公立の場合）",
-            "required": false
           }
         ],
-        "form_guide": null,
+        "form_guide": {
+          "form_name": "各施設指定の申込書類",
+          "fields": [],
+          "tips": [
+            "申し込み方法、申し込み時期、必要書類などは施設ごとに異なるため、直接施設にお問い合わせください。"
+          ]
+        },
         "faq": [
           {
-            "question": "幼稚園と保育園・認定こども園の違いは何ですか？",
-            "answer": "幼稚園は主に教育を目的とし、保育時間は通常4〜5時間です。保育園は就労等で保育が必要な家庭向けで、長時間保育が可能です。認定こども園は両方の機能を持ちます。"
+            "question": "入園手続きは市役所の窓口で行えますか？",
+            "answer": "幼稚園および認定こども園（幼稚園部分）の入園手続きは、市役所ではなく各施設で直接行ってください。"
           },
           {
-            "question": "幼稚園の費用はかかりますか？",
-            "answer": "3〜5歳の幼稚園利用は幼児教育・保育の無償化の対象のため、月額2.57万円まで無償です。私立幼稚園でこの上限を超える場合は差額が自己負担になります。"
-          },
-          {
-            "question": "申し込みはいつすればよいですか？",
-            "answer": "翌年4月入園の場合、一般的に前年の10〜11月頃に募集が行われます。人気の幼稚園は定員に達することがあるため、早めに情報収集してください。"
-          },
-          {
-            "question": "途中で保育園に転園することはできますか？",
-            "answer": "状況の変化（就労開始等）により保育の必要性が生じた場合は、市役所に相談の上で保育園または認定こども園への転園手続きが可能です。"
+            "question": "太田市内にどのような施設があるか知るにはどうすればよいですか？",
+            "answer": "太田市ホームページの「施設一覧」や、子ども・子育て支援情報公表システム「ここdeサーチ」等で確認できます。"
           }
         ],
         "estimated_time": "各幼稚園または市役所での手続き：約30分",
@@ -8225,7 +8203,7 @@
       },
       "en": {
         "title": "Kindergarten Enrollment Procedures",
-        "easy_explanation": "## What is a Kindergarten?\nIt is an educational facility for children from 3 years of age until they enter elementary school.\nUnlike nursery schools, children can enter regardless of their parents' employment status.\n\n## Application Method\nThe procedures differ between public and private kindergartens.\n- Public Kinderartens: Applications are accepted at the City Hall or at each kindergarten.\n- Private Kindergartens: Please inquire and apply directly to each kindergarten.\n\n## Free Early Childhood Education and Care\nUsage fees are free for all children in the 3 to 5-year-old classes (some expenses are excluded).",
+        "easy_explanation": "## Kindergartens and Certified Children's Centers\nKindergartens are educational institutions for children aged 3 to 6. Certified Children's Centers combine the functions of both kindergartens and nursery schools.\n\n## How to Apply\nEnrollment procedures for kindergartens and the kindergarten section of Certified Children's Centers are handled directly at each facility, not at City Hall. Application periods and required documents vary by facility, so please contact them directly for details.",
         "bottom_line": "It is an educational facility for children from 3 years old. It is eligible for the free education system, and usage fees are free.",
         "amount_info": "Usage fees for 3 to 5-year-olds are free",
         "target_audience": [
@@ -8235,55 +8213,33 @@
         "five_w1h": {
           "who": "Parents of preschool children aged 3-5",
           "what": "Procedures for enrollment in kindergarten or certified child center (education part)",
-          "when": "For enrollment the following year, recruitment is around October-November at each facility (varies by facility)",
-          "where": "Apply directly to the desired kindergarten or certified child center",
+          "when": "Varies by facility. Please inquire directly.",
+          "where": "Each desired kindergarten or certified children's center",
           "why": "To provide preschool education",
-          "how": "Inquire and apply directly to the desired facility. Apply for free education certification at the City Hall Children's Division"
+          "how": "Please complete the enrollment procedures directly at the facility."
         },
         "checklist": [
           {
-            "item": "Application form (kindergarten designated format) (入園願書)",
-            "note": "Obtain directly from each kindergarten (procedures differ between public and private)",
+            "item": "Application forms designated by each facility",
+            "note": "Procedures and required documents vary by facility. Please contact them directly.",
             "required": true
-          },
-          {
-            "item": "Child's Health Insurance Card copy (子どもの健康保険証)",
-            "note": "Used to confirm enrollment status",
-            "required": true
-          },
-          {
-            "item": "Identification document of the parent/guardian (保護者の本人確認書類)",
-            "note": "Driver's license, My Number Card, etc.",
-            "required": true
-          },
-          {
-            "item": "My Number confirmation documents for parent and child (マイナンバー確認書類)",
-            "note": "Required for free early childhood education and care procedures",
-            "required": true
-          },
-          {
-            "item": "Tax Certificate or Income Certificate of the parent/guardian (保護者の課税証明書または所得証明書)",
-            "note": "Childcare fees are determined based on household income (for public facilities)",
-            "required": false
           }
         ],
-        "form_guide": null,
+        "form_guide": {
+          "form_name": "Application Forms Designated by Facility",
+          "fields": [],
+          "tips": [
+            "Application methods, periods, and required documents vary by facility, so please contact the facility directly."
+          ]
+        },
         "faq": [
           {
-            "question": "What is the difference between a kindergarten, a nursery school, and a certified child center?",
-            "answer": "A kindergarten is primarily for education, and childcare hours are usually 4-5 hours. A nursery school is for families who need childcare due to work, etc., and long-hour childcare is available. A certified child center has the functions of both."
+            "question": "Can I apply for enrollment at the City Hall counter?",
+            "answer": "No. Enrollment procedures for kindergartens and the kindergarten section of Certified Children's Centers must be done directly at each facility, not at City Hall."
           },
           {
-            "question": "Does kindergarten cost money?",
-            "answer": "Kindergarten use for 3-5 year olds is eligible for free early childhood education and care, so it is free up to ¥25,700 per month. If this limit is exceeded at a private kindergarten, you must pay the difference yourself."
-          },
-          {
-            "question": "When should I apply?",
-            "answer": "For April enrollment the following year, recruitment generally takes place around October-November of the previous year. Popular kindergartens may reach capacity, so please gather information early."
-          },
-          {
-            "question": "Can I transfer to a nursery school in the middle of the year?",
-            "answer": "If the need for childcare arises due to a change in circumstances (such as starting work), it is possible to transfer to a nursery school or a certified child center after consulting with the City Hall."
+            "question": "How can I find out what facilities are available in Ota City?",
+            "answer": "You can check the list of facilities on the Ota City website or the 'Koko de Search' information system."
           }
         ],
         "estimated_time": "Procedures at each kindergarten or City Hall: about 30 minutes",
@@ -8294,7 +8250,7 @@
       },
       "pt": {
         "title": "Procedimentos de Inscrição no Jardim de Infância",
-        "easy_explanation": "## O que é um Jardim de Infância?\nÉ uma instalação educacional para crianças a partir dos 3 anos de idade até entrarem na escola primária.\nAo contrário das creches, as crianças podem entrar independentemente da situação de emprego de seus pais.\n\n## Método de Inscrição\nOs procedimentos diferem entre os jardins de infância públicos e privados.\n- Jardins de Infância Públicos: As inscrições são aceitas na Prefeitura ou em cada jardim de infância.\n- Jardins de Infância Privados: Por favor, pergunte e inscreva-se diretamente em cada jardim de infância.\n\n## Educação Infantil e Cuidados Gratuitos\nAs taxas de uso são gratuitas para todas as crianças nas turmas de 3 a 5 anos (algumas despesas são excluídas).",
+        "easy_explanation": "## Jardins de Infância e Centros Infantis Certificados\nOs jardins de infância são instituições educacionais para crianças de 3 a 6 anos. Os Centros Infantis Certificados combinam as funções de jardins de infância e creches.\n\n## Como se Inscrever\nOs procedimentos de matrícula para jardins de infância e a seção de jardim de infância dos Centros Infantis Certificados são realizados diretamente em cada instalação, não na Prefeitura. Os prazos de inscrição e os documentos necessários variam de acordo com a instalação, portanto, entre em contato diretamente para obter detalhes.",
         "bottom_line": "É uma instalação educacional para crianças a partir dos 3 anos de idade. É elegível para o sistema de educação gratuita e as taxas de uso são gratuitas.",
         "amount_info": "As taxas de uso para crianças de 3 a 5 anos são gratuitas",
         "target_audience": [
@@ -8304,55 +8260,33 @@
         "five_w1h": {
           "who": "Pais de crianças em idade pré-escolar de 3 a 5 anos",
           "what": "Procedimentos para matrícula em jardim de infância ou centro infantil certificado (parte educacional)",
-          "when": "Para matrícula no ano seguinte, o recrutamento é por volta de outubro a novembro em cada instalação (varia por instalação)",
-          "where": "Inscreva-se diretamente no jardim de infância ou centro infantil certificado desejado",
+          "when": "Varia de acordo com a instalação. Por favor, pergunte diretamente.",
+          "where": "Cada jardim de infância ou centro infantil desejado",
           "why": "Para fornecer educação pré-escolar",
-          "how": "Pergunte e inscreva-se diretamente na instalação desejada. Inscreva-se para a certificação de educação gratuita na Divisão de Crianças da Prefeitura"
+          "how": "Conclua os procedimentos de matrícula diretamente na instalação."
         },
         "checklist": [
           {
-            "item": "Formulário de inscrição (formato designado do jardim de infância) (入園願書)",
-            "note": "Obtenha diretamente de cada jardim de infância (os procedimentos diferem entre públicos e privados)",
+            "item": "Formulários de inscrição designados por cada instalação",
+            "note": "Os procedimentos e documentos necessários variam de acordo com a instalação. Entre em contato diretamente.",
             "required": true
-          },
-          {
-            "item": "Cópia do Cartão de Seguro de Saúde da criança (子どもの健康保険証)",
-            "note": "Usado para confirmar o status de inscrição",
-            "required": true
-          },
-          {
-            "item": "Documento de identificação do pai/responsável (保護者の本人確認書類)",
-            "note": "Carteira de motorista, Cartão My Number, etc.",
-            "required": true
-          },
-          {
-            "item": "Documentos de confirmação do My Number para pais e filhos (マイナンバー確認書類)",
-            "note": "Necessário para procedimentos de educação infantil gratuita",
-            "required": true
-          },
-          {
-            "item": "Certificado de Imposto ou Certificado de Renda do pai/responsável (保護者の課税証明書または所得証明書)",
-            "note": "As taxas de creche são determinadas com base na renda familiar (para instalações públicas)",
-            "required": false
           }
         ],
-        "form_guide": null,
+        "form_guide": {
+          "form_name": "Formulários de Inscrição Designados pela Instalação",
+          "fields": [],
+          "tips": [
+            "Métodos de inscrição, prazos e documentos necessários variam, portanto, entre em contato diretamente com a instalação."
+          ]
+        },
         "faq": [
           {
-            "question": "Qual é a diferença entre um jardim de infância, uma creche e um centro infantil certificado?",
-            "answer": "Um jardim de infância é principalmente para educação, e o horário de atendimento é geralmente de 4 a 5 horas. Uma creche é para famílias que precisam de cuidados infantis devido ao trabalho, etc., e o cuidado em período integral está disponível. Um centro infantil certificado tem as funções de ambos."
+            "question": "Posso fazer a matrícula no balcão da Prefeitura?",
+            "answer": "Não. Os procedimentos de matrícula para jardins de infância e a seção de jardim de infância dos Centros Infantis Certificados devem ser feitos diretamente em cada instalação, não na Prefeitura."
           },
           {
-            "question": "O jardim de infância custa dinheiro?",
-            "answer": "O uso do jardim de infância para crianças de 3 a 5 anos é elegível para a educação infantil gratuita, portanto é gratuito até ¥25.700 por mês. Se esse limite for excedido em um jardim de infância particular, você deve pagar a diferença por conta própria."
-          },
-          {
-            "question": "Quando devo me inscrever?",
-            "answer": "Para matrícula em abril do ano seguinte, o recrutamento geralmente ocorre entre outubro e novembro do ano anterior. Jardins de infância populares podem atingir a capacidade máxima, então reúna informações com antecedência."
-          },
-          {
-            "question": "Posso transferir para uma creche no meio do ano?",
-            "answer": "Se a necessidade de cuidados infantis surgir devido a uma mudança nas circunstâncias (como iniciar um trabalho), é possível transferir-se para uma creche ou centro infantil certificado após consultar a Prefeitura."
+            "question": "Como posso saber quais instalações estão disponíveis na cidade de Ota?",
+            "answer": "Você pode verificar a lista de instalações no site da cidade de Ota ou no sistema de informações 'Koko de Search'."
           }
         ],
         "estimated_time": "Procedimentos em cada jardim de infância ou na Prefeitura: cerca de 30 minutos",
