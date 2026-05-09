@@ -17106,7 +17106,7 @@
     "municipality": "ota-city",
     "category": "parenting",
     "status": "active",
-    "original_url": "https://www.city.ota.gunma.jp/site/kosodate/1717.html",
+    "original_url": "https://www.city.ota.gunma.jp/site/kosodate/1028727.html",
     "original_text": "",
     "deadline": null,
     "situations": [
@@ -17114,74 +17114,61 @@
     ],
     "locales": {
       "ja": {
-        "title": "就学援助・奨学金（教育費の支援）",
-        "easy_explanation": "経済的な理由で子供の学用品・給食費・修学旅行費などの支払いが難しい場合、「就学援助制度」を利用できます。また、高校・大学進学のための奨学金も太田市が案内しています。\n\n申請窓口: 太田市役所 教育総務課（0276-47-1111）または在籍校に相談\n\n就学援助は小中学生が対象で、収入が一定基準以下の世帯に、学用品費・給食費・校外活動費などを年間数万円支給します。申請は毎年度必要です。奨学金については市内外の各種制度を紹介しています。「うちの子は対象になるのか？」と思ったら、まず学校または市役所に相談してみてください。",
-        "bottom_line": "お子さんの教育費が心配な方は、太田市教育総務課（0276-47-1111）または在籍校に就学援助・奨学金制度について相談してください。",
-        "amount_info": null,
+        "title": "就学援助制度",
+        "easy_explanation": "経済的な理由でお子さんを小・中・義務教育学校へ就学させることが困難なご家庭に対し、学用品費や修学旅行費などの一部を援助する制度です。新入学学用品費を入学前に支給する制度もあります。\n\n申請窓口: お子さんが在籍している学校、または学校教育課\n\n対象となるのは、太田市在住で公立の小・中・義務教育学校に通う児童生徒がいるご家庭のうち、生活保護世帯に準ずる程度に困窮しているご家庭です。世帯の所得状況等を調査する審査があり、認定された家庭に援助が行われます。毎年申請が必要です。",
+        "bottom_line": "お子さんの学用品費など教育費の支払いが難しい場合は、在籍している学校または太田市役所 学校教育課（0276-47-1111）に就学援助制度について相談してください。",
+        "amount_info": "学用品費や修学旅行費などの一部を援助（具体的な支給額は項目により異なります）",
         "target_audience": [
-          "小学生・中学生の保護者で収入が一定基準以下の方",
-          "高校・大学進学を考えているご家庭",
-          "生活保護を受給している世帯"
+          "経済的理由から就学させることが困難なご家庭",
+          "生活保護世帯に準ずる程度に困窮しているご家庭",
+          "公立の小・中・義務教育学校に通う（または入学予定の）児童生徒がいる太田市在住の方"
         ],
         "term_explanations": [
           {
-            "term": "就学援助（しゅうがくえんじょ）",
-            "explanation": "経済的に困窮している家庭の小中学生に、学用品費・給食費・修学旅行費などを援助する制度。市区町村が実施。"
+            "term": "就学援助制度",
+            "explanation": "経済的理由から就学させることが困難な家庭に対して、学用品費や修学旅行費などの一部を援助する制度です。"
           },
           {
-            "term": "奨学金（しょうがくきん）",
-            "explanation": "進学のための学費を貸与または給付する制度。日本学生支援機構（JASSO）や地方自治体・民間団体が運営している。"
-          },
-          {
-            "term": "要保護・準要保護（ようほご・じゅんようほご）",
-            "explanation": "就学援助の対象区分。生活保護受給世帯が「要保護」、それに準ずる低収入世帯が「準要保護」として援助を受けられる。"
+            "term": "新入学学用品費",
+            "explanation": "ランドセルや制服等、学校への入学に必要なものを購入するための費用です。条件を満たせば入学前に支給を受けることができます。"
           }
         ],
         "five_w1h": {
-          "who": "経済的に困窮している太田市在住の小中学生の保護者",
-          "what": "学用品費・給食費・修学旅行費・校外活動費などの援助金支給",
-          "when": "毎年度4月〜6月頃（申請受付期間は年度により異なる）",
-          "where": "太田市役所 教育総務課、または在籍する学校の事務室",
-          "why": "経済的事情により子供の教育機会が失われないようにするため",
-          "how": "①学校または市役所から申請書を入手→②必要書類（収入証明など）を準備→③提出→④審査（約1〜2か月）→⑤認定されれば年3〜4回に分けて支給"
+          "who": "生活保護世帯に準ずる程度に困窮している、太田市在住の小・中・義務教育学校の児童生徒の保護者",
+          "what": "学用品費、修学旅行費、新入学学用品費などの一部援助",
+          "when": "申請期間は学校からの案内等をご確認ください（新入学学用品費の入学前支給には指定の受付期間があります）",
+          "where": "お子さんが在籍している学校（入学前の場合は進学予定の学校または学校教育課）",
+          "why": "経済的理由により義務教育の就学が困難になることを防ぐため",
+          "how": "学校から申請書を受け取り、必要事項を記入して学校へ提出してください（郵送での受付はしていません）。"
         },
         "checklist": [
           {
-            "item": "在籍校または市役所 教育総務課に相談する",
-            "note": "申請時期・必要書類を確認",
+            "item": "お子さんが通っている学校（または入学予定の学校）に相談し、申請書を受け取る",
+            "note": "申請書が印刷できない場合は学校または学校教育課でもらえます",
             "required": true
           },
           {
-            "item": "前年度の収入証明（源泉徴収票・確定申告書等）を準備",
-            "note": "審査に必要",
-            "required": true
-          },
-          {
-            "item": "申請書に必要事項を記入・提出",
-            "note": "毎年度申請が必要",
+            "item": "申請書に記入し、お子さんの通っている学校へ提出する",
+            "note": "郵送での受付はしていません",
             "required": true
           }
         ],
         "form_guide": null,
         "faq": [
           {
-            "question": "お金がなくても相談できますか？",
-            "answer": "はい。相談は無料です。"
+            "question": "入学前に必要な学用品費の援助を受けられますか？",
+            "answer": "はい。新入学学用品費について、受付期間中に申請し認定されたご家庭には、お子さんが学校へ入学する前に支給することができます。"
           },
           {
-            "question": "外国語で相談できますか？",
-            "answer": "通訳が付く場合があります。まずお電話でご相談ください。"
+            "question": "申請すれば必ず援助を受けられますか？",
+            "answer": "申請後、同じ住所に暮らす人などの世帯の所得状況等を調査する審査があります。状況によっては認定されず受給できない可能性があります。"
           },
           {
-            "question": "申請すると学校に知られますか？",
-            "answer": "学校を通じて手続きする場合、担任の先生が把握することがあります。直接市役所に相談することも可能です。"
-          },
-          {
-            "question": "高校生も対象になりますか？",
-            "answer": "就学援助は小中学生が対象です。高校生は奨学金制度（高等学校等就学支援金など）をご利用ください。"
+            "question": "郵送で申請できますか？",
+            "answer": "郵送等での受付はしていません。お子さんが通っている学校にご提出ください。"
           }
         ],
-        "estimated_time": "申請書提出から認定まで: 約1〜2か月",
+        "estimated_time": "審査結果が出るまでの具体的な期間は学校または学校教育課にお問い合わせください。",
         "related_articles": [
           "child-allowance",
           "child-medical-fee-assistance",
@@ -17190,61 +17177,61 @@
         ]
       },
       "en": {
-        "title": "School Attendance Assistance and Scholarships",
-        "easy_explanation": "If you find it difficult to pay for your child's school supplies, school lunch, school trips, etc. due to financial reasons, you can use the \"School Attendance Assistance System\" (就学援助制度). Ota City also provides information on scholarships for high school and university.\n\nConsultation desk: Ota City Hall, General Education Affairs Division (0276-47-1111) or consult with the enrolled school.\n\nSchool attendance assistance is for elementary and junior high school students, and provides tens of thousands of yen a year for school supplies, school lunches, and extracurricular activities to households whose income is below a certain standard. An application is required every year. Regarding scholarships, we introduce various systems inside and outside the city. If you wonder, \"Is my child eligible?\" please consult with the school or City Hall first.",
-        "bottom_line": "If you are worried about your child's educational expenses, please consult with the Ota City General Education Affairs Division (0276-47-1111) or your enrolled school about the School Attendance Assistance and Scholarship systems.",
-        "amount_info": null,
+        "title": "School Attendance Assistance System",
+        "easy_explanation": "This is a system that assists with a portion of expenses such as school supplies and school trip fees for families who find it difficult to send their children to public elementary, junior high, or compulsory education schools due to financial reasons. There is also a system to provide pre-enrollment school supply expenses before entering school.\n\nApplication counter: The school your child is enrolled in, or the School Education Division.\n\nEligible families are those living in Ota City with children attending public schools, who are experiencing financial difficulties equivalent to households receiving public assistance. There is a screening process that investigates the household's income situation, and assistance is provided to approved families. Applications are required every year.",
+        "bottom_line": "If you find it difficult to pay for your child's educational expenses such as school supplies, please consult with your child's school or the Ota City Hall School Education Division (0276-47-1111) regarding the School Attendance Assistance System.",
+        "amount_info": "Assistance for a portion of school supplies and school trip expenses (specific amounts vary by item)",
         "target_audience": [
-          "Parents of elementary and junior high school students whose income is below a certain standard",
-          "Families considering proceeding to high school or university",
-          "Households receiving welfare"
+          "Families finding it difficult to send their children to school for financial reasons",
+          "Families experiencing financial difficulties equivalent to households receiving public assistance",
+          "Residents of Ota City who have children attending (or planning to enroll in) public elementary, junior high, or compulsory education schools"
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "School Attendance Assistance System",
+            "explanation": "A system that provides partial assistance for school supplies and school trips to families who have difficulty sending their children to school due to financial reasons."
+          },
+          {
+            "term": "Pre-enrollment School Supply Expenses",
+            "explanation": "Expenses for purchasing items necessary for school enrollment, such as school bags and uniforms. If conditions are met, payment can be received before enrollment."
+          }
+        ],
         "five_w1h": {
-          "who": "Parents of elementary and junior high school students living in Ota City who are in financial distress",
-          "what": "Assistance payments for school supplies, school lunches, school trips, extracurricular activities, etc.",
-          "when": "Around April to June every year (Application acceptance period varies by year)",
-          "where": "Ota City Hall, General Education Affairs Division, or the office of the enrolled school",
-          "why": "To ensure that children's educational opportunities are not lost due to financial reasons",
-          "how": "1. Obtain an application form from the school or City Hall -> 2. Prepare necessary documents (proof of income, etc.) -> 3. Submit -> 4. Review (about 1-2 months) -> 5. If approved, payments will be made in 3-4 installments a year"
+          "who": "Parents or guardians of public school students living in Ota City who are in financial distress equivalent to public assistance households",
+          "what": "Partial assistance for school supplies, school trip expenses, pre-enrollment school supply expenses, etc.",
+          "when": "Please check information from the school for application periods (there is a specific period for pre-enrollment provision)",
+          "where": "The school your child is enrolled in (or the planned school/School Education Division before enrollment)",
+          "why": "To prevent financial reasons from hindering compulsory education",
+          "how": "Receive an application form from the school, fill it out, and submit it to the school (applications by mail are not accepted)."
         },
         "checklist": [
           {
-            "item": "Consult with the enrolled school or City Hall General Education Affairs Division",
-            "note": "Check the application period and necessary documents",
+            "item": "Consult with your child's school (or planned school) and receive an application form",
+            "note": "If you cannot print the form, you can get it at the school or the School Education Division",
             "required": true
           },
           {
-            "item": "Prepare proof of income for the previous year (Withholding tax slip, tax return, etc.)",
-            "note": "Required for the review",
-            "required": true
-          },
-          {
-            "item": "Fill out and submit the application form",
-            "note": "An application is required every year",
+            "item": "Fill out the application form and submit it to your child's school",
+            "note": "Applications by mail are not accepted",
             "required": true
           }
         ],
         "form_guide": null,
         "faq": [
           {
-            "question": "Can I consult even if I have no money?",
-            "answer": "Yes. Consultation is free of charge."
+            "question": "Can I receive assistance for necessary school supplies before enrollment?",
+            "answer": "Yes. For pre-enrollment school supply expenses, if you apply during the acceptance period and are approved, the payment can be made before your child enters school."
           },
           {
-            "question": "Can I consult in a foreign language?",
-            "answer": "An interpreter may be provided. Please consult by phone first."
+            "question": "If I apply, will I definitely receive assistance?",
+            "answer": "After applying, there is a screening process that investigates the income situation of the household. Depending on the situation, you may not be approved and may not receive assistance."
           },
           {
-            "question": "Will the school know if I apply?",
-            "answer": "If you process it through the school, the homeroom teacher may be aware of it. It is also possible to consult directly with City Hall."
-          },
-          {
-            "question": "Are high school students also eligible?",
-            "answer": "School attendance assistance is for elementary and junior high school students. For high school students, please use the scholarship system (High School Tuition Support Fund, etc.)."
+            "question": "Can I apply by mail?",
+            "answer": "Applications by mail are not accepted. Please submit it to the school your child attends."
           }
         ],
-        "estimated_time": "From application submission to approval: About 1-2 months",
+        "estimated_time": "Please contact the school or the School Education Division for the specific time it takes to receive the screening results.",
         "related_articles": [
           "child-allowance",
           "child-medical-fee-assistance",
@@ -17253,61 +17240,61 @@
         ]
       },
       "pt": {
-        "title": "Assistência Escolar e Bolsas de Estudo",
-        "easy_explanation": "Se você achar difícil pagar pelo material escolar, merenda escolar, viagens escolares etc. do seu filho por motivos financeiros, você pode usar o \"Sistema de Assistência Escolar\" (就学援助制度). A Cidade de Ota também fornece informações sobre bolsas de estudo para o ensino médio e universidade.\n\nBalcão de consulta: Prefeitura de Ota, Divisão de Assuntos Gerais de Educação (0276-47-1111) ou consulte a escola matriculada.\n\nA assistência escolar é para alunos do ensino fundamental e médio, e fornece dezenas de milhares de ienes por ano para material escolar, merenda escolar e atividades extracurriculares para famílias cuja renda esteja abaixo de um certo padrão. Um requerimento é necessário a cada ano. Com relação a bolsas de estudo, apresentamos vários sistemas dentro e fora da cidade. Se você se perguntar: \"Meu filho é elegível?\", consulte a escola ou a Prefeitura primeiro.",
-        "bottom_line": "Se você está preocupado com as despesas educacionais do seu filho, consulte a Divisão de Assuntos Gerais de Educação da Cidade de Ota (0276-47-1111) ou sua escola matriculada sobre a Assistência Escolar e os sistemas de bolsas de estudo.",
-        "amount_info": null,
+        "title": "Sistema de Assistência Escolar",
+        "easy_explanation": "Este é um sistema que auxilia com parte das despesas, como material escolar e taxas de excursão escolar, para famílias que têm dificuldade em enviar seus filhos para escolas públicas de ensino fundamental, médio ou obrigatório por motivos financeiros. Há também um sistema para fornecer despesas com material escolar de pré-matrícula antes de ingressar na escola.\n\nBalcão de inscrição: A escola em que seu filho está matriculado ou a Divisão de Educação Escolar.\n\nAs famílias elegíveis são aquelas que moram na cidade de Ota com filhos frequentando escolas públicas e que estão passando por dificuldades financeiras equivalentes a famílias que recebem assistência pública. Há um processo de triagem que investiga a situação da renda familiar e a assistência é fornecida às famílias aprovadas. As inscrições são necessárias todos os anos.",
+        "bottom_line": "Se você tiver dificuldade em pagar as despesas educacionais de seu filho, como material escolar, consulte a escola de seu filho ou a Divisão de Educação Escolar da Prefeitura de Ota (0276-47-1111) sobre o Sistema de Assistência Escolar.",
+        "amount_info": "Assistência para uma parte do material escolar e despesas de viagem escolar (os valores específicos variam de acordo com o item)",
         "target_audience": [
-          "Pais de alunos do ensino fundamental e médio cuja renda está abaixo de um certo padrão",
-          "Famílias que consideram ingressar no ensino médio ou universidade",
-          "Famílias que recebem assistência social"
+          "Famílias que têm dificuldade em mandar os filhos para a escola por motivos financeiros",
+          "Famílias passando por dificuldades financeiras equivalentes a famílias que recebem assistência pública",
+          "Residentes da cidade de Ota que têm filhos frequentando (ou planejando se matricular) em escolas públicas de ensino fundamental, médio ou obrigatório"
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "Sistema de Assistência Escolar",
+            "explanation": "Um sistema que fornece assistência parcial para material escolar e viagens escolares para famílias que têm dificuldade em enviar seus filhos para a escola devido a razões financeiras."
+          },
+          {
+            "term": "Despesas com Material Escolar de Pré-Matrícula",
+            "explanation": "Despesas para compra de itens necessários para a matrícula escolar, como mochilas e uniformes. Se as condições forem atendidas, o pagamento pode ser recebido antes da matrícula."
+          }
+        ],
         "five_w1h": {
-          "who": "Pais de alunos do ensino fundamental e médio que moram na Cidade de Ota e estão em dificuldades financeiras",
-          "what": "Pagamentos de assistência para material escolar, merenda escolar, viagens escolares, atividades extracurriculares, etc.",
-          "when": "Por volta de abril a junho de cada ano (o período de aceitação de requerimentos varia de acordo com o ano)",
-          "where": "Prefeitura de Ota, Divisão de Assuntos Gerais de Educação, ou a secretaria da escola matriculada",
-          "why": "Para garantir que as oportunidades educacionais das crianças não sejam perdidas devido a razões financeiras",
-          "how": "1. Obtenha um formulário de inscrição na escola ou na Prefeitura -> 2. Prepare os documentos necessários (comprovante de renda, etc.) -> 3. Enviar -> 4. Revisão (cerca de 1 a 2 meses) -> 5. Se aprovado, os pagamentos serão feitos em 3 a 4 parcelas por ano"
+          "who": "Pais ou responsáveis de alunos de escolas públicas que moram na cidade de Ota e que estão em dificuldades financeiras equivalentes às de famílias que recebem assistência pública",
+          "what": "Assistência parcial para material escolar, despesas com viagens escolares, despesas com material escolar antes da matrícula, etc.",
+          "when": "Verifique as informações da escola sobre os períodos de inscrição (há um período específico para o provimento de pré-matrícula)",
+          "where": "A escola em que seu filho está matriculado (ou a escola planejada / Divisão de Educação Escolar antes da matrícula)",
+          "why": "Para evitar que razões financeiras prejudiquem o ensino obrigatório",
+          "how": "Receba um formulário de inscrição na escola, preencha-o e entregue-o na escola (não são aceitas inscrições por correio)."
         },
         "checklist": [
           {
-            "item": "Consulte a escola matriculada ou a Divisão de Assuntos Gerais de Educação da Prefeitura",
-            "note": "Verifique o período de inscrição e os documentos necessários",
+            "item": "Consulte a escola do seu filho (ou escola planejada) e receba um formulário de inscrição",
+            "note": "Se não conseguir imprimir o formulário, pode obtê-lo na escola ou na Divisão de Educação Escolar",
             "required": true
           },
           {
-            "item": "Prepare o comprovante de renda do ano anterior (Comprovante de retenção de imposto, declaração de imposto, etc.)",
-            "note": "Necessário para a revisão",
-            "required": true
-          },
-          {
-            "item": "Preencha e envie o formulário de inscrição",
-            "note": "Uma inscrição é necessária todos os anos",
+            "item": "Preencha o formulário de inscrição e envie-o para a escola do seu filho",
+            "note": "Inscrições pelo correio não são aceitas",
             "required": true
           }
         ],
         "form_guide": null,
         "faq": [
           {
-            "question": "Posso me consultar mesmo se não tiver dinheiro?",
-            "answer": "Sim. A consulta é gratuita."
+            "question": "Posso receber assistência para o material escolar necessário antes da matrícula?",
+            "answer": "Sim. Para as despesas com material escolar antes da matrícula, se você se inscrever durante o período de aceitação e for aprovado, o pagamento poderá ser feito antes do seu filho entrar na escola."
           },
           {
-            "question": "Posso me consultar em um idioma estrangeiro?",
-            "answer": "Um intérprete pode ser fornecido. Por favor, consulte por telefone primeiro."
+            "question": "Se eu me inscrever, com certeza receberei assistência?",
+            "answer": "Após a inscrição, há um processo de triagem que investiga a situação da renda da residência. Dependendo da situação, você pode não ser aprovado e não receber a assistência."
           },
           {
-            "question": "A escola saberá se eu me inscrever?",
-            "answer": "Se você processar através da escola, o professor da turma pode ficar sabendo. Também é possível consultar diretamente com a Prefeitura."
-          },
-          {
-            "question": "Estudantes do ensino médio também são elegíveis?",
-            "answer": "A assistência escolar é para alunos do ensino fundamental e médio. Para estudantes do ensino médio, use o sistema de bolsas de estudo (Fundo de Apoio à Mensalidade do Ensino Médio, etc.)."
+            "question": "Posso me inscrever por correio?",
+            "answer": "Inscrições por correio não são aceitas. Por favor, envie-o para a escola que seu filho frequenta."
           }
         ],
-        "estimated_time": "Do envio da inscrição à aprovação: Cerca de 1 a 2 meses",
+        "estimated_time": "Entre em contato com a escola ou a Divisão de Educação Escolar para saber o tempo específico que leva para receber os resultados da triagem.",
         "related_articles": [
           "child-allowance",
           "child-medical-fee-assistance",
@@ -17761,7 +17748,7 @@
     "municipality": "ota-city",
     "category": "parenting",
     "status": "active",
-    "original_url": "https://www.city.ota.gunma.jp/life/2/21/",
+    "original_url": "https://www.city.ota.gunma.jp/page/3287.html",
     "original_text": "",
     "deadline": null,
     "situations": [
@@ -17769,74 +17756,61 @@
     ],
     "locales": {
       "ja": {
-        "title": "いじめ・不登校の相談窓口",
-        "easy_explanation": "子供がいじめを受けている、学校に行けない（不登校）という場合は、一人で抱え込まないでください。学校・教育委員会・専門機関に相談できます。\n\n太田市教育委員会（学校教育課）: 0276-47-1111\n文部科学省 子どもの人権110番: 0120-007-110（無料）\n\nいじめは子供本人だけでなく、保護者からも相談できます。不登校については、無理に登校させることよりも、子供が安心できる環境を整えることが大切です。太田市内には適応指導教室（教育支援センター）もあります。学校に連絡しにくい場合は、直接教育委員会や相談専用窓口に連絡してください。",
-        "bottom_line": "お子さんのいじめ・不登校で困ったら、太田市教育委員会（0276-47-1111）または子どもの人権110番（0120-007-110）に相談してください。",
-        "amount_info": null,
+        "title": "ヤングテレホン・メール相談（いじめ・不登校等の相談）",
+        "easy_explanation": "いじめや不登校などの学校のこと、交友関係や家庭での悩み、児童虐待に関することなど、青少年およびそのご家族がお困りの場合に、専門の相談員に気軽に相談できる窓口です。\n\n連絡先: ヤングテレホン専用電話番号 0276-52-6701 または youngtel@mx.city.ota.gunma.jp\n\n太田市青少年センターの専門相談員が対応し、秘密は厳守されます。電話相談は平日の午前9時から午後4時30分まで、メール相談は24時間受け付けています。また、電話で予約をすれば個室での面接相談も可能です。",
+        "bottom_line": "いじめや不登校、ご家庭の悩みでお困りの青少年やご家族は、一人で悩まずにヤングテレホン（0276-52-6701）またはメールで気軽に相談してください。",
+        "amount_info": "無料",
         "target_audience": [
-          "いじめを受けている子供・その保護者",
-          "不登校の子供を持つ保護者",
-          "子供の様子が気になる方"
+          "太田市内在住または在勤の青少年",
+          "青少年のご家族",
+          "いじめ、不登校、交友関係、家庭での悩みなどがある方"
         ],
         "term_explanations": [
           {
-            "term": "不登校（ふとうこう）",
-            "explanation": "病気や経済的理由以外で年間30日以上学校を欠席している状態。文部科学省の定義による。"
+            "term": "ヤングテレホン",
+            "explanation": "太田市青少年センターが設置している、青少年とその家族のための専用相談電話です。専門の相談員が対応します。"
           },
           {
-            "term": "適応指導教室（てきおうしどうきょうしつ）",
-            "explanation": "不登校の児童・生徒が通学できる市区町村が設置した支援施設。学習支援・カウンセリング等を行う。「教育支援センター」とも呼ばれる。"
-          },
-          {
-            "term": "スクールカウンセラー（すくーるかうんせらー）",
-            "explanation": "学校に配置された心理の専門家。児童・生徒および保護者からの相談を受ける。"
+            "term": "面接相談",
+            "explanation": "電話やメールだけでなく、直接会って相談する方法です。ヤングテレホン専用番号で事前予約が必要です。"
           }
         ],
         "five_w1h": {
-          "who": "いじめ・不登校に悩む子供本人または保護者",
-          "what": "いじめ・不登校に関する相談・支援機関の紹介",
-          "when": "いじめや不登校の兆候を感じたとき（早めの相談が重要）",
-          "where": "学校（担任・スクールカウンセラー）、太田市教育委員会、または子どもの人権110番",
-          "why": "いじめ・不登校は早期発見・早期対応が解決の鍵であるため",
-          "how": "①まず担任の先生・スクールカウンセラーに相談→②学校対応が不十分な場合は教育委員会に連絡→③専門機関・適応指導教室の利用を検討"
+          "who": "悩みや不安を抱える市内在住・在勤の青少年およびそのご家族",
+          "what": "いじめ・不登校・家庭の悩み・児童虐待などに関する電話・メール・面接での相談",
+          "when": "電話: 毎週月曜〜金曜 午前9時〜午後4時30分 / メール: 24時間受付",
+          "where": "電話、メール、または面接相談（太田市青少年センター）",
+          "why": "青少年やその家族が抱える悩みや不安を解決・軽減するため",
+          "how": "専用電話（0276-52-6701）にかけるか、専用アドレス（youngtel@mx.city.ota.gunma.jp）へメールを送信してください。面接の場合は電話で予約してください。"
         },
         "checklist": [
           {
-            "item": "子供の話をゆっくり聞く",
-            "note": "まず安心させることが最優先",
+            "item": "ヤングテレホン（0276-52-6701）に電話する、またはメールする",
+            "note": "相談内容の秘密は守られます",
             "required": true
           },
           {
-            "item": "担任の先生またはスクールカウンセラーに相談する",
-            "note": "学校に連絡しにくい場合は教育委員会へ",
-            "required": true
-          },
-          {
-            "item": "いじめの証拠（メッセージ・写真など）を保管する",
-            "note": "被害の記録として重要",
+            "item": "面接を希望する場合は、電話で事前予約を行う",
+            "note": "個室で面接できます",
             "required": false
           }
         ],
         "form_guide": null,
         "faq": [
           {
-            "question": "お金がなくても相談できますか？",
-            "answer": "はい。相談は完全に無料です。"
+            "question": "相談した内容が他の人に知られることはありませんか？",
+            "answer": "秘密は守られますので、安心してご相談ください。"
           },
           {
-            "question": "外国語で相談できますか？",
-            "answer": "通訳が付く場合があります。まずお電話でご相談ください。"
+            "question": "メールで相談した場合、すぐに返信が来ますか？",
+            "answer": "メールは24時間受け付けていますが、返信は遅れることがあります。"
           },
           {
-            "question": "子供本人が相談したがらない場合はどうすればいいですか？",
-            "answer": "保護者だけで相談することもできます。まず大人が状況を把握してから、子供に寄り添ったサポートを一緒に考えましょう。"
-          },
-          {
-            "question": "学校側が取り合ってくれない場合はどうすればいいですか？",
-            "answer": "太田市教育委員会（0276-47-1111）または子どもの人権110番（0120-007-110）に直接連絡してください。"
+            "question": "土日や祝日も電話相談できますか？",
+            "answer": "電話相談は平日のみです。土日・祝日および年末年始（12月28日〜1月4日）はお休みとなります。"
           }
         ],
-        "estimated_time": "電話相談: 約30〜60分",
+        "estimated_time": "電話相談・面接相談の時間は個々の状況により異なります。メールは24時間受付（返信に時間を要する場合があります）。",
         "related_articles": [
           "child-support-center",
           "pregnancy-sos",
@@ -17844,61 +17818,61 @@
         ]
       },
       "en": {
-        "title": "Bullying and Truancy Consultation",
-        "easy_explanation": "If your child is being bullied or is unable to go to school (truancy), please do not hold it in alone. You can consult with the school, the Board of Education, or specialized institutions.\n\nOta City Board of Education (School Education Division): 0276-47-1111\nMinistry of Education, Culture, Sports, Science and Technology Children's Human Rights 110: 0120-007-110 (Free)\n\nNot only the child themselves, but also parents can consult about bullying. Regarding truancy, it is more important to prepare an environment where the child feels safe than to force them to go to school. There are also adaptation guidance classrooms (education support centers) in Ota City. If it is difficult to contact the school, please contact the Board of Education or a dedicated consultation desk directly.",
-        "bottom_line": "If you have problems with your child's bullying or truancy, please consult with the Ota City Board of Education (0276-47-1111) or the Children's Human Rights 110 (0120-007-110).",
-        "amount_info": null,
+        "title": "Young Telephone and Email Consultation (Bullying, Truancy, etc.)",
+        "easy_explanation": "This is a consultation desk where youth and their families can easily talk to specialized counselors about school issues such as bullying and truancy, friendships, family worries, and child abuse.\n\nContact: Young Telephone dedicated line 0276-52-6701 or youngtel@mx.city.ota.gunma.jp\n\nSpecialized counselors at the Ota City Youth Center will handle your case, and your privacy will be strictly protected. Phone consultations are available from 9:00 AM to 4:30 PM on weekdays, and email consultations are accepted 24 hours a day. Face-to-face consultations in a private room are also possible if you make a reservation by phone.",
+        "bottom_line": "If you or your family are troubled by bullying, truancy, or family issues, do not worry alone. Please feel free to consult via Young Telephone (0276-52-6701) or email.",
+        "amount_info": "Free",
         "target_audience": [
-          "Children who are being bullied and their parents",
-          "Parents of children who are truant",
-          "Those who are concerned about the state of their children"
+          "Youth living or working in Ota City",
+          "Families of youth",
+          "Those dealing with bullying, truancy, friendship issues, family troubles, etc."
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "Young Telephone",
+            "explanation": "A dedicated consultation phone line established by the Ota City Youth Center for youth and their families. Specialized counselors handle the calls."
+          },
+          {
+            "term": "Face-to-face Consultation",
+            "explanation": "A method of consulting by meeting directly, in addition to phone and email. Advance booking via the Young Telephone line is required."
+          }
+        ],
         "five_w1h": {
-          "who": "The child experiencing bullying or truancy, or their parents",
-          "what": "Introduction of consultation and support institutions related to bullying and truancy",
-          "when": "When you feel signs of bullying or truancy (early consultation is important)",
-          "where": "School (homeroom teacher, school counselor), Ota City Board of Education, or Children's Human Rights 110",
-          "why": "Because early detection and early response are the key to resolving bullying and truancy",
-          "how": "1. First consult with the homeroom teacher or school counselor -> 2. If the school's response is insufficient, contact the Board of Education -> 3. Consider using specialized institutions or adaptation guidance classrooms"
+          "who": "Youth living or working in the city and their families who have worries or anxieties",
+          "what": "Consultation via phone, email, or face-to-face regarding bullying, truancy, family issues, child abuse, etc.",
+          "when": "Phone: Mon-Fri 9:00 AM to 4:30 PM / Email: 24 hours",
+          "where": "Phone, email, or face-to-face consultation (at the Ota City Youth Center)",
+          "why": "To resolve or alleviate the worries and anxieties faced by youth and their families",
+          "how": "Call the dedicated line (0276-52-6701) or send an email to the dedicated address (youngtel@mx.city.ota.gunma.jp). For face-to-face consultation, please make a reservation by phone."
         },
         "checklist": [
           {
-            "item": "Listen to the child's story slowly",
-            "note": "Reassuring them first is the top priority",
+            "item": "Call Young Telephone (0276-52-6701) or send an email",
+            "note": "The privacy of your consultation will be protected",
             "required": true
           },
           {
-            "item": "Consult with the homeroom teacher or school counselor",
-            "note": "If it is difficult to contact the school, go to the Board of Education",
-            "required": true
-          },
-          {
-            "item": "Keep evidence of bullying (messages, photos, etc.)",
-            "note": "Important as a record of the damage",
+            "item": "If you wish to have a face-to-face consultation, make an advance booking by phone",
+            "note": "You can consult in a private room",
             "required": false
           }
         ],
         "form_guide": null,
         "faq": [
           {
-            "question": "Can I consult even if I have no money?",
-            "answer": "Yes. Consultation is completely free."
+            "question": "Will what I discuss be known to others?",
+            "answer": "Your privacy will be protected, so please consult with peace of mind."
           },
           {
-            "question": "Can I consult in a foreign language?",
-            "answer": "An interpreter may be provided. Please consult by phone first."
+            "question": "If I consult by email, will I get a reply immediately?",
+            "answer": "Emails are accepted 24 hours a day, but replies may be delayed."
           },
           {
-            "question": "What should I do if the child themselves does not want to consult?",
-            "answer": "Parents can also consult alone. Let adults first understand the situation and then think together about support close to the child."
-          },
-          {
-            "question": "What should I do if the school does not deal with it?",
-            "answer": "Please contact the Ota City Board of Education (0276-47-1111) or the Children's Human Rights 110 (0120-007-110) directly."
+            "question": "Can I consult by phone on weekends and holidays?",
+            "answer": "Phone consultation is only available on weekdays. It is closed on weekends, holidays, and during the New Year period (December 28 to January 4)."
           }
         ],
-        "estimated_time": "Phone consultation: About 30-60 minutes",
+        "estimated_time": "The time for phone or face-to-face consultation depends on individual circumstances. Emails are accepted 24 hours (replies may take some time).",
         "related_articles": [
           "child-support-center",
           "pregnancy-sos",
@@ -17906,61 +17880,61 @@
         ]
       },
       "pt": {
-        "title": "Aconselhamento sobre Bullying e Faltas Escolares",
-        "easy_explanation": "Se seu filho está sofrendo bullying ou não pode ir à escola (faltas escolares / recusa escolar), não guarde isso para você. Você pode consultar a escola, o Conselho de Educação ou instituições especializadas.\n\nConselho de Educação da Cidade de Ota (Divisão de Educação Escolar): 0276-47-1111\nMinistério da Educação, Cultura, Esportes, Ciência e Tecnologia - Direitos Humanos das Crianças 110: 0120-007-110 (Gratuito)\n\nNão apenas a própria criança, mas também os pais podem consultar sobre bullying. Com relação às faltas escolares, é mais importante preparar um ambiente onde a criança se sinta segura do que forçá-la a ir à escola. Existem também salas de aula de orientação de adaptação (centros de apoio educacional) na Cidade de Ota. Se for difícil contatar a escola, contate diretamente o Conselho de Educação ou um balcão de consulta dedicado.",
-        "bottom_line": "Se você tiver problemas com bullying ou recusa escolar do seu filho, consulte o Conselho de Educação da Cidade de Ota (0276-47-1111) ou os Direitos Humanos das Crianças 110 (0120-007-110).",
-        "amount_info": null,
+        "title": "Consulta por Telefone e E-mail para Jovens (Bullying, Faltas, etc.)",
+        "easy_explanation": "Este é um balcão de consulta onde jovens e suas famílias podem facilmente conversar com conselheiros especializados sobre questões escolares, como bullying e recusa escolar, amizades, preocupações familiares e abuso infantil.\n\nContato: Linha dedicada Young Telephone 0276-52-6701 ou youngtel@mx.city.ota.gunma.jp\n\nConselheiros especializados do Centro de Juventude da Cidade de Ota cuidarão do seu caso, e sua privacidade será estritamente protegida. Consultas por telefone estão disponíveis das 9:00 às 16:30 durante a semana, e consultas por e-mail são aceitas 24 horas por dia. Consultas presenciais em uma sala privativa também são possíveis se você fizer uma reserva por telefone.",
+        "bottom_line": "Se você ou sua família estão incomodados com bullying, faltas escolares ou problemas familiares, não sofram sozinhos. Fique à vontade para consultar através do Young Telephone (0276-52-6701) ou por e-mail.",
+        "amount_info": "Gratuito",
         "target_audience": [
-          "Crianças que sofrem bullying e seus pais",
-          "Pais de crianças que se recusam a ir à escola",
-          "Aqueles que estão preocupados com a condição de seus filhos"
+          "Jovens que moram ou trabalham na cidade de Ota",
+          "Famílias de jovens",
+          "Pessoas lidando com bullying, recusa escolar, problemas de amizade, problemas familiares, etc."
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "Young Telephone (Telefone para Jovens)",
+            "explanation": "Uma linha telefônica dedicada a consultas, estabelecida pelo Centro da Juventude da Cidade de Ota para os jovens e suas famílias. Conselheiros especializados atendem as chamadas."
+          },
+          {
+            "term": "Consulta Presencial",
+            "explanation": "Um método de consulta por meio de encontro direto, além de telefone e e-mail. É necessário fazer reserva antecipada por meio da linha Young Telephone."
+          }
+        ],
         "five_w1h": {
-          "who": "A criança que sofre bullying ou tem recusa escolar, ou seus pais",
-          "what": "Apresentação de instituições de consulta e apoio relacionadas a bullying e recusa escolar",
-          "when": "Quando sentir sinais de bullying ou recusa escolar (a consulta precoce é importante)",
-          "where": "Escola (professor da turma, conselheiro escolar), Conselho de Educação da Cidade de Ota, ou Direitos Humanos das Crianças 110",
-          "why": "Porque a detecção precoce e a resposta precoce são a chave para resolver o bullying e a recusa escolar",
-          "how": "1. Primeiro consulte o professor da turma ou conselheiro escolar -> 2. Se a resposta da escola for insuficiente, contate o Conselho de Educação -> 3. Considere usar instituições especializadas ou salas de aula de orientação de adaptação"
+          "who": "Jovens que moram ou trabalham na cidade e suas famílias que têm preocupações ou ansiedades",
+          "what": "Consulta por telefone, e-mail ou presencial sobre bullying, recusa escolar, problemas familiares, abuso infantil, etc.",
+          "when": "Telefone: Seg-Sex 9:00 às 16:30 / E-mail: 24 horas",
+          "where": "Consulta por telefone, e-mail ou presencial (no Centro da Juventude da Cidade de Ota)",
+          "why": "Para resolver ou aliviar as preocupações e ansiedades enfrentadas pelos jovens e suas famílias",
+          "how": "Ligue para a linha dedicada (0276-52-6701) ou envie um e-mail para o endereço dedicado (youngtel@mx.city.ota.gunma.jp). Para consulta presencial, faça uma reserva por telefone."
         },
         "checklist": [
           {
-            "item": "Ouça a história da criança com calma",
-            "note": "Tranquilizá-la primeiro é a maior prioridade",
+            "item": "Ligue para o Young Telephone (0276-52-6701) ou envie um e-mail",
+            "note": "A privacidade da sua consulta será protegida",
             "required": true
           },
           {
-            "item": "Consulte o professor da turma ou conselheiro escolar",
-            "note": "Se for difícil entrar em contato com a escola, dirija-se ao Conselho de Educação",
-            "required": true
-          },
-          {
-            "item": "Guarde as evidências de bullying (mensagens, fotos, etc.)",
-            "note": "Importante como um registro dos danos",
+            "item": "Se você deseja ter uma consulta presencial, faça uma reserva antecipada por telefone",
+            "note": "Você pode consultar em uma sala privativa",
             "required": false
           }
         ],
         "form_guide": null,
         "faq": [
           {
-            "question": "Posso me consultar mesmo se não tiver dinheiro?",
-            "answer": "Sim. A consulta é totalmente gratuita."
+            "question": "O que eu discutir será do conhecimento de outras pessoas?",
+            "answer": "Sua privacidade será protegida, portanto, consulte com tranquilidade."
           },
           {
-            "question": "Posso me consultar em um idioma estrangeiro?",
-            "answer": "Um intérprete pode ser fornecido. Por favor, consulte por telefone primeiro."
+            "question": "Se eu consultar por e-mail, receberei uma resposta imediatamente?",
+            "answer": "E-mails são aceitos 24 horas por dia, mas as respostas podem atrasar."
           },
           {
-            "question": "O que devo fazer se a própria criança não quiser consultar?",
-            "answer": "Os pais também podem consultar sozinhos. Deixe que os adultos primeiro compreendam a situação e, em seguida, pensem juntos sobre um apoio próximo à criança."
-          },
-          {
-            "question": "O que devo fazer se a escola não lidar com isso?",
-            "answer": "Entre em contato diretamente com o Conselho de Educação da Cidade de Ota (0276-47-1111) ou com os Direitos Humanos das Crianças 110 (0120-007-110)."
+            "question": "Posso consultar por telefone nos finais de semana e feriados?",
+            "answer": "A consulta por telefone está disponível apenas durante a semana. Fica fechado nos finais de semana, feriados e durante o período de Ano Novo (28 de dezembro a 4 de janeiro)."
           }
         ],
-        "estimated_time": "Consulta por telefone: Cerca de 30 a 60 minutos",
+        "estimated_time": "O tempo para consulta por telefone ou presencial depende das circunstâncias individuais. E-mails são aceitos 24 horas (as respostas podem demorar um pouco).",
         "related_articles": [
           "child-support-center",
           "pregnancy-sos",
