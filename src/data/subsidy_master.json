@@ -7647,7 +7647,7 @@
         "title": "出産育児一時金",
         "easy_explanation": "## 出産育児一時金とは\n健康保険の加入者が出産したときに、出産費用を補助するために支給されるお金です。\n国民健康保険加入者の場合は、太田市から支給されます。\n\n## 直接支払制度\n多くの病院では、この一時金が病院へ直接支払われる制度（直接支払制度）を導入しています。これにより、退院時に窓口で支払う出産費用が、一時金の額を差し引いた金額だけで済みます。\n\n## 支給額\n原則として、子ども1人につき50万円が支給されます。",
         "bottom_line": "出産費用の補助として原則50万円が支給されます。直接支払制度を利用すると、退院時の支払いが減ります。",
-        "amount_info": "子ども1人につき原則50万円",
+        "amount_info": "原則50万円（産科医療保障制度対象外または在胎22週未満の場合は48.8万円）",
         "target_audience": [
           "出産予定の方、出産された方"
         ],
@@ -7676,76 +7676,62 @@
         "five_w1h": {
           "who": "国民健康保険または職場の健康保険に加入している妊婦（被保険者・被扶養者）",
           "what": "出産育児一時金（1児につき50万円〔産科医療補償制度加入機関の場合〕）",
-          "when": "出産後2年以内に申請（直接支払制度の場合は出産前に医療機関と合意書を締結）",
-          "where": "国民健康保険は市役所1階保険年金課。職場健保は各健保組合へ",
+          "when": "出産後に申請（直接支払制度で差額がある場合等）。受領委任払制度を利用する場合は母子手帳の交付後、出産前に手続き",
+          "where": "市役所 国民健康保険課",
           "why": "出産にかかる費用の負担を軽減するため",
-          "how": "直接支払制度（医療機関が代理で請求）が一般的。差額がある場合は退院後に申請"
+          "how": "医療機関で直接支払制度を利用。差額がある場合や利用しない場合は、必要なものを揃えて国民健康保険課へ申請"
         },
         "checklist": [
           {
-            "item": "出産育児一時金支給申請書",
-            "note": "加入している健康保険（国保または職場保険）から入手",
+            "item": "資格確認書または資格情報のお知らせ",
+            "note": "健康保険証の代わりとなるもの",
             "required": true
           },
           {
-            "item": "健康保険証（被保険者のもの）",
-            "note": "国保加入者は太田市発行の保険証",
+            "item": "個人番号（通知）カード",
+            "note": "マイナンバーがわかるもの",
             "required": true
           },
           {
-            "item": "出生証明書または出産を証明する書類",
-            "note": "医療機関が発行したもの。直接支払制度利用時は不要な場合あり",
+            "item": "直接支払制度合意文書",
+            "note": "医療機関等で交わした文書",
             "required": true
           },
           {
-            "item": "振込先口座の通帳またはキャッシュカード",
-            "note": "申請者（被保険者）名義の口座",
+            "item": "出産費用明細書または領収書",
+            "note": "医療機関が発行したもの",
             "required": true
           },
           {
-            "item": "本人確認書類",
-            "note": "運転免許証・マイナンバーカード等",
+            "item": "世帯主名義の通帳",
+            "note": "振込先となる口座",
             "required": true
           }
         ],
         "form_guide": {
           "form_name": "出産育児一時金支給申請書",
-          "fields": [
-            {
-              "field_name": "出産日",
-              "how_to_fill": "赤ちゃんが生まれた日を記入",
-              "example": "令和7年11月15日",
-              "note": "死産の場合も妊娠85日以上であれば支給対象"
-            },
-            {
-              "field_name": "直接支払制度の利用",
-              "how_to_fill": "医療機関への直接支払いを利用したか選択",
-              "example": "利用した",
-              "note": "直接支払制度利用時は差額のみ申請"
-            }
-          ],
+          "fields": [],
           "tips": [
-            "出産費用が50万円未満の場合、差額を申請できる",
-            "出産後2年以内に申請すること（時効あり）",
-            "「直接支払制度」を使うと医療機関が保険者に直接請求するため窓口負担が減る"
+            "直接支払制度を利用し、出産費用が50万円以上の場合は市への申請は不要です。",
+            "海外で出産した場合はパスポートや出生証明書とその日本語訳等が必要です。"
           ]
         },
         "faq": [
           {
             "question": "出産育児一時金はいくらもらえますか？",
-            "answer": "2023年4月から原則50万円（産科医療補償制度対象外の出産は48.8万円）に増額されました。健康保険から支給されるため、国民健康保険・勤務先の健康保険どちらでも対象です。"
+            "answer": "令和5年4月1日以降の出産で、産科医療保障制度に加入している医療機関等での出産（在胎22週以上）の場合は50万円です。それ以外（対象外の医療機関、22週未満の出産）の場合は48万8千円となります。"
           },
           {
             "question": "直接支払制度とはなんですか？",
-            "answer": "病院が健康保険に直接請求する制度で、利用者は差額分のみ支払えばよくなります。多くの病院で利用できますが、未対応の病院では一時自己負担後に還付申請が必要です。"
+            "answer": "市が出産育児一時金を医療機関に直接支払う制度です。退院時の支払いは出産費用と一時金の差額のみで済みます。"
           },
           {
-            "question": "申請期限はありますか？",
-            "answer": "出産から2年以内に申請が必要です。直接支払制度を利用しない場合は出産後に加入している健康保険に申請します。"
+            "question": "窓口での手続きが不要になる場合はありますか？",
+            "answer": "直接支払制度を利用し、かつ出産費用が50万円（または48.8万円）以上だった場合は、市への出産育児一時金の申請手続きは不要です。"
           },
           {
-            "question": "双子など多胎の場合はどうなりますか？",
-            "answer": "出産した子どもの人数分支給されます。双子であれば2人分（100万円）が支給されます。"
+            "question": "海外で出産した場合も対象になりますか？",
+            "answer": "対象になります。申請にはパスポートや出生証明書の原本と日本語訳、出産費用の領収書の原本と日本語訳などが必要になります。"
           }
         ],
         "estimated_time": "直接支払制度利用の場合：手続きは医療機関で完結 / 自己申請の場合：窓口で約15分",
@@ -7759,7 +7745,7 @@
         "title": "Childbirth and Childcare Lump-Sum Grant",
         "easy_explanation": "## What is the Childbirth and Childcare Lump-Sum Grant?\nThis is money provided to help cover childbirth expenses when a person enrolled in health insurance gives birth.\nFor those enrolled in the National Health Insurance, it is provided by Ota City.\n\n## Direct Payment System\nMany hospitals have introduced a system where this grant is paid directly to the hospital (Direct Payment System). This means that the childbirth expenses you pay at the counter upon discharge will only be the amount remaining after the grant has been deducted.\n\n## Amount Provided\nAs a general rule, ¥500,000 is provided per child.",
         "bottom_line": "As a general rule, ¥500,000 is provided to help cover childbirth expenses. Using the Direct Payment System reduces the amount you have to pay upon discharge.",
-        "amount_info": "As a general rule, ¥500,000 per child",
+        "amount_info": "Generally 500,000 yen (488,000 yen if outside the obstetrical compensation system or under 22 weeks of pregnancy)",
         "target_audience": [
           "Those expecting to give birth, those who have given birth"
         ],
@@ -7767,55 +7753,62 @@
         "five_w1h": {
           "who": "Pregnant women enrolled in National Health Insurance or workplace health insurance (insured persons or dependents)",
           "what": "Childbirth and Childcare Lump-Sum Grant (¥500,000 per child [for institutions in the Obstetric Compensation System])",
-          "when": "Apply within 2 years after childbirth (for the Direct Payment System, sign an agreement with the medical institution before childbirth)",
-          "where": "For National Health Insurance, the Health Insurance and Pension Division on the 1st floor of the City Hall. For workplace insurance, the respective health insurance association",
+          "when": "Apply after childbirth (if there is a difference under the direct payment system). If using the entrusted payment system, apply before childbirth after receiving the handbook.",
+          "where": "National Health Insurance Division, City Hall",
           "why": "To reduce the financial burden of childbirth expenses",
-          "how": "The Direct Payment System (medical institution claims on your behalf) is common. If there is a difference, apply after discharge"
+          "how": "Use the direct payment system at the hospital. If not using it or if there is a difference, apply at the National Health Insurance Division."
         },
         "checklist": [
           {
-            "item": "Childbirth and Childcare Lump-Sum Grant Application Form (出産育児一時金支給申請書)",
-            "note": "Obtain from your health insurance provider (National Health Insurance or workplace insurance)",
+            "item": "Eligibility Confirmation Certificate or Eligibility Information Notice",
+            "note": "Document serving as health insurance proof",
             "required": true
           },
           {
-            "item": "Health Insurance Card of the insured person (健康保険証)",
-            "note": "For National Health Insurance enrollees, the insurance card issued by Ota City",
+            "item": "My Number Card or Notification Card",
+            "note": "Document showing your My Number",
             "required": true
           },
           {
-            "item": "Birth certificate or document proving childbirth (出生証明書または出産を証明する書類)",
-            "note": "Issued by a medical institution. May not be required if using the Direct Payment System",
+            "item": "Direct Payment System Agreement Document",
+            "note": "Document exchanged with the medical institution",
             "required": true
           },
           {
-            "item": "Bank passbook or cash card for the transfer destination account (振込先口座の通帳またはキャッシュカード)",
-            "note": "Account in the name of the applicant (insured person)",
+            "item": "Childbirth Expense Statement or Receipt",
+            "note": "Issued by the medical institution",
             "required": true
           },
           {
-            "item": "Identification document (本人確認書類)",
-            "note": "Driver's license, My Number Card, etc.",
+            "item": "Bank Passbook in the Head of Household's Name",
+            "note": "Account for the bank transfer",
             "required": true
           }
         ],
-        "form_guide": null,
+        "form_guide": {
+          "fields": [],
+          "tips": [
+            "If using the direct payment system and expenses exceed 500,000 yen, application to the city is unnecessary.",
+            "For overseas births, a passport, original birth certificate with Japanese translation, etc., are required."
+          ],
+          "form_name": "Childbirth Lump-Sum Allowance Application Form"
+        },
         "faq": [
           {
-            "question": "How much is the Childbirth and Childcare Lump-Sum Grant?",
-            "answer": "From April 2023, it has been increased to a general rule of ¥500,000 (¥488,000 for childbirths not covered by the Obstetric Compensation System). Since it is paid by health insurance, you are eligible whether you are in National Health Insurance or workplace health insurance."
+            "question": "How much is the childbirth lump-sum allowance?",
+            "answer": "For births on or after April 1, 2023, it is 500,000 yen at hospitals in the obstetrical compensation system (at least 22 weeks pregnant). Otherwise, it is 488,000 yen."
           },
           {
-            "question": "What is the Direct Payment System?",
-            "answer": "It is a system where the hospital claims the amount directly from the health insurance, so you only have to pay the difference. It is available at many hospitals, but at non-participating hospitals, you must temporarily pay the full amount yourself and then apply for a refund."
+            "question": "What is the direct payment system?",
+            "answer": "The city pays the allowance directly to the hospital. You only pay the difference between the hospital bill and the allowance."
           },
           {
-            "question": "Is there a deadline for the application?",
-            "answer": "Application must be made within 2 years from childbirth. If you do not use the Direct Payment System, apply to your health insurance after giving birth."
+            "question": "Are there cases where counter procedures are unnecessary?",
+            "answer": "Yes. If you use the direct payment system and your hospital bill exceeds the allowance amount, you don't need to apply to the city."
           },
           {
-            "question": "What happens in the case of a multiple birth, such as twins?",
-            "answer": "The grant is provided for the number of children born. For twins, you will receive the amount for two children (¥1,000,000)."
+            "question": "Is it applicable if I give birth overseas?",
+            "answer": "Yes. You will need your passport, the original birth certificate with a Japanese translation, and original receipts with translation."
           }
         ],
         "estimated_time": "When using the Direct Payment System: completed at the medical institution / For self-application: about 15 minutes at the counter",
@@ -7829,7 +7822,7 @@
         "title": "Subsídio de Pagamento Único para Parto e Cuidados Infantis",
         "easy_explanation": "## O que é o Subsídio de Pagamento Único para Parto e Cuidados Infantis?\nÉ um dinheiro fornecido para ajudar a cobrir as despesas do parto quando uma pessoa inscrita no seguro de saúde dá à luz.\nPara as pessoas inscritas no Seguro Nacional de Saúde, ele é fornecido pela Cidade de Ota.\n\n## Sistema de Pagamento Direto\nMuitos hospitais adotaram um sistema no qual esse subsídio é pago diretamente ao hospital (Sistema de Pagamento Direto). Isso significa que as despesas de parto que você paga no balcão no momento da alta serão apenas o valor restante após a dedução do subsídio.\n\n## Valor Fornecido\nComo regra geral, são fornecidos ¥50.000 por criança.",
         "bottom_line": "Como regra geral, são fornecidos ¥50.000 para ajudar a cobrir as despesas do parto. O uso do Sistema de Pagamento Direto reduz o valor que você precisa pagar no momento da alta.",
-        "amount_info": "Como regra geral, ¥50.000 por criança",
+        "amount_info": "Geralmente 500.000 ienes (488.000 ienes se fora do sistema de compensação ou menos de 22 semanas de gravidez)",
         "target_audience": [
           "Aqueles que esperam dar à luz, aqueles que deram à luz"
         ],
@@ -7837,55 +7830,62 @@
         "five_w1h": {
           "who": "Mulheres grávidas inscritas no Seguro Nacional de Saúde ou no seguro de saúde do local de trabalho (pessoas seguradas ou dependentes)",
           "what": "Subsídio de Pagamento Único para Parto e Cuidados Infantis (¥50.000 por criança [para instituições no Sistema de Compensação Obstétrica])",
-          "when": "Inscreva-se dentro de 2 anos após o parto (para o Sistema de Pagamento Direto, assine um acordo com a instituição médica antes do parto)",
-          "where": "Para o Seguro Nacional de Saúde, a Divisão de Seguro de Saúde e Pensão no 1º andar da Prefeitura. Para o seguro do local de trabalho, a respectiva associação de seguro de saúde",
+          "when": "Solicitar após o parto. Se usar o sistema de pagamento confiado, solicite antes do parto, após receber a caderneta.",
+          "where": "Divisão de Seguro Nacional de Saúde, Prefeitura",
           "why": "Para reduzir o fardo financeiro das despesas do parto",
-          "how": "O Sistema de Pagamento Direto (a instituição médica reivindica em seu nome) é comum. Se houver uma diferença, solicite após a alta"
+          "how": "Use o sistema de pagamento direto no hospital. Se não usar ou se houver diferença, solicite na Divisão de Seguro."
         },
         "checklist": [
           {
-            "item": "Formulário de Solicitação do Subsídio de Pagamento Único para Parto e Cuidados Infantis (出産育児一時金支給申請書)",
-            "note": "Obtenha do seu provedor de seguro de saúde (Seguro Nacional de Saúde ou seguro do local de trabalho)",
+            "item": "Certificado de Confirmação de Elegibilidade ou Aviso de Informações",
+            "note": "Documento que serve como prova de seguro de saúde",
             "required": true
           },
           {
-            "item": "Cartão de Seguro de Saúde da pessoa segurada (健康保険証)",
-            "note": "Para inscritos no Seguro Nacional de Saúde, o cartão de seguro emitido pela Cidade de Ota",
+            "item": "My Number Card ou Cartão de Notificação",
+            "note": "Documento mostrando seu My Number",
             "required": true
           },
           {
-            "item": "Certidão de nascimento ou documento que comprove o parto (出生証明書または出産を証明する書類)",
-            "note": "Emitido por uma instituição médica. Pode não ser necessário se usar o Sistema de Pagamento Direto",
+            "item": "Documento de Acordo do Sistema de Pagamento Direto",
+            "note": "Documento trocado com a instituição médica",
             "required": true
           },
           {
-            "item": "Caderneta bancária ou cartão para a conta de destino da transferência (振込先口座の通帳またはキャッシュカード)",
-            "note": "Conta em nome do solicitante (pessoa segurada)",
+            "item": "Declaração de Despesas de Parto ou Recibo",
+            "note": "Emitido pela instituição médica",
             "required": true
           },
           {
-            "item": "Documento de identificação (本人確認書類)",
-            "note": "Carteira de motorista, Cartão My Number, etc.",
+            "item": "Caderneta Bancária em nome do Chefe da Família",
+            "note": "Conta para a transferência",
             "required": true
           }
         ],
-        "form_guide": null,
+        "form_guide": {
+          "fields": [],
+          "tips": [
+            "Se usar o sistema de pagamento direto e as despesas excederem 500.000 ienes, a inscrição na prefeitura é desnecessária.",
+            "Para partos no exterior, é necessário passaporte, certidão original com tradução, etc."
+          ],
+          "form_name": "Formulário de Solicitação de Subsídio de Parto"
+        },
         "faq": [
           {
-            "question": "Qual é o valor do Subsídio de Pagamento Único para Parto e Cuidados Infantis?",
-            "answer": "A partir de abril de 2023, foi aumentado para uma regra geral de ¥50.000 (¥48.800 para partos não cobertos pelo Sistema de Compensação Obstétrica). Como é pago pelo seguro de saúde, você é elegível se estiver no Seguro Nacional de Saúde ou no seguro de saúde do local de trabalho."
+            "question": "Quanto é o subsídio de parto?",
+            "answer": "Para partos a partir de 1º de abril de 2023, são 500.000 ienes em hospitais do sistema de compensação (pelo menos 22 semanas). Caso contrário, 488.000 ienes."
           },
           {
-            "question": "O que é o Sistema de Pagamento Direto?",
-            "answer": "É um sistema onde o hospital reivindica o valor diretamente do seguro de saúde, então você só tem que pagar a diferença. Está disponível em muitos hospitais, mas em hospitais não participantes, você deve primeiro pagar o valor total do próprio bolso e depois solicitar um reembolso."
+            "question": "O que é o sistema de pagamento direto?",
+            "answer": "A prefeitura paga o subsídio diretamente ao hospital. Você só paga a diferença no momento da alta."
           },
           {
-            "question": "Existe um prazo para a solicitação?",
-            "answer": "A solicitação deve ser feita dentro de 2 anos a partir do parto. Se você não usar o Sistema de Pagamento Direto, solicite ao seu seguro de saúde após dar à luz."
+            "question": "Existem casos onde o procedimento no balcão é desnecessário?",
+            "answer": "Sim. Se usar o pagamento direto e a conta exceder o valor do subsídio, não é necessário solicitar na prefeitura."
           },
           {
-            "question": "O que acontece no caso de nascimentos múltiplos, como gêmeos?",
-            "answer": "O subsídio é fornecido pelo número de crianças nascidas. Para gêmeos, você receberá o valor por duas crianças (¥100.000)."
+            "question": "É aplicável se eu der à luz no exterior?",
+            "answer": "Sim. Será necessário o passaporte, a certidão original com tradução para japonês e os recibos originais com tradução."
           }
         ],
         "estimated_time": "Ao usar o Sistema de Pagamento Direto: concluído na instituição médica / Para solicitação própria: cerca de 15 minutos no balcão",
