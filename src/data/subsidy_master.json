@@ -3790,7 +3790,7 @@
         "term_explanations": [
           {
             "term": "児童手当（じどうてあて）",
-            "explanation": "子どもを育てる家庭に対して国が支給する手当です。中学校修了まで（15歳の誕生日以降の最初の3月31日まで）の子どもを対象に毎月支給されます。"
+            "explanation": "子どもを育てる家庭に対して国が支給する手当です。高校生年代まで（18歳の誕生日後の最初の3月31日まで）の子どもを対象に毎月支給されます。"
           },
           {
             "term": "認定請求書（にんていせいきゅうしょ）",
@@ -3885,7 +3885,7 @@
             "answer": "2022年度からマイナンバーを活用した現況確認が導入され、多くの方は現況届の提出が不要になりました。ただし、一部の方（離婚調停中の方等）は引き続き提出が必要なため、案内が届いた方は必ず提出してください。"
           }
         ],
-        "estimated_time": "",
+        "estimated_time": null,
         "related_articles": [
           "birth-registration",
           "child-medical-fee-assistance",
@@ -3969,7 +3969,7 @@
             "answer": "Since 2022, My Number linkage made the annual report unnecessary for most. However, if you receive a notification (e.g. going through divorce), you must submit it."
           }
         ],
-        "estimated_time": "",
+        "estimated_time": null,
         "related_articles": [
           "birth-registration",
           "child-medical-fee-assistance",
@@ -4053,7 +4053,7 @@
             "answer": "Para a maioria não é mais necessário desde 2022 graças ao My Number. Se receber um aviso, deverá enviá-lo."
           }
         ],
-        "estimated_time": "",
+        "estimated_time": null,
         "related_articles": [
           "birth-registration",
           "child-medical-fee-assistance",
