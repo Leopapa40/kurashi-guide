@@ -7415,8 +7415,8 @@
     "locales": {
       "ja": {
         "title": "妊娠届・母子手帳の交付",
-        "easy_explanation": "## 妊娠がわかったら\n病院で妊娠が確定したら、なるべく早く市役所で妊娠の届出を行い、母子健康手帳を受け取ってください。\n母子手帳は、お母さんと赤ちゃんの健康状態を記録する大切な手帳です。\nまた、妊婦健康診査費用の補助券なども一緒に交付されます。\n\n## 手続き場所\n市役所本庁舎の健康づくり課、または各行政センター・サービスセンターで受け付けています。\n\n## 必要なもの\n- 妊娠届出書（病院でもらえることがあります）\n- マイナンバーカードなどの本人確認書類",
-        "bottom_line": "妊娠が確定したら、市役所で妊娠届を提出し、母子健康手帳と妊婦健診の補助券を受け取ってください。",
+        "easy_explanation": "## 妊娠がわかったら\n病院で妊娠が確定したら、母子健康手帳アプリ「OTAすくすく手帳」で事前に予約を行い、保健センターで妊娠の届出・母子健康手帳の交付を受けてください。\n母子健康手帳は、お母さんと赤ちゃんの健康状態を記録する大切な手帳です。妊婦健康診査費用の補助券なども一緒に交付されます。\n\n## 手続き場所\n太田市保健センター、または新田保健センターで交付します。\n\n## 必要なもの\n- 妊娠届出書（医療機関などで交付されたもの）\n- マイナンバーが分かるもの（個人番号カードまたは通知カード）\n- 本人確認書類（運転免許証、在留カードなど）",
+        "bottom_line": "妊娠が確定したら、アプリで事前予約のうえ、保健センターで妊娠届を提出し、母子健康手帳などを受け取ってください。",
         "amount_info": null,
         "target_audience": [
           "妊娠された方"
@@ -7446,69 +7446,51 @@
         "five_w1h": {
           "who": "太田市に住民票がある妊娠した方",
           "what": "妊娠届の提出と母子健康手帳の交付",
-          "when": "妊娠がわかったらできるだけ早く（目安: 妊娠11週頃まで）",
-          "where": "市役所1階こども健康課、または各行政センター（オンライン申請も可）",
+          "when": "妊娠がわかったらできるだけ早く",
+          "where": "太田市保健センター、または新田保健センター",
           "why": "妊婦健診の補助券（受診票）の交付を受けるため。母子の健康管理の起点",
-          "how": "妊娠届出書に医師・助産師の証明を記入し、こども健康課へ持参または郵送"
+          "how": "母子健康手帳アプリ「OTAすくすく手帳」で前日までに予約の上、窓口へ持参"
         },
         "checklist": [
           {
             "item": "妊娠届出書",
-            "note": "市役所こども家庭センター・各行政センター・産婦人科で入手可",
+            "note": "医療機関などで交付されたもの",
             "required": true
           },
           {
-            "item": "妊娠が確認できる書類（産婦人科の診断書等）",
-            "note": "病院からの書類がなくても届出は可能だが、持参すると手続きがスムーズ",
-            "required": false
+            "item": "マイナンバーが分かるもの",
+            "note": "個人番号カードまたは通知カード",
+            "required": true
           },
           {
-            "item": "本人確認書類（マイナンバーカード・運転免許証等）",
-            "note": "顔写真付きのもの1点",
+            "item": "本人確認書類",
+            "note": "運転免許証、在留カードなど",
             "required": true
           }
         ],
         "form_guide": {
           "form_name": "妊娠届出書",
-          "fields": [
-            {
-              "field_name": "妊娠週数",
-              "how_to_fill": "届出時点の妊娠週数を記入",
-              "example": "8週",
-              "note": "産婦人科で確認してから届出すると正確"
-            },
-            {
-              "field_name": "出産予定日",
-              "how_to_fill": "産婦人科で告げられた予定日を記入",
-              "example": "令和7年12月1日",
-              "note": "未定の場合は「未定」と記入"
-            }
-          ],
+          "fields": [],
           "tips": [
-            "届出後に母子健康手帳と妊婦健康診査補助券が交付される",
-            "妊婦健診は14回分の補助券あり。必ず交付を受けてから受診を",
-            "オンライン届出にも対応している場合あり（太田市に要確認）"
+            "交付は予約制です。希望日の前日までにアプリ「OTAすくすく手帳」から予約してください",
+            "交付には1時間から1時間半かかりますので、お時間に余裕をもってお越しください"
           ]
         },
         "faq": [
           {
             "question": "妊娠届はいつ出せばよいですか？",
-            "answer": "妊娠が分かったらできるだけ早く（目安として妊娠11週頃まで）届け出ることが推奨されています。届け出ると母子健康手帳が交付され、妊婦健診の補助券なども受け取れます。"
+            "answer": "妊娠に気づいたら速やかに医療機関などで妊娠の診断を受け、できるだけ早く届け出を行ってください。"
           },
           {
             "question": "妊娠届に必要な書類は何ですか？",
-            "answer": "医療機関が発行した「妊娠届出書」（妊娠確認書）が基本です。本人確認書類（マイナンバーカード等）も持参してください。代理人が届け出る場合は委任状が必要です。"
+            "answer": "医療機関で交付された「妊娠届出書」、マイナンバーが分かるもの、運転免許証などの本人確認書類が必要です。"
           },
           {
-            "question": "母子健康手帳はどこでもらえますか？",
-            "answer": "妊娠届を提出した市役所または保健センター窓口でその場で交付されます。母子健康手帳は妊婦健診・出産・乳幼児健診・予防接種など子どもが就学するまでの記録に使用します。"
-          },
-          {
-            "question": "里帰り出産の場合、手続きはどうすればよいですか？",
-            "answer": "妊娠届は太田市（住所地）で行い、母子手帳を受け取ります。里帰り先での妊婦健診費用は、太田市の補助券が使えない場合があります。その場合は自己負担分を太田市に申請して一部償還（払い戻し）を受けられます。"
+            "question": "手続きにはどのくらい時間がかかりますか？",
+            "answer": "妊娠・出産に関する相談や母子保健サービスのご案内を行うため、交付には1時間から1時間半かかります。"
           }
         ],
-        "estimated_time": "窓口で約20〜30分（母子手帳交付・保健師面談含む）",
+        "estimated_time": "1時間〜1時間半（予約制）",
         "related_articles": [
           "birth-allowance",
           "birth-registration",
@@ -7518,9 +7500,9 @@
         ]
       },
       "en": {
-        "title": "Pregnancy Notification and Maternal and Child Health Handbook",
-        "easy_explanation": "## When You Find Out You Are Pregnant\nOnce your pregnancy is confirmed at a hospital, please submit a pregnancy notification to the City Hall as soon as possible and receive your Maternal and Child Health Handbook.\nThe Maternal and Child Health Handbook is an important booklet that records the health status of you and your baby.\nYou will also receive subsidy coupons for pregnancy health checkups.\n\n## Where to Apply\nYou can apply at the Health Promotion Division in the main building of the City Hall, or at each Administrative Center or Service Center.\n\n## What You Need\n- Pregnancy Notification Form (sometimes provided by the hospital)\n- Identification such as your My Number Card",
-        "bottom_line": "Once your pregnancy is confirmed, submit a pregnancy notification to the City Hall to receive your Maternal and Child Health Handbook and subsidy coupons for health checkups.",
+        "title": "Pregnancy Notification / Maternal and Child Health Handbook",
+        "easy_explanation": "## When You Find Out You're Pregnant\nOnce your pregnancy is confirmed at a hospital, please make an advance reservation using the app 'OTA Sukusuku Techo' and visit the Health Center to submit your pregnancy notification and receive your Maternal and Child Health Handbook.\nThis handbook is important for recording the health of the mother and child. Pregnancy health checkup vouchers will also be issued.\n\n## Location\nOta City Health Center or Nitta Health Center.\n\n## What to Bring\n- Pregnancy Notification Form (issued by a medical institution)\n- My Number document (My Number Card or Notification Card)\n- ID (Driver's License, Residence Card, etc.)",
+        "bottom_line": "Once your pregnancy is confirmed, make a reservation via the app and visit the Health Center to submit your notification and receive your handbook.",
         "amount_info": null,
         "target_audience": [
           "Pregnant women"
@@ -7529,48 +7511,51 @@
         "five_w1h": {
           "who": "Pregnant women who are registered residents of Ota City",
           "what": "Submission of pregnancy notification and issuance of Maternal and Child Health Handbook",
-          "when": "As soon as possible after pregnancy is confirmed (guide: around the 11th week of pregnancy)",
-          "where": "Children and Health Division on the 1st floor of the City Hall, or at each Administrative Center (online application also available)",
+          "when": "As soon as possible after pregnancy is confirmed",
+          "where": "Ota City Health Center or Nitta Health Center",
           "why": "To receive subsidy coupons for pregnancy health checkups and to manage the health of the mother and child",
-          "how": "Bring or mail the Pregnancy Notification Form with the doctor's/midwife's certificate to the Children and Health Division"
+          "how": "Reserve via the app 'OTA Sukusuku Techo' by the day before, and bring documents to the counter"
         },
         "checklist": [
           {
-            "item": "Pregnancy Notification Form (妊娠届出書)",
-            "note": "Available at the City Hall Children and Family Center, Administrative Centers, or obstetrics and gynecology clinics",
+            "item": "Pregnancy Notification Form",
+            "note": "Issued by a medical institution",
             "required": true
           },
           {
-            "item": "Document confirming pregnancy such as a medical certificate (妊娠が確認できる書類)",
-            "note": "Notification is possible without a document from the hospital, but bringing one makes the process smoother",
-            "required": false
+            "item": "My Number document",
+            "note": "My Number Card or Notification Card",
+            "required": true
           },
           {
-            "item": "Identification document such as My Number Card or driver's license (本人確認書類)",
-            "note": "One item with a facial photo",
+            "item": "Identification",
+            "note": "Driver's License, Residence Card, etc.",
             "required": true
           }
         ],
-        "form_guide": null,
+        "form_guide": {
+          "form_name": "Pregnancy Notification Form",
+          "fields": [],
+          "tips": [
+            "Issuance is by reservation only. Reserve via the app by the day before.",
+            "The procedure takes 1 to 1.5 hours, so please allow plenty of time."
+          ]
+        },
         "faq": [
           {
             "question": "When should I submit the pregnancy notification?",
-            "answer": "It is recommended to submit it as soon as possible after confirming your pregnancy (guide: around the 11th week of pregnancy). Upon submission, you will receive the Maternal and Child Health Handbook and subsidy coupons for health checkups."
+            "answer": "Please get a medical diagnosis as soon as you realize you are pregnant and submit the notification as early as possible."
           },
           {
-            "question": "What documents are needed for the pregnancy notification?",
-            "answer": "The basic requirement is the 'Pregnancy Notification Form' issued by a medical institution. Please also bring identification (such as your My Number Card). If a proxy is applying, a power of attorney is required."
+            "question": "What documents are required?",
+            "answer": "The Pregnancy Notification Form issued by a medical institution, a My Number document, and identification."
           },
           {
-            "question": "Where can I get the Maternal and Child Health Handbook?",
-            "answer": "It will be issued on the spot at the City Hall or Health Center where you submit your pregnancy notification. The handbook is used to record pregnancy checkups, childbirth, infant health checkups, vaccinations, etc., until the child starts school."
-          },
-          {
-            "question": "What is the procedure if I return to my hometown for childbirth?",
-            "answer": "Submit the pregnancy notification in Ota City (your registered address) and receive the handbook there. Subsidy coupons from Ota City may not be usable for health checkups in your hometown. In that case, you can apply to Ota City for reimbursement of the out-of-pocket expenses."
+            "question": "How long does the procedure take?",
+            "answer": "It takes 1 to 1.5 hours because it includes guidance on maternal and child health services."
           }
         ],
-        "estimated_time": "About 20-30 minutes at the counter (including handbook issuance and public health nurse interview)",
+        "estimated_time": "1 to 1.5 hours (Reservation required)",
         "related_articles": [
           "birth-allowance",
           "birth-registration",
@@ -7580,9 +7565,9 @@
         ]
       },
       "pt": {
-        "title": "Notificação de Gravidez e Caderneta de Saúde Materno-Infantil",
-        "easy_explanation": "## Quando Descobrir que Está Grávida\nAssim que a gravidez for confirmada no hospital, apresente a notificação de gravidez na Prefeitura o mais rápido possível e receba a sua Caderneta de Saúde Materno-Infantil.\nA Caderneta de Saúde Materno-Infantil é um livreto importante que registra o estado de saúde seu e do seu bebê.\nVocê também receberá cupons de subsídio para os exames de saúde da gravidez.\n\n## Onde Solicitar\nVocê pode solicitar na Divisão de Promoção da Saúde no prédio principal da Prefeitura, ou em cada Centro Administrativo ou Centro de Serviços.\n\n## O que Você Precisa\n- Formulário de Notificação de Gravidez (às vezes fornecido pelo hospital)\n- Documento de identificação como o Cartão My Number",
-        "bottom_line": "Assim que a gravidez for confirmada, apresente a notificação na Prefeitura para receber a Caderneta de Saúde Materno-Infantil e os cupons de subsídio para exames médicos.",
+        "title": "Notificação de Gravidez / Caderneta de Saúde Materno-Infantil",
+        "easy_explanation": "## Quando Confirmar a Gravidez\nAo confirmar a gravidez no hospital, faça uma reserva antecipada pelo aplicativo 'OTA Sukusuku Techo' e visite o Centro de Saúde para enviar a notificação e receber a Caderneta de Saúde Materno-Infantil.\nEsta caderneta é importante para registrar a saúde da mãe e da criança. Cupons de exames de saúde para gestantes também serão emitidos.\n\n## Local\nCentro de Saúde de Ota ou Centro de Saúde de Nitta.\n\n## O que trazer\n- Formulário de Notificação de Gravidez (emitido por instituição médica)\n- Documento do My Number (My Number Card ou Cartão de Notificação)\n- Documento de identidade (Carteira de Motorista, Zairyu Card, etc.)",
+        "bottom_line": "Após confirmar a gravidez, faça uma reserva pelo aplicativo e vá ao Centro de Saúde para enviar a notificação e receber a caderneta.",
         "amount_info": null,
         "target_audience": [
           "Mulheres grávidas"
@@ -7591,48 +7576,51 @@
         "five_w1h": {
           "who": "Mulheres grávidas que são residentes registradas na Cidade de Ota",
           "what": "Apresentação da notificação de gravidez e emissão da Caderneta de Saúde Materno-Infantil",
-          "when": "O mais rápido possível após a confirmação da gravidez (guia: por volta da 11ª semana de gravidez)",
-          "where": "Divisão de Crianças e Saúde no 1º andar da Prefeitura, ou em cada Centro Administrativo (inscrição online também disponível)",
+          "when": "O mais rápido possível após a confirmação da gravidez",
+          "where": "Centro de Saúde de Ota ou Centro de Saúde de Nitta",
           "why": "Para receber os cupons de subsídio para exames de saúde da gravidez e gerenciar a saúde da mãe e do filho",
-          "how": "Leve ou envie pelo correio o Formulário de Notificação de Gravidez com o certificado do médico/parteira para a Divisão de Crianças e Saúde"
+          "how": "Reserve pelo aplicativo 'OTA Sukusuku Techo' até o dia anterior e leve os documentos ao balcão"
         },
         "checklist": [
           {
-            "item": "Formulário de Notificação de Gravidez (妊娠届出書)",
-            "note": "Disponível no Centro de Crianças e Famílias da Prefeitura, Centros Administrativos ou clínicas de obstetrícia e ginecologia",
+            "item": "Formulário de Notificação de Gravidez",
+            "note": "Emitido por instituição médica",
             "required": true
           },
           {
-            "item": "Documento que confirme a gravidez, como um atestado médico (妊娠が確認できる書類)",
-            "note": "A notificação é possível sem um documento do hospital, mas trazê-lo torna o processo mais tranquilo",
-            "required": false
+            "item": "Documento do My Number",
+            "note": "My Number Card ou Cartão de Notificação",
+            "required": true
           },
           {
-            "item": "Documento de identificação, como Cartão My Number ou carteira de motorista (本人確認書類)",
-            "note": "Um item com foto de rosto",
+            "item": "Documento de identidade",
+            "note": "Carteira de Motorista, Zairyu Card, etc.",
             "required": true
           }
         ],
-        "form_guide": null,
+        "form_guide": {
+          "form_name": "Formulário de Notificação de Gravidez",
+          "fields": [],
+          "tips": [
+            "O atendimento é apenas com reserva. Reserve pelo aplicativo até o dia anterior.",
+            "O procedimento leva de 1 a 1,5 horas, por favor reserve tempo suficiente."
+          ]
+        },
         "faq": [
           {
-            "question": "Quando devo apresentar a notificação de gravidez?",
-            "answer": "Recomenda-se apresentar o mais rápido possível após a confirmação da gravidez (guia: por volta da 11ª semana de gravidez). Após a apresentação, você receberá a Caderneta de Saúde Materno-Infantil e cupons de subsídio para exames de saúde."
+            "question": "Quando devo enviar a notificação?",
+            "answer": "Procure um médico assim que suspeitar da gravidez e envie a notificação o mais rápido possível."
           },
           {
-            "question": "Quais documentos são necessários para a notificação de gravidez?",
-            "answer": "O requisito básico é o 'Formulário de Notificação de Gravidez' emitido por uma instituição médica. Por favor, traga também a identificação (como o seu Cartão My Number). Se um procurador estiver solicitando, é necessária uma procuração."
+            "question": "Quais documentos são necessários?",
+            "answer": "O formulário de notificação emitido pelo hospital, documento do My Number e documento de identidade."
           },
           {
-            "question": "Onde posso obter a Caderneta de Saúde Materno-Infantil?",
-            "answer": "Ela será emitida na hora na Prefeitura ou Centro de Saúde onde você apresentar sua notificação de gravidez. A caderneta é usada para registrar exames de gravidez, parto, exames de saúde infantil, vacinações, etc., até a criança começar a escola."
-          },
-          {
-            "question": "Qual é o procedimento se eu voltar para minha cidade natal para o parto?",
-            "answer": "Apresente a notificação de gravidez na Cidade de Ota (seu endereço registrado) e receba a caderneta lá. Os cupons de subsídio da Cidade de Ota podem não ser utilizáveis para exames de saúde na sua cidade natal. Nesse caso, você pode solicitar à Cidade de Ota o reembolso das despesas do próprio bolso."
+            "question": "Quanto tempo demora o procedimento?",
+            "answer": "Leva de 1 a 1,5 horas, pois inclui orientações sobre os serviços de saúde materno-infantil."
           }
         ],
-        "estimated_time": "Cerca de 20 a 30 minutos no balcão (incluindo emissão da caderneta e entrevista com enfermeira de saúde pública)",
+        "estimated_time": "1 a 1,5 horas (Requer reserva)",
         "related_articles": [
           "birth-allowance",
           "birth-registration",
