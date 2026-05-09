@@ -1,5 +1,19 @@
 ---
-// / → /ja/ へリダイレクト
+// / → /ja/ へ 301 リダイレクト
+// メタリフレッシュではなく正規の HTML + canonical で GSC の HTTPS 評価を通す
+const canonicalUrl = 'https://kurashiguide.org/ja/';
 ---
-<meta http-equiv="refresh" content="0; url=/ja/" />
-<script>window.location.replace('/ja/')</script>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>Kurashi Guide — くらしガイド</title>
+  <meta name="description" content="太田市の行政情報をAIがわかりやすく解説。補助金・届出・保険・子育て情報を日本語・英語・ポルトガル語で。" />
+  <link rel="canonical" href={canonicalUrl} />
+  <meta http-equiv="refresh" content="0; url=/ja/" />
+</head>
+<body>
+  <p>Redirecting to <a href="/ja/">日本語版</a>...</p>
+  <script>window.location.replace('/ja/')</script>
+</body>
+</html>
