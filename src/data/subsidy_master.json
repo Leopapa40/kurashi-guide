@@ -3780,11 +3780,11 @@
     "locales": {
       "ja": {
         "title": "児童手当（子育て世帯への給付金）",
-        "easy_explanation": "## 申請を忘れるともらえません！出産・引越し後はすぐ市役所へ\n\n中学校を卒業するまでの子どもを育てている家庭に、毎月支給される国のお金（手当）です。太田市で手続きをすることで受け取ることができます。\n\n### 💰 いくらもらえるの？\n子ども1人につき、毎月以下の金額がもらえます。（支給は年3回にまとめて振り込まれます）\n*   0歳〜3歳未満：15,000円\n*   3歳〜小学生：10,000円（※3人目以降の子どもは15,000円）\n*   中学生：10,000円\n*(※親の収入が多い場合は、金額が5,000円になったり、もらえなかったりする制限があります)*\n\n### ⚠️ 絶対に守るべき注意点（15日ルール）\n*   子どもが生まれた日、または太田市に引っ越してきた日の翌日から数えて「15日以内」に申請してください。\n*   この期限を過ぎてしまうと、過ぎた月のお金は「さかのぼってもらうことができない」ため、大損してしまいます！\n\n### 📝 必要な持ち物\n1.  保護者の健康保険証のコピー\n2.  保護者名義の銀行口座の通帳またはキャッシュカード\n3.  マイナンバーカード（保護者と配偶者の分）",
-        "bottom_line": "中学生までの子どもがいる家庭がもらえるお金です。子どもが生まれた時や引っ越して来た時は「15日以内」に申請しないともらい損ねるので超注意！",
-        "amount_info": "月1.5万〜1万円",
+        "easy_explanation": "## 申請を忘れるともらえません！出産・引越し後はすぐ市役所へ\n\n高校生年代まで（18歳の誕生日後の最初の3月31日まで）の子どもを育てている家庭に、毎月支給される国のお金（手当）です。太田市で手続きをすることで受け取ることができます。\n\n### 💰 いくらもらえるの？\n子ども1人につき、毎月以下の金額がもらえます。（支給は年6回、偶数月の10日に振り込まれます）\n*   0歳〜3歳未満：15,000円\n*   3歳〜高校生年代：10,000円（※第3子以降は30,000円）\n*(※2024年10月の制度改正により所得制限は撤廃されました)*\n\n### ⚠️ 絶対に守るべき注意点（15日ルール）\n*   子どもが生まれた日、または太田市に引っ越してきた日の翌日から数えて「15日以内」に申請してください。\n*   この期限を過ぎてしまうと、過ぎた月のお金は「さかのぼってもらうことができない」ため、大損してしまいます！\n\n### 📝 必要な持ち物\n1.  保護者の健康保険証のコピー\n2.  保護者名義の銀行口座の通帳またはキャッシュカード\n3.  マイナンバーカード（保護者と配偶者の分）",
+        "bottom_line": "高校生年代までの子どもがいる家庭がもらえるお金です。子どもが生まれた時や引っ越して来た時は「15日以内」に申請しないともらい損ねるので超注意！",
+        "amount_info": "月3万〜1万円",
         "target_audience": [
-          "太田市にお住まいで、中学生以下のお子さんを育てている方",
+          "太田市にお住まいで、高校生年代以下のお子さんを育てている方",
           "最近お子さんが生まれた方、太田市に引っ越してきた子育て世帯"
         ],
         "term_explanations": [
@@ -3806,17 +3806,17 @@
           }
         ],
         "five_w1h": {
-          "who": "中学校修了前（15歳の年度末まで）の子どもを養育している保護者（所得制限なし）",
-          "what": "児童手当の認定請求・現況届（中学生以下の子ども1人あたり月1〜1.5万円）",
+          "who": "高校生年代（18歳の年度末まで）の子どもを養育している保護者（所得制限なし）",
+          "what": "児童手当の認定請求（高校生年代以下の子ども1人あたり月1〜3万円）",
           "when": "出生・転入等の翌日から15日以内に請求すること（遅れると支給が翌月以降になる）",
-          "where": "市役所2階こども課（転入の場合は住民票異動手続き後に申請）",
+          "where": "こども課",
           "why": "次世代育成支援のため、子育て家庭の経済的負担を軽減する制度",
-          "how": "認定請求書に健康保険証・振込先口座を添えてこども課へ提出。毎年6月に現況届の提出が必要"
+          "how": "認定請求書に健康保険証・振込先口座を添えてこども課へ提出"
         },
         "checklist": [
           {
             "item": "児童手当認定請求書",
-            "note": "太田市子育て支援課またはマイナポータルで入手",
+            "note": "こども課窓口、または太田市公式ページからダウンロード",
             "required": true
           },
           {
@@ -3864,13 +3864,13 @@
           "tips": [
             "出生・転入の場合は出生日・転入日から15日以内に申請すること（遅れると受給開始が翌月になる）",
             "公務員は勤務先で手続き（市役所ではなく職場に申請）",
-            "毎年6月に現況届の提出が必要（マイナンバー連携済みの場合は省略可）"
+            "現況届は原則提出不要（案内が届いた一部の方のみ提出）"
           ]
         },
         "faq": [
           {
             "question": "児童手当はいくらもらえますか？",
-            "answer": "3歳未満は月1万5千円、3歳〜中学校修了前は月1万円（第3子以降は月1万5千円）が基本です。所得制限内であることが条件です（2024年10月から所得制限が撤廃される法改正あり）。"
+            "answer": "3歳未満は月15,000円、3歳〜高校生年代は月10,000円（第3子以降は月30,000円）です。2024年10月の制度改正により所得制限は撤廃されました。"
           },
           {
             "question": "児童手当の申請期限はありますか？",
@@ -3885,7 +3885,7 @@
             "answer": "2022年度からマイナンバーを活用した現況確認が導入され、多くの方は現況届の提出が不要になりました。ただし、一部の方（離婚調停中の方等）は引き続き提出が必要なため、案内が届いた方は必ず提出してください。"
           }
         ],
-        "estimated_time": "窓口で約20分（出生届と同日申請の場合はさらに10分程度追加）",
+        "estimated_time": "",
         "related_articles": [
           "birth-registration",
           "child-medical-fee-assistance",
@@ -3895,25 +3895,25 @@
       },
       "en": {
         "title": "Child Allowance (Jido Teate)",
-        "easy_explanation": "## Apply immediately after birth or moving! Do not forget!\n\nThis is a monthly allowance provided to families raising children up to junior high school age (15 years old). You must apply at Ota City Hall to receive it.\n\n### 💰 How much will you get?\nPer child, per month (paid in lump sums 3 times a year):\n*   Under 3 years old: 15,000 yen\n*   3 years old to elementary school: 10,000 yen (15,000 yen for the 3rd child onwards)\n*   Junior high school: 10,000 yen\n*(Income limits apply. High-income earners may receive 5,000 yen or zero.)*\n\n### ⚠️ Strict 15-Day Rule\n*   You MUST apply within 15 days of your child's birth or moving to Ota City.\n*   If you apply late, you cannot get back the money for the months you missed!\n\n### 📝 What you need\n1.  Applicant's Health Insurance Card\n2.  Applicant's Bank account book (for the money transfer)\n3.  My Number Card",
-        "bottom_line": "Monthly financial support for children up to age 15. You MUST apply within 15 days of birth or moving in, otherwise you will lose money!",
-        "amount_info": "15,000 to 10,000 yen per month",
+        "easy_explanation": "## If you forget to apply, you won't receive it! Go to the City Hall immediately after childbirth or moving\n\nThis is a national allowance paid monthly to households raising children up to high school age (until the first March 31st after their 18th birthday). You can receive it by completing the procedures in Ota City.\n\n### 💰 How much will I receive?\nYou will receive the following amounts per month for each child. (Payments are made 6 times a year, on the 10th of even-numbered months)\n*   0 to under 3 years old: 15,000 yen\n*   3 years old to high school age: 10,000 yen (*30,000 yen for the 3rd child and onwards)\n*(※The income limit was abolished due to system revision in October 2024)*\n\n### ⚠️ Important rule to follow (15-day rule)\n*   Please apply within 15 days from the day after the child is born or the day you move to Ota City.\n*   If you miss this deadline, you will not be able to receive the money retroactively for the past months, so you will lose money!\n\n### 📝 What you need to bring\n1.  Copy of guardian's health insurance card\n2.  Guardian's bank passbook or cash card\n3.  My Number Card (for both guardian and spouse)",
+        "bottom_line": "This is money for households with children up to high school age. If you don't apply within 15 days of childbirth or moving, you will miss out, so be very careful!",
+        "amount_info": "10,000 to 30,000 yen/month",
         "target_audience": [
-          "Families with children up to junior high school age living in Ota City"
+          "Those living in Ota City raising children of high school age or younger"
         ],
         "term_explanations": [],
         "five_w1h": {
-          "who": "Guardians raising children up to junior high school completion (no income limit)",
-          "what": "Child Allowance application/status report (10k-15k yen per month per child)",
+          "who": "Guardians raising children up to high school age (end of the fiscal year of age 18) (No income limit)",
+          "what": "Application for Child Allowance (10,000 to 30,000 yen per month per child up to high school age)",
           "when": "Within 15 days from the day after birth/move-in (late applications lose retroactivity)",
-          "where": "City Hall 2F Children's Division (after resident registration if moving in)",
+          "where": "Children's Affairs Division (Kodomo-ka)",
           "why": "To reduce financial burden on families raising children",
-          "how": "Submit application with health insurance card and bank details. Annual report in June."
+          "how": "Submit the application form with health insurance card and bank account info to the Children's Affairs Division."
         },
         "checklist": [
           {
             "item": "Child Allowance Application Form (児童手当認定請求書)",
-            "note": "Available at Child Care Support Division or Myna Portal",
+            "note": "Available at the Children's Affairs Division counter or download from the Ota City official website",
             "required": true
           },
           {
@@ -3942,11 +3942,19 @@
             "required": false
           }
         ],
-        "form_guide": null,
+        "form_guide": {
+          "form_name": "Child Allowance Application",
+          "fields": [],
+          "tips": [
+            "In case of birth or moving in, apply within 15 days from the date of birth or moving in (if delayed, payment will start the following month).",
+            "Public servants must apply at their workplace (not at the city hall).",
+            "Current status report is generally not required (only required for some who receive a notice)."
+          ]
+        },
         "faq": [
           {
             "question": "How much Child Allowance can I get?",
-            "answer": "Basic amount is 15,000 yen/month for under 3s, and 10,000 yen/month for ages 3 to junior high completion (15,000 yen for 3rd child+). From Oct 2024, income limits are abolished."
+            "answer": "The basic amount is 15,000 yen for under 3 years old, and 10,000 yen for 3 years old to high school age (30,000 yen for the 3rd child and onwards). The income limit was abolished by system revision in October 2024."
           },
           {
             "question": "Is there a deadline?",
@@ -3961,7 +3969,7 @@
             "answer": "Since 2022, My Number linkage made the annual report unnecessary for most. However, if you receive a notification (e.g. going through divorce), you must submit it."
           }
         ],
-        "estimated_time": "About 20 mins at the counter (+10 mins if doing Birth Registration together)",
+        "estimated_time": "",
         "related_articles": [
           "birth-registration",
           "child-medical-fee-assistance",
@@ -3971,25 +3979,25 @@
       },
       "pt": {
         "title": "Auxílio Infantil (Jido Teate)",
-        "easy_explanation": "## Inscreva-se imediatamente após o nascimento ou mudança!\n\nEsta é uma mesada mensal fornecida a famílias que criam filhos até a idade do ensino fundamental (15 anos). Você deve se inscrever na Prefeitura de Ota para recebê-lo.\n\n### 💰 Quanto você vai receber?\nPor criança, por mês:\n*   Menos de 3 anos: 15.000 ienes\n*   3 anos até o ensino fundamental: 10.000 ienes (15.000 ienes para a 3ª criança em diante)\n*   Ensino médio (Junior high): 10.000 ienes\n\n### ⚠️ Regra estrita de 15 dias\n*   Você DEVE se inscrever dentro de 15 dias após o nascimento de seu filho ou mudança para a cidade de Ota.\n*   Se você se inscrever com atraso, não poderá recuperar o dinheiro dos meses que perdeu!\n\n### 📝 O que você precisa\n1.  Cartão de Seguro de Saúde do requerente\n2.  Caderneta bancária (para transferência de dinheiro)\n3.  Cartão My Number",
-        "bottom_line": "Apoio financeiro mensal para crianças até 15 anos. Você DEVE solicitar dentro de 15 dias após o nascimento ou mudança, caso contrário perderá dinheiro!",
-        "amount_info": "15.000 a 10.000 ienes por mês",
+        "easy_explanation": "## Se você esquecer de se inscrever, não receberá! Vá à Prefeitura imediatamente após o parto ou mudança\n\nEste é um subsídio nacional pago mensalmente às famílias que criam filhos até a idade do ensino médio (até o primeiro dia 31 de março após o 18º aniversário). Você pode recebê-lo prestando os procedimentos na cidade de Ota.\n\n### 💰 Quanto vou receber?\nVocê receberá os seguintes valores mensais por criança. (Os pagamentos são feitos 6 vezes ao ano, no dia 10 dos meses pares)\n*   0 a menos de 3 anos: 15.000 ienes\n*   3 anos até a idade do ensino médio: 10.000 ienes (*30.000 ienes a partir do 3º filho)\n*(※O limite de renda foi abolido pela revisão do sistema em outubro de 2024)*\n\n### ⚠️ Regra importante a seguir (regra dos 15 dias)\n*   Inscreva-se dentro de 15 dias a partir do dia seguinte ao nascimento da criança ou da data em que se mudou para Ota.\n*   Se você perder este prazo, não poderá receber o dinheiro retroativamente pelos meses passados, então você terá prejuízo!\n\n### 📝 O que é necessário levar\n1.  Cópia do cartão de seguro de saúde do responsável\n2.  Caderneta bancária ou cartão do banco em nome do responsável\n3.  Cartão My Number (do responsável e do cônjuge)",
+        "bottom_line": "Este é um dinheiro para famílias com filhos até a idade do ensino médio. Se não se inscrever em até 15 dias após o nascimento ou mudança, perderá o benefício, portanto, tenha muito cuidado!",
+        "amount_info": "10.000 a 30.000 ienes/mês",
         "target_audience": [
-          "Famílias com crianças até a idade do ensino fundamental morando na cidade de Ota"
+          "Moradores da cidade de Ota que criam filhos até a idade do ensino médio"
         ],
         "term_explanations": [],
         "five_w1h": {
-          "who": "Guardiões criando filhos até o fim do ensino fundamental II (sem limite de renda)",
-          "what": "Auxílio Infantil (10.000 a 15.000 ienes por mês por criança)",
+          "who": "Responsáveis que criam filhos até a idade do ensino médio (final do ano fiscal dos 18 anos) (Sem limite de renda)",
+          "what": "Inscrição para o Subsídio Infantil (10.000 a 30.000 ienes por mês por criança até a idade do ensino médio)",
           "when": "Em até 15 dias após o nascimento ou mudança (atraso perde direito retroativo)",
-          "where": "Prefeitura 2º Andar Divisão da Criança",
+          "where": "Divisão de Assuntos Infantis (Kodomo-ka)",
           "why": "Para reduzir o fardo financeiro das famílias com crianças",
-          "how": "Envie a inscrição com cartão de seguro e conta bancária. Relatório anual em junho."
+          "how": "Envie o formulário de inscrição com o cartão de seguro de saúde e dados bancários para a Divisão de Assuntos Infantis."
         },
         "checklist": [
           {
             "item": "Formulário de Inscrição (児童手当認定請求書)",
-            "note": "Disponível na Divisão de Apoio ou Portal Myna",
+            "note": "Disponível no balcão da Divisão de Assuntos Infantis ou download no site oficial de Ota",
             "required": true
           },
           {
@@ -4018,11 +4026,19 @@
             "required": false
           }
         ],
-        "form_guide": null,
+        "form_guide": {
+          "form_name": "Inscrição para o Subsídio Infantil",
+          "fields": [],
+          "tips": [
+            "Em caso de nascimento ou mudança, solicite dentro de 15 dias a partir da data de nascimento ou mudança (se atrasar, o pagamento iniciará no mês seguinte).",
+            "Servidores públicos devem solicitar em seu local de trabalho (não na prefeitura).",
+            "O relatório de status atual geralmente não é necessário (exigido apenas para alguns que recebem notificação)."
+          ]
+        },
         "faq": [
           {
             "question": "Quanto receberei de Auxílio Infantil?",
-            "answer": "15.000 ienes/mês para menores de 3 anos, 10.000 ienes para idades de 3 ao fim do ensino fundamental II. Sem limites de renda a partir de out/2024."
+            "answer": "O valor básico é de 15.000 ienes para menores de 3 anos e 10.000 ienes de 3 anos até a idade do ensino médio (30.000 ienes a partir do 3º filho). O limite de renda foi abolido pela revisão do sistema em outubro de 2024."
           },
           {
             "question": "Há prazo de inscrição?",
@@ -4037,7 +4053,7 @@
             "answer": "Para a maioria não é mais necessário desde 2022 graças ao My Number. Se receber um aviso, deverá enviá-lo."
           }
         ],
-        "estimated_time": "Cerca de 20 mins no balcão (+10 mins se junto ao Registro de Nascimento)",
+        "estimated_time": "",
         "related_articles": [
           "birth-registration",
           "child-medical-fee-assistance",
@@ -4061,8 +4077,8 @@
     "locales": {
       "ja": {
         "title": "国民健康保険の加入手続き",
-        "easy_explanation": "## 会社を辞めたら、忘れずに「国保」に入りましょう！\n\n日本では、全員が必ず健康保険に入らなければいけません。会社員が加入する「社会保険」を抜けた場合（退職など）は、太田市が運営する「国民健康保険（国保）」に切り替える手続きが必要です。\n\n### 🏥 どんな時に手続きが必要？\n*   会社を退職した時（社会保険をやめた時）\n*   親の扶養から外れた時（フリーターになったなど）\n*   太田市に引っ越してきて、会社の保険に入っていない時\n\n### 📝 必要な持ち物\n1.  社会保険の資格喪失証明書：前の会社でもらう「保険をやめました」という証明書です。これが無いと手続きできません。\n2.  本人確認書類：運転免許証など。\n3.  マイナンバーカード\n\n### ⚠️ 注意点（14日ルールと税金）\n*   会社を辞めてから14日以内に手続きをしてください。\n*   もし半年間手続きを忘れていて後から加入した場合、忘れていた半年分の保険税もまとめて後から請求されます（逃げることはできません）。早めに手続きをして保険証をもらいましょう！",
-        "bottom_line": "会社を辞めて社会保険を抜けたら、14日以内に市役所で国民健康保険に入る必要があります。前の会社でもらう『資格喪失証明書』を必ず持っていきましょう！",
+        "easy_explanation": "退職後は、退職翌日から14日以内に国民健康保険の加入手続きが必要です。手続きが遅れると、無保険期間中の医療費が全額自己負担になるだけでなく、さかのぼって保険税を支払わなければなりません。手続きには、会社が発行する「社会保険の資格喪失証明書」が必ず必要です。",
+        "bottom_line": "会社を辞めて社会保険を抜けたら、退職の翌日から14日以内に市役所で国民健康保険に入る必要があります。遅れると過去に遡って保険税を納めることになるため要注意です。前の会社から受け取る『資格喪失証明書』を必ず持参してください。",
         "amount_info": "手続き無料",
         "target_audience": [
           "会社を退職した方",
@@ -4096,6 +4112,10 @@
           "how": "窓口で「国保資格取得・喪失届」を提出。退職の場合は健康保険喪失証明書が必要"
         },
         "checklist": [
+          {
+            "item": "社会保険の資格喪失証明書（退職した会社から発行されます）",
+            "note": ""
+          },
           {
             "item": "国民健康保険加入申請書",
             "note": "市役所市民課・各行政センター窓口で入手",
@@ -4160,6 +4180,10 @@
           {
             "question": "他の市区町村に引越した場合はどうすればよいですか？",
             "answer": "転出と同時に太田市の国民健康保険の資格を喪失します。新住所地で14日以内に新たな国民健康保険の加入手続きが必要です。"
+          },
+          {
+            "question": "健康保険の任意継続（2年間）と国民健康保険、どちらが得ですか？",
+            "answer": "国民健康保険税は世帯人数や所得に応じて計算され、任意継続は退職前の給与に基づいて計算されます。所得が高い場合は任意継続の方が安くなることがあるため、事前に比較検討することをおすすめします。"
           }
         ],
         "estimated_time": "窓口で約20〜30分",
@@ -4178,8 +4202,8 @@
       },
       "en": {
         "title": "National Health Insurance Enrollment",
-        "easy_explanation": "## Join National Health Insurance when you leave your job!\n\nIn Japan, everyone must be enrolled in health insurance. If you quit your job and lose your company's health insurance (Shakai Hoken), you must switch to Ota City's \"National Health Insurance (Kokuho)\".\n\n### 🏥 When do you need to apply?\n*   When you quit your job and lose company insurance.\n*   When you move to Ota City and do not have company insurance.\n\n### 📝 What you need\n1.  Certificate of Loss of Insurance Qualification (Shikaku Soshitsu Shomeisho): A paper from your former company proving your insurance ended. You CANNOT apply without this.\n2.  ID Card (Residence Card, etc.)\n3.  My Number Card\n\n### ⚠️ Warning\n*   You must apply within 14 days of leaving your job.\n*   If you apply months late, you will still be billed for all the missed months retroactively. Do it quickly so you have a valid insurance card for hospitals!",
-        "bottom_line": "If you leave your job, you must join City Health Insurance within 14 days. Bring the 'Certificate of Loss of Insurance' from your old company to City Hall!",
+        "easy_explanation": "Foreign residents are also required to join the National Health Insurance if they reside in Japan. You must complete the enrollment procedures within 14 days from the day after you leave your job. If you delay, you will be responsible for the full cost of medical expenses during the uninsured period, and you will have to pay back taxes retroactively. You will strictly need the 'Certificate of Loss of Eligibility' issued by your company.",
+        "bottom_line": "If you leave your company and lose your social health insurance, you must join the National Health Insurance at the City Hall within 14 days from the day after you retire. Please make sure to bring the 'Certificate of Loss of Eligibility' (Shikaku Soshitsu Shomeisho) from your previous employer.",
         "amount_info": "No fee required",
         "target_audience": [
           "Those who quit their jobs",
@@ -4222,7 +4246,7 @@
             "required": false
           }
         ],
-        "form_guide": null,
+        "form_guide": "English guide is available here: https://www.city.ota.gunma.jp/page/1013612.html",
         "faq": [
           {
             "question": "Do I have to enroll immediately after quitting my job?",
@@ -4257,8 +4281,8 @@
       },
       "pt": {
         "title": "Inscrição no Seguro Nacional de Saúde",
-        "easy_explanation": "## Inscreva-se no Seguro de Saúde ao sair do emprego!\n\nNo Japão, todos devem estar inscritos no seguro de saúde. Se você largar o emprego e perder o seguro de saúde da sua empresa (Shakai Hoken), deverá mudar para o \"Seguro Nacional de Saúde (Kokuho)\" da cidade de Ota.\n\n### 🏥 Quando você precisa se inscrever?\n*   Quando você sai do emprego e perde o seguro da empresa.\n*   Quando você se muda para a cidade de Ota e não tem seguro de empresa.\n\n### 📝 O que você precisa\n1.  Certificado de Perda de Qualificação de Seguro (Shikaku Soshitsu Shomeisho): Um documento da sua antiga empresa provando que seu seguro terminou.\n2.  Zairyu Card\n3.  Cartão My Number\n\n### ⚠️ Aviso\n*   Você deve se inscrever dentro de 14 dias após sair do emprego.\n*   Se você se atrasar, ainda será cobrado por todos os meses perdidos retroativamente.",
-        "bottom_line": "Se você sair do emprego, deve ingressar no Seguro de Saúde da Cidade em 14 dias. Traga o 'Certificado de Perda de Seguro' da sua antiga empresa!",
+        "easy_explanation": "Residentes estrangeiros também são obrigados a ingressar no Seguro Nacional de Saúde. Você deve concluir os procedimentos de inscrição dentro de 14 dias a partir do dia seguinte ao término do emprego. Se houver atraso, você terá que arcar com o custo total das despesas médicas durante o período sem seguro e terá que pagar os impostos retroativamente. É indispensável apresentar o 'Certificado de Perda de Elegibilidade' emitido pela sua empresa.",
+        "bottom_line": "Se você sair da empresa e perder o seguro de saúde social, deverá ingressar no Seguro Nacional de Saúde na Prefeitura no prazo de 14 dias a partir do dia seguinte ao seu desligamento. Certifique-se de trazer o 'Certificado de Perda de Elegibilidade' (Shikaku Soshitsu Shomeisho) do seu empregador anterior.",
         "amount_info": "Gratuito",
         "target_audience": [
           "Aqueles que saíram do emprego",
@@ -4300,7 +4324,7 @@
             "required": false
           }
         ],
-        "form_guide": null,
+        "form_guide": "O guia em português está disponível aqui: https://www.city.ota.gunma.jp/page/1013616.html",
         "faq": [
           {
             "question": "Devo me inscrever logo após sair do emprego?",
@@ -14981,7 +15005,7 @@
     "locales": {
       "ja": {
         "title": "DV相談窓口・シェルター",
-        "easy_explanation": "📞 太田市DV電話相談（太田市配偶者暴力相談支援センター）: 0276-47-1858\n受付: 平日9時〜17時（土日祝・年末年始除く）\n緊急の場合: 110番（警察）\n全国共通DV相談ナビ: #8008\n\nあなたは悪くありません。暴力を受けているのはあなたのせいではありません。\n\n配偶者・交際相手からの身体的暴力・精神的暴力・経済的支配——これらはすべてDVです。「大したことではないかも」「子どものために我慢しなければ」と思っていても、まず相談してください。相談内容は秘密が守られます。緊急の場合は警察（110番）や女性シェルターへの避難もサポートします。",
+        "easy_explanation": "📞 太田市DV電話相談（太田市配偶者暴力相談支援センター）: 0276-47-1858\n受付: 平日9時〜17時（土日祝・年末年始除く）\n緊急の場合: 110番（警察）\n全国共通DV相談ナビ: #8008\n群馬県女性相談支援センター: 027-261-4463（DV相談・平日9〜17時、女性お悩み相談: 027-261-4466・日祝除く）\n\nあなたは悪くありません。暴力を受けているのはあなたのせいではありません。\n\n配偶者・交際相手からの身体的暴力・精神的暴力・経済的支配——これらはすべてDVです。「大したことではないかも」「子どものために我慢しなければ」と思っていても、まず相談してください。相談内容は秘密が守られます。緊急の場合は警察（110番）や女性シェルターへの避難もサポートします。",
         "bottom_line": "配偶者・交際相手からの暴力はDVです。太田市DV相談（0276-47-1858）へ。秘密厳守、無料です。",
         "amount_info": null,
         "target_audience": [
@@ -15057,7 +15081,7 @@
       },
       "en": {
         "title": "Domestic Violence (DV) Consultation",
-        "easy_explanation": "📞 Ota City DV Consultation: 0276-47-1858\n\nYou are not alone. It's not your fault.\n\nAre you suffering from violence by your spouse or partner? DV includes not only physical violence like hitting or kicking, but also emotional and financial control, such as yelling, ignoring, withholding living expenses, or restricting you from going out.\n\nPlease don't endure it alone. At Ota City's DV consultation counter, specialized counselors will prioritize your safety and provide support to help you find a solution. Consultations are free and strictly confidential. If necessary, we will coordinate with the police and shelters.",
+        "easy_explanation": "📞 Ota City DV Consultation: 0276-47-1858\n\nYou are not alone. It's not your fault.\n\nAre you suffering from violence by your spouse or partner? DV includes not only physical violence like hitting or kicking, but also emotional and financial control, such as yelling, ignoring, withholding living expenses, or restricting you from going out.\n\nPlease don't endure it alone. At Ota City's DV consultation counter, specialized counselors will prioritize your safety and provide support to help you find a solution. Consultations are free and strictly confidential. If necessary, we will coordinate with the police and shelters.\n\nDV Consultation Plus (soudanplus.jp): Online chat support available in 10 languages (12:00–22:00). You do not need to speak Japanese.",
         "bottom_line": "Violence from a spouse or partner is DV. Please call the Ota City DV Consultation (0276-47-1858). It is strictly confidential and free.",
         "amount_info": null,
         "target_audience": [
@@ -15124,7 +15148,7 @@
       },
       "pt": {
         "title": "Consulta sobre Violência Doméstica (VD)",
-        "easy_explanation": "📞 Consulta sobre VD da Cidade de Ota: 0276-47-1858\n\nVocê não está sozinho/a. Não é sua culpa.\n\nVocê está sofrendo violência do seu cônjuge ou parceiro/a? VD inclui não apenas violência física, como bater ou chutar, mas também controle emocional e financeiro, como gritar, ignorar, reter despesas de subsistência ou restringir suas saídas.\n\nPor favor, não suporte isso sozinho/a. No balcão de consulta sobre VD da Cidade de Ota, conselheiros especializados priorizarão sua segurança e fornecerão apoio para encontrar uma solução. As consultas são gratuitas e estritamente confidenciais. Se necessário, coordenaremos com a polícia e abrigos.",
+        "easy_explanation": "📞 Consulta sobre VD da Cidade de Ota: 0276-47-1858\n\nVocê não está sozinho/a. Não é sua culpa.\n\nVocê está sofrendo violência do seu cônjuge ou parceiro/a? VD inclui não apenas violência física, como bater ou chutar, mas também controle emocional e financeiro, como gritar, ignorar, reter despesas de subsistência ou restringir suas saídas.\n\nPor favor, não suporte isso sozinho/a. No balcão de consulta sobre VD da Cidade de Ota, conselheiros especializados priorizarão sua segurança e fornecerão apoio para encontrar uma solução. As consultas são gratuitas e estritamente confidenciais. Se necessário, coordenaremos com a polícia e abrigos.\n\nDV Consultation Plus (soudanplus.jp): Atendimento por chat online em 10 idiomas (12h–22h). Não é necessário falar japonês.",
         "bottom_line": "Violência de um cônjuge ou parceiro/a é VD. Ligue para a Consulta sobre VD da Cidade de Ota (0276-47-1858). É estritamente confidencial e gratuito.",
         "amount_info": null,
         "target_audience": [
@@ -15624,8 +15648,8 @@
     "locales": {
       "ja": {
         "title": "多言語相談窓口（外国人市民相談窓口）",
-        "easy_explanation": "📞 太田市国際交流協会: 0276-48-1001\n場所: 太田市役所1階（ヤマザキショップ隣）\n受付: 平日9:00〜11:30 / 13:00〜16:00\n\nYou are not alone. ひとりで抱え込まないでください。\n\n太田市役所1階に「外国人市民相談窓口」があります。ポルトガル語・スペイン語・中国語・英語・ベトナム語などで対応でき、オンライン通訳を使えば18言語以上に対応しています。税金・住まい・在留資格・出生・婚姻届など、生活に関するほとんどの相談ができます。「日本語がわからなくて困っている」という方は、まず窓口に来てください。",
-        "bottom_line": "日本語がわからなくても大丈夫。太田市役所1階の外国人市民相談窓口（0276-48-1001）で、多言語対応しています。",
+        "easy_explanation": "太田市役所1階の外国人市民相談窓口（電話: 0276-48-1001）では、日本語が苦手な方でも安心して相談できるよう、英語・ポルトガル語・スペイン語・中国語・ベトナム語などの多言語に対応しています。また、太田市が発行している多言語情報誌「太田インフォルマ（Ota Informa）」でも様々な生活情報を確認できます。",
+        "bottom_line": "日本語がわからなくても大丈夫です。太田市役所1階の外国人市民相談窓口（電話: 0276-48-1001、平日8:30〜17:15）で、多言語での相談を受け付けています。",
         "amount_info": null,
         "target_audience": [
           "太田市在住の外国人市民",
@@ -15682,6 +15706,10 @@
           {
             "question": "子供の学校についても相談できますか？",
             "answer": "はい。外国人児童の就学手続きについても相談できます。"
+          },
+          {
+            "question": "どの言語に対応していますか？",
+            "answer": "英語・ポルトガル語・スペイン語・中国語・ベトナム語などに対応しています。"
           }
         ],
         "estimated_time": "相談: 30分〜1時間",
@@ -15695,8 +15723,8 @@
       },
       "en": {
         "title": "Multilingual Consultation Center for Foreign Residents",
-        "easy_explanation": "📞 Ota City International Association: 0276-48-1001\nLocation: Ota City Hall 1F (next to Yamazaki Shop)\nHours: Weekdays 9:00–11:30 / 13:00–16:00\n\nYou are not alone. We speak your language.\n\nAt Ota City Hall (1F), there is a consultation counter for foreign residents. We can assist in Portuguese, Spanish, Chinese, English, Vietnamese, and 18+ other languages via online interpreter. We help with taxes, housing, residence status, birth registration, marriage, and more.",
-        "bottom_line": "Don't worry if you don't speak Japanese. Come to Ota City Hall 1F or call 0276-48-1001 for multilingual support.",
+        "easy_explanation": "At the Foreign Resident Consultation Desk on the 1st floor of Ota City Hall, we offer support in multiple languages including English, Portuguese, Spanish, Chinese, and Vietnamese, so you can feel at ease even if you are not fluent in Japanese. You can also find various daily life information in the multilingual newsletter 'Ota Informa' published by the city.",
+        "bottom_line": "Even if you do not understand Japanese, you can consult in multiple languages at the Foreign Resident Consultation Desk on the 1st floor of Ota City Hall (Phone: 0276-48-1001, Weekdays 8:30-17:15).",
         "amount_info": null,
         "target_audience": [
           "Foreign residents of Ota City",
@@ -15745,6 +15773,10 @@
           {
             "question": "Can I consult about my child's school enrollment?",
             "answer": "Yes. We can assist with school enrollment procedures for foreign children."
+          },
+          {
+            "question": "Which languages are supported?",
+            "answer": "We provide support in English, Portuguese, Spanish, Chinese, Vietnamese, and other languages."
           }
         ],
         "estimated_time": "30 min – 1 hour",
@@ -15758,8 +15790,8 @@
       },
       "pt": {
         "title": "Centro de Consulta Multilíngue para Estrangeiros",
-        "easy_explanation": "📞 Associação Internacional de Ota: 0276-48-1001\nLocal: Prefeitura de Ota, 1º andar (ao lado da Loja Yamazaki)\nHorário: Dias úteis 9h00–11h30 / 13h00–16h00\n\nVocê não está sozinho. Falamos o seu idioma.\n\nPara aqueles que não entendem japonês ou estão com dificuldades na vida diária, oferecemos serviços de consulta em vários idiomas. Você pode consultar sobre questões do dia a dia, trabalho, impostos e outros problemas no Japão.\n\n【Idiomas Disponíveis】\nInglês, Português, Espanhol, Chinês e outros.\n\n【Onde e Quando Consultar】\nNo Balcão de Intercâmbio Internacional da Prefeitura de Ota (1º andar)\nSegunda a sexta-feira, das 8h30 às 17h15.\n\nVocê também pode ir com documentos ou cartas do governo ou de escolas que não consegue ler, para que possamos explicar o que está escrito.",
-        "bottom_line": "Se tiver dificuldades devido ao idioma na Prefeitura ou na vida diária, você pode consultar em português no balcão da Prefeitura.",
+        "easy_explanation": "No Balcão de Consulta para Residentes Estrangeiros, no 1º andar da Prefeitura de Ota, oferecemos atendimento em vários idiomas, incluindo inglês, português, espanhol, chinês e vietnamita, para que você possa se consultar com tranquilidade, mesmo que não seja fluente em japonês. Você também pode conferir diversas informações sobre a vida cotidiana no boletim informativo multilíngue 'Ota Informa', publicado pela prefeitura.",
+        "bottom_line": "Mesmo que não entenda japonês, você pode se consultar em vários idiomas no Balcão de Consulta para Residentes Estrangeiros no 1º andar da Prefeitura de Ota (Telefone: 0276-48-1001, Dias úteis 8:30-17:15).",
         "amount_info": null,
         "target_audience": [
           "Residentes estrangeiros com dificuldades no idioma japonês"
@@ -16227,13 +16259,14 @@
     "original_text": "",
     "deadline": null,
     "situations": [
-      "job-lost"
+      "job-lost",
+      "new-job-insurance"
     ],
     "locales": {
       "ja": {
         "title": "退職したときの保険・年金手続き",
-        "easy_explanation": "会社を辞めたとき（退職・解雇など）は、健康保険と年金の手続きを退職後14日以内に行う必要があります。放置すると無保険状態になり、病院の医療費が全額自己負担になる場合があります。\n\n手続き先: 太田市役所 国民健康保険課・国民年金課（0276-47-1111）。\n\n【健康保険】退職後は①太田市の国民健康保険に加入、または②元の勤め先の保険を任意継続（最大2年）のどちらかを選べます。どちらが有利かは収入状況によって異なります。【年金】会社員が退職すると厚生年金→国民年金への切替が必要です。",
-        "bottom_line": "退職後14日以内に太田市役所で国民健康保険・国民年金の加入手続きをしてください。無保険・未加入のままにしないことが重要です。",
+        "easy_explanation": "退職から次の就職までの間は、国民健康保険と国民年金への切り替えが必要です。どちらも退職した日の翌日から14日以内に手続きを済ませる必要があります。遅れると保険税をさかのぼって納付することになり、万が一の際に給付を受けられないリスクがあります。",
+        "bottom_line": "退職後は「国民健康保険（市役所）」と「国民年金（年金事務所）」の両方の手続きが退職翌日から14日以内に必要です。無保険・未加入の状態にならないよう、速やかに手続きを行ってください。",
         "amount_info": null,
         "target_audience": [
           "退職・解雇・雇い止めになった方",
@@ -16282,6 +16315,14 @@
             "item": "マイナンバーカードまたは本人確認書類を持参",
             "note": "窓口手続きに必要",
             "required": true
+          },
+          {
+            "item": "国民健康保険の詳細案内：https://www.city.ota.gunma.jp/page/2501.html",
+            "note": ""
+          },
+          {
+            "item": "国民年金の詳細手続きについても併せてご確認ください。",
+            "note": ""
           }
         ],
         "form_guide": null,
@@ -16301,6 +16342,10 @@
           {
             "question": "失業給付（雇用保険）との関係は？",
             "answer": "国保・年金の手続きと、ハローワークでの失業給付申請は別々の手続きです。どちらも忘れずに行ってください。"
+          },
+          {
+            "question": "健康保険の任意継続（2年間）という選択肢もあります。どちらが得ですか？",
+            "answer": "任意継続は退職前の給与ベースで計算され、国保は前年所得ベースです。所得が高い場合は任意継続が有利になるケースがあるため、退職前に保険料を比較しておくことをお勧めします。"
           }
         ],
         "estimated_time": "窓口での手続き: 約30〜60分",
@@ -16314,7 +16359,7 @@
       "en": {
         "title": "Insurance and Pension Procedures upon Resignation",
         "easy_explanation": "When you quit your company (resignation, dismissal, etc.), you need to complete health insurance and pension procedures within 14 days of resigning. If left unattended, you will be uninsured, and you may have to pay the full amount of medical expenses at the hospital.\n\nWhere to apply: Ota City Hall, National Health Insurance Division / National Pension Division (0276-47-1111).\n\n[Health Insurance] After resigning, you can choose to ① join Ota City's National Health Insurance, or ② voluntarily continue your former employer's insurance (maximum 2 years). Which is more advantageous depends on your income situation. [Pension] When a company employee resigns, it is necessary to switch from Employees' Pension to National Pension.",
-        "bottom_line": "Please complete the enrollment procedures for National Health Insurance and National Pension at Ota City Hall within 14 days of resigning. It is important not to remain uninsured or unenrolled.",
+        "bottom_line": "After retiring, you must complete procedures for both 'National Health Insurance' (City Hall) and 'National Pension' (Pension Office) within 14 days. Please complete them promptly to avoid being uninsured.",
         "amount_info": null,
         "target_audience": [
           "Those who have resigned, been dismissed, or whose contract has ended",
@@ -16382,7 +16427,7 @@
       "pt": {
         "title": "Procedimentos de Seguro e Pensão por Demissão",
         "easy_explanation": "Quando você sai da sua empresa (demissão, desligamento, etc.), você precisa concluir os procedimentos de seguro de saúde e pensão dentro de 14 dias após a demissão. Se não for feito, você ficará sem seguro e poderá ter que pagar o valor total das despesas médicas no hospital.\n\nOnde solicitar: Prefeitura de Ota, Divisão de Seguro Nacional de Saúde / Divisão de Pensão Nacional (0276-47-1111).\n\n[Seguro de Saúde] Após a demissão, você pode escolher ① ingressar no Seguro Nacional de Saúde da Cidade de Ota, ou ② continuar voluntariamente o seguro do seu antigo empregador (máximo de 2 anos). Qual é mais vantajoso depende da sua situação de renda. [Pensão] Quando um funcionário da empresa se demite, é necessário mudar da Pensão dos Empregados para a Pensão Nacional.",
-        "bottom_line": "Por favor, conclua os procedimentos de inscrição para o Seguro Nacional de Saúde e a Pensão Nacional na Prefeitura de Ota dentro de 14 dias após a demissão. É importante não permanecer sem seguro ou não inscrito.",
+        "bottom_line": "Após a aposentadoria ou demissão, você deve concluir os procedimentos do 'Seguro Nacional de Saúde' (Prefeitura) e da 'Pensão Nacional' (Escritório de Pensões) em até 14 dias.",
         "amount_info": null,
         "target_audience": [
           "Aqueles que se demitiram, foram demitidos ou cujo contrato terminou",
@@ -16463,8 +16508,8 @@
     "locales": {
       "ja": {
         "title": "就職したときの保険切替（国保→社保）",
-        "easy_explanation": "就職して会社の健康保険（社会保険）に加入すると、国民健康保険を脱退する手続きが必要です。この手続きを忘れると、二重に保険料を払い続けることになります。\n\n手続き先: 太田市役所 国民健康保険課（0276-47-1111）。\n\n就職日から14日以内に市役所で国保脱退の届出をしてください。会社から発行される「健康保険被保険者証（保険証）」または「資格取得確認書」を持参します。国民年金についても、就職すると会社が厚生年金に加入させる義務があるため、自動的に第2号被保険者に切り替わります（自分での手続きは原則不要）。",
-        "bottom_line": "就職後は会社の保険証を受け取ったら、国民健康保険の脱退手続きを市役所で行ってください。忘れると保険料の二重払いが発生します。",
+        "easy_explanation": "新たに就職・転職して会社の健康保険証を受け取ったら、国民健康保険をやめる手続きを必ず行ってください。自動では切り替わりません。手続きが遅れると保険税が二重請求される原因になります。また、脱退の手続きはスマートフォンやパソコンから電子申請で行うことも可能です。",
+        "bottom_line": "就職して会社の社会保険に加入したら、14日以内に市役所で国民健康保険の『脱退手続き』が必要です。忘れると国保税と社会保険料の二重払いになってしまいます。",
         "amount_info": null,
         "target_audience": [
           "新たに就職・転職した方",
@@ -16495,22 +16540,19 @@
         },
         "checklist": [
           {
-            "item": "会社から健康保険証（または資格取得確認書）を受け取る",
-            "note": "就職日から数日〜2週間程度で発行される",
-            "required": true
+            "item": "国民健康保険の資格確認書（または資格情報のお知らせ）",
+            "note": ""
           },
           {
-            "item": "市役所で国民健康保険脱退の届出をする",
-            "note": "就職日から14日以内が目安",
-            "required": true
+            "item": "新しく加入した職場の資格確認書・保険証（資格取得日がわかるもの）",
+            "note": ""
           },
           {
-            "item": "国民健康保険証を市役所に返却",
-            "note": "脱退手続き時に持参",
-            "required": true
+            "item": "マイナンバーカード（または通知カードと写真付き本人確認書類）",
+            "note": ""
           }
         ],
-        "form_guide": null,
+        "form_guide": "電子申請での脱退手続きはこちら：https://www.city.ota.gunma.jp/page/1021757.html",
         "faq": [
           {
             "question": "お金がなくても相談できますか？",
@@ -16538,7 +16580,7 @@
       },
       "en": {
         "title": "Insurance Switch upon Employment (National to Social)",
-        "easy_explanation": "When you get a job and join a company's health insurance (social insurance), you need to complete the procedures to withdraw from National Health Insurance. If you forget this procedure, you will continue to pay double insurance premiums.\n\nWhere to apply: Ota City Hall, National Health Insurance Division (0276-47-1111).\n\nPlease submit a notification of withdrawal from National Health Insurance at the City Hall within 14 days of employment. Bring the 'Health Insurance Card' or 'Certificate of Qualification' issued by the company. Regarding the National Pension, when you get a job, the company is obligated to enroll you in the Employees' Pension, so you automatically switch to a Category 2 insured person (you generally do not need to do any procedures yourself).",
+        "easy_explanation": "If you start working and join the company health insurance, you must also cancel your National Health Insurance at the City Hall within 14 days. It does not switch automatically. If you forget to cancel, you may be billed for both insurances.",
         "bottom_line": "After getting a job and receiving your company's health insurance card, please complete the procedures to withdraw from National Health Insurance at the City Hall. If you forget, you will pay double insurance premiums.",
         "amount_info": null,
         "target_audience": [
@@ -16572,7 +16614,7 @@
             "required": true
           }
         ],
-        "form_guide": null,
+        "form_guide": "Electronic application for cancellation: https://www.city.ota.gunma.jp/page/1021757.html",
         "faq": [
           {
             "question": "Can I consult even if I have no money?",
@@ -16600,7 +16642,7 @@
       },
       "pt": {
         "title": "Troca de Seguro no Emprego (Nacional para Social)",
-        "easy_explanation": "Quando você consegue um emprego e ingressa no seguro de saúde da empresa (seguro social), precisa concluir os procedimentos para se retirar do Seguro Nacional de Saúde. Se esquecer deste procedimento, continuará a pagar prêmios de seguro em dobro.\n\nOnde solicitar: Prefeitura de Ota, Divisão de Seguro Nacional de Saúde (0276-47-1111).\n\nPor favor, envie uma notificação de retirada do Seguro Nacional de Saúde na Prefeitura dentro de 14 dias após o emprego. Traga o 'Cartão de Seguro de Saúde' ou 'Certificado de Qualificação' emitido pela empresa. Em relação à Pensão Nacional, quando você consegue um emprego, a empresa é obrigada a inscrevê-lo na Pensão dos Empregados, então você muda automaticamente para uma pessoa segurada de Categoria 2 (geralmente não precisa fazer nenhum procedimento sozinho).",
+        "easy_explanation": "Se você começar a trabalhar e ingressar no seguro de saúde da empresa, deverá cancelar o seu Seguro Nacional de Saúde na Prefeitura no prazo de 14 dias. A alteração não ocorre automaticamente. Se esquecer de cancelar, poderá ser cobrado por ambos os seguros.",
         "bottom_line": "Após conseguir um emprego e receber o cartão de seguro de saúde da sua empresa, por favor, conclua os procedimentos para se retirar do Seguro Nacional de Saúde na Prefeitura. Se esquecer, pagará prêmios de seguro em dobro.",
         "amount_info": null,
         "target_audience": [
@@ -16634,7 +16676,7 @@
             "required": true
           }
         ],
-        "form_guide": null,
+        "form_guide": "Solicitação eletrônica de cancelamento: https://www.city.ota.gunma.jp/page/1021757.html",
         "faq": [
           {
             "question": "Posso consultar mesmo se não tiver dinheiro?",
