@@ -14977,13 +14977,12 @@
     ],
     "locales": {
       "ja": {
-        "title": "DV相談窓口・シェルター",
-        "easy_explanation": "📞 太田市DV電話相談（太田市配偶者暴力相談支援センター）: 0276-47-1858\n受付: 平日9時〜17時（土日祝・年末年始除く）\n緊急の場合: 110番（警察）\n全国共通DV相談ナビ: #8008\n群馬県女性相談支援センター: 027-261-4463（DV相談・平日9〜17時、女性お悩み相談: 027-261-4466・日祝除く）\n\nあなたは悪くありません。暴力を受けているのはあなたのせいではありません。\n\n配偶者・交際相手からの身体的暴力・精神的暴力・経済的支配——これらはすべてDVです。「大したことではないかも」「子どものために我慢しなければ」と思っていても、まず相談してください。相談内容は秘密が守られます。緊急の場合は警察（110番）や女性シェルターへの避難もサポートします。",
-        "bottom_line": "配偶者・交際相手からの暴力はDVです。太田市DV相談（0276-47-1858）へ。秘密厳守、無料です。",
+        "title": "配偶者暴力（DV）に関する相談窓口",
+        "easy_explanation": "📞 太田市DV電話相談（太田市配偶者暴力相談支援センター）: 0276-47-1858\n受付: 平日9時〜17時（土日祝・年末年始除く）\n緊急の場合: 110番（警察）\n全国共通DV相談ナビ: #8008\n群馬県女性相談支援センター: 027-261-4463（DV相談・平日9〜17時、女性お悩み相談: 027-261-4466・日祝除く）\n\nあなたは悪くありません。暴力を受けているのはあなたのせいではありません。\n\n配偶者・交際相手からの身体的暴力・精神的暴力・経済的支配——これらはすべてDVです。「大したことではないかも」「子どものために我慢しなければ」と思っていても、まず相談してください。緊急の場合は警察（110番）へ相談してください。",
+        "bottom_line": "配偶者・交際相手からの暴力はDVです。一人で我慢せず、太田市DV相談（0276-47-1858）や警察（110番）へ相談してください。",
         "amount_info": null,
         "target_audience": [
-          "配偶者・交際相手から暴力を受けている方",
-          "DV被害が疑われる方の支援者・知人"
+          "配偶者・交際相手から暴力を受けている方"
         ],
         "term_explanations": [
           {
@@ -14992,35 +14991,26 @@
           },
           {
             "term": "配偶者暴力相談支援センター（はいぐうしゃぼうりょくそうだんしえんセンター）",
-            "explanation": "DV被害者の相談・保護・自立支援を行う機関。太田市は市役所内に設置。"
-          },
-          {
-            "term": "シェルター（避難所）",
-            "explanation": "DV被害者が身を隠して安全に過ごすための施設。住所は非公開。"
+            "explanation": "DV被害者の相談・保護・自立支援を行う機関。"
           }
         ],
         "five_w1h": {
           "who": "配偶者・交際相手から暴力・精神的虐待を受けている方（性別問わず）",
-          "what": "電話相談、面接相談、一時保護（シェルター）への紹介、自立支援",
+          "what": "電話相談、面接相談、各種専門機関への紹介、自立支援等",
           "when": "平日9時〜17時（電話相談）。緊急時は110番または#8008（24時間）",
-          "where": "太田市役所 女性推進課または配偶者暴力相談支援センター",
+          "where": "太田市役所 市民そうだん課 または配偶者暴力相談支援センター",
           "why": "DVは犯罪であり、被害者が一人で抱え込まず安全を確保するため",
-          "how": "電話 → 相談員が状況を聞く → 必要に応じてシェルター紹介・法的手続きサポート"
+          "how": "電話 → 相談員が状況を聞く → 必要に応じて各種専門機関を紹介"
         },
         "checklist": [
           {
             "item": "まず電話で相談する（0276-47-1858）",
-            "note": "秘密は守られます",
+            "note": "受付時間内に電話",
             "required": true
           },
           {
             "item": "緊急の場合は110番",
             "note": "今すぐ危険な場合",
-            "required": false
-          },
-          {
-            "item": "通帳・印鑑・保険証・着替えを準備できればしておく",
-            "note": "緊急避難時に持ち出すもの",
             "required": false
           }
         ],
@@ -15032,18 +15022,14 @@
           },
           {
             "question": "外国語で相談できますか？",
-            "answer": "通訳が付く場合があります。まずお電話ください。DVホットラインは多言語対応あり。"
+            "answer": "DV相談＋（プラス）のSNS（チャット）相談は10か国語に対応しています。"
           },
           {
             "question": "「殴られていない」けどDVですか？",
             "answer": "怒鳴る・物を壊す・お金を管理される・外出を制限される——これらもDVです。相談してください。"
-          },
-          {
-            "question": "相手に知られますか？",
-            "answer": "相談内容は秘密が守られます。加害者に連絡することはありません。"
           }
         ],
-        "estimated_time": "初回電話相談: 約30分〜1時間",
+        "estimated_time": null,
         "related_articles": [
           "life-support",
           "housing-benefit",
@@ -15053,62 +15039,48 @@
         ]
       },
       "en": {
-        "title": "Domestic Violence (DV) Consultation",
-        "easy_explanation": "📞 Ota City DV Consultation: 0276-47-1858\n\nYou are not alone. It's not your fault.\n\nAre you suffering from violence by your spouse or partner? DV includes not only physical violence like hitting or kicking, but also emotional and financial control, such as yelling, ignoring, withholding living expenses, or restricting you from going out.\n\nPlease don't endure it alone. At Ota City's DV consultation counter, specialized counselors will prioritize your safety and provide support to help you find a solution. Consultations are free and strictly confidential. If necessary, we will coordinate with the police and shelters.\n\nDV Consultation Plus (soudanplus.jp): Online chat support available in 10 languages (12:00–22:00). You do not need to speak Japanese.",
-        "bottom_line": "Violence from a spouse or partner is DV. Please call the Ota City DV Consultation (0276-47-1858). It is strictly confidential and free.",
+        "title": "Consultation Desks for Domestic Violence (DV)",
+        "easy_explanation": "📞 Ota City DV Telephone Consultation: 0276-47-1858\nHours: Weekdays 9:00 AM - 5:00 PM (closed weekends, holidays, and year-end/New Year)\nIn an emergency: Dial 110 (Police)\nNational DV Consultation Navi: #8008\nGunma Prefecture Women's Consultation Support Center: 027-261-4463\n\nYou are not to blame. It is not your fault that you are experiencing violence.\n\nPhysical, emotional, and financial abuse from a spouse or partner are all forms of DV. Even if you think \"it might not be a big deal\" or \"I have to endure it for the kids,\" please consult with us first. In an emergency, please consult the police (dial 110).",
+        "bottom_line": "Violence from a spouse or partner is DV. Do not endure it alone; consult the Ota City DV Consultation (0276-47-1858) or the police (110).",
         "amount_info": null,
         "target_audience": [
-          "Those who are suffering from violence by a spouse or partner",
-          "Supporters or acquaintances of someone suspected to be a DV victim"
+          "Those who are suffering from violence by a spouse or partner"
         ],
         "five_w1h": {
           "who": "Anyone suffering from physical or emotional abuse by a spouse or partner (regardless of gender)",
-          "what": "Phone consultation, in-person consultation, referral to a temporary shelter, and independence support",
+          "what": "Telephone consultation, interview consultation, introduction to various specialized institutions, independence support, etc.",
           "when": "Weekdays 9:00 AM - 5:00 PM (Phone consultation). In emergencies, call 110 or #8008 (24 hours)",
-          "where": "Ota City Hall Women's Promotion Division or Spousal Violence Consultation Support Center",
+          "where": "Ota City Hall Citizens Consultation Division or Spousal Violence Consultation Support Center",
           "why": "Because DV is a crime, and to ensure the safety of victims so they don't have to face it alone",
-          "how": "Call → A counselor will listen to your situation → If necessary, referral to a shelter and support for legal procedures"
+          "how": "Call → A counselor listens to the situation → Introduces various specialized institutions as necessary"
         },
         "checklist": [
           {
-            "item": "First, consult by phone (0276-47-1858) (まず電話で相談する（0276-47-1858）)",
-            "note": "Strictly confidential",
+            "item": "First, consult by phone (0276-47-1858)",
+            "note": "Call during reception hours",
             "required": true
           },
           {
-            "item": "In an emergency, call 110 (緊急の場合は110番)",
+            "item": "In an emergency, dial 110",
             "note": "If you are in immediate danger",
-            "required": false
-          },
-          {
-            "item": "If possible, prepare your bankbook, seal, health insurance card, and change of clothes (通帳・印鑑・保険証・着替えを準備できればしておく)",
-            "note": "Things to bring in an emergency evacuation",
             "required": false
           }
         ],
         "faq": [
           {
             "question": "Can I consult even if I don't have money?",
-            "answer": "Yes. The consultation is completely free."
+            "answer": "Yes. Consultation is completely free."
           },
           {
             "question": "Can I consult in a foreign language?",
-            "answer": "An interpreter may be available. Please call first. The DV hotline has multilingual support."
+            "answer": "The DV Consultation Plus SNS (chat) consultation is available in 10 languages."
           },
           {
             "question": "Is it DV even if I haven't been hit?",
-            "answer": "Yelling, breaking things, controlling your money, or restricting you from going out—these are also DV. Please consult with us."
-          },
-          {
-            "question": "Will my partner find out?",
-            "answer": "The content of the consultation is kept strictly confidential. We will not contact the abuser."
-          },
-          {
-            "question": "Is this service free?",
-            "answer": "Yes, consultation is free of charge."
+            "answer": "Yelling, breaking things, controlling money, and restricting going out—these are also forms of DV. Please consult with us."
           }
         ],
-        "estimated_time": "Initial phone consultation: About 30 minutes to 1 hour",
+        "estimated_time": null,
         "related_articles": [
           "life-support",
           "housing-benefit",
@@ -15116,40 +15088,43 @@
           "legal-aid",
           "consumer-center"
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "DV (Domestic Violence)",
+            "explanation": "A general term for physical, emotional, financial, and sexual violence from a spouse or partner. You can consult if you have experienced violence."
+          },
+          {
+            "term": "Spousal Violence Consultation Support Center",
+            "explanation": "An institution that provides consultation, protection, and independence support for DV victims."
+          }
+        ],
         "form_guide": null
       },
       "pt": {
-        "title": "Consulta sobre Violência Doméstica (VD)",
-        "easy_explanation": "📞 Consulta sobre VD da Cidade de Ota: 0276-47-1858\n\nVocê não está sozinho/a. Não é sua culpa.\n\nVocê está sofrendo violência do seu cônjuge ou parceiro/a? VD inclui não apenas violência física, como bater ou chutar, mas também controle emocional e financeiro, como gritar, ignorar, reter despesas de subsistência ou restringir suas saídas.\n\nPor favor, não suporte isso sozinho/a. No balcão de consulta sobre VD da Cidade de Ota, conselheiros especializados priorizarão sua segurança e fornecerão apoio para encontrar uma solução. As consultas são gratuitas e estritamente confidenciais. Se necessário, coordenaremos com a polícia e abrigos.\n\nDV Consultation Plus (soudanplus.jp): Atendimento por chat online em 10 idiomas (12h–22h). Não é necessário falar japonês.",
-        "bottom_line": "Violência de um cônjuge ou parceiro/a é VD. Ligue para a Consulta sobre VD da Cidade de Ota (0276-47-1858). É estritamente confidencial e gratuito.",
+        "title": "Balcão de Consultas sobre Violência Doméstica (VD)",
+        "easy_explanation": "📞 Consulta Telefônica de VD da Cidade de Ota: 0276-47-1858\nHorário: Dias úteis das 9h às 17h (fechado fins de semana, feriados e final/início de ano)\nEm caso de emergência: Ligue 110 (Polícia)\nNavegação Nacional de Consulta de VD: #8008\nCentro de Apoio à Consulta de Mulheres da Província de Gunma: 027-261-4463\n\nA culpa não é sua. Não é sua culpa estar sofrendo violência.\n\nAbuso físico, emocional e financeiro por parte de um cônjuge ou parceiro são formas de VD. Mesmo que você pense \"talvez não seja grande coisa\" ou \"tenho que suportar pelas crianças\", por favor, consulte-nos primeiro. Em caso de emergência, consulte a polícia (ligue 110).",
+        "bottom_line": "Violência de cônjuge ou parceiro é VD. Não suporte sozinho; consulte a Consulta de VD da Cidade de Ota (0276-47-1858) ou a polícia (110).",
         "amount_info": null,
         "target_audience": [
-          "Pessoas que sofrem violência do cônjuge ou parceiro/a",
-          "Apoiadores ou conhecidos de alguém com suspeita de ser vítima de VD"
+          "Pessoas que sofrem violência do cônjuge ou parceiro/a"
         ],
         "five_w1h": {
           "who": "Qualquer pessoa que sofra abuso físico ou emocional do cônjuge ou parceiro/a (independentemente do gênero)",
-          "what": "Consulta por telefone, consulta presencial, encaminhamento para abrigo temporário e apoio à independência",
+          "what": "Consulta por telefone, consulta por entrevista, introdução a várias instituições especializadas, apoio à independência, etc.",
           "when": "Dias úteis, das 9h às 17h (Consulta por telefone). Em emergências, ligue para 110 ou #8008 (24 horas)",
-          "where": "Prefeitura da Cidade de Ota, Divisão de Promoção da Mulher ou Centro de Apoio a Consultas sobre Violência Conjugal",
+          "where": "Divisão de Consulta ao Cidadão da Prefeitura de Ota ou Centro de Apoio à Consulta sobre Violência Conjugal",
           "why": "Porque a VD é um crime e para garantir a segurança das vítimas para que não precisem enfrentar isso sozinhas",
-          "how": "Ligue → Um conselheiro ouvirá sua situação → Se necessário, encaminhamento para um abrigo e apoio em procedimentos legais"
+          "how": "Ligar → Um conselheiro ouve a situação → Apresenta várias instituições especializadas conforme necessário"
         },
         "checklist": [
           {
-            "item": "Primeiro, consulte por telefone (0276-47-1858) (まず電話で相談する（0276-47-1858）)",
-            "note": "Estritamente confidencial",
+            "item": "Primeiro, consulte por telefone (0276-47-1858)",
+            "note": "Ligue durante o horário de atendimento",
             "required": true
           },
           {
-            "item": "Em caso de emergência, ligue para 110 (緊急の場合は110番)",
+            "item": "Em caso de emergência, ligue 110",
             "note": "Se você estiver em perigo imediato",
-            "required": false
-          },
-          {
-            "item": "Se possível, prepare sua caderneta bancária, carimbo, cartão de seguro de saúde e uma muda de roupa (通帳・印鑑・保険証・着替えを準備できればしておく)",
-            "note": "Coisas para levar em uma evacuação de emergência",
             "required": false
           }
         ],
@@ -15160,22 +15135,14 @@
           },
           {
             "question": "Posso consultar em uma língua estrangeira?",
-            "answer": "Pode haver um intérprete disponível. Por favor, ligue primeiro. A linha direta de VD possui suporte multilíngue."
+            "answer": "A consulta SNS (chat) DV Consultation Plus está disponível em 10 idiomas."
           },
           {
             "question": "É VD mesmo se eu não tiver sido agredido/a fisicamente?",
-            "answer": "Gritar, quebrar coisas, controlar seu dinheiro ou restringir suas saídas — isso também é VD. Por favor, consulte-nos."
-          },
-          {
-            "question": "Meu parceiro/a vai descobrir?",
-            "answer": "O conteúdo da consulta é mantido estritamente confidencial. Não entraremos em contato com o agressor."
-          },
-          {
-            "question": "Este serviço é gratuito?",
-            "answer": "Sim, a consulta é gratuita."
+            "answer": "Gritar, quebrar coisas, controlar dinheiro e restringir saídas—essas também são formas de VD. Por favor, consulte-nos."
           }
         ],
-        "estimated_time": "Consulta inicial por telefone: Cerca de 30 minutos a 1 hora",
+        "estimated_time": null,
         "related_articles": [
           "life-support",
           "housing-benefit",
@@ -15183,7 +15150,16 @@
           "legal-aid",
           "consumer-center"
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "VD (Violência Doméstica)",
+            "explanation": "Um termo geral para violência física, emocional, financeira e sexual de um cônjuge ou parceiro. Você pode consultar se sofreu violência."
+          },
+          {
+            "term": "Centro de Apoio à Consulta sobre Violência Conjugal",
+            "explanation": "Uma instituição que fornece consulta, proteção e apoio à independência para vítimas de VD."
+          }
+        ],
         "form_guide": null
       }
     }
