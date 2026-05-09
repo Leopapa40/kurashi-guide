@@ -6337,7 +6337,7 @@
     "locales": {
       "ja": {
         "title": "こども医療費助成（子どもの医療費が無料に）",
-        "easy_explanation": "## どんな制度？\n太田市に住む18歳以下の子どもが病院を受診したとき、医療費の自己負担分を市が助成する制度です。\n\n## 対象\n- 太田市に住民登録がある0歳〜18歳（18歳の誕生日後の最初の3月31日まで）\n\n## 助成内容\n- 保険診療の自己負担分が助成されます（入院・通院）\n- 一部、自己負担が残る場合があります（薬局等）\n\n## 申請方法\n出生後や転入後すみやかに市役所1階 市民課で申請してください。\n「こども医療費受給者証」が発行されます。",
+        "easy_explanation": "## どんな制度？\n太田市に住む18歳以下の子どもが病院を受診したとき、医療費の自己負担分を市が助成する制度です。\n\n## 対象\n- 太田市に住民登録がある0歳〜18歳（18歳の誕生日後の最初の3月31日まで）\n\n## 助成内容\n- 保険診療の自己負担分が助成されます（入院・通院）\n## 申請方法\n出生後や転入後すみやかに医療年金課（市役所1階12番窓口）や各行政センターで申請してください。\n「福祉医療費受給資格者証」が発行されます。",
         "bottom_line": "太田市の18歳以下の子どもは医療費がほぼ無料！転入後すぐに市役所で受給者証を申請してください。",
         "amount_info": "保険診療の自己負担分を助成",
         "target_audience": [
@@ -6360,60 +6360,24 @@
         "five_w1h": {
           "who": "太田市内在住の18歳（高校生相当）以下の子どもを養育している保護者",
           "what": "子ども医療費助成（通院・入院・調剤にかかる自己負担額の一部または全額を助成）",
-          "when": "太田市に転入・出生後速やかに申請する（申請月の翌月1日から有効）",
-          "where": "市役所2階こども課、または各行政センター",
+          "when": "太田市に転入・出生後速やかに申請する（原則申請日から有効、出生時や転入時は遡及適用あり）",
+          "where": "医療年金課（市役所1階12番窓口）、または各行政センター",
           "why": "子どもが安心して医療を受けられる環境を整備するため",
-          "how": "「子ども医療費受給資格登録申請書」に健康保険証を添えてこども課へ提出"
+          "how": "手続き窓口へ行く、または電子申請フォームから申し込み"
         },
         "checklist": [
           {
-            "item": "子ども医療費受給資格認定申請書",
-            "note": "市役所こども医療費担当課・各行政センターで入手",
+            "item": "窓口で手続きをする人の本人確認書類",
+            "note": "マイナンバーカード、免許証等",
             "required": true
           },
           {
-            "item": "子どもの健康保険証（写し）",
-            "note": "健康保険の被扶養者として登録済みのもの",
-            "required": true
-          },
-          {
-            "item": "保護者の本人確認書類",
-            "note": "運転免許証・マイナンバーカード等（顔写真付き）",
-            "required": true
-          },
-          {
-            "item": "個人番号（マイナンバー）確認書類",
-            "note": "保護者・子ども全員分のマイナンバー",
-            "required": true
-          },
-          {
-            "item": "保護者名義の通帳またはキャッシュカード",
-            "note": "払い戻し（償還払い）に使用する振込先口座",
+            "item": "子どもの保険証等",
+            "note": "マイナンバーカード、保険証、資格確認書、資格情報のお知らせ等",
             "required": true
           }
         ],
-        "form_guide": {
-          "form_name": "子ども医療費受給資格認定申請書",
-          "fields": [
-            {
-              "field_name": "申請者（保護者）との続柄",
-              "how_to_fill": "子どもと保護者の関係を記入",
-              "example": "長女",
-              "note": "住民票と同一の続柄を記入"
-            },
-            {
-              "field_name": "健康保険の種類",
-              "how_to_fill": "子どもが加入している健康保険の名称を記入",
-              "example": "社会保険（協会けんぽ）",
-              "note": "健康保険証の「保険者名称」欄を確認"
-            }
-          ],
-          "tips": [
-            "子どもが生まれた・転入した時点から申請可能（生後すぐの申請を推奨）",
-            "医療機関での窓口払いが原則だが、受給者証提示で自己負担が軽減または無料になる",
-            "18歳の3月31日まで有効（高校生も対象）"
-          ]
-        },
+        "form_guide": null,
         "faq": [
           {
             "question": "こども医療費助成はいつから利用できますか？",
@@ -6421,7 +6385,7 @@
           },
           {
             "question": "対象となる年齢はいくつまでですか？",
-            "answer": "太田市では中学校修了まで（15歳の3月31日まで）が対象です。詳細は市役所または太田市ウェブサイトで最新情報をご確認ください。"
+            "answer": "太田市では18歳到達後の最初の3月31日（高校生世代）までが対象です。"
           },
           {
             "question": "窓口での支払いはゼロになりますか？",
@@ -6432,7 +6396,7 @@
             "answer": "転出すると太田市の助成は終了します。新住所地でも同様の制度がある場合がほとんどですので、転入届と同時に新住所地の市区町村に申請してください。"
           }
         ],
-        "estimated_time": "窓口で約15分",
+        "estimated_time": null,
         "related_articles": [
           "child-allowance",
           "vaccination-schedule",
@@ -6453,35 +6417,20 @@
         "five_w1h": {
           "who": "Parents raising children aged 18 and under (up to high school graduation) in Ota City",
           "what": "Child Medical Fee Assistance (covers out-of-pocket costs for hospital visits/stays/medicines)",
-          "when": "Promptly after birth or moving into Ota City",
-          "where": "City Hall 2F Children's Division or Admin Centers",
+          "when": "Apply promptly after moving to Ota City or the birth of a child (Valid from the date of application in principle. Retroactive application is available for births and moving in)",
+          "where": "Medical Pension Division (City Hall 1F Counter 12) or Administrative Centers",
           "why": "To provide an environment where children can receive medical care with peace of mind",
-          "how": "Submit the application form with the child's health insurance card attached"
+          "how": "Apply at the counter or via the online application form"
         },
         "checklist": [
           {
-            "item": "Assistance Qualification Form (子ども医療費受給資格認定申請書)",
-            "note": "Available at Children's Div.",
+            "item": "Identification of the person completing the procedure",
+            "note": "My Number Card, driver's license, etc.",
             "required": true
           },
           {
-            "item": "Child's Health Insurance Card (子どもの健康保険証)",
-            "note": "Copy of the card registering the child as a dependent.",
-            "required": true
-          },
-          {
-            "item": "Parent's ID Document (保護者の本人確認書類)",
-            "note": "Photo ID.",
-            "required": true
-          },
-          {
-            "item": "My Number confirmation (個人番号確認書類)",
-            "note": "For parents and all children.",
-            "required": true
-          },
-          {
-            "item": "Parent's Bank Passbook/Card (保護者名義の通帳またはキャッシュカード)",
-            "note": "For receiving refunds if necessary.",
+            "item": "Child's health insurance card, etc.",
+            "note": "My Number Card, health insurance card, qualification confirmation certificate, qualification information notice, etc.",
             "required": true
           }
         ],
@@ -6493,7 +6442,7 @@
           },
           {
             "question": "Up to what age is covered?",
-            "answer": "In Ota City, it covers up to junior high school graduation (March 31st of the 15-year-old year). Check the website for high school expansions."
+            "answer": "In Ota City, children are eligible until March 31 of the year they reach 18 years of age (high school generation)."
           },
           {
             "question": "Is the payment strictly zero at the counter?",
@@ -6504,7 +6453,7 @@
             "answer": "Ota City's assistance ends when you move out. Apply for the new city's equivalent program at the time of your move-in notification."
           }
         ],
-        "estimated_time": "About 15 minutes at the counter",
+        "estimated_time": null,
         "related_articles": [
           "child-allowance",
           "vaccination-schedule",
@@ -6525,35 +6474,20 @@
         "five_w1h": {
           "who": "Pais com filhos até 18 anos na Cidade de Ota",
           "what": "Assistência Médica Infantil (cobre custos de visitas/internações)",
-          "when": "Logo após o nascimento ou mudança para Ota",
-          "where": "Prefeitura 2º Andar Divisão Infantil ou Centros",
+          "when": "Inscreva-se prontamente após se mudar para a Cidade de Ota ou o nascimento de uma criança (Válido a partir da data de solicitação, em princípio. Aplicação retroativa está disponível para nascimentos e mudanças)",
+          "where": "Divisão de Pensão Médica (Prefeitura 1º Andar Balcão 12) ou Centros Administrativos",
           "why": "Para que as crianças recebam cuidados médicos com tranquilidade",
-          "how": "Envie a inscrição com o cartão de seguro saúde da criança"
+          "how": "Inscreva-se no balcão ou através do formulário de inscrição online"
         },
         "checklist": [
           {
-            "item": "Formulário de Qualificação (子ども医療費受給資格認定申請書)",
-            "note": "Na Divisão Infantil.",
+            "item": "Identificação da pessoa que realiza o procedimento",
+            "note": "Cartão My Number, carteira de motorista, etc.",
             "required": true
           },
           {
-            "item": "Seguro Saúde da Criança (子どもの健康保険証)",
-            "note": "Cópia do cartão como dependente.",
-            "required": true
-          },
-          {
-            "item": "Documento de Identidade dos Pais (保護者の本人確認書類)",
-            "note": "ID com foto.",
-            "required": true
-          },
-          {
-            "item": "Confirmação do My Number (個人番号確認書類)",
-            "note": "Para pais e filhos.",
-            "required": true
-          },
-          {
-            "item": "Conta Bancária dos Pais (保護者名義の通帳またはキャッシュカード)",
-            "note": "Para reembolsos, se necessário.",
+            "item": "Cartão de seguro de saúde da criança, etc.",
+            "note": "Cartão My Number, cartão de seguro de saúde, certificado de confirmação de qualificação, aviso de informações de qualificação, etc.",
             "required": true
           }
         ],
@@ -6565,7 +6499,7 @@
           },
           {
             "question": "Até que idade cobre?",
-            "answer": "Em Ota, até o fim do ensino fundamental II (31 de março dos 15 anos). Verifique o site para ensino médio."
+            "answer": "Na Cidade de Ota, as crianças são elegíveis até 31 de março do ano em que atingem os 18 anos de idade (geração do ensino médio)."
           },
           {
             "question": "O pagamento é totalmente zero no balcão?",
@@ -6576,7 +6510,7 @@
             "answer": "A assistência em Ota acaba. Solicite o programa da nova cidade ao se mudar."
           }
         ],
-        "estimated_time": "Cerca de 15 minutos no balcão",
+        "estimated_time": null,
         "related_articles": [
           "child-allowance",
           "vaccination-schedule",
