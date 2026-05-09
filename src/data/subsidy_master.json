@@ -8311,7 +8311,7 @@
     "locales": {
       "ja": {
         "title": "学童保育（放課後児童クラブ）",
-        "easy_explanation": "## 学童保育とは\n保護者が仕事などで昼間家にいない小学生のために、放課後や夏休みなどの長期休業中に生活や遊びの場を提供する施設です。\n\n## 対象児童\n市内の小学校に就学しており、保護者が就労等で放課後に保育できない児童が対象です。\n\n## 申し込みと利用料\nクラブごとに運営主体が異なるため、利用料や申し込み方法は各クラブへ直接お問い合わせください。市役所ではなく、クラブでの直接申し込みが基本となります。",
+        "easy_explanation": "## 放課後児童クラブとは\n仕事などにより昼間保護者が家庭にいない小学生を、学校終了後に預かり遊びや生活の指導を行う施設です。\n\n## 申し込み・利用料\n申し込み方法、利用時間、利用料金などは放課後児童クラブごとに異なります。また、障がいを持つ児童の受け入れについても同様です。詳細は各放課後児童クラブへ直接ご相談・お問い合わせください。",
         "bottom_line": "放課後に家で過ごせない小学生を預かる施設です。申し込みは各クラブへ直接行います。",
         "amount_info": "クラブにより異なる",
         "target_audience": [
@@ -8336,57 +8336,35 @@
           }
         ],
         "five_w1h": {
-          "who": "保護者が就労等で放課後に家庭にいない小学生（主に1〜6年生）",
+          "who": "仕事などにより昼間保護者が家庭にいない小学生",
           "what": "放課後児童クラブ（学童保育）への入会申請",
-          "when": "4月からの利用は2〜3月に申し込み（随時申し込みも可）",
-          "where": "各小学校区の放課後児童クラブ（市内30か所以上）",
+          "when": "各クラブによって異なるため直接お問い合わせください",
+          "where": "各放課後児童クラブ",
           "why": "保護者が就労中でも子どもが安全に放課後を過ごせる場を提供するため",
-          "how": "入会申込書・勤務証明書等を各クラブまたはこども課に提出"
+          "how": "各放課後児童クラブへ直接ご相談・お申し込みください"
         },
         "checklist": [
           {
-            "item": "放課後児童クラブ入会申請書",
-            "note": "市役所こども保育課またはホームページから入手",
+            "item": "各クラブが指定する申込書類等",
+            "note": "必要な書類は施設ごとに異なるため、各放課後児童クラブへ直接お問い合わせください",
             "required": true
-          },
-          {
-            "item": "就労証明書（保護者全員分）",
-            "note": "勤務先に記載を依頼。自営業は確定申告書等で代替",
-            "required": true
-          },
-          {
-            "item": "マイナンバー確認書類（保護者・児童）",
-            "note": "全員分のマイナンバーが必要",
-            "required": true
-          },
-          {
-            "item": "保護者の課税証明書または所得証明書",
-            "note": "利用料算定に使用。前年分",
-            "required": true
-          },
-          {
-            "item": "児童の健康状況調査票",
-            "note": "申請書類一式に含まれることが多い",
-            "required": false
           }
         ],
-        "form_guide": null,
+        "form_guide": {
+          "form_name": "各クラブ指定の申込書類",
+          "fields": [],
+          "tips": [
+            "申し込み手続きや書類は各クラブで異なりますので、直接お問い合わせください。"
+          ]
+        },
         "faq": [
           {
-            "question": "学童保育の対象年齢はいつまでですか？",
-            "answer": "小学校1〜6年生が対象です（太田市）。共働き家庭や一人親家庭で保護者が就労等で昼間家庭にいない児童が利用できます。"
+            "question": "利用時間や利用料金はいくらですか？",
+            "answer": "利用時間および利用料金は放課後児童クラブごとに異なりますので、各クラブへ直接お問い合わせください。"
           },
           {
-            "question": "申し込みはいつすればよいですか？",
-            "answer": "翌年4月からの利用を希望する場合、前年の1〜2月頃に申込受付が行われます。定員がある施設も多いため、早めに確認・申し込みをしてください。"
-          },
-          {
-            "question": "費用はいくらかかりますか？",
-            "answer": "月額保育料と別途おやつ代等の費用が必要です。金額は施設によって異なります。生活保護世帯や市民税非課税世帯には減額・免除制度があります。"
-          },
-          {
-            "question": "夏休みなどの長期休みも利用できますか？",
-            "answer": "はい、夏休み・冬休み・春休みの長期休暇中も利用できます。長期休暇中は開所時間が異なる場合があるため、各施設に確認してください。"
+            "question": "障がいを持つ児童の受け入れはしていますか？",
+            "answer": "受け入れや申し込みについては放課後児童クラブごとに異なります。詳細は直接お問い合わせください。"
           }
         ],
         "estimated_time": "窓口での申し込み：約20分",
@@ -8399,7 +8377,7 @@
       },
       "en": {
         "title": "After-School Childcare (After-School Children's Club)",
-        "easy_explanation": "## What is After-School Childcare?\nIt is a facility that provides a place for living and playing after school and during long school holidays (like summer vacation) for elementary school students whose parents are not home during the day due to work, etc.\n\n## Eligible Children\nChildren who attend an elementary school in the city and whose parents cannot provide childcare after school due to employment, etc., are eligible.\n\n## Application and Fees\nSince the operating body differs for each club, please contact each club directly regarding usage fees and application methods. Basically, applications are made directly to the club, not to the City Hall.",
+        "easy_explanation": "## What is an After-School Childcare Club?\nIt is a facility that provides care, play, and lifestyle guidance after school for elementary school students whose parents are not at home during the day due to work, etc.\n\n## Application and Fees\nApplication methods, operating hours, and fees vary by each after-school childcare club. The same applies to the acceptance of children with disabilities. Please contact each club directly for details and consultation.",
         "bottom_line": "A facility that cares for elementary school students who cannot spend time at home after school. Applications are made directly to each club.",
         "amount_info": "Varies by club",
         "target_audience": [
@@ -8407,57 +8385,35 @@
         ],
         "term_explanations": [],
         "five_w1h": {
-          "who": "Elementary school students (mainly 1st-6th grade) whose parents are not at home after school due to work, etc.",
+          "who": "Elementary school students whose parents are not at home during the day due to work, etc.",
           "what": "Application to join an after-school children's club (after-school childcare)",
-          "when": "Applications for use from April are in February-March (occasional applications are also accepted)",
-          "where": "After-school children's club in each elementary school district (over 30 locations in the city)",
+          "when": "Varies by club. Please inquire directly.",
+          "where": "Each after-school childcare club",
           "why": "To provide a place where children can spend time safely after school even when their parents are working",
-          "how": "Submit an enrollment application form, employment certificate, etc., to each club or the Children's Division"
+          "how": "Please consult and apply directly to each after-school childcare club."
         },
         "checklist": [
           {
-            "item": "After-School Children's Club Enrollment Application Form (放課後児童クラブ入会申請書)",
-            "note": "Obtain from the City Hall Childcare Division or the website",
+            "item": "Application documents specified by each club",
+            "note": "Required documents vary by facility. Please contact each club directly.",
             "required": true
-          },
-          {
-            "item": "Employment Certificate (for all parents/guardians) (就労証明書)",
-            "note": "Ask your employer to fill it out. If self-employed, substitute with a tax return, etc.",
-            "required": true
-          },
-          {
-            "item": "My Number confirmation documents for parents and child (マイナンバー確認書類)",
-            "note": "My Numbers are required for all family members",
-            "required": true
-          },
-          {
-            "item": "Tax Certificate or Income Certificate of the parent/guardian (保護者の課税証明書または所得証明書)",
-            "note": "Used to calculate usage fees. For the previous year",
-            "required": true
-          },
-          {
-            "item": "Child's Health Condition Survey Form (児童の健康状況調査票)",
-            "note": "Often included in the application document set",
-            "required": false
           }
         ],
-        "form_guide": null,
+        "form_guide": {
+          "form_name": "Application Documents Specified by Club",
+          "fields": [],
+          "tips": [
+            "Application procedures and required documents vary by club, so please contact them directly."
+          ]
+        },
         "faq": [
           {
-            "question": "What is the target age for after-school childcare?",
-            "answer": "Elementary school students from 1st to 6th grade are eligible (Ota City). It can be used by children of dual-income families or single-parent families where the parent is not at home during the day due to work, etc."
+            "question": "What are the operating hours and fees?",
+            "answer": "Operating hours and fees vary by after-school childcare club. Please contact each club directly for details."
           },
           {
-            "question": "When should I apply?",
-            "answer": "If you wish to use it from April of the following year, applications are accepted around January to February of the previous year. Many facilities have limited capacity, so please check and apply early."
-          },
-          {
-            "question": "How much does it cost?",
-            "answer": "A monthly childcare fee and separate expenses such as snacks are required. The amount varies depending on the facility. There are reduction and exemption systems for households receiving public assistance or exempt from municipal tax."
-          },
-          {
-            "question": "Can I use it during long holidays like summer vacation?",
-            "answer": "Yes, it can be used during long holidays such as summer, winter, and spring vacations. Opening hours may differ during long holidays, so please check with each facility."
+            "question": "Do you accept children with disabilities?",
+            "answer": "Acceptance and application procedures vary by club. Please inquire directly for details."
           }
         ],
         "estimated_time": "Application at the counter: about 20 minutes",
@@ -8470,7 +8426,7 @@
       },
       "pt": {
         "title": "Creche Pós-Escolar (Clube Infantil Pós-Escolar)",
-        "easy_explanation": "## O que é a Creche Pós-Escolar?\nÉ uma instalação que oferece um lugar para viver e brincar depois da escola e durante os longos feriados escolares (como as férias de verão) para alunos do ensino fundamental cujos pais não estão em casa durante o dia devido ao trabalho, etc.\n\n## Crianças Elegíveis\nCrianças que frequentam uma escola primária na cidade e cujos pais não podem cuidar delas depois da escola devido a emprego, etc., são elegíveis.\n\n## Inscrição e Taxas\nComo o órgão gestor difere para cada clube, entre em contato com cada clube diretamente sobre taxas de uso e métodos de inscrição. Basicamente, as inscrições são feitas diretamente no clube, não na Prefeitura.",
+        "easy_explanation": "## O que é um Clube de Cuidados Infantis Extracurriculares?\nÉ uma instalação que oferece cuidados, brincadeiras e orientação de vida após o horário escolar para alunos do ensino fundamental cujos pais não estão em casa durante o dia devido ao trabalho, etc.\n\n## Inscrição e Taxas\nOs métodos de inscrição, horários de funcionamento e taxas variam de acordo com cada clube. O mesmo se aplica à aceitação de crianças com deficiência. Por favor, entre em contato diretamente com cada clube para obter detalhes e consultas.",
         "bottom_line": "Uma instalação que cuida de alunos do ensino fundamental que não podem passar tempo em casa depois da escola. As inscrições são feitas diretamente em cada clube.",
         "amount_info": "Varia de acordo com o clube",
         "target_audience": [
@@ -8478,57 +8434,35 @@
         ],
         "term_explanations": [],
         "five_w1h": {
-          "who": "Alunos do ensino fundamental (principalmente do 1º ao 6º ano) cujos pais não estão em casa depois da escola devido a trabalho, etc.",
+          "who": "Alunos do ensino fundamental cujos pais não estão em casa durante o dia devido ao trabalho, etc.",
           "what": "Inscrição para participar de um clube infantil pós-escolar (creche pós-escolar)",
-          "when": "As inscrições para uso a partir de abril são em fevereiro-março (inscrições ocasionais também são aceitas)",
-          "where": "Clube infantil pós-escolar em cada distrito escolar (mais de 30 locais na cidade)",
+          "when": "Varia de acordo com o clube. Por favor, pergunte diretamente.",
+          "where": "Cada clube de cuidados infantis extracurriculares",
           "why": "Para oferecer um local onde as crianças possam passar o tempo com segurança depois da escola, mesmo quando os pais estão trabalhando",
-          "how": "Envie um formulário de inscrição, certificado de emprego, etc., para cada clube ou Divisão de Crianças"
+          "how": "Por favor, consulte e inscreva-se diretamente em cada clube."
         },
         "checklist": [
           {
-            "item": "Formulário de Inscrição para o Clube Infantil Pós-Escolar (放課後児童クラブ入会申請書)",
-            "note": "Obtenha na Divisão de Cuidados Infantis da Prefeitura ou no site",
+            "item": "Documentos de inscrição especificados por cada clube",
+            "note": "Os documentos necessários variam de acordo com a instalação. Entre em contato diretamente.",
             "required": true
-          },
-          {
-            "item": "Certificado de Emprego (para todos os pais/responsáveis) (就労証明書)",
-            "note": "Peça ao seu empregador para preencher. Se autônomo, substitua por uma declaração de imposto de renda, etc.",
-            "required": true
-          },
-          {
-            "item": "Documentos de confirmação do My Number dos pais e da criança (マイナンバー確認書類)",
-            "note": "Os My Numbers são necessários para todos os membros da família",
-            "required": true
-          },
-          {
-            "item": "Certificado de Imposto ou Certificado de Renda do pai/responsável (保護者の課税証明書または所得証明書)",
-            "note": "Usado para calcular as taxas de uso. Para o ano anterior",
-            "required": true
-          },
-          {
-            "item": "Formulário de Pesquisa de Condição de Saúde da Criança (児童の健康状況調査票)",
-            "note": "Geralmente incluído no conjunto de documentos de inscrição",
-            "required": false
           }
         ],
-        "form_guide": null,
+        "form_guide": {
+          "form_name": "Documentos de Inscrição Especificados pelo Clube",
+          "fields": [],
+          "tips": [
+            "Os procedimentos de inscrição e os documentos necessários variam de acordo com o clube, portanto, entre em contato diretamente com eles."
+          ]
+        },
         "faq": [
           {
-            "question": "Qual é a idade alvo para a creche pós-escolar?",
-            "answer": "Alunos do ensino fundamental do 1º ao 6º ano são elegíveis (Cidade de Ota). Pode ser usado por crianças de famílias com dupla renda ou de pais solteiros, onde o responsável não está em casa durante o dia devido ao trabalho, etc."
+            "question": "Quais são os horários de funcionamento e as taxas?",
+            "answer": "Os horários de funcionamento e as taxas variam de acordo com cada clube. Por favor, entre em contato diretamente com cada clube."
           },
           {
-            "question": "Quando devo me inscrever?",
-            "answer": "Se deseja utilizar a partir de abril do ano seguinte, as inscrições são aceitas entre janeiro e fevereiro do ano anterior. Muitas instalações têm capacidade limitada, portanto, verifique e inscreva-se cedo."
-          },
-          {
-            "question": "Quanto custa?",
-            "answer": "É necessária uma taxa mensal de creche e despesas separadas, como lanches. O valor varia dependendo da instalação. Existem sistemas de redução e isenção para famílias que recebem assistência pública ou isentas de imposto municipal."
-          },
-          {
-            "question": "Posso usar durante as longas férias, como as de verão?",
-            "answer": "Sim, pode ser usado durante longas férias, como as férias de verão, inverno e primavera. O horário de funcionamento pode diferir durante os feriados longos, então verifique com cada instalação."
+            "question": "Vocês aceitam crianças com deficiência?",
+            "answer": "A aceitação e os procedimentos de inscrição variam de acordo com o clube. Por favor, pergunte diretamente para obter detalhes."
           }
         ],
         "estimated_time": "Inscrição no balcão: cerca de 20 minutos",
