@@ -4246,7 +4246,7 @@
             "required": false
           }
         ],
-        "form_guide": "English guide is available here: https://www.city.ota.gunma.jp/page/1013612.html",
+        "form_guide": null,
         "faq": [
           {
             "question": "Do I have to enroll immediately after quitting my job?",
@@ -4324,7 +4324,7 @@
             "required": false
           }
         ],
-        "form_guide": "O guia em português está disponível aqui: https://www.city.ota.gunma.jp/page/1013616.html",
+        "form_guide": null,
         "faq": [
           {
             "question": "Devo me inscrever logo após sair do emprego?",
@@ -16552,7 +16552,7 @@
             "note": ""
           }
         ],
-        "form_guide": "電子申請での脱退手続きはこちら：https://www.city.ota.gunma.jp/page/1021757.html",
+        "form_guide": null,
         "faq": [
           {
             "question": "お金がなくても相談できますか？",
@@ -16614,7 +16614,7 @@
             "required": true
           }
         ],
-        "form_guide": "Electronic application for cancellation: https://www.city.ota.gunma.jp/page/1021757.html",
+        "form_guide": null,
         "faq": [
           {
             "question": "Can I consult even if I have no money?",
@@ -16676,7 +16676,7 @@
             "required": true
           }
         ],
-        "form_guide": "Solicitação eletrônica de cancelamento: https://www.city.ota.gunma.jp/page/1021757.html",
+        "form_guide": null,
         "faq": [
           {
             "question": "Posso consultar mesmo se não tiver dinheiro?",
