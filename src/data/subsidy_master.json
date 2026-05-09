@@ -4611,7 +4611,7 @@
     "locales": {
       "ja": {
         "title": "出生届（赤ちゃんが生まれたとき）",
-        "easy_explanation": "## ご出産おめでとうございます！生後14日以内に手続きを\n\n赤ちゃんが生まれたことを国や市に報告し、戸籍に登録するための大切なお手続きです。\n\n### 📝 必要な持ち物\n1.  出生届の用紙：右半分が病院の先生や助産師さんが書いた「出生証明書」になっています。退院する時に病院からもらえることが多いです。\n2.  母子健康手帳：市役所で「出生届を出しましたよ」という証明のハンコを押してもらいます。\n\n### ⏰ いつまでに？\n*   赤ちゃんが生まれた日を1日目と数えて、14日以内に提出してください。\n*   夜間や休日でも、市役所1階の当直室で24時間受け付けています（ただし母子手帳のハンコや児童手当の手続きは、平日の昼間に改めて来る必要があります）。\n\n### ⚠️ あわせて絶対やるべき手続き！\n出生届を出した後は、以下の手続きも15日以内に行う必要があります。\n*   児童手当の申請（毎月お金がもらえます）\n*   こども医療費（福祉医療）の申請（子どもの医療費が無料になります）\n*   健康保険への加入（親の会社に連絡するか、国民健康保険に入ります）",
+        "easy_explanation": "## ご出産おめでとうございます！生後14日以内に手続きを\n\n赤ちゃんが生まれたことを国や市に報告し、戸籍に登録するための大切なお手続きです。\n\n### 📝 必要な持ち物\n1.  出生届の用紙：右半分が病院の先生や助産師さんが書いた「出生証明書」になっています。退院する時に病院からもらえることが多いです。\n2.  母子健康手帳：市役所で「出生届を出しましたよ」という証明のハンコを押してもらいます。\n\n### ⏰ いつまでに？\n*   赤ちゃんが生まれた日を1日目と数えて、14日以内に提出してください。\n\n### ⚠️ あわせて絶対やるべき手続き！\n出生届を出した後は、以下の手続きも15日以内に行う必要があります。\n*   児童手当の申請（毎月お金がもらえます）\n*   こども医療費（福祉医療）の申請（子どもの医療費が無料になります）\n*   健康保険への加入（親の会社に連絡するか、国民健康保険に入ります）",
         "bottom_line": "赤ちゃんが生まれたら14日以内に「出生届（右側に病院の証明があるもの）」と「母子手帳」を市役所へ！児童手当と医療費無料の手続きも一緒に忘れずに！",
         "amount_info": "手続き無料",
         "target_audience": [
@@ -4682,8 +4682,7 @@
           ],
           "tips": [
             "出生後14日以内に届け出ること（国外の場合は3か月以内）",
-            "届出後、児童手当・子ども医療費等の申請手続きも同時に行うと効率的",
-            "夜間・休日は宿直窓口で受付可（翌開庁日に審査）"
+            "届出後、児童手当・子ども医療費等の申請手続きも同時に行うと効率的"
           ]
         },
         "faq": [
@@ -4704,7 +4703,7 @@
             "answer": "出産した病院・助産院が発行します。出生届に添付が必要なため、退院時に受け取り忘れないようにしましょう。"
           }
         ],
-        "estimated_time": "窓口で約10分",
+        "estimated_time": null,
         "related_articles": [
           "child-allowance",
           "national-health-insurance",
@@ -4715,7 +4714,7 @@
       },
       "en": {
         "title": "Birth Registration (Shussho-todoke)",
-        "easy_explanation": "## Congratulations! Register within 14 days of birth\n\nThis is an important procedure to officially register your new baby.\n\n### 📝 What you need\n1.  Birth Registration Form: The right half is the \"Birth Certificate\" filled out by the doctor or midwife at the hospital.\n2.  Maternal and Child Health Handbook (Boshi-techo): The city will stamp this to prove you registered the birth.\n\n### ⏰ Deadline\n*   You must submit it within 14 days including the day of birth.\n*   Accepted 24/7 at the City Hall security desk.\n\n### ⚠️ Other Crucial Steps\nAfter registering the birth, you MUST also apply for:\n*   Child Allowance (Monthly money)\n*   Children's Medical Subsidy (Free medical care for the baby)\n*These should be done within 15 days of birth during regular weekday hours.*",
+        "easy_explanation": "## Congratulations! Register within 14 days of birth\n\nThis is an important procedure to officially register your new baby.\n\n### 📝 What you need\n1.  Birth Registration Form: The right half is the \"Birth Certificate\" filled out by the doctor or midwife at the hospital.\n2.  Maternal and Child Health Handbook (Boshi-techo): The city will stamp this to prove you registered the birth.\n\n### ⏰ Deadline\n*   You must submit it within 14 days including the day of birth.\n\n### ⚠️ Other Crucial Steps\nAfter registering the birth, you MUST also apply for:\n*   Child Allowance (Monthly money)\n*   Children's Medical Subsidy (Free medical care for the baby)\n*These should be done within 15 days of birth during regular weekday hours.*",
         "bottom_line": "Bring the hospital's Birth Certificate and your Boshi-techo to City Hall within 14 days of birth. Don't forget to apply for Child Allowance and Free Medical Care at the same time!",
         "amount_info": "No fee required",
         "target_audience": [
@@ -4747,7 +4746,27 @@
             "required": false
           }
         ],
-        "form_guide": null,
+        "form_guide": {
+          "form_name": "Birth Registration Form",
+          "fields": [
+            {
+              "field_name": "Child's Name",
+              "how_to_fill": "Write the characters and reading accurately. Only designated kanji can be used.",
+              "example": "Yamada Taro",
+              "note": "Cannot be accepted if unusable characters are included."
+            },
+            {
+              "field_name": "Registered Domicile (Honseki)",
+              "how_to_fill": "Write the honseki of the parent.",
+              "example": "Ota City ...",
+              "note": "Usually the same as the parent's honseki."
+            }
+          ],
+          "tips": [
+            "Submit within 14 days of birth (3 months if overseas)",
+            "It is efficient to apply for Child Allowance and Child Medical Fee Assistance at the same time"
+          ]
+        },
         "faq": [
           {
             "question": "Does 'within 14 days' include the day of birth?",
@@ -4766,7 +4785,7 @@
             "answer": "The hospital or clinic where the birth took place will issue it, usually attached to the Birth Registration form."
           }
         ],
-        "estimated_time": "About 10 minutes at the counter",
+        "estimated_time": null,
         "related_articles": [
           "child-allowance",
           "national-health-insurance",
@@ -4809,7 +4828,27 @@
             "required": false
           }
         ],
-        "form_guide": null,
+        "form_guide": {
+          "form_name": "Formulário de Registro de Nascimento",
+          "fields": [
+            {
+              "field_name": "Nome da Criança",
+              "how_to_fill": "Escreva os caracteres e a leitura com precisão. Apenas kanji designados podem ser usados.",
+              "example": "Yamada Taro",
+              "note": "Não pode ser aceito se caracteres inutilizáveis forem incluídos."
+            },
+            {
+              "field_name": "Domicílio Registrado (Honseki)",
+              "how_to_fill": "Escreva o honseki do pai/mãe.",
+              "example": "Ota City ...",
+              "note": "Geralmente é igual ao honseki do pai/mãe."
+            }
+          ],
+          "tips": [
+            "Envie dentro de 14 dias após o nascimento (3 meses se no exterior)",
+            "É eficiente solicitar o Auxílio Infantil e Assistência Médica Infantil ao mesmo tempo"
+          ]
+        },
         "faq": [
           {
             "question": "O prazo de 14 dias inclui o dia do nascimento?",
@@ -4828,7 +4867,7 @@
             "answer": "O hospital ou clínica fornece, geralmente junto ao formulário do Registro de Nascimento."
           }
         ],
-        "estimated_time": "Cerca de 10 minutos no balcão",
+        "estimated_time": null,
         "related_articles": [
           "child-allowance",
           "national-health-insurance",
