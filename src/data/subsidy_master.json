@@ -7942,81 +7942,47 @@
         "five_w1h": {
           "who": "保護者が就労・病気等の理由で保育が必要な0〜5歳の子どもを持つ保護者",
           "what": "保育所（認可保育所・認定こども園・小規模保育施設等）への入所申請",
-          "when": "4月入所は前年10〜11月に申し込み（随時受付は通年）",
-          "where": "市役所2階こども課（申請書類の提出）",
+          "when": "随時入園は毎月指定された申込期間内（土日祝を除く市役所開庁時間）。期限を過ぎると受付不可",
+          "where": "市役所 こども課窓口",
           "why": "就労等により家庭での保育が困難な乳幼児を保育するため",
-          "how": "支給認定申請書と保育所入所申込書を提出。就労証明書等の添付書類が必要"
+          "how": "事前に記入済みの申請書と必要書類を揃えて、こども課窓口へ直接提出（Web申し込み・郵送は不可）"
         },
         "checklist": [
           {
-            "item": "保育所等利用申込書（入所申請書）",
-            "note": "市役所こども保育課・各行政センターまたはホームページから入手",
+            "item": "教育・保育給付認定申請書（兼）太田市保育施設利用申込書（保育児童台帳）",
+            "note": "窓口に来る前に原則すべての内容を記入しておく（不明点は空欄で可）",
             "required": true
           },
           {
-            "item": "保育の必要性を証明する書類（就労証明書等）",
-            "note": "就労中の場合は勤務先に記載を依頼。自営業は確定申告書等",
+            "item": "保育の必要性を証明する書類（就労証明書など）",
+            "note": "「利用の手引き」を確認し用意する",
             "required": true
-          },
-          {
-            "item": "児童の健康保険証（写し）",
-            "note": "保険の加入状況確認に使用",
-            "required": true
-          },
-          {
-            "item": "マイナンバー確認書類（保護者・児童）",
-            "note": "全員分のマイナンバーが必要",
-            "required": true
-          },
-          {
-            "item": "保護者の所得証明書または課税証明書",
-            "note": "保育料算定に使用。前年分を市役所税務課で取得",
-            "required": true
-          },
-          {
-            "item": "健康状況調査票・児童調査票",
-            "note": "申請書類一式に含まれる場合が多い",
-            "required": false
           }
         ],
         "form_guide": {
           "form_name": "保育所等利用申込書",
-          "fields": [
-            {
-              "field_name": "希望する保育所",
-              "how_to_fill": "第1〜第3希望まで記入（定員により第1希望に入れない場合あり）",
-              "example": "第1希望：○○保育園",
-              "note": "見学してから記入することを推奨"
-            },
-            {
-              "field_name": "保育を必要とする理由",
-              "how_to_fill": "就労・妊娠出産・疾病・介護等から選択し詳細を記入",
-              "example": "就労（フルタイム勤務）",
-              "note": "理由により必要書類が異なる"
-            }
-          ],
+          "fields": [],
           "tips": [
-            "入所申請の締め切りは翌年4月入所の場合、前年11〜12月が多い。早めに確認を",
-            "点数制（保育の必要度）で入所優先順位が決まる",
-            "無償化（3〜5歳）の対象だが、給食費・行事費等は実費負担"
+            "申請書は市ホームページからダウンロードできるほか、こども課窓口や市内保育施設でも配布しています。",
+            "募集状況表で募集人数が「0」のクラスは希望できません。"
           ]
         },
         "faq": [
           {
-            "question": "保育園に入れる条件はありますか？",
-            "answer": "保育が必要な事由（就労・妊娠・疾病・介護等）があることが必要です。「保育の必要性の認定」を受けた上で申請します。専業主婦（夫）の家庭は認定こども園の教育部分の利用が検討できます。"
+            "question": "窓口に行かずに郵送やWebで申し込むことはできますか？",
+            "answer": "随時入園募集ではWeb申し込み、窓口予約はありません。また、郵送での提出もできません。必ずこども課窓口へ直接お越しください。"
           },
           {
-            "question": "申し込みはいつすればよいですか？",
-            "answer": "翌年4月からの入園を希望する場合は、前年の10〜11月頃に申し込みが必要です（年度途中入園は随時申込可能）。定員があるため希望の園に入れない場合があります。"
+            "question": "入園は先着順で決まりますか？",
+            "answer": "先着順ではありません。申し込み期間中に受付した書類を審査し、入所を決定します。選考結果は毎月20日前後に郵送で通知されます。"
           },
           {
-            "question": "保育料はいくらかかりますか？",
-            "answer": "3歳以上児は保育料無償化（幼児教育・保育無償化）の対象です。0〜2歳児は世帯の市民税額をもとに算定されます。給食費や延長保育料は別途かかります。"
+            "question": "申し込み前の見学は必要ですか？",
+            "answer": "各施設への見学等を行い、希望施設をお考えください。児童の健康状況等で配慮が必要な場合や0歳児（6か月未満）の場合は、受け入れ可能か申し込み前の事前の確認が必須です。"
           },
           {
-            "question": "育児休業中でも保育園に申し込めますか？",
-            "answer": "育休中は原則として「保育の必要性」がないため入園が難しい場合があります。ただし復職予定がある場合は申し込みできる自治体もあるため、市役所に相談してください。"
+            "question": "太田市外の保育施設に入園することはできますか？",
+            "answer": "市外の保育施設への入園（広域入所）も可能ですが、申し込み方法や期間が異なります。"
           }
         ],
         "estimated_time": "申請書類準備に数日、窓口での手続き約30分",
@@ -8039,60 +8005,47 @@
         "five_w1h": {
           "who": "Parents/guardians of children aged 0-5 who need childcare due to work, illness, etc.",
           "what": "Application for admission to a childcare facility (licensed nursery school, certified child center, small-scale childcare facility, etc.)",
-          "when": "Applications for April admission are in October-November of the previous year (occasional applications are accepted year-round)",
-          "where": "Children's Division on the 2nd floor of the City Hall (submission of application documents)",
+          "when": "Applications for occasional enrollment must be submitted during the specified period each month. Late applications will not be accepted.",
+          "where": "Children's Division Counter, City Hall",
           "why": "To provide childcare for infants and toddlers when childcare at home is difficult due to employment, etc.",
-          "how": "Submit the Benefit Certification Application and Nursery School Admission Application. Attachments such as an Employment Certificate are required"
+          "how": "Submit the pre-filled application form and necessary documents directly to the Children's Division counter (Web/mail not accepted)."
         },
         "checklist": [
           {
-            "item": "Application for Use of Childcare Facilities (保育所等利用申込書)",
-            "note": "Obtain from the City Hall Childcare Division, Administrative Centers, or the website",
+            "item": "Education/Childcare Benefit Certification Application (and) Ota City Childcare Facility Use Application Form",
+            "note": "Must be filled out completely before coming to the counter.",
             "required": true
           },
           {
-            "item": "Document proving the need for childcare, such as an Employment Certificate (保育の必要性を証明する書類)",
-            "note": "If employed, ask your employer to fill it out. If self-employed, use a tax return, etc.",
+            "item": "Documents proving the need for childcare (e.g., Employment Certificate)",
+            "note": "Check the usage guide to prepare.",
             "required": true
-          },
-          {
-            "item": "Child's Health Insurance Card copy (児童の健康保険証)",
-            "note": "Used to confirm enrollment status",
-            "required": true
-          },
-          {
-            "item": "My Number confirmation documents for parents and child (マイナンバー確認書類)",
-            "note": "My Numbers are required for all family members",
-            "required": true
-          },
-          {
-            "item": "Income Certificate or Tax Certificate of the parents (保護者の所得証明書または課税証明書)",
-            "note": "Used to calculate childcare fees. Obtain the previous year's certificate at the City Hall Tax Division",
-            "required": true
-          },
-          {
-            "item": "Health Condition Survey Form / Child Survey Form (健康状況調査票・児童調査票)",
-            "note": "Often included in the application document set",
-            "required": false
           }
         ],
-        "form_guide": null,
+        "form_guide": {
+          "form_name": "Childcare Facility Use Application Form",
+          "fields": [],
+          "tips": [
+            "Forms can be downloaded from the website or picked up at the counter/facilities.",
+            "You cannot select classes with an available capacity of '0'."
+          ]
+        },
         "faq": [
           {
-            "question": "Are there any conditions for entering a nursery school?",
-            "answer": "You must have a reason that requires childcare (e.g., work, pregnancy, illness, nursing care). You apply after receiving 'Certification of the Need for Childcare'. Families with full-time homemakers can consider using the education part of a certified child center."
+            "question": "Can I apply by mail or online?",
+            "answer": "No. Online applications, appointments, and mail submissions are not accepted. You must visit the Children's Division counter directly."
           },
           {
-            "question": "When should I apply?",
-            "answer": "If you wish to enroll from April of the following year, you must apply around October to November of the previous year (applications for mid-year enrollment are accepted occasionally). You may not be able to enter your preferred facility if it is full."
+            "question": "Is enrollment decided on a first-come, first-served basis?",
+            "answer": "No. It is based on a review of the submitted documents. Results are mailed around the 20th of each month."
           },
           {
-            "question": "How much are the childcare fees?",
-            "answer": "Children aged 3 and over are eligible for free childcare fees (Free Early Childhood Education and Care). Fees for children aged 0-2 are calculated based on the household's municipal tax amount. School lunch fees and extended childcare fees are charged separately."
+            "question": "Is a preliminary visit necessary?",
+            "answer": "Yes, please visit the facilities before applying. If your child requires special care or is under 6 months old, prior confirmation with the facility is mandatory."
           },
           {
-            "question": "Can I apply for a nursery school while on childcare leave?",
-            "answer": "As a general rule, there is no 'need for childcare' during childcare leave, so enrollment may be difficult. However, some municipalities allow you to apply if you plan to return to work, so please consult with the City Hall."
+            "question": "Can I apply to a nursery school outside Ota City?",
+            "answer": "Yes, wide-area admission is possible, but the application method and period are different."
           }
         ],
         "estimated_time": "A few days to prepare application documents, about 30 minutes for counter procedures",
@@ -8115,60 +8068,47 @@
         "five_w1h": {
           "who": "Pais/responsáveis por crianças de 0 a 5 anos que precisam de creche devido a trabalho, doença, etc.",
           "what": "Inscrição para admissão em uma instalação de cuidados infantis (creche licenciada, centro infantil certificado, instalação de cuidados infantis de pequena escala, etc.)",
-          "when": "As inscrições para admissão em abril ocorrem entre outubro e novembro do ano anterior (inscrições ocasionais são aceitas o ano todo)",
-          "where": "Divisão de Crianças no 2º andar da Prefeitura (entrega de documentos de inscrição)",
+          "when": "As inscrições devem ser feitas no período especificado de cada mês. Inscrições fora do prazo não serão aceitas.",
+          "where": "Balcão da Divisão de Crianças, Prefeitura",
           "why": "Para fornecer cuidados a bebês e crianças pequenas quando os cuidados em casa são difíceis devido ao emprego, etc.",
-          "how": "Envie o Formulário de Certificação de Benefício e o Formulário de Inscrição em Creche. Anexos como um Certificado de Emprego são necessários"
+          "how": "Envie o formulário pré-preenchido e documentos diretamente no balcão da Divisão de Crianças (Web/correio não aceitos)."
         },
         "checklist": [
           {
-            "item": "Formulário de Inscrição para Uso de Instalações de Cuidados Infantis (保育所等利用申込書)",
-            "note": "Obtenha na Divisão de Cuidados Infantis da Prefeitura, Centros Administrativos ou no site",
+            "item": "Formulário de Solicitação de Benefício de Educação/Cuidados (e) Uso de Instalações de Cuidados de Ota",
+            "note": "Deve ser totalmente preenchido antes de vir ao balcão.",
             "required": true
           },
           {
-            "item": "Documento que comprove a necessidade de creche, como um Certificado de Emprego (保育の必要性を証明する書類)",
-            "note": "Se empregado, peça ao seu empregador para preencher. Se autônomo, use a declaração de imposto, etc.",
+            "item": "Documentos que comprovem a necessidade de creche (ex: Certificado de Trabalho)",
+            "note": "Verifique o guia para se preparar.",
             "required": true
-          },
-          {
-            "item": "Cópia do Cartão de Seguro de Saúde da criança (児童の健康保険証)",
-            "note": "Usado para confirmar o status de inscrição",
-            "required": true
-          },
-          {
-            "item": "Documentos de confirmação do My Number dos pais e da criança (マイナンバー確認書類)",
-            "note": "Os My Numbers são necessários para todos os membros da família",
-            "required": true
-          },
-          {
-            "item": "Certificado de Renda ou Certificado de Imposto dos pais (保護者の所得証明書または課税証明書)",
-            "note": "Usado para calcular as taxas da creche. Obtenha o certificado do ano anterior na Divisão de Impostos da Prefeitura",
-            "required": true
-          },
-          {
-            "item": "Formulário de Pesquisa de Condição de Saúde / Formulário de Pesquisa da Criança (健康状況調査票・児童調査票)",
-            "note": "Geralmente incluído no conjunto de documentos de inscrição",
-            "required": false
           }
         ],
-        "form_guide": null,
+        "form_guide": {
+          "form_name": "Formulário de Uso de Instalações de Cuidados",
+          "fields": [],
+          "tips": [
+            "Os formulários podem ser baixados no site ou retirados no balcão/instalações.",
+            "Não é possível escolher turmas com capacidade disponível '0'."
+          ]
+        },
         "faq": [
           {
-            "question": "Existem condições para entrar em uma creche?",
-            "answer": "Você deve ter um motivo que exija creche (ex: trabalho, gravidez, doença, cuidados de enfermagem). Você se inscreve após receber a 'Certificação de Necessidade de Cuidados Infantis'. Famílias com donas de casa em tempo integral podem considerar o uso da parte educacional de um centro infantil certificado."
+            "question": "Posso me inscrever por correio ou online?",
+            "answer": "Não. Inscrições online ou por correio não são aceitas. É obrigatório ir pessoalmente ao balcão."
           },
           {
-            "question": "Quando devo me inscrever?",
-            "answer": "Se desejar matricular-se a partir de abril do ano seguinte, deve inscrever-se por volta de outubro a novembro do ano anterior (as inscrições para matrícula no meio do ano são aceitas ocasionalmente). Pode não ser possível entrar na instalação de sua preferência se ela estiver lotada."
+            "question": "A inscrição é por ordem de chegada?",
+            "answer": "Não. A decisão é feita com base na análise dos documentos. Os resultados são enviados por correio por volta do dia 20 de cada mês."
           },
           {
-            "question": "Quanto custam as taxas da creche?",
-            "answer": "Crianças de 3 anos ou mais têm direito a isenção de taxas (Educação Infantil Gratuita). As taxas para crianças de 0 a 2 anos são calculadas com base no valor do imposto municipal da família. As taxas da merenda escolar e as taxas de creche prolongada são cobradas separadamente."
+            "question": "É necessário fazer uma visita preliminar?",
+            "answer": "Sim, visite as instalações antes de se inscrever. Se a criança precisar de cuidados especiais ou tiver menos de 6 meses, a confirmação prévia é obrigatória."
           },
           {
-            "question": "Posso me inscrever para uma creche enquanto estiver de licença maternidade/paternidade?",
-            "answer": "Como regra geral, não há 'necessidade de creche' durante a licença, portanto a matrícula pode ser difícil. No entanto, alguns municípios permitem que você se inscreva se planeja voltar ao trabalho, então consulte a Prefeitura."
+            "question": "Posso inscrever meu filho em uma creche fora de Ota?",
+            "answer": "Sim, admissões em outras áreas são possíveis, mas os métodos e prazos são diferentes."
           }
         ],
         "estimated_time": "Alguns dias para preparar os documentos de inscrição, cerca de 30 minutos para os procedimentos no balcão",
