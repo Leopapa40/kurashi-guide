@@ -1,0 +1,75 @@
+{
+  "wifi": {
+    "title": {
+      "ja": "無料Wi-Fiスポット",
+      "en": "Free Wi-Fi Spots",
+      "pt": "Pontos de Wi-Fi Gratuito"
+    },
+    "osm_tags": [
+      "shop=convenience",
+      "amenity=cafe",
+      "amenity=fast_food",
+      "amenity=library"
+    ],
+    "needs_whitelist": true,
+    "whitelist_file": "brand_whitelist.json",
+    "csv_category": "public",
+    "csv_wifi_conditions": {
+      "ja": "施設の開館時間内に利用可能",
+      "en": "Available during facility hours",
+      "pt": "Disponível durante o horário de funcionamento"
+    },
+    "category_map": {
+      "convenience": "convenience",
+      "cafe": "cafe",
+      "fast_food": "cafe",
+      "library": "library"
+    },
+    "whitelist_bypass_categories": [
+      "library"
+    ],
+    "icon": "wifi"
+  },
+  "medical": {
+    "title": {
+      "ja": "病院・クリニック",
+      "en": "Hospitals & Clinics",
+      "pt": "Hospitais e Clínicas"
+    },
+    "osm_tags": [
+      "amenity=hospital",
+      "amenity=clinic",
+      "amenity=doctors"
+    ],
+    "needs_whitelist": false,
+    "csv_category": "medical",
+    "icon": "medical"
+  },
+  "pharmacy": {
+    "title": {
+      "ja": "薬局・ドラッグストア",
+      "en": "Pharmacies",
+      "pt": "Farmácias"
+    },
+    "osm_tags": [
+      "amenity=pharmacy",
+      "shop=chemist"
+    ],
+    "needs_whitelist": false,
+    "csv_category": "pharmacy",
+    "icon": "pharmacy"
+  },
+  "mobile_shop": {
+    "title": {
+      "ja": "携帯ショップ",
+      "en": "Mobile Phone Shops",
+      "pt": "Lojas de Celular"
+    },
+    "osm_tags": [
+      "shop=mobile_phone"
+    ],
+    "needs_whitelist": false,
+    "csv_category": "mobile_shop",
+    "icon": "mobile"
+  }
+}

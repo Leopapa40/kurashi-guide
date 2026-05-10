@@ -1,0 +1,1665 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "city": "ota",
+    "layer": "wifi",
+    "generated_at": "2026-05-10T11:04:56.430693+00:00",
+    "sources": [
+      "太田市オープンデータ",
+      "OpenStreetMap"
+    ],
+    "total_spots": 66
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.374215,
+          36.296583
+        ]
+      },
+      "properties": {
+        "id": "public-太田行政センター-36296-139374",
+        "name": "太田行政センター",
+        "category": "public",
+        "address": "太田市本町20-1",
+        "phone": "(0276)22-2603",
+        "source": "city_opendata",
+        "brand": null,
+        "ssid": ".Free_Wi-Fi_1",
+        "wifi_conditions": {
+          "ja": "施設の開館時間内に利用可能",
+          "en": "Available during facility hours",
+          "pt": "Disponível durante o horário de funcionamento"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.384196,
+          36.276627
+        ]
+      },
+      "properties": {
+        "id": "public-九合行政センター-36276-139384",
+        "name": "九合行政センター",
+        "category": "public",
+        "address": "太田市飯塚町591-1",
+        "phone": "(0276)45-6978",
+        "source": "city_opendata",
+        "brand": null,
+        "ssid": ".Free_Wi-Fi_1",
+        "wifi_conditions": {
+          "ja": "施設の開館時間内に利用可能",
+          "en": "Available during facility hours",
+          "pt": "Disponível durante o horário de funcionamento"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.365815,
+          36.259175
+        ]
+      },
+      "properties": {
+        "id": "public-沢野行政センター-36259-139365",
+        "name": "沢野行政センター",
+        "category": "public",
+        "address": "太田市高林西町882-5",
+        "phone": "(0276)38-4281",
+        "source": "city_opendata",
+        "brand": null,
+        "ssid": ".Free_Wi-Fi_1",
+        "wifi_conditions": {
+          "ja": "施設の開館時間内に利用可能",
+          "en": "Available during facility hours",
+          "pt": "Disponível durante o horário de funcionamento"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.398949,
+          36.302105
+        ]
+      },
+      "properties": {
+        "id": "public-韮川行政センター-36302-139398",
+        "name": "韮川行政センター",
+        "category": "public",
+        "address": "太田市東長岡町1853",
+        "phone": "(0276)48-6853",
+        "source": "city_opendata",
+        "brand": null,
+        "ssid": ".Free_Wi-Fi_1",
+        "wifi_conditions": {
+          "ja": "施設の開館時間内に利用可能",
+          "en": "Available during facility hours",
+          "pt": "Disponível durante o horário de funcionamento"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.345847,
+          36.308503
+        ]
+      },
+      "properties": {
+        "id": "public-鳥之郷行政センター-36308-139345",
+        "name": "鳥之郷行政センター",
+        "category": "public",
+        "address": "太田市新野町203",
+        "phone": "(0276)32-6854",
+        "source": "city_opendata",
+        "brand": null,
+        "ssid": ".Free_Wi-Fi_1",
+        "wifi_conditions": {
+          "ja": "施設の開館時間内に利用可能",
+          "en": "Available during facility hours",
+          "pt": "Disponível durante o horário de funcionamento"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.340584,
+          36.341297
+        ]
+      },
+      "properties": {
+        "id": "public-強戸行政センター-36341-139340",
+        "name": "強戸行政センター",
+        "category": "public",
+        "address": "太田市菅塩町345",
+        "phone": "(0276)37-4979",
+        "source": "city_opendata",
+        "brand": null,
+        "ssid": ".Free_Wi-Fi_1",
+        "wifi_conditions": {
+          "ja": "施設の開館時間内に利用可能",
+          "en": "Available during facility hours",
+          "pt": "Disponível durante o horário de funcionamento"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.416062,
+          36.289479
+        ]
+      },
+      "properties": {
+        "id": "public-休泊行政センター-36289-139416",
+        "name": "休泊行政センター",
+        "category": "public",
+        "address": "太田市龍舞町4053",
+        "phone": "(0276)49-0201",
+        "source": "city_opendata",
+        "brand": null,
+        "ssid": ".Free_Wi-Fi_1",
+        "wifi_conditions": {
+          "ja": "施設の開館時間内に利用可能",
+          "en": "Available during facility hours",
+          "pt": "Disponível durante o horário de funcionamento"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.332402,
+          36.282264
+        ]
+      },
+      "properties": {
+        "id": "public-宝泉行政センター-36282-139332",
+        "name": "宝泉行政センター",
+        "category": "public",
+        "address": "太田市西野谷町38-2",
+        "phone": "(0276)32-2688",
+        "source": "city_opendata",
+        "brand": null,
+        "ssid": ".Free_Wi-Fi_1",
+        "wifi_conditions": {
+          "ja": "施設の開館時間内に利用可能",
+          "en": "Available during facility hours",
+          "pt": "Disponível durante o horário de funcionamento"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.38375,
+          36.337926
+        ]
+      },
+      "properties": {
+        "id": "public-毛里田行政センター-36337-139383",
+        "name": "毛里田行政センター",
+        "category": "public",
+        "address": "太田市矢田堀町244-5",
+        "phone": "(0276)37-1059",
+        "source": "city_opendata",
+        "brand": null,
+        "ssid": ".Free_Wi-Fi_1",
+        "wifi_conditions": {
+          "ja": "施設の開館時間内に利用可能",
+          "en": "Available during facility hours",
+          "pt": "Disponível durante o horário de funcionamento"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.321152,
+          36.256647
+        ]
+      },
+      "properties": {
+        "id": "public-尾島生涯学習センター-36256-139321",
+        "name": "尾島生涯学習センター",
+        "category": "public",
+        "address": "太田市亀岡町63-1",
+        "phone": "(0276)52-2341",
+        "source": "city_opendata",
+        "brand": null,
+        "ssid": ".Free_Wi-Fi_1",
+        "wifi_conditions": {
+          "ja": "施設の開館時間内に利用可能",
+          "en": "Available during facility hours",
+          "pt": "Disponível durante o horário de funcionamento"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.281678,
+          36.266038
+        ]
+      },
+      "properties": {
+        "id": "public-世良田生涯学習センター-36266-139281",
+        "name": "世良田生涯学習センター",
+        "category": "public",
+        "address": "太田市世良田町1535-4",
+        "phone": "(0276)52-1002",
+        "source": "city_opendata",
+        "brand": null,
+        "ssid": ".Free_Wi-Fi_1",
+        "wifi_conditions": {
+          "ja": "施設の開館時間内に利用可能",
+          "en": "Available during facility hours",
+          "pt": "Disponível durante o horário de funcionamento"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.301419,
+          36.281656
+        ]
+      },
+      "properties": {
+        "id": "public-木崎行政センター-36281-139301",
+        "name": "木崎行政センター",
+        "category": "public",
+        "address": "太田市新田木崎町1215-1",
+        "phone": "(0276)56-1053",
+        "source": "city_opendata",
+        "brand": null,
+        "ssid": ".Free_Wi-Fi_1",
+        "wifi_conditions": {
+          "ja": "施設の開館時間内に利用可能",
+          "en": "Available during facility hours",
+          "pt": "Disponível durante o horário de funcionamento"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.312825,
+          36.315505
+        ]
+      },
+      "properties": {
+        "id": "public-生品行政センター-36315-139312",
+        "name": "生品行政センター",
+        "category": "public",
+        "address": "太田市新田村田町1107-1",
+        "phone": "(0276)57-1055",
+        "source": "city_opendata",
+        "brand": null,
+        "ssid": ".Free_Wi-Fi_1",
+        "wifi_conditions": {
+          "ja": "施設の開館時間内に利用可能",
+          "en": "Available during facility hours",
+          "pt": "Disponível durante o horário de funcionamento"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.279115,
+          36.311071
+        ]
+      },
+      "properties": {
+        "id": "public-綿打行政センター-36311-139279",
+        "name": "綿打行政センター",
+        "category": "public",
+        "address": "太田市新田大根町953-1",
+        "phone": "(0276)57-1041",
+        "source": "city_opendata",
+        "brand": null,
+        "ssid": ".Free_Wi-Fi_1",
+        "wifi_conditions": {
+          "ja": "施設の開館時間内に利用可能",
+          "en": "Available during facility hours",
+          "pt": "Disponível durante o horário de funcionamento"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.382809,
+          36.276448
+        ]
+      },
+      "properties": {
+        "id": "public-太田市民会館-36276-139382",
+        "name": "太田市民会館",
+        "category": "public",
+        "address": "太田市飯塚町200-1",
+        "phone": "(0276)57-8577",
+        "source": "city_opendata",
+        "brand": null,
+        "ssid": ".Free_Wi-Fi_1",
+        "wifi_conditions": {
+          "ja": "施設の開館時間内に利用可能",
+          "en": "Available during facility hours",
+          "pt": "Disponível durante o horário de funcionamento"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.378526,
+          36.294759
+        ]
+      },
+      "properties": {
+        "id": "public-太田市美術館-図書館-36294-139378",
+        "name": "太田市美術館・図書館",
+        "category": "public",
+        "address": "太田市東本町16-30",
+        "phone": "(0276)55-3036",
+        "source": "city_opendata",
+        "brand": null,
+        "ssid": "Otalimu",
+        "wifi_conditions": {
+          "ja": "施設の開館時間内に利用可能",
+          "en": "Available during facility hours",
+          "pt": "Disponível durante o horário de funcionamento"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.297815,
+          36.356695
+        ]
+      },
+      "properties": {
+        "id": "public-藪塚本町中央公民館-36356-139297",
+        "name": "藪塚本町中央公民館",
+        "category": "public",
+        "address": "太田市大原町505",
+        "phone": "(0277)78-5411",
+        "source": "city_opendata",
+        "brand": null,
+        "ssid": ".Free_Wi-Fi_1",
+        "wifi_conditions": {
+          "ja": "施設の開館時間内に利用可能",
+          "en": "Available during facility hours",
+          "pt": "Disponível durante o horário de funcionamento"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.379245,
+          36.304875
+        ]
+      },
+      "properties": {
+        "id": "public-社会教育総合センター-36304-139379",
+        "name": "社会教育総合センター",
+        "category": "public",
+        "address": "太田市熊野町23-19",
+        "phone": "(0276)22-3442",
+        "source": "city_opendata",
+        "brand": null,
+        "ssid": ".Free_Wi-Fi_1",
+        "wifi_conditions": {
+          "ja": "施設の開館時間内に利用可能",
+          "en": "Available during facility hours",
+          "pt": "Disponível durante o horário de funcionamento"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.382765,
+          36.283915
+        ]
+      },
+      "properties": {
+        "id": "public-太田市中央図書館-36283-139382",
+        "name": "太田市中央図書館",
+        "category": "public",
+        "address": "太田市飯塚町1549-2",
+        "phone": "(0276)48-6226",
+        "source": "city_opendata",
+        "brand": null,
+        "ssid": ".Free_Wi-Fi_1",
+        "wifi_conditions": {
+          "ja": "施設の開館時間内に利用可能",
+          "en": "Available during facility hours",
+          "pt": "Disponível durante o horário de funcionamento"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.374861,
+          36.312452
+        ]
+      },
+      "properties": {
+        "id": "public-太田市金山地域交流センター-36312-139374",
+        "name": "太田市金山地域交流センター",
+        "category": "public",
+        "address": "太田市金山町40-30",
+        "phone": "(0276)25-1067",
+        "source": "city_opendata",
+        "brand": null,
+        "ssid": ".Free_Wi-Fi_1",
+        "wifi_conditions": {
+          "ja": "施設の開館時間内に利用可能",
+          "en": "Available during facility hours",
+          "pt": "Disponível durante o horário de funcionamento"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.381448,
+          36.288138
+        ]
+      },
+      "properties": {
+        "id": "public-太田市保健センター-36288-139381",
+        "name": "太田市保健センター",
+        "category": "public",
+        "address": "太田市飯田町818",
+        "phone": "(0276)46-5115",
+        "source": "city_opendata",
+        "brand": null,
+        "ssid": ".Free_Wi-Fi_1",
+        "wifi_conditions": {
+          "ja": "施設の開館時間内に利用可能",
+          "en": "Available during facility hours",
+          "pt": "Disponível durante o horário de funcionamento"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.380556,
+          36.287459
+        ]
+      },
+      "properties": {
+        "id": "library-太田市立図書館中島こども分館-36287-139380",
+        "name": "太田市立図書館中島こども分館",
+        "category": "library",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null,
+        "wifi_conditions": {
+          "ja": "施設の開館時間内に利用可能",
+          "en": "Available during facility hours",
+          "pt": "Disponível durante o horário de funcionamento"
+        },
+        "ssid": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.299674,
+          36.300011
+        ]
+      },
+      "properties": {
+        "id": "library-太田市立新田図書館-36300-139299",
+        "name": "太田市立新田図書館",
+        "category": "library",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null,
+        "wifi_conditions": {
+          "ja": "施設の開館時間内に利用可能",
+          "en": "Available during facility hours",
+          "pt": "Disponível durante o horário de funcionamento"
+        },
+        "ssid": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.298332,
+          36.356465
+        ]
+      },
+      "properties": {
+        "id": "library-太田市立薮塚本町図書館-36356-139298",
+        "name": "太田市立薮塚本町図書館",
+        "category": "library",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null,
+        "wifi_conditions": {
+          "ja": "施設の開館時間内に利用可能",
+          "en": "Available during facility hours",
+          "pt": "Disponível durante o horário de funcionamento"
+        },
+        "ssid": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3676426,
+          36.2942747
+        ]
+      },
+      "properties": {
+        "id": "convenience-ローソン-太田西本町-36294-139367",
+        "name": "ローソン 太田西本町",
+        "category": "convenience",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": "lawson",
+        "wifi_conditions": {
+          "ja": "メール登録、1回60分・1日5回",
+          "en": "Email registration, 60 min × 5 times/day",
+          "pt": "Registro por e-mail, 60 min × 5 vezes/dia"
+        },
+        "ssid": "LAWSON_Free_Wi-Fi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.2969006,
+          36.3551843
+        ]
+      },
+      "properties": {
+        "id": "convenience-ミニストップ藪塚大原店-36355-139296",
+        "name": "ミニストップ藪塚大原店",
+        "category": "convenience",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": "ministop",
+        "wifi_conditions": {
+          "ja": "メール登録、1回30分・1日3回",
+          "en": "Email registration, 30 min × 3 times/day",
+          "pt": "Registro por e-mail, 30 min × 3 vezes/dia"
+        },
+        "ssid": "MINISTOP_Wi-Fi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.380706,
+          36.3467332
+        ]
+      },
+      "properties": {
+        "id": "cafe-マクドナルド-５０号原宿南店-36346-139380",
+        "name": "マクドナルド ５０号原宿南店",
+        "category": "cafe",
+        "address": "桐生バイパス",
+        "phone": null,
+        "source": "osm",
+        "brand": "mcdonalds",
+        "wifi_conditions": {
+          "ja": "登録不要、1回60分",
+          "en": "No registration, 60 min per session",
+          "pt": "Sem registro, 60 min por sessão"
+        },
+        "ssid": "00_MCD-FREE-WIFI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.377537,
+          36.2753476
+        ]
+      },
+      "properties": {
+        "id": "cafe-マクドナルド-４０７太田店-36275-139377",
+        "name": "マクドナルド ４０７太田店",
+        "category": "cafe",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": "mcdonalds",
+        "wifi_conditions": {
+          "ja": "登録不要、1回60分",
+          "en": "No registration, 60 min per session",
+          "pt": "Sem registro, 60 min por sessão"
+        },
+        "ssid": "00_MCD-FREE-WIFI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3468216,
+          36.3220186
+        ]
+      },
+      "properties": {
+        "id": "convenience-ミニストップ太田鳥山店-36322-139346",
+        "name": "ミニストップ太田鳥山店",
+        "category": "convenience",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": "ministop",
+        "wifi_conditions": {
+          "ja": "メール登録、1回30分・1日3回",
+          "en": "Email registration, 30 min × 3 times/day",
+          "pt": "Registro por e-mail, 30 min × 3 vezes/dia"
+        },
+        "ssid": "MINISTOP_Wi-Fi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3124944,
+          36.2678199
+        ]
+      },
+      "properties": {
+        "id": "convenience-ローソン太田泉町店-36267-139312",
+        "name": "ローソン太田泉町店",
+        "category": "convenience",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": "lawson",
+        "wifi_conditions": {
+          "ja": "メール登録、1回60分・1日5回",
+          "en": "Email registration, 60 min × 5 times/day",
+          "pt": "Registro por e-mail, 60 min × 5 vezes/dia"
+        },
+        "ssid": "LAWSON_Free_Wi-Fi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3075392,
+          36.2674979
+        ]
+      },
+      "properties": {
+        "id": "convenience-ミニストップ尾島粕川店-36267-139307",
+        "name": "ミニストップ尾島粕川店",
+        "category": "convenience",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": "ministop",
+        "wifi_conditions": {
+          "ja": "メール登録、1回30分・1日3回",
+          "en": "Email registration, 30 min × 3 times/day",
+          "pt": "Registro por e-mail, 30 min × 3 vezes/dia"
+        },
+        "ssid": "MINISTOP_Wi-Fi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3825027,
+          36.33804
+        ]
+      },
+      "properties": {
+        "id": "convenience-ローソン-36338-139382",
+        "name": "ローソン",
+        "category": "convenience",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": "lawson",
+        "wifi_conditions": {
+          "ja": "メール登録、1回60分・1日5回",
+          "en": "Email registration, 60 min × 5 times/day",
+          "pt": "Registro por e-mail, 60 min × 5 vezes/dia"
+        },
+        "ssid": "LAWSON_Free_Wi-Fi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.310731,
+          36.3628662
+        ]
+      },
+      "properties": {
+        "id": "convenience-ローソン-36362-139310",
+        "name": "ローソン",
+        "category": "convenience",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": "lawson",
+        "wifi_conditions": {
+          "ja": "メール登録、1回60分・1日5回",
+          "en": "Email registration, 60 min × 5 times/day",
+          "pt": "Registro por e-mail, 60 min × 5 vezes/dia"
+        },
+        "ssid": "LAWSON_Free_Wi-Fi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.2937181,
+          36.2792597
+        ]
+      },
+      "properties": {
+        "id": "convenience-ローソン-新田中江田店-36279-139293",
+        "name": "ローソン 新田中江田店",
+        "category": "convenience",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": "lawson",
+        "wifi_conditions": {
+          "ja": "メール登録、1回60分・1日5回",
+          "en": "Email registration, 60 min × 5 times/day",
+          "pt": "Registro por e-mail, 60 min × 5 vezes/dia"
+        },
+        "ssid": "LAWSON_Free_Wi-Fi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3570268,
+          36.2843301
+        ]
+      },
+      "properties": {
+        "id": "convenience-ローソン-太田関東学園大学前店-36284-139357",
+        "name": "ローソン　太田関東学園大学前店",
+        "category": "convenience",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": "lawson",
+        "wifi_conditions": {
+          "ja": "メール登録、1回60分・1日5回",
+          "en": "Email registration, 60 min × 5 times/day",
+          "pt": "Registro por e-mail, 60 min × 5 vezes/dia"
+        },
+        "ssid": "LAWSON_Free_Wi-Fi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3541117,
+          36.2751059
+        ]
+      },
+      "properties": {
+        "id": "convenience-ローソン-太田細谷町店-36275-139354",
+        "name": "ローソン　太田細谷町店",
+        "category": "convenience",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": "lawson",
+        "wifi_conditions": {
+          "ja": "メール登録、1回60分・1日5回",
+          "en": "Email registration, 60 min × 5 times/day",
+          "pt": "Registro por e-mail, 60 min × 5 vezes/dia"
+        },
+        "ssid": "LAWSON_Free_Wi-Fi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.2806353,
+          36.3612243
+        ]
+      },
+      "properties": {
+        "id": "convenience-ローソン-36361-139280",
+        "name": "ローソン",
+        "category": "convenience",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": "lawson",
+        "wifi_conditions": {
+          "ja": "メール登録、1回60分・1日5回",
+          "en": "Email registration, 60 min × 5 times/day",
+          "pt": "Registro por e-mail, 60 min × 5 vezes/dia"
+        },
+        "ssid": "LAWSON_Free_Wi-Fi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3769311,
+          36.2763002
+        ]
+      },
+      "properties": {
+        "id": "cafe-スターバックスコーヒー-36276-139376",
+        "name": "スターバックスコーヒー",
+        "category": "cafe",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": "starbucks",
+        "wifi_conditions": {
+          "ja": "メール登録、時間制限なし",
+          "en": "Email registration, no time limit",
+          "pt": "Registro por e-mail, sem limite de tempo"
+        },
+        "ssid": "at_STARBUCKS_Wi2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3035024,
+          36.3055615
+        ]
+      },
+      "properties": {
+        "id": "cafe-マクドナルド-36305-139303",
+        "name": "マクドナルド",
+        "category": "cafe",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": "mcdonalds",
+        "wifi_conditions": {
+          "ja": "登録不要、1回60分",
+          "en": "No registration, 60 min per session",
+          "pt": "Sem registro, 60 min por sessão"
+        },
+        "ssid": "00_MCD-FREE-WIFI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3951499,
+          36.2902785
+        ]
+      },
+      "properties": {
+        "id": "cafe-McDonald-s-36290-139395",
+        "name": "McDonald's",
+        "category": "cafe",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": "mcdonalds",
+        "wifi_conditions": {
+          "ja": "登録不要、1回60分",
+          "en": "No registration, 60 min per session",
+          "pt": "Sem registro, 60 min por sessão"
+        },
+        "ssid": "00_MCD-FREE-WIFI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3800713,
+          36.2921273
+        ]
+      },
+      "properties": {
+        "id": "convenience-ローソン-36292-139380",
+        "name": "ローソン",
+        "category": "convenience",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": "lawson",
+        "wifi_conditions": {
+          "ja": "メール登録、1回60分・1日5回",
+          "en": "Email registration, 60 min × 5 times/day",
+          "pt": "Registro por e-mail, 60 min × 5 vezes/dia"
+        },
+        "ssid": "LAWSON_Free_Wi-Fi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3511312,
+          36.2871724
+        ]
+      },
+      "properties": {
+        "id": "convenience-ローソン-36287-139351",
+        "name": "ローソン",
+        "category": "convenience",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": "lawson",
+        "wifi_conditions": {
+          "ja": "メール登録、1回60分・1日5回",
+          "en": "Email registration, 60 min × 5 times/day",
+          "pt": "Registro por e-mail, 60 min × 5 vezes/dia"
+        },
+        "ssid": "LAWSON_Free_Wi-Fi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3498608,
+          36.2709095
+        ]
+      },
+      "properties": {
+        "id": "convenience-ミニストップ-36270-139349",
+        "name": "ミニストップ",
+        "category": "convenience",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": "ministop",
+        "wifi_conditions": {
+          "ja": "メール登録、1回30分・1日3回",
+          "en": "Email registration, 30 min × 3 times/day",
+          "pt": "Registro por e-mail, 30 min × 3 vezes/dia"
+        },
+        "ssid": "MINISTOP_Wi-Fi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3671936,
+          36.2731193
+        ]
+      },
+      "properties": {
+        "id": "convenience-ローソン-36273-139367",
+        "name": "ローソン",
+        "category": "convenience",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": "lawson",
+        "wifi_conditions": {
+          "ja": "メール登録、1回60分・1日5回",
+          "en": "Email registration, 60 min × 5 times/day",
+          "pt": "Registro por e-mail, 60 min × 5 vezes/dia"
+        },
+        "ssid": "LAWSON_Free_Wi-Fi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3736545,
+          36.2599887
+        ]
+      },
+      "properties": {
+        "id": "convenience-ローソン-36259-139373",
+        "name": "ローソン",
+        "category": "convenience",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": "lawson",
+        "wifi_conditions": {
+          "ja": "メール登録、1回60分・1日5回",
+          "en": "Email registration, 60 min × 5 times/day",
+          "pt": "Registro por e-mail, 60 min × 5 vezes/dia"
+        },
+        "ssid": "LAWSON_Free_Wi-Fi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3809735,
+          36.2598341
+        ]
+      },
+      "properties": {
+        "id": "convenience-ミニストップ-36259-139380",
+        "name": "ミニストップ",
+        "category": "convenience",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": "ministop",
+        "wifi_conditions": {
+          "ja": "メール登録、1回30分・1日3回",
+          "en": "Email registration, 30 min × 3 times/day",
+          "pt": "Registro por e-mail, 30 min × 3 vezes/dia"
+        },
+        "ssid": "MINISTOP_Wi-Fi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3881894,
+          36.2653059
+        ]
+      },
+      "properties": {
+        "id": "convenience-ローソン-36265-139388",
+        "name": "ローソン",
+        "category": "convenience",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": "lawson",
+        "wifi_conditions": {
+          "ja": "メール登録、1回60分・1日5回",
+          "en": "Email registration, 60 min × 5 times/day",
+          "pt": "Registro por e-mail, 60 min × 5 vezes/dia"
+        },
+        "ssid": "LAWSON_Free_Wi-Fi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3044524,
+          36.2975545
+        ]
+      },
+      "properties": {
+        "id": "convenience-ローソン-36297-139304",
+        "name": "ローソン",
+        "category": "convenience",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": "lawson",
+        "wifi_conditions": {
+          "ja": "メール登録、1回60分・1日5回",
+          "en": "Email registration, 60 min × 5 times/day",
+          "pt": "Registro por e-mail, 60 min × 5 vezes/dia"
+        },
+        "ssid": "LAWSON_Free_Wi-Fi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.2773779,
+          36.3025927
+        ]
+      },
+      "properties": {
+        "id": "convenience-ミニストップ-36302-139277",
+        "name": "ミニストップ",
+        "category": "convenience",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": "ministop",
+        "wifi_conditions": {
+          "ja": "メール登録、1回30分・1日3回",
+          "en": "Email registration, 30 min × 3 times/day",
+          "pt": "Registro por e-mail, 30 min × 3 vezes/dia"
+        },
+        "ssid": "MINISTOP_Wi-Fi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.36341,
+          36.2607331
+        ]
+      },
+      "properties": {
+        "id": "cafe-モスバーガー-36260-139363",
+        "name": "モスバーガー",
+        "category": "cafe",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": "mos-burger",
+        "wifi_conditions": {
+          "ja": "登録不要（店舗による）",
+          "en": "No registration required (varies by store)",
+          "pt": "Sem registro (varia por loja)"
+        },
+        "ssid": "MOS_BURGER_Free_Wi-Fi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3285499,
+          36.3272621
+        ]
+      },
+      "properties": {
+        "id": "convenience-ローソン-36327-139328",
+        "name": "ローソン",
+        "category": "convenience",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": "lawson",
+        "wifi_conditions": {
+          "ja": "メール登録、1回60分・1日5回",
+          "en": "Email registration, 60 min × 5 times/day",
+          "pt": "Registro por e-mail, 60 min × 5 vezes/dia"
+        },
+        "ssid": "LAWSON_Free_Wi-Fi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3202139,
+          36.2666556
+        ]
+      },
+      "properties": {
+        "id": "cafe-マクドナルド-36266-139320",
+        "name": "マクドナルド",
+        "category": "cafe",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": "mcdonalds",
+        "wifi_conditions": {
+          "ja": "登録不要、1回60分",
+          "en": "No registration, 60 min per session",
+          "pt": "Sem registro, 60 min por sessão"
+        },
+        "ssid": "00_MCD-FREE-WIFI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.4172737,
+          36.2712444
+        ]
+      },
+      "properties": {
+        "id": "convenience-ローソン-36271-139417",
+        "name": "ローソン",
+        "category": "convenience",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": "lawson",
+        "wifi_conditions": {
+          "ja": "メール登録、1回60分・1日5回",
+          "en": "Email registration, 60 min × 5 times/day",
+          "pt": "Registro por e-mail, 60 min × 5 vezes/dia"
+        },
+        "ssid": "LAWSON_Free_Wi-Fi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.4020349,
+          36.2869405
+        ]
+      },
+      "properties": {
+        "id": "convenience-ローソン太田下小林店-36286-139402",
+        "name": "ローソン太田下小林店",
+        "category": "convenience",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": "lawson",
+        "wifi_conditions": {
+          "ja": "メール登録、1回60分・1日5回",
+          "en": "Email registration, 60 min × 5 times/day",
+          "pt": "Registro por e-mail, 60 min × 5 vezes/dia"
+        },
+        "ssid": "LAWSON_Free_Wi-Fi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3951794,
+          36.2902472
+        ]
+      },
+      "properties": {
+        "id": "cafe-マクドナルド-太田内ヶ島店-36290-139395",
+        "name": "マクドナルド 太田内ヶ島店",
+        "category": "cafe",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": "mcdonalds",
+        "wifi_conditions": {
+          "ja": "登録不要、1回60分",
+          "en": "No registration, 60 min per session",
+          "pt": "Sem registro, 60 min por sessão"
+        },
+        "ssid": "00_MCD-FREE-WIFI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3769161,
+          36.2762916
+        ]
+      },
+      "properties": {
+        "id": "cafe-スターバックス-36276-139376",
+        "name": "スターバックス",
+        "category": "cafe",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": "starbucks",
+        "wifi_conditions": {
+          "ja": "メール登録、時間制限なし",
+          "en": "Email registration, no time limit",
+          "pt": "Registro por e-mail, sem limite de tempo"
+        },
+        "ssid": "at_STARBUCKS_Wi2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3719837,
+          36.2915238
+        ]
+      },
+      "properties": {
+        "id": "convenience-ミニストップ-36291-139371",
+        "name": "ミニストップ",
+        "category": "convenience",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": "ministop",
+        "wifi_conditions": {
+          "ja": "メール登録、1回30分・1日3回",
+          "en": "Email registration, 30 min × 3 times/day",
+          "pt": "Registro por e-mail, 30 min × 3 vezes/dia"
+        },
+        "ssid": "MINISTOP_Wi-Fi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.365612,
+          36.2963495
+        ]
+      },
+      "properties": {
+        "id": "convenience-ローソン-36296-139365",
+        "name": "ローソン",
+        "category": "convenience",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": "lawson",
+        "wifi_conditions": {
+          "ja": "メール登録、1回60分・1日5回",
+          "en": "Email registration, 60 min × 5 times/day",
+          "pt": "Registro por e-mail, 60 min × 5 vezes/dia"
+        },
+        "ssid": "LAWSON_Free_Wi-Fi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.4068333,
+          36.2994274
+        ]
+      },
+      "properties": {
+        "id": "convenience-ローソン-36299-139406",
+        "name": "ローソン",
+        "category": "convenience",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": "lawson",
+        "wifi_conditions": {
+          "ja": "メール登録、1回60分・1日5回",
+          "en": "Email registration, 60 min × 5 times/day",
+          "pt": "Registro por e-mail, 60 min × 5 vezes/dia"
+        },
+        "ssid": "LAWSON_Free_Wi-Fi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3520827,
+          36.3104331
+        ]
+      },
+      "properties": {
+        "id": "convenience-ローソン太田鳥山下町店-36310-139352",
+        "name": "ローソン太田鳥山下町店",
+        "category": "convenience",
+        "address": "太田大間々線",
+        "phone": null,
+        "source": "osm",
+        "brand": "lawson",
+        "wifi_conditions": {
+          "ja": "メール登録、1回60分・1日5回",
+          "en": "Email registration, 60 min × 5 times/day",
+          "pt": "Registro por e-mail, 60 min × 5 vezes/dia"
+        },
+        "ssid": "LAWSON_Free_Wi-Fi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3565971,
+          36.2970252
+        ]
+      },
+      "properties": {
+        "id": "cafe-モスバーガー-36297-139356",
+        "name": "モスバーガー",
+        "category": "cafe",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": "mos-burger",
+        "wifi_conditions": {
+          "ja": "登録不要（店舗による）",
+          "en": "No registration required (varies by store)",
+          "pt": "Sem registro (varia por loja)"
+        },
+        "ssid": "MOS_BURGER_Free_Wi-Fi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.32655,
+          36.260335
+        ]
+      },
+      "properties": {
+        "id": "convenience-ローソン-36260-139326",
+        "name": "ローソン",
+        "category": "convenience",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": "lawson",
+        "wifi_conditions": {
+          "ja": "メール登録、1回60分・1日5回",
+          "en": "Email registration, 60 min × 5 times/day",
+          "pt": "Registro por e-mail, 60 min × 5 vezes/dia"
+        },
+        "ssid": "LAWSON_Free_Wi-Fi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3849932,
+          36.2848532
+        ]
+      },
+      "properties": {
+        "id": "cafe-スターバックス-36284-139384",
+        "name": "スターバックス",
+        "category": "cafe",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": "starbucks",
+        "wifi_conditions": {
+          "ja": "メール登録、時間制限なし",
+          "en": "Email registration, no time limit",
+          "pt": "Registro por e-mail, sem limite de tempo"
+        },
+        "ssid": "at_STARBUCKS_Wi2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3926611,
+          36.2811714
+        ]
+      },
+      "properties": {
+        "id": "convenience-ミニストップ-36281-139392",
+        "name": "ミニストップ",
+        "category": "convenience",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": "ministop",
+        "wifi_conditions": {
+          "ja": "メール登録、1回30分・1日3回",
+          "en": "Email registration, 30 min × 3 times/day",
+          "pt": "Registro por e-mail, 30 min × 3 vezes/dia"
+        },
+        "ssid": "MINISTOP_Wi-Fi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3340786,
+          36.284221
+        ]
+      },
+      "properties": {
+        "id": "convenience-ローソン-36284-139334",
+        "name": "ローソン",
+        "category": "convenience",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": "lawson",
+        "wifi_conditions": {
+          "ja": "メール登録、1回60分・1日5回",
+          "en": "Email registration, 60 min × 5 times/day",
+          "pt": "Registro por e-mail, 60 min × 5 vezes/dia"
+        },
+        "ssid": "LAWSON_Free_Wi-Fi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3486438,
+          36.3015165
+        ]
+      },
+      "properties": {
+        "id": "convenience-ローソン-36301-139348",
+        "name": "ローソン",
+        "category": "convenience",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": "lawson",
+        "wifi_conditions": {
+          "ja": "メール登録、1回60分・1日5回",
+          "en": "Email registration, 60 min × 5 times/day",
+          "pt": "Registro por e-mail, 60 min × 5 vezes/dia"
+        },
+        "ssid": "LAWSON_Free_Wi-Fi"
+      }
+    }
+  ]
+}
