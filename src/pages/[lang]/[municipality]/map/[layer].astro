@@ -209,6 +209,32 @@ const MAP_STYLE = {
       map.on('mouseenter', 'spots-circle', () => { map.getCanvas().style.cursor = 'pointer'; });
       map.on('mouseleave', 'spots-circle', () => { map.getCanvas().style.cursor = ''; });
     });
+
+    // タイル読み込みエラー検知（OSM ブロック等）
+    let tileErrorReported = false;
+    map.on('error', (e) => {
+      const status = e.error?.status;
+      if (status === 429 || status === 403 || status === 0) {
+        // ユーザーにメッセージ表示
+        const loadingEl = document.getElementById('map-loading');
+        if (loadingEl) {
+          loadingEl.textContent = lang === 'ja'
+            ? '地図の読み込みに問題があります。しばらくしてから再度お試しください。'
+            : lang === 'en'
+            ? 'Map loading issue. Please try again later.'
+            : 'Problema ao carregar o mapa. Tente novamente mais tarde.';
+          loadingEl.style.display = 'flex';
+        }
+        // GA4 に1回だけ送信（連打防止）
+        if (!tileErrorReported && typeof gtag === 'function') {
+          gtag('event', 'map_tile_error', {
+            error_status: status,
+            layer: layer,
+          });
+          tileErrorReported = true;
+        }
+      }
+    });
   </script>
 
   <!-- スタイル（このページ専用） -->
