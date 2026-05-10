@@ -76,25 +76,10 @@ const CITY_CONFIG: Record<string, { lng: number; lat: number; zoom: number }> = 
 };
 const cityCenter = CITY_CONFIG[municipality] ?? { lng: 139.3761, lat: 36.2920, zoom: 13 };
 
-// ベースマップスタイル（ProtomapsデモURLが404のため一時的にOSM標準ラスターを使用）
-const MAP_STYLE = {
-  version: 8,
-  sources: {
-    osm: {
-      type: 'raster',
-      tiles: ['https://tile.openstreetmap.org/{z}/{x}/{y}.png'],
-      tileSize: 256,
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-    }
-  },
-  layers: [
-    {
-      id: 'osm',
-      type: 'raster',
-      source: 'osm'
-    }
-  ]
-};
+// ベースマップスタイル（Protomaps ベクトルタイル + 多言語対応）
+// ※ スタイルはクライアントサイドで @protomaps/basemaps から動的生成するため、
+//    ここではタイルソースURL と言語情報のみ渡す
+const PMTILES_URL = 'pmtiles://https://tiles.kurashiguide.org/ota_city.pmtiles';
 ---
 
 <LightLayout
@@ -122,20 +107,41 @@ const MAP_STYLE = {
   </div>
 
   <!-- MapLibre GL JS をクライアントサイドで読み込む -->
-  <script define:vars={{ geojsonUrl, cityCenter, lang, MAP_STYLE, layer }}>
+  <script define:vars={{ geojsonUrl, cityCenter, lang, PMTILES_URL, layer }}>
     // Astro の define:vars で渡された変数をグローバルに保持
-    window.__MAP_CONFIG__ = { geojsonUrl, cityCenter, lang, MAP_STYLE, layer };
+    window.__MAP_CONFIG__ = { geojsonUrl, cityCenter, lang, PMTILES_URL, layer };
   </script>
   <script>
     // Astro はクライアント <script> 内の npm import を自動バンドルする
     import maplibregl from 'maplibre-gl';
     import 'maplibre-gl/dist/maplibre-gl.css';
+    import { Protocol } from 'pmtiles';
+    import { layers, namedFlavor } from '@protomaps/basemaps';
 
-    const { geojsonUrl, cityCenter, lang, MAP_STYLE, layer } = (window as any).__MAP_CONFIG__;
+    // PMTiles プロトコル登録
+    const protocol = new Protocol();
+    maplibregl.addProtocol('pmtiles', protocol.tile);
+
+    const { geojsonUrl, cityCenter, lang, PMTILES_URL, layer } = (window as any).__MAP_CONFIG__;
+
+    // Protomaps ベクトルタイル + 多言語ラベルスタイル
+    const mapStyle = {
+      version: 8,
+      glyphs: 'https://protomaps.github.io/basemaps-assets/fonts/{fontstack}/{range}.pbf',
+      sprite: 'https://protomaps.github.io/basemaps-assets/sprites/v4/light',
+      sources: {
+        protomaps: {
+          type: 'vector',
+          url: PMTILES_URL,
+          attribution: '<a href="https://protomaps.com">Protomaps</a> © <a href="https://openstreetmap.org">OpenStreetMap</a>',
+        },
+      },
+      layers: layers('protomaps', namedFlavor('light'), { lang: lang }),
+    };
 
     const map = new maplibregl.Map({
       container: 'map',
-      style: MAP_STYLE,
+      style: mapStyle as any,
       center: [cityCenter.lng, cityCenter.lat],
       zoom: cityCenter.zoom,
       attributionControl: true,
