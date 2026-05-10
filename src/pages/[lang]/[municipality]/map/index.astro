@@ -1,0 +1,133 @@
+---
+/**
+ * map/index.astro — マップハブページ
+ * URL: /ja/ota-city/map/
+ * 全レイヤーを一覧するエントリポイント
+ */
+import LightLayout from '../../../../layouts/LightLayout.astro';
+import layerConfig from '../../../../data/layer_config.json';
+
+export function getStaticPaths() {
+  const langs = ['ja', 'en', 'pt'] as const;
+  const municipalities = ['ota-city'] as const;
+  return langs.flatMap(lang =>
+    municipalities.map(municipality => ({ params: { lang, municipality } }))
+  );
+}
+
+const { lang, municipality } = Astro.params as {
+  lang: 'ja' | 'en' | 'pt';
+  municipality: string;
+};
+
+// レイヤー設定
+const layers = Object.entries(layerConfig as any) as [string, any][];
+
+// アイコンマップ
+const ICON_MAP: Record<string, string> = {
+  wifi: '📶',
+  medical: '🏥',
+  pharmacy: '💊',
+  mobile_shop: '📱',
+};
+
+// 多言語ラベル
+const labels = {
+  pageTitle: { ja: '太田市マップ', en: 'Ota City Maps', pt: 'Mapas de Ota' },
+  description: {
+    ja: '太田市の暮らしに役立つ施設・スポットをマップで探す',
+    en: 'Find useful facilities and spots in Ota City on the map',
+    pt: 'Encontre instalações e pontos úteis em Ota City no mapa',
+  },
+  subtitle: {
+    ja: '太田市の暮らしに役立つ場所',
+    en: 'Useful places in Ota City',
+    pt: 'Locais úteis em Ota City',
+  },
+  viewMap: { ja: 'マップを見る →', en: 'View Map →', pt: 'Ver Mapa →' },
+};
+const L = (key: keyof typeof labels) => (labels[key] as any)[lang] ?? (labels[key] as any)['ja'];
+---
+
+<LightLayout
+  title={L('pageTitle')}
+  description={L('description')}
+  lang={lang}
+  municipality={municipality}
+>
+  <div class="map-hub">
+    <h1 class="map-hub__title">🗺 {L('pageTitle')}</h1>
+    <p class="map-hub__subtitle">{L('subtitle')}</p>
+
+    <div class="map-hub__grid">
+      {layers.map(([key, cfg]) => {
+        const title = cfg.title?.[lang] ?? cfg.title?.['ja'] ?? key;
+        const icon = ICON_MAP[key] ?? '📍';
+        const href = `/${lang}/${municipality}/map/${key}/`;
+        return (
+          <a href={href} class="map-layer-card">
+            <span class="map-layer-card__icon">{icon}</span>
+            <span class="map-layer-card__title">{title}</span>
+            <span class="map-layer-card__cta">{L('viewMap')}</span>
+          </a>
+        );
+      })}
+    </div>
+  </div>
+
+  <style>
+    .map-hub {
+      padding: 1rem 0 2rem;
+    }
+    .map-hub__title {
+      font-size: var(--text-2xl, 1.5rem);
+      font-weight: 800;
+      margin-bottom: .5rem;
+      color: var(--text-main);
+    }
+    .map-hub__subtitle {
+      font-size: var(--text-sm);
+      color: var(--text-muted);
+      margin-bottom: 1.5rem;
+    }
+    .map-hub__grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+    }
+    @media (min-width: 640px) {
+      .map-hub__grid { grid-template-columns: repeat(4, 1fr); }
+    }
+    .map-layer-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: .5rem;
+      padding: 1.5rem 1rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--r-lg);
+      text-decoration: none;
+      color: var(--text-main);
+      box-shadow: var(--sh-sm);
+      transition: transform var(--tr), box-shadow var(--tr), border-color var(--tr);
+      text-align: center;
+    }
+    .map-layer-card:hover {
+      transform: translateY(-3px);
+      box-shadow: var(--sh-md);
+      border-color: var(--city-mid);
+    }
+    .map-layer-card__icon { font-size: 2rem; }
+    .map-layer-card__title {
+      font-size: var(--text-sm);
+      font-weight: 700;
+      line-height: 1.3;
+    }
+    .map-layer-card__cta {
+      font-size: var(--text-xs);
+      color: var(--city);
+      font-weight: 600;
+    }
+  </style>
+</LightLayout>

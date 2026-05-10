@@ -1,0 +1,698 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "city": "ota",
+    "layer": "pharmacy",
+    "generated_at": "2026-05-10T20:34:02.003129+00:00",
+    "sources": [
+      "OpenStreetMap"
+    ],
+    "total_spots": 36
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3793347,
+          36.3411035
+        ]
+      },
+      "properties": {
+        "id": "pharmacy-スモールワールドしんどう毛里田店-36341-139379",
+        "name": "スモールワールドしんどう毛里田店",
+        "category": "pharmacy",
+        "address": "太田桐生線",
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3468554,
+          36.3201573
+        ]
+      },
+      "properties": {
+        "id": "pharmacy-ウエルシア太田鳥山店-36320-139346",
+        "name": "ウエルシア太田鳥山店",
+        "category": "pharmacy",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3480455,
+          36.2982569
+        ]
+      },
+      "properties": {
+        "id": "pharmacy-ウエルシア太田新道町店-36298-139348",
+        "name": "ウエルシア太田新道町店",
+        "category": "pharmacy",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3090129,
+          36.3633012
+        ]
+      },
+      "properties": {
+        "id": "pharmacy-ウエルシア-太田藪塚店-36363-139309",
+        "name": "ウエルシア 太田藪塚店",
+        "category": "pharmacy",
+        "address": "太田大間々線",
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3468259,
+          36.3222464
+        ]
+      },
+      "properties": {
+        "id": "pharmacy-マルエドラッグ鳥山店-36322-139346",
+        "name": "マルエドラッグ鳥山店",
+        "category": "pharmacy",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.2789919,
+          36.3584215
+        ]
+      },
+      "properties": {
+        "id": "pharmacy-マルエドラッグ太田大原-36358-139278",
+        "name": "マルエドラッグ太田大原",
+        "category": "pharmacy",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3782848,
+          36.2983366
+        ]
+      },
+      "properties": {
+        "id": "pharmacy-カナケン薬局-36298-139378",
+        "name": "カナケン薬局",
+        "category": "pharmacy",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3768649,
+          36.2959912
+        ]
+      },
+      "properties": {
+        "id": "pharmacy-太田薬局-36295-139376",
+        "name": "太田薬局",
+        "category": "pharmacy",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3580999,
+          36.2749645
+        ]
+      },
+      "properties": {
+        "id": "pharmacy-ウエルシア太田岩瀬川店-36274-139358",
+        "name": "ウエルシア太田岩瀬川店",
+        "category": "pharmacy",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3795364,
+          36.2787724
+        ]
+      },
+      "properties": {
+        "id": "pharmacy-ファイン薬局-36278-139379",
+        "name": "ファイン薬局",
+        "category": "pharmacy",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3304712,
+          36.2581353
+        ]
+      },
+      "properties": {
+        "id": "pharmacy-クスリのアオキ-36258-139330",
+        "name": "クスリのアオキ",
+        "category": "pharmacy",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3851313,
+          36.2932072
+        ]
+      },
+      "properties": {
+        "id": "chemist-クスリのアオキ-36293-139385",
+        "name": "クスリのアオキ",
+        "category": "chemist",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3832945,
+          36.2591045
+        ]
+      },
+      "properties": {
+        "id": "chemist-セイムス-36259-139383",
+        "name": "セイムス",
+        "category": "chemist",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3806151,
+          36.2600454
+        ]
+      },
+      "properties": {
+        "id": "chemist-ウエルシア薬局-36260-139380",
+        "name": "ウエルシア薬局",
+        "category": "chemist",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3683466,
+          36.2599077
+        ]
+      },
+      "properties": {
+        "id": "chemist-クスリのアオキ-36259-139368",
+        "name": "クスリのアオキ",
+        "category": "chemist",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3867975,
+          36.2736762
+        ]
+      },
+      "properties": {
+        "id": "chemist-マツモトキヨシ-36273-139386",
+        "name": "マツモトキヨシ",
+        "category": "chemist",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3873306,
+          36.2683909
+        ]
+      },
+      "properties": {
+        "id": "chemist-クスリのアオキ-36268-139387",
+        "name": "クスリのアオキ",
+        "category": "chemist",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3550715,
+          36.2610784
+        ]
+      },
+      "properties": {
+        "id": "pharmacy-すみれ調剤薬局-36261-139355",
+        "name": "すみれ調剤薬局",
+        "category": "pharmacy",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3208656,
+          36.2589016
+        ]
+      },
+      "properties": {
+        "id": "pharmacy-京屋薬局-36258-139320",
+        "name": "京屋薬局",
+        "category": "pharmacy",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3201782,
+          36.2652492
+        ]
+      },
+      "properties": {
+        "id": "chemist-コスモス-36265-139320",
+        "name": "コスモス",
+        "category": "chemist",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.323375,
+          36.2588039
+        ]
+      },
+      "properties": {
+        "id": "pharmacy-田辺胃腸薬-36258-139323",
+        "name": "田辺胃腸薬",
+        "category": "pharmacy",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.346273,
+          36.298551
+        ]
+      },
+      "properties": {
+        "id": "chemist-クスリのアオキ-36298-139346",
+        "name": "クスリのアオキ",
+        "category": "chemist",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.273219,
+          36.3103843
+        ]
+      },
+      "properties": {
+        "id": "pharmacy-中央薬局-36310-139273",
+        "name": "中央薬局",
+        "category": "pharmacy",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3345504,
+          36.285568
+        ]
+      },
+      "properties": {
+        "id": "pharmacy-ウエルシア薬局-36285-139334",
+        "name": "ウエルシア薬局",
+        "category": "pharmacy",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3647176,
+          36.2749818
+        ]
+      },
+      "properties": {
+        "id": "chemist-クスリのアオキ-下浜田店店-36274-139364",
+        "name": "クスリのアオキ　下浜田店店",
+        "category": "chemist",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3911198,
+          36.2827889
+        ]
+      },
+      "properties": {
+        "id": "chemist-ドラックスギ太田小舞木店-36282-139391",
+        "name": "ドラックスギ太田小舞木店",
+        "category": "chemist",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3939024,
+          36.281761
+        ]
+      },
+      "properties": {
+        "id": "chemist-カワチ薬品内ヶ島店-36281-139393",
+        "name": "カワチ薬品内ヶ島店",
+        "category": "chemist",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.4068851,
+          36.2982313
+        ]
+      },
+      "properties": {
+        "id": "pharmacy-ウェルシア-36298-139406",
+        "name": "ウェルシア",
+        "category": "pharmacy",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3075328,
+          36.2768917
+        ]
+      },
+      "properties": {
+        "id": "chemist-ドラッグセイムス-太田新田店-36276-139307",
+        "name": "ドラッグセイムス　太田新田店",
+        "category": "chemist",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3065658,
+          36.2768189
+        ]
+      },
+      "properties": {
+        "id": "chemist-クスリのアオキ-新田木崎店-36276-139306",
+        "name": "クスリのアオキ　新田木崎店",
+        "category": "chemist",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3184625,
+          36.2660537
+        ]
+      },
+      "properties": {
+        "id": "chemist-マツモトキヨシ-36266-139318",
+        "name": "マツモトキヨシ",
+        "category": "chemist",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3109676,
+          36.2591831
+        ]
+      },
+      "properties": {
+        "id": "chemist-ウエルシア薬局-36259-139310",
+        "name": "ウエルシア薬局",
+        "category": "chemist",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.350368,
+          36.2878256
+        ]
+      },
+      "properties": {
+        "id": "pharmacy-あんじゅ薬局-36287-139350",
+        "name": "あんじゅ薬局",
+        "category": "pharmacy",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3508727,
+          36.2881705
+        ]
+      },
+      "properties": {
+        "id": "pharmacy-宝泉東薬局-36288-139350",
+        "name": "宝泉東薬局",
+        "category": "pharmacy",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3690304,
+          36.2854464
+        ]
+      },
+      "properties": {
+        "id": "pharmacy-ドラッグセイムス-36285-139369",
+        "name": "ドラッグセイムス",
+        "category": "pharmacy",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3613678,
+          36.2970462
+        ]
+      },
+      "properties": {
+        "id": "pharmacy-スギ薬局-36297-139361",
+        "name": "スギ薬局",
+        "category": "pharmacy",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    }
+  ]
+}

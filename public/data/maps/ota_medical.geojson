@@ -1,0 +1,489 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "city": "ota",
+    "layer": "medical",
+    "generated_at": "2026-05-10T11:04:58.441334+00:00",
+    "sources": [
+      "OpenStreetMap"
+    ],
+    "total_spots": 25
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.384083,
+          36.307567
+        ]
+      },
+      "properties": {
+        "id": "hospital-冨士ケ丘病院-36307-139384",
+        "name": "冨士ケ丘病院",
+        "category": "hospital",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.40547,
+          36.297902
+        ]
+      },
+      "properties": {
+        "id": "hospital-太田協立病院-36297-139405",
+        "name": "太田協立病院",
+        "category": "hospital",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3807532,
+          36.3286903
+        ]
+      },
+      "properties": {
+        "id": "hospital-太田福島総合病院-36328-139380",
+        "name": "太田福島総合病院",
+        "category": "hospital",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.422597,
+          36.272701
+        ]
+      },
+      "properties": {
+        "id": "hospital-愛全会武蔵野病院-36272-139422",
+        "name": "愛全会武蔵野病院",
+        "category": "hospital",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.399326,
+          36.314823
+        ]
+      },
+      "properties": {
+        "id": "hospital-東毛敬愛病院-36314-139399",
+        "name": "東毛敬愛病院",
+        "category": "hospital",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3224483,
+          36.3638014
+        ]
+      },
+      "properties": {
+        "id": "doctors-室田内科医院-36363-139322",
+        "name": "室田内科医院",
+        "category": "doctors",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3911963,
+          36.2843989
+        ]
+      },
+      "properties": {
+        "id": "clinic-田口医院-36284-139391",
+        "name": "田口医院",
+        "category": "clinic",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3819648,
+          36.2694099
+        ]
+      },
+      "properties": {
+        "id": "clinic-星野内科胃腸科医院-36269-139381",
+        "name": "星野内科胃腸科医院",
+        "category": "clinic",
+        "address": null,
+        "phone": "0276-48-5525",
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3786688,
+          36.2983494
+        ]
+      },
+      "properties": {
+        "id": "clinic-剣持整形外科-36298-139378",
+        "name": "剣持整形外科",
+        "category": "clinic",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3783616,
+          36.2978107
+        ]
+      },
+      "properties": {
+        "id": "clinic-剣持整形デイサービス東本町-36297-139378",
+        "name": "剣持整形デイサービス東本町",
+        "category": "clinic",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3819243,
+          36.2948845
+        ]
+      },
+      "properties": {
+        "id": "doctors-成田医院-36294-139381",
+        "name": "成田医院",
+        "category": "doctors",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3032396,
+          36.3063543
+        ]
+      },
+      "properties": {
+        "id": "hospital-新田診療所-36306-139303",
+        "name": "新田診療所",
+        "category": "hospital",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3648918,
+          36.256818
+        ]
+      },
+      "properties": {
+        "id": "hospital-群馬県立がんセンター-36256-139364",
+        "name": "群馬県立がんセンター",
+        "category": "hospital",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3797613,
+          36.2976747
+        ]
+      },
+      "properties": {
+        "id": "doctors-こばやし小児科内科-36297-139379",
+        "name": "こばやし小児科内科",
+        "category": "doctors",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3804733,
+          36.2989834
+        ]
+      },
+      "properties": {
+        "id": "doctors-飯鳶歯科医院-36298-139380",
+        "name": "飯鳶歯科医院",
+        "category": "doctors",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3689881,
+          36.2951919
+        ]
+      },
+      "properties": {
+        "id": "hospital-島門会本島総合病院-36295-139368",
+        "name": "島門会本島総合病院",
+        "category": "hospital",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3652163,
+          36.3102787
+        ]
+      },
+      "properties": {
+        "id": "hospital-三枚橋病院-36310-139365",
+        "name": "三枚橋病院",
+        "category": "hospital",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3606848,
+          36.2984424
+        ]
+      },
+      "properties": {
+        "id": "hospital-極濃湯麺-キントン-36298-139360",
+        "name": "極濃湯麺　キントン",
+        "category": "hospital",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3786574,
+          36.2984087
+        ]
+      },
+      "properties": {
+        "id": "clinic-医療法人KOSSMOS会-剣持整形外科-36298-139378",
+        "name": "医療法人KOSSMOS会　剣持整形外科",
+        "category": "clinic",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3605491,
+          36.2988147
+        ]
+      },
+      "properties": {
+        "id": "hospital-太田記念病院-36298-139360",
+        "name": "太田記念病院",
+        "category": "hospital",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3599502,
+          36.2954812
+        ]
+      },
+      "properties": {
+        "id": "hospital-山口医院-36295-139359",
+        "name": "山口医院",
+        "category": "hospital",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3791139,
+          36.2799797
+        ]
+      },
+      "properties": {
+        "id": "hospital-慶仁会城山病院-36279-139379",
+        "name": "慶仁会城山病院",
+        "category": "hospital",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3503905,
+          36.2877005
+        ]
+      },
+      "properties": {
+        "id": "doctors-ゆら皮膚科クリニック-36287-139350",
+        "name": "ゆら皮膚科クリニック",
+        "category": "doctors",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3509993,
+          36.2880074
+        ]
+      },
+      "properties": {
+        "id": "doctors-さくら接骨院-36288-139350",
+        "name": "さくら接骨院",
+        "category": "doctors",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3504505,
+          36.2880834
+        ]
+      },
+      "properties": {
+        "id": "doctors-みのわクリニック-36288-139350",
+        "name": "みのわクリニック",
+        "category": "doctors",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    }
+  ]
+}

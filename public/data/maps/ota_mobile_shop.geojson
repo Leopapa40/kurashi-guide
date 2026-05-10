@@ -1,0 +1,147 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "city": "ota",
+    "layer": "mobile_shop",
+    "generated_at": "2026-05-10T20:34:12.059191+00:00",
+    "sources": [
+      "OpenStreetMap"
+    ],
+    "total_spots": 7
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3767276,
+          36.2833051
+        ]
+      },
+      "properties": {
+        "id": "mobile-phone-ソフトバンク-36283-139376",
+        "name": "ソフトバンク",
+        "category": "mobile-phone",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3593871,
+          36.2971795
+        ]
+      },
+      "properties": {
+        "id": "mobile-phone-ドコモショップ-36297-139359",
+        "name": "ドコモショップ",
+        "category": "mobile-phone",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3685954,
+          36.3628697
+        ]
+      },
+      "properties": {
+        "id": "mobile-phone-ドコモショップ--docomo-shop-36362-139368",
+        "name": "ドコモショップ (docomo shop)",
+        "category": "mobile-phone",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3605146,
+          36.2940183
+        ]
+      },
+      "properties": {
+        "id": "mobile-phone-ソフトバンクショップ-36294-139360",
+        "name": "ソフトバンクショップ",
+        "category": "mobile-phone",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3598028,
+          36.2961442
+        ]
+      },
+      "properties": {
+        "id": "mobile-phone-auショップ-36296-139359",
+        "name": "auショップ",
+        "category": "mobile-phone",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.377011,
+          36.2790988
+        ]
+      },
+      "properties": {
+        "id": "mobile-phone-auショップ-36279-139377",
+        "name": "auショップ",
+        "category": "mobile-phone",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3775428,
+          36.2722352
+        ]
+      },
+      "properties": {
+        "id": "mobile-phone-ドコモショップ-36272-139377",
+        "name": "ドコモショップ",
+        "category": "mobile-phone",
+        "address": null,
+        "phone": null,
+        "source": "osm",
+        "brand": null
+      }
+    }
+  ]
+}
