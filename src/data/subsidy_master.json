@@ -5967,92 +5967,66 @@
     "original_url": "https://www.city.ota.gunma.jp/page/1182.html",
     "locales": {
       "ja": {
-        "title": "国民年金の加入・免除申請",
-        "easy_explanation": "## 国民年金とは？\n20歳以上60歳未満のすべての人が加入する年金制度です。会社員は厚生年金に加入しますが、自営業・学生・無職の方は国民年金に直接加入します。\n\n## 手続きが必要なとき\n- 20歳になった（学生も含む）\n- 会社を辞めた\n- 配偶者の扶養から外れた\n\n## 保険料が払えないときは「免除申請」を\n収入が少ない場合、保険料の全額・一部免除や納付猶予の申請ができます。放置すると将来の年金額が減るだけでなく、障害年金がもらえなくなる可能性があります。\n\n## 手続き場所\n市役所1階 市民課",
-        "bottom_line": "20歳になったら必ず国民年金に加入。払えない時は免除申請が必須です（放置はNG）。",
-        "amount_info": "月額16,980円（令和8年度）",
+        "title": "国民年金の届け出と納付",
+        "easy_explanation": "## 国民年金とは\n日本に住む20歳以上60歳未満のすべての人が加入する年金制度です。加入者は職業などによって第1号、第2号、第3号の3種類に分かれます。自営業者や学生などは「第1号被保険者」として自分で保険料を納める必要があります。\n\n## 保険料の納付方法\n納付書を使った現金払いのほか、口座振替、クレジットカード納付、スマホの電子決済（アプリ）、Pay-easy（電子納付）など様々な方法で納付できます。まとめて前払い（前納）すると割引になります。\n\n## 払えないときは免除・猶予申請を\n経済的な理由で納付が難しい場合は、「保険料免除制度」や「学生納付特例制度」「納付猶予制度」を利用できます。未納のまま放置せず、必ずご相談ください。",
+        "bottom_line": "20歳以上60歳未満のすべての人が加入する制度です。令和8年度の保険料は月額17,920円で、スマホ決済や前納割引が利用可能です。払えない場合は未納にせず、必ず免除・猶予申請を行ってください。",
+        "amount_info": "定額保険料 月額17,920円（令和8年4月1日現在）",
         "target_audience": [
-          "20歳になった方（学生含む）",
-          "会社を辞めた方",
-          "収入が少なく保険料を払えない方"
+          "日本に住む20歳以上60歳未満の方",
+          "自営業・学生などの第1号被保険者",
+          "保険料の納付が困難な方"
         ],
         "term_explanations": [
           {
-            "term": "国民年金",
-            "explanation": "日本に住む20歳以上60歳未満のすべての人が加入する基礎的な年金制度。老後の「老齢基礎年金」のほか、障害や死亡の場合にも給付が受けられる。"
+            "term": "第1号被保険者",
+            "explanation": "自営業者や学生など。自分で保険料を納める必要があります。"
           },
           {
-            "term": "第1号被保険者",
-            "explanation": "国民年金の加入者のうち、自営業者・農業者・学生・無職など、会社員や公務員でない人のこと。自分で保険料を納付する必要がある。"
+            "term": "第2号被保険者",
+            "explanation": "厚生年金や共済組合に加入している会社員や公務員など。"
+          },
+          {
+            "term": "第3号被保険者",
+            "explanation": "第2号被保険者に扶養されている配偶者（専業主婦など）。"
           },
           {
             "term": "付加保険料",
-            "explanation": "月額400円を追加で納めると、老後にもらう老齢基礎年金に上乗せして年金が受け取れる制度。納めた月数×200円が毎年の年金に追加される。"
+            "explanation": "月額400円を追加で納めると、老齢基礎年金に上乗せして受給できる制度。"
+          },
+          {
+            "term": "学生納付特例制度",
+            "explanation": "学生本人の所得が一定以下の場合に、在学中の保険料の納付が猶予される制度。"
           },
           {
             "term": "保険料免除制度",
-            "explanation": "経済的な理由で国民年金保険料が払えない場合に、申請することで保険料の全部または一部が免除される制度。免除期間も年金を受け取るための期間としてカウントされる。"
-          },
-          {
-            "term": "学生納付特例",
-            "explanation": "大学・専門学校などに在籍する学生で、本人の所得が少ない場合に、在学中の国民年金保険料の納付を猶予（後払い可能）できる制度。"
+            "explanation": "経済的理由で納められないとき、申請により全額、4分の3、半額、または4分の1が免除される制度。"
           }
         ],
         "five_w1h": {
           "who": "20歳以上60歳未満の日本国内在住者（学生・自営業・無職・配偶者等）",
           "what": "国民年金の加入・免除・猶予・納付等の手続き",
           "when": "20歳到達時・転入・退職等による加入義務発生時に速やかに手続き",
-          "where": "市役所1階保険年金課、または日本年金機構（オンライン手続き可）",
+          "where": "太田市役所 医療年金課、または太田年金事務所",
           "why": "老後・障害・死亡時の年金を受け取るため。加入が義務付けられている",
           "how": "「国民年金被保険者関係届書」を提出。学生は学生納付特例制度の申請が可能"
         },
-        "checklist": [
-          {
-            "item": "国民年金被保険者関係届書（種別変更届等）",
-            "note": "市役所医療年金課・年金事務所または日本年金機構HPから入手",
-            "required": true
-          },
-          {
-            "item": "本人確認書類（運転免許証・マイナンバーカード等）",
-            "note": "顔写真付きのもの1点",
-            "required": true
-          },
-          {
-            "item": "個人番号（マイナンバー）確認書類",
-            "note": "マイナンバーカード等",
-            "required": true
-          },
-          {
-            "item": "配偶者の年金手帳または基礎年金番号通知書",
-            "note": "配偶者の扶養から外れる場合（第3号→第1号）に必要",
-            "required": false
-          },
-          {
-            "item": "学生証または在学証明書",
-            "note": "学生納付特例を申請する場合に必要",
-            "required": false
-          }
-        ],
+        "checklist": [],
         "form_guide": null,
         "faq": [
           {
-            "question": "国民年金の加入は義務ですか？",
-            "answer": "20歳以上60歳未満の方は原則として全員加入義務があります。会社員や公務員は自動的に厚生年金に加入するため国民年金第2号被保険者となりますが、自営業者・学生・無職の方は自ら市役所で手続きが必要です。"
+            "question": "保険料をまとめて前払いすると安くなりますか？",
+            "answer": "はい、前納割引制度があります。口座振替で2年前納すると約17,000円、1年前納で約4,000円の割引になります（現金やクレジットカードでの前納も可能です）。"
           },
           {
-            "question": "保険料が払えない場合はどうすればよいですか？",
-            "answer": "収入が少ない場合は「免除・猶予制度」があります。全額免除・4分の3免除・半額免除・4分の1免除の4段階と、学生納付特例制度があります。未申請のまま未納にすると将来の年金額に影響します。"
+            "question": "スマートフォンで保険料を払えますか？",
+            "answer": "はい、納付書のバーコードを読み取ることで、スマートフォンアプリ（電子決済）で納付することができます。"
           },
           {
-            "question": "未納期間があると年金はもらえなくなりますか？",
-            "answer": "老齢年金を受け取るには原則として10年以上の納付済期間が必要です。未納期間が多いと受給額が減りますが、追納制度（過去10年分を遡って納付できる）を活用することができます。"
-          },
-          {
-            "question": "会社を辞めたら年金の手続きは何が必要ですか？",
-            "answer": "厚生年金から国民年金への切り替え手続きが必要です。退職日の翌日から14日以内に市役所で第1号被保険者への変更手続きを行ってください。"
+            "question": "免除制度を利用した場合、将来の年金はどうなりますか？",
+            "answer": "例えば全額免除を受けた期間は、老齢基礎年金が通常の半分（8分の4）の受給額として計算されます。免除期間から10年以内であれば、後から保険料を「追納」して年金額を満額に近づけることも可能です。"
           }
         ],
-        "estimated_time": "窓口で約15〜20分",
+        "estimated_time": null,
         "related_articles": [
           "national-health-insurance",
           "death-registration",
@@ -6061,70 +6035,66 @@
         ]
       },
       "en": {
-        "title": "National Pension Enrollment / Exemption Application",
-        "easy_explanation": "Everyone aged 20-59 must enroll in the National Pension. If you can't pay, apply for an exemption—don't ignore it.",
-        "bottom_line": "Enroll when you turn 20. Apply for exemption if you cannot afford the premiums.",
-        "amount_info": "16,980 yen per month (FY2026)",
+        "title": "National Pension Enrollment and Payment",
+        "easy_explanation": "## What is the National Pension?\nIt is a pension system that all people aged 20 to 59 living in Japan must join. Subscribers are divided into three categories (Category 1, 2, and 3) depending on their occupation. Self-employed individuals and students fall under \"Category 1\" and must pay the premiums themselves.\n\n## Payment Methods\nYou can pay by cash using a payment slip, direct debit, credit card, smartphone app, or Pay-easy. Discounts are available if you pay in advance (lump-sum payment).\n\n## Exemptions and Postponements\nIf you cannot afford the premiums due to financial reasons, you can apply for the \"Premium Exemption System\", \"Special Payment System for Students\", or \"Payment Postponement System\". Please consult with the office rather than leaving it unpaid.",
+        "bottom_line": "All residents aged 20 to 59 must join. The premium is 17,920 yen/month (as of April 2026). Smartphone payments and advance payment discounts are available. If you cannot pay, apply for an exemption.",
+        "amount_info": "Fixed premium: 17,920 yen per month (as of April 2026)",
         "target_audience": [
-          "Those who turned 20",
-          "Those who left their job"
+          "All residents in Japan aged 20 to 59",
+          "Category 1 insured persons (self-employed, students, etc.)",
+          "Those who have difficulty paying the premium"
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "Category 1 Insured Person",
+            "explanation": "Self-employed individuals, students, etc. Must pay premiums themselves."
+          },
+          {
+            "term": "Category 2 Insured Person",
+            "explanation": "Company employees and public servants enrolled in Employees' Pension or mutual aid associations."
+          },
+          {
+            "term": "Category 3 Insured Person",
+            "explanation": "Dependent spouses of Category 2 insured persons (e.g., full-time homemakers)."
+          },
+          {
+            "term": "Additional Premium",
+            "explanation": "An optional system to pay an extra 400 yen/month to increase the future pension amount."
+          },
+          {
+            "term": "Special Payment System for Students",
+            "explanation": "A system that postpones premium payments for students whose income is below a certain level."
+          },
+          {
+            "term": "Premium Exemption System",
+            "explanation": "A system that exempts full, 3/4, half, or 1/4 of the premium due to financial difficulties upon application."
+          }
+        ],
         "five_w1h": {
           "who": "Residents in Japan aged 20-59 (Students, self-employed, unemployed, etc.)",
           "what": "Enrollment, exemption, postponement procedures for National Pension",
           "when": "Promptly upon turning 20, resigning, or moving in.",
-          "where": "City Hall 1F Insurance & Pension Div / Japan Pension Service",
+          "where": "Ota City Hall Medical & Pension Division, or Ota Pension Office",
           "why": "Enrollment is mandatory. Necessary to receive old age, disability, or death pension.",
           "how": "Submit the notification form. Students can apply for payment exceptions."
         },
-        "checklist": [
-          {
-            "item": "National Pension Insured Notification (国民年金被保険者関係届書)",
-            "note": "Available at City Hall or JPS website.",
-            "required": true
-          },
-          {
-            "item": "ID Document (本人確認書類)",
-            "note": "Photo ID.",
-            "required": true
-          },
-          {
-            "item": "My Number confirmation (個人番号確認書類)",
-            "note": "My Number Card, etc.",
-            "required": true
-          },
-          {
-            "item": "Spouse's Pension Book (配偶者の年金手帳)",
-            "note": "If removing yourself from a spouse's dependent list.",
-            "required": false
-          },
-          {
-            "item": "Student ID (学生証)",
-            "note": "If applying for student payment exception.",
-            "required": false
-          }
-        ],
+        "checklist": [],
         "form_guide": null,
         "faq": [
           {
-            "question": "Is enrollment in National Pension mandatory?",
-            "answer": "Yes, everyone aged 20 to 59 must enroll. Company employees enroll automatically in Employee Pension, but self-employed, students, and unemployed must enroll at City Hall."
+            "question": "Do I get a discount if I pay the premiums in advance?",
+            "answer": "Yes, there is an advance payment discount. For example, paying 2 years in advance via direct debit saves you about 17,000 yen."
           },
           {
-            "question": "What if I cannot pay the premiums?",
-            "answer": "If your income is low, you can apply for an exemption (Full, 3/4, Half, 1/4) or a postponement (especially for students). If you leave it unpaid, it affects future pension amounts."
+            "question": "Can I pay the premium with my smartphone?",
+            "answer": "Yes, you can pay using smartphone payment apps by scanning the barcode on the payment slip."
           },
           {
-            "question": "Will I lose my pension if there are unpaid periods?",
-            "answer": "You need at least 10 years of payments to receive the old-age pension. Unpaid periods decrease the amount, but you can retroactively pay for the past 10 years (additional payment system)."
-          },
-          {
-            "question": "What procedures are needed when quitting a job?",
-            "answer": "You must switch from Employee Pension to National Pension. Do this at City Hall within 14 days of the day after resignation."
+            "question": "How do exemptions affect my future pension amount?",
+            "answer": "For example, periods of full exemption will be calculated as half (4/8) of the normal pension amount. However, you can make retroactive payments (Tsuino) within 10 years to restore the pension amount."
           }
         ],
-        "estimated_time": "About 15 to 20 minutes at the counter",
+        "estimated_time": null,
         "related_articles": [
           "national-health-insurance",
           "death-registration",
@@ -6133,70 +6103,66 @@
         ]
       },
       "pt": {
-        "title": "Inscrição na Pensão Nacional / Pedido de Isenção",
-        "easy_explanation": "Todos entre 20-59 anos devem se inscrever na Pensão Nacional. Se não puder pagar, peça isenção.",
-        "bottom_line": "Inscreva-se aos 20 anos. Peça isenção se não puder pagar as contribuições.",
-        "amount_info": "16.980 ienes por mês (Ano Fiscal 2026)",
+        "title": "Inscrição e Pagamento da Pensão Nacional",
+        "easy_explanation": "## O que é a Pensão Nacional?\nÉ um sistema de pensão ao qual todas as pessoas de 20 a 59 anos que vivem no Japão devem aderir. Os inscritos são divididos em três categorias (Categoria 1, 2 e 3) dependendo de sua ocupação. Autônomos e estudantes se enquadram na \"Categoria 1\" e devem pagar os prêmios por conta própria.\n\n## Métodos de Pagamento\nVocê pode pagar em dinheiro usando um boleto, débito direto, cartão de crédito, aplicativo de smartphone ou Pay-easy. Descontos estão disponíveis se você pagar antecipadamente (pagamento único).\n\n## Isenções e Adiamentos\nSe você não puder pagar os prêmios por motivos financeiros, pode solicitar o \"Sistema de Isenção de Prêmios\", o \"Sistema de Pagamento Especial para Estudantes\" ou o \"Sistema de Adiamento de Pagamento\". Consulte o escritório em vez de deixar sem pagar.",
+        "bottom_line": "Todos os residentes de 20 a 59 anos devem aderir. O prêmio é de 17.920 ienes/mês (a partir de abril de 2026). Pagamentos por smartphone e descontos por pagamento antecipado estão disponíveis. Se não puder pagar, solicite uma isenção.",
+        "amount_info": "Prêmio fixo: 17.920 ienes por mês (a partir de abril de 2026)",
         "target_audience": [
-          "Quem completou 20 anos",
-          "Quem saiu do emprego"
+          "Todos os residentes no Japão de 20 a 59 anos",
+          "Segurados da Categoria 1 (autônomos, estudantes, etc.)",
+          "Aqueles que têm dificuldade em pagar o prêmio"
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "Segurado da Categoria 1",
+            "explanation": "Autônomos, estudantes, etc. Devem pagar os prêmios por conta própria."
+          },
+          {
+            "term": "Segurado da Categoria 2",
+            "explanation": "Funcionários de empresas e servidores públicos inscritos na Pensão de Empregados ou associações de ajuda mútua."
+          },
+          {
+            "term": "Segurado da Categoria 3",
+            "explanation": "Cônjuges dependentes de segurados da Categoria 2 (ex: donas de casa em tempo integral)."
+          },
+          {
+            "term": "Prêmio Adicional",
+            "explanation": "Um sistema opcional para pagar 400 ienes a mais por mês para aumentar o valor da pensão futura."
+          },
+          {
+            "term": "Sistema de Pagamento Especial para Estudantes",
+            "explanation": "Um sistema que adia o pagamento de prêmios para estudantes cuja renda está abaixo de um certo nível."
+          },
+          {
+            "term": "Sistema de Isenção de Prêmios",
+            "explanation": "Um sistema que isenta o pagamento total, 3/4, metade ou 1/4 do prêmio devido a dificuldades financeiras, mediante solicitação."
+          }
+        ],
         "five_w1h": {
           "who": "Moradores no Japão de 20 a 59 anos (Estudantes, autônomos, etc.)",
           "what": "Inscrição, isenção e adiamento da Pensão Nacional",
           "when": "Ao completar 20 anos, sair do emprego ou mudar-se.",
-          "where": "Prefeitura 1º Andar Divisão de Pensões / Serviço de Pensão",
+          "where": "Prefeitura de Ota (Divisão Médica e de Pensões) ou Escritório de Pensões de Ota",
           "why": "A inscrição é obrigatória. Para receber pensão por idade, invalidez ou morte.",
           "how": "Envie o formulário. Estudantes podem pedir exceções de pagamento."
         },
-        "checklist": [
-          {
-            "item": "Notificação da Pensão Nacional (国民年金被保険者関係届書)",
-            "note": "Disponível na Prefeitura ou site do JPS.",
-            "required": true
-          },
-          {
-            "item": "Documento de Identidade (本人確認書類)",
-            "note": "Com foto.",
-            "required": true
-          },
-          {
-            "item": "Confirmação do My Number (個人番号確認書類)",
-            "note": "Cartão My Number.",
-            "required": true
-          },
-          {
-            "item": "Caderneta do Cônjuge (配偶者の年金手帳)",
-            "note": "Se for sair da lista de dependentes.",
-            "required": false
-          },
-          {
-            "item": "Cartão de Estudante (学生証)",
-            "note": "Se solicitar exceção de pagamento para estudantes.",
-            "required": false
-          }
-        ],
+        "checklist": [],
         "form_guide": null,
         "faq": [
           {
-            "question": "A Pensão Nacional é obrigatória?",
-            "answer": "Sim, todos de 20 a 59 anos devem se inscrever. Autônomos e estudantes precisam se inscrever na Prefeitura."
+            "question": "Tenho desconto se pagar os prêmios antecipadamente?",
+            "answer": "Sim, há um desconto para pagamento antecipado. Por exemplo, pagar 2 anos adiantado via débito direto economiza cerca de 17.000 ienes."
           },
           {
-            "question": "E se eu não puder pagar os prêmios?",
-            "answer": "Pode pedir isenção (Total, 3/4, Metade, 1/4) ou adiamento. Não pagar reduz o valor da pensão no futuro."
+            "question": "Posso pagar o prêmio com meu smartphone?",
+            "answer": "Sim, você pode pagar usando aplicativos de pagamento no smartphone, escaneando o código de barras no boleto de pagamento."
           },
           {
-            "question": "Perderei a pensão se tiver períodos sem pagamento?",
-            "answer": "Precisa de pelo menos 10 anos de pagamentos para receber. Períodos não pagos reduzem o valor, mas pode pagar retroativamente até 10 anos."
-          },
-          {
-            "question": "O que fazer ao sair do emprego?",
-            "answer": "Mude da Pensão Corporativa para a Pensão Nacional. Faça isso na Prefeitura em até 14 dias após a demissão."
+            "question": "Como as isenções afetam o valor da minha futura pensão?",
+            "answer": "Por exemplo, os períodos de isenção total serão calculados como metade (4/8) do valor normal da pensão. No entanto, você pode fazer pagamentos retroativos (Tsuino) dentro de 10 anos para restaurar o valor da pensão."
           }
         ],
-        "estimated_time": "Cerca de 15 a 20 minutos no balcão",
+        "estimated_time": null,
         "related_articles": [
           "national-health-insurance",
           "death-registration",
