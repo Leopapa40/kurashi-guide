@@ -14346,8 +14346,8 @@
     "locales": {
       "ja": {
         "title": "子供の急病・夜間救急（#8000）",
-        "easy_explanation": "📞 子どもの救急相談: #8000（群馬県小児救急電話相談）\n夜間・休日当番医: 太田市ホームページで確認\n救急・生命の危険: 119番\n\nお子さんの具合が悪くて不安なとき、一人で抱え込まないでください。\n\n夜中に子どもが高熱を出した、けいれんした、どうしても眠れないほど苦しそう——そんなとき、まず「#8000」に電話してください。群馬県の小児科医・看護師が24時間365日対応し、「今すぐ病院に行くべきか」「様子を見ていいか」を無料でアドバイスしてくれます。\n\n太田市には夜間・休日に診療する当番医制度があります。太田市公式サイトで当日の当番医を確認できます。",
-        "bottom_line": "子どもの急病は #8000 に電話。専門家が「今すぐ病院か、様子見か」を無料でアドバイスします。生命の危険があれば119番。",
+        "easy_explanation": "📞 子どもの救急相談: #8000\n夜間・休日当番医: 太田市ホームページで確認\n救急・生命の危険: 119番\n\n夜間や休日におけるお子さんの病気への家庭での対処方法や応急処置について、看護師等が電話で相談に応じます。通話は有料です。\n\n太田市には夜間・休日に診療する当番医制度があります。太田市公式サイトで当日の当番医を確認できます。",
+        "bottom_line": "子どもの急病は #8000 に電話。夜間や休日のお子さんの病気への対処方法を看護師等に相談できます（通話は有料）。",
         "amount_info": null,
         "target_audience": [
           "夜間・休日に子どもの急病で困っている保護者",
@@ -14355,63 +14355,41 @@
         ],
         "term_explanations": [
           {
-            "term": "#8000（小児救急電話相談）",
-            "explanation": "全国共通の子どもの救急相談ダイヤル。夜間・休日に小児科医・看護師が電話で相談に応じる。群馬県は24時間対応。"
+            "term": "#8000（こども医療電話相談）",
+            "explanation": "夜間や休日におけるお子さんの病気への対処方法や応急処置について、看護師等に電話で相談できる窓口。"
           },
           {
-            "term": "休日当番医（きゅうじつとうばんい）",
+            "term": "休日当番医",
             "explanation": "休日・夜間に当番制で診療を行う医療機関。太田市では市の公式サイトで当日の当番医を確認できる。"
-          },
-          {
-            "term": "熱性けいれん（ねっせいけいれん）",
-            "explanation": "高熱により乳幼児が起こすけいれん。多くは数分で止まるが、初めての場合や5分以上続く場合は救急を呼ぶ。"
           }
         ],
         "five_w1h": {
           "who": "夜間・休日に急病になった子どもを持つ保護者",
           "what": "「今すぐ受診すべきか」の電話相談、または夜間当番医での診察",
           "when": "子どもの急病時（夜間・休日含む24時間）",
-          "where": "#8000電話相談はどこからでも可。当番医は太田市公式サイトで確認",
-          "why": "夜間・休日は通常の小児科が閉まっているため、適切な対応方法が分からず不安になるため",
+          "where": "#8000（IP電話やダイヤル回線をご利用の方は、携帯電話からおかけください。市内の一部では固定電話から栃木県につながる地域があります）。当番医は公式サイトで確認。",
+          "why": "夜間や休日におけるお子さんの病気への家庭での対処方法や応急処置について相談するため",
           "how": "#8000に電話 → 症状を伝える → 受診が必要かアドバイスをもらう → 必要なら当番医へ"
         },
         "checklist": [
           {
             "item": "#8000 に電話して相談する",
-            "note": "群馬県は24時間対応",
+            "note": "IP電話やダイヤル回線をご利用の方は携帯電話からおかけください",
             "required": true
-          },
-          {
-            "item": "子どもの症状・体温・いつから始まったかをメモ",
-            "note": "電話相談時に伝えると迅速に対応してもらえる",
-            "required": false
-          },
-          {
-            "item": "保険証・医療費受給者証を準備",
-            "note": "受診時に必要",
-            "required": false
           }
         ],
         "form_guide": null,
         "faq": [
           {
-            "question": "お金がなくても相談できますか？",
-            "answer": "はい。#8000への電話相談は完全に無料です。"
-          },
-          {
-            "question": "外国語で相談できますか？",
-            "answer": "通訳が付く場合があります。まず電話してみてください。"
-          },
-          {
-            "question": "いつ119番を呼ぶべきですか？",
-            "answer": "けいれんが5分以上続く、意識がない、呼吸が苦しそう、唇が青いなどの場合はすぐに119番を呼んでください。"
+            "question": "電話相談は無料ですか？",
+            "answer": "相談自体は無料ですが、通話は有料となります。"
           },
           {
             "question": "夜間当番医はどこで確認できますか？",
-            "answer": "太田市公式サイト（https://www.city.ota.gunma.jp/page/1915.html）で当日の当番医を確認できます。"
+            "answer": "太田市公式サイト（https://www.city.ota.gunma.jp/page/1915.html）で当日の当番医や休日歯科診療所を確認できます。"
           }
         ],
-        "estimated_time": "電話相談: 数分〜15分程度",
+        "estimated_time": null,
         "related_articles": [
           "child-medical-fee-assistance",
           "vaccination-schedule",
@@ -14421,63 +14399,50 @@
       },
       "en": {
         "title": "Child's Sudden Illness / Night Emergency (#8000)",
-        "easy_explanation": "📞 Children's Medical Emergency Consultation: #8000 (Gunma Prefecture Pediatric Emergency Telephone Consultation)\nNight / Holiday Duty Doctor: Check on the Ota City website\nEmergency / Danger to life: 119\n\nWhen your child is sick and you are worried, you are not alone. It's not your fault.\n\nWhen your child has a high fever in the middle of the night, has convulsions, or looks so sick that they can't sleep—first, call \"#8000\". Pediatricians and nurses in Gunma Prefecture are available 24/7 to advise you for free on whether you \"should go to the hospital right away\" or \"can wait and see.\"\n\nOta City has an on-duty doctor system for nights and holidays. You can check the doctor on duty for the day on the Ota City official website.",
-        "bottom_line": "For children's sudden illness, call #8000. Experts will advise you for free whether you \"should go to the hospital right away or wait and see.\" Call 119 if there is a danger to life.",
+        "easy_explanation": "📞 Child Emergency Consultation: #8000\nNight/Holiday Doctors: Check the Ota City website\nEmergency/Life-threatening: Dial 119\n\nNurses and other medical staff are available to consult by phone regarding home treatments and first aid for children's sudden illnesses during nights and holidays. Call charges apply.\n\nOta City has an on-duty doctor system for night and holiday care. You can check the doctor on duty for the day on the Ota City official website.",
+        "bottom_line": "For your child's sudden illness, call #8000. You can consult with nurses about how to handle sudden illnesses during nights and holidays (Call charges apply).",
         "amount_info": null,
         "target_audience": [
           "Parents who are troubled by their child's sudden illness at night or on holidays",
           "Those who live or work in Ota City"
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "#8000 (Child Medical Phone Consultation)",
+            "explanation": "A consultation service where nurses and medical staff can be reached by phone regarding home care and first aid for children's illnesses during nights and holidays."
+          },
+          {
+            "term": "Holiday On-duty Doctor",
+            "explanation": "Medical institutions that provide medical treatment on holidays and at night on a rotational basis. In Ota City, you can check the on-duty doctor for the day on the city's official website."
+          }
+        ],
         "five_w1h": {
           "who": "Parents with a child who suddenly becomes ill at night or on a holiday",
           "what": "Telephone consultation on \"whether to visit a doctor immediately\" or medical examination by a night duty doctor",
           "when": "When a child becomes suddenly ill (24 hours including nights and holidays)",
-          "where": "#8000 telephone consultation is available from anywhere. Check the Ota City official website for duty doctors",
-          "why": "Because normal pediatric clinics are closed at night and on holidays, and it is natural to be worried not knowing the appropriate response",
+          "where": "#8000 (If using an IP phone or dial-up line, please call from a mobile phone. Calls from landlines in some areas of the city may connect to Tochigi Prefecture). Check the official website for on-duty doctors.",
+          "why": "To consult on home care and first aid for a child's illness during nights and holidays.",
           "how": "Call #8000 -> Explain the symptoms -> Get advice on whether a medical examination is necessary -> Go to a duty doctor if necessary"
         },
         "checklist": [
           {
-            "item": "Call #8000 to consult",
-            "note": "Gunma Prefecture is available 24/7",
+            "item": "Call #8000 for consultation",
+            "note": "If using an IP phone or dial-up line, please call from a mobile phone",
             "required": true
-          },
-          {
-            "item": "Note down the child's symptoms, body temperature, and when it started",
-            "note": "Telling them during the telephone consultation will allow them to respond quickly",
-            "required": false
-          },
-          {
-            "item": "Prepare health insurance card and medical expense recipient certificate",
-            "note": "Required at the time of consultation",
-            "required": false
           }
         ],
         "form_guide": null,
         "faq": [
           {
-            "question": "Can I consult even if I have no money?",
-            "answer": "Yes. The telephone consultation to #8000 is completely free."
+            "question": "Is the phone consultation free?",
+            "answer": "The consultation itself is free, but call charges apply."
           },
           {
-            "question": "Can I consult in a foreign language?",
-            "answer": "An interpreter may be available. Please try calling first."
-          },
-          {
-            "question": "When should I call 119?",
-            "answer": "Call 119 immediately if convulsions last for more than 5 minutes, there is no consciousness, breathing seems difficult, or lips are blue."
-          },
-          {
-            "question": "Where can I check the night duty doctor?",
-            "answer": "You can check the doctor on duty for the day on the Ota City official website (https://www.city.ota.gunma.jp/page/1915.html)."
-          },
-          {
-            "question": "Is this service free?",
-            "answer": "Yes, consultation and application support are free of charge."
+            "question": "Where can I check the night/holiday on-duty doctors?",
+            "answer": "You can check the on-duty doctors and holiday dental clinics for the day on the Ota City official website (https://www.city.ota.gunma.jp/page/1915.html)."
           }
         ],
-        "estimated_time": "Telephone consultation: About a few minutes to 15 minutes",
+        "estimated_time": null,
         "related_articles": [
           "child-medical-fee-assistance",
           "vaccination-schedule",
@@ -14487,63 +14452,50 @@
       },
       "pt": {
         "title": "Doença Súbita Infantil / Emergência Noturna (#8000)",
-        "easy_explanation": "📞 Consulta de Emergência Médica Infantil: #8000 (Consulta Telefônica de Emergência Pediátrica da Província de Gunma)\nMédico de Plantão Noturno / Feriado: Verifique no site da Cidade de Ota\nEmergência / Perigo de vida: 119\n\nQuando seu/sua filho/a está doente e você está preocupado/a, você não está sozinho/a. Não é sua culpa.\n\nQuando seu/sua filho/a tem febre alta no meio da noite, tem convulsões ou parece tão doente que não consegue dormir — primeiro, ligue para \"#8000\". Pediatras e enfermeiros da Província de Gunma estão disponíveis 24 horas por dia, 7 dias por semana, para aconselhá-lo/a gratuitamente se você \"deve ir ao hospital imediatamente\" ou \"pode esperar para ver\".\n\nA Cidade de Ota tem um sistema de médico de plantão para noites e feriados. Você pode verificar o médico de plantão do dia no site oficial da Cidade de Ota.",
-        "bottom_line": "Para doenças súbitas de crianças, ligue para #8000. Especialistas irão aconselhá-lo/a gratuitamente se você \"deve ir ao hospital imediatamente ou esperar para ver\". Ligue para 119 se houver perigo de vida.",
+        "easy_explanation": "📞 Consulta de Emergência Infantil: #8000\nMédicos de Plantão Noturno/Feriados: Verifique o site da cidade de Ota\nEmergência/Risco de Vida: Disque 119\n\nEnfermeiros e outros profissionais médicos estão disponíveis para consulta por telefone sobre tratamentos caseiros e primeiros socorros para doenças súbitas de crianças durante a noite e feriados. Aplica-se tarifa de chamada.\n\nA cidade de Ota possui um sistema de médicos de plantão para atendimento noturno e feriados. Você pode verificar o médico de plantão do dia no site oficial da cidade de Ota.",
+        "bottom_line": "Para doenças súbitas do seu filho, ligue para #8000. Você pode consultar enfermeiros sobre como lidar com doenças súbitas durante a noite e feriados (Aplica-se tarifa de chamada).",
         "amount_info": null,
         "target_audience": [
           "Pais que estão com problemas devido à doença súbita do/da filho/a à noite ou nos feriados",
           "Aqueles que moram ou trabalham na Cidade de Ota"
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "#8000 (Consulta Médica Infantil por Telefone)",
+            "explanation": "Um serviço de consulta onde enfermeiros e profissionais médicos podem ser contatados por telefone sobre cuidados em casa e primeiros socorros para doenças infantis durante a noite e feriados."
+          },
+          {
+            "term": "Médico de Plantão em Feriados",
+            "explanation": "Instituições médicas que prestam tratamento médico em feriados e à noite em regime de rotação. Na cidade de Ota, você pode verificar o médico de plantão do dia no site oficial da cidade."
+          }
+        ],
         "five_w1h": {
           "who": "Pais com um/uma filho/a que adoece subitamente à noite ou em um feriado",
           "what": "Consulta telefônica sobre \"se deve ir ao médico imediatamente\" ou exame médico por um médico de plantão noturno",
           "when": "Quando uma criança adoece de repente (24 horas, incluindo noites e feriados)",
-          "where": "A consulta telefônica #8000 está disponível de qualquer lugar. Verifique o site oficial da Cidade de Ota para médicos de plantão",
-          "why": "Porque as clínicas pediátricas normais estão fechadas à noite e nos feriados, e é natural ficar preocupado/a sem saber a resposta adequada",
+          "where": "#8000 (Se estiver usando um telefone IP ou linha discada, ligue de um telefone celular. Chamadas de telefones fixos em algumas áreas da cidade podem conectar-se à província de Tochigi). Verifique o site oficial para os médicos de plantão.",
+          "why": "Para consultar sobre cuidados em casa e primeiros socorros para a doença de uma criança durante a noite e feriados.",
           "how": "Ligue para #8000 -> Explique os sintomas -> Obtenha conselhos sobre se uma consulta médica é necessária -> Vá a um médico de plantão se necessário"
         },
         "checklist": [
           {
-            "item": "Ligue para #8000 para consultar",
-            "note": "A Província de Gunma está disponível 24 horas por dia, 7 dias por semana",
+            "item": "Ligue para #8000 para consulta",
+            "note": "Se estiver usando um telefone IP ou linha discada, ligue de um telefone celular",
             "required": true
-          },
-          {
-            "item": "Anote os sintomas da criança, temperatura corporal e quando começou",
-            "note": "Contar durante a consulta telefônica permitirá que eles respondam rapidamente",
-            "required": false
-          },
-          {
-            "item": "Prepare o cartão de seguro de saúde e o certificado de beneficiário de despesas médicas",
-            "note": "Necessário no momento da consulta",
-            "required": false
           }
         ],
         "form_guide": null,
         "faq": [
           {
-            "question": "Posso consultar mesmo se não tiver dinheiro?",
-            "answer": "Sim. A consulta telefônica para #8000 é totalmente gratuita."
+            "question": "A consulta por telefone é gratuita?",
+            "answer": "A consulta em si é gratuita, mas são aplicadas tarifas de chamada."
           },
           {
-            "question": "Posso consultar em uma língua estrangeira?",
-            "answer": "Um intérprete pode estar disponível. Por favor, tente ligar primeiro."
-          },
-          {
-            "question": "Quando devo ligar para 119?",
-            "answer": "Ligue para 119 imediatamente se as convulsões durarem mais de 5 minutos, não houver consciência, a respiração parecer difícil ou os lábios estiverem azuis."
-          },
-          {
-            "question": "Onde posso verificar o médico de plantão noturno?",
-            "answer": "Você pode verificar o médico de plantão do dia no site oficial da Cidade de Ota (https://www.city.ota.gunma.jp/page/1915.html)."
-          },
-          {
-            "question": "Este serviço é gratuito?",
-            "answer": "Sim, a consulta e o apoio para inscrição são gratuitos."
+            "question": "Onde posso verificar os médicos de plantão noturnos/feriados?",
+            "answer": "Você pode verificar os médicos de plantão e as clínicas odontológicas de feriados do dia no site oficial da cidade de Ota (https://www.city.ota.gunma.jp/page/1915.html)."
           }
         ],
-        "estimated_time": "Consulta telefônica: Cerca de alguns minutos a 15 minutos",
+        "estimated_time": null,
         "related_articles": [
           "child-medical-fee-assistance",
           "vaccination-schedule",
