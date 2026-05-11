@@ -1,10 +1,7 @@
 [
   {
     "id": "ota-nadeshiko-marche",
-    "municipality": "ota-city",
     "category": "local-event",
-    "status": "active",
-    "deadline": "2025-11-16",
     "locales": {
       "ja": {
         "title": "おおたなでしこマルシェを開催します！",
@@ -179,17 +176,12 @@
       }
     },
     "original_url": "https://www.city.ota.gunma.jp/page/1028763.html",
-    "original_text": "雑貨やお菓子の販売、ワークショップなど、52店舗の女性出店者が集うマルシェにぜひお越しください！\nおおたなでしこマルシェ\n・日程／11月16日(日曜日)　10時00分から16時00分\n・入場料／無料\n・会場／イオンモール太田　(太田市石原町81)\n・\nチラシ [その他のファイル／1.24MB]\n・\n出店ブース一覧 [その他のファイル／361KB]\nお気軽にお立ち寄りください！",
-    "situations": [
-      "moved-in-q"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "gunma-cross-start-subsidy",
-    "municipality": "ota-city",
     "category": "money",
-    "status": "active",
-    "deadline": "2026-05-15",
     "locales": {
       "ja": {
         "title": "ぐんまクロススタート補助金",
@@ -455,17 +447,12 @@
       }
     },
     "original_url": "https://www.city.ota.gunma.jp/page/1023027.html",
-    "original_text": "ぐんまクロススタート補助金の応募受付開始\n令和8年度ぐんまクロススタート補助金（旧：群馬県起業支援金）の応募が開始されました。\n群馬県起業支援金事務局への申請期限は\n5月22日(金曜日)\nまで。\n詳細は下記のページをご覧ください。\n【群馬県産業支援機構】\nhttps://www.g-inf.or.jp/html/startup_002.html\n太田市にて確認書発行希望の方は「\n令和8年度ぐんまクロススタート補助金　事業計画書」\nのご提出をお願いします。\n確認書の発行は窓口にて申請後、2営業日後にお渡し可能です。\n​確認書発行申請期限は\n5月15日(金曜日)\nまでとなりますのでお早めに申請をお願いします。",
-    "situations": [
-      "start-business-q"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "service-center-operations",
-    "municipality": "ota-city",
     "category": "local-event",
-    "status": "active",
-    "deadline": null,
     "locales": {
       "ja": {
         "title": "サービスセンターの利用案内",
@@ -934,17 +921,12 @@
       }
     },
     "original_url": "https://www.city.ota.gunma.jp/page/2748.html",
-    "original_text": "サービスセンターの業務\nサービスセンターのご案内（すまいる太田）\n西サービスセンターは、令和7年2月23日（日曜日・祝日）より、ジョイフル本田新田店・ニコモールからエアリスベースに移転しました。\nまた、同日から東・西サービスセンターの開所時間が変更となっています。詳しくは、以下のをご覧ください。\n西サービスセンターの移転、東・西サービスセンター開所時間の変更\n店名\n場所\n営業時間\n休業日※1\n東サービスセンター\nTel：0276-40-1122\nイオンモール太田2階・おおたハートプラザ内\n（石原町）\n午前10時～午後6時45分\n年末年始(12月29日～1月3日)\n西サービスセンター\nTel：0276-57-4922\nエアリスベース1階\n（新田金井町）\n午前9時～午後5時45分\n年末年始(12月29日～1月3日)\n※1　年末年始のほか、施設管理等により臨時休業となる場合もございます。その場合はホームページの新着情報や広報等でお知らせいたします。\n【広域交付戸籍証明書・電子証明書提供用識別符号を請求できる時間】\n東サービスセンター　平日、午前10時〜午後5時15分\n西サービスセンター　平日、午前9時〜午後5時15分\n※サービスセンター以外の窓口開庁時間\n市役所・\n各行政センター（太田行政センターを除く）\n平日、午前8時30分〜午後5時15分（土日祝日、年末年始は休業）\n業務内容\n市民課業務\n住民票：300円\n印鑑証明：300円\n印鑑登録：200円（日本人のみ）\n戸籍証明：450円／750円\n戸籍の附票：300円\n広域交付戸籍証明書：450円／750円\n電子証明書提供用識別符号：400円／700円\n臨時運行許可番号標（仮ナンバー）：750円\n※仮ナンバーは西サービスセンターのみ取扱\n転入届（日本人のみ）※\n​転居届（日本人のみ）※\n※転入届・転居届は、平日の17時15分以降および土日祝日は受付のみになります。\n処理は翌営業日（平日）に行うため、住民票などの証明発行は翌々営業日以降となります。\n転出届\n国民健康保険取得・喪失\n婚姻届（日本人のみ）\n出生届（日本人のみ）\n死亡届（日本人のみ）\n転籍届\nマイナンバーカード電子証明書の更新\n（土日・祝日要予約。東サービスセンターは平日午後5時〜も要予約。）\nマイナンバーカード暗証番号再設定（ロック解除）\n（土日・祝日要予約。東サービスセンターは平日午後5時〜も要予約）\nマイナンバーカードのお受取り\n（予約が必要です。）\n※\n予約はこちら（予約フォームに移行します。）\n税業務\n【所得・課税に関する証明書】\n​\n所得課税（非課税）証明　300円\n所在地証明　300円（法人のみ）\n【納税に関する証明書】\n市県民税［※1］300円\n固定資産税　300円\n軽自動車税　300円（継続検査用は無料）［※2］\n国民健康保険税　300円\n【資産税に関する証明書】\n評価(資産)証明書[※3]　300円〜\n公課証明書［※4］　300円〜\n※1　法人市民税は収納課(市役所庁舎2階)になります。\n※2　非課税の車両の証明書はサービスセンターではお取り扱いできません。市民税課（市役所2階）または\n各行政センター（太田行政センターを除く）\nで証明書の交付を受けてください。\n※3　現年度および前年度に限ります。また、近傍土地の1平方メートル当たりの参考価額の記入が不要な場合に限ります。近傍価格の記入を要する場合は、資産税課（市役所2階）で証明書の交付を受けてください。\n※4　現年度および前年度に限ります。\n納税\n市県民税（普通徴収のみ）\n固定資産税\n軽自動車税\n国民健康保険税\n介護保険料\n後期高齢者医療保険料\n県税(自動車税、個人の事業税、不動産取得税、鉱区税のみ)\n※\n市税は\n納付書を持参\nし、\n現金で納付\nする方、\n県税は納期限内のもの\nとなります。\nお問い合わせ\n当店では取り扱っていない証明書もあります。ご不明な点がありましたら、お問い合わせください。\n各地区にある各行政センター（太田行政センターを除く）においても、サービスセンターで行う市民課業務、税業務、納税の受付を行っています。\n[[add-template-pdf]]\n[[add-template-windowsmediaplayer]]\nカレンダー登録・SNSボタンここから\nTweet\n!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');\ndocument.write('<div class=\"fb-like\" data-href=\"'+htmlspecialchars_URL(location.href)+'\" data-layout=\"button_count\" data-action=\"like\" data-size=\"small\" data-show-faces=\"false\" data-share=\"true\"></div>');\ndocument.write('<div class=\"line-it-button\" data-lang=\"ja\" data-type=\"share-a\" data-ver=\"3\" data-url=\"'+htmlspecialchars_URL(location.href)+'\" data-color=\"default\" data-size=\"small\" data-count=\"false\" style=\"display: none;\"></div>');\nカレンダー登録・SNSボタンここまで\nmain_bodyここまで\nメインここまで\nサイドバー1ここから\nサイドバー1ここまで\nサイドバー2ここから\n重要なお知らせここから\n重要なお知らせここまで\nカウントダウンここから\nカウントダウンここまで\nレコメンドここから\nこのページを見ている人は\nこんなページも見ています\n[[recommend_tag]]\nレコメンドここまで\nAIレコメンドここから\nAI（人工知能）は\nこんなページをおすすめします\n[[ai_recommend_tag]]\nAIレコメンドここまで\n関連ここから\n関連ここまで\nサイドバー2ここまで\n3カラム終わり\nフッタここから\nアクセシビリティ\n個人情報の取り扱いについて\n免責事項\nこのサイトについて\n集\nサイトマップ\n太田市役所\n法人番号7000020102059\n〒373-8718　群馬県太田市浜町2番35号\nTel：0276-47-1111(代表）\nFax：0276-47-1888（代表）\n開庁時間\nご意見・お問い合わせ\n休日の証明書発行業務\n（サービスセンター）",
-    "situations": [
-      "moved-in-q"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "safety-net-guarantee-2-certification",
-    "municipality": "ota-city",
     "category": "business",
-    "status": "active",
-    "deadline": null,
     "locales": {
       "ja": {
         "title": "セーフティネット保証2号認定の申請受付",
@@ -1233,17 +1215,12 @@
       }
     },
     "original_url": "https://www.city.ota.gunma.jp/page/1031793.html",
-    "original_text": "対象中小企業者\n法人の場合（本店登記または営業拠点が太田市であること）\n個人の場合（営業実態がある場所が太田市であること）\n受付、認定書発行\n受付場所\n産業ミライ推進課金融労政係（市役所5階）\n〒373-8718　群馬県太田市浜町2番35号\n受付時間\n午前8時30分から12時まで\n午後1時から午後4時まで（土日祝日は除く）\n認定書発行\n受付日の翌々日午前11時（土日祝日は除く）となります。\n（※午後4時以降は翌日受付扱いになります。）\n認定書の使用\n認定書は原本の写し（コピー）を使用することができます。\n注意事項\n本認定は、融資を確約するものではありません。別途、金融機関および信用保証協会の審査があります。\nセーフティネット保証2号\n認定基準\n指定事業者と直接的又は間接的に取引を行っており、指定事業者に対する取引依存度が20％以上で、当該事業活動の制限を受けた後いずれか1ヶ月間の売上高、販売数量等の減少率の実績が前年同月比10％以上であり、かつその後の2ヶ月を含む3ヶ月間の売上高、販売数量等の減少率の実績又は見込みが前年同期比10％以上であること。\n必要書類\n申請書2部\n最近1か月の売上高が分かる書類（試算表、売上台帳など）\nその後2か月間の売上見込みを記載した書類（任意様式に代表印を押印）\n指定事業者との取引額がわかる書類\n前年同期の売上高等が分かる書類（試算表、売上台帳、法人概況表など）\n法　　　人：履歴事項全部証明書の写し　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　個人事業主：白色申告の方は収支内訳書、青色申告の方は所得税青色決算書(直近の確定申告に添付したものの写し)\n代理人選任届（委任状）※金融機関（代理人）が申請手続きを行う場合に必要\nセーフティネット保証認定申請書\n第2条第5項第2号認定書1-イ \n第2条第5項第2号認定書1-ロ \n代理人選任届（委任状）\n代理人は窓口に直接お越しになる方の個人名、連絡先はその方が日中連絡がとれる連絡先を記入",
-    "situations": [
-      "start-business-q"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "safety-net-guarantee-5-certification",
-    "municipality": "ota-city",
     "category": "business",
-    "status": "active",
-    "deadline": null,
     "locales": {
       "ja": {
         "title": "セーフティネット保証5号認定",
@@ -1581,17 +1558,12 @@
       }
     },
     "original_url": "https://www.city.ota.gunma.jp/page/2606.html",
-    "original_text": "対象中小企業者\n法人の場合（本店登記または営業拠点が太田市であること）\n個人の場合（営業実態がある場所が太田市であること）\n受付、認定書発行\n受付場所\n産業ミライ推進課金融労政係（市役所5階）\n〒373-8718　群馬県太田市浜町2番35号\nTel：0276-47-1846（ダイヤルイン）\nFax：0276-47-1881\n受付時間\n午前8時30分から12時まで\n午後1時から午後4時まで（土日祝日は除く）\n認定書発行\n受付日の翌々日午前11時以降（土日祝日は除く）となります。\n（※午後4時以降は翌日受付扱いになります。）\n認定書の使用\n認定書は原本の写し（コピー）を使用することができます。\n本認定は、\n融資を確約するものではありません\n。別途、金融機関および信用保証協会の\n審査\nがあります。\n指定業種および日本標準産業分類（指定業種であることを必ず確認してください。）\n(全国的に)業況の悪化している業種に属する中小企業者を支援するための処置です。\n業種の確認はこちらをご覧ください。\n分類検索\n認定基準\n5号（イ）\n指定業種に属する事業を行っており、最近3か月間の売上高等が前年同期比5％以上減少している中小企業者。\n5号（ロ）\n指定業種に属する事業を行っており、製品等原価のうち20％を占める原油等の仕入価格が20％以上、上昇しているにもかかわらず、製品等価格に転嫁できていない中小企業者。\n5号（ハ）\n指定業種に属する事業を行っており、為替相場の変動や人手不足等、個社ではどうにもできない外的要因による原材料費や人件費等の増加を受け、最近3か月間の売上高営業利益率が前年同期比20％以上減少している等の影響を受けている中小企業者。\n必要書類\n申請書2部、添付書類1部（添付書類は申請書ファイル内にあります）\n最近3か月の売上高等が分かる書類（試算表、売上台帳など）\n前年同期の売上高等が分かる書類（試算表、売上台帳、法人概況表など）\n法　　　人：履歴事項全部証明書の写し（発行から3か月以内のもの）　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　個人事業主：白色申告の方は収支内訳書、青色申告の方は所得税青色決算書(直近の確定申告に添付したものの写し)\n代理人選任届（委任状）\n代理人は窓口に直接お越しになる方の個人名、連絡先はその方が日中連絡がとれる連絡先を記入\n注意事項\n「最近3か月間」とは申請月（市役所窓口で受付した日）の前月または前々月を基準に遡った3か月間です。\n申請書と添付書類は両面で印刷しないでください\nセーフティネット保証認定申請書（通常要件）\nセーフティネット保証5号認定申請書（イ）−（1） \n（指定業種に属する事業のみを営んでいる場合）\nセーフティネット保証5号認定申請書（イ）−（2） \n（指定業種と非指定業種を営んでいる場合）\nセーフティネット保証認定申請書（創業者要件）\nセーフティネット保証5号認定申請書（イ）−（3） \n（指定業種に属する事業のみを営んでいる場合）\nセーフティネット保証5号認定申請書（イ）−（4） \n（指定業種と非指定業種を営んでいる場合）\n※本様式は、業歴1年3か月未満の事業者が使用することができます。\nセーフティネット保証認定申請書（原油高要件）\nセーフティネット保証5号認定申請書（ロ）−（1） \n（指定業種に属する事業のみを営んでいる場合）\nセーフティネット保証5号認定申請書（ロ）−（2） \n（指定業種と非指定業種を営んでいる場合）\nセーフティネット保証認定申請書（利益率要件）\nセーフティネット保証5号認定申請書（ハ）−（1） \n（指定業種に属する事業のみを営んでいる場合）\nセーフティネット保証5号認定申請書（ハ）−（2） \n（指定業種と非指定業種を営んでいる場合）\n※本様式を使用する際は、勘定科目を詳細に記載した試算表等が必要です。\n※（ハ）-（2）を使用する際は、業種ごとの勘定科目を詳細に記載した試算表等が必要です。",
-    "situations": [
-      "start-business-q"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "sme-loan-guide",
-    "municipality": "ota-city",
     "category": "business",
-    "status": "active",
-    "deadline": null,
     "original_url": "https://www.city.ota.gunma.jp/page/2646.html",
     "locales": {
       "ja": {
@@ -1834,18 +1806,12 @@
         ]
       }
     },
-    "original_text": "制度融資\n市と金融機関が協調し、市が融資の利率や期間を定めて、融資原資の一部を預託することで、金融機関が\n低利（固定金利）\nな資金を融資するものです。\n利用希望の方は市内の金融機関へご相談ください。\n申請の流れはフローチャートをご確認ください。\n申請フローチャート \n※市外にある金融機関の本支店からは申込みできません。\nまた太田市制度融資の各制度につきましては、融資一覧、パンフレットをご覧ください。\n太田市制度融資一覧 \n太田市制度融資ガイドブック \n確認書類\n金融機関の案内により下記の書類が必要になった場合はご利用ください。\n太田市税等照合票(制度融資用)\n申請者が太田市における市税の滞納がないことを証明する書類になります。\n必要事項を記入の上、太田市役所2階収納課窓口までお持ちください。\n市税等の調査閲覧同意書\n融資が適正か確認するため固定資産台帳等の税情報を確認することへの同意書になります。\n暴力団排除に関する誓約書\n暴力団への関与、関連がないかの誓約書になります。\n金融機関向け様式\n小口資金\n小口資金設備設置完了報告書\n設備近代化資金\n受付表 \n申請書\n融資報告書\n設置報告書\n経営安定資金\n受付表 \n申請書 \n報告書\n季節資金\n申請書\n報告書 \n※金融機関からの報告は毎月10日までにお願いします。\n受付表（保証付） \n中小企業季節資金融資のご案内 \n小口資金条件変更\n申請窓口は太田商工会議所になります。条件変更報告書は太田市に提出になります。\n条件変更受付表\n：申請時に添えて提出してください。\nその他資金（設備近代化資金・経営安定資金・季節資金（保証有））条件変更\n申請窓口は太田市役所になります。条件変更報告書は太田市に提出になります。\n条件変更受付表兼申請書 \n：申請時に添えて提出してください。\n条件変更報告書\n制度融資変更報告書\n：条件変更完了後に必ず提出してください。",
-    "situations": [
-      "start-business-q",
-      "debt-crisis"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "business-succession-center",
-    "municipality": "ota-city",
     "category": "business",
-    "status": "active",
-    "deadline": null,
     "original_url": "https://www.city.ota.gunma.jp/page/1049572.html",
     "locales": {
       "ja": {
@@ -2056,17 +2022,12 @@
         ]
       }
     },
-    "original_text": "中小企業経営者、小規模事業者の皆さん、アトツギ（＝事業承継）の悩みはありませんか。「アトツギがいない」悩みはもちろん、アトツギに引き継ぐには「どんな手続きが必要」「何を準備したらいいの」などの疑問も悩みのうちです。そんな様々な悩みを解決して、会社を次の世代・新しい経営者へと引き継ぐお手伝いをするのが、群馬県事業承継・引継ぎ支援センターです。公的な機関なので、安心・安全・無料で相談できます。事業承継についてお困りなことがありましたら、お気軽にお問い合わせください。\n相談の内容\n事業承継は、\n親族（主に子供）\n従業員\n社外の第三者\nの中からアトツギを見つけます。このすべてのケースで、どのような内容でもご相談いただくことができます。\n具体的な相談例\nまだアトツギが決まっていない\n承継の方向性が未定でも、現状整理や今後どうしたら良いかについて相談できます。\n親族や従業員への承継を検討している\nいつ、何を、どうやって引き継ぐか、また引き継いだ後の後継者教育などについて相談できます。\n第三者への譲渡（M&A）を検討している\n譲受先の紹介、条件交渉、契約締結までの手続きを支援します。\nM&Aの手続きを手伝ってほしい\n相手と具体的に話の進んでいるM&Aのお手伝いや、セカンドオピニオンの提供も可能です。\n事業を引き継ぎたい\n条件の合う譲渡希望先があれば紹介します。\n上記のとおり、「漠然とした不安」から「具体的な手続き」まで、様々な相談に対応しています。\n費用\n無料\n相談の申込み方法\n以下のいずれかの方法で、群馬県事業承継・引継ぎ支援センターにお申し込みください。\n電話\n電話番号：027-265-5040\n受付時間：月曜日から金曜日まで（土日・祝日・年末年始を除く）　午前8時30分から午後5時15分まで\nインターネット\nお申込みフォーム（群馬県事業承継・引継ぎ支援センター）\n実施主体\n公益財団法人群馬県産業支援機構\n（群馬県事業承継・引継ぎ支援センター）\n〒379-2147\n前橋市亀里町884-1（群馬県産業技術センター内）\n群馬県事業承継・引継ぎ支援センターチラシ()\n群馬県事業承継・引継ぎ支援センター",
-    "situations": [
-      "start-business-q"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "sales-channel-expansion-subsidy",
-    "municipality": "ota-city",
     "category": "money",
-    "status": "active",
-    "deadline": "2027-03-31",
     "original_url": "https://www.city.ota.gunma.jp/site/monodukuri/2625.html",
     "locales": {
       "ja": {
@@ -2300,17 +2261,12 @@
         ]
       }
     },
-    "original_text": "概要\n太田市では地域産業の発展を図るため、中小企業者が販路開拓を目的として自社製品・自社技術の公開宣伝をするための見本市・展示会に出展した場合、その出展料の一部を助成する制度を設けています。ぜひ、ご活用ください！！\n令和8年度自社製品販路開拓事業助成金リーフレット \n募集期間\n随時募集　※予算額に達し次第受付を終了します。\n補助対象者\n市内に事業所を有し、かつ市内で1年以上事業を営む中小企業者\n市内で製品等の開発、製造を行う中小企業者\n補助額等\n直接展示会等の主催者へ支払う費用(税抜き)の3分の2以内（30万円を限度）\n【補助対象経費】\n・出展小間料\n・展示装飾費\n※1,000円未満の端数が生じた場合は切り捨てます。\n補助対象事業\n令和8年4月1日から令和9年3月31日までに開催される、広く一般に公開されている国内外の見本市・展示会等への出展\n※次に掲げる事業は、交付の対象外となります。\n・特定の会員企業等の出展又は来場を主な対象としている事業\n・国、地方公共団体、および公益法人等の公的な補助・助成等を受けている事業\n・一般消費者を対象とした事業\n・群馬県内で実施される見本市、展示会等に出展する事業\n申請書類\n申請書\n申請書類を下記からし、必要事項を記入の上、その他必要書類と併せてご提出ください。​※事前申請となりますので出展計画など必ず事前にご相談ください。\n \n実績報告書類\n実績報告書\n申請者は期日までに「実績報告書」およびその他必要書類を下記からし、必要事項を記入の上、提出をお願いします。\n【提出期日】\n見本市・展示会終了後30日以内\n \n※作成にあたっては\n記載例（実績報告書） \nをご参照ください。\n提出方法\n【方法】持参\n【場所】太田市役所5階 産業ミライ推進課窓口\n​\n【時間】平日午前9時から午後5時まで\nその他\n・助成金の申請回数は同一年度内において1社につき1回限りとします。",
-    "situations": [
-      "start-business-q"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "tech-innovation-challenge",
-    "municipality": "ota-city",
     "category": "money",
-    "status": "active",
-    "deadline": "2026-05-15",
     "original_url": "https://www.city.ota.gunma.jp/site/monodukuri/2652.html",
     "locales": {
       "ja": {
@@ -2545,17 +2501,12 @@
         ]
       }
     },
-    "original_text": "",
-    "situations": [
-      "start-business-q"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "housing-reform-subsidy",
-    "municipality": "ota-city",
     "category": "money",
-    "status": "active",
-    "deadline": null,
     "original_url": "https://www.city.ota.gunma.jp/page/1148.html",
     "locales": {
       "ja": {
@@ -2823,17 +2774,12 @@
         ]
       }
     },
-    "original_text": "商店リフォーム支援事業補助金書式\n本補助金を希望する方は、\n必ず工事着工前に産業ミライ推進課に申請してください。\n交付申請書（補助金の申請に必要な書類）\n以下のうち、必要な書類を着工および購入前に提出してください。申請者名、使用する印鑑はすべて同じものにしてください。必要な書類がすべて揃わなければ受け付け出来ませんのでご注意ください。\nNo.\n名称\n様式はこちら\n備考\n1\n補助金等交付申請書\n様式第1号\n(第5条関係)\n2\n店舗位置図\n店舗の位置がわかるもの。インターネットの地図サイト等を印刷したものでも可。\n3\n賃貸借契約書の写し\n店舗を賃借して営業している場合\n4\n店舗所有者の同意書の写し\n参考書式 \n店舗を賃借して営業している場合（書式自由）店舗所有者が工事に同意している証明\n5\n履歴書\n参考書式 [Excelファイル／40KB]\n履歴書（書式自由。申請者の役職や職歴等。顔写真の添付は不要。）\n6\n住民票の写し\nコピー可（申請者の住所がわかるもの、本籍および世帯主との続柄の記載は必要ありません）\n7\n登記簿謄本（履歴事項全部証明書）\nコピー可。申請者が法人である場合のみ提出が必要。\n8\n工事前の店舗内外部写真\n工事箇所の写真（カラー印刷）\n9\n見積書\n市内に本社、本店又は営業の拠点となる事業所を有する施工業者からの見積書のみ可。業者印があること。コピー可。\n10\n建物の平面図\n工事箇所がわかるもの。コピー可。\n11\n太田市税等完納照合票（個人用）\n指定書式 \n世帯全員の完納照合が必要（2階収納課にて照合）\n12\n太田市税等完納照合表（法人用）\n指定書式 \n法人の完納照合が必要（2階収納課にて照合）\n13\n確定申告書または法人税申告書等の写し\n・確定申告書（第一表、第二表、収支内訳書又は青色申告決算書）の写し ※個人\n・法人税申告書別表一、貸借対照表、損益計算書決算書の写し ※法人\n（直近の年分のもの。）\n14\n誓約書\n様式第3号\n(第8条関係)\n15\nその他必要となる書類\n店舗営業にあたって必要となる免許、資格、許可証等\n16\n商店リフォーム支援事業補助金チェックリスト\n商店リフォーム支援事業補助金チェックリスト \n実績報告書（補助金の実績報告に必要な書類）\n以下の書類を添付し、工事終了後1箇月以内に提出してください。提出がない場合、補助金が取り消されることがありますので、ご了承ください。申請者名、使用する印鑑は申請書類とすべて同じものにしてください。書類がすべて揃わなければ補助金交付出来ませんのでご注意ください。\nNo.\n名称\n様式はこちら\n備考\n1\n補助事業等実績報告書\n指定様式第5号 \n2\n工事完了引渡証明書又は検査調書\n3\n補助金請求書\n指定様式 \n4\n補助対象経費の領収書又は\n支払を証明する書類の写し\n5\n工事後の店舗内外部写真\n工事箇所の写真（カラー印刷、データ提出可）\n6\n工事明細書\nコピー可。\n7\n施工業者との契約書\nコピー可。",
-    "situations": [
-      "reform-cost"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "startup-support-certificate",
-    "municipality": "ota-city",
     "category": "business",
-    "status": "active",
-    "deadline": null,
     "original_url": "https://www.city.ota.gunma.jp/page/2648.html",
     "locales": {
       "ja": {
@@ -3070,17 +3016,12 @@
         ]
       }
     },
-    "original_text": "",
-    "situations": [
-      "start-business-q"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "advanced-facilities-implementation",
-    "municipality": "ota-city",
     "category": "business",
-    "status": "active",
-    "deadline": null,
     "original_url": "https://www.city.ota.gunma.jp/site/monodukuri/2632.html",
     "locales": {
       "ja": {
@@ -3328,17 +3269,12 @@
         ]
       }
     },
-    "original_text": "令和8年度ぐんま技術革新チャレンジ補助金募集のお知らせ（5月15日まで受付中）\n新技術や新製品の開発に取り組む意欲のある中小企業を支援するため、群馬県と連携した補助金を設けています。\n必ず募集案内を読み、申請してください。\n募集案内 \n補助対象者\n・太田市内に主たる事業所を有し、新技術や新製品の開発に取り組もうとする中小企業者\n（本社が太田市内にない場合でも、開発実施拠点が太田市に所在していれば対象）\n※中小企業者の基準については、【表1】をご確認ください。\n業種ごとに設けられている資本金と従業員規模の2つの基準のうち、いずれか一方を満たしていれば、中小企業者として、本事業の対象となります。\n【表1】業種ごとの資本金と従業員の基準\n業種\n資本金・従業員規模\n製造業、建設業、運輸業\n3億円以下又は300人以下\n卸売業\n1億円以下又は100人以下\nサービス業\n5,000万円以下又は100人以下\n小売業\n5,000万円以下又は50人以下\nその他の業種（上記以外）\n3億円以下又は300人以下\n対象事業\n中小企業者が自ら行う、ものづくりやサービス等に関する革新的な新技術・新製品の開発や地域特色を活かした新製品開発。\n補助金額等\n補助限度額\n80万円（市・県各40万円）\n中小企業者の補助金額の例\n事業費　50万円の場合　　市12万5千円、県12万5千円\n事業費　100万円の場合　  市25万円、県25万円\n小規模事業者の補助金の例\n事業費　50万円の場合　    市20万円、県20万円\n事業費    100万円の場合　  市40万円、県40万円\n補助率\n2分の1（小規模事業者は5分の4）\n※小規模事業者とは、【表2】のとおり\n【表2】小規模事業者\n業種\n従業員数\n製造業、その他\n従業員20人以下\n商業（卸売業・小売業）・サービス業\n従業員5人以下\n募集期間\n令和8年4月1日(水曜日)から令和8年5月15日(金曜日)　午後5時まで\n​※提出書類に不備がある場合は受理できませんので、余裕を持ってご提出ください。\n申請方法\n以下のいずれかの方法で申請。\n・電子申請\nhttps://www.pref.gunma.jp/site/hojokin/10642.html\n（↑群馬県ホームページをご確認ください。）\n・郵送　　　〒373-8718\n太田市浜町2番35号　太田市役所産業ミライ推進課　※（5月15日（金曜日）​消印有効）\n・持参　　　市役所5階産業ミライ推進課窓口\n（窓口は、平日の午前9時から午後5時まで）\n提出書類\n●募集案内の8ページ目「提出書類チェックリスト」をご確認ください。\n募集案内 \n★なお申請書類は群馬県と太田市分の2部用意し、合わせて提出してください。\n・\n申請書 \n（市・県それぞれの宛名あり）\n・\n記載例 \n・\n経費明細書 [Excelファイル／21KB]\n・\nシステム開発に係る人件費積算票 [Excelファイル／15KB]\n・\n補助金審査に係る加点項目申告書 [Excelファイル／15KB]\n・履歴事項全部証明書（3ヶ月以内に発行されたもの）\n・決算報告書（直近のもの1期分）\n・太田市税完納証明書（3ヶ月以内に発行されたもの）\n・県税の完納証明書（3ヶ月以内に発行されたもの）\nその他（該当がある場合）\n・会社案内等のパンフレット\n・当該開発に係る特許資料\n・新聞記事、雑誌等に掲載された研究内容がわかるもの\n・その他参考となる資料\n※書類審査、現地調査により採択・不採択を決定します。",
-    "situations": [
-      "start-business-q"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "industry-festival",
-    "municipality": "ota-city",
     "category": "local-event",
-    "status": "active",
-    "deadline": null,
     "original_url": "https://www.city.ota.gunma.jp/site/monodukuri/2620.html",
     "locales": {
       "ja": {
@@ -3513,19 +3449,13 @@
         ]
       }
     },
-    "original_text": "",
-    "situations": [
-      "start-business-q"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "marriage-registration",
-    "municipality": "ota-city",
     "category": "life-events",
-    "status": "active",
-    "deadline": null,
     "original_url": "https://www.city.ota.gunma.jp/page/2766.html",
-    "original_text": "婚姻届\n届出期間：届出をした日から効力が発生します。\n届出先：夫または妻の本籍地、あるいは所在地の市区町村役場（太田市の場合は市役所市民課または各行政センター）\n届出人：夫および妻になる人（届書の届出人署名欄は必ず本人が自署してください）\n必要なもの：\n1. 婚姻届書 1通（証人として成年者2名の署名が必要です）\n2. 本人確認書類（運転免許証、マイナンバーカード、パスポートなど写真付きのもの）\n3. 未成年者の場合は父母の同意書\n※令和6年3月1日より、戸籍謄本の添付は原則不要となりました。\n※外国籍の方と婚姻する場合は、国籍によって必要な書類（婚姻要件具備証明書など）が異なりますので、事前にご相談ください。\n休日・夜間の受付：市役所本庁舎1階の当直室で24時間受け付けています。ただし、内容の審査は翌開庁日になります。",
     "locales": {
       "ja": {
         "title": "婚姻届（結婚するときの手続き）",
@@ -3765,18 +3695,13 @@
         ]
       }
     },
-    "situations": [
-      "divorce-q"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "child-allowance",
-    "municipality": "ota-city",
     "category": "money",
-    "status": "active",
-    "deadline": null,
     "original_url": "https://www.city.ota.gunma.jp/site/kosodate/1014.html",
-    "original_text": "児童手当\n支給対象：太田市内に住所を有し、中学校修了前（15歳に達する日以後の最初の3月31日まで）の児童を養育している方。\n支給額：\n・3歳未満：一律 15,000円\n・3歳〜小学校修了前：10,000円（第3子以降は15,000円）\n・中学生：一律 10,000円\n※所得制限限度額以上、所得上限限度額未満の方には、特例給付として児童1人につき月額5,000円を支給します。\n※令和6年10月分から制度が一部変更（拡充）される予定です。\n手続きの期限：出生や転入の日の翌日から数えて15日以内に申請してください。申請が遅れると、遅れた月分の手当が受けられなくなります。",
     "locales": {
       "ja": {
         "title": "児童手当（子育て世帯への給付金）",
@@ -4062,18 +3987,13 @@
         ]
       }
     },
-    "situations": [
-      "child-allowance-q"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "national-health-insurance",
-    "municipality": "ota-city",
     "category": "health",
-    "status": "active",
-    "deadline": null,
     "original_url": "https://www.city.ota.gunma.jp/page/2501.html",
-    "original_text": "国民健康保険（国保）への加入手続き\n日本の医療保険制度では、すべての人が何らかの医療保険に加入することが義務付けられています（国民皆保険制度）。\n職場の健康保険（社会保険など）に加入していない人は、太田市の国民健康保険に加入しなければなりません。\n\n加入手続きが必要なとき：\n1. 太田市に転入してきたとき（職場の健康保険がない場合）\n2. 会社を退職し、職場の健康保険をやめたとき\n3. 子どもが生まれたとき\n\n必要なもの：\n・本人確認書類（マイナンバーカード、運転免許証など）\n・（退職した場合）職場の健康保険の「資格喪失証明書」または「離職票」\n※手続きは事由が発生した日から14日以内に行ってください。遅れた場合でも、資格を取得した月までさかのぼって保険税を納める必要があります。",
     "locales": {
       "ja": {
         "title": "国民健康保険の加入手続き",
@@ -4358,20 +4278,13 @@
         ]
       }
     },
-    "situations": [
-      "job-lost",
-      "new-job-insurance",
-      "medical-cost"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "death-registration",
-    "municipality": "ota-city",
     "category": "life-events",
-    "status": "active",
-    "deadline": null,
     "original_url": "https://www.city.ota.gunma.jp/page/2766.html",
-    "original_text": "死亡届\n届出期間：死亡の事実を知った日から7日以内\n届出先：死亡者の本籍地、死亡地、または届出人の所在地の市区町村役場\n届出人：親族、同居者、家主、地主、家屋管理人、土地管理人等\n必要なもの：\n1. 死亡届書 1通（右半分の死亡診断書または死体検案書に医師の証明があるもの）\n2. 後見人等が届出をする場合はその資格を証明する登記事項証明書等\n火葬許可証の発行について：\n死亡届の手続きと同時に、火葬許可証の交付申請を行ってください。太田市斎場を利用する場合は、斎場の予約手続きも必要です。",
     "locales": {
       "ja": {
         "title": "死亡届（ご家族が亡くなられたとき）",
@@ -4596,18 +4509,13 @@
         ]
       }
     },
-    "situations": [
-      "family-death-q"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "birth-registration",
-    "municipality": "ota-city",
     "category": "life-events",
-    "status": "active",
-    "deadline": null,
     "original_url": "https://www.city.ota.gunma.jp/page/2766.html",
-    "original_text": "出生届（赤ちゃんが生まれたとき）\n届出期間：赤ちゃんが生まれた日を含めて14日以内\n届出先：父母の本籍地、届出人の所在地、または赤ちゃんの出生地の市区町村役場\n届出人：父または母\n必要なもの：\n1. 出生届書 1通（右半分の出生証明書に医師または助産師の証明があるもの）\n2. 母子健康手帳（出生届出済証明を記入します）\n3. 国民健康保険証（加入者のみ。出産育児一時金の申請に必要です）\n※お子様の名前には、常用漢字、人名用漢字、ひらがな、カタカナが使えます。\n※出生届提出後、児童手当やこども医療費受給資格の登録手続き等も併せて行ってください。",
     "locales": {
       "ja": {
         "title": "出生届（赤ちゃんが生まれたとき）",
@@ -4877,18 +4785,13 @@
         ]
       }
     },
-    "situations": [
-      "unexpected-pregnancy"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "seal-registration",
-    "municipality": "ota-city",
     "category": "life-events",
-    "status": "active",
-    "deadline": null,
     "original_url": "https://www.city.ota.gunma.jp/page/2761.html",
-    "original_text": "印鑑登録（実印の登録）\n印鑑登録は、不動産の登記や自動車の登録、公正証書の作成などに必要な大切な手続きです。\n登録できる人：太田市に住民登録をしている15歳以上の方（意思能力を有しない方を除く）。\n登録できる印鑑：1人1個に限ります。氏名、氏、または名を表しているもの。印影の大きさが一辺8ミリの正方形より大きく、25ミリの正方形に収まるもの。ゴム印や変形しやすい素材の印鑑、欠けている印鑑は登録できません。\n必要なもの（本人が窓口に来る場合）：\n1. 登録する印鑑\n2. 官公署発行の顔写真付き本人確認書類（マイナンバーカード、運転免許証、パスポート等）\n※写真付きの本人確認書類がない場合は、市内で印鑑登録をしている方の保証書が必要です。それもない場合は、自宅に照会書を郵送するため、当日の登録はできません。\n手数料：登録手数料は無料ですが、印鑑登録証明書の発行には1通300円かかります。",
     "locales": {
       "ja": {
         "title": "印鑑登録（実印を作りたいとき）",
@@ -5109,18 +5012,13 @@
         ]
       }
     },
-    "situations": [
-      "moved-in-q"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "dog-registration",
-    "municipality": "ota-city",
     "category": "environment",
-    "status": "active",
-    "deadline": null,
     "original_url": "https://www.city.ota.gunma.jp/page/1463.html",
-    "original_text": "犬の登録と狂犬病予防注射\n生後91日以上の犬を飼い始めたら、狂犬病予防法により、市町村に「犬の登録（生涯に1回）」をすることと、毎年1回「狂犬病予防注射」を受けさせることが義務付けられています。\n登録手続き：\n市役所（環境政策課）または委託動物病院で登録手続きをしてください。\n・犬の登録手数料：3,000円\n登録後、「鑑札（かんさつ）」が交付されますので、必ず犬の首輪等に着けてください。\n※マイクロチップを装着し、国の指定登録機関（環境省データベース）に情報登録した犬については、マイクロチップが鑑札とみなされるため、市役所窓口での登録手続きや手数料は不要です。\n予防注射：\n毎年4月に各地区で行われる「集合注射」を利用するか、動物病院で個別に注射を受けてください。注射後は「注射済票」が交付されます（交付手数料：550円、注射料金は別途）。",
     "locales": {
       "ja": {
         "title": "犬の登録と狂犬病予防注射",
@@ -5351,18 +5249,13 @@
         ]
       }
     },
-    "situations": [
-      "garbage-q"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "oversized-garbage",
-    "municipality": "ota-city",
     "category": "environment",
-    "status": "active",
-    "deadline": null,
     "original_url": "https://www.city.ota.gunma.jp/site/gomi/1056442.html",
-    "original_text": "粗大ごみの出し方\n一辺の長さが50センチメートル以上、または重さが10キログラム以上のものは「粗大ごみ」となり、通常の集積所に出すことはできません。\n処分方法：\n1. クリーンセンターへ直接持ち込む（自己搬入）\n   ・受付時間：月曜日〜土曜日 午前8時30分〜正午、午後1時〜午後4時45分（日曜、年末年始は休み）\n   ・処理手数料：10キログラムにつき 150円\n   ※太田市に住んでいるご本人が持ち込んでください。運転免許証等で住所確認を行います。\n2. 戸別収集を申し込む\n   ・市の許可を受けた収集運搬業者に依頼してください（有料）。\n   ・料金は業者によって異なりますので、直接お問い合わせください。\n家電リサイクル法対象品（テレビ、冷蔵庫、洗濯機、エアコン等）、パソコン、スプリング入りマットレスなどは市では処理できません。",
     "locales": {
       "ja": {
         "title": "粗大ごみ（大きいゴミ）の出し方",
@@ -5544,18 +5437,13 @@
         ]
       }
     },
-    "situations": [
-      "big-garbage-q"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "my-number-card",
-    "municipality": "ota-city",
     "category": "life-events",
-    "status": "active",
-    "deadline": null,
     "original_url": "https://www.city.ota.gunma.jp/site/mynumbercard/",
-    "original_text": "マイナンバーカードの申請と受け取り\nマイナンバーカードは、公的な本人確認書類として利用できる顔写真付きのICカードです。\n申請方法：\n1. スマートフォンからの申請（交付申請書のQRコードを読み取り）\n2. パソコンからの申請\n3. 郵送での申請\n4. 市役所窓口での申請サポートを利用\n受け取り方法：\nカードができあがると、市役所から「交付通知書（ハガキ）」がご自宅に届きます。ハガキが届いたら、以下のものを持って本人が市役所窓口（市民課）にお越しください。\n必要なもの：\n・交付通知書（ハガキ）\n・通知カード（お持ちの方のみ）\n・本人確認書類（運転免許証など、写真付きのもの1点、または健康保険証など2点）\n・住民基本台帳カード（お持ちの方のみ）\n※受け取りには暗証番号（4桁および英数字6桁以上）の暗証番号の設定が必要です。事前に考えておいてください。",
     "locales": {
       "ja": {
         "title": "マイナンバーカードの作り方・受け取り方",
@@ -5799,18 +5687,13 @@
         ]
       }
     },
-    "situations": [
-      "moved-in-q"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "divorce-registration",
-    "municipality": "ota-city",
     "category": "life-events",
-    "status": "active",
-    "deadline": null,
     "original_url": "https://www.city.ota.gunma.jp/page/2766.html",
-    "original_text": "離婚届\n届出先：夫婦の本籍地、または所在地の市区町村役場\n協議離婚の場合：\n届出人：夫および妻\n必要なもの：\n1. 離婚届書 1通（証人として成年者2名の署名が必要です）\n2. 本人確認書類（運転免許証、マイナンバーカード等）\n裁判離婚の場合：\n届出期間：調停成立、審判または判決の確定の日から10日以内\n届出人：裁判の申立人\n必要なもの：\n1. 離婚届書 1通（証人は不要です）\n2. 調停調書の謄本、または審判書・判決書の謄本と確定証明書\n※離婚によって氏（苗字）が変わる方で、婚姻中の氏をそのまま名乗りたい場合は、別途「離婚の際に称していた氏を称する届」を提出する必要があります。",
     "locales": {
       "ja": {
         "title": "離婚届（離婚するときの公的な手続き）",
@@ -6069,18 +5952,13 @@
         ]
       }
     },
-    "situations": [
-      "divorce-q"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "national-pension",
-    "municipality": "ota-city",
     "category": "health",
-    "status": "active",
-    "deadline": null,
     "original_url": "https://www.city.ota.gunma.jp/page/1182.html",
-    "original_text": "国民年金の手続きについて",
     "locales": {
       "ja": {
         "title": "国民年金の加入・免除申請",
@@ -6321,19 +6199,13 @@
         ]
       }
     },
-    "situations": [
-      "job-lost",
-      "new-job-insurance"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "child-medical-fee-assistance",
-    "municipality": "ota-city",
     "category": "health",
-    "status": "active",
-    "deadline": null,
     "original_url": "https://www.city.ota.gunma.jp/site/kosodate/1189.html",
-    "original_text": "こども医療費助成について",
     "locales": {
       "ja": {
         "title": "こども医療費助成（子どもの医療費が無料に）",
@@ -6520,19 +6392,13 @@
         ]
       }
     },
-    "situations": [
-      "child-medical-q",
-      "medical-cost"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "elderly-medical-insurance",
-    "municipality": "ota-city",
     "category": "health",
-    "status": "active",
-    "deadline": null,
     "original_url": "https://www.city.ota.gunma.jp/page/1177.html",
-    "original_text": "後期高齢者医療保険について",
     "locales": {
       "ja": {
         "title": "後期高齢者医療制度（75歳以上の医療保険）",
@@ -6729,18 +6595,13 @@
         ]
       }
     },
-    "situations": [
-      "elderly-insurance-q"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "vaccination-schedule",
-    "municipality": "ota-city",
     "category": "health",
-    "status": "active",
-    "deadline": null,
     "original_url": "https://www.city.ota.gunma.jp/site/boshi-kenko/1899.html",
-    "original_text": "予防接種スケジュールについて",
     "locales": {
       "ja": {
         "title": "子どもの予防接種（定期接種）",
@@ -6947,18 +6808,13 @@
         ]
       }
     },
-    "situations": [
-      "vaccination-q"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "health-checkup-specific",
-    "municipality": "ota-city",
     "category": "health",
-    "status": "active",
-    "deadline": null,
     "original_url": "https://www.city.ota.gunma.jp/site/tokutei-kenshin/",
-    "original_text": "特定健康診査・がん検診について",
     "locales": {
       "ja": {
         "title": "特定健診・がん検診（市の健康診断）",
@@ -7153,18 +7009,13 @@
         ]
       }
     },
-    "situations": [
-      "checkup-q"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "nursing-care-insurance",
-    "municipality": "ota-city",
     "category": "health",
-    "status": "active",
-    "deadline": null,
     "original_url": "https://www.city.ota.gunma.jp/page/1277.html",
-    "original_text": "介護保険の手続きについて",
     "locales": {
       "ja": {
         "title": "介護保険（介護サービスを利用するための手続き）",
@@ -7406,19 +7257,13 @@
         ]
       }
     },
-    "situations": [
-      "nursing-care-q",
-      "dementia-support"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "pregnancy-notification",
-    "municipality": "ota-city",
     "category": "parenting",
-    "status": "active",
-    "deadline": null,
     "original_url": "https://www.city.ota.gunma.jp/site/boshi-kenko/1968.html",
-    "original_text": "",
     "locales": {
       "ja": {
         "title": "妊娠届・母子手帳の交付",
@@ -7637,18 +7482,13 @@
         ]
       }
     },
-    "situations": [
-      "unexpected-pregnancy"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "birth-allowance",
-    "municipality": "ota-city",
     "category": "parenting",
-    "status": "active",
-    "deadline": null,
     "original_url": "https://www.city.ota.gunma.jp/page/2506.html",
-    "original_text": "",
     "locales": {
       "ja": {
         "title": "出産育児一時金",
@@ -7903,18 +7743,13 @@
         ]
       }
     },
-    "situations": [
-      "unexpected-pregnancy"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "nursery-school-enrollment",
-    "municipality": "ota-city",
     "category": "parenting",
-    "status": "active",
-    "deadline": null,
     "original_url": "https://www.city.ota.gunma.jp/site/kosodate/1011.html",
-    "original_text": "",
     "locales": {
       "ja": {
         "title": "保育園の入園申請",
@@ -8127,18 +7962,13 @@
         ]
       }
     },
-    "situations": [
-      "parenting-stress"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "kindergarten-enrollment",
-    "municipality": "ota-city",
     "category": "parenting",
-    "status": "active",
-    "deadline": null,
     "original_url": "https://www.city.ota.gunma.jp/site/kosodate/1024.html",
-    "original_text": "",
     "locales": {
       "ja": {
         "title": "幼稚園の入園手続き",
@@ -8303,18 +8133,13 @@
         ]
       }
     },
-    "situations": [
-      "parenting-stress"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "after-school-childcare",
-    "municipality": "ota-city",
     "category": "parenting",
-    "status": "active",
-    "deadline": null,
     "original_url": "https://www.city.ota.gunma.jp/page/2862.html",
-    "original_text": "",
     "locales": {
       "ja": {
         "title": "学童保育（放課後児童クラブ）",
@@ -8481,18 +8306,13 @@
         ]
       }
     },
-    "situations": [
-      "parenting-stress"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "elementary-transfer",
-    "municipality": "ota-city",
     "category": "parenting",
-    "status": "active",
-    "deadline": null,
     "original_url": "https://www.city.ota.gunma.jp/life/2/21/82/",
-    "original_text": "",
     "locales": {
       "ja": {
         "title": "小中学校の転入・転校手続き",
@@ -8728,19 +8548,13 @@
         ]
       }
     },
-    "situations": [
-      "bullying-school",
-      "moved-in-q"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "child-support-center",
-    "municipality": "ota-city",
     "category": "parenting",
-    "status": "active",
-    "deadline": null,
     "original_url": "https://www.city.ota.gunma.jp/site/kosodate/1013.html",
-    "original_text": "",
     "locales": {
       "ja": {
         "title": "子育て支援センター",
@@ -8928,18 +8742,13 @@
         ]
       }
     },
-    "situations": [
-      "parenting-stress"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "vacant-house-consultation",
-    "municipality": "ota-city",
     "category": "housing",
-    "status": "active",
-    "deadline": null,
     "original_url": "https://www.city.ota.gunma.jp/page/1014107.html",
-    "original_text": "",
     "locales": {
       "ja": {
         "title": "空き家の相談窓口",
@@ -9151,18 +8960,13 @@
         "form_guide": null
       }
     },
-    "situations": [
-      "earthquake-house"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "municipal-housing-application",
-    "municipality": "ota-city",
     "category": "housing",
-    "status": "active",
-    "deadline": null,
     "original_url": "https://www.city.ota.gunma.jp/page/2089.html",
-    "original_text": "",
     "locales": {
       "ja": {
         "title": "市営住宅の申し込み",
@@ -9419,19 +9223,13 @@
         "form_guide": null
       }
     },
-    "situations": [
-      "homeless",
-      "rent-unpayable"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "housing-seismic-retrofit",
-    "municipality": "ota-city",
     "category": "housing",
-    "status": "active",
-    "deadline": null,
     "original_url": "https://www.city.ota.gunma.jp/page/2068.html",
-    "original_text": "",
     "locales": {
       "ja": {
         "title": "住宅耐震改修補助",
@@ -9664,18 +9462,13 @@
         "form_guide": null
       }
     },
-    "situations": [
-      "earthquake-house"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "fixed-asset-tax-reduction",
-    "municipality": "ota-city",
     "category": "housing",
-    "status": "active",
-    "deadline": null,
     "original_url": "https://www.city.ota.gunma.jp/page/2830.html",
-    "original_text": "",
     "locales": {
       "ja": {
         "title": "固定資産税の軽減・減免",
@@ -9878,18 +9671,13 @@
         "form_guide": null
       }
     },
-    "situations": [
-      "tax-unpayable"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "address-change-procedure",
-    "municipality": "ota-city",
     "category": "housing",
-    "status": "active",
-    "deadline": null,
     "original_url": "https://www.city.ota.gunma.jp/page/1026518.html",
-    "original_text": "",
     "locales": {
       "ja": {
         "title": "引越し後の各種住所変更手続き",
@@ -10149,18 +9937,13 @@
         "form_guide": null
       }
     },
-    "situations": [
-      "moved-in-q"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "resident-tax-payment",
-    "municipality": "ota-city",
     "category": "tax",
-    "status": "active",
-    "deadline": null,
     "original_url": "https://www.city.ota.gunma.jp/page/4631.html",
-    "original_text": "",
     "locales": {
       "ja": {
         "title": "市県民税の納付方法",
@@ -10361,18 +10144,13 @@
         "form_guide": null
       }
     },
-    "situations": [
-      "tax-unpayable"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "fixed-asset-tax-payment",
-    "municipality": "ota-city",
     "category": "tax",
-    "status": "active",
-    "deadline": null,
     "original_url": "https://www.city.ota.gunma.jp/page/2834.html",
-    "original_text": "",
     "locales": {
       "ja": {
         "title": "固定資産税の納付",
@@ -10573,18 +10351,13 @@
         "form_guide": null
       }
     },
-    "situations": [
-      "tax-unpayable"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "light-vehicle-tax",
-    "municipality": "ota-city",
     "category": "tax",
-    "status": "active",
-    "deadline": null,
     "original_url": "https://www.city.ota.gunma.jp/page/1023545.html",
-    "original_text": "",
     "locales": {
       "ja": {
         "title": "軽自動車税の納付",
@@ -10782,18 +10555,13 @@
         "form_guide": null
       }
     },
-    "situations": [
-      "tax-unpayable"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "tax-certificate-issuance",
-    "municipality": "ota-city",
     "category": "tax",
-    "status": "active",
-    "deadline": null,
     "original_url": "https://www.city.ota.gunma.jp/page/2812.html",
-    "original_text": "",
     "locales": {
       "ja": {
         "title": "税証明書の取得方法",
@@ -11015,18 +10783,13 @@
         "form_guide": null
       }
     },
-    "situations": [
-      "moved-in-q"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "final-tax-return-consultation",
-    "municipality": "ota-city",
     "category": "tax",
-    "status": "active",
-    "deadline": null,
     "original_url": "https://www.city.ota.gunma.jp/page/2805.html",
-    "original_text": "",
     "locales": {
       "ja": {
         "title": "確定申告の相談窓口",
@@ -11263,18 +11026,13 @@
         "form_guide": null
       }
     },
-    "situations": [
-      "tax-unpayable"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "garbage-separation-guide",
-    "municipality": "ota-city",
     "category": "environment",
-    "status": "active",
-    "deadline": null,
     "original_url": "https://www.city.ota.gunma.jp/site/gomi/1041482.html",
-    "original_text": "",
     "locales": {
       "ja": {
         "title": "ごみの分別と出し方",
@@ -11443,18 +11201,13 @@
         "form_guide": null
       }
     },
-    "situations": [
-      "garbage-q"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "bulk-garbage-disposal",
-    "municipality": "ota-city",
     "category": "environment",
-    "status": "active",
-    "deadline": null,
     "original_url": "https://www.city.ota.gunma.jp/page/3265.html",
-    "original_text": "",
     "locales": {
       "ja": {
         "title": "粗大ごみの捨て方",
@@ -11633,18 +11386,13 @@
         "form_guide": null
       }
     },
-    "situations": [
-      "big-garbage-q"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "solar-power-business-incentive",
-    "municipality": "ota-city",
     "category": "money",
-    "status": "active",
-    "deadline": null,
     "original_url": "https://www.city.ota.gunma.jp/page/1037290.html",
-    "original_text": "",
     "locales": {
       "ja": {
         "title": "事業者向け太陽光発電報奨金",
@@ -11868,18 +11616,13 @@
         ]
       }
     },
-    "situations": [
-      "reform-cost"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "empty-store-reform-subsidy",
-    "municipality": "ota-city",
     "category": "money",
-    "status": "active",
-    "deadline": null,
     "original_url": "https://www.city.ota.gunma.jp/page/2613.html",
-    "original_text": "",
     "locales": {
       "ja": {
         "title": "空き店舗リフォーム補助金",
@@ -12157,18 +11900,13 @@
         ]
       }
     },
-    "situations": [
-      "start-business-q"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "empty-store-rent-support",
-    "municipality": "ota-city",
     "category": "money",
-    "status": "active",
-    "deadline": null,
     "original_url": "https://www.city.ota.gunma.jp/page/2614.html",
-    "original_text": "",
     "locales": {
       "ja": {
         "title": "空き店舗家賃支援補助金",
@@ -12414,18 +12152,13 @@
         ]
       }
     },
-    "situations": [
-      "start-business-q"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "us-tariff-support",
-    "municipality": "ota-city",
     "category": "money",
-    "status": "active",
-    "deadline": null,
     "original_url": "https://www.city.ota.gunma.jp/page/1051245.html",
-    "original_text": "",
     "locales": {
       "ja": {
         "title": "米国関税対策支援策",
@@ -12667,18 +12400,13 @@
         ]
       }
     },
-    "situations": [
-      "start-business-q"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "ota-furusato-product",
-    "municipality": "ota-city",
     "category": "business",
-    "status": "active",
-    "deadline": null,
     "original_url": "https://www.city.ota.gunma.jp/site/monodukuri/list89-206.html",
-    "original_text": "",
     "locales": {
       "ja": {
         "title": "太田市ふるさと名物応援宣言",
@@ -12882,18 +12610,13 @@
         "form_guide": null
       }
     },
-    "situations": [
-      "start-business-q"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "move-out-notification",
-    "municipality": "ota-city",
     "category": "life-events",
-    "status": "active",
-    "deadline": null,
     "original_url": "https://www.city.ota.gunma.jp/page/1026467.html",
-    "original_text": "",
     "locales": {
       "ja": {
         "title": "転出届（太田市から引越す）",
@@ -13140,18 +12863,13 @@
         "form_guide": null
       }
     },
-    "situations": [
-      "moved-in-q"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "move-in-notification",
-    "municipality": "ota-city",
     "category": "life-events",
-    "status": "active",
-    "deadline": null,
     "original_url": "https://www.city.ota.gunma.jp/page/1026450.html",
-    "original_text": "",
     "locales": {
       "ja": {
         "title": "転入届（太田市へ引越してきた）",
@@ -13400,18 +13118,13 @@
         "form_guide": null
       }
     },
-    "situations": [
-      "moved-in-q"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "resident-card-copy",
-    "municipality": "ota-city",
     "category": "life-events",
-    "status": "active",
-    "deadline": null,
     "original_url": "https://www.city.ota.gunma.jp/page/2775.html",
-    "original_text": "",
     "locales": {
       "ja": {
         "title": "住民票・戸籍証明書の取得",
@@ -13632,22 +13345,13 @@
         "form_guide": null
       }
     },
-    "situations": [
-      "moved-in-q"
-    ]
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "life-support",
-    "municipality": "ota-city",
     "category": "money",
-    "status": "active",
     "original_url": "https://www.city.ota.gunma.jp/page/2900.html",
-    "original_text": "",
-    "deadline": null,
-    "situations": [
-      "money-shortage",
-      "homeless"
-    ],
     "locales": {
       "ja": {
         "title": "生活保護・生活困窮者自立支援",
@@ -13865,20 +13569,14 @@
           "dv-support"
         ]
       }
-    }
+    },
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "housing-benefit",
-    "municipality": "ota-city",
     "category": "money",
-    "status": "active",
     "original_url": "https://www.city.ota.gunma.jp/page/2894.html",
-    "original_text": "",
-    "deadline": null,
-    "situations": [
-      "rent-unpayable",
-      "homeless"
-    ],
     "locales": {
       "ja": {
         "title": "住居確保給付金",
@@ -14111,20 +13809,14 @@
           "dv-support"
         ]
       }
-    }
+    },
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "emergency-loan",
-    "municipality": "ota-city",
     "category": "money",
-    "status": "active",
     "original_url": "https://otashakyo.jp/",
-    "original_text": "",
-    "deadline": null,
-    "situations": [
-      "money-shortage",
-      "emergency-fund"
-    ],
     "locales": {
       "ja": {
         "title": "緊急小口資金・生活福祉資金（社会福祉協議会）",
@@ -14330,19 +14022,14 @@
           "housing-benefit"
         ]
       }
-    }
+    },
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "child-emergency-care",
-    "municipality": "ota-city",
     "category": "health",
-    "status": "active",
     "original_url": "https://www.city.ota.gunma.jp/page/1915.html",
-    "original_text": "",
-    "deadline": null,
-    "situations": [
-      "child-emergency"
-    ],
     "locales": {
       "ja": {
         "title": "子供の急病・夜間救急（#8000）",
@@ -14366,7 +14053,7 @@
         "five_w1h": {
           "who": "夜間・休日に急病になった子どもを持つ保護者",
           "what": "「今すぐ受診すべきか」の電話相談、または夜間当番医での診察",
-          "when": "子どもの急病時（夜間・休日含む24時間）",
+          "when": "夜間・休日（平日は午後6時〜翌朝8時、日曜・祝日は24時間）",
           "where": "#8000（IP電話やダイヤル回線をご利用の方は、携帯電話からおかけください。市内の一部では固定電話から栃木県につながる地域があります）。当番医は公式サイトで確認。",
           "why": "夜間や休日におけるお子さんの病気への家庭での対処方法や応急処置について相談するため",
           "how": "#8000に電話 → 症状を伝える → 受診が必要かアドバイスをもらう → 必要なら当番医へ"
@@ -14419,7 +14106,7 @@
         "five_w1h": {
           "who": "Parents with a child who suddenly becomes ill at night or on a holiday",
           "what": "Telephone consultation on \"whether to visit a doctor immediately\" or medical examination by a night duty doctor",
-          "when": "When a child becomes suddenly ill (24 hours including nights and holidays)",
+          "when": "Nights and holidays (Weekdays: 6 PM - 8 AM next day, Sundays/Holidays: 24 hours)",
           "where": "#8000 (If using an IP phone or dial-up line, please call from a mobile phone. Calls from landlines in some areas of the city may connect to Tochigi Prefecture). Check the official website for on-duty doctors.",
           "why": "To consult on home care and first aid for a child's illness during nights and holidays.",
           "how": "Call #8000 -> Explain the symptoms -> Get advice on whether a medical examination is necessary -> Go to a duty doctor if necessary"
@@ -14472,7 +14159,7 @@
         "five_w1h": {
           "who": "Pais com um/uma filho/a que adoece subitamente à noite ou em um feriado",
           "what": "Consulta telefônica sobre \"se deve ir ao médico imediatamente\" ou exame médico por um médico de plantão noturno",
-          "when": "Quando uma criança adoece de repente (24 horas, incluindo noites e feriados)",
+          "when": "Noites e feriados (Dias da semana: 18h às 8h do dia seguinte, domingos/feriados: 24 horas)",
           "where": "#8000 (Se estiver usando um telefone IP ou linha discada, ligue de um telefone celular. Chamadas de telefones fixos em algumas áreas da cidade podem conectar-se à província de Tochigi). Verifique o site oficial para os médicos de plantão.",
           "why": "Para consultar sobre cuidados em casa e primeiros socorros para a doença de uma criança durante a noite e feriados.",
           "how": "Ligue para #8000 -> Explique os sintomas -> Obtenha conselhos sobre se uma consulta médica é necessária -> Vá a um médico de plantão se necessário"
@@ -14504,19 +14191,13 @@
         ]
       }
     },
-    "easy_explanation": "📞 子どもの救急相談: #8000（群馬県小児救急電話相談）\n夜間・休日当番医: 太田市ホームページで確認\n救急・生命の危険: 119番\n\nお子さんの具合が悪くて不安なとき、一人で抱え込まないでください。\n\n夜中に子どもが高熱を出した、けいれんした、どうしても眠れないほど苦しそう——そんなとき、まず「#8000」に電話してください。群馬県の小児科医・看護師が24時間365日対応し、「今すぐ病院に行くべきか」「様子を見ていいか」を無料でアドバイスしてくれます。\n\n太田市には夜間・休日に診療する当番医制度があります。太田市公式サイトで当日の当番医を確認できます。"
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "suicide-prevention",
-    "municipality": "ota-city",
     "category": "health",
-    "status": "active",
     "original_url": "https://www.mhlw.go.jp/mamorouyokokoro/",
-    "original_text": "",
-    "deadline": null,
-    "situations": [
-      "mental-crisis"
-    ],
     "locales": {
       "ja": {
         "title": "こころの健康相談・自殺防止ホットライン",
@@ -14701,19 +14382,14 @@
           "hikikomori-support"
         ]
       }
-    }
+    },
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "dv-support",
-    "municipality": "ota-city",
     "category": "safety",
-    "status": "active",
     "original_url": "https://www.city.ota.gunma.jp/page/2697.html",
-    "original_text": "",
-    "deadline": null,
-    "situations": [
-      "dv-violence"
-    ],
     "locales": {
       "ja": {
         "title": "配偶者暴力（DV）に関する相談窓口",
@@ -14901,19 +14577,14 @@
         ],
         "form_guide": null
       }
-    }
+    },
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "child-abuse-report",
-    "municipality": "ota-city",
     "category": "safety",
-    "status": "active",
     "original_url": "https://www.cfa.go.jp/policies/jidougyakutai/",
-    "original_text": "",
-    "deadline": null,
-    "situations": [
-      "child-abuse"
-    ],
     "locales": {
       "ja": {
         "title": "児童虐待通報（189番・いちはやく）",
@@ -15092,19 +14763,14 @@
         "term_explanations": [],
         "form_guide": null
       }
-    }
+    },
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "evacuation-map",
-    "municipality": "ota-city",
     "category": "safety",
-    "status": "active",
     "original_url": "https://www.city.ota.gunma.jp/page/1692.html",
-    "original_text": "",
-    "deadline": null,
-    "situations": [
-      "evacuation"
-    ],
     "locales": {
       "ja": {
         "title": "避難場所・ハザードマップ（太田市防災マップ）",
@@ -15320,19 +14986,14 @@
         "term_explanations": [],
         "form_guide": null
       }
-    }
+    },
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "multilingual-consultation",
-    "municipality": "ota-city",
     "category": "foreigner",
-    "status": "active",
     "original_url": "https://www.city.ota.gunma.jp/life/1/12/",
-    "original_text": "",
-    "deadline": null,
-    "situations": [
-      "no-japanese"
-    ],
     "locales": {
       "ja": {
         "title": "多言語相談窓口（外国人市民相談窓口）",
@@ -15533,19 +15194,14 @@
           "japanese-class"
         ]
       }
-    }
+    },
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "pregnancy-sos",
-    "municipality": "ota-city",
     "category": "health",
-    "status": "active",
     "original_url": "https://www.city.ota.gunma.jp/site/boshi-kenko/",
-    "original_text": "",
-    "deadline": null,
-    "situations": [
-      "unexpected-pregnancy"
-    ],
     "locales": {
       "ja": {
         "title": "予期せぬ妊娠 SOS・妊娠相談",
@@ -15719,20 +15375,14 @@
         "term_explanations": [],
         "form_guide": null
       }
-    }
+    },
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "high-cost-medical",
-    "municipality": "ota-city",
     "category": "health",
-    "status": "active",
     "original_url": "https://www.city.ota.gunma.jp/page/2498.html",
-    "original_text": "",
-    "deadline": null,
-    "situations": [
-      "hospitalization",
-      "medical-cost"
-    ],
     "locales": {
       "ja": {
         "title": "高額療養費・限度額適用認定証",
@@ -15936,20 +15586,14 @@
           "work-injury-claim"
         ]
       }
-    }
+    },
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "retirement-procedure",
-    "municipality": "ota-city",
     "category": "health",
-    "status": "active",
     "original_url": "https://www.city.ota.gunma.jp/life/1/2/",
-    "original_text": "",
-    "deadline": null,
-    "situations": [
-      "job-lost",
-      "new-job-insurance"
-    ],
     "locales": {
       "ja": {
         "title": "退職したときの保険・年金手続き",
@@ -16180,19 +15824,14 @@
           "job-search-support"
         ]
       }
-    }
+    },
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "job-start-procedure",
-    "municipality": "ota-city",
     "category": "health",
-    "status": "active",
     "original_url": "https://www.city.ota.gunma.jp/page/2501.html",
-    "original_text": "",
-    "deadline": null,
-    "situations": [
-      "new-job-insurance"
-    ],
     "locales": {
       "ja": {
         "title": "就職したときの保険切替（国保→社保）",
@@ -16390,20 +16029,14 @@
           "retirement-procedure"
         ]
       }
-    }
+    },
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "labor-consultation",
-    "municipality": "ota-city",
     "category": "business",
-    "status": "active",
     "original_url": "https://www.city.ota.gunma.jp/life/5/36/",
-    "original_text": "",
-    "deadline": null,
-    "situations": [
-      "black-company",
-      "work-injury"
-    ],
     "locales": {
       "ja": {
         "title": "労働相談・労働基準監督署への相談",
@@ -16607,20 +16240,14 @@
         "term_explanations": [],
         "form_guide": null
       }
-    }
+    },
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "legal-aid",
-    "municipality": "ota-city",
     "category": "life-events",
-    "status": "active",
     "original_url": "https://www.houterasu.or.jp/",
-    "original_text": "",
-    "deadline": null,
-    "situations": [
-      "debt-crisis",
-      "neighbor-trouble"
-    ],
     "locales": {
       "ja": {
         "title": "法テラス（無料法律相談・弁護士費用立替）",
@@ -16830,19 +16457,14 @@
         "term_explanations": [],
         "form_guide": null
       }
-    }
+    },
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "disability-certificate",
-    "municipality": "ota-city",
     "category": "health",
-    "status": "active",
     "original_url": "https://www.city.ota.gunma.jp/page/3115.html",
-    "original_text": "",
-    "deadline": null,
-    "situations": [
-      "disability-cert"
-    ],
     "locales": {
       "ja": {
         "title": "障害者手帳の申請（身体・精神・療育）",
@@ -17058,19 +16680,14 @@
           "life-support"
         ]
       }
-    }
+    },
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "school-aid",
-    "municipality": "ota-city",
     "category": "parenting",
-    "status": "active",
     "original_url": "https://www.city.ota.gunma.jp/site/kosodate/1028727.html",
-    "original_text": "",
-    "deadline": null,
-    "situations": [
-      "education-cost"
-    ],
     "locales": {
       "ja": {
         "title": "就学援助制度",
@@ -17261,20 +16878,14 @@
           "foreign-school-entry"
         ]
       }
-    }
+    },
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "consumer-center",
-    "municipality": "ota-city",
     "category": "life-events",
-    "status": "active",
     "original_url": "https://www.city.ota.gunma.jp/page/2722.html",
-    "original_text": "",
-    "deadline": null,
-    "situations": [
-      "scam-victim",
-      "net-trouble"
-    ],
     "locales": {
       "ja": {
         "title": "消費生活センター（詐欺・悪質商法の相談）",
@@ -17484,19 +17095,14 @@
         "term_explanations": [],
         "form_guide": null
       }
-    }
+    },
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "addiction-support",
-    "municipality": "ota-city",
     "category": "health",
-    "status": "active",
     "original_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000070789.html",
-    "original_text": "",
-    "deadline": null,
-    "situations": [
-      "addiction"
-    ],
     "locales": {
       "ja": {
         "title": "依存症相談（ギャンブル・アルコール・薬物）",
@@ -17700,19 +17306,14 @@
           "hikikomori-support"
         ]
       }
-    }
+    },
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "bullying-support",
-    "municipality": "ota-city",
     "category": "parenting",
-    "status": "active",
     "original_url": "https://www.city.ota.gunma.jp/page/3287.html",
-    "original_text": "",
-    "deadline": null,
-    "situations": [
-      "bullying-school"
-    ],
     "locales": {
       "ja": {
         "title": "ヤングテレホン・メール相談（いじめ・不登校等の相談）",
@@ -17900,19 +17501,14 @@
           "child-emergency-care"
         ]
       }
-    }
+    },
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "tax-reduction",
-    "municipality": "ota-city",
     "category": "tax",
-    "status": "active",
     "original_url": "https://www.city.ota.gunma.jp/life/1/3/",
-    "original_text": "",
-    "deadline": null,
-    "situations": [
-      "tax-unpayable"
-    ],
     "locales": {
       "ja": {
         "title": "市税の減免・猶予制度",
@@ -18104,19 +17700,14 @@
         "term_explanations": [],
         "form_guide": null
       }
-    }
+    },
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "work-injury-claim",
-    "municipality": "ota-city",
     "category": "business",
-    "status": "active",
     "original_url": "https://www.city.ota.gunma.jp/life/5/36/",
-    "original_text": "",
-    "deadline": null,
-    "situations": [
-      "work-injury"
-    ],
     "locales": {
       "ja": {
         "title": "労災申請ガイド（仕事中・通勤中のケガ）",
@@ -18306,19 +17897,14 @@
         "term_explanations": [],
         "form_guide": null
       }
-    }
+    },
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "harassment-consultation",
-    "municipality": "ota-city",
     "category": "business",
-    "status": "active",
     "original_url": "https://www.city.ota.gunma.jp/life/5/36/",
-    "original_text": "",
-    "deadline": null,
-    "situations": [
-      "harassment"
-    ],
     "locales": {
       "ja": {
         "title": "ハラスメント相談窓口（パワハラ・セクハラ）",
@@ -18501,19 +18087,14 @@
         "term_explanations": [],
         "form_guide": null
       }
-    }
+    },
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "job-search-support",
-    "municipality": "ota-city",
     "category": "business",
-    "status": "active",
     "original_url": "https://www.city.ota.gunma.jp/page/2899.html",
-    "original_text": "",
-    "deadline": null,
-    "situations": [
-      "cant-find-job"
-    ],
     "locales": {
       "ja": {
         "title": "就労準備支援（働く自信がない方へ）",
@@ -18689,19 +18270,14 @@
         "term_explanations": [],
         "form_guide": null
       }
-    }
+    },
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "hikikomori-support",
-    "municipality": "ota-city",
     "category": "health",
-    "status": "active",
     "original_url": "https://www.city.ota.gunma.jp/page/2886.html",
-    "original_text": "",
-    "deadline": null,
-    "situations": [
-      "hikikomori"
-    ],
     "locales": {
       "ja": {
         "title": "ひきこもり等相談支援",
@@ -18875,19 +18451,14 @@
           "addiction-support"
         ]
       }
-    }
+    },
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "neighbor-mediation",
-    "municipality": "ota-city",
     "category": "life-events",
-    "status": "active",
     "original_url": "https://www.city.ota.gunma.jp/page/2719.html",
-    "original_text": "",
-    "deadline": null,
-    "situations": [
-      "neighbor-trouble"
-    ],
     "locales": {
       "ja": {
         "title": "近所トラブル・騒音の相談窓口",
@@ -19076,19 +18647,14 @@
         "term_explanations": [],
         "form_guide": null
       }
-    }
+    },
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "water-utility",
-    "municipality": "ota-city",
     "category": "housing",
-    "status": "active",
     "original_url": "https://www.city.ota.gunma.jp/life/1/16/",
-    "original_text": "",
-    "deadline": null,
-    "situations": [
-      "water-start"
-    ],
     "locales": {
       "ja": {
         "title": "水道の開栓・閉栓・名義変更",
@@ -19277,19 +18843,14 @@
         "term_explanations": [],
         "form_guide": null
       }
-    }
+    },
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "net-trouble-help",
-    "municipality": "ota-city",
     "category": "life-events",
-    "status": "active",
     "original_url": "https://www.city.ota.gunma.jp/life/1/6/",
-    "original_text": "",
-    "deadline": null,
-    "situations": [
-      "net-trouble"
-    ],
     "locales": {
       "ja": {
         "title": "ネットトラブル・闇バイト相談窓口",
@@ -19478,19 +19039,14 @@
         "term_explanations": [],
         "form_guide": null
       }
-    }
+    },
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "disaster-recovery",
-    "municipality": "ota-city",
     "category": "safety",
-    "status": "active",
     "original_url": "https://www.city.ota.gunma.jp/page/2888.html",
-    "original_text": "",
-    "deadline": null,
-    "situations": [
-      "disaster-damage"
-    ],
     "locales": {
       "ja": {
         "title": "被災者支援・り災証明書の申請",
@@ -19679,19 +19235,14 @@
         ],
         "term_explanations": []
       }
-    }
+    },
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "disaster-prep-guide",
-    "municipality": "ota-city",
     "category": "safety",
-    "status": "active",
     "original_url": "https://www.city.ota.gunma.jp/life/1/5/",
-    "original_text": "",
-    "deadline": null,
-    "situations": [
-      "disaster-prep"
-    ],
     "locales": {
       "ja": {
         "title": "防災備蓄・防災メール登録ガイド",
@@ -19895,19 +19446,14 @@
         ],
         "term_explanations": []
       }
-    }
+    },
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "traffic-accident-help",
-    "municipality": "ota-city",
     "category": "safety",
-    "status": "active",
     "original_url": "https://www.city.ota.gunma.jp/life/1/6/",
-    "original_text": "",
-    "deadline": null,
-    "situations": [
-      "traffic-accident"
-    ],
     "locales": {
       "ja": {
         "title": "交通事故にあったときの対処ガイド",
@@ -20108,19 +19654,14 @@
         ],
         "term_explanations": []
       }
-    }
+    },
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "aed-training",
-    "municipality": "ota-city",
     "category": "safety",
-    "status": "active",
     "original_url": "https://www.city.ota.gunma.jp/life/1/4/",
-    "original_text": "",
-    "deadline": null,
-    "situations": [
-      "aed-firstaid"
-    ],
     "locales": {
       "ja": {
         "title": "応急手当講習・AEDの使い方",
@@ -20309,19 +19850,14 @@
         ],
         "term_explanations": []
       }
-    }
+    },
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "homeless-support",
-    "municipality": "ota-city",
     "category": "money",
-    "status": "active",
     "original_url": "https://www.city.ota.gunma.jp/page/2899.html",
-    "original_text": "",
-    "deadline": null,
-    "situations": [
-      "homeless"
-    ],
     "locales": {
       "ja": {
         "title": "住む場所がないときの一時生活支援",
@@ -20476,19 +20012,14 @@
           "housing-benefit"
         ]
       }
-    }
+    },
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "dementia-support",
-    "municipality": "ota-city",
     "category": "health",
-    "status": "active",
     "original_url": "https://www.city.ota.gunma.jp/life/1/7/",
-    "original_text": "",
-    "deadline": null,
-    "situations": [
-      "dementia-support"
-    ],
     "locales": {
       "ja": {
         "title": "認知症の相談・成年後見制度",
@@ -20644,19 +20175,14 @@
           "nursing-care-insurance"
         ]
       }
-    }
+    },
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "end-of-life-prep",
-    "municipality": "ota-city",
     "category": "life-events",
-    "status": "active",
     "original_url": "https://www.city.ota.gunma.jp/life/1/7/",
-    "original_text": "",
-    "deadline": null,
-    "situations": [
-      "end-of-life"
-    ],
     "locales": {
       "ja": {
         "title": "終活・エンディングノート・相続の準備",
@@ -20827,19 +20353,14 @@
         "term_explanations": [],
         "form_guide": null
       }
-    }
+    },
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "visa-guide",
-    "municipality": "ota-city",
     "category": "foreigner",
-    "status": "active",
     "original_url": "https://www.city.ota.gunma.jp/life/1/12/",
-    "original_text": "",
-    "deadline": null,
-    "situations": [
-      "visa-renewal"
-    ],
     "locales": {
       "ja": {
         "title": "在留カード・ビザの更新",
@@ -21014,19 +20535,14 @@
           "my-number-card"
         ]
       }
-    }
+    },
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "japanese-class",
-    "municipality": "ota-city",
     "category": "foreigner",
-    "status": "active",
     "original_url": "https://www.city.ota.gunma.jp/page/2479.html",
-    "original_text": "",
-    "deadline": null,
-    "situations": [
-      "learn-japanese"
-    ],
     "locales": {
       "ja": {
         "title": "日本語教室（あゆみの会など）",
@@ -21187,19 +20703,14 @@
           "cultural-support"
         ]
       }
-    }
+    },
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "foreign-school-entry",
-    "municipality": "ota-city",
     "category": "foreigner",
-    "status": "active",
     "original_url": "https://www.city.ota.gunma.jp/life/2/21/",
-    "original_text": "",
-    "deadline": null,
-    "situations": [
-      "foreign-child-school"
-    ],
     "locales": {
       "ja": {
         "title": "外国人児童の小・中学校への入学手続き",
@@ -21362,19 +20873,14 @@
           "school-aid"
         ]
       }
-    }
+    },
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "cultural-support",
-    "municipality": "ota-city",
     "category": "foreigner",
-    "status": "active",
     "original_url": "https://www.city.ota.gunma.jp/life/1/12/",
-    "original_text": "",
-    "deadline": null,
-    "situations": [
-      "cultural-conflict"
-    ],
     "locales": {
       "ja": {
         "title": "多文化共生・文化の違いに関する相談",
@@ -21545,19 +21051,14 @@
           "japanese-class"
         ]
       }
-    }
+    },
+    "municipality": "ota-city",
+    "status": "active"
   },
   {
     "id": "partnership-cert",
-    "municipality": "ota-city",
     "category": "foreigner",
-    "status": "active",
     "original_url": "https://www.city.ota.gunma.jp/life/1/11/",
-    "original_text": "",
-    "deadline": null,
-    "situations": [
-      "lgbtq-support"
-    ],
     "locales": {
       "ja": {
         "title": "太田市パートナーシップ宣誓制度",
@@ -21719,6 +21220,8 @@
           "municipal-housing-application"
         ]
       }
-    }
+    },
+    "municipality": "ota-city",
+    "status": "active"
   }
 ]
