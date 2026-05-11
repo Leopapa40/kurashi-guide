@@ -7,6 +7,7 @@ import { getCollection } from 'astro:content';
 import LightLayout from '../../../../layouts/LightLayout.astro';
 import { CATEGORY_META, MUNICIPALITY_THEME, type Category } from '../../../../lib/categories';
 import { marked } from 'marked';
+import layerConfig from '../../../../data/layer_config.json';
 
 export async function getStaticPaths() {
   const all = await getCollection('subsidies');
@@ -56,6 +57,8 @@ const labels = {
   estimatedTime: { ja:'⏱ 所要時間の目安', en:'⏱ Estimated Time', pt:'⏱ Tempo Estimado' },
   faqTitle: { ja:'❓ よくある質問', en:'❓ FAQ', pt:'❓ Perguntas Frequentes' },
   relatedTitle: { ja:'📎 次にやること・関連する手続き', en:'📎 Related Procedures', pt:'📎 Procedimentos Relacionados' },
+  relatedMapTitle: { ja:'🗺 近くの施設を探す', en:'🗺 Find Nearby Facilities', pt:'🗺 Encontrar Instalações Próximas' },
+  relatedMapBtn: { ja:'マップを見る →', en:'View Map →', pt:'Ver Mapa →' },
 };
 const L = (k: keyof typeof labels) => (labels[k] as any)[lang] ?? (labels[k] as any)['ja'];
 const w5 = locale.five_w1h;
@@ -68,6 +71,22 @@ const allSubsidies = await getCollection('subsidies');
 const relatedItems = relatedArticles
   .map((rid: string) => allSubsidies.find((s: any) => s.data.id === rid))
   .filter(Boolean);
+
+// 関連マップ: カテゴリに基づいて表示するレイヤーを決定
+const relatedMapLayers = Object.entries(layerConfig as any)
+  .filter(([, cfg]: [string, any]) =>
+    cfg.show_for_all === true ||
+    (cfg.related_categories ?? []).includes(d.category)
+  )
+  .map(([key, cfg]: [string, any]) => ({
+    key,
+    title: cfg.title?.[lang] ?? cfg.title?.ja ?? key,
+    icon: cfg.icon,
+  }));
+
+const mapIconEmoji: Record<string, string> = {
+  wifi: '📶', medical: '🏥', pharmacy: '💊', mobile: '📱',
+};
 ---
 
 <LightLayout
@@ -274,6 +293,25 @@ const relatedItems = relatedArticles
             </a>
           );
         })}
+      </div>
+    </section>
+  )}
+
+  <!-- 関連マップ（Phase 2B） -->
+  {relatedMapLayers.length > 0 && (
+    <section style="margin-bottom:2rem">
+      <div class="section-title">{L('relatedMapTitle')}</div>
+      <div class="related-map-cards">
+        {relatedMapLayers.map((lyr) => (
+          <a
+            href={`/${lang}/${d.municipality}/map/${lyr.key}/`}
+            class="related-map-card"
+          >
+            <span class="related-map-card__icon">{mapIconEmoji[lyr.icon] ?? '🗺'}</span>
+            <span class="related-map-card__title">{lyr.title}</span>
+            <span class="related-map-card__arrow">{L('relatedMapBtn')}</span>
+          </a>
+        ))}
       </div>
     </section>
   )}

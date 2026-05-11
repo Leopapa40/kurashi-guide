@@ -8,6 +8,8 @@ import { getCollection } from 'astro:content';
 import LightLayout from '../../layouts/LightLayout.astro';
 import { CATEGORY_META, CATEGORIES, DOMAIN_META, DOMAINS, type Category } from '../../lib/categories';
 import journeyMaster from '../../data/journey_master.json';
+import layerConfig from '../../data/layer_config.json';
+import fs from 'node:fs';
 
 export async function getStaticPaths() {
   return ['ja','en','pt'].map(lang => ({ params: { lang } }));
@@ -37,12 +39,37 @@ const labels = {
   catHeading:    { ja: 'カテゴリから探す', en: 'Browse by Category', pt: 'Explorar por Categoria' },
   troubleHeading:{ ja: '困りごとから探す', en: 'Find by Trouble', pt: 'Buscar por Problema' },
   lifeHeading:   { ja: 'ライフイベント', en: 'Life Events', pt: 'Eventos da Vida' },
+  mapHeading:    { ja: '🗺 マップ', en: '🗺 Maps', pt: '🗺 Mapas' },
+  mapViewBtn:    { ja: 'マップを見る →', en: 'View Map →', pt: 'Ver Mapa →' },
   steps:         { ja: 'ステップ', en: 'steps', pt: 'passos' },
   statItems:     { ja: '件の手続き', en: 'Procedures', pt: 'Procedimentos' },
   statCats:      { ja: 'カテゴリ', en: 'Categories', pt: 'Categorias' },
   statLangs:     { ja: '言語対応', en: 'Languages', pt: 'Idiomas' },
 };
 const L = (k: keyof typeof labels) => (labels[k] as any)[lang] ?? (labels[k] as any)['ja'];
+
+// マップレイヤー分の件数をビルド時に取得
+const mapIconEmoji: Record<string, string> = {
+  wifi: '📶', medical: '🏥', pharmacy: '💊', mobile: '📱',
+};
+const mapLayers = Object.entries(layerConfig as any).map(([key, cfg]: [string, any]) => {
+  const geojsonPath = new URL(
+    `../../../public/data/maps/ota_${key}.geojson`,
+    import.meta.url
+  ).pathname.replace(/^\/([A-Za-z]:)/, '$1'); // Windows パス修正
+  let count = 0;
+  try {
+    const raw = fs.readFileSync(geojsonPath, 'utf-8');
+    const gj = JSON.parse(raw);
+    count = gj.features?.length ?? 0;
+  } catch { /* GeoJSONがなければ 0 */ }
+  return {
+    key,
+    title: cfg.title?.[lang] ?? cfg.title?.ja ?? key,
+    icon: cfg.icon,
+    count,
+  };
+});
 ---
 
 <LightLayout
@@ -84,6 +111,7 @@ const L = (k: keyof typeof labels) => (labels[k] as any)[lang] ?? (labels[k] as 
       <button class="browse-tab active" data-tab="cat">{L('catHeading')}</button>
       <button class="browse-tab" data-tab="trouble">{L('troubleHeading')}</button>
       <button class="browse-tab" data-tab="life">{L('lifeHeading')}</button>
+      <button class="browse-tab" data-tab="map">{L('mapHeading')}</button>
     </div>
 
     <!-- カテゴリ -->
@@ -128,6 +156,23 @@ const L = (k: keyof typeof labels) => (labels[k] as any)[lang] ?? (labels[k] as 
             </a>
           );
         })}
+      </div>
+    </div>
+
+    <!-- 🗺 マップタブ -->
+    <div class="browse-panel" id="panel-map">
+      <div class="category-grid">
+        {mapLayers.map((lyr) => (
+          <a class="category-tile" href={`/${lang}/${MUNICIPALITY}/map/${lyr.key}/`}>
+            <span class="category-tile__icon">{mapIconEmoji[lyr.icon] ?? '🗺'}</span>
+            <span class="category-tile__label">{lyr.title}</span>
+            {lyr.count > 0 && (
+              <span style="font-size:var(--text-xs);color:var(--text-muted);margin-top:-.25rem">
+                {lyr.count}件
+              </span>
+            )}
+          </a>
+        ))}
       </div>
     </div>
   </section>

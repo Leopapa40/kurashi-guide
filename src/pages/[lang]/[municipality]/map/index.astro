@@ -6,6 +6,7 @@
  */
 import LightLayout from '../../../../layouts/LightLayout.astro';
 import layerConfig from '../../../../data/layer_config.json';
+import fs from 'node:fs';
 
 export function getStaticPaths() {
   const langs = ['ja', 'en', 'pt'] as const;
@@ -30,6 +31,22 @@ const ICON_MAP: Record<string, string> = {
   pharmacy: '💊',
   mobile_shop: '📱',
 };
+
+// ビルド時に GeoJSON から件数取得
+const citySlug = municipality.replace('-city', '');
+const layersWithCount = layers.map(([key, cfg]) => {
+  const geojsonPath = new URL(
+    `../../../../../public/data/maps/${citySlug}_${key}.geojson`,
+    import.meta.url
+  ).pathname.replace(/^\/([A-Za-z]:)/, '$1');
+  let count = 0;
+  try {
+    const raw = fs.readFileSync(geojsonPath, 'utf-8');
+    const gj = JSON.parse(raw);
+    count = gj.features?.length ?? 0;
+  } catch { /* ファイルなしはスキップ */ }
+  return { key, cfg, count };
+});
 
 // 多言語ラベル
 const labels = {
@@ -60,14 +77,16 @@ const L = (key: keyof typeof labels) => (labels[key] as any)[lang] ?? (labels[ke
     <p class="map-hub__subtitle">{L('subtitle')}</p>
 
     <div class="map-hub__grid">
-      {layers.map(([key, cfg]) => {
+      {layersWithCount.map(({ key, cfg, count }) => {
         const title = cfg.title?.[lang] ?? cfg.title?.['ja'] ?? key;
         const icon = ICON_MAP[key] ?? '📍';
         const href = `/${lang}/${municipality}/map/${key}/`;
+        const countLabel = lang === 'ja' ? `${count}件` : lang === 'en' ? `${count} spots` : `${count} locais`;
         return (
           <a href={href} class="map-layer-card">
             <span class="map-layer-card__icon">{icon}</span>
             <span class="map-layer-card__title">{title}</span>
+            {count > 0 && <span class="map-layer-card__count">{countLabel}</span>}
             <span class="map-layer-card__cta">{L('viewMap')}</span>
           </a>
         );
@@ -128,6 +147,11 @@ const L = (key: keyof typeof labels) => (labels[key] as any)[lang] ?? (labels[ke
       font-size: var(--text-xs);
       color: var(--city);
       font-weight: 600;
+    }
+    .map-layer-card__count {
+      font-size: var(--text-xs);
+      color: var(--text-muted);
+      margin-top: -.25rem;
     }
   </style>
 </LightLayout>

@@ -28,7 +28,9 @@
     "whitelist_bypass_categories": [
       "library"
     ],
-    "icon": "wifi"
+    "icon": "wifi",
+    "related_categories": ["foreigner"],
+    "show_for_all": true
   },
   "medical": {
     "title": {
@@ -43,7 +45,9 @@
     ],
     "needs_whitelist": false,
     "csv_category": "medical",
-    "icon": "medical"
+    "icon": "medical",
+    "related_categories": ["health", "parenting", "foreigner", "safety"],
+    "show_for_all": false
   },
   "pharmacy": {
     "title": {
@@ -57,7 +61,9 @@
     ],
     "needs_whitelist": false,
     "csv_category": "pharmacy",
-    "icon": "pharmacy"
+    "icon": "pharmacy",
+    "related_categories": ["health", "foreigner"],
+    "show_for_all": false
   },
   "mobile_shop": {
     "title": {
@@ -70,6 +76,8 @@
     ],
     "needs_whitelist": false,
     "csv_category": "mobile_shop",
-    "icon": "mobile"
+    "icon": "mobile",
+    "related_categories": ["foreigner"],
+    "show_for_all": false
   }
 }
