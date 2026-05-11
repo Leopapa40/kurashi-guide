@@ -6817,13 +6817,13 @@
     "original_url": "https://www.city.ota.gunma.jp/site/tokutei-kenshin/",
     "locales": {
       "ja": {
-        "title": "特定健診・がん検診（市の健康診断）",
-        "easy_explanation": "## 特定健康診査（メタボ健診）\n40〜74歳の国民健康保険加入者が対象の健康診断です。メタボリックシンドローム（生活習慣病）の早期発見が目的です。\n\n受診方法：毎年、受診券が郵送されます。市が契約する医療機関で受けられます。\n費用：無料\n\n## 各種がん検診\n市では以下のがん検診を実施しています（費用は検診の種類によって異なります）。\n- 胃がん検診\n- 肺がん検診\n- 大腸がん検診\n- 子宮頸がん検診\n- 乳がん検診\n- 前立腺がん検診（PSA検査）\n\n## 申し込み\n市役所4階 健康づくり課、または市のホームページから申し込み。",
-        "bottom_line": "40〜74歳の国保加入者は特定健診が無料。がん検診も市が実施しています。受診票が届いたら忘れずに受けましょう。",
-        "amount_info": "特定健診は無料。がん検診は種類により異なる",
+        "title": "特定健康診査（メタボ健診）",
+        "easy_explanation": "## 特定健診とは\n太田市国民健康保険に加入している40歳以上の方などを対象に、メタボリックシンドローム（生活習慣病）の予防や改善を目的に実施される無料の健康診査です（約1万円の検査が無料になります）。\n\n対象となる方には毎年4月下旬に案内（黄色い封筒）が郵送されます。\n\n## 実施期間\n毎年 5月1日 から 12月20日 まで\n\n## 受診方法\n指定された日時に会場へ行く「集団健診」と、市内の実施医療機関へ予約して行く「個別健診」のいずれかの方法で、年に1回受診してください。",
+        "bottom_line": "40歳以上の国保加入者は、年1回約1万円相当の健康診査（特定健診）を無料で受けられます。5月から12月の間に忘れずに受診しましょう。",
+        "amount_info": "無料",
         "target_audience": [
-          "40〜74歳の国民健康保険加入者",
-          "各種がん検診を受けたい方"
+          "太田市国民健康保険の加入者で、40歳以上の人",
+          "後期高齢者医療制度に加入されている人"
         ],
         "term_explanations": [
           {
@@ -6846,7 +6846,7 @@
         "five_w1h": {
           "who": "太田市国民健康保険に加入している40〜74歳の方",
           "what": "特定健診（メタボリックシンドローム等の生活習慣病の早期発見を目的とした健康診断）",
-          "when": "毎年4月〜翌年3月の期間に1回受診可能（受診券は毎年4〜5月頃に郵送）",
+          "when": "実施期間：5月1日〜12月20日（対象者には4月下旬に案内が郵送されます）",
           "where": "特定健診実施医療機関（市内約100か所）。集団健診も実施",
           "why": "生活習慣病（糖尿病・高血圧等）の早期発見・予防のため。対象者は無料で受診可能",
           "how": "送付された受診券と保険証を持参し、医療機関で予約して受診する"
@@ -6854,17 +6854,22 @@
         "checklist": [
           {
             "item": "特定健康診査受診券",
-            "note": "毎年5〜6月頃に国保加入者に郵送される",
+            "note": "4月下旬に郵送される黄色い封筒に同封されています",
             "required": true
           },
           {
-            "item": "国民健康保険証",
-            "note": "受診資格の確認に使用",
+            "item": "質問票",
+            "note": "事前に記入してお持ちください",
             "required": true
           },
           {
-            "item": "前回の健診結果（あれば）",
-            "note": "経年変化の参考に。必須ではない",
+            "item": "保険の資格が確認できるもの",
+            "note": "マイナ保険証、資格確認証、保険証など",
+            "required": true
+          },
+          {
+            "item": "バーコードシール",
+            "note": "個別健診（医療機関での受診）の場合に必要です",
             "required": false
           }
         ],
@@ -6879,50 +6884,73 @@
             "answer": "毎年4月頃に郵送で届きます。届かない場合は市役所健康づくり課にご連絡ください。受診票を持参して指定医療機関で受診してください。"
           },
           {
-            "question": "がん検診も一緒に受けられますか？",
-            "answer": "はい、太田市では特定健診と同時にがん検診（胃・肺・大腸・子宮・乳房）を受けられる場合があります。受診票に記載の受診機関で確認してください。"
+            "question": "費用はかかりますか？",
+            "answer": "無料で受けられます。ただし、市の人間ドック助成を受けて受診した年は、特定健診を重複して受けることはできません。"
           },
           {
-            "question": "費用はかかりますか？",
-            "answer": "特定健診は無料または少額の自己負担で受けられます（実施機関により異なります）。がん検診も一部補助があります。詳細は受診票または市ウェブサイトでご確認ください。"
+            "question": "健診の結果が悪かった場合はどうなりますか？",
+            "answer": "結果により生活習慣病のリスクが高いと判定された方には、無料で専門スタッフによる生活習慣改善サポート「特定保健指導」の案内が送付されます。"
           }
         ],
-        "estimated_time": "検診当日：約30〜60分（機関により異なる）",
+        "estimated_time": null,
         "related_articles": [
           "national-health-insurance"
         ]
       },
       "en": {
-        "title": "Specific Health Checkup & Cancer Screening",
-        "easy_explanation": "Free metabolic syndrome checkups for National Health Insurance members aged 40-74. Various cancer screenings are also available.",
-        "bottom_line": "Free health checkups for NHI members aged 40-74. Apply at City Hall or online when you receive your checkup voucher.",
-        "amount_info": "Specific health checkups are free. Cancer screenings vary by type",
+        "title": "Specific Health Checkup (Metabolic Checkup)",
+        "easy_explanation": "## What is a Specific Health Checkup?\nThis is a free health checkup (worth about 10,000 yen) for National Health Insurance members aged 40 and over, aimed at preventing and improving metabolic syndrome (lifestyle-related diseases).\nAn information packet (in a yellow envelope) is mailed to eligible individuals in late April every year.\n\n## Implementation Period\nFrom May 1st to December 20th each year.\n\n## How to take the checkup\nPlease take the checkup once a year either by attending a \"Group Checkup\" at a designated venue and time, or an \"Individual Checkup\" by making an appointment at a designated medical institution in the city.",
+        "bottom_line": "NHI members aged 40 and over can receive a free annual health checkup worth about 10,000 yen. Don't forget to take it between May and December.",
+        "amount_info": "Free",
         "target_audience": [
-          "NHI members aged 40-74"
+          "Ota City National Health Insurance members aged 40 and over",
+          "Members of the Advanced Elderly Medical Service System"
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "Specific Health Checkup",
+            "explanation": "A national health checkup targeting National Health Insurance members aged 40 to 74, aimed at preventing and early detecting lifestyle-related diseases. Implemented for free in Ota City from May to December."
+          },
+          {
+            "term": "Specific Health Guidance",
+            "explanation": "Guidance provided by specialists to help improve lifestyle habits for those determined to have a high risk of lifestyle-related diseases based on the checkup results. Available free of charge."
+          },
+          {
+            "term": "Metabolic Syndrome",
+            "explanation": "A condition where visceral fat accumulates, and at least two of blood sugar, blood pressure, or lipids are above standard levels. It increases the risk of heart disease and stroke."
+          },
+          {
+            "term": "Comprehensive Health Checkup (Ningen Dock)",
+            "explanation": "A detailed comprehensive medical examination at a medical institution. You cannot take the Specific Health Checkup in the same year you receive Ota City's subsidy for a Ningen Dock."
+          }
+        ],
         "five_w1h": {
           "who": "National Health Insurance enrollees aged 40-74",
           "what": "Specific Health Checkups (for lifestyle diseases like Metabo)",
-          "when": "Once a year (April to March). Vouchers mailed Apr-May.",
+          "when": "Implementation period: May 1st to December 20th (Information is mailed in late April)",
           "where": "Designated clinics (about 100 in the city)",
           "why": "For early detection and prevention of lifestyle diseases like diabetes.",
           "how": "Book an appointment at a clinic and bring the voucher and insurance card."
         },
         "checklist": [
           {
-            "item": "Specific Health Checkup Voucher (特定健康診査受診券)",
-            "note": "Mailed to NHI enrollees May-June.",
+            "item": "Specific Health Checkup Ticket (Jushinken)",
+            "note": "Enclosed in the yellow envelope mailed in late April",
             "required": true
           },
           {
-            "item": "National Health Insurance Card (国民健康保険証)",
-            "note": "To verify eligibility.",
+            "item": "Questionnaire (Shitsumonhyo)",
+            "note": "Please fill it out beforehand",
             "required": true
           },
           {
-            "item": "Previous checkup results (前回の健診結果)",
-            "note": "Optional reference.",
+            "item": "Proof of Health Insurance Qualification",
+            "note": "Myna Health Insurance Card, Qualification Confirmation Card, etc.",
+            "required": true
+          },
+          {
+            "item": "Barcode Stickers",
+            "note": "Required only for Individual Checkups at medical institutions",
             "required": false
           }
         ],
@@ -6937,50 +6965,73 @@
             "answer": "It is mailed around April. If you don't get one, contact the Health Promotion Division."
           },
           {
-            "question": "Can I get cancer screenings at the same time?",
-            "answer": "Yes, Ota City offers cancer screenings concurrently at many clinics. Check your voucher for details."
+            "question": "Does it cost anything?",
+            "answer": "It is completely free. However, if you receive a comprehensive health checkup (Ningen Dock) with city subsidies in the same year, you cannot take this specific health checkup."
           },
           {
-            "question": "Is there a cost?",
-            "answer": "The Specific Checkup is mostly free. Cancer screenings have small co-pays depending on the type."
+            "question": "What happens if the checkup results are poor?",
+            "answer": "If you are determined to have a high risk of lifestyle-related diseases, you will receive information for \"Specific Health Guidance\", a free lifestyle improvement support program provided by specialists."
           }
         ],
-        "estimated_time": "Checkup day: 30 to 60 minutes",
+        "estimated_time": null,
         "related_articles": [
           "national-health-insurance"
         ]
       },
       "pt": {
-        "title": "Exame de Saúde Específico e Rastreio de Câncer",
-        "easy_explanation": "Exames gratuitos para membros do Seguro Nacional de Saúde com idades entre 40 e 74 anos. Vários rastreios de câncer também estão disponíveis.",
-        "bottom_line": "Exames gratuitos para membros do SNS de 40-74 anos. Solicite na Prefeitura ao receber o voucher.",
-        "amount_info": "Exames específicos são gratuitos. Exames de câncer variam por tipo",
+        "title": "Exame de Saúde Específico (Exame Metabólico)",
+        "easy_explanation": "## O que é o Exame de Saúde Específico?\nEste é um exame de saúde gratuito (no valor de cerca de 10.000 ienes) para membros do Seguro Nacional de Saúde com 40 anos ou mais, com o objetivo de prevenir e melhorar a síndrome metabólica (doenças relacionadas ao estilo de vida).\nUm envelope amarelo com informações é enviado aos elegíveis no final de abril de cada ano.\n\n## Período de Realização\nDe 1º de maio a 20 de dezembro de cada ano.\n\n## Como fazer o exame\nFaça o exame uma vez por ano através de um \"Exame em Grupo\" em um local e horário designados, ou de um \"Exame Individual\" marcando uma consulta em uma instituição médica designada na cidade.",
+        "bottom_line": "Membros do Seguro Nacional de Saúde com 40 anos ou mais podem fazer um exame de saúde anual gratuito no valor de cerca de 10.000 ienes. Não se esqueça de fazê-lo entre maio e dezembro.",
+        "amount_info": "Gratuito",
         "target_audience": [
-          "Membros do SNS com 40-74 anos"
+          "Membros do Seguro Nacional de Saúde de Ota com 40 anos ou mais",
+          "Membros do Sistema Médico para Idosos em Idade Avançada"
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "Exame de Saúde Específico",
+            "explanation": "Um exame de saúde nacional direcionado a membros do Seguro Nacional de Saúde com idades entre 40 e 74 anos, com o objetivo de prevenir doenças relacionadas ao estilo de vida. Realizado gratuitamente na cidade de Ota de maio a dezembro."
+          },
+          {
+            "term": "Orientação de Saúde Específica",
+            "explanation": "Orientação fornecida por especialistas para ajudar a melhorar os hábitos de vida daqueles com alto risco de doenças relacionadas ao estilo de vida. Disponível gratuitamente."
+          },
+          {
+            "term": "Síndrome Metabólica",
+            "explanation": "Uma condição onde a gordura visceral se acumula, e níveis de açúcar no sangue, pressão arterial ou lipídios estão acima do padrão. Aumenta o risco de doenças cardíacas."
+          },
+          {
+            "term": "Check-up de Saúde Abrangente (Ningen Dock)",
+            "explanation": "Um exame médico abrangente e detalhado em uma instituição médica. Você não pode fazer o Exame de Saúde Específico no mesmo ano em que recebe o subsídio da cidade de Ota para um Ningen Dock."
+          }
+        ],
         "five_w1h": {
           "who": "Inscritos no Seguro Nacional (40-74 anos)",
           "what": "Exames Específicos de Saúde (doenças de estilo de vida)",
-          "when": "Uma vez por ano. Vales enviados em abr-mai.",
+          "when": "Período de realização: 1º de maio a 20 de dezembro (As informações são enviadas no final de abril)",
           "where": "Clínicas designadas (cerca de 100 na cidade)",
           "why": "Detecção precoce de doenças como diabetes.",
           "how": "Agende na clínica e traga o vale e o cartão de seguro."
         },
         "checklist": [
           {
-            "item": "Vale do Exame Específico (特定健康診査受診券)",
-            "note": "Enviado em mai-jun.",
+            "item": "Cupom de Exame de Saúde Específico (Jushinken)",
+            "note": "Anexado no envelope amarelo enviado no final de abril",
             "required": true
           },
           {
-            "item": "Cartão de Seguro Nacional (国民健康保険証)",
-            "note": "Para verificar elegibilidade.",
+            "item": "Questionário (Shitsumonhyo)",
+            "note": "Por favor, preencha-o com antecedência",
             "required": true
           },
           {
-            "item": "Resultados anteriores (前回の健診結果)",
-            "note": "Referência opcional.",
+            "item": "Comprovante de Qualificação do Seguro de Saúde",
+            "note": "Cartão de Seguro de Saúde Myna, Cartão de Confirmação de Qualificação, etc.",
+            "required": true
+          },
+          {
+            "item": "Adesivos de Código de Barras",
+            "note": "Necessário apenas para Exames Individuais em instituições médicas",
             "required": false
           }
         ],
@@ -6995,15 +7046,15 @@
             "answer": "Enviado por correio em abril. Contate a Divisão de Saúde se não chegar."
           },
           {
-            "question": "Posso fazer exames de câncer junto?",
-            "answer": "Sim, Ota oferece junto em muitas clínicas. Verifique o vale."
+            "question": "Há algum custo?",
+            "answer": "É totalmente gratuito. No entanto, se você fizer um check-up de saúde abrangente (Ningen Dock) com subsídios da cidade no mesmo ano, não poderá fazer este exame de saúde específico."
           },
           {
-            "question": "Tem custo?",
-            "answer": "Exame específico é gratuito. Exames de câncer têm pequenas taxas."
+            "question": "O que acontece se os resultados do exame forem ruins?",
+            "answer": "Se for determinado que você tem alto risco de doenças relacionadas ao estilo de vida, receberá informações para a \"Orientação de Saúde Específica\", um programa gratuito de apoio à melhoria do estilo de vida fornecido por especialistas."
           }
         ],
-        "estimated_time": "Dia do exame: 30 a 60 minutos",
+        "estimated_time": null,
         "related_articles": [
           "national-health-insurance"
         ]
