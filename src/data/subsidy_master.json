@@ -3996,14 +3996,13 @@
     "original_url": "https://www.city.ota.gunma.jp/page/2501.html",
     "locales": {
       "ja": {
-        "title": "国民健康保険の加入手続き",
-        "easy_explanation": "退職後は、退職翌日から14日以内に国民健康保険の加入手続きが必要です。手続きが遅れると、無保険期間中の医療費が全額自己負担になるだけでなく、さかのぼって保険税を支払わなければなりません。手続きには、会社が発行する「社会保険の資格喪失証明書」が必ず必要です。",
-        "bottom_line": "会社を辞めて社会保険を抜けたら、退職の翌日から14日以内に市役所で国民健康保険に入る必要があります。遅れると過去に遡って保険税を納めることになるため要注意です。前の会社から受け取る『資格喪失証明書』を必ず持参してください。",
+        "title": "国民健康保険の加入・脱退手続き",
+        "easy_explanation": "会社を退職したとき（加入）や、就職して職場の健康保険に入ったとき（脱退）は、国民健康保険の切り替え手続きが必要です。\n自動で切り替えにはならないため、必ず退職日または就職日の翌日から14日以内に窓口で手続きしてください。",
+        "bottom_line": "会社を辞めたら国保へ「加入」、就職したら国保から「脱退」の手続きがそれぞれ14日以内に必要です。遅れると医療費が全額自己負担になったり、保険税が二重請求される恐れがあります。",
         "amount_info": "手続き無料",
         "target_audience": [
-          "会社を退職した方",
-          "自営業・フリーランスの方",
-          "職場の健康保険に加入していない方"
+          "会社を退職した方（再就職しない・日にちが空く方）",
+          "職場の健康保険に新しく加入した方"
         ],
         "term_explanations": [
           {
@@ -4027,86 +4026,58 @@
           "who": "職場の健康保険に加入していない方（自営業・フリーランス・退職者等）",
           "what": "国民健康保険の加入・脱退の手続き（転入・退職・75歳到達等による資格変動）",
           "when": "資格発生（退職・転入等）の翌日から14日以内に手続きすること",
-          "where": "市役所1階保険年金課、または各行政センター（マイナポータルでのオンライン手続き可）",
+          "where": "市役所1階 国民健康保険課、行政センター（太田行政センター除く）、各サービスセンター",
           "why": "医療費の自己負担を軽減するため。加入が義務付けられている",
           "how": "窓口で「国保資格取得・喪失届」を提出。退職の場合は健康保険喪失証明書が必要"
         },
         "checklist": [
           {
-            "item": "社会保険の資格喪失証明書（退職した会社から発行されます）",
-            "note": ""
-          },
-          {
-            "item": "国民健康保険加入申請書",
-            "note": "市役所市民課・各行政センター窓口で入手",
+            "item": "加入の場合：社会保険の離脱証明書",
+            "note": "退職した会社から発行されます",
             "required": true
           },
           {
-            "item": "本人確認書類（運転免許証・マイナンバーカード等）",
-            "note": "顔写真付きのもの1点",
+            "item": "脱退の場合：加入した職場の資格確認書等",
+            "note": "新しく加入した保険の資格取得日がわかるもの",
             "required": true
           },
           {
-            "item": "個人番号（マイナンバー）確認書類",
-            "note": "マイナンバーカード、または通知カード＋本人確認書類",
+            "item": "脱退の場合：国保の資格確認書等",
+            "note": "太田市の国保のもの",
             "required": true
           },
           {
-            "item": "職場の健康保険の資格喪失証明書",
-            "note": "退職・離職等で職場保険を脱退した場合に必要",
+            "item": "個人番号カード（または通知カードと写真付本人確認書類）",
+            "note": "加入・脱退ともに必要",
+            "required": true
+          },
+          {
+            "item": "委任状",
+            "note": "本人または同一世帯以外の方が手続きする場合に必要",
             "required": false
           },
           {
-            "item": "学生証または在学証明書",
-            "note": "学生の場合のみ。国保料の軽減措置に使用",
+            "item": "銀行のキャッシュカード",
+            "note": "加入時に口座振替を希望する場合（市役所1階のみ対応）",
             "required": false
           }
         ],
-        "form_guide": {
-          "form_name": "国民健康保険加入申請書",
-          "fields": [
-            {
-              "field_name": "加入理由",
-              "how_to_fill": "「退職」「転入」「扶養から外れた」等、加入する理由を選択",
-              "example": "退職",
-              "note": "理由によって加入日が異なる"
-            },
-            {
-              "field_name": "加入日（資格取得日）",
-              "how_to_fill": "職場保険を抜けた翌日または転入日を記入",
-              "example": "令和7年5月1日",
-              "note": "退職後14日以内が手続きの目安"
-            }
-          ],
-          "tips": [
-            "退職後は14日以内に手続きを（加入日は退職翌日に遡及するため遅れても損はないが早めに）",
-            "前年所得に基づいて保険料が決まる。所得が少ない場合は軽減制度あり",
-            "マイナンバーカードで受付できる場合もある（窓口に確認を）"
-          ]
-        },
+        "form_guide": null,
         "faq": [
           {
-            "question": "会社を退職したらすぐに国民健康保険に加入しなければなりませんか？",
-            "answer": "退職日の翌日から14日以内に加入手続きが必要です。手続きが遅れると無保険期間が生じ、医療費が全額自己負担になる場合があります。"
+            "question": "加入手続きが遅れるとどうなりますか？",
+            "answer": "さかのぼって保険税を納めることになったり、手続き前の医療費を全額自己負担しなくてはいけなくなります。退職した日の翌日から14日以内に手続きしてください。"
           },
           {
-            "question": "国民健康保険料はいくらかかりますか？",
-            "answer": "前年の所得・世帯の人数・年齢によって計算されます。毎年6月頃に保険料決定通知書が届きます。収入が少ない場合は申請により保険料が軽減される制度があります。"
+            "question": "脱退手続きを忘れるとどうなりますか？",
+            "answer": "太田市の国保で受診してしまった場合、あとで国保分の医療費を返還していただくことがあります。また、届け出をしないと保険税を二重に請求されてしまいます。"
           },
           {
-            "question": "扶養家族の手続きはどうすればよいですか？",
-            "answer": "国民健康保険には扶養という概念はなく、家族全員が個別に加入します。世帯全員分をまとめて世帯主が手続きします。"
-          },
-          {
-            "question": "他の市区町村に引越した場合はどうすればよいですか？",
-            "answer": "転出と同時に太田市の国民健康保険の資格を喪失します。新住所地で14日以内に新たな国民健康保険の加入手続きが必要です。"
-          },
-          {
-            "question": "健康保険の任意継続（2年間）と国民健康保険、どちらが得ですか？",
-            "answer": "国民健康保険税は世帯人数や所得に応じて計算され、任意継続は退職前の給与に基づいて計算されます。所得が高い場合は任意継続の方が安くなることがあるため、事前に比較検討することをおすすめします。"
+            "question": "職場の社会保険に加入するメリットは何ですか？",
+            "answer": "保険料の半分を会社が負担してくれること、扶養家族の保険料負担がないこと、病気や出産で休んだ際に傷病手当金や出産手当金などの所得保障があること等が挙げられます。"
           }
         ],
-        "estimated_time": "窓口で約20〜30分",
+        "estimated_time": null,
         "related_articles": [
           "national-pension",
           "elderly-medical-insurance",
@@ -4121,71 +4092,88 @@
         ]
       },
       "en": {
-        "title": "National Health Insurance Enrollment",
-        "easy_explanation": "Foreign residents are also required to join the National Health Insurance if they reside in Japan. You must complete the enrollment procedures within 14 days from the day after you leave your job. If you delay, you will be responsible for the full cost of medical expenses during the uninsured period, and you will have to pay back taxes retroactively. You will strictly need the 'Certificate of Loss of Eligibility' issued by your company.",
-        "bottom_line": "If you leave your company and lose your social health insurance, you must join the National Health Insurance at the City Hall within 14 days from the day after you retire. Please make sure to bring the 'Certificate of Loss of Eligibility' (Shikaku Soshitsu Shomeisho) from your previous employer.",
+        "title": "Enrollment and Withdrawal from National Health Insurance",
+        "easy_explanation": "When you leave a company (enrollment) or start a new job and join the workplace health insurance (withdrawal), you need to complete the procedures to switch your National Health Insurance.\nSince it does not switch automatically, you must complete the procedure at the counter within 14 days from the day after you leave or start your job.",
+        "bottom_line": "You must complete the 'enrollment' procedure when leaving a company, and the 'withdrawal' procedure when starting a new job, within 14 days. Delays may result in paying full medical costs or double billing of insurance taxes.",
         "amount_info": "No fee required",
         "target_audience": [
-          "Those who quit their jobs",
-          "Freelancers",
-          "Those without company health insurance"
+          "Those who left a company",
+          "Those who newly joined workplace health insurance"
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "National Health Insurance (NHI)",
+            "explanation": "Public medical insurance for those not covered by workplace health insurance."
+          },
+          {
+            "term": "Voluntary Continuation",
+            "explanation": "A system where you can continue the workplace insurance for up to 2 years after leaving your job. You must pay the full premium yourself."
+          },
+          {
+            "term": "Dependent",
+            "explanation": "Family members supported by the insured person, receiving medical subsidy without paying their own premiums."
+          },
+          {
+            "term": "Certificate of Loss of Social Insurance",
+            "explanation": "Document proving you left workplace insurance, needed to enroll in NHI."
+          }
+        ],
         "five_w1h": {
           "who": "Those not enrolled in workplace health insurance (self-employed, freelancers, retirees, etc.)",
           "what": "Enrollment/Withdrawal procedures for National Health Insurance",
           "when": "Within 14 days from the date of qualification change (resignation, moving in, etc.)",
-          "where": "City Hall 1F Insurance & Pension Division, Administrative Centers, or Myna Portal",
+          "where": "City Hall 1F National Health Insurance Division, Administrative Centers (excluding Ota), Service Centers",
           "why": "Enrollment is mandatory to reduce out-of-pocket medical costs",
           "how": "Submit the qualification form at the counter. Certificate of loss of insurance needed if resigning."
         },
         "checklist": [
           {
-            "item": "NHI Application Form (国民健康保険加入申請書)",
-            "note": "Available at City Hall or Administrative Centers",
+            "item": "For Enrollment: Certificate of Loss of Social Insurance",
+            "note": "Issued by your previous employer",
             "required": true
           },
           {
-            "item": "ID Document (本人確認書類)",
-            "note": "Driver's license, My Number Card, etc. with photo",
+            "item": "For Withdrawal: Proof of new workplace insurance",
+            "note": "Document showing the acquisition date of the new insurance",
             "required": true
           },
           {
-            "item": "My Number confirmation (個人番号確認書類)",
-            "note": "My Number Card, or Notification Card + ID",
+            "item": "For Withdrawal: NHI Qualification Card",
+            "note": "Ota City's NHI card or notice",
             "required": true
           },
           {
-            "item": "Certificate of Loss of Workplace Insurance (職場の健康保険の資格喪失証明書)",
-            "note": "Required if you resigned or left workplace insurance",
+            "item": "My Number Card (or Notification Card + Photo ID)",
+            "note": "Required for both enrollment and withdrawal",
+            "required": true
+          },
+          {
+            "item": "Power of Attorney",
+            "note": "If a proxy outside the same household applies",
             "required": false
           },
           {
-            "item": "Student ID or Certificate of Enrollment (学生証または在学証明書)",
-            "note": "For students, used for insurance fee reduction",
+            "item": "Bank Cash Card",
+            "note": "If you wish to set up direct debit for enrollment (City Hall 1F only)",
             "required": false
           }
         ],
         "form_guide": null,
         "faq": [
           {
-            "question": "Do I have to enroll immediately after quitting my job?",
-            "answer": "You must apply within 14 days of resignation. If delayed, you face a period without insurance and might have to pay full medical costs."
+            "question": "What happens if my enrollment is delayed?",
+            "answer": "You may have to pay insurance taxes retroactively, and you will have to pay the full cost of medical expenses incurred before the procedure. Please apply within 14 days."
           },
           {
-            "question": "How much does National Health Insurance cost?",
-            "answer": "It's calculated based on last year's income, household size, and age. Notifications are sent around June. Reductions exist for low-income households."
+            "question": "What happens if I forget to withdraw?",
+            "answer": "If you receive medical care using Ota City's NHI, you may have to refund the medical costs later. Also, you may be billed for insurance taxes twice."
           },
           {
-            "question": "What about my dependents?",
-            "answer": "NHI has no concept of dependents; every family member enrolls individually. The head of household applies for everyone at once."
-          },
-          {
-            "question": "What if I move to another city?",
-            "answer": "You lose your Ota City NHI qualification. You must enroll in NHI at your new address within 14 days."
+            "question": "What are the benefits of workplace social insurance?",
+            "answer": "The company pays half of your insurance premiums, dependents do not have to pay premiums, and there is income support such as sickness/injury allowance and maternity allowance."
           }
         ],
-        "estimated_time": "About 20-30 minutes at the counter",
+        "estimated_time": null,
         "related_articles": [
           "national-pension",
           "elderly-medical-insurance",
@@ -4200,70 +4188,88 @@
         ]
       },
       "pt": {
-        "title": "Inscrição no Seguro Nacional de Saúde",
-        "easy_explanation": "Residentes estrangeiros também são obrigados a ingressar no Seguro Nacional de Saúde. Você deve concluir os procedimentos de inscrição dentro de 14 dias a partir do dia seguinte ao término do emprego. Se houver atraso, você terá que arcar com o custo total das despesas médicas durante o período sem seguro e terá que pagar os impostos retroativamente. É indispensável apresentar o 'Certificado de Perda de Elegibilidade' emitido pela sua empresa.",
-        "bottom_line": "Se você sair da empresa e perder o seguro de saúde social, deverá ingressar no Seguro Nacional de Saúde na Prefeitura no prazo de 14 dias a partir do dia seguinte ao seu desligamento. Certifique-se de trazer o 'Certificado de Perda de Elegibilidade' (Shikaku Soshitsu Shomeisho) do seu empregador anterior.",
+        "title": "Inscrição e Cancelamento do Seguro Nacional de Saúde",
+        "easy_explanation": "Ao sair de uma empresa (inscrição) ou iniciar um novo emprego e aderir ao seguro de saúde do local de trabalho (cancelamento), você precisa concluir os procedimentos para alterar o seu Seguro Nacional de Saúde.\nComo não muda automaticamente, você deve concluir o procedimento no balcão dentro de 14 dias a partir do dia seguinte ao término ou início do seu emprego.",
+        "bottom_line": "Você deve concluir o procedimento de 'inscrição' ao sair de uma empresa e de 'cancelamento' ao iniciar um novo emprego, em até 14 dias. Atrasos podem resultar no pagamento integral dos custos médicos ou cobrança dupla de taxas de seguro.",
         "amount_info": "Gratuito",
         "target_audience": [
-          "Aqueles que saíram do emprego",
-          "Freelancers"
+          "Pessoas que saíram de uma empresa",
+          "Pessoas que ingressaram recentemente no seguro de saúde do local de trabalho"
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "Seguro Nacional de Saúde (NHI)",
+            "explanation": "Seguro médico público para quem não tem cobertura do seguro de saúde do local de trabalho."
+          },
+          {
+            "term": "Continuação Voluntária",
+            "explanation": "Sistema onde você pode continuar com o seguro do local de trabalho por até 2 anos após sair do emprego. Você deve pagar o prêmio integralmente."
+          },
+          {
+            "term": "Dependente",
+            "explanation": "Membros da família sustentados pelo segurado, que recebem subsídio médico sem pagar seus próprios prêmios."
+          },
+          {
+            "term": "Certificado de Perda do Seguro Social",
+            "explanation": "Documento que comprova que você saiu do seguro do local de trabalho, necessário para se inscrever no NHI."
+          }
+        ],
         "five_w1h": {
           "who": "Quem não possui seguro de saúde corporativo (autônomos, aposentados, etc.)",
           "what": "Inscrição/Cancelamento do Seguro de Saúde Nacional",
           "when": "Até 14 dias após a mudança de status (demissão, mudança de cidade, etc.)",
-          "where": "Prefeitura 1º Andar Divisão de Seguro, Centros Administrativos ou Portal Myna",
+          "where": "Prefeitura (1º andar, Divisão de Seguro Nacional de Saúde), Centros Administrativos (exceto Ota), Centros de Atendimento",
           "why": "Obrigatório para reduzir custos médicos e cobrir despesas",
           "how": "Envie o formulário no balcão. Certificado de perda de seguro necessário se houver demissão."
         },
         "checklist": [
           {
-            "item": "Formulário de Inscrição no NHI (国民健康保険加入申請書)",
-            "note": "Disponível na Prefeitura ou Centros Administrativos",
+            "item": "Para Inscrição: Certificado de Perda do Seguro Social",
+            "note": "Emitido pelo seu empregador anterior",
             "required": true
           },
           {
-            "item": "Documento de identidade (本人確認書類)",
-            "note": "Com foto",
+            "item": "Para Cancelamento: Comprovante do novo seguro",
+            "note": "Documento mostrando a data de aquisição do novo seguro",
             "required": true
           },
           {
-            "item": "Confirmação do My Number (個人番号確認書類)",
-            "note": "Cartão My Number ou Cartão de Aviso + ID",
+            "item": "Para Cancelamento: Cartão de Qualificação NHI",
+            "note": "Cartão ou aviso do Seguro Nacional de Saúde da Cidade de Ota",
             "required": true
           },
           {
-            "item": "Certificado de Perda de Seguro (職場の健康保険の資格喪失証明書)",
-            "note": "Necessário se saiu do seguro do trabalho",
+            "item": "Cartão My Number (ou Cartão de Notificação + ID com foto)",
+            "note": "Necessário para inscrição e cancelamento",
+            "required": true
+          },
+          {
+            "item": "Procuração",
+            "note": "Se um representante fora da mesma residência fizer o pedido",
             "required": false
           },
           {
-            "item": "Cartão de estudante (学生証または在学証明書)",
-            "note": "Para estudantes (redução de taxas)",
+            "item": "Cartão de Banco",
+            "note": "Se você deseja configurar o débito direto para a inscrição (apenas no 1º andar da Prefeitura)",
             "required": false
           }
         ],
         "form_guide": null,
         "faq": [
           {
-            "question": "Devo me inscrever logo após sair do emprego?",
-            "answer": "Sim, em até 14 dias. Atrasos podem resultar em período sem seguro, pagando 100% das despesas médicas."
+            "question": "O que acontece se a minha inscrição atrasar?",
+            "answer": "Você pode ter que pagar as taxas de seguro retroativamente e arcar com o custo total das despesas médicas incorridas antes do procedimento. Inscreva-se em até 14 dias."
           },
           {
-            "question": "Quanto custa o seguro?",
-            "answer": "Calculado pela renda do ano anterior, tamanho da família e idade. Notificações enviadas em junho. Há descontos para baixa renda."
+            "question": "O que acontece se eu esquecer de cancelar?",
+            "answer": "Se você receber atendimento médico usando o NHI da cidade de Ota, poderá ter que reembolsar os custos médicos posteriormente. Além disso, pode ser cobrado pelas taxas de seguro duas vezes."
           },
           {
-            "question": "E os meus dependentes?",
-            "answer": "Não há dependentes no Seguro Nacional; todos se inscrevem individualmente pelo chefe da família."
-          },
-          {
-            "question": "E se eu me mudar de cidade?",
-            "answer": "Você perde a qualificação em Ota. Deve se inscrever na nova cidade em até 14 dias."
+            "question": "Quais são os benefícios do seguro social do local de trabalho?",
+            "answer": "A empresa paga metade dos seus prêmios de seguro, os dependentes não precisam pagar prêmios e há apoio de renda, como auxílio-doença/lesão e auxílio-maternidade."
           }
         ],
-        "estimated_time": "Cerca de 20-30 minutos no balcão",
+        "estimated_time": null,
         "related_articles": [
           "national-pension",
           "elderly-medical-insurance",
