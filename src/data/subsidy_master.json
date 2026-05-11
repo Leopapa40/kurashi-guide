@@ -15201,11 +15201,11 @@
   {
     "id": "pregnancy-sos",
     "category": "health",
-    "original_url": "https://www.city.ota.gunma.jp/site/boshi-kenko/",
+    "original_url": "https://www.city.ota.gunma.jp/site/boshi-kenko/1960.html",
     "locales": {
       "ja": {
         "title": "予期せぬ妊娠 SOS・妊娠相談",
-        "easy_explanation": "📞 ぐんま妊娠SOS（群馬県公式・助産師が対応）: 027-289-4323\n受付: 月・水・金・土 18:00〜21:00\nLINE・メール: 365日受付（gunma-ninshin-sos.com）\n太田市 健康づくり課: 0276-47-1111（代表）\n\nあなたは悪くありません。一人で抱え込まないでください。\n\n妊娠が分かったとき、不安で誰にも言えない——そんな状況でも、あなたを支える人がいます。「ぐんま妊娠SOS」は群馬県が運営する相談窓口で、経験豊富な助産師が電話・LINE・メールで秘密を守って相談に応じます。「産む・産まない」を決める前に、まず話してください。太田市の保健師にも相談できます。",
+        "easy_explanation": "📞 ぐんま妊娠SOS（助産師が対応）: 027-289-4323\n受付: 月・水・金・土 18:00〜21:00\nLINE・メール相談も同時間帯で受付\n\n太田市 保健センター（妊産婦健康相談）: 0276-46-5115\n受付: 月〜金 8:30〜17:15\n\nあなたは悪くありません。一人で抱え込まないでください。妊娠が分かったとき、不安で誰にも言えない——そんな状況でも、あなたを支える人がいます。「ぐんま妊娠SOS」や市の保健センターが、秘密を守って相談に応じます。「産む・産まない」を決める前に、まず話してください。",
         "bottom_line": "予期せぬ妊娠で不安なとき、一人で抱え込まないでください。「ぐんま妊娠SOS（027-289-4323）」が秘密を守って話を聞きます。",
         "amount_info": null,
         "target_audience": [
@@ -15219,19 +15219,15 @@
             "explanation": "群馬県が運営する妊娠相談窓口。助産師が電話・LINE・メールで対応。秘密厳守・無料。"
           },
           {
-            "term": "特定妊婦（とくていにんぷ）",
-            "explanation": "出産後の養育に特別な支援が必要と認められた妊婦。行政が早期からサポートを行う。"
-          },
-          {
-            "term": "母子健康手帳（ぼしけんこうてちょう）",
-            "explanation": "妊娠届を出すともらえる手帳。妊婦健診や子どもの予防接種の記録に使う。市役所で交付。"
+            "term": "妊産婦健康相談",
+            "explanation": "太田市保健センターで行われている、助産師や保健師による妊娠中から産後の無料相談。"
           }
         ],
         "five_w1h": {
           "who": "予期せぬ妊娠・困難な状況での妊娠に直面している方",
           "what": "妊娠に関する悩み・不安の相談（産む/産まない含め、あらゆる選択肢について話せる）",
-          "when": "電話: 月・水・金・土 18:00〜21:00。LINE・メール: 365日",
-          "where": "電話・LINE・メール（gunma-ninshin-sos.com）、または太田市役所 健康づくり課",
+          "when": "ぐんま妊娠SOS: 月・水・金・土 18:00〜21:00（祝日・年末年始休）。太田市保健センター: 月〜金 8:30〜17:15",
+          "where": "ぐんま妊娠SOS（電話・LINE・メール: gunma-ninshin-sos.com）、または太田市保健センター",
           "why": "予期せぬ妊娠による孤立を防ぎ、母子の安全と将来の生活を守るため",
           "how": "電話またはLINEで相談 → 助産師が話を聞く → 必要な支援機関を紹介"
         },
@@ -15249,10 +15245,6 @@
             "answer": "はい。相談は完全に無料です。"
           },
           {
-            "question": "外国語で相談できますか？",
-            "answer": "まずお電話ください。対応言語についてご案内します。"
-          },
-          {
             "question": "名前を言わなくても相談できますか？",
             "answer": "はい。匿名で相談できます。秘密は守られます。"
           },
@@ -15261,7 +15253,7 @@
             "answer": "はい。決める前の段階でも相談できます。選択肢を一緒に考えます。"
           }
         ],
-        "estimated_time": "電話・LINE相談: 30分〜1時間",
+        "estimated_time": null,
         "related_articles": [
           "pregnancy-notification",
           "birth-allowance",
@@ -15271,16 +15263,12 @@
       },
       "en": {
         "title": "Unexpected Pregnancy SOS & Consultation",
-        "easy_explanation": "📞 Gunma Pregnancy SOS (Gunma Prefecture Official / Midwives): 027-289-4323\nHours: Mon, Wed, Fri, Sat 18:00 - 21:00\nLINE/Email: Available 365 days (gunma-ninshin-sos.com)\nOta City Health Promotion Division: 0276-47-1111 (Main)\n\nYou are not alone. It's not your fault, and it's okay to ask for help. Please don't keep it to yourself.\n\nWhen you find out you are pregnant and are too anxious to tell anyone, there are people to support you. \"Gunma Pregnancy SOS\" is a consultation desk operated by Gunma Prefecture, where experienced midwives will consult with you by phone, LINE, or email while keeping your secret. Before deciding whether to \"give birth or not\", please talk to us first. You can also consult with Ota City's public health nurses.",
+        "easy_explanation": "📞 Gunma Ninshin (Pregnancy) SOS: 027-289-4323\nHours: Mon, Wed, Fri, Sat 18:00-21:00\nLINE and Email consultations are also accepted during these hours.\n\nOta City Health Center: 0276-46-5115\nHours: Mon-Fri 8:30-17:15\n\nYou are not to blame. Please do not face this alone. If you discover you are pregnant and feel too anxious to tell anyone, there are people ready to support you. Both Gunma Ninshin SOS and the city's health center will listen to your concerns in strict confidence.",
         "bottom_line": "When you are anxious about an unexpected pregnancy, please don't keep it to yourself. \"Gunma Pregnancy SOS\" (027-289-4323) will keep your secret and listen to you.",
         "faq": [
           {
             "question": "Is this service free?",
             "answer": "Yes, consultation is free."
-          },
-          {
-            "question": "Can I consult in a foreign language?",
-            "answer": "Please call us first. We will guide you about supported languages."
           },
           {
             "question": "Can I consult without giving my name?",
@@ -15294,8 +15282,8 @@
         "five_w1h": {
           "who": "Those facing unexpected pregnancies or pregnancies in difficult situations",
           "what": "Consultation for pregnancy-related worries and anxieties (You can talk about all options, including whether to give birth or not)",
-          "when": "Phone: Mon, Wed, Fri, Sat 18:00 - 21:00. LINE/Email: 365 days",
-          "where": "Phone, LINE, Email (gunma-ninshin-sos.com), or Ota City Hall Health Promotion Division",
+          "when": "Gunma Ninshin SOS: Mon, Wed, Fri, Sat 18:00-21:00. Ota City Health Center: Mon-Fri 8:30-17:15",
+          "where": "Gunma Ninshin SOS (Phone/LINE/Email: gunma-ninshin-sos.com), or Ota City Health Center",
           "why": "To prevent isolation due to unexpected pregnancy and protect the safety of mother and child and their future lives",
           "how": "Consult by phone or LINE → A midwife will listen to you → They will introduce necessary support institutions"
         },
@@ -15306,7 +15294,7 @@
             "required": true
           }
         ],
-        "estimated_time": "Phone / LINE consultation: 30 minutes to 1 hour",
+        "estimated_time": null,
         "related_articles": [
           "pregnancy-notification",
           "birth-allowance",
@@ -15319,12 +15307,21 @@
           "Those troubled and unable to tell anyone about their pregnancy",
           "Those in difficult situations or facing young pregnancies"
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "Gunma Ninshin SOS",
+            "explanation": "A pregnancy consultation service where midwives respond via phone, LINE, or email. Strictly confidential and free of charge."
+          },
+          {
+            "term": "Maternal Health Consultation",
+            "explanation": "Free consultations by midwives and public health nurses for pregnant and postpartum women at the Ota City Health Center."
+          }
+        ],
         "form_guide": null
       },
       "pt": {
         "title": "SOS Gravidez Inesperada e Consulta",
-        "easy_explanation": "📞 SOS Gravidez de Gunma (Oficial da Província de Gunma / Parteiras): 027-289-4323\nHorário: Seg, Qua, Sex, Sáb 18:00 - 21:00\nLINE/E-mail: Disponível 365 dias (gunma-ninshin-sos.com)\nDivisão de Promoção da Saúde da Cidade de Ota: 0276-47-1111 (Geral)\n\nVocê não está sozinho/a. Não é sua culpa, e tudo bem pedir ajuda. Por favor, não guarde isso só para você.\n\nQuando você descobre que está grávida e está muito ansiosa para contar a alguém, há pessoas para apoiá-la. O \"SOS Gravidez de Gunma\" é um balcão de consulta operado pela Província de Gunma, onde parteiras experientes farão consultas com você por telefone, LINE ou e-mail, mantendo seu segredo. Antes de decidir \"dar à luz ou não\", por favor, fale conosco primeiro. Você também pode consultar as enfermeiras de saúde pública da Cidade de Ota.",
+        "easy_explanation": "📞 SOS Gravidez de Gunma: 027-289-4323\nHorário: Seg, Qua, Sex, Sáb 18:00-21:00\nConsultas por LINE e E-mail também são aceitas neste horário.\n\nCentro de Saúde de Ota: 0276-46-5115\nHorário: Seg-Sex 8:30-17:15\n\nA culpa não é sua. Por favor, não enfrente isso sozinha. Se você descobriu que está grávida e está ansiosa demais para contar a alguém, há pessoas prontas para apoiá-la. O SOS Gravidez de Gunma e o Centro de Saúde de Ota ouvirão suas preocupações em absoluto sigilo.",
         "bottom_line": "Quando estiver ansiosa por causa de uma gravidez inesperada, por favor, não guarde isso só para você. O \"SOS Gravidez de Gunma\" (027-289-4323) manterá seu segredo e ouvirá você.",
         "faq": [
           {
@@ -15347,8 +15344,8 @@
         "five_w1h": {
           "who": "Aqueles que enfrentam gravidezes inesperadas ou gravidezes em situações difíceis",
           "what": "Consulta sobre preocupações e ansiedades relacionadas à gravidez (Você pode falar sobre todas as opções, incluindo se vai dar à luz ou não)",
-          "when": "Telefone: Seg, Qua, Sex, Sáb 18:00 - 21:00. LINE/E-mail: 365 dias",
-          "where": "Telefone, LINE, E-mail (gunma-ninshin-sos.com) ou Divisão de Promoção da Saúde da Prefeitura de Ota",
+          "when": "SOS Gravidez de Gunma: Seg, Qua, Sex, Sáb 18:00-21:00. Centro de Saúde de Ota: Seg-Sex 8:30-17:15",
+          "where": "SOS Gravidez de Gunma (Telefone/LINE/E-mail: gunma-ninshin-sos.com), ou Centro de Saúde da Cidade de Ota",
           "why": "Para evitar o isolamento devido a uma gravidez inesperada e proteger a segurança da mãe e da criança e suas vidas futuras",
           "how": "Consulte por telefone ou LINE → Uma parteira ouvirá você → Eles apresentarão as instituições de apoio necessárias"
         },
@@ -15359,7 +15356,7 @@
             "required": true
           }
         ],
-        "estimated_time": "Consulta por telefone / LINE: 30 minutos a 1 hora",
+        "estimated_time": null,
         "related_articles": [
           "pregnancy-notification",
           "birth-allowance",
@@ -15372,7 +15369,16 @@
           "Aquelas preocupadas e incapazes de contar a ninguém sobre sua gravidez",
           "Aquelas em situações difíceis ou enfrentando gravidez jovem"
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "SOS Gravidez de Gunma",
+            "explanation": "Um serviço de consulta sobre gravidez onde parteiras respondem por telefone, LINE ou e-mail. Estritamente confidencial e gratuito."
+          },
+          {
+            "term": "Consulta de Saúde Materna",
+            "explanation": "Consultas gratuitas por parteiras e enfermeiras de saúde pública para mulheres grávidas e no pós-parto no Centro de Saúde da Cidade de Ota."
+          }
+        ],
         "form_guide": null
       }
     },
