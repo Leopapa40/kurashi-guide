@@ -6744,7 +6744,7 @@
     "locales": {
       "ja": {
         "title": "子どもの予防接種（定期接種）",
-        "easy_explanation": "## 定期接種とは？\n市が費用を負担する（無料または一部負担）の予防接種です。決められた年齢・時期に受けることで、感染症から子どもを守ります。\n\n## 主な接種種類\n| 接種名 | 主な対象年齢 |\n|--------|----------|\n| ヒブ | 生後2ヶ月〜 |\n| 小児肺炎球菌 | 生後2ヶ月〜 |\n| B型肝炎 | 生後2ヶ月〜 |\n| BCG（結核） | 生後5〜8ヶ月 |\n| 四種混合（DPT-IPV） | 生後2ヶ月〜 |\n| MR（麻しん・風しん） | 1歳〜 |\n| 水痘 | 1歳〜 |\n| 日本脳炎 | 3歳〜 |\n| 二種混合（DT） | 11歳〜 |\n| HPV | 小6〜高1の女子 |\n\n## 受け方\n市が契約している医療機関で接種します。母子健康手帳を持参してください。",
+        "easy_explanation": "## 定期予防接種とは？\n市が費用を負担する（無料または一部負担）の予防接種です。決められた年齢・時期に受けることで、感染症から子どもを守ります。\n\n## 主な接種種類\n| 接種名 | 主な対象年齢 |\n|--------|----------|\n| ヒブ | 生後2ヶ月〜 |\n| 小児肺炎球菌 | 生後2ヶ月〜 |\n| B型肝炎 | 生後2ヶ月〜 |\n| BCG（結核） | 生後5〜8ヶ月 |\n| 四種混合（DPT-IPV） | 生後2ヶ月〜 |\n| MR（麻しん・風しん） | 1歳〜 |\n| 水痘 | 1歳〜 |\n| 日本脳炎 | 3歳〜 |\n| 二種混合（DT） | 11歳〜 |\n| HPV | 小6〜高1の女子 |\n\n## 受け方\n市が契約している医療機関で接種します。母子健康手帳を持参してください。",
         "bottom_line": "子どもの予防接種は市が費用を負担。母子手帳のスケジュールに合わせて忘れずに受けましょう。",
         "amount_info": "定期接種は無料（一部例外あり）",
         "target_audience": [
@@ -6778,41 +6778,32 @@
         },
         "checklist": [
           {
-            "item": "予防接種予診票",
-            "note": "市から郵送される（母子健康手帳と一緒に管理）",
+            "item": "予防接種予診票（バーコード付き）",
+            "note": "赤ちゃん訪問時に配付。転入者は保健センターで発行（母子健康手帳持参）",
             "required": true
           },
           {
             "item": "母子健康手帳",
             "note": "接種記録の記載に使用",
             "required": true
-          },
-          {
-            "item": "健康保険証（念のため）",
-            "note": "必須ではないが持参すると安心",
-            "required": false
           }
         ],
         "form_guide": null,
         "faq": [
           {
             "question": "定期接種は無料ですか？",
-            "answer": "はい、太田市が定める定期接種のワクチンは原則無料（公費負担）で受けられます。ただし任意接種（インフルエンザ等）は別途費用が必要です。また接種期間外に接種した場合は自己負担になる場合があります。"
+            "answer": "はい、太田市が定める定期接種のワクチンは原則無料（公費負担）で受けられます。ただし任意接種（インフルエンザ等）は別途費用が必要です。また接種期間（対象年齢）を過ぎた場合は自己負担となりますのでご注意ください。"
           },
           {
             "question": "接種スケジュールを忘れてしまった場合はどうすればよいですか？",
-            "answer": "かかりつけ医または市の子育て支援課に相談してください。接種が遅れてしまっても、規定の接種期間内であれば無料で接種できます。母子健康手帳に接種記録を残しておきましょう。"
+            "answer": "各保健センター（太田市保健センター: 0276-46-5115、新田保健センター: 0276-57-2651）へお問い合わせください。接種が遅れてしまっても、規定の接種期間（対象年齢）内であれば無料で接種できます。母子健康手帳に接種記録を残しておきましょう。"
           },
           {
             "question": "転入してきた場合、以前の市での接種記録はどうなりますか？",
-            "answer": "母子健康手帳が接種記録の証明になります。太田市での定期接種は、これまでの接種状況を引き継いで対応します。転入後は市役所または保健センターに接種状況を確認してください。"
-          },
-          {
-            "question": "副反応が出た場合はどうすればよいですか？",
-            "answer": "接種後に重篤な副反応が出た場合は、かかりつけ医または救急へ相談してください。定期接種による健康被害は「予防接種健康被害救済制度」の対象になる場合があります。"
+            "answer": "母子健康手帳が接種記録の証明になります。太田市に転入された場合は、今後必要な予診票を保健センターで発行しています（母子健康手帳を持参の上、来所またはご連絡ください）。"
           }
         ],
-        "estimated_time": "接種当日：医療機関で約30分（接種後の待機時間含む）",
+        "estimated_time": null,
         "related_articles": [
           "child-medical-fee-assistance",
           "pregnancy-notification",
@@ -6827,7 +6818,24 @@
         "target_audience": [
           "Parents of children aged 0 to junior high school"
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "Routine Vaccinations",
+            "explanation": "Vaccinations designated by the national government, which eligible children can receive at public expense (free of charge) based on the Immunization Act. Includes Rotavirus, Pneumococcal, Hepatitis B, DPT-IPV-Hib, BCG, MR (Measles-Rubella), Varicella, and Japanese Encephalitis."
+          },
+          {
+            "term": "Voluntary Vaccinations",
+            "explanation": "Vaccinations not included in routine vaccinations. Can be received upon request, but the cost is generally fully self-funded. Mumps vaccine is an example (Ota City offers partial subsidies)."
+          },
+          {
+            "term": "Maternal and Child Health Handbook",
+            "explanation": "A handbook issued by the municipality upon submission of a pregnancy notification. Used to record pregnancy, birth, childcare, and the child's vaccination and health checkup history. Required for procedures and receiving vaccination questionnaires."
+          },
+          {
+            "term": "Pre-vaccination Questionnaire",
+            "explanation": "A medical questionnaire filled out before receiving a vaccination. Used to check health condition, allergies, and past vaccination history. Distributed during baby visits in Ota City."
+          }
+        ],
         "five_w1h": {
           "who": "Infants to junior high schoolers with residence in Ota City",
           "what": "Routine vaccinations (BCG, Hib, Pneumococcal, MR, etc.)",
@@ -6839,40 +6847,31 @@
         "checklist": [
           {
             "item": "Pre-vaccination Questionnaire (予防接種予診票)",
-            "note": "Mailed by the city.",
+            "note": "Distributed during the baby visit. If you moved to Ota City, contact the Health Center with your Mother and Child Health Handbook.",
             "required": true
           },
           {
             "item": "Maternal and Child Health Handbook (母子健康手帳)",
             "note": "Used to record vaccinations.",
             "required": true
-          },
-          {
-            "item": "Health Insurance Card (健康保険証)",
-            "note": "Not mandatory but good to have.",
-            "required": false
           }
         ],
         "form_guide": null,
         "faq": [
           {
             "question": "Are routine vaccinations free?",
-            "answer": "Yes, routine vaccinations designated by Ota City are free (publicly funded). Voluntary ones like Influenza require fees."
+            "answer": "Yes, routine vaccinations designated by Ota City are free (publicly funded). Voluntary ones like influenza require fees. Note that vaccinations after the target age window become self-funded."
           },
           {
             "question": "What if I missed a scheduled dose?",
-            "answer": "Consult your doctor. If still within the designated age window, it may be free. Record everything in the Maternal Health Handbook."
+            "answer": "Contact the Health Center (Ota City Health Center: 0276-46-5115, Nitta Health Center: 0276-57-2651). If still within the target age window, it is free."
           },
           {
             "question": "What happens to records if I just moved to Ota?",
-            "answer": "Your Handbook serves as proof. Ota City will continue the schedule from where you left off."
-          },
-          {
-            "question": "What if there are side effects?",
-            "answer": "Consult a doctor immediately. Severe side effects from routine vaccines may be covered by the relief system."
+            "answer": "Your Maternal and Child Health Handbook serves as proof. Bring it to the Health Center so they can issue the vaccination questionnaire slips for upcoming vaccinations."
           }
         ],
-        "estimated_time": "About 30 minutes at the clinic (including waiting time)",
+        "estimated_time": null,
         "related_articles": [
           "child-medical-fee-assistance",
           "pregnancy-notification",
@@ -6887,7 +6886,24 @@
         "target_audience": [
           "Pais de crianças de 0 anos até o ensino fundamental"
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "Vacinação de Rotina",
+            "explanation": "Vacinas designadas pelo governo nacional, que crianças elegíveis podem receber às custas públicas (gratuitas) com base na Lei de Imunização. Inclui Rotavírus, Pneumocócica, Hepatite B, DPT-IPV-Hib, BCG, MR (Sarampo-Rubéola), Varicela e Encefalite Japonesa."
+          },
+          {
+            "term": "Vacinação Voluntária",
+            "explanation": "Vacinas não incluídas nas vacinações de rotina. Podem ser recebidas mediante solicitação, mas o custo é geralmente totalmente custeado pelo responsável. A vacina contra caxumba é um exemplo (a cidade de Ota oferece subsídios parciais)."
+          },
+          {
+            "term": "Caderneta de Saúde Materna e Infantil",
+            "explanation": "Um manual emitido pelo município após a apresentação de uma notificação de gravidez. Usado para registrar a gravidez, nascimento, cuidados com a criança, e o histórico de vacinas e exames de saúde da criança. Necessário para procedimentos e para receber questionários de vacinação."
+          },
+          {
+            "term": "Questionário Pré-vacinação",
+            "explanation": "Um questionário médico preenchido antes de receber uma vacina. Usado para verificar a condição de saúde, alergias e histórico de vacinações anteriores. Distribuído durante as visitas aos bebês na cidade de Ota."
+          }
+        ],
         "five_w1h": {
           "who": "Bebês a estudantes em Ota City",
           "what": "Vacinações de rotina (BCG, Hib, MR, etc.)",
@@ -6899,40 +6915,31 @@
         "checklist": [
           {
             "item": "Questionário Pré-vacinação (予防接種予診票)",
-            "note": "Enviado pela cidade.",
+            "note": "Distribuído durante a visita do bebê. Moradores recém-chegados devem contatar o Centro de Saúde com a Caderneta.",
             "required": true
           },
           {
             "item": "Caderneta de Saúde Materna (母子健康手帳)",
             "note": "Para registrar vacinas.",
             "required": true
-          },
-          {
-            "item": "Cartão de Seguro (健康保険証)",
-            "note": "Não é obrigatório, mas bom ter.",
-            "required": false
           }
         ],
         "form_guide": null,
         "faq": [
           {
             "question": "As vacinações de rotina são gratuitas?",
-            "answer": "Sim, as designadas por Ota são gratuitas. As voluntárias, como Gripe, são pagas."
+            "answer": "Sim, as designadas por Ota são gratuitas (financiadas pelo município). As voluntárias, como gripe, são pagas. Atenção: vacinas após a faixa etária alvo são custeadas pelo responsável."
           },
           {
             "question": "E se eu perder uma dose?",
-            "answer": "Consulte seu médico. Se dentro do prazo, pode ser gratuito."
+            "answer": "Entre em contato com o Centro de Saúde (Centro de Saúde de Ota: 0276-46-5115, Centro de Saúde de Nitta: 0276-57-2651). Se ainda dentro do prazo, pode ser gratuito."
           },
           {
             "question": "E os registros se eu acabei de mudar para Ota?",
-            "answer": "A Caderneta serve como prova. Ota continuará o cronograma."
-          },
-          {
-            "question": "E se houver efeitos colaterais?",
-            "answer": "Consulte um médico. Efeitos graves podem ser cobertos pelo sistema de alívio."
+            "answer": "A Caderneta serve como prova. Leve-a ao Centro de Saúde para receber os formulários de vacinação necessários."
           }
         ],
-        "estimated_time": "Cerca de 30 minutos na clínica (incluindo tempo de espera)",
+        "estimated_time": null,
         "related_articles": [
           "child-medical-fee-assistance",
           "pregnancy-notification",
