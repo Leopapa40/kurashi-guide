@@ -1,0 +1,2441 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "city": "ota",
+    "layer": "dental",
+    "generated_at": "2026-05-11T21:06:38.009689+00:00",
+    "sources": [
+      "mhlw",
+      "OpenStreetMap"
+    ],
+    "total_spots": 92
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.379126,
+          36.340316
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-青木歯科医院-36340-139379",
+        "name": "青木歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市丸山町２０５",
+        "phone": null,
+        "specialties": [
+          "歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000760"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.397236,
+          36.330734
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-阿部歯科医院-36330-139397",
+        "name": "阿部歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市只上町３２２－１",
+        "phone": null,
+        "specialties": [
+          "歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000762"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.379963,
+          36.263075
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-あまぬま歯科クリニック-36263-139379",
+        "name": "あまぬま歯科クリニック",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市南矢島町",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000763"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.310662,
+          36.272128
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-いいだ歯科医院-36272-139310",
+        "name": "いいだ歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市新田木崎町８３",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000765"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.325828,
+          36.259435
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-飯塚歯科医院-36259-139325",
+        "name": "飯塚歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市尾島町１６１−９",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000766"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.293965,
+          36.354758
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-いいづか歯科医院-36354-139293",
+        "name": "いいづか歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市大原町４０５－３１",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "歯科口腔外科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000767"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.314246,
+          36.268906
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-五十嵐歯科医院-36268-139314",
+        "name": "五十嵐歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市泉町１３７６－４",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "矯正歯科",
+          "歯科口腔外科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000768"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.348048,
+          36.28185
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-伊丹歯科医院-36281-139348",
+        "name": "伊丹歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市細谷町１１７７",
+        "phone": null,
+        "specialties": [
+          "歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000770"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.304022,
+          36.30493
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-いのおか歯科医院-36304-139304",
+        "name": "いのおか歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市新田市野井町６９９－１",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000772"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.293549,
+          36.348592
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-岩﨑歯科医院-36348-139293",
+        "name": "岩﨑歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市大原町１３４",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "矯正歯科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000774"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.414291,
+          36.316319
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-うめざわ歯科クリニック-36316-139414",
+        "name": "うめざわ歯科クリニック",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市植木野町１３６−４",
+        "phone": null,
+        "specialties": [
+          "歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000775"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.369324,
+          36.285405
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-ＭＫ歯科クリニック-36285-139369",
+        "name": "ＭＫ歯科クリニック",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市新井町５３３－５　ＭＫビル１階",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000776"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.377295,
+          36.290433
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-えんどう歯科-36290-139377",
+        "name": "えんどう歯科",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市飯田町９５８",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "歯科口腔外科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000777"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.418429,
+          36.310181
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-医療法人-大川歯科医院-36310-139418",
+        "name": "医療法人　大川歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市矢場新町１１８番地４",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "矯正歯科",
+          "歯科口腔外科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000778"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.352379,
+          36.311152
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-大木歯科クリニック-36311-139352",
+        "name": "大木歯科クリニック",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市鳥山下町",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "歯科口腔外科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000779"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.398625,
+          36.314208
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-大美賀歯科医院-36314-139398",
+        "name": "大美賀歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市上小林町２３５－１",
+        "phone": null,
+        "specialties": [
+          "歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000782"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.399681,
+          36.308542
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-おおや歯科医院-36308-139399",
+        "name": "おおや歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市安良岡町３６０－１",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "矯正歯科",
+          "歯科口腔外科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000784"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.320127,
+          36.267321
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-医療法人社団絆尚会-尾島デンタルクリニッ-36267-139320",
+        "name": "医療法人社団絆尚会　尾島デンタルクリニック",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市下田島町１０４９番",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "矯正歯科",
+          "歯科口腔外科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000786"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.340629,
+          36.331483
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-尾内歯科医院-36331-139340",
+        "name": "尾内歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市石橋町８３５",
+        "phone": null,
+        "specialties": [
+          "歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000787"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.366519,
+          36.259491
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-小野歯科医院-36259-139366",
+        "name": "小野歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市高林西町８７５－１",
+        "phone": null,
+        "specialties": [
+          "歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000788"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.312047,
+          36.361118
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-恩田歯科医院-36361-139312",
+        "name": "恩田歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市藪塚町",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000789"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.309661,
+          36.303347
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-加藤歯科医院-36303-139309",
+        "name": "加藤歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市新田反町町９４２－３",
+        "phone": null,
+        "specialties": [
+          "歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000790"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.358657,
+          36.295987
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-亀井歯科医院-36295-139358",
+        "name": "亀井歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市西本町６１－６",
+        "phone": null,
+        "specialties": [
+          "歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000792"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.321745,
+          36.257296
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-河口歯科医院-36257-139321",
+        "name": "河口歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市亀岡町５６",
+        "phone": null,
+        "specialties": [
+          "歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000793"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.323384,
+          36.25713
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-岸歯科医院-36257-139323",
+        "name": "岸歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市亀岡町３０－４",
+        "phone": null,
+        "specialties": [
+          "歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000794"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.389155,
+          36.295932
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-きむら歯科医院-36295-139389",
+        "name": "きむら歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市新島町３４９－１４",
+        "phone": null,
+        "specialties": [
+          "歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000795"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.369962,
+          36.292405
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-久保田歯科医院-36292-139369",
+        "name": "久保田歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市浜町３１－３",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "矯正歯科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000796"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.332605,
+          36.268906
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-くぼた歯科-矯正歯科-36268-139332",
+        "name": "くぼた歯科・矯正歯科",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市西新町９９－７",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "矯正歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000797"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.327162,
+          36.258185
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-栗原歯科医院-36258-139327",
+        "name": "栗原歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市尾島町１５０－１",
+        "phone": null,
+        "specialties": [
+          "歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000798"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.350853,
+          36.287571
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-くろさわ歯科クリニック-36287-139350",
+        "name": "くろさわ歯科クリニック",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市由良町７１－１０",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "矯正歯科",
+          "歯科口腔外科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000799"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.357045,
+          36.320124
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-木暮歯科医院-36320-139357",
+        "name": "木暮歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市鶴生田町４９６－１",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "矯正歯科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000801"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.397793,
+          36.288794
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-ゴスペル歯科クリニック-36288-139397",
+        "name": "ゴスペル歯科クリニック",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市内ケ島町１４３５",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "歯科口腔外科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000802"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.286743,
+          36.369867
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-後藤歯科医院-36369-139286",
+        "name": "後藤歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市大原町１１９５－４",
+        "phone": null,
+        "specialties": [
+          "歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000803"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.324079,
+          36.253602
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-小沼歯科クリニック-36253-139324",
+        "name": "小沼歯科クリニック",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市堀口町３４７－２",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "矯正歯科",
+          "歯科口腔外科",
+          "小児歯科",
+          "小児矯正歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000804"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.312273,
+          36.287043
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-小林歯科-36287-139312",
+        "name": "小林歯科",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市新田木崎町１６４３－３",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000805"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.372851,
+          36.292016
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-さいとう歯科医院-36292-139372",
+        "name": "さいとう歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市浜町１２－９",
+        "phone": null,
+        "specialties": [
+          "歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000806"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.394375,
+          36.338345
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-さいとう歯科クリニック-36338-139394",
+        "name": "さいとう歯科クリニック",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市只上町",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "歯科口腔外科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000807"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.27211,
+          36.26149
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-栄田歯科医院-36261-139272",
+        "name": "栄田歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市世良田町３１４９－２２",
+        "phone": null,
+        "specialties": [
+          "歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000808"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.304022,
+          36.313235
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-幸生歯科医院-36313-139304",
+        "name": "幸生歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市新田市野井町６２４－１",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000809"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.29641,
+          36.356452
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-椎名歯科クリニック-36356-139296",
+        "name": "椎名歯科クリニック",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市大原町５０９－２",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000811"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.409098,
+          36.281268
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-篠原歯科医院-36281-139409",
+        "name": "篠原歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市龍舞町１８０２－１",
+        "phone": null,
+        "specialties": [
+          "歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000816"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.344603,
+          36.294737
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-四分一歯科クリニック-36294-139344",
+        "name": "四分一歯科クリニック",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市由良町１００７",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "歯科口腔外科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000817"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.332187,
+          36.290626
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-しまざきデンタルクリニック-36290-139332",
+        "name": "しまざきデンタルクリニック",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市宝町四六一",
+        "phone": null,
+        "specialties": [
+          "歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000818"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.374934,
+          36.289933
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-一般社団法人太田新田歯科医師会-休日歯科-36289-139374",
+        "name": "一般社団法人太田新田歯科医師会　休日歯科診療所",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市新井町５１６番地１８",
+        "phone": null,
+        "specialties": [
+          "歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000819"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.406709,
+          36.299071
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-須藤歯科クリニック-36299-139406",
+        "name": "須藤歯科クリニック",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市石原町９９４－４",
+        "phone": null,
+        "specialties": [
+          "歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000820"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.398932,
+          36.296071
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-医療法人博愛会スマイルデンタルオフィス-36296-139398",
+        "name": "医療法人博愛会スマイルデンタルオフィス",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市石原町２１１－３",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "矯正歯科",
+          "歯科口腔外科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000821"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.377628,
+          36.296599
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-関根歯科医院-36296-139377",
+        "name": "関根歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市東本町",
+        "phone": null,
+        "specialties": [
+          "歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000824"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.334686,
+          36.311735
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-たかはし歯科医院-36311-139334",
+        "name": "たかはし歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市脇屋町５２９－２",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "歯科口腔外科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000826"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.345963,
+          36.305375
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-竹部歯科医院-36305-139345",
+        "name": "竹部歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市新野町１２６４－２",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "歯科口腔外科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000827"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.415765,
+          36.273685
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-たちかわ歯科医院-36273-139415",
+        "name": "たちかわ歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市龍舞町５５６９",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000828"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.403515,
+          36.285128
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-医療法人智慈会ちえ美歯科医院-36285-139403",
+        "name": "医療法人智慈会ちえ美歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市龍舞町１６７０番地の３５",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "矯正歯科",
+          "歯科口腔外科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000829"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.296829,
+          36.298042
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-中央歯科クリニック-36298-139296",
+        "name": "中央歯科クリニック",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市新田上江田町７３５－１",
+        "phone": null,
+        "specialties": [
+          "歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000830"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.383795,
+          36.270879
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-ツイヒジ歯科医院-36270-139383",
+        "name": "ツイヒジ歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市東矢島町１０３８－８",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "矯正歯科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000831"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.413985,
+          36.30857
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-とねき矯正歯科医院-36308-139413",
+        "name": "とねき矯正歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市矢場町",
+        "phone": null,
+        "specialties": [
+          "矯正歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000833"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.373545,
+          36.284156
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-永倉歯科医院-36284-139373",
+        "name": "永倉歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市新井町２２２－４",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000835"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.384042,
+          36.334706
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-長島歯科医院-36334-139384",
+        "name": "長島歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市矢田堀町",
+        "phone": null,
+        "specialties": [
+          "歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000836"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.34574,
+          36.332983
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-医療法人聖ぶどうの会中野歯科医院-36332-139345",
+        "name": "医療法人聖ぶどうの会中野歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市成塚町１５０－８５",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000837"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.379573,
+          36.283906
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-医療法人西ばやし歯科医院-36283-139379",
+        "name": "医療法人西ばやし歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市飯塚町１５９２",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "矯正歯科",
+          "小児歯科",
+          "歯科　小児歯科　矯正歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000838"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.369962,
+          36.299932
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-橋本歯科医院-36299-139369",
+        "name": "橋本歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市本町",
+        "phone": null,
+        "specialties": [
+          "歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000844"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.373378,
+          36.296265
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-橋本歯科クリニック-36296-139373",
+        "name": "橋本歯科クリニック",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市本町２０－１０",
+        "phone": null,
+        "specialties": [
+          "歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000845"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.381461,
+          36.282878
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-長谷川歯科医院-36282-139381",
+        "name": "長谷川歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市飯塚町１５０９－３",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000846"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.348158,
+          36.290849
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-医療法人芳志会-長谷川歯科医院-36290-139348",
+        "name": "医療法人芳志会　長谷川歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市由良町２９４－１",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "矯正歯科",
+          "歯科口腔外科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000847"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.377296,
+          36.261075
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-備前島歯科医院-36261-139377",
+        "name": "備前島歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市高林東町１７８９",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000849"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.328854,
+          36.292987
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-フカサワ歯科クリニック-36292-139328",
+        "name": "フカサワ歯科クリニック",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市沖野町１７９－１",
+        "phone": null,
+        "specialties": [
+          "歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.388876,
+          36.308237
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-ふじい歯科-小児歯科-36308-139388",
+        "name": "ふじい歯科・小児歯科",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市東長岡町１３０８－１",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "矯正歯科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000851"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.387961,
+          36.276573
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-藤平歯科医院-36276-139387",
+        "name": "藤平歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市飯塚町７０２－２０",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000852"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.361713,
+          36.283072
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-布施歯科医院-36283-139361",
+        "name": "布施歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市下浜田町１２１６－３",
+        "phone": null,
+        "specialties": [
+          "歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000853"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.305048,
+          36.360035
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-医療法人社団一槇会伏島歯科医院-36360-139305",
+        "name": "医療法人社団一槇会伏島歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市藪塚町１６１０－２",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000854"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.362269,
+          36.268046
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-堀越歯科医院-36268-139362",
+        "name": "堀越歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市福沢町９５－９",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000856"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.303524,
+          36.262407
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-めぐみ歯科クリニック-36262-139303",
+        "name": "めぐみ歯科クリニック",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市粕川町４３８－１",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "矯正歯科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000857"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.346081,
+          36.314319
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-医療法人社団-とりの森デンタルケア-36314-139346",
+        "name": "医療法人社団　とりの森デンタルケア",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市鳥山中町２７１－１",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "矯正歯科",
+          "小児歯科",
+          "小児矯正歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000858"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.277747,
+          36.303874
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-もろ歯科医院-36303-139277",
+        "name": "もろ歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市新田上田中町６４３ー１",
+        "phone": null,
+        "specialties": [
+          "歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000859"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.362826,
+          36.252437
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-屋代歯科-36252-139362",
+        "name": "屋代歯科",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市高林西町３８２－２６",
+        "phone": null,
+        "specialties": [
+          "歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000860"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.302746,
+          36.280766
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-医療法人社団山鹿歯科医院-36280-139302",
+        "name": "医療法人社団山鹿歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市新田木崎町",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "矯正歯科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000861"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.39982,
+          36.299543
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-山口歯科医院-36299-139399",
+        "name": "山口歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市石原町",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "矯正歯科",
+          "歯科口腔外科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000862"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.276555,
+          36.259712
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-やまぎし歯科医院-36259-139276",
+        "name": "やまぎし歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市世良田町３１０１－７",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "矯正歯科",
+          "小児歯科",
+          "小児矯正歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000863"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.390293,
+          36.316958
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-とやま歯科クリニック-36316-139390",
+        "name": "とやま歯科クリニック",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市東金井町８５８－２",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "歯科口腔外科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000946"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.369851,
+          36.289349
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-医療法人社団-聖医会-田中歯科医院-36289-139369",
+        "name": "医療法人社団　聖医会　田中歯科医院",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市新井町５５０－１３",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "矯正歯科",
+          "歯科口腔外科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000968"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.413653,
+          36.282268
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-ピース歯科-矯正歯科-36282-139413",
+        "name": "ピース歯科・矯正歯科",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市龍舞町９０８―１０",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "矯正歯科",
+          "歯科口腔外科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000969"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.363296,
+          36.293793
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-医療法人-優愛会-ファミリー歯科-矯正歯-36293-139363",
+        "name": "医療法人　優愛会　ファミリー歯科・矯正歯科クリニック",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市西本町４５ー３０",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "矯正歯科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000970"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.368047,
+          36.269407
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-あやの歯科クリニック-36269-139368",
+        "name": "あやの歯科クリニック",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市高林北町１９３１－４",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "歯科口腔外科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100000995"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.411958,
+          36.304487
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-ヒデ-デンタルクリニック-36304-139411",
+        "name": "ヒデ・デンタルクリニック",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市台之郷町",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "矯正歯科",
+          "歯科口腔外科",
+          "小児歯科",
+          "小児矯正歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100001027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.385378,
+          36.277101
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-おおたモール歯科-36277-139385",
+        "name": "おおたモール歯科",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市飯塚町６２６－１　ベイシアおおたモール内",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "矯正歯科",
+          "歯科口腔外科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100001050"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.383351,
+          36.261769
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-太田アクア歯科クリニック-36261-139383",
+        "name": "太田アクア歯科クリニック",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市南矢島町６８ー１",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "矯正歯科",
+          "歯科口腔外科",
+          "小児歯科",
+          "小児矯正歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100001051"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.374519,
+          36.263519
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-ラブ歯科クリニック-36263-139374",
+        "name": "ラブ歯科クリニック",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市南矢島町",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "矯正歯科",
+          "歯科口腔外科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100001052"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.330659,
+          36.297598
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-医療法人社団Ｂｌｕｅ-太田中央歯科クリニ-36297-139330",
+        "name": "医療法人社団Ｂｌｕｅ　太田中央歯科クリニック",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市別所町２８−１",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100001057"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.343381,
+          36.287182
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-いとう歯科口腔外科-36287-139343",
+        "name": "いとう歯科口腔外科",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市由良町１０４－８",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "歯科口腔外科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100001058"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.381646,
+          36.291503
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-とちはら歯科-36291-139381",
+        "name": "とちはら歯科",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市飯田町１１６０－１",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100001059"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.395682,
+          36.285684
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-あい歯科クリニック-36285-139395",
+        "name": "あい歯科クリニック",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市内ケ島町９４７－７",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "歯科口腔外科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100001060"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.403018,
+          36.292437
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-おおたメディカルモール歯科-36292-139403",
+        "name": "おおたメディカルモール歯科",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市下小林町５３４－３　メディカルポート太田",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "矯正歯科",
+          "歯科口腔外科",
+          "小児歯科",
+          "小児矯正歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100001061"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.378695,
+          36.269484
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-えん歯科クリニック-36269-139378",
+        "name": "えん歯科クリニック",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市東矢島町９７０－１",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "矯正歯科",
+          "歯科口腔外科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100001067"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.293523,
+          36.348596
+        ]
+      },
+      "properties": {
+        "id": "mhlw-dental-くわばら歯科クリニック-36348-139293",
+        "name": "くわばら歯科クリニック",
+        "name_en": null,
+        "category": "dental",
+        "subcategory": "dental",
+        "address": "群馬県太田市大原町１３５－４",
+        "phone": null,
+        "specialties": [
+          "歯科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1033100001109"
+      }
+    }
+  ]
+}

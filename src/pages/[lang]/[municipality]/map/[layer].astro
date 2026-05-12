@@ -13,8 +13,7 @@ import layerConfig from '../../../../data/layer_config.json';
 export function getStaticPaths() {
   const langs = ['ja', 'en', 'pt'] as const;
   const municipalities = ['ota-city'] as const;
-  // Phase 2A-2: 全4レイヤー対応
-  const layers = ['wifi', 'medical', 'pharmacy', 'mobile_shop'] as const;
+  const layers = ['wifi', 'medical', 'pharmacy', 'mobile_shop', 'dental'] as const;
 
   return langs.flatMap(lang =>
     municipalities.flatMap(municipality =>
@@ -26,7 +25,7 @@ export function getStaticPaths() {
 }
 
 // サポートするレイヤー（Phase 2A-2）
-const SUPPORTED_LAYERS = ['wifi', 'medical', 'pharmacy', 'mobile_shop'] as const;
+const SUPPORTED_LAYERS = ['wifi', 'medical', 'pharmacy', 'mobile_shop', 'dental'] as const;
 type LayerKey = typeof SUPPORTED_LAYERS[number];
 
 const { lang, municipality, layer } = Astro.params as {
@@ -91,7 +90,7 @@ const PMTILES_URL = 'pmtiles://https://tiles.kurashiguide.org/ota_city.pmtiles';
   <div class="map-page">
     <h1 class="map-page__title">
       <span class="map-page__icon">
-        {layer === 'wifi' ? '📶' : layer === 'medical' ? '🏥' : layer === 'pharmacy' ? '💊' : '📱'}
+        {layer === 'wifi' ? '📶' : layer === 'medical' ? '🏥' : layer === 'pharmacy' ? '💊' : layer === 'dental' ? '🦷' : '📱'}
       </span>
       {L('pageTitle')}
     </h1>
@@ -179,6 +178,7 @@ const PMTILES_URL = 'pmtiles://https://tiles.kurashiguide.org/ota_city.pmtiles';
         layer === 'wifi'       ? '#3b82f6' :  // 青
         layer === 'medical'    ? '#ef4444' :  // 赤
         layer === 'pharmacy'   ? '#10b981' :  // 緑
+        layer === 'dental'     ? '#8b5cf6' :  // 紫
         /* mobile_shop */        '#f59e0b';   // 黄
 
       // GeoJSON ソース追加（クラスタリング有効）

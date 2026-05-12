@@ -3,13 +3,3451 @@
   "metadata": {
     "city": "ota",
     "layer": "medical",
-    "generated_at": "2026-05-10T11:04:58.441334+00:00",
+    "generated_at": "2026-05-11T21:06:35.421706+00:00",
     "sources": [
+      "mhlw",
       "OpenStreetMap"
     ],
-    "total_spots": 25
+    "total_spots": 136
   },
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.364834,
+          36.257009
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-群馬県立がんセンター-36257-139364",
+        "name": "群馬県立がんセンター",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "hospital",
+        "address": "群馬県太田市高林西町６１７ー１",
+        "phone": null,
+        "specialties": [
+          "血液内科",
+          "呼吸器内科",
+          "消化器内科",
+          "腫瘍内科",
+          "緩和ケア内科",
+          "呼吸器外科",
+          "消化器外科",
+          "乳腺外科",
+          "頭頸部外科",
+          "形成外科",
+          "婦人科",
+          "泌尿器科",
+          "精神科",
+          "歯科口腔外科",
+          "放射線科",
+          "病理診断科",
+          "麻酔科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1011100000120"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.361486,
+          36.298503
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-ＳＵＢＡＲＵ健康保険組合太田記念病院-36298-139361",
+        "name": "ＳＵＢＡＲＵ健康保険組合太田記念病院",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "hospital",
+        "address": "群馬県太田市大島町４５５番地１",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "内分泌内科",
+          "脳神経内科",
+          "呼吸器内科",
+          "循環器内科",
+          "消化器内科",
+          "腎臓内科",
+          "外科",
+          "脳神経外科",
+          "呼吸器外科",
+          "血管外科",
+          "心臓血管外科",
+          "腎臓外科",
+          "乳腺外科",
+          "整形外科",
+          "形成外科",
+          "小児科",
+          "小児外科",
+          "産婦人科",
+          "眼科",
+          "耳鼻いんこう科",
+          "皮膚科",
+          "泌尿器科",
+          "精神科",
+          "心療内科",
+          "歯科口腔外科",
+          "リハビリテーション科",
+          "放射線科",
+          "病理診断科",
+          "臨床検査科",
+          "救急科",
+          "麻酔科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1011100000121"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.369607,
+          36.295255
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-本島総合病院-36295-139369",
+        "name": "本島総合病院",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "hospital",
+        "address": "群馬県太田市西本町３－８",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "呼吸器内科",
+          "循環器内科",
+          "消化器内科",
+          "神経内科",
+          "外科",
+          "脳神経外科",
+          "心臓血管外科",
+          "消化器外科",
+          "肛門外科",
+          "整形外科",
+          "形成外科",
+          "小児科",
+          "婦人科",
+          "眼科",
+          "耳鼻いんこう科",
+          "皮膚科",
+          "泌尿器科",
+          "歯科口腔外科",
+          "リウマチ科",
+          "リハビリテーション科",
+          "放射線科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1011100000122"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.422598,
+          36.272597
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人-愛全会-武蔵野病院-36272-139422",
+        "name": "医療法人　愛全会　武蔵野病院",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "hospital",
+        "address": "群馬県太田市龍舞町２９３番地",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "精神科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1011100000123"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.365649,
+          36.310422
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人赤城会三枚橋病院-36310-139365",
+        "name": "医療法人赤城会三枚橋病院",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "hospital",
+        "address": "群馬県太田市長手町１７４４",
+        "phone": null,
+        "specialties": [
+          "精神科",
+          "神経科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1011100000124"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.375993,
+          36.261752
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人三省会-堀江病院-36261-139375",
+        "name": "医療法人三省会　堀江病院",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "hospital",
+        "address": "群馬県太田市高林東町１８００",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "脳神経内科",
+          "循環器内科",
+          "外科",
+          "脳神経外科",
+          "消化器外科",
+          "整形外科",
+          "婦人科",
+          "皮膚科",
+          "泌尿器科",
+          "リハビリテーション科",
+          "放射線科",
+          "麻酔科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1011100000125"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.38097,
+          36.328651
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人財団明理会イムス太田中央総合病院-36328-139380",
+        "name": "医療法人財団明理会イムス太田中央総合病院",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "hospital",
+        "address": "群馬県太田市東今泉町８７５－１",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "内分泌内科",
+          "脳神経内科",
+          "呼吸器内科",
+          "循環器内科",
+          "消化器内科",
+          "総合診療科",
+          "外科",
+          "脳神経外科",
+          "心臓血管外科",
+          "整形外科",
+          "形成外科",
+          "小児科",
+          "婦人科",
+          "眼科",
+          "皮膚科",
+          "泌尿器科",
+          "歯科",
+          "矯正歯科",
+          "歯科口腔外科",
+          "リウマチ科",
+          "リハビリテーション科",
+          "放射線科",
+          "麻酔科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1011100000126"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.399326,
+          36.314823
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-社会医療法人社団-慶友会-東毛敬愛病院-36314-139399",
+        "name": "社会医療法人社団　慶友会　東毛敬愛病院",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "hospital",
+        "address": "群馬県太田市上小林町２３０ー１",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "消化器内科",
+          "外科",
+          "脳神経外科",
+          "整形外科",
+          "泌尿器科",
+          "精神科",
+          "麻酔科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1011100000127"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.383961,
+          36.307407
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人社団松嶺会冨士ヶ丘病院-36307-139383",
+        "name": "医療法人社団松嶺会冨士ヶ丘病院",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "hospital",
+        "address": "群馬県太田市熊野町３８―８１",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "リハビリテーション科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1011100000128"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.379026,
+          36.280262
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人-慶仁会-城山病院-36280-139379",
+        "name": "医療法人　慶仁会　城山病院",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "hospital",
+        "address": "群馬県太田市飯塚町",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "糖尿病・内分泌内科",
+          "脳神経内科",
+          "呼吸器内科",
+          "循環器内科",
+          "消化器内科",
+          "外科",
+          "脳神経外科",
+          "呼吸器外科",
+          "心臓血管外科",
+          "消化器外科",
+          "肛門外科",
+          "整形外科",
+          "泌尿器科",
+          "リウマチ科",
+          "リハビリテーション科",
+          "放射線科",
+          "麻酔科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1011100000129"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.286482,
+          36.338482
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人宏愛会宏愛会第一病院-36338-139286",
+        "name": "医療法人宏愛会宏愛会第一病院",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "hospital",
+        "address": "群馬県太田市六千石町９９－６３",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "外科",
+          "消化器外科",
+          "整形外科",
+          "泌尿器科",
+          "リハビリテーション科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1011100000131"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.418013,
+          36.310154
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人宗仁会あおばクリニック-36310-139418",
+        "name": "医療法人宗仁会あおばクリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市矢場新町３６ー３",
+        "phone": null,
+        "specialties": [
+          "精神科",
+          "心療内科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001346"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.315406,
+          36.304161
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人社団-荒木医院-36304-139315",
+        "name": "医療法人社団　荒木医院",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市新田村田町４４２－１",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "糖尿病内科",
+          "内分泌内科",
+          "小児科",
+          "皮膚科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001349"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.410962,
+          36.280838
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人有坂会有坂医院-36280-139410",
+        "name": "医療法人有坂会有坂医院",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市龍舞町２０７２",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "循環器内科",
+          "小児科",
+          "皮膚科",
+          "放射線科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001350"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.405173,
+          36.29187
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-いいじま呼吸器科内科クリニック-36291-139405",
+        "name": "いいじま呼吸器科内科クリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市下小林町３６５ー４",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "呼吸器内科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001351"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.286762,
+          36.358798
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-五十嵐医院-36358-139286",
+        "name": "五十嵐医院",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市大原町７０１",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "小児科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001352"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.303172,
+          36.355668
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-石井整形外科医院-36355-139303",
+        "name": "石井整形外科医院",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市藪塚町１５０７ー６",
+        "phone": null,
+        "specialties": [
+          "整形外科",
+          "リウマチ科",
+          "リハビリテーション科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001353"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.364497,
+          36.267333
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-石川こどもクリニック-36267-139364",
+        "name": "石川こどもクリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市高林北町２０９４－８",
+        "phone": null,
+        "specialties": [
+          "小児科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001354"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.350609,
+          36.286605
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-石田整形外科医院-36286-139350",
+        "name": "石田整形外科医院",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市由良町１００－１",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "外科",
+          "整形外科",
+          "皮膚科",
+          "リハビリテーション科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001355"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3775,
+          36.290508
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人社団-伊藤産婦人科-36290-139377",
+        "name": "医療法人社団　伊藤産婦人科",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市飯田町９６０",
+        "phone": null,
+        "specialties": [
+          "産婦人科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001357"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.383089,
+          36.29045
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人鹿山整形外科医院-36290-139383",
+        "name": "医療法人鹿山整形外科医院",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市飯田町１０９８",
+        "phone": null,
+        "specialties": [
+          "整形外科",
+          "リウマチ科",
+          "リハビリテーション科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001360"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.387602,
+          36.317467
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人浩然会とうもう整形外科クリニック-36317-139387",
+        "name": "医療法人浩然会とうもう整形外科クリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市東金井町",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "整形外科",
+          "リウマチ科",
+          "リハビリテーション科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001361"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.301747,
+          36.277392
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人至誠会飯塚医院-36277-139301",
+        "name": "医療法人至誠会飯塚医院",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市新田木崎町",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "小児科",
+          "アレルギー科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001362"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.37149,
+          36.285392
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人社団新井診療所-36285-139371",
+        "name": "医療法人社団新井診療所",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市新井町５３２ー１０",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "呼吸器内科",
+          "整形外科",
+          "アレルギー科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001363"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.374548,
+          36.283743
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人社団岩崎会岩崎医院-36283-139374",
+        "name": "医療法人社団岩崎会岩崎医院",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市新井町２０６",
+        "phone": null,
+        "specialties": [
+          "産婦人科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001364"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.387445,
+          36.274421
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人うがじんクリニック-36274-139387",
+        "name": "医療法人うがじんクリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市飯塚町６８５－１０",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "消化器内科",
+          "小児科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001367"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.403137,
+          36.293265
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-えはら内科クリニック-36293-139403",
+        "name": "えはら内科クリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市下小林町５３４ー３",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "呼吸器内科",
+          "循環器内科",
+          "消化器内科",
+          "小児科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001368"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.403704,
+          36.284815
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-大川眼科-36284-139403",
+        "name": "大川眼科",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市下小林町",
+        "phone": null,
+        "specialties": [
+          "眼科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001369"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.306474,
+          36.279416
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人真康会大沢医院-36279-139306",
+        "name": "医療法人真康会大沢医院",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市新田木崎町８１７",
+        "phone": null,
+        "specialties": [
+          "内科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001370"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.347323,
+          36.303353
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人啓俊会大島胃腸科内科クリニック-36303-139347",
+        "name": "医療法人啓俊会大島胃腸科内科クリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市新野町１２４９－１",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "消化器内科",
+          "胃腸内科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001371"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.400543,
+          36.294405
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-太田眼科クリニック-36294-139400",
+        "name": "太田眼科クリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市石原町８１　イオンモール太田店２階",
+        "phone": null,
+        "specialties": [
+          "眼科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001372"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.355907,
+          36.297154
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人財団翡翠会太田じんクリニック-36297-139355",
+        "name": "医療法人財団翡翠会太田じんクリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市藤阿久町７４９ー１",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "腎臓内科",
+          "人工透析内科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001375"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.349292,
+          36.267388
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-太田西部診療所-36267-139349",
+        "name": "太田西部診療所",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市米沢町８０ー２",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "小児科",
+          "麻酔科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001376"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.33318,
+          36.284084
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-太田中央眼科-36284-139333",
+        "name": "太田中央眼科",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市由良町２３３２－３",
+        "phone": null,
+        "specialties": [
+          "眼科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.414123,
+          36.274328
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-太田東こども-おとな診療所-36274-139414",
+        "name": "太田東こども＆おとな診療所",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市龍舞町５５４９",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "小児科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001378"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.381726,
+          36.259839
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-荻野整形外科クリニック-36259-139381",
+        "name": "荻野整形外科クリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市南矢島町４６７－２",
+        "phone": null,
+        "specialties": [
+          "外科",
+          "整形外科",
+          "リウマチ科",
+          "リハビリテーション科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001381"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.308048,
+          36.315952
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人光複会-おぎわら眼科-36315-139308",
+        "name": "医療法人光複会　おぎわら眼科",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市新田市野井町１５８―１",
+        "phone": null,
+        "specialties": [
+          "眼科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001382"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.307633,
+          36.267293
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人健靖会尾島クリニック-36267-139307",
+        "name": "医療法人健靖会尾島クリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市粕川町３３１－１",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "胃腸内科",
+          "外科",
+          "肛門外科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001383"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.371198,
+          36.298143
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-春日医院-36298-139371",
+        "name": "春日医院",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市本町３２－１２",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "アレルギー科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001386"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.358244,
+          36.273351
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人仁洋会-金子クリニック-36273-139358",
+        "name": "医療法人仁洋会　金子クリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市岩瀬川町４７１－５",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "脳神経内科",
+          "神経内科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001387"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.306282,
+          36.281303
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-木崎クリニック-36281-139306",
+        "name": "木崎クリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市新田木崎町",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "外科",
+          "小児科",
+          "眼科",
+          "耳鼻いんこう科",
+          "皮膚科",
+          "アレルギー科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001389"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.346545,
+          36.291602
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-くつなクリニック-36291-139346",
+        "name": "くつなクリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市由良町８８６ー１",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "消化器内科",
+          "外科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001393"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.378339,
+          36.291406
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人社団クボタ皮膚科医院-36291-139378",
+        "name": "医療法人社団クボタ皮膚科医院",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市飯田町１２３６",
+        "phone": null,
+        "specialties": [
+          "皮膚科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001394"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.314909,
+          36.280625
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人-希望会-くろいわ内科-呼吸器科-36280-139314",
+        "name": "医療法人　希望会　くろいわ内科・呼吸器科クリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市上田島町９４９−７",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "呼吸器内科",
+          "小児科",
+          "アレルギー科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001395"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.378448,
+          36.29853
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人ＫＯＳＳＭＯＳ会剣持整形外科-36298-139378",
+        "name": "医療法人ＫＯＳＳＭＯＳ会剣持整形外科",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市東本町４２ー１",
+        "phone": null,
+        "specialties": [
+          "整形外科",
+          "形成外科",
+          "リハビリテーション科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001397"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.379867,
+          36.302383
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-小島医院-36302-139379",
+        "name": "小島医院",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市熊野町８ー９",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "糖尿病内科",
+          "小児科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001398"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.373253,
+          36.290033
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-小林胃腸科医院-36290-139373",
+        "name": "小林胃腸科医院",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市新井町５１８ー１２",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "外科",
+          "放射線科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001399"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.284696,
+          36.265832
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-小林クリニック-36265-139284",
+        "name": "小林クリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市世良田町１５７４ー１",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "呼吸器内科",
+          "循環器内科",
+          "消化器内科",
+          "外科",
+          "小児科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001401"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.379764,
+          36.297663
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人-こばやし小児科内科医院-喜多村-36297-139379",
+        "name": "医療法人　こばやし小児科内科医院　喜多村クリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市東本町４０ー３０",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "脂質代謝内科",
+          "循環器内科",
+          "小児科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001402"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.383795,
+          36.283517
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-一般財団法人-太田市健診センター附属診療-36283-139383",
+        "name": "一般財団法人　太田市健診センター附属診療所",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市飯田町８１８番地",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "小児科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001403"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.291011,
+          36.36797
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-坂本胃腸科医院-36367-139291",
+        "name": "坂本胃腸科医院",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市大原町１０６１−９",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "胃腸内科",
+          "外科",
+          "肛門外科",
+          "皮膚科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001405"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.380065,
+          36.278665
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-佐藤耳鼻咽喉科医院-36278-139380",
+        "name": "佐藤耳鼻咽喉科医院",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市飯塚町９２ー１",
+        "phone": null,
+        "specialties": [
+          "耳鼻いんこう科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001406"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.362333,
+          36.260734
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人秀優会さわのクリニック-36260-139362",
+        "name": "医療法人秀優会さわのクリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市牛沢町１０８６ー１",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "内分泌内科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001407"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.277283,
+          36.25998
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人秀世会しのはらクリニック-36259-139277",
+        "name": "医療法人秀世会しのはらクリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市世良田町４６８ー１",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "循環器内科",
+          "小児科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001409"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.406745,
+          36.310532
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-杉立医院-36310-139406",
+        "name": "杉立医院",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市台之郷町１７１３ー１",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "小児科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001412"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.348075,
+          36.322229
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-杉田内科医院-36322-139348",
+        "name": "杉田内科医院",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市鳥山上町１５３６ー３",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "呼吸器内科",
+          "循環器内科",
+          "胃腸内科",
+          "小児科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001413"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.271996,
+          36.29802
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人リアホナ会鈴木医院-36298-139271",
+        "name": "医療法人リアホナ会鈴木医院",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市新田早川町",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "循環器内科",
+          "消化器内科",
+          "小児科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001414"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.353454,
+          36.261342
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人樫の木会-36261-139353",
+        "name": "医療法人樫の木会",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市牛沢町１７９",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "消化器内科",
+          "小児科",
+          "歯科",
+          "小児歯科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001415"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.365271,
+          36.286126
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-高沢胃腸科外科-36286-139365",
+        "name": "高沢胃腸科外科",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市新井町５６７－１",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "呼吸器内科",
+          "消化器内科",
+          "胃腸内科",
+          "外科",
+          "肛門外科",
+          "小児科",
+          "皮膚科",
+          "アレルギー科",
+          "リウマチ科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001417"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.332863,
+          36.283681
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-たから女性クリニック-36283-139332",
+        "name": "たから女性クリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市由良町２３４０ー１",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "婦人科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001418"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.333335,
+          36.289441
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-宝診療所-36289-139333",
+        "name": "宝診療所",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市宝町３７９",
+        "phone": null,
+        "specialties": [
+          "小児科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001419"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.287258,
+          36.300734
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-宝田医院-36300-139287",
+        "name": "宝田医院",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市新田上江田町１０６４",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "外科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001420"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.390983,
+          36.284279
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-田口医院-36284-139390",
+        "name": "田口医院",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市小舞木町２１３",
+        "phone": null,
+        "specialties": [
+          "皮膚科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001421"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.375929,
+          36.287703
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-竹内医院-36287-139375",
+        "name": "竹内医院",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市飯田町２０３ー２",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "胃腸内科",
+          "外科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001422"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.355144,
+          36.297773
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人淳幸会たちばな小児科アレルギー科-36297-139355",
+        "name": "医療法人淳幸会たちばな小児科アレルギー科クリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市藤阿久町８０５－２",
+        "phone": null,
+        "specialties": [
+          "小児科",
+          "小児皮膚科",
+          "アレルギー科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001423"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.339279,
+          36.312433
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-谷口クリニック-36312-139339",
+        "name": "谷口クリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市城西町７６５－１５",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "循環器内科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001424"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.351658,
+          36.275246
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-土屋クリニック-36275-139351",
+        "name": "土屋クリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市細谷町１４０５ー２",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "皮膚科",
+          "泌尿器科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001426"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.385866,
+          36.283046
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人社団ときざわレディスクリニック-36283-139385",
+        "name": "医療法人社団ときざわレディスクリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市小舞木町２５６",
+        "phone": null,
+        "specialties": [
+          "婦人科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001428"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.379545,
+          36.277906
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人時計台時計台メンタルクリニック-36277-139379",
+        "name": "医療法人時計台時計台メンタルクリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市飯塚町",
+        "phone": null,
+        "specialties": [
+          "精神科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001439"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.368112,
+          36.298399
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-登田医院-36298-139368",
+        "name": "登田医院",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市八幡町１１－６",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "消化器内科",
+          "外科",
+          "肛門外科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001440"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.381656,
+          36.289711
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人社団-田口会-呑龍クリニック-36289-139381",
+        "name": "医療法人社団　田口会　呑龍クリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市飯田町１０８３ー１",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "泌尿器科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001444"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.34577,
+          36.333003
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人聖ぶどうの会中野医院-36333-139345",
+        "name": "医療法人聖ぶどうの会中野医院",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市成塚町１５０ー８５",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "消化器内科",
+          "小児科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001446"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3033,
+          36.306485
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人社団新田診療所-36306-139303",
+        "name": "医療法人社団新田診療所",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市新田市野井町７９５",
+        "phone": null,
+        "specialties": [
+          "内科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001449"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.387792,
+          36.277002
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人社団三位会-野口皮膚科医院-36277-139387",
+        "name": "医療法人社団三位会　野口皮膚科医院",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市飯塚町７０４－１",
+        "phone": null,
+        "specialties": [
+          "形成外科",
+          "小児科",
+          "皮膚科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001450"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.377963,
+          36.259139
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人社団瞳光会馬場医院-36259-139377",
+        "name": "医療法人社団瞳光会馬場医院",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市高林東町１６８８",
+        "phone": null,
+        "specialties": [
+          "眼科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001452"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.38733,
+          36.28601
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-はりがや眼科-36286-139387",
+        "name": "はりがや眼科",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市小舞木町４２３",
+        "phone": null,
+        "specialties": [
+          "眼科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001455"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.379117,
+          36.295455
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-針谷眼科-36295-139379",
+        "name": "針谷眼科",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市東本町２３ー７",
+        "phone": null,
+        "specialties": [
+          "眼科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001456"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.390336,
+          36.281957
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人-昭庸会-平原内科-消化器科-36281-139390",
+        "name": "医療法人　昭庸会　平原内科・消化器科",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市小舞木町２２６",
+        "phone": null,
+        "specialties": [
+          "糖尿病内科",
+          "循環器内科",
+          "消化器内科",
+          "漢方内科",
+          "内視鏡内科",
+          "アレルギー疾患内科",
+          "小児科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001459"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.387975,
+          36.285548
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-深川クリニック-36285-139387",
+        "name": "深川クリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市小舞木町４１５",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "消化器内科",
+          "小児科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001460"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.403137,
+          36.293265
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-ふくだ耳鼻咽喉科クリニック-36293-139403",
+        "name": "ふくだ耳鼻咽喉科クリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市下小林町",
+        "phone": null,
+        "specialties": [
+          "耳鼻いんこう科",
+          "アレルギー科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001461"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.384451,
+          36.27051
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人藤優会藤井レディースクリニック-36270-139384",
+        "name": "医療法人藤優会藤井レディースクリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市東矢島町１１８４ー１",
+        "phone": null,
+        "specialties": [
+          "産婦人科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001463"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.375878,
+          36.292139
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-藤生眼科医院-36292-139375",
+        "name": "藤生眼科医院",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市浜町３－３１",
+        "phone": null,
+        "specialties": [
+          "眼科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001467"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.38194,
+          36.269411
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-星野内科胃腸科医院-36269-139381",
+        "name": "星野内科胃腸科医院",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市東矢島７７６－５",
+        "phone": "0276-48-5525",
+        "specialties": [
+          "内科",
+          "胃腸内科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001468"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.35328,
+          36.315208
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-堀越医院-36315-139353",
+        "name": "堀越医院",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市鳥山下町８７１ー１",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "小児科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001469"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.403076,
+          36.287709
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人まえはら耳鼻咽喉科クリニック-36287-139403",
+        "name": "医療法人まえはら耳鼻咽喉科クリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市下小林町",
+        "phone": null,
+        "specialties": [
+          "耳鼻いんこう科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001470"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.395902,
+          36.294309
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-松本医院-36294-139395",
+        "name": "松本医院",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市東長岡町７６",
+        "phone": null,
+        "specialties": [
+          "産婦人科",
+          "皮膚科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001472"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.2985,
+          36.355284
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-まゆずみこどもクリニック-36355-139298",
+        "name": "まゆずみこどもクリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市大原町四三八の十",
+        "phone": null,
+        "specialties": [
+          "小児科",
+          "アレルギー科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001473"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.382509,
+          36.288545
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-耳鼻咽喉科みなみ医院-36288-139382",
+        "name": "耳鼻咽喉科みなみ医院",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市飯田町８１７ー１",
+        "phone": null,
+        "specialties": [
+          "形成外科",
+          "耳鼻いんこう科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001477"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.384801,
+          36.262928
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-南矢島こどもクリニック-36262-139384",
+        "name": "南矢島こどもクリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市南矢島町３５２ー２",
+        "phone": null,
+        "specialties": [
+          "小児科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001478"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.35047,
+          36.288069
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人みのわクリニック-36288-139350",
+        "name": "医療法人みのわクリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市由良町",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "脳神経外科",
+          "小児科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001479"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.380031,
+          36.283304
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-山岸内科医院-36283-139380",
+        "name": "山岸内科医院",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市飯塚町１５８４",
+        "phone": null,
+        "specialties": [
+          "内科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001482"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.411936,
+          36.304668
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-山口医院-36304-139411",
+        "name": "山口医院",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市台之郷町２５７",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "小児科",
+          "産婦人科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001483"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.359766,
+          36.295438
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-山口外科医院-36295-139359",
+        "name": "山口外科医院",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市西本町５７ー３３",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "内分泌内科",
+          "外科",
+          "整形外科",
+          "小児科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001484"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.40119,
+          36.314148
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-山田クリニック-36314-139401",
+        "name": "山田クリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市上小林町１９３",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "消化器内科",
+          "外科",
+          "肛門外科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001485"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.322753,
+          36.25965
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-横室医院-36259-139322",
+        "name": "横室医院",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市尾島町１１２",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "外科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001487"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.302128,
+          36.345179
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-和賀クリニック-36345-139302",
+        "name": "和賀クリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市大原町",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "小児科",
+          "眼科",
+          "アレルギー科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001488"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.275412,
+          36.301948
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人綿打診療所-36301-139275",
+        "name": "医療法人綿打診療所",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市新田上田中町５５６－１",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "リハビリテーション科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001489"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.378189,
+          36.290478
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人城南会渡辺クリニック-36290-139378",
+        "name": "医療法人城南会渡辺クリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市飯田町",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "脳神経外科",
+          "小児科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001490"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.383094,
+          36.263378
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人社団和と輪シンシアガーデンクリニ-36263-139383",
+        "name": "医療法人社団和と輪シンシアガーデンクリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市東矢島町２８４",
+        "phone": null,
+        "specialties": [
+          "美容内科",
+          "美容外科",
+          "美容皮膚科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001629"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.333318,
+          36.311569
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-もてぎこどもクリニック-36311-139333",
+        "name": "もてぎこどもクリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市脇屋町５２６－１",
+        "phone": null,
+        "specialties": [
+          "小児科",
+          "アレルギー科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001631"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.367577,
+          36.270288
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人恵寿会-小暮整形外科-36270-139367",
+        "name": "医療法人恵寿会　小暮整形外科",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市高林北町１９６８ー１",
+        "phone": null,
+        "specialties": [
+          "整形外科",
+          "リウマチ科",
+          "リハビリテーション科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001632"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.389418,
+          36.274508
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-えびすさまクリニックえびすさまクリニック-36274-139389",
+        "name": "えびすさまクリニックえびすさまクリニック服部・えびすさまクリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市飯塚町９８５番１",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "循環器内科",
+          "消化器内科",
+          "神経内科",
+          "小児科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001642"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.296217,
+          36.356804
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人すいらん会-ほんまち診療所-36356-139296",
+        "name": "医療法人すいらん会　ほんまち診療所",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市大原町",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "眼科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001653"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.346897,
+          36.304306
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人小林眼科クリニック城西眼科-36304-139346",
+        "name": "医療法人小林眼科クリニック城西眼科",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市新野町１２５６－１",
+        "phone": null,
+        "specialties": [
+          "眼科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001654"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.405506,
+          36.29773
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-太田協立診療所-36297-139405",
+        "name": "太田協立診療所",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市石原町",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "消化器内科",
+          "胃腸内科",
+          "小児科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001658"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.367305,
+          36.26798
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人-秀クリニック-36267-139367",
+        "name": "医療法人　秀クリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市高林北町２０３０－１",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "循環器内科",
+          "皮膚科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001689"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.367462,
+          36.29046
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-太田第一整形外科内科-36290-139367",
+        "name": "太田第一整形外科内科",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市浜町",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "整形外科",
+          "リハビリテーション科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001693"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.293769,
+          36.292479
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-たきざわ医院-36292-139293",
+        "name": "たきざわ医院",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市新田赤堀町４３４―２５",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "循環器内科",
+          "小児科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001698"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.386556,
+          36.258611
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人健哲会正田医院-36258-139386",
+        "name": "医療法人健哲会正田医院",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市南矢島町７２６ー３",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "消化器内科",
+          "内視鏡内科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001745"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.378075,
+          36.247771
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-野村クリニック-36247-139378",
+        "name": "野村クリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市古戸町９５７番地４",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "脳神経内科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001791"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.360052,
+          36.287041
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人-ＫＵＢＯＴＡ--太田ハートクリ-36287-139360",
+        "name": "医療法人　ＫＵＢＯＴＡ　　太田ハートクリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市藤阿久町３３３－１",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "循環器内科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001809"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.409959,
+          36.280996
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-なないろこどもクリニック-36280-139409",
+        "name": "なないろこどもクリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市龍舞町１７９９－２",
+        "phone": null,
+        "specialties": [
+          "小児科",
+          "アレルギー科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001810"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.409656,
+          36.281311
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人-こいそ整形外科クリニック-36281-139409",
+        "name": "医療法人　こいそ整形外科クリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市龍舞町１７９９－１０",
+        "phone": null,
+        "specialties": [
+          "整形外科",
+          "リウマチ科",
+          "リハビリテーション科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001818"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.416401,
+          36.272411
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-あいメンタルクリニック-36272-139416",
+        "name": "あいメンタルクリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市龍舞町５６８８ー２",
+        "phone": null,
+        "specialties": [
+          "精神科",
+          "心療内科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001819"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.378157,
+          36.267236
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-太田糖尿病クリニック-36267-139378",
+        "name": "太田糖尿病クリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市南矢島町９０７－１",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "糖尿病内科",
+          "腎臓内科",
+          "人工透析内科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001820"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.395776,
+          36.332681
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人-愛恵会-あいファミリィクリニッ-36332-139395",
+        "name": "医療法人　愛恵会　あいファミリィクリニック太田",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市只上町",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "整形外科",
+          "小児科",
+          "皮膚科",
+          "精神科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001842"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.362152,
+          36.294193
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-おおたブレストクリニック-36294-139362",
+        "name": "おおたブレストクリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市西本町４４ー１４",
+        "phone": null,
+        "specialties": [
+          "乳腺外科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001918"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.35052,
+          36.288101
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-ゆら皮膚科クリニック-36288-139350",
+        "name": "ゆら皮膚科クリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市由良町９３ー４",
+        "phone": null,
+        "specialties": [
+          "小児皮膚科",
+          "皮膚科",
+          "美容皮膚科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001942"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.272577,
+          36.310422
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-しむら整形外科-36310-139272",
+        "name": "しむら整形外科",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市新田大根町１２０５ー２",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "整形外科",
+          "リウマチ科",
+          "リハビリテーション科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001955"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.367398,
+          36.299787
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-太田鈴木眼科-36299-139367",
+        "name": "太田鈴木眼科",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市八幡町２５ー６",
+        "phone": null,
+        "specialties": [
+          "眼科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001956"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.344379,
+          36.298817
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-医療法人明峯会-あおぞら内科リウマチ科ク-36298-139344",
+        "name": "医療法人明峯会　あおぞら内科リウマチ科クリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市新道町３７－３",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "アレルギー科",
+          "リウマチ科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001969"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.374755,
+          36.298392
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-いやさかリゾートクリニック-36298-139374",
+        "name": "いやさかリゾートクリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市本町３０ー１４",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "アレルギー疾患内科",
+          "小児科",
+          "精神科",
+          "心療内科",
+          "アレルギー科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100001983"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.299156,
+          36.348419
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-ふれあいクリニック-36348-139299",
+        "name": "ふれあいクリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市大原町１１５－４２　メゾン飯塚２－１",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "皮膚科",
+          "精神科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100002001"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.320417,
+          36.3028
+        ]
+      },
+      "properties": {
+        "id": "mhlw-medical-なかまクリニック-36302-139320",
+        "name": "なかまクリニック",
+        "name_en": null,
+        "category": "medical",
+        "subcategory": "clinic",
+        "address": "群馬県太田市新田小金井町３０８－１",
+        "phone": null,
+        "specialties": [
+          "内科",
+          "脳神経内科",
+          "脳神経外科"
+        ],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1022100002009"
+      }
+    },
     {
       "type": "Feature",
       "geometry": {
@@ -26,7 +3464,9 @@
         "address": null,
         "phone": null,
         "source": "osm",
-        "brand": null
+        "brand": null,
+        "specialties": [],
+        "languages": []
       }
     },
     {
@@ -45,7 +3485,9 @@
         "address": null,
         "phone": null,
         "source": "osm",
-        "brand": null
+        "brand": null,
+        "specialties": [],
+        "languages": []
       }
     },
     {
@@ -64,7 +3506,9 @@
         "address": null,
         "phone": null,
         "source": "osm",
-        "brand": null
+        "brand": null,
+        "specialties": [],
+        "languages": []
       }
     },
     {
@@ -83,26 +3527,9 @@
         "address": null,
         "phone": null,
         "source": "osm",
-        "brand": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.399326,
-          36.314823
-        ]
-      },
-      "properties": {
-        "id": "hospital-東毛敬愛病院-36314-139399",
-        "name": "東毛敬愛病院",
-        "category": "hospital",
-        "address": null,
-        "phone": null,
-        "source": "osm",
-        "brand": null
+        "brand": null,
+        "specialties": [],
+        "languages": []
       }
     },
     {
@@ -121,64 +3548,9 @@
         "address": null,
         "phone": null,
         "source": "osm",
-        "brand": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.3911963,
-          36.2843989
-        ]
-      },
-      "properties": {
-        "id": "clinic-田口医院-36284-139391",
-        "name": "田口医院",
-        "category": "clinic",
-        "address": null,
-        "phone": null,
-        "source": "osm",
-        "brand": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.3819648,
-          36.2694099
-        ]
-      },
-      "properties": {
-        "id": "clinic-星野内科胃腸科医院-36269-139381",
-        "name": "星野内科胃腸科医院",
-        "category": "clinic",
-        "address": null,
-        "phone": "0276-48-5525",
-        "source": "osm",
-        "brand": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.3786688,
-          36.2983494
-        ]
-      },
-      "properties": {
-        "id": "clinic-剣持整形外科-36298-139378",
-        "name": "剣持整形外科",
-        "category": "clinic",
-        "address": null,
-        "phone": null,
-        "source": "osm",
-        "brand": null
+        "brand": null,
+        "specialties": [],
+        "languages": []
       }
     },
     {
@@ -197,7 +3569,9 @@
         "address": null,
         "phone": null,
         "source": "osm",
-        "brand": null
+        "brand": null,
+        "specialties": [],
+        "languages": []
       }
     },
     {
@@ -216,64 +3590,9 @@
         "address": null,
         "phone": null,
         "source": "osm",
-        "brand": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.3032396,
-          36.3063543
-        ]
-      },
-      "properties": {
-        "id": "hospital-新田診療所-36306-139303",
-        "name": "新田診療所",
-        "category": "hospital",
-        "address": null,
-        "phone": null,
-        "source": "osm",
-        "brand": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.3648918,
-          36.256818
-        ]
-      },
-      "properties": {
-        "id": "hospital-群馬県立がんセンター-36256-139364",
-        "name": "群馬県立がんセンター",
-        "category": "hospital",
-        "address": null,
-        "phone": null,
-        "source": "osm",
-        "brand": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.3797613,
-          36.2976747
-        ]
-      },
-      "properties": {
-        "id": "doctors-こばやし小児科内科-36297-139379",
-        "name": "こばやし小児科内科",
-        "category": "doctors",
-        "address": null,
-        "phone": null,
-        "source": "osm",
-        "brand": null
+        "brand": null,
+        "specialties": [],
+        "languages": []
       }
     },
     {
@@ -292,64 +3611,9 @@
         "address": null,
         "phone": null,
         "source": "osm",
-        "brand": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.3689881,
-          36.2951919
-        ]
-      },
-      "properties": {
-        "id": "hospital-島門会本島総合病院-36295-139368",
-        "name": "島門会本島総合病院",
-        "category": "hospital",
-        "address": null,
-        "phone": null,
-        "source": "osm",
-        "brand": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.3652163,
-          36.3102787
-        ]
-      },
-      "properties": {
-        "id": "hospital-三枚橋病院-36310-139365",
-        "name": "三枚橋病院",
-        "category": "hospital",
-        "address": null,
-        "phone": null,
-        "source": "osm",
-        "brand": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.3606848,
-          36.2984424
-        ]
-      },
-      "properties": {
-        "id": "hospital-極濃湯麺-キントン-36298-139360",
-        "name": "極濃湯麺　キントン",
-        "category": "hospital",
-        "address": null,
-        "phone": null,
-        "source": "osm",
-        "brand": null
+        "brand": null,
+        "specialties": [],
+        "languages": []
       }
     },
     {
@@ -368,26 +3632,9 @@
         "address": null,
         "phone": null,
         "source": "osm",
-        "brand": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.3605491,
-          36.2988147
-        ]
-      },
-      "properties": {
-        "id": "hospital-太田記念病院-36298-139360",
-        "name": "太田記念病院",
-        "category": "hospital",
-        "address": null,
-        "phone": null,
-        "source": "osm",
-        "brand": null
+        "brand": null,
+        "specialties": [],
+        "languages": []
       }
     },
     {
@@ -406,7 +3653,9 @@
         "address": null,
         "phone": null,
         "source": "osm",
-        "brand": null
+        "brand": null,
+        "specialties": [],
+        "languages": []
       }
     },
     {
@@ -425,26 +3674,9 @@
         "address": null,
         "phone": null,
         "source": "osm",
-        "brand": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.3503905,
-          36.2877005
-        ]
-      },
-      "properties": {
-        "id": "doctors-ゆら皮膚科クリニック-36287-139350",
-        "name": "ゆら皮膚科クリニック",
-        "category": "doctors",
-        "address": null,
-        "phone": null,
-        "source": "osm",
-        "brand": null
+        "brand": null,
+        "specialties": [],
+        "languages": []
       }
     },
     {
@@ -463,26 +3695,9 @@
         "address": null,
         "phone": null,
         "source": "osm",
-        "brand": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.3504505,
-          36.2880834
-        ]
-      },
-      "properties": {
-        "id": "doctors-みのわクリニック-36288-139350",
-        "name": "みのわクリニック",
-        "category": "doctors",
-        "address": null,
-        "phone": null,
-        "source": "osm",
-        "brand": null
+        "brand": null,
+        "specialties": [],
+        "languages": []
       }
     }
   ]

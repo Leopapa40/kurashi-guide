@@ -7038,13 +7038,13 @@
   {
     "id": "nursing-care-insurance",
     "category": "health",
-    "original_url": "https://www.city.ota.gunma.jp/page/1277.html",
+    "original_url": "https://www.city.ota.gunma.jp/page/1266.html",
     "locales": {
       "ja": {
         "title": "介護保険（介護サービスを利用するための手続き）",
         "easy_explanation": "## 介護保険とは？\n40歳以上の方が加入し、介護が必要になったときにサービスを受けられる保険制度です。\n\n## 介護サービスを使いたいときは「要介護認定」の申請を\n1. 市役所1階 長寿介護課に申請\n2. 市の職員が自宅を訪問して状態を調査\n3. 審査会が「要支援1〜2」「要介護1〜5」を認定\n4. 認定されたらケアマネジャーと相談してサービスを利用開始\n\n## 自己負担\n原則1割負担（所得によって2〜3割の場合あり）\n\n## 対象\n- 40〜64歳：特定疾病（脳卒中・がん等）が原因の場合のみ\n- 65歳以上：理由を問わず申請可能",
-        "bottom_line": "介護が必要になったら「要介護認定」の申請を。認定されると費用の1〜3割で介護サービスが使えます。",
-        "amount_info": "利用料の1〜3割負担（所得による）",
+        "bottom_line": "介護（介護予防）サービスを利用するには、まず市役所へ「要介護認定」の申請が必要です。",
+        "amount_info": null,
         "target_audience": [
           "介護が必要になった65歳以上の方",
           "特定疾病がある40〜64歳の方",
@@ -7052,20 +7052,8 @@
         ],
         "term_explanations": [
           {
-            "term": "普通徴収",
-            "explanation": "市から送付される納付書を使って、金融機関・コンビニ等で介護保険料を自分で納付する方法。年金年額が18万円未満の人や、特別徴収の要件を満たさない場合に適用される。"
-          },
-          {
-            "term": "介護保険料",
-            "explanation": "介護保険制度を運営するために、40歳以上の人が納める保険料。65歳以上（第1号被保険者）と40〜64歳の医療保険加入者（第2号被保険者）で納め方が異なる。"
-          },
-          {
-            "term": "特別徴収",
-            "explanation": "年金から介護保険料を天引きして徴収する方法。年金の年額が18万円以上の人が原則として対象。年金支払時に自動的に差し引かれるため、自分で納付書を持参する必要がない。"
-          },
-          {
-            "term": "仮徴収",
-            "explanation": "介護保険料の特別徴収において、4月・6月・8月に前年度と同じ額を暫定的に年金から差し引くこと。10月以降の「本徴収」で前年所得を基に確定した年間保険料に調整される。"
+            "term": "要介護状態区分",
+            "explanation": "介護が必要な度合いのこと。要支援1・2、要介護1～5の7段階と、非該当（自立）に分けられます。"
           }
         ],
         "five_w1h": {
@@ -7138,7 +7126,7 @@
             "answer": "介護サービスの利用者は原則1割負担です（一定以上の所得がある方は2〜3割）。在宅サービスと施設サービスで費用の計算方法が異なります。"
           }
         ],
-        "estimated_time": "窓口相談：約30分 / 要介護認定申請〜結果：30日以内",
+        "estimated_time": null,
         "related_articles": [
           "elderly-medical-insurance",
           "high-cost-medical",
@@ -7149,13 +7137,18 @@
       "en": {
         "title": "Long-Term Care Insurance",
         "easy_explanation": "Those 65+ (or 40-64 with specific conditions) can apply for care certification to access subsidized care services at 10-30% of the cost.",
-        "bottom_line": "Apply for care certification at City Hall if you need nursing care. Services cost 10-30% of the actual fee.",
-        "amount_info": "10% to 30% of user fee (depending on income)",
+        "bottom_line": "To use nursing care (preventive nursing care) services, you must first apply for 'Nursing Care Needs Certification' at the city hall.",
+        "amount_info": null,
         "target_audience": [
           "People aged 65+ needing care",
           "People aged 40-64 with specific diseases"
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "Nursing Care Need Category (要介護状態区分)",
+            "explanation": "The degree of nursing care required. It is divided into 7 levels (Support Levels 1-2, Care Levels 1-5) and Non-applicable (Independent)."
+          }
+        ],
         "five_w1h": {
           "who": "Seniors 65+ needing care (or 40-64 with specific illnesses)",
           "what": "Apply for Care Needs Certification",
@@ -7186,7 +7179,11 @@
             "required": false
           }
         ],
-        "form_guide": null,
+        "form_guide": {
+          "form_name": "Application for Nursing Care/Support Certification",
+          "fields": [],
+          "tips": []
+        },
         "faq": [
           {
             "question": "When do I join the Care Insurance?",
@@ -7205,7 +7202,7 @@
             "answer": "Generally 10% of the service fee. Those with certain income levels may pay 20% or 30%."
           }
         ],
-        "estimated_time": "Consultation: 30 mins. Certification results: within 30 days.",
+        "estimated_time": null,
         "related_articles": [
           "elderly-medical-insurance",
           "high-cost-medical",
@@ -7216,12 +7213,17 @@
       "pt": {
         "title": "Seguro de Cuidados de Longa Duração",
         "easy_explanation": "Pessoas com 65+ (ou 40-64 com condições específicas) podem solicitar certificação de cuidados para acessar serviços subsidiados pagando 10-30% do custo.",
-        "bottom_line": "Solicite certificação de cuidados na Prefeitura se precisar de assistência. Os serviços custam 10-30% do valor real.",
-        "amount_info": "10% a 30% da taxa de uso (dependendo da renda)",
+        "bottom_line": "Para usar os serviços de cuidados de enfermagem (cuidados preventivos), você deve primeiro solicitar a 'Certificação de Necessidade de Cuidados' na prefeitura.",
+        "amount_info": null,
         "target_audience": [
           "Pessoas com 65+ precisando de cuidados"
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "Categoria de Necessidade de Cuidados (要介護状態区分)",
+            "explanation": "O grau de cuidado necessário. É dividido em 7 níveis (Níveis de Suporte 1-2, Níveis de Cuidado 1-5) e Não aplicável (Independente)."
+          }
+        ],
         "five_w1h": {
           "who": "Idosos 65+ precisando de cuidados (ou 40-64 com doenças específicas)",
           "what": "Solicitar Certificação de Necessidade de Cuidados",
@@ -7252,7 +7254,11 @@
             "required": false
           }
         ],
-        "form_guide": null,
+        "form_guide": {
+          "form_name": "Formulário de Solicitação de Certificação de Cuidados de Enfermagem/Apoio",
+          "fields": [],
+          "tips": []
+        },
         "faq": [
           {
             "question": "Quando eu entro no Seguro de Cuidados?",
@@ -7271,7 +7277,7 @@
             "answer": "Geralmente 10% da taxa do serviço. Rendas mais altas podem pagar 20% ou 30%."
           }
         ],
-        "estimated_time": "Consulta: 30 mins. Resultados da certificação: até 30 dias.",
+        "estimated_time": null,
         "related_articles": [
           "elderly-medical-insurance",
           "high-cost-medical",

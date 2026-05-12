@@ -38,6 +38,31 @@
       "en": "Hospitals & Clinics",
       "pt": "Hospitais e Clínicas"
     },
+    "filter_config": {
+      "subcategory": {
+        "label": { "ja": "種別", "en": "Type", "pt": "Tipo" },
+        "options": {
+          "all":      { "ja": "すべて",   "en": "All",     "pt": "Todos" },
+          "hospital": { "ja": "病院",     "en": "Hospital", "pt": "Hospital" },
+          "clinic":   { "ja": "クリニック", "en": "Clinic",   "pt": "Clínica" }
+        }
+      },
+      "specialty": {
+        "label": { "ja": "診療科", "en": "Specialty", "pt": "Especialidade" },
+        "dynamic": true
+      },
+      "language": {
+        "label": { "ja": "外国語対応", "en": "Language Support", "pt": "Idiomas" },
+        "options": {
+          "all": { "ja": "すべて", "en": "All",        "pt": "Todos" },
+          "en":  { "ja": "英語",   "en": "English",    "pt": "Inglês" },
+          "pt":  { "ja": "ポルトガル語", "en": "Portuguese", "pt": "Português" },
+          "zh":  { "ja": "中国語", "en": "Chinese",    "pt": "Chinês" },
+          "es":  { "ja": "スペイン語", "en": "Spanish",   "pt": "Espanhol" },
+          "ko":  { "ja": "韓国語", "en": "Korean",     "pt": "Coreano" }
+        }
+      }
+    },
     "osm_tags": [
       "amenity=hospital",
       "amenity=clinic",
@@ -54,6 +79,19 @@
       "ja": "薬局・ドラッグストア",
       "en": "Pharmacies",
       "pt": "Farmácias"
+    },
+    "filter_config": {
+      "language": {
+        "label": { "ja": "外国語対応", "en": "Language Support", "pt": "Idiomas" },
+        "options": {
+          "all": { "ja": "すべて", "en": "All",        "pt": "Todos" },
+          "en":  { "ja": "英語",   "en": "English",    "pt": "Inglês" },
+          "pt":  { "ja": "ポルトガル語", "en": "Portuguese", "pt": "Português" },
+          "zh":  { "ja": "中国語", "en": "Chinese",    "pt": "Chinês" },
+          "es":  { "ja": "スペイン語", "en": "Spanish",   "pt": "Espanhol" },
+          "ko":  { "ja": "韓国語", "en": "Korean",     "pt": "Coreano" }
+        }
+      }
     },
     "osm_tags": [
       "amenity=pharmacy",
@@ -78,6 +116,36 @@
     "csv_category": "mobile_shop",
     "icon": "mobile",
     "related_categories": ["foreigner"],
+    "show_for_all": false
+  },
+  "dental": {
+    "title": {
+      "ja": "歯科",
+      "en": "Dental Clinics",
+      "pt": "Clínicas Odontológicas"
+    },
+    "filter_config": {
+      "specialty": {
+        "label": { "ja": "診療科", "en": "Specialty", "pt": "Especialidade" },
+        "dynamic": true
+      },
+      "language": {
+        "label": { "ja": "外国語対応", "en": "Language Support", "pt": "Idiomas" },
+        "options": {
+          "all": { "ja": "すべて", "en": "All",        "pt": "Todos" },
+          "en":  { "ja": "英語",   "en": "English",    "pt": "Inglês" },
+          "pt":  { "ja": "ポルトガル語", "en": "Portuguese", "pt": "Português" },
+          "zh":  { "ja": "中国語", "en": "Chinese",    "pt": "Chinês" },
+          "es":  { "ja": "スペイン語", "en": "Spanish",   "pt": "Espanhol" },
+          "ko":  { "ja": "韓国語", "en": "Korean",     "pt": "Coreano" }
+        }
+      }
+    },
+    "osm_tags": ["amenity=dentist"],
+    "needs_whitelist": false,
+    "csv_category": "dental",
+    "icon": "dental",
+    "related_categories": ["health", "foreigner"],
     "show_for_all": false
   }
 }

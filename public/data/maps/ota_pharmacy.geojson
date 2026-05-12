@@ -3,13 +3,2567 @@
   "metadata": {
     "city": "ota",
     "layer": "pharmacy",
-    "generated_at": "2026-05-10T20:34:02.003129+00:00",
+    "generated_at": "2026-05-11T21:06:39.074520+00:00",
     "sources": [
+      "mhlw",
       "OpenStreetMap"
     ],
-    "total_spots": 36
+    "total_spots": 135
   },
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.405792,
+          36.297682
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-あおば薬局-太田店-36297-139405",
+        "name": "あおば薬局　太田店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市石原町９２３―１",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000519"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.412125,
+          36.304182
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-あかね薬局-36304-139412",
+        "name": "あかね薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市台之郷町２４９－３",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000521"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.380044,
+          36.29796
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-アップル薬局-36297-139380",
+        "name": "アップル薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市東本町３４ー１４",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000523"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.314606,
+          36.280488
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-あゆみ薬局-36280-139314",
+        "name": "あゆみ薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市上田島町９４９－８",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000526"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.34952,
+          36.267129
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-薬局イワセくんの店-36267-139349",
+        "name": "薬局イワセくんの店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市米沢町６６－２",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000528"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.38521,
+          36.306709
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-エムシー薬局太田店-36306-139385",
+        "name": "エムシー薬局太田店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市熊野町３７－４",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000529"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.302911,
+          36.305958
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-エンドー薬局-36305-139302",
+        "name": "エンドー薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市新田市野井町８５２－１",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000530"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.30758,
+          36.266406
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-おおしま調剤薬局-36266-139307",
+        "name": "おおしま調剤薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市粕川町３３３－３",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000531"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.361004,
+          36.297237
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-株式会社-太田中央薬局-36297-139361",
+        "name": "株式会社　太田中央薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市大島町１２５－１－２",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000532"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.376933,
+          36.296099
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-有限会社-太田薬局-36296-139376",
+        "name": "有限会社　太田薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市東本町２８－２",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000534"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.361089,
+          36.297513
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-太田市薬剤師会会営薬局-36297-139361",
+        "name": "太田市薬剤師会会営薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市大島町１２５－１－１",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000537"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.375269,
+          36.262436
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-大津屋薬局ラブ店-36262-139375",
+        "name": "大津屋薬局ラブ店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市高林寿町１８０９－１",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000538"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.379602,
+          36.254187
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-木戸薬局-36254-139379",
+        "name": "木戸薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市古戸町１１７７－５",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000543"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.320884,
+          36.25888
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-有限会社京屋薬局-36258-139320",
+        "name": "有限会社京屋薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市尾島町４５１－１",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000544"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.362574,
+          36.283739
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-きりん調剤薬局-36283-139362",
+        "name": "きりん調剤薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市下浜田町１２０６－１",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000545"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.339907,
+          36.330456
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-斉藤薬局-36330-139339",
+        "name": "斉藤薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市石橋町８１７－１",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000547"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.356685,
+          36.292127
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-西藤薬局-36292-139356",
+        "name": "西藤薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市藤阿久町６１８－８番地",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000548"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.358186,
+          36.273073
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-さわの薬局-36273-139358",
+        "name": "さわの薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市岩瀬川町",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000549"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.388072,
+          36.277379
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-しののめ薬局-36277-139388",
+        "name": "しののめ薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市飯塚町８７８",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000550"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.337354,
+          36.293182
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-有限会社すけど薬局-おおた店-36293-139337",
+        "name": "有限会社すけど薬局　おおた店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市由良町１６３６－７",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000551"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.386267,
+          36.284433
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-星漢堂薬局-36284-139386",
+        "name": "星漢堂薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市小舞木町",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000552"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.35649,
+          36.312319
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-調剤薬局太陽-36312-139356",
+        "name": "調剤薬局太陽",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市鳥山町５９３－１",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000554"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.377157,
+          36.259575
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy--有-タカギファーマシーたんぽぽ調剤薬局-36259-139377",
+        "name": "（有）タカギファーマシーたんぽぽ調剤薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市高林東町１６９５",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000555"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.383156,
+          36.268269
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-そうごう薬局-東矢島店-36268-139383",
+        "name": "そうごう薬局　東矢島店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市東矢島町１１２３－１１",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000559"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.358436,
+          36.275017
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-ウエルシア薬局-太田岩瀬川店-36275-139358",
+        "name": "ウエルシア薬局　太田岩瀬川店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市岩瀬川町",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000560"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.382905,
+          36.290988
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-ウエルシア薬局太田南口店-36290-139382",
+        "name": "ウエルシア薬局太田南口店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市飯田町１１０１",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000561"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.366853,
+          36.257019
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-共創未来-太田薬局-36257-139366",
+        "name": "共創未来　太田薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市高林南町６１６－４",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000567"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.345768,
+          36.332789
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-ヨシハラ薬局-36332-139345",
+        "name": "ヨシハラ薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市成塚町１５０－８４",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000569"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.367573,
+          36.298515
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-富士薬局-36298-139367",
+        "name": "富士薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市八幡町１２－７",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000570"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.374519,
+          36.262269
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-富士薬局高林店-36262-139374",
+        "name": "富士薬局高林店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市高林寿町１８０９－７",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000571"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.381265,
+          36.329068
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-富士薬局中央店-36329-139381",
+        "name": "富士薬局中央店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市東今泉町",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000572"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.350992,
+          36.286877
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-フルーツ薬局-36286-139350",
+        "name": "フルーツ薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市由良町６９－７",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000574"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.35088,
+          36.288155
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-宝泉東薬局-36288-139350",
+        "name": "宝泉東薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市由良町７１－７",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000575"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.296576,
+          36.357202
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-ユニスマイル薬局-ほんまち店-36357-139296",
+        "name": "ユニスマイル薬局　ほんまち店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市大原町５３６－１８",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000576"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.325828,
+          36.258769
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-松葉屋薬局-36258-139325",
+        "name": "松葉屋薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市尾島町１６４",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000577"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.37785,
+          36.290516
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-ミモザ薬局-36290-139377",
+        "name": "ミモザ薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市飯田町９８２番地",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000578"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.302218,
+          36.277349
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-ミモザ薬局-木崎店-36277-139302",
+        "name": "ミモザ薬局　木崎店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市新田木崎町６１０－７",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000579"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.277027,
+          36.259684
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-ミント薬局-36259-139277",
+        "name": "ミント薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市世良田町４７０－２",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000581"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.40271,
+          36.287406
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-メロディ薬局-36287-139402",
+        "name": "メロディ薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市下小林町１９６－６",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000582"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.36024,
+          36.29521
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-ユニスマイル薬局-太田西本町店-36295-139360",
+        "name": "ユニスマイル薬局　太田西本町店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市西本町５７番１７号　大智ビル１階",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000586"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.376239,
+          36.2876
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-飯田薬局-36287-139376",
+        "name": "飯田薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市飯田町２０２－２",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000589"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.404458,
+          36.309681
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-コバヤシ薬局-36309-139404",
+        "name": "コバヤシ薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市台之郷町１３３６－２５",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000591"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.303187,
+          36.355397
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-ユニスマイル薬局-藪塚店-36355-139303",
+        "name": "ユニスマイル薬局　藪塚店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市藪塚町１５０７－１",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000592"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.418541,
+          36.310098
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-コスモファーマ薬局矢場新町店-36310-139418",
+        "name": "コスモファーマ薬局矢場新町店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市矢場新町３１－２",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000595"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.371462,
+          36.285766
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-くるみ薬局新井町店-36285-139371",
+        "name": "くるみ薬局新井町店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市新井町５３０－２",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000596"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.388156,
+          36.273074
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-ＬＡＣみどり薬局-36273-139388",
+        "name": "ＬＡＣみどり薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市東矢島町１２６０－１",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000597"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.406139,
+          36.289139
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-アイセイ薬局太田店-36289-139406",
+        "name": "アイセイ薬局太田店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市下小林町５３４－３",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000598"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.385573,
+          36.262686
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-株式会社にこにこ薬局-36262-139385",
+        "name": "株式会社にこにこ薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市南矢島町",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000599"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.347519,
+          36.303347
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-城西薬局有限会社-36303-139347",
+        "name": "城西薬局有限会社",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市新野町１２４９－５",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000601"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.30141,
+          36.34537
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-共創未来-大原町薬局-36345-139301",
+        "name": "共創未来　大原町薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市大原町８２－２７６",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000603"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.38807,
+          36.317374
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-共創未来-東金井薬局-36317-139388",
+        "name": "共創未来　東金井薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市東金井町　３１１－３",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000604"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.349826,
+          36.275462
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-ミモザ薬局細谷店-36275-139349",
+        "name": "ミモザ薬局細谷店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市細谷町１３６７－４",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000605"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.390822,
+          36.282073
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-くるみ薬局小舞木店-36282-139390",
+        "name": "くるみ薬局小舞木店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市小舞木町２２３",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000607"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.401403,
+          36.314375
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-アイビー薬局-36314-139401",
+        "name": "アイビー薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市上小林町１９８－２",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000608"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.286856,
+          36.338204
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-そうごう薬局藪塚店-36338-139286",
+        "name": "そうごう薬局藪塚店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市六千石町１１６－５",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000609"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.361159,
+          36.259686
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-コスモファーマ薬局太田南店-36259-139361",
+        "name": "コスモファーマ薬局太田南店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市牛沢町１０８５－４",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000688"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.346603,
+          36.291571
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-共創未来-由良薬局-36291-139346",
+        "name": "共創未来　由良薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市由良町８８７－１",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000695"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.348115,
+          36.298269
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-ウエルシア薬局太田新道町店-36298-139348",
+        "name": "ウエルシア薬局太田新道町店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市新道町１２５４－１",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000698"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.400793,
+          36.294016
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-イオン薬局太田店-36294-139400",
+        "name": "イオン薬局太田店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市石原町８１番地",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000700"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.410792,
+          36.281795
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-オリーブ薬局-36281-139410",
+        "name": "オリーブ薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市龍舞町１７９５－５",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000701"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.296993,
+          36.355063
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-このは薬局おおばら店-36355-139296",
+        "name": "このは薬局おおばら店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市大原町４３８－１８",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000705"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.338075,
+          36.312457
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-城西の杜薬局-36312-139338",
+        "name": "城西の杜薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市城西町５３－２",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.355352,
+          36.297654
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-富士薬局ほほえみ-36297-139355",
+        "name": "富士薬局ほほえみ",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市藤阿久町８０７－７",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000724"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.406903,
+          36.29821
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-ウエルシア薬局-太田石原店-36298-139406",
+        "name": "ウエルシア薬局　太田石原店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市茂木町９１８",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000745"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.385378,
+          36.277101
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-中央薬局飯塚店-36277-139385",
+        "name": "中央薬局飯塚店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市飯塚町９８５－４",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000773"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.275076,
+          36.301766
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-ことのは薬局-36301-139275",
+        "name": "ことのは薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市新田上田中町５５５番１",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000774"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.374269,
+          36.262047
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-太田みなみ薬局-36262-139374",
+        "name": "太田みなみ薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市高林寿町　１７６６ー１１",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000784"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.290576,
+          36.367617
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-わかば薬局大原店-36367-139290",
+        "name": "わかば薬局大原店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市大原町１０５０－２５",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000786"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.382544,
+          36.288294
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-さくら薬局-太田飯田店-36288-139382",
+        "name": "さくら薬局　太田飯田店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市飯田町８０３",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000805"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.380132,
+          36.274699
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-ファイン薬局-飯塚ラフィエット通り-36274-139380",
+        "name": "ファイン薬局　飯塚ラフィエット通り",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市飯塚町６３－３",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000818"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.36638,
+          36.265602
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-中央薬局高林店-36265-139366",
+        "name": "中央薬局高林店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市高林北町",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000819"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.298079,
+          36.290209
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-あかつき薬局-36290-139298",
+        "name": "あかつき薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市新田赤堀町４３４－２７",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000834"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.360886,
+          36.296977
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-富士薬局大島店-36296-139360",
+        "name": "富士薬局大島店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市大島町１２５－１－３",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000861"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.356574,
+          36.28871
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-クスリのアオキ藤阿久薬局-36288-139356",
+        "name": "クスリのアオキ藤阿久薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市藤阿久町７４６－４",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000893"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.381944,
+          36.264766
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-富士薬局-南矢島店-36264-139381",
+        "name": "富士薬局　南矢島店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市南矢島町３２ー５",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000906"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.349463,
+          36.300931
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-ユニスマイル薬局-太田店-36300-139349",
+        "name": "ユニスマイル薬局　太田店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市新野町９７１－３",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000915"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.366434,
+          36.299098
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-スギ薬局-太田八幡町店-36299-139366",
+        "name": "スギ薬局　太田八幡町店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市八幡町２９番地１３とりせん内",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000990"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.356639,
+          36.289004
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-おおしま薬局ふじあく店-36289-139356",
+        "name": "おおしま薬局ふじあく店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市藤阿久町９７ー１",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.345269,
+          36.306597
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-にいの薬局-36306-139345",
+        "name": "にいの薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市新野町１２５７－４",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102000998"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.379092,
+          36.267364
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-かがやき薬局-36267-139379",
+        "name": "かがやき薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市南矢島町９０８ー７",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102001011"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.334539,
+          36.285563
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-ウエルシア薬局太田宝泉店-36285-139334",
+        "name": "ウエルシア薬局太田宝泉店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市宝町８６８",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102001012"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.416401,
+          36.272411
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-さくらんぼ薬局-36272-139416",
+        "name": "さくらんぼ薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市龍舞町５６８８－２－２",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102001016"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.409648,
+          36.281221
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-あんじゅ薬局-龍舞店-36281-139409",
+        "name": "あんじゅ薬局　龍舞店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市龍舞町１７９９－１１",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102001025"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.364963,
+          36.310526
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-さんまい橋薬局-36310-139364",
+        "name": "さんまい橋薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市長手町５２ー５",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102001060"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.382934,
+          36.292631
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-あかり薬局-36292-139382",
+        "name": "あかり薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市飯田町１３５１－１",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102001079"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.36979,
+          36.295871
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-アイン薬局-太田西本町店-36295-139369",
+        "name": "アイン薬局　太田西本町店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市西本町４－３－１５",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102001082"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.378275,
+          36.298345
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-カナケン薬局-36298-139378",
+        "name": "カナケン薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市東本町４２番５号",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102001090"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.387761,
+          36.285623
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-ファイン薬局-小舞木東-36285-139387",
+        "name": "ファイン薬局　小舞木東",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市小舞木町４１７　アビーロード１０１",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102001097"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.311134,
+          36.259199
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-ウエルシア薬局太田尾島店-36259-139311",
+        "name": "ウエルシア薬局太田尾島店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市安養寺町２２－２",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102001115"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.403991,
+          36.285317
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-ファイン薬局-下小林-36285-139403",
+        "name": "ファイン薬局　下小林",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市下小林町５１ー３",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102001117"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.355447,
+          36.297215
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-富士薬局藤阿久店-36297-139355",
+        "name": "富士薬局藤阿久店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市藤阿久町７５０－４",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102001131"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.387783,
+          36.26392
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-中央薬局東矢島店-36263-139387",
+        "name": "中央薬局東矢島店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市東矢島町７９ー１",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102001132"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.396656,
+          36.283487
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-クスリのアオキ内ケ島薬局-36283-139396",
+        "name": "クスリのアオキ内ケ島薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市内ケ島町８２２番地５",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102001182"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.350383,
+          36.287827
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-あんじゅ薬局-由良店-36287-139350",
+        "name": "あんじゅ薬局　由良店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市由良町９３－６",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102001185"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.380654,
+          36.259846
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-ウエルシア薬局太田南矢島店-36259-139380",
+        "name": "ウエルシア薬局太田南矢島店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市南矢島町６４５－３",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102001186"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.37913,
+          36.284468
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-ウエルシア薬局太田飯塚店-36284-139379",
+        "name": "ウエルシア薬局太田飯塚店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市飯塚町１６０２",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102001207"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.371737,
+          36.291182
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-クスリのアオキ浜町薬局-36291-139371",
+        "name": "クスリのアオキ浜町薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市浜町１９番８号",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102001241"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.344532,
+          36.298952
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-マロン薬局-36298-139344",
+        "name": "マロン薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市新道町",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102001247"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.273371,
+          36.310308
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-中央薬局-新田店-36310-139273",
+        "name": "中央薬局　新田店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市新田大根町１１９６‐３",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102001258"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.383086,
+          36.327558
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-富士薬局-東今泉店-36327-139383",
+        "name": "富士薬局　東今泉店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市東今泉町８２０－６",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102001273"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.357211,
+          36.265007
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-ウエルシア薬局太田富沢店-36265-139357",
+        "name": "ウエルシア薬局太田富沢店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市富沢町２７４",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102001274"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.365652,
+          36.286061
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-すけど薬局-新井町店-36286-139365",
+        "name": "すけど薬局　新井町店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市新井町",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102001281"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.361406,
+          36.297029
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-スギ薬局-太田西本町店-36297-139361",
+        "name": "スギ薬局　太田西本町店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市西本町３９番５号",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102001295"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.360536,
+          36.297236
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-太田東薬局-36297-139360",
+        "name": "太田東薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市西本町３９－１７",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102001298"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.379286,
+          36.279169
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-ファイン薬局-飯塚-36279-139379",
+        "name": "ファイン薬局　飯塚",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市飯塚町３６番１",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102001305"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.320455,
+          36.302793
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-あんじゅ薬局-新田店-36302-139320",
+        "name": "あんじゅ薬局　新田店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市新田小金井町３０８番地５号",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102001308"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.309962,
+          36.362951
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-ウエルシア薬局太田藪塚店-36362-139309",
+        "name": "ウエルシア薬局太田藪塚店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市藪塚町１２９５番地",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102001319"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.306527,
+          36.276815
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-クスリのアオキ新田木崎薬局-36276-139306",
+        "name": "クスリのアオキ新田木崎薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市新田木崎町５３０番地２",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102001366"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.346874,
+          36.322125
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-マルエ薬局鳥山店-36322-139346",
+        "name": "マルエ薬局鳥山店",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市鳥山上町１５３０－３",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102001367"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.295404,
+          36.347509
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-クスリのアオキ太田大原薬局-36347-139295",
+        "name": "クスリのアオキ太田大原薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市大原町１１２－１１",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102001374"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.385109,
+          36.293155
+        ]
+      },
+      "properties": {
+        "id": "mhlw-pharmacy-クスリのアオキ新島薬局-36293-139385",
+        "name": "クスリのアオキ新島薬局",
+        "name_en": null,
+        "category": "pharmacy",
+        "subcategory": "pharmacy",
+        "address": "群馬県太田市新島町９８１番地４",
+        "phone": null,
+        "specialties": [],
+        "languages": [],
+        "source": "mhlw",
+        "mhlw_id": "1056102001403"
+      }
+    },
     {
       "type": "Feature",
       "geometry": {
@@ -26,7 +2580,9 @@
         "address": "太田桐生線",
         "phone": null,
         "source": "osm",
-        "brand": null
+        "brand": null,
+        "specialties": [],
+        "languages": []
       }
     },
     {
@@ -45,7 +2601,9 @@
         "address": null,
         "phone": null,
         "source": "osm",
-        "brand": null
+        "brand": null,
+        "specialties": [],
+        "languages": []
       }
     },
     {
@@ -64,7 +2622,9 @@
         "address": null,
         "phone": null,
         "source": "osm",
-        "brand": null
+        "brand": null,
+        "specialties": [],
+        "languages": []
       }
     },
     {
@@ -83,7 +2643,9 @@
         "address": "太田大間々線",
         "phone": null,
         "source": "osm",
-        "brand": null
+        "brand": null,
+        "specialties": [],
+        "languages": []
       }
     },
     {
@@ -102,7 +2664,9 @@
         "address": null,
         "phone": null,
         "source": "osm",
-        "brand": null
+        "brand": null,
+        "specialties": [],
+        "languages": []
       }
     },
     {
@@ -121,45 +2685,9 @@
         "address": null,
         "phone": null,
         "source": "osm",
-        "brand": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.3782848,
-          36.2983366
-        ]
-      },
-      "properties": {
-        "id": "pharmacy-カナケン薬局-36298-139378",
-        "name": "カナケン薬局",
-        "category": "pharmacy",
-        "address": null,
-        "phone": null,
-        "source": "osm",
-        "brand": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.3768649,
-          36.2959912
-        ]
-      },
-      "properties": {
-        "id": "pharmacy-太田薬局-36295-139376",
-        "name": "太田薬局",
-        "category": "pharmacy",
-        "address": null,
-        "phone": null,
-        "source": "osm",
-        "brand": null
+        "brand": null,
+        "specialties": [],
+        "languages": []
       }
     },
     {
@@ -178,26 +2706,9 @@
         "address": null,
         "phone": null,
         "source": "osm",
-        "brand": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.3795364,
-          36.2787724
-        ]
-      },
-      "properties": {
-        "id": "pharmacy-ファイン薬局-36278-139379",
-        "name": "ファイン薬局",
-        "category": "pharmacy",
-        "address": null,
-        "phone": null,
-        "source": "osm",
-        "brand": null
+        "brand": null,
+        "specialties": [],
+        "languages": []
       }
     },
     {
@@ -216,26 +2727,9 @@
         "address": null,
         "phone": null,
         "source": "osm",
-        "brand": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.3851313,
-          36.2932072
-        ]
-      },
-      "properties": {
-        "id": "chemist-クスリのアオキ-36293-139385",
-        "name": "クスリのアオキ",
-        "category": "chemist",
-        "address": null,
-        "phone": null,
-        "source": "osm",
-        "brand": null
+        "brand": null,
+        "specialties": [],
+        "languages": []
       }
     },
     {
@@ -254,26 +2748,9 @@
         "address": null,
         "phone": null,
         "source": "osm",
-        "brand": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.3806151,
-          36.2600454
-        ]
-      },
-      "properties": {
-        "id": "chemist-ウエルシア薬局-36260-139380",
-        "name": "ウエルシア薬局",
-        "category": "chemist",
-        "address": null,
-        "phone": null,
-        "source": "osm",
-        "brand": null
+        "brand": null,
+        "specialties": [],
+        "languages": []
       }
     },
     {
@@ -292,7 +2769,9 @@
         "address": null,
         "phone": null,
         "source": "osm",
-        "brand": null
+        "brand": null,
+        "specialties": [],
+        "languages": []
       }
     },
     {
@@ -311,7 +2790,9 @@
         "address": null,
         "phone": null,
         "source": "osm",
-        "brand": null
+        "brand": null,
+        "specialties": [],
+        "languages": []
       }
     },
     {
@@ -330,7 +2811,9 @@
         "address": null,
         "phone": null,
         "source": "osm",
-        "brand": null
+        "brand": null,
+        "specialties": [],
+        "languages": []
       }
     },
     {
@@ -349,26 +2832,9 @@
         "address": null,
         "phone": null,
         "source": "osm",
-        "brand": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.3208656,
-          36.2589016
-        ]
-      },
-      "properties": {
-        "id": "pharmacy-京屋薬局-36258-139320",
-        "name": "京屋薬局",
-        "category": "pharmacy",
-        "address": null,
-        "phone": null,
-        "source": "osm",
-        "brand": null
+        "brand": null,
+        "specialties": [],
+        "languages": []
       }
     },
     {
@@ -387,7 +2853,9 @@
         "address": null,
         "phone": null,
         "source": "osm",
-        "brand": null
+        "brand": null,
+        "specialties": [],
+        "languages": []
       }
     },
     {
@@ -406,7 +2874,9 @@
         "address": null,
         "phone": null,
         "source": "osm",
-        "brand": null
+        "brand": null,
+        "specialties": [],
+        "languages": []
       }
     },
     {
@@ -425,45 +2895,9 @@
         "address": null,
         "phone": null,
         "source": "osm",
-        "brand": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.273219,
-          36.3103843
-        ]
-      },
-      "properties": {
-        "id": "pharmacy-中央薬局-36310-139273",
-        "name": "中央薬局",
-        "category": "pharmacy",
-        "address": null,
-        "phone": null,
-        "source": "osm",
-        "brand": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.3345504,
-          36.285568
-        ]
-      },
-      "properties": {
-        "id": "pharmacy-ウエルシア薬局-36285-139334",
-        "name": "ウエルシア薬局",
-        "category": "pharmacy",
-        "address": null,
-        "phone": null,
-        "source": "osm",
-        "brand": null
+        "brand": null,
+        "specialties": [],
+        "languages": []
       }
     },
     {
@@ -482,7 +2916,9 @@
         "address": null,
         "phone": null,
         "source": "osm",
-        "brand": null
+        "brand": null,
+        "specialties": [],
+        "languages": []
       }
     },
     {
@@ -501,7 +2937,9 @@
         "address": null,
         "phone": null,
         "source": "osm",
-        "brand": null
+        "brand": null,
+        "specialties": [],
+        "languages": []
       }
     },
     {
@@ -520,7 +2958,9 @@
         "address": null,
         "phone": null,
         "source": "osm",
-        "brand": null
+        "brand": null,
+        "specialties": [],
+        "languages": []
       }
     },
     {
@@ -539,7 +2979,9 @@
         "address": null,
         "phone": null,
         "source": "osm",
-        "brand": null
+        "brand": null,
+        "specialties": [],
+        "languages": []
       }
     },
     {
@@ -558,7 +3000,9 @@
         "address": null,
         "phone": null,
         "source": "osm",
-        "brand": null
+        "brand": null,
+        "specialties": [],
+        "languages": []
       }
     },
     {
@@ -577,7 +3021,9 @@
         "address": null,
         "phone": null,
         "source": "osm",
-        "brand": null
+        "brand": null,
+        "specialties": [],
+        "languages": []
       }
     },
     {
@@ -596,64 +3042,9 @@
         "address": null,
         "phone": null,
         "source": "osm",
-        "brand": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.3109676,
-          36.2591831
-        ]
-      },
-      "properties": {
-        "id": "chemist-ウエルシア薬局-36259-139310",
-        "name": "ウエルシア薬局",
-        "category": "chemist",
-        "address": null,
-        "phone": null,
-        "source": "osm",
-        "brand": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.350368,
-          36.2878256
-        ]
-      },
-      "properties": {
-        "id": "pharmacy-あんじゅ薬局-36287-139350",
-        "name": "あんじゅ薬局",
-        "category": "pharmacy",
-        "address": null,
-        "phone": null,
-        "source": "osm",
-        "brand": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.3508727,
-          36.2881705
-        ]
-      },
-      "properties": {
-        "id": "pharmacy-宝泉東薬局-36288-139350",
-        "name": "宝泉東薬局",
-        "category": "pharmacy",
-        "address": null,
-        "phone": null,
-        "source": "osm",
-        "brand": null
+        "brand": null,
+        "specialties": [],
+        "languages": []
       }
     },
     {
@@ -672,26 +3063,9 @@
         "address": null,
         "phone": null,
         "source": "osm",
-        "brand": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.3613678,
-          36.2970462
-        ]
-      },
-      "properties": {
-        "id": "pharmacy-スギ薬局-36297-139361",
-        "name": "スギ薬局",
-        "category": "pharmacy",
-        "address": null,
-        "phone": null,
-        "source": "osm",
-        "brand": null
+        "brand": null,
+        "specialties": [],
+        "languages": []
       }
     }
   ]
