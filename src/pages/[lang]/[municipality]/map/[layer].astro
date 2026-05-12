@@ -224,6 +224,52 @@ const PMTILES_URL = 'pmtiles://https://tiles.kurashiguide.org/ota_city.pmtiles';
         if (!bar || !filterConfig) return;
         bar.innerHTML = '';
 
+        // 症状フィルター
+        if (filterConfig.symptom_filter) {
+          const symptomConfig = filterConfig.symptom_filter;
+          const labelText = symptomConfig.label?.[lang] ?? 'What are your symptoms?';
+          
+          const labelEl = document.createElement('p');
+          labelEl.className = 'symptom-label';
+          labelEl.textContent = '🔍 ' + labelText;
+          bar.appendChild(labelEl);
+
+          const gridEl = document.createElement('div');
+          gridEl.className = 'symptom-grid';
+          
+          const allBtn = document.createElement('button');
+          allBtn.className = 'symptom-btn symptom-btn--active';
+          allBtn.dataset.symptom = 'all';
+          allBtn.innerHTML = `
+            <span class="symptom-btn__icon">🏥</span>
+            <span class="symptom-btn__text">${lang === 'ja' ? 'すべて' : lang === 'en' ? 'All' : 'Todos'}</span>
+          `;
+          allBtn.addEventListener('click', () => {
+            document.querySelectorAll('.symptom-btn').forEach(b => b.classList.remove('symptom-btn--active'));
+            allBtn.classList.add('symptom-btn--active');
+            applyFilters();
+          });
+          gridEl.appendChild(allBtn);
+
+          symptomConfig.categories.forEach((c: any) => {
+            const btn = document.createElement('button');
+            btn.className = 'symptom-btn';
+            btn.dataset.symptom = c.id;
+            btn.innerHTML = `
+              <span class="symptom-btn__icon">${c.icon}</span>
+              <span class="symptom-btn__text">${c.label?.[lang] ?? c.id}</span>
+            `;
+            btn.addEventListener('click', () => {
+              document.querySelectorAll('.symptom-btn').forEach(b => b.classList.remove('symptom-btn--active'));
+              btn.classList.add('symptom-btn--active');
+              applyFilters();
+            });
+            gridEl.appendChild(btn);
+          });
+          
+          bar.appendChild(gridEl);
+        }
+
         // サブカテゴリフィルター（種別）
         if (filterConfig.subcategory) {
           const group = createFilterGroup(
@@ -232,6 +278,16 @@ const PMTILES_URL = 'pmtiles://https://tiles.kurashiguide.org/ota_city.pmtiles';
             'subcategory'
           );
           bar.appendChild(group);
+        }
+
+        let advancedFilter: HTMLDetailsElement | null = null;
+        if (filterConfig.specialty?.dynamic || filterConfig.language) {
+           advancedFilter = document.createElement('details');
+           advancedFilter.className = 'advanced-filter';
+           const summary = document.createElement('summary');
+           summary.textContent = lang === 'ja' ? '詳しい診療科で絞る' : lang === 'en' ? 'Filter by specific specialty' : 'Filtrar por especialidade específica';
+           advancedFilter.appendChild(summary);
+           bar.appendChild(advancedFilter);
         }
 
         // 診療科フィルター（dynamic: GeoJSON から収集）
@@ -249,7 +305,8 @@ const PMTILES_URL = 'pmtiles://https://tiles.kurashiguide.org/ota_city.pmtiles';
             specOptions,
             'specialty'
           );
-          bar.appendChild(group);
+          if (advancedFilter) advancedFilter.appendChild(group);
+          else bar.appendChild(group);
         }
 
         // 外国語フィルター
@@ -261,7 +318,8 @@ const PMTILES_URL = 'pmtiles://https://tiles.kurashiguide.org/ota_city.pmtiles';
               filterConfig.language.options,
               'language'
             );
-            bar.appendChild(group);
+            if (advancedFilter) advancedFilter.appendChild(group);
+            else bar.appendChild(group);
           }
         }
       }
@@ -352,9 +410,22 @@ const PMTILES_URL = 'pmtiles://https://tiles.kurashiguide.org/ota_city.pmtiles';
         const filters: Record<string, string> = {};
         selects.forEach(s => { filters[s.dataset.filterKey!] = s.value; });
 
+        const activeSymptomBtn = document.querySelector('.symptom-btn--active') as HTMLElement;
+        const activeSymptom = activeSymptomBtn?.dataset.symptom ?? 'all';
+        let symptomSpecs: string[] | null = null;
+        if (activeSymptom !== 'all' && filterConfig.symptom_filter) {
+          const category = filterConfig.symptom_filter.categories.find((c: any) => c.id === activeSymptom);
+          if (category) symptomSpecs = category.specialties;
+        }
+
         const filtered = allFeatures.filter((f: any) => {
           const p = f.properties;
           
+          if (symptomSpecs) {
+            const featureSpecs = p.specialties || [];
+            if (!featureSpecs.some((s: string) => symptomSpecs!.includes(s))) return false;
+          }
+
           // サブカテゴリ
           if (filters.subcategory && filters.subcategory !== 'all') {
             if (p.subcategory !== filters.subcategory && p.category !== filters.subcategory) return false;
@@ -730,6 +801,108 @@ const PMTILES_URL = 'pmtiles://https://tiles.kurashiguide.org/ota_city.pmtiles';
     .spot-list__load-more:hover {
       background: var(--city-light, #eff6ff);
       border-color: var(--city-mid, #60a5fa);
+    }
+
+    /* 症状ラベル */
+    .symptom-label {
+      font-size: 0.9375rem;
+      font-weight: 600;
+      color: var(--text-primary, #1a1a2e);
+      margin-bottom: 0.5rem;
+      width: 100%;
+    }
+
+    /* 症状ボタングリッド */
+    .symptom-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      width: 100%;
+      margin-bottom: 0.75rem;
+    }
+
+    /* 症状ボタン */
+    .symptom-btn {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.25rem;
+      padding: 0.625rem 0.75rem;
+      min-width: 80px;
+      background: var(--surface, #fff);
+      border: 1.5px solid var(--border, #e2e8f0);
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      flex: 0 0 auto;
+    }
+
+    .symptom-btn:hover {
+      border-color: var(--city-mid, #60a5fa);
+      background: var(--city-light, #eff6ff);
+      transform: translateY(-1px);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
+
+    .symptom-btn--active {
+      border-color: var(--city, #3b82f6);
+      background: var(--city, #3b82f6);
+      color: #fff;
+      box-shadow: 0 2px 8px rgba(59,130,246,0.25);
+    }
+
+    .symptom-btn__icon {
+      font-size: 1.5rem;
+      line-height: 1;
+    }
+
+    .symptom-btn__text {
+      font-size: 0.6875rem;
+      font-weight: 600;
+      text-align: center;
+      line-height: 1.2;
+      white-space: nowrap;
+    }
+
+    .symptom-btn--active .symptom-btn__text {
+      color: #fff;
+    }
+
+    /* 折りたたみフィルター */
+    .advanced-filter {
+      width: 100%;
+      margin-top: 0.25rem;
+    }
+
+    .advanced-filter summary {
+      font-size: 0.8125rem;
+      color: var(--text-muted, #64748b);
+      cursor: pointer;
+      padding: 0.5rem 0;
+      user-select: none;
+    }
+
+    .advanced-filter summary:hover {
+      color: var(--city, #3b82f6);
+    }
+
+    .advanced-filter[open] summary {
+      margin-bottom: 0.5rem;
+    }
+
+    /* レスポンシブ: モバイルではボタンを横スクロール */
+    @media (max-width: 640px) {
+      .symptom-grid {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 0.5rem;
+        scrollbar-width: thin;
+      }
+      .symptom-btn {
+        min-width: 72px;
+        flex-shrink: 0;
+      }
     }
   </style>
 </LightLayout>

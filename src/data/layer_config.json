@@ -61,6 +61,77 @@
           "es":  { "ja": "スペイン語", "en": "Spanish",   "pt": "Espanhol" },
           "ko":  { "ja": "韓国語", "en": "Korean",     "pt": "Coreano" }
         }
+      },
+      "symptom_filter": {
+        "label": { "ja": "どんな症状ですか？", "en": "What are your symptoms?", "pt": "Quais são seus sintomas?" },
+        "categories": [
+          {
+            "id": "general",
+            "icon": "🤒",
+            "label": { "ja": "体調が悪い・熱", "en": "Feeling sick / Fever", "pt": "Mal-estar / Febre" },
+            "specialties": ["内科", "総合診療科", "消化器内科", "呼吸器内科", "循環器内科", "内分泌内科", "腎臓内科", "血液内科", "糖尿病内科", "糖尿病・内分泌内科", "漢方内科", "胃腸内科", "腫瘍内科", "緩和ケア内科", "内視鏡内科", "脂質代謝内科", "人工透析内科", "神経内科", "脳神経内科"]
+          },
+          {
+            "id": "children",
+            "icon": "👶",
+            "label": { "ja": "子どもの病気", "en": "Children's illness", "pt": "Doença infantil" },
+            "specialties": ["小児科", "小児外科", "小児皮膚科", "小児歯科"]
+          },
+          {
+            "id": "injury",
+            "icon": "🦴",
+            "label": { "ja": "ケガ・骨折", "en": "Injury / Fracture", "pt": "Lesão / Fratura" },
+            "specialties": ["外科", "整形外科", "形成外科", "脳神経外科", "心臓血管外科", "消化器外科", "呼吸器外科", "乳腺外科", "血管外科", "肛門外科", "腎臓外科", "頭頸部外科", "救急科"]
+          },
+          {
+            "id": "women",
+            "icon": "👩",
+            "label": { "ja": "女性の健康", "en": "Women's health", "pt": "Saúde da mulher" },
+            "specialties": ["産婦人科", "婦人科"]
+          },
+          {
+            "id": "eyes",
+            "icon": "👁️",
+            "label": { "ja": "目", "en": "Eyes", "pt": "Olhos" },
+            "specialties": ["眼科"]
+          },
+          {
+            "id": "ent",
+            "icon": "👂",
+            "label": { "ja": "耳・鼻・のど", "en": "Ear / Nose / Throat", "pt": "Ouvido / Nariz / Garganta" },
+            "specialties": ["耳鼻いんこう科"]
+          },
+          {
+            "id": "skin",
+            "icon": "🖐️",
+            "label": { "ja": "肌のトラブル", "en": "Skin problems", "pt": "Problemas de pele" },
+            "specialties": ["皮膚科", "美容皮膚科", "アレルギー科", "アレルギー疾患内科"]
+          },
+          {
+            "id": "mental",
+            "icon": "💭",
+            "label": { "ja": "こころの相談", "en": "Mental health", "pt": "Saúde mental" },
+            "specialties": ["精神科", "神経科", "心療内科"]
+          },
+          {
+            "id": "dental",
+            "icon": "🦷",
+            "label": { "ja": "歯", "en": "Dental", "pt": "Dental" },
+            "specialties": ["歯科", "歯科口腔外科", "矯正歯科", "小児歯科"]
+          },
+          {
+            "id": "rehab",
+            "icon": "🏃",
+            "label": { "ja": "リハビリ", "en": "Rehabilitation", "pt": "Reabilitação" },
+            "specialties": ["リハビリテーション科", "リウマチ科"]
+          },
+          {
+            "id": "urology",
+            "icon": "🚻",
+            "label": { "ja": "泌尿器", "en": "Urology", "pt": "Urologia" },
+            "specialties": ["泌尿器科"]
+          }
+        ]
       }
     },
     "osm_tags": [
