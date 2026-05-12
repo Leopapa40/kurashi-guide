@@ -7076,11 +7076,6 @@
             "required": false
           },
           {
-            "item": "本人確認書類（代理申請の場合は代理人の身分証）",
-            "note": "申請窓口での確認に使用",
-            "required": false
-          },
-          {
             "item": "主治医の情報（病院名・医師名）",
             "note": "要介護認定の意見書作成を依頼するため",
             "required": false
@@ -7099,10 +7094,6 @@
           {
             "question": "要介護認定の申請からサービス利用まで何日かかりますか？",
             "answer": "申請から認定結果が届くまで原則30日以内です。ただし調査の混雑状況によって時間がかかる場合があります。認定前でも暫定的にサービスを利用できる場合がありますので、緊急の場合は相談してください。"
-          },
-          {
-            "question": "自己負担はいくらですか？",
-            "answer": "介護サービスの利用者は原則1割負担です（一定以上の所得がある方は2〜3割）。在宅サービスと施設サービスで費用の計算方法が異なります。"
           }
         ],
         "estimated_time": null,
@@ -7149,11 +7140,6 @@
             "required": false
           },
           {
-            "item": "ID Document (本人確認書類)",
-            "note": "Needed at the window.",
-            "required": false
-          },
-          {
             "item": "Attending Doctor Info (主治医の情報)",
             "note": "Name and clinic needed to request medical opinion.",
             "required": false
@@ -7172,10 +7158,6 @@
           {
             "question": "How long does certification take?",
             "answer": "Usually within 30 days. You may be able to use provisional services before the result arrives if urgent."
-          },
-          {
-            "question": "What is the out-of-pocket cost?",
-            "answer": "Generally 10% of the service fee. Those with certain income levels may pay 20% or 30%."
           }
         ],
         "estimated_time": null,
@@ -7222,11 +7204,6 @@
             "required": false
           },
           {
-            "item": "Documento de Identidade (本人確認書類)",
-            "note": "Necessário no balcão.",
-            "required": false
-          },
-          {
             "item": "Info do Médico Assistente (主治医の情報)",
             "note": "Nome e clínica para parecer médico.",
             "required": false
@@ -7245,10 +7222,6 @@
           {
             "question": "Quanto tempo demora?",
             "answer": "Até 30 dias. Serviços provisórios podem ser usados se urgente."
-          },
-          {
-            "question": "Qual é o custo próprio?",
-            "answer": "Geralmente 10% da taxa do serviço. Rendas mais altas podem pagar 20% ou 30%."
           }
         ],
         "estimated_time": null,
