@@ -37,6 +37,7 @@ const { lang, municipality, layer } = Astro.params as {
 // layer_config.json から現在のレイヤーの設定を取得
 const config = (layerConfig as any)[layer];
 const layerTitle = config?.title?.[lang] ?? config?.title?.['ja'] ?? layer;
+const filterConfig = config?.filter_config ?? null;
 
 // 多言語ラベル
 const labels = {
@@ -60,6 +61,13 @@ const labels = {
     en: 'No spots found',
     pt: 'Nenhum ponto encontrado',
   },
+  filterAll: { ja: 'すべて', en: 'All', pt: 'Todos' },
+  specialty: { ja: '診療科', en: 'Specialty', pt: 'Especialidade' },
+  language: { ja: '外国語対応', en: 'Language', pt: 'Idiomas' },
+  type: { ja: '種別', en: 'Type', pt: 'Tipo' },
+  listTitle: { ja: '施設一覧', en: 'Facility List', pt: 'Lista de Instalações' },
+  noLangSupport: { ja: '外国語対応なし', en: 'No language support', pt: 'Sem suporte de idiomas' },
+  openInGmaps: { ja: 'Google Maps', en: 'Google Maps', pt: 'Google Maps' },
 };
 
 const L = (key: keyof typeof labels) => (labels[key] as any)[lang] ?? (labels[key] as any)['ja'];
@@ -103,12 +111,23 @@ const PMTILES_URL = 'pmtiles://https://tiles.kurashiguide.org/ota_city.pmtiles';
 
     <!-- スポット件数表示 -->
     <p id="spot-count" class="map-spot-count" aria-live="polite"></p>
+
+    <!-- フィルターバー（filter_config があるレイヤーのみ表示） -->
+    <div id="filter-bar" class="filter-bar" style={filterConfig ? '' : 'display:none'}>
+      <!-- フィルターはクライアントサイド JS で動的生成 -->
+    </div>
+
+    <!-- 施設一覧 -->
+    <h2 class="list-title">{L('listTitle')}</h2>
+    <div id="spot-list" class="spot-list">
+      <!-- クライアントサイド JS で動的生成 -->
+    </div>
   </div>
 
   <!-- MapLibre GL JS をクライアントサイドで読み込む -->
-  <script define:vars={{ geojsonUrl, cityCenter, lang, PMTILES_URL, layer }}>
+  <script define:vars={{ geojsonUrl, cityCenter, lang, PMTILES_URL, layer, filterConfig }}>
     // Astro の define:vars で渡された変数をグローバルに保持
-    window.__MAP_CONFIG__ = { geojsonUrl, cityCenter, lang, PMTILES_URL, layer };
+    window.__MAP_CONFIG__ = { geojsonUrl, cityCenter, lang, PMTILES_URL, layer, filterConfig };
   </script>
   <script>
     // Astro はクライアント <script> 内の npm import を自動バンドルする
@@ -121,7 +140,7 @@ const PMTILES_URL = 'pmtiles://https://tiles.kurashiguide.org/ota_city.pmtiles';
     const protocol = new Protocol();
     maplibregl.addProtocol('pmtiles', protocol.tile);
 
-    const { geojsonUrl, cityCenter, lang, PMTILES_URL, layer } = (window as any).__MAP_CONFIG__;
+    const { geojsonUrl, cityCenter, lang, PMTILES_URL, layer, filterConfig } = (window as any).__MAP_CONFIG__;
 
     // Protomaps ベクトルタイル + 多言語ラベルスタイル
     const mapStyle = {
@@ -163,16 +182,184 @@ const PMTILES_URL = 'pmtiles://https://tiles.kurashiguide.org/ota_city.pmtiles';
       }
 
       const features = geojson.features ?? [];
+      let allFeatures = features;
 
-      // 件数表示
-      const countEl = document.getElementById('spot-count');
-      if (countEl) {
-        const count = features.length;
+      function updateCount(count: number) {
+        const countEl = document.getElementById('spot-count');
+        if (!countEl) return;
         const label = lang === 'ja' ? `${count} 件のスポットを表示中` :
                       lang === 'en' ? `Showing ${count} spots` :
                       `Exibindo ${count} pontos`;
         countEl.textContent = label;
       }
+
+      function createFilterGroup(label: string, options: any, filterKey: string) {
+        const wrapper = document.createElement('div');
+        wrapper.className = 'filter-group';
+        
+        const labelEl = document.createElement('label');
+        labelEl.className = 'filter-group__label';
+        labelEl.textContent = label;
+        wrapper.appendChild(labelEl);
+
+        const select = document.createElement('select');
+        select.className = 'filter-group__select';
+        select.dataset.filterKey = filterKey;
+        
+        Object.entries(options).forEach(([value, labelsOption]) => {
+          const lObj = labelsOption as any;
+          const opt = document.createElement('option');
+          opt.value = value;
+          opt.textContent = lObj[lang] ?? lObj['ja'] ?? value;
+          select.appendChild(opt);
+        });
+
+        select.addEventListener('change', applyFilters);
+        wrapper.appendChild(select);
+        return wrapper;
+      }
+
+      function buildFilterBar() {
+        const bar = document.getElementById('filter-bar');
+        if (!bar || !filterConfig) return;
+        bar.innerHTML = '';
+
+        // サブカテゴリフィルター（種別）
+        if (filterConfig.subcategory) {
+          const group = createFilterGroup(
+            filterConfig.subcategory.label?.[lang] ?? 'Type',
+            filterConfig.subcategory.options,
+            'subcategory'
+          );
+          bar.appendChild(group);
+        }
+
+        // 診療科フィルター（dynamic: GeoJSON から収集）
+        if (filterConfig.specialty?.dynamic) {
+          const allSpecs = new Set<string>();
+          allFeatures.forEach((f: any) => {
+            (f.properties.specialties || []).forEach((s: string) => allSpecs.add(s));
+          });
+          const specOptions: any = { all: { ja: 'すべて', en: 'All', pt: 'Todos' } };
+          [...allSpecs].sort().forEach(s => {
+            specOptions[s] = { ja: s, en: s, pt: s };
+          });
+          const group = createFilterGroup(
+            filterConfig.specialty.label?.[lang] ?? 'Specialty',
+            specOptions,
+            'specialty'
+          );
+          bar.appendChild(group);
+        }
+
+        // 外国語フィルター
+        if (filterConfig.language) {
+          const group = createFilterGroup(
+            filterConfig.language.label?.[lang] ?? 'Language',
+            filterConfig.language.options,
+            'language'
+          );
+          bar.appendChild(group);
+        }
+      }
+
+      function renderList(features: any[]) {
+        const listEl = document.getElementById('spot-list');
+        if (!listEl) return;
+
+        if (features.length === 0) {
+          listEl.innerHTML = `<p class="spot-list__empty">${
+            lang === 'ja' ? 'スポットが見つかりませんでした' :
+            lang === 'en' ? 'No spots found' : 'Nenhum ponto encontrado'
+          }</p>`;
+          return;
+        }
+
+        listEl.innerHTML = features.map(f => {
+          const p = f.properties;
+          const name = p[`name_${lang}`] ?? p.name_ja ?? p.name ?? '';
+          const addr = p.address ?? '';
+          const phone = p.phone ?? '';
+          const specs = (p.specialties || []).join('、');
+          const langs = (p.languages || []);
+          const [lng, lat] = f.geometry.coordinates;
+          const gmapsUrl = `https://www.google.com/maps/search/?api=1&query=${lat},${lng}`;
+
+          const langBadges = langs.length > 0
+            ? langs.map((l: string) => `<span class="lang-badge lang-badge--${l}">${l.toUpperCase()}</span>`).join('')
+            : '';
+
+          return `
+            <div class="spot-card" data-lng="${lng}" data-lat="${lat}">
+              <div class="spot-card__header">
+                <strong class="spot-card__name">${name}</strong>
+                ${langBadges ? `<div class="spot-card__langs">${langBadges}</div>` : ''}
+              </div>
+              ${specs ? `<p class="spot-card__specs">${specs}</p>` : ''}
+              ${addr ? `<p class="spot-card__addr">📍 ${addr}</p>` : ''}
+              <div class="spot-card__footer">
+                ${phone ? `<a href="tel:${phone}" class="spot-card__phone">📞 ${phone}</a>` : ''}
+                <a href="${gmapsUrl}" target="_blank" rel="noopener" class="spot-card__gmaps">🗺 Google Maps</a>
+              </div>
+            </div>
+          `;
+        }).join('');
+
+        // カードクリック → マップをパンする
+        listEl.querySelectorAll('.spot-card').forEach(card => {
+          card.addEventListener('click', (e) => {
+            if ((e.target as HTMLElement).closest('a')) return; // リンククリックは除外
+            const lng = parseFloat((card as HTMLElement).dataset.lng!);
+            const lat = parseFloat((card as HTMLElement).dataset.lat!);
+            map.flyTo({ center: [lng, lat], zoom: 16 });
+          });
+        });
+      }
+
+      function applyFilters() {
+        const selects = document.querySelectorAll('.filter-group__select') as NodeListOf<HTMLSelectElement>;
+        const filters: Record<string, string> = {};
+        selects.forEach(s => { filters[s.dataset.filterKey!] = s.value; });
+
+        const filtered = allFeatures.filter((f: any) => {
+          const p = f.properties;
+          
+          // サブカテゴリ
+          if (filters.subcategory && filters.subcategory !== 'all') {
+            if (p.subcategory !== filters.subcategory && p.category !== filters.subcategory) return false;
+          }
+          
+          // 診療科
+          if (filters.specialty && filters.specialty !== 'all') {
+            if (!(p.specialties || []).includes(filters.specialty)) return false;
+          }
+          
+          // 外国語
+          if (filters.language && filters.language !== 'all') {
+            if (!(p.languages || []).includes(filters.language)) return false;
+          }
+          
+          return true;
+        });
+
+        // マップのソースを更新
+        const source = map.getSource('spots') as maplibregl.GeoJSONSource;
+        if (source) {
+          source.setData({
+            type: 'FeatureCollection',
+            features: filtered
+          });
+        }
+
+        // 件数更新
+        updateCount(filtered.length);
+        
+        // 一覧更新
+        renderList(filtered);
+      }
+
+      // 初回件数表示
+      updateCount(features.length);
 
       const circleColor =
         layer === 'wifi'       ? '#3b82f6' :  // 青
@@ -281,6 +468,10 @@ const PMTILES_URL = 'pmtiles://https://tiles.kurashiguide.org/ota_city.pmtiles';
       // カーソル変更
       map.on('mouseenter', 'spots-circle', () => { map.getCanvas().style.cursor = 'pointer'; });
       map.on('mouseleave', 'spots-circle', () => { map.getCanvas().style.cursor = ''; });
+
+      // 初回表示
+      buildFilterBar();
+      renderList(allFeatures);
     });
 
     // タイル読み込みエラー検知（OSM ブロック等）
@@ -353,5 +544,143 @@ const PMTILES_URL = 'pmtiles://https://tiles.kurashiguide.org/ota_city.pmtiles';
       font-size: 0.875rem;
       color: var(--text-muted, #64748b);
     }
+
+    /* フィルターバー */
+    .filter-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-top: 1rem;
+      padding: 1rem;
+      background: var(--surface, #fff);
+      border: 1px solid var(--border, #e2e8f0);
+      border-radius: 10px;
+    }
+    .filter-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+      min-width: 140px;
+      flex: 1;
+    }
+    .filter-group__label {
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--text-muted, #64748b);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .filter-group__select {
+      padding: 0.5rem 0.75rem;
+      border: 1px solid var(--border, #e2e8f0);
+      border-radius: 8px;
+      font-size: 0.875rem;
+      background: var(--bg, #fff);
+      color: var(--text-main, #1a1a2e);
+      cursor: pointer;
+      transition: border-color 0.2s;
+    }
+    .filter-group__select:focus {
+      outline: none;
+      border-color: var(--city, #3b82f6);
+      box-shadow: 0 0 0 3px rgba(59,130,246,0.15);
+    }
+
+    /* 一覧タイトル */
+    .list-title {
+      font-size: var(--text-lg, 1.125rem);
+      font-weight: 700;
+      margin-top: 1.5rem;
+      margin-bottom: 0.75rem;
+      color: var(--text-primary, #1a1a2e);
+    }
+
+    /* スポット一覧 */
+    .spot-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      max-height: 60vh;
+      overflow-y: auto;
+      padding-right: 0.25rem;
+    }
+    .spot-list__empty {
+      text-align: center;
+      padding: 2rem;
+      color: var(--text-muted, #64748b);
+    }
+
+    /* スポットカード */
+    .spot-card {
+      padding: 0.875rem 1rem;
+      background: var(--surface, #fff);
+      border: 1px solid var(--border, #e2e8f0);
+      border-radius: 10px;
+      cursor: pointer;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .spot-card:hover {
+      border-color: var(--city-mid, #60a5fa);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
+    .spot-card__header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 0.5rem;
+      margin-bottom: 0.25rem;
+    }
+    .spot-card__name {
+      font-size: 0.9375rem;
+      font-weight: 600;
+      color: var(--text-main, #1a1a2e);
+    }
+    .spot-card__langs {
+      display: flex;
+      gap: 0.25rem;
+      flex-shrink: 0;
+    }
+    .lang-badge {
+      display: inline-block;
+      padding: 0.125rem 0.375rem;
+      font-size: 0.6875rem;
+      font-weight: 700;
+      border-radius: 4px;
+      color: #fff;
+      line-height: 1.3;
+    }
+    .lang-badge--en { background: #3b82f6; }
+    .lang-badge--pt { background: #10b981; }
+    .lang-badge--zh { background: #ef4444; }
+    .lang-badge--es { background: #f59e0b; }
+    .lang-badge--ko { background: #8b5cf6; }
+
+    .spot-card__specs {
+      font-size: 0.8125rem;
+      color: var(--text-muted, #64748b);
+      margin: 0.25rem 0;
+      line-height: 1.4;
+    }
+    .spot-card__addr {
+      font-size: 0.8125rem;
+      color: var(--text-secondary, #475569);
+      margin: 0.25rem 0;
+    }
+    .spot-card__footer {
+      display: flex;
+      gap: 1rem;
+      margin-top: 0.5rem;
+      font-size: 0.8125rem;
+    }
+    .spot-card__phone {
+      color: var(--city, #3b82f6);
+      text-decoration: none;
+    }
+    .spot-card__gmaps {
+      color: var(--text-muted, #64748b);
+      text-decoration: none;
+      font-size: 0.75rem;
+    }
+    .spot-card__gmaps:hover { color: var(--city, #3b82f6); }
   </style>
 </LightLayout>
