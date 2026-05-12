@@ -7060,7 +7060,7 @@
           "who": "太田市に住む40歳以上の方（保険料の支払い義務あり）。介護サービス利用は原則65歳以上",
           "what": "介護保険の認定申請・サービス利用の手続き",
           "when": "介護が必要になった時点でいつでも申請可能",
-          "where": "市役所1階長寿あんしん課（または各行政センター）",
+          "where": "介護サービス課（市役所本庁舎1階）",
           "why": "高齢者が尊厳ある生活を継続できるよう、社会全体で支援するため",
           "how": "長寿あんしん課に要介護認定申請書を提出 → 訪問調査 → 審査会 → 認定 → サービス利用"
         },
@@ -7086,28 +7086,7 @@
             "required": false
           }
         ],
-        "form_guide": {
-          "form_name": "介護保険要介護・要支援認定申請書",
-          "fields": [
-            {
-              "field_name": "申請理由",
-              "how_to_fill": "「新規申請」「更新申請」「区分変更申請」から選択",
-              "example": "新規申請",
-              "note": "初めて申請する場合は「新規申請」"
-            },
-            {
-              "field_name": "主治医",
-              "how_to_fill": "かかりつけ医の氏名・医療機関名・電話番号を記入",
-              "example": "○○内科 田中医師",
-              "note": "主治医意見書の作成依頼に使用"
-            }
-          ],
-          "tips": [
-            "介護保険料は40歳から徴収される（65歳未満は職場保険・国保経由）",
-            "要介護認定の結果が出るまで約1か月かかる。早めの申請を",
-            "地域包括支援センターに相談すると申請の手続きを代行してもらえる場合がある"
-          ]
-        },
+        "form_guide": null,
         "faq": [
           {
             "question": "介護保険はいつから加入しますか？",
@@ -7140,8 +7119,9 @@
         "bottom_line": "To use nursing care (preventive nursing care) services, you must first apply for 'Nursing Care Needs Certification' at the city hall.",
         "amount_info": null,
         "target_audience": [
-          "People aged 65+ needing care",
-          "People aged 40-64 with specific diseases"
+          "People aged 65 and over who need nursing care",
+          "People aged 40-64 with specified diseases",
+          "Those who have family members needing nursing care"
         ],
         "term_explanations": [
           {
@@ -7153,7 +7133,7 @@
           "who": "Seniors 65+ needing care (or 40-64 with specific illnesses)",
           "what": "Apply for Care Needs Certification",
           "when": "Anytime when care services are required",
-          "where": "City Hall 1F Long-term Care Division / Admin Centers",
+          "where": "Long-term Care Service Division (City Hall Main Building 1F)",
           "why": "Required to use nursing care services at subsidized rates (10-30%).",
           "how": "Submit the application, undergo an interview/survey, and wait for certification."
         },
@@ -7179,11 +7159,7 @@
             "required": false
           }
         ],
-        "form_guide": {
-          "form_name": "Application for Nursing Care/Support Certification",
-          "fields": [],
-          "tips": []
-        },
+        "form_guide": null,
         "faq": [
           {
             "question": "When do I join the Care Insurance?",
@@ -7216,7 +7192,9 @@
         "bottom_line": "Para usar os serviços de cuidados de enfermagem (cuidados preventivos), você deve primeiro solicitar a 'Certificação de Necessidade de Cuidados' na prefeitura.",
         "amount_info": null,
         "target_audience": [
-          "Pessoas com 65+ precisando de cuidados"
+          "Pessoas com 65 anos ou mais que precisam de cuidados de enfermagem",
+          "Pessoas de 40 a 64 anos com doenças especificadas",
+          "Aqueles que têm familiares que precisam de cuidados de enfermagem"
         ],
         "term_explanations": [
           {
@@ -7228,7 +7206,7 @@
           "who": "Idosos 65+ precisando de cuidados (ou 40-64 com doenças específicas)",
           "what": "Solicitar Certificação de Necessidade de Cuidados",
           "when": "Qualquer momento em que precisar de cuidados",
-          "where": "Prefeitura 1º Andar Divisão de Cuidados / Centros",
+          "where": "Divisão de Serviços de Cuidados de Longa Duração (Edifício Principal da Prefeitura 1F)",
           "why": "Para usar serviços de cuidados subsidiados (10-30%).",
           "how": "Envie a solicitação, faça a entrevista/pesquisa e aguarde a certificação."
         },
@@ -7254,11 +7232,7 @@
             "required": false
           }
         ],
-        "form_guide": {
-          "form_name": "Formulário de Solicitação de Certificação de Cuidados de Enfermagem/Apoio",
-          "fields": [],
-          "tips": []
-        },
+        "form_guide": null,
         "faq": [
           {
             "question": "Quando eu entro no Seguro de Cuidados?",
