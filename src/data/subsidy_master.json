@@ -5978,28 +5978,24 @@
         ],
         "term_explanations": [
           {
+            "term": "国民年金",
+            "explanation": "日本に住む20歳以上60歳未満のすべての人が加入する基礎的な年金制度。老後の「老齢基礎年金」のほか、障害や死亡の場合にも給付が受けられる。"
+          },
+          {
             "term": "第1号被保険者",
-            "explanation": "自営業者や学生など。自分で保険料を納める必要があります。"
-          },
-          {
-            "term": "第2号被保険者",
-            "explanation": "厚生年金や共済組合に加入している会社員や公務員など。"
-          },
-          {
-            "term": "第3号被保険者",
-            "explanation": "第2号被保険者に扶養されている配偶者（専業主婦など）。"
+            "explanation": "国民年金の加入者のうち、自営業者・農業者・学生・無職など、会社員や公務員でない人のこと。自分で保険料を納付する必要がある。"
           },
           {
             "term": "付加保険料",
-            "explanation": "月額400円を追加で納めると、老齢基礎年金に上乗せして受給できる制度。"
-          },
-          {
-            "term": "学生納付特例制度",
-            "explanation": "学生本人の所得が一定以下の場合に、在学中の保険料の納付が猶予される制度。"
+            "explanation": "月額400円を追加で納めると、老後にもらう老齢基礎年金に上乗せして年金が受け取れる制度。納めた月数×200円が毎年の年金に追加される。"
           },
           {
             "term": "保険料免除制度",
-            "explanation": "経済的理由で納められないとき、申請により全額、4分の3、半額、または4分の1が免除される制度。"
+            "explanation": "経済的な理由で国民年金保険料が払えない場合に、申請することで保険料の全部または一部が免除される制度。免除期間も年金を受け取るための期間としてカウントされる。"
+          },
+          {
+            "term": "学生納付特例",
+            "explanation": "大学・専門学校などに在籍する学生で、本人の所得が少ない場合に、在学中の国民年金保険料の納付を猶予（後払い可能）できる制度。"
           }
         ],
         "five_w1h": {
@@ -6374,72 +6370,38 @@
     "locales": {
       "ja": {
         "title": "後期高齢者医療制度（75歳以上の医療保険）",
-        "easy_explanation": "## どんな制度？\n75歳以上（または一定の障害がある65歳以上）の方が加入する医療保険制度です。75歳になると自動的に現在加入している健康保険から切り替わります。\n\n## 保険証について\n75歳の誕生日前に、群馬県後期高齢者医療広域連合から保険証が郵送されます。手続きは不要です。\n\n## 保険料\n所得に応じて決まります。年金から天引きされる場合と、納付書で払う場合があります。\n\n## 窓口\n市役所1階 市民課（保険年金係）",
-        "bottom_line": "75歳になると自動的に後期高齢者医療制度に加入。保険証は郵送されるので手続き不要です。",
-        "amount_info": "保険料は所得に応じて異なります",
+        "easy_explanation": "75歳以上の方が加入する医療保険制度です。老人保健制度を改め、平成20年4月から始まりました。群馬県内のすべての市町村で構成される「広域連合」によって運営されています。\n\n広域連合が資格確認書の交付や保険料の賦課を行い、市町村（市役所窓口）が各種届出や保険料の徴収を行っています。\n詳細は[群馬県後期高齢者医療広域連合](http://www.gunma-kouiki.jp/)のホームページをご確認ください。",
+        "bottom_line": "75歳以上の方が加入する独立した医療保険制度です。詳細は広域連合のホームページをご確認ください。",
+        "amount_info": null,
         "target_audience": [
-          "75歳以上の方",
-          "一定の障害がある65〜74歳の方"
+          "75歳以上の方"
         ],
         "term_explanations": [
           {
             "term": "後期高齢者医療制度",
-            "explanation": "75歳以上（一定の障がいがある人は65歳以上）のすべての人が加入する独立した医療保険制度。群馬県内の市町村が共同で運営する「広域連合」が運営し、医療費の窓口負担は原則1割。"
+            "explanation": "75歳以上のすべての人が加入する独立した医療保険制度。群馬県内の市町村が共同で運営する「広域連合」が主体となって運営しています。"
           },
           {
             "term": "広域連合",
-            "explanation": "複数の市町村が共同で行政サービスを提供するために作る組織のこと。後期高齢者医療制度では、群馬県内全市町村が「群馬県後期高齢者医療広域連合」を組織して、保険証の発行や医療費の給付などを行っている。"
+            "explanation": "複数の市町村が共同で行政サービスを提供するために作る組織。群馬県内全市町村が「群馬県後期高齢者医療広域連合」を組織し、資格確認書の交付や保険料の賦課などを行っています。"
           },
           {
             "term": "老人保健制度",
-            "explanation": "後期高齢者医療制度の前身にあたる制度。2008年（平成20年）4月に廃止され、後期高齢者医療制度に切り替わった。"
+            "explanation": "後期高齢者医療制度の前身にあたる制度です。平成20年4月に改められました。"
           }
         ],
         "five_w1h": {
-          "who": "75歳以上の方、および65〜74歳で一定の障害認定を受けた方",
-          "what": "後期高齢者医療制度への加入手続き（原則75歳誕生日に自動加入）",
-          "when": "75歳の誕生日前に保険証が送付される（手続き不要）。転入の場合は速やかに手続き",
-          "where": "市役所1階保険年金課",
-          "why": "75歳以上の方の医療費負担を公平に分担するための独立した医療保険制度",
-          "how": "75歳到達は自動加入。転入の場合は前住所地の保険証と共に届け出る"
+          "who": "75歳以上の方",
+          "what": "後期高齢者医療制度（医療保険）",
+          "when": "",
+          "where": "太田市 医療年金課（各種届出などの窓口業務）",
+          "why": "老人保健制度を改めた、新しい医療保険制度",
+          "how": "詳細は群馬県後期高齢者医療広域連合のホームページをご確認ください"
         },
-        "checklist": [
-          {
-            "item": "後期高齢者医療被保険者証（被保険者証）",
-            "note": "75歳到達前に自動的に郵送される。届かない場合は市役所へ",
-            "required": true
-          },
-          {
-            "item": "本人確認書類",
-            "note": "運転免許証・マイナンバーカード等。窓口手続き時に提示",
-            "required": true
-          },
-          {
-            "item": "現在加入中の健康保険証",
-            "note": "75歳到達時に職場保険から切り替える場合。返却が必要",
-            "required": false
-          }
-        ],
+        "checklist": [],
         "form_guide": null,
-        "faq": [
-          {
-            "question": "後期高齢者医療制度はいつから加入しますか？",
-            "answer": "75歳の誕生日当日から自動的に加入します（65歳以上で一定の障害がある方は申請により65歳から加入可能）。それまで加入していた健康保険（国民健康保険・会社の保険等）から自動的に切り替わります。"
-          },
-          {
-            "question": "保険料はいくらかかりますか？",
-            "answer": "前年の所得をもとに計算され、群馬県後期高齢者医療広域連合が決定します。年金から自動的に差し引かれる場合（特別徴収）と納付書・口座振替で支払う場合があります。"
-          },
-          {
-            "question": "医療費の自己負担割合は何割ですか？",
-            "answer": "原則1割負担です。ただし一定以上の所得がある方は2割または3割になります。窓口での支払い時に保険証を提示することで適用されます。"
-          },
-          {
-            "question": "被扶養者だった場合も保険料を払うのですか？",
-            "answer": "はい、75歳以上になると後期高齢者医療制度に個人として加入するため、保険料を負担することになります。ただし所得の低い方には保険料の軽減措置があります。"
-          }
-        ],
-        "estimated_time": "自動加入のため手続き不要（保険証は自宅に郵送されます）",
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "national-health-insurance",
           "nursing-care-insurance",
@@ -6448,58 +6410,38 @@
       },
       "en": {
         "title": "Medical Insurance for the Elderly (75+)",
-        "easy_explanation": "At age 75, you automatically switch to this special medical insurance. Your insurance card will be mailed before your birthday—no application needed.",
-        "bottom_line": "You automatically join at 75. Your insurance card is mailed to you—no action required.",
-        "amount_info": "Insurance premiums vary based on income",
+        "easy_explanation": "This is a medical insurance system for people aged 75 and over. It was established in April 2008, replacing the former health care system for the elderly. It is operated by the 'Wide-Area Union' composed of all municipalities in Gunma Prefecture.\n\nThe Wide-Area Union handles the issuance of qualification certificates and the levying of insurance premiums, while the municipality (City Hall counter) handles various notifications and premium collection.\nFor details, please check the website of the [Gunma Prefecture Elderly Medical Insurance Wide-Area Union](http://www.gunma-kouiki.jp/).",
+        "bottom_line": "An independent medical insurance system for those aged 75 and over. Please check the Wide-Area Union's website for details.",
+        "amount_info": null,
         "target_audience": [
           "People aged 75 and over"
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "Late-stage Elderly Medical Insurance (後期高齢者医療制度)",
+            "explanation": "An independent medical insurance system that all people aged 75 and over are enrolled in. It is operated by a 'Wide-Area Union' composed of all municipalities in Gunma Prefecture."
+          },
+          {
+            "term": "Wide-Area Union (広域連合)",
+            "explanation": "An organization formed by multiple municipalities to jointly provide administrative services. For elderly medical insurance, all municipalities in Gunma Prefecture form the 'Gunma Prefecture Wide-Area Union' to handle issuance of qualification certificates and levying of insurance premiums."
+          },
+          {
+            "term": "Former Health Care System for the Elderly (老人保健制度)",
+            "explanation": "The predecessor system of the current Late-stage Elderly Medical Insurance. It was reformed in April 2008 (Heisei 20)."
+          }
+        ],
         "five_w1h": {
-          "who": "Seniors 75+ and those 65-74 with a certified disability",
-          "what": "Enrollment in Late-stage Elderly Medical Insurance",
-          "when": "Automatic enrollment right before turning 75 (no procedure needed).",
-          "where": "City Hall 1F Insurance & Pension Div",
-          "why": "To provide independent and fair medical coverage for the elderly.",
-          "how": "Wait for the card to arrive by mail. If moving in, notify at the counter."
+          "who": "People aged 75 and over",
+          "what": "Elderly Medical Insurance System",
+          "when": "",
+          "where": "Medical and Pension Division, Ota City Hall (for window services such as notifications)",
+          "why": "A new medical insurance system that replaced the former health care system for the elderly",
+          "how": "For details, please check the website of the Gunma Prefecture Elderly Medical Insurance Wide-Area Union"
         },
-        "checklist": [
-          {
-            "item": "Medical Insurance Card for Late-stage Elderly (後期高齢者医療被保険者証)",
-            "note": "Mailed automatically before turning 75.",
-            "required": true
-          },
-          {
-            "item": "ID Document (本人確認書類)",
-            "note": "If doing window procedures.",
-            "required": true
-          },
-          {
-            "item": "Previous Health Insurance Card (現在加入中の健康保険証)",
-            "note": "Needs to be returned to the old insurer.",
-            "required": false
-          }
-        ],
+        "checklist": [],
         "form_guide": null,
-        "faq": [
-          {
-            "question": "When does this insurance begin?",
-            "answer": "Automatically from your 75th birthday. You switch over automatically from your previous National or Company health insurance."
-          },
-          {
-            "question": "How much is the premium?",
-            "answer": "Calculated based on previous year's income. It's often deducted from pensions directly, or paid via slips."
-          },
-          {
-            "question": "What is the out-of-pocket ratio at hospitals?",
-            "answer": "Generally 10%. However, those with higher incomes may pay 20% or 30%. Simply show the card at the counter."
-          },
-          {
-            "question": "Do former dependents have to pay premiums?",
-            "answer": "Yes, everyone 75+ enrolls individually and pays their own premium. Low-income individuals receive reductions."
-          }
-        ],
-        "estimated_time": "No procedure required (card is mailed to home)",
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "national-health-insurance",
           "nursing-care-insurance",
@@ -6508,58 +6450,38 @@
       },
       "pt": {
         "title": "Seguro Médico para Idosos (75+)",
-        "easy_explanation": "Aos 75 anos, você automaticamente muda para este seguro médico especial. O cartão é enviado pelo correio antes do seu aniversário.",
-        "bottom_line": "Você entra automaticamente aos 75 anos. O cartão é enviado pelo correio sem necessidade de solicitação.",
-        "amount_info": "Os prêmios de seguro variam de acordo com a renda",
+        "easy_explanation": "Este é um sistema de seguro médico para pessoas com 75 anos ou mais. Foi estabelecido em abril de 2008, substituindo o antigo sistema de saúde para idosos. É operado pela 'União de Área Ampla' composta por todos os municípios da província de Gunma.\n\nA União de Área Ampla lida com a emissão de certificados de qualificação e cobrança de prêmios de seguro, enquanto o município (balcão da Prefeitura) lida com várias notificações e cobrança de prêmios.\nPara mais detalhes, consulte o site da [União de Área Ampla de Seguro Médico para Idosos da Província de Gunma](http://www.gunma-kouiki.jp/).",
+        "bottom_line": "Um sistema de seguro médico independente para pessoas com 75 anos ou mais. Consulte o site da União de Área Ampla para obter detalhes.",
+        "amount_info": null,
         "target_audience": [
           "Pessoas com 75 anos ou mais"
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "Seguro Médico para Idosos (後期高齢者医療制度)",
+            "explanation": "Um sistema de seguro médico independente para todas as pessoas com 75 anos ou mais. É operado pela 'União de Área Ampla' composta por todos os municípios da província de Gunma."
+          },
+          {
+            "term": "União de Área Ampla (広域連合)",
+            "explanation": "Uma organização formada por vários municípios para fornecer serviços administrativos conjuntamente. Para o seguro médico de idosos, todos os municípios de Gunma formam a 'União de Área Ampla de Gunma' para emissão de certificados de qualificação e cobrança de prêmios."
+          },
+          {
+            "term": "Antigo Sistema de Saúde para Idosos (老人保健制度)",
+            "explanation": "O sistema predecessor do atual Seguro Médico para Idosos. Foi reformado em abril de 2008 (Heisei 20)."
+          }
+        ],
         "five_w1h": {
-          "who": "Idosos 75+ e 65-74 com deficiência",
-          "what": "Inscrição no Seguro Médico para Idosos em Estágio Avançado",
-          "when": "Inscrição automática antes dos 75 anos.",
-          "where": "Prefeitura 1º Andar Divisão de Pensões",
-          "why": "Para cobertura médica independente e justa para idosos.",
-          "how": "Aguarde o cartão chegar pelo correio."
+          "who": "Pessoas com 75 anos ou mais",
+          "what": "Sistema de Seguro Médico para Idosos",
+          "when": "",
+          "where": "Divisão de Medicina e Pensão, Prefeitura de Ota (para serviços de balcão como notificações)",
+          "why": "Um novo sistema de seguro médico que substituiu o antigo sistema de saúde para idosos",
+          "how": "Para mais detalhes, consulte o site da União de Área Ampla de Seguro Médico para Idosos da Província de Gunma"
         },
-        "checklist": [
-          {
-            "item": "Cartão Médico para Idosos (後期高齢者医療被保険者証)",
-            "note": "Enviado antes dos 75.",
-            "required": true
-          },
-          {
-            "item": "Documento de Identidade (本人確認書類)",
-            "note": "Para procedimentos no balcão.",
-            "required": true
-          },
-          {
-            "item": "Cartão de Seguro Anterior (現在加入中の健康保険証)",
-            "note": "Deve ser devolvido ao antigo seguro.",
-            "required": false
-          }
-        ],
+        "checklist": [],
         "form_guide": null,
-        "faq": [
-          {
-            "question": "Quando este seguro começa?",
-            "answer": "Automaticamente no seu 75º aniversário, mudando do seguro anterior."
-          },
-          {
-            "question": "Quanto é o prêmio?",
-            "answer": "Baseado na renda do ano anterior. Geralmente deduzido da pensão."
-          },
-          {
-            "question": "Qual a proporção de pagamento nos hospitais?",
-            "answer": "Geralmente 10%. Mas pode ser 20% ou 30% para rendas maiores."
-          },
-          {
-            "question": "Antigos dependentes precisam pagar prêmios?",
-            "answer": "Sim, todos 75+ pagam o próprio prêmio. Pessoas de baixa renda têm descontos."
-          }
-        ],
-        "estimated_time": "Nenhum procedimento necessário (o cartão é enviado para casa)",
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "national-health-insurance",
           "nursing-care-insurance",
@@ -7052,8 +6974,20 @@
         ],
         "term_explanations": [
           {
-            "term": "要介護状態区分",
-            "explanation": "介護が必要な度合いのこと。要支援1・2、要介護1～5の7段階と、非該当（自立）に分けられます。"
+            "term": "普通徴収",
+            "explanation": "市から送付される納付書を使って、金融機関・コンビニ等で介護保険料を自分で納付する方法。年金年額が18万円未満の人や、特別徴収の要件を満たさない場合に適用される。"
+          },
+          {
+            "term": "介護保険料",
+            "explanation": "介護保険制度を運営するために、40歳以上の人が納める保険料。65歳以上（第1号被保険者）と40〜64歳の医療保険加入者（第2号被保険者）で納め方が異なる。"
+          },
+          {
+            "term": "特別徴収",
+            "explanation": "年金から介護保険料を天引きして徴収する方法。年金の年額が18万円以上の人が原則として対象。年金支払時に自動的に差し引かれるため、自分で納付書を持参する必要がない。"
+          },
+          {
+            "term": "仮徴収",
+            "explanation": "介護保険料の特別徴収において、4月・6月・8月に前年度と同じ額を暫定的に年金から差し引くこと。10月以降の「本徴収」で前年所得を基に確定した年間保険料に調整される。"
           }
         ],
         "five_w1h": {
@@ -14018,12 +13952,16 @@
         ],
         "term_explanations": [
           {
-            "term": "#8000（こども医療電話相談）",
-            "explanation": "夜間や休日におけるお子さんの病気への対処方法や応急処置について、看護師等に電話で相談できる窓口。"
+            "term": "#8000（小児救急電話相談）",
+            "explanation": "全国共通の子どもの救急相談ダイヤル。夜間・休日に小児科医・看護師が電話で相談に応じる。群馬県は24時間対応。"
           },
           {
-            "term": "休日当番医",
+            "term": "休日当番医（きゅうじつとうばんい）",
             "explanation": "休日・夜間に当番制で診療を行う医療機関。太田市では市の公式サイトで当日の当番医を確認できる。"
+          },
+          {
+            "term": "熱性けいれん（ねっせいけいれん）",
+            "explanation": "高熱により乳幼児が起こすけいれん。多くは数分で止まるが、初めての場合や5分以上続く場合は救急を呼ぶ。"
           }
         ],
         "five_w1h": {
@@ -15191,12 +15129,16 @@
         ],
         "term_explanations": [
           {
+            "term": "母子健康手帳（ぼしけんこうてちょう）",
+            "explanation": "妊娠届を出すともらえる手帳。妊婦健診や子どもの予防接種の記録に使う。市役所で交付。"
+          },
+          {
             "term": "ぐんま妊娠SOS",
             "explanation": "群馬県が運営する妊娠相談窓口。助産師が電話・LINE・メールで対応。秘密厳守・無料。"
           },
           {
-            "term": "妊産婦健康相談",
-            "explanation": "太田市保健センターで行われている、助産師や保健師による妊娠中から産後の無料相談。"
+            "term": "特定妊婦（とくていにんぷ）",
+            "explanation": "出産後の養育に特別な支援が必要と認められた妊婦。行政が早期からサポートを行う。"
           }
         ],
         "five_w1h": {
@@ -15585,12 +15527,12 @@
         ],
         "term_explanations": [
           {
-            "term": "任意継続（にんいけいぞく）",
-            "explanation": "退職後も最大2年間、元の勤め先の健康保険に加入し続けられる制度。保険料は全額自己負担になる。"
-          },
-          {
             "term": "国民健康保険（こくみんけんこうほけん）",
             "explanation": "会社の健康保険に加入していない方が加入する市区町村の健康保険制度。"
+          },
+          {
+            "term": "任意継続（にんいけいぞく）",
+            "explanation": "退職後も最大2年間、元の勤め先の健康保険に加入し続けられる制度。保険料は全額自己負担になる。"
           },
           {
             "term": "第1号被保険者（だいいちごうひほけんしゃ）",
@@ -18269,12 +18211,12 @@
         ],
         "term_explanations": [
           {
-            "term": "ひきこもり",
-            "explanation": "様々な要因により、6か月以上にわたって家庭以外の社会参加（学校・仕事等）をほとんど行っていない状態。病気ではなく、誰でもなりうる状態です。"
-          },
-          {
             "term": "就労準備支援（しゅうろうじゅんびしえん）",
             "explanation": "ひきこもりから社会復帰を目指す方への段階的な就労支援プログラム。ひきこもり相談から橋渡しされることがあります。"
+          },
+          {
+            "term": "ひきこもり",
+            "explanation": "様々な要因により、6か月以上にわたって家庭以外の社会参加（学校・仕事等）をほとんど行っていない状態。病気ではなく、誰でもなりうる状態です。"
           },
           {
             "term": "アウトリーチ支援",
@@ -19849,12 +19791,12 @@
         ],
         "term_explanations": [
           {
-            "term": "一時生活支援事業",
-            "explanation": "住居を持たない方に、一定期間、宿泊場所や衣食を提供する国の制度。太田市でも実施しています。"
-          },
-          {
             "term": "生活困窮者自立支援制度",
             "explanation": "生活に困っている方が自立できるよう、相談窓口で一人ひとりの状況に合わせた支援計画を作る制度です。"
+          },
+          {
+            "term": "一時生活支援事業",
+            "explanation": "住居を持たない方に、一定期間、宿泊場所や衣食を提供する国の制度。太田市でも実施しています。"
           }
         ],
         "five_w1h": {
