@@ -241,7 +241,7 @@ const PMTILES_URL = 'pmtiles://https://tiles.kurashiguide.org/ota_city.pmtiles';
             (f.properties.specialties || []).forEach((s: string) => allSpecs.add(s));
           });
           const specOptions: any = { all: { ja: 'すべて', en: 'All', pt: 'Todos' } };
-          [...allSpecs].sort().forEach(s => {
+          [...allSpecs].sort((a, b) => a.localeCompare(b, 'ja')).forEach(s => {
             specOptions[s] = { ja: s, en: s, pt: s };
           });
           const group = createFilterGroup(
@@ -254,20 +254,23 @@ const PMTILES_URL = 'pmtiles://https://tiles.kurashiguide.org/ota_city.pmtiles';
 
         // 外国語フィルター
         if (filterConfig.language) {
-          const group = createFilterGroup(
-            filterConfig.language.label?.[lang] ?? 'Language',
-            filterConfig.language.options,
-            'language'
-          );
-          bar.appendChild(group);
+          const hasLangData = allFeatures.some((f: any) => (f.properties.languages || []).length > 0);
+          if (hasLangData) {
+            const group = createFilterGroup(
+              filterConfig.language.label?.[lang] ?? 'Language',
+              filterConfig.language.options,
+              'language'
+            );
+            bar.appendChild(group);
+          }
         }
       }
 
-      function renderList(features: any[]) {
+      function renderList(filteredFeatures: any[]) {
         const listEl = document.getElementById('spot-list');
         if (!listEl) return;
 
-        if (features.length === 0) {
+        if (filteredFeatures.length === 0) {
           listEl.innerHTML = `<p class="spot-list__empty">${
             lang === 'ja' ? 'スポットが見つかりませんでした' :
             lang === 'en' ? 'No spots found' : 'Nenhum ponto encontrado'
@@ -275,45 +278,73 @@ const PMTILES_URL = 'pmtiles://https://tiles.kurashiguide.org/ota_city.pmtiles';
           return;
         }
 
-        listEl.innerHTML = features.map(f => {
-          const p = f.properties;
-          const name = p[`name_${lang}`] ?? p.name_ja ?? p.name ?? '';
-          const addr = p.address ?? '';
-          const phone = p.phone ?? '';
-          const specs = (p.specialties || []).join('、');
-          const langs = (p.languages || []);
-          const [lng, lat] = f.geometry.coordinates;
-          const gmapsUrl = `https://www.google.com/maps/search/?api=1&query=${lat},${lng}`;
+        const PAGE_SIZE = 20;
+        let showCount = PAGE_SIZE;
 
-          const langBadges = langs.length > 0
-            ? langs.map((l: string) => `<span class="lang-badge lang-badge--${l}">${l.toUpperCase()}</span>`).join('')
-            : '';
+        function render() {
+          const visible = filteredFeatures.slice(0, showCount);
+          const remaining = filteredFeatures.length - showCount;
 
-          return `
-            <div class="spot-card" data-lng="${lng}" data-lat="${lat}">
-              <div class="spot-card__header">
-                <strong class="spot-card__name">${name}</strong>
-                ${langBadges ? `<div class="spot-card__langs">${langBadges}</div>` : ''}
+          listEl.innerHTML = visible.map(f => {
+            const p = f.properties;
+            const name = p[`name_${lang}`] ?? p.name_ja ?? p.name ?? '';
+            const addr = p.address ?? '';
+            const phone = p.phone ?? '';
+            const allSpecs = p.specialties || [];
+            const MAX_SPECS = 5;
+            const specs = allSpecs.length > MAX_SPECS
+              ? allSpecs.slice(0, MAX_SPECS).join('、') + (lang === 'ja' ? `…他${allSpecs.length - MAX_SPECS}科` : lang === 'en' ? `…+${allSpecs.length - MAX_SPECS} more` : `…+${allSpecs.length - MAX_SPECS} mais`)
+              : allSpecs.join('、');
+            const langs = (p.languages || []);
+            const [lng, lat] = f.geometry.coordinates;
+            const gmapsUrl = `https://www.google.com/maps/search/?api=1&query=${lat},${lng}`;
+
+            const langBadges = langs.length > 0
+              ? langs.map((l: string) => `<span class="lang-badge lang-badge--${l}">${l.toUpperCase()}</span>`).join('')
+              : '';
+
+            return `
+              <div class="spot-card" data-lng="${lng}" data-lat="${lat}">
+                <div class="spot-card__header">
+                  <strong class="spot-card__name">${name}</strong>
+                  ${langBadges ? `<div class="spot-card__langs">${langBadges}</div>` : ''}
+                </div>
+                ${specs ? `<p class="spot-card__specs">${specs}</p>` : ''}
+                ${addr ? `<p class="spot-card__addr">📍 ${addr}</p>` : ''}
+                <div class="spot-card__footer">
+                  ${phone ? `<a href="tel:${phone}" class="spot-card__phone">📞 ${phone}</a>` : ''}
+                  <a href="${gmapsUrl}" target="_blank" rel="noopener" class="spot-card__gmaps">🗺 Google Maps</a>
+                </div>
               </div>
-              ${specs ? `<p class="spot-card__specs">${specs}</p>` : ''}
-              ${addr ? `<p class="spot-card__addr">📍 ${addr}</p>` : ''}
-              <div class="spot-card__footer">
-                ${phone ? `<a href="tel:${phone}" class="spot-card__phone">📞 ${phone}</a>` : ''}
-                <a href="${gmapsUrl}" target="_blank" rel="noopener" class="spot-card__gmaps">🗺 Google Maps</a>
-              </div>
-            </div>
-          `;
-        }).join('');
+            `;
+          }).join('');
 
-        // カードクリック → マップをパンする
-        listEl.querySelectorAll('.spot-card').forEach(card => {
-          card.addEventListener('click', (e) => {
-            if ((e.target as HTMLElement).closest('a')) return; // リンククリックは除外
-            const lng = parseFloat((card as HTMLElement).dataset.lng!);
-            const lat = parseFloat((card as HTMLElement).dataset.lat!);
-            map.flyTo({ center: [lng, lat], zoom: 16 });
+          // 「もっと見る」ボタン
+          if (remaining > 0) {
+            const btn = document.createElement('button');
+            btn.className = 'spot-list__load-more';
+            btn.textContent = lang === 'ja' ? `さらに${Math.min(remaining, PAGE_SIZE)}件を表示`
+                             : lang === 'en' ? `Show ${Math.min(remaining, PAGE_SIZE)} more`
+                             : `Mostrar mais ${Math.min(remaining, PAGE_SIZE)}`;
+            btn.addEventListener('click', () => {
+              showCount += PAGE_SIZE;
+              render();
+            });
+            listEl.appendChild(btn);
+          }
+
+          // カードクリック → マップをパンする
+          listEl.querySelectorAll('.spot-card').forEach(card => {
+            card.addEventListener('click', (e) => {
+              if ((e.target as HTMLElement).closest('a')) return; // リンククリックは除外
+              const lng = parseFloat((card as HTMLElement).dataset.lng!);
+              const lat = parseFloat((card as HTMLElement).dataset.lat!);
+              map.flyTo({ center: [lng, lat], zoom: 16 });
+            });
           });
-        });
+        }
+
+        render();
       }
 
       function applyFilters() {
@@ -682,5 +713,23 @@ const PMTILES_URL = 'pmtiles://https://tiles.kurashiguide.org/ota_city.pmtiles';
       font-size: 0.75rem;
     }
     .spot-card__gmaps:hover { color: var(--city, #3b82f6); }
+
+    .spot-list__load-more {
+      width: 100%;
+      padding: 0.75rem;
+      margin-top: 0.5rem;
+      background: var(--surface, #fff);
+      border: 1px dashed var(--border, #e2e8f0);
+      border-radius: 10px;
+      color: var(--city, #3b82f6);
+      font-size: 0.875rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.2s, border-color 0.2s;
+    }
+    .spot-list__load-more:hover {
+      background: var(--city-light, #eff6ff);
+      border-color: var(--city-mid, #60a5fa);
+    }
   </style>
 </LightLayout>
