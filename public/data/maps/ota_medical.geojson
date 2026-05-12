@@ -47,7 +47,12 @@
           "病理診断科",
           "麻酔科"
         ],
-        "languages": [],
+        "languages": [
+          "en",
+          "es",
+          "pt",
+          "zh"
+        ],
         "source": "mhlw",
         "mhlw_id": "1011100000120"
       }
@@ -103,7 +108,9 @@
           "救急科",
           "麻酔科"
         ],
-        "languages": [],
+        "languages": [
+          "en"
+        ],
         "source": "mhlw",
         "mhlw_id": "1011100000121"
       }
@@ -386,7 +393,11 @@
           "放射線科",
           "麻酔科"
         ],
-        "languages": [],
+        "languages": [
+          "en",
+          "es",
+          "pt"
+        ],
         "source": "mhlw",
         "mhlw_id": "1011100000129"
       }
@@ -1440,7 +1451,9 @@
           "循環器内科",
           "小児科"
         ],
-        "languages": [],
+        "languages": [
+          "en"
+        ],
         "source": "mhlw",
         "mhlw_id": "1022100001402"
       }
