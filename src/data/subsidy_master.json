@@ -3459,105 +3459,44 @@
     "locales": {
       "ja": {
         "title": "婚姻届（結婚するときの手続き）",
-        "easy_explanation": "## ご結婚おめでとうございます！市役所での手続きガイド\n\n結婚して夫婦になるための公的な手続きです。太田市役所や各行政センターに「婚姻届」を提出することで、法的に夫婦と認められます。\n\n### 📝 必要な持ち物\n1.  婚姻届の用紙：1枚（右側に、成人している証人2名分のサインが必要です）\n2.  本人確認書類：運転免許証やマイナンバーカードなど、顔写真付きのもの。\n\n💡 ポイント：以前は本籍地が太田市以外の場合は「戸籍謄本」が必要でしたが、現在は原則不要になりました！\n\n### 🏢 どこに提出するの？\n*   太田市役所の1階「市民課」\n*   太田市内の各行政センター（サービスセンターでは受付不可の場合があるので注意）\n\n### 🌙 夜や休日でも提出できる？\n24時間365日、いつでも提出可能です！\n平日の昼間に行けない場合は、市役所本庁舎1階の「当直室」に預けることができます。（ただし書類のチェックは翌営業日になるため、不備があると後日呼び出されることがあります）",
-        "bottom_line": "結婚する時は「婚姻届」と「写真付き身分証」を持って市役所へ！証人2名のサインが必要です。戸籍謄本は不要になり、夜間や休日でも24時間提出できます。",
-        "amount_info": "手数料無料",
-        "target_audience": [
-          "太田市にお住まいで、これから結婚するおふたり"
-        ],
-        "term_explanations": [
-          {
-            "term": "戸籍謄本（こせきとうほん）",
-            "explanation": "家族全員の出生・結婚・死亡などの記録が載った公的書類。本籍地の市区町村で取得できます。2024年3月から、全国どの市区町村でも取得可能になりました。"
-          },
-          {
-            "term": "本籍地（ほんせきち）",
-            "explanation": "戸籍が置かれている住所。実際に住んでいる場所（住所）とは違うことがあります。日本国内であればどこでも自由に設定できます。"
-          },
-          {
-            "term": "マイナンバーカード",
-            "explanation": "国が発行する顔写真付きのICカード。個人番号（マイナンバー）が記載されており、身分証明書としても使えます。コンビニでの証明書取得やオンライン手続きに便利です。"
-          },
-          {
-            "term": "証人（しょうにん）",
-            "explanation": "婚姻届に署名・押印する成人2名のこと。夫婦の結婚を証明する役割を持ちます。友人・知人・親族など誰でもなれます。"
-          },
-          {
-            "term": "筆頭者（ひっとうしゃ）",
-            "explanation": "戸籍の1番上に記載されている人のこと。婚姻届を提出すると、夫婦の新しい戸籍が作られます。"
-          }
-        ],
+        "easy_explanation": "## 太田市への婚姻届の提出\n\n太田市へ婚姻届を提出する際の手続きです。\n\n### 📝 必要なもの\n1. 届出人の印鑑（※押印は任意です）\n2. 本人確認書類（※写真付きの運転免許証、マイナンバーカードなど。お持ちでない場合でも届出は可能ですが、後日郵便でお知らせが届きます）\n3. 住民異動届（転入・転居等を伴う場合）\n4. 父母の同意書（※令和4年4月1日時点で16歳以上の女性が、18歳未満で婚姻する場合）\n\n### 🏢 届出場所\n* 太田市役所 市民課（1階）\n* 各行政センター（太田行政センターを除く）\n* 各サービスセンター（日本国籍の方のみ）\n\n### 🎁 ぐんま結婚応援パスポート\n協賛店舗で特典が受けられる「ぐんま結婚応援パスポート（通称：コンパス）」を配布しています。詳しくは群馬県の「ぐんまスマイルライフ」をご覧ください。",
+        "bottom_line": "届出人の印鑑（任意）、写真付きの本人確認書類、住民異動届（該当者）等を持参し、市役所市民課・行政センター等へ届け出てください。",
+        "amount_info": null,
+        "target_audience": [],
+        "term_explanations": [],
         "five_w1h": {
-          "who": "太田市にお住まいの方（どちらかの本籍地または住所地が太田市）",
-          "what": "婚姻届の用紙を窓口に提出する",
-          "when": "24時間365日いつでも提出可能（書類チェックは平日8:30〜17:15）",
-          "where": "太田市役所1階 市民課 ／ 各行政センター窓口",
-          "why": "届出しないと法的に夫婦と認められない",
-          "how": "婚姻届＋本人確認書類を窓口に持参（郵送不可）"
+          "who": "記載なし",
+          "what": "婚姻届の提出",
+          "when": "記載なし",
+          "where": "太田市役所 市民課（1階） / 各行政センター（太田行政センター除く） / 各サービスセンター（日本国籍の方のみ）",
+          "why": "記載なし",
+          "how": "窓口にて提出"
         },
         "checklist": [
           {
-            "item": "婚姻届（法務省配布の全国共通様式）",
-            "note": "市役所市民課・各行政センター・法務局で入手。書店・文具店でも購入可",
+            "item": "届出人の印鑑",
+            "note": "押印は任意です",
+            "required": false
+          },
+          {
+            "item": "本人確認書類",
+            "note": "写真付きの本人確認書類（運転免許証、マイナンバーカードなど）",
             "required": true
           },
           {
-            "item": "本人確認書類（2人分）",
-            "note": "運転免許証・マイナンバーカード等。顔写真付きのもの各1点",
-            "required": true
+            "item": "住民異動届",
+            "note": "転入・転居等を伴う場合",
+            "required": false
           },
           {
-            "item": "証人2名の署名・捺印（届書に直接記入）",
-            "note": "成人の証人2名が届書の証人欄に署名と押印すること",
-            "required": true
-          },
-          {
-            "item": "戸籍謄本（本籍地が太田市以外の場合）",
-            "note": "本籍地の市区町村で取得。発行から3か月以内",
+            "item": "父母の同意書",
+            "note": "令和4年4月1日時点で16歳以上の女性で、18歳未満で婚姻する場合",
             "required": false
           }
         ],
-        "form_guide": {
-          "form_name": "婚姻届",
-          "fields": [
-            {
-              "field_name": "新しい本籍",
-              "how_to_fill": "婚姻後の本籍地を記入。日本国内どこでも設定可",
-              "example": "太田市○○町○番地",
-              "note": "住所と異なっていても構わない"
-            },
-            {
-              "field_name": "夫・妻の氏",
-              "how_to_fill": "婚姻後の姓として「夫の氏」または「妻の氏」を選択",
-              "example": "夫の氏",
-              "note": "どちらかの姓を選ぶ義務がある（選択的夫婦別姓は現状不可）"
-            }
-          ],
-          "tips": [
-            "届出は24時間365日受付（夜間・休日は宿直窓口へ）。受理日が婚姻成立日となる",
-            "提出前に記載内容をよく確認すること（訂正は修正液不可、二重線＋訂正印）",
-            "婚姻届受理後、各種名義変更（免許証・保険証・銀行口座等）の手続きも忘れずに"
-          ]
-        },
-        "faq": [
-          {
-            "question": "婚姻届は夫婦どちらの本籍地・住所地でも提出できますか？",
-            "answer": "はい、どちらかの本籍地または住所地があれば太田市役所に提出できます。どちらとも太田市でない場合でも、住所地があれば受け付けてもらえます。"
-          },
-          {
-            "question": "婚姻届に必要な証人は誰でもなれますか？",
-            "answer": "成年（18歳以上）であれば誰でも証人になれます。友人や親族など関係は問いません。証人2名のサインと押印が必要です。"
-          },
-          {
-            "question": "婚姻届を出した後、保険証や免許証の名義変更はどうすればよいですか？",
-            "answer": "婚姻届の受理後、各機関で別途手続きが必要です。健康保険証は勤務先または市役所、運転免許証は警察署・運転免許センター、マイナンバーカードは市役所で更新できます。"
-          },
-          {
-            "question": "夜間や休日でも婚姻届を提出できますか？",
-            "answer": "24時間365日、夜間・休日も市役所の宿直窓口に提出できます。ただし、書類の正式なチェックは平日8:30〜17:15に行われ、不備があれば後日連絡が来ます。"
-          }
-        ],
-        "estimated_time": "窓口で約15分（書類に不備がない場合）",
+        "form_guide": null,
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "my-number-card",
           "national-health-insurance",
@@ -3566,63 +3505,44 @@
       },
       "en": {
         "title": "Marriage Registration (Konin-todoke)",
-        "easy_explanation": "## Congratulations on your marriage! Guide to City Hall Procedures\n\nThis is the official procedure to get legally married in Japan. By submitting a \"Marriage Registration Form\" to Ota City Hall, you will be legally recognized as a married couple.\n\n### 📝 What you need\n1.  Marriage Registration Form: 1 copy (Requires signatures of 2 adult witnesses).\n2.  ID Card: Driver's license, My Number card, or Residence Card (Zairyu Card).\n*Note: If you are marrying a foreign national, you will need additional documents from your embassy, such as a Certificate of No Impediment.* \n\n### 🏢 Where to submit?\n*   Ota City Hall 1st Floor \"Citizens' Affairs Division\" (Shimin-ka)\n\n### 🌙 Can I submit it at night or on weekends?\nYes, 24/7/365!\nYou can drop it off at the security guard desk on the 1st floor of City Hall outside of business hours.",
-        "bottom_line": "Bring your Marriage Registration form (with 2 witnesses' signatures) and ID to City Hall. It's free and can be submitted 24/7!",
-        "amount_info": "No fee required",
-        "target_audience": [
-          "Couples planning to get married in Ota City"
-        ],
+        "easy_explanation": "## Marriage Registration in Ota City\n\nThis is the procedure to submit a marriage registration to Ota City.\n\n### 📝 What you need\n1. Applicant's seal (stamping is optional)\n2. ID documents (Photo ID such as a driver's license or My Number Card. If you do not have one, you can still register, but a notification will be sent by mail later)\n3. Change of address notification (if moving/transferring)\n4. Parental consent form (For females who were 16 or older as of April 1, 2022, and are marrying under the age of 18)\n\n### 🏢 Where to submit?\n* Ota City Hall 1st Floor, Citizens' Affairs Division\n* Administrative Centers (excluding Ota Administrative Center)\n* Service Centers (Japanese citizens only)\n\n### 🎁 Gunma Marriage Support Passport\nWe distribute the \"Gunma Marriage Support Passport (Compass)\" which offers benefits at participating stores. Please see Gunma Prefecture's \"Gunma Smile Life\" site for details.",
+        "bottom_line": "Bring your photo ID, seal (optional), and change of address form (if applicable) to the City Hall Citizens' Affairs Division, Administrative Centers, etc.",
+        "amount_info": null,
+        "target_audience": [],
         "term_explanations": [],
         "five_w1h": {
-          "who": "Residents of Ota City (or if one party's registered domicile/address is Ota)",
-          "what": "Submit the Marriage Registration form",
-          "when": "Available 24/7/365 (Document checks are weekdays 8:30-17:15)",
-          "where": "City Hall 1F Citizens Affairs Division / Administrative Center counters",
-          "why": "Necessary to be legally recognized as a married couple",
-          "how": "Bring the registration form and ID to the counter (mail not accepted)"
+          "who": "Not specified",
+          "what": "Submit marriage registration",
+          "when": "Not specified",
+          "where": "City Hall 1F Citizens Affairs Division / Administrative Centers (except Ota) / Service Centers (Japanese citizens only)",
+          "why": "Not specified",
+          "how": "Submit at the counter"
         },
         "checklist": [
           {
-            "item": "Marriage Registration Form (婚姻届)",
-            "note": "Available at City Hall or bookstores",
+            "item": "Applicant's seal",
+            "note": "Stamping is optional",
+            "required": false
+          },
+          {
+            "item": "ID documents",
+            "note": "Photo ID (Driver's license, My Number Card, etc.)",
             "required": true
           },
           {
-            "item": "ID documents for 2 people (本人確認書類)",
-            "note": "Driver's license, My Number Card, etc. with photo",
-            "required": true
+            "item": "Change of address notification",
+            "note": "If moving/transferring",
+            "required": false
           },
           {
-            "item": "Signatures/seals of 2 witnesses (証人2名の署名・捺印)",
-            "note": "Must be adults signing directly on the form",
-            "required": true
-          },
-          {
-            "item": "Family Register Transcript (戸籍謄本)",
-            "note": "If registered domicile is not Ota City. Issued within 3 months",
+            "item": "Parental consent form",
+            "note": "If under 18 (applicable to females 16+ as of Apr 1, 2022)",
             "required": false
           }
         ],
         "form_guide": null,
-        "faq": [
-          {
-            "question": "Can we submit the form at either of our registered domiciles/addresses?",
-            "answer": "Yes, you can submit it to Ota City Hall if either party has a registered domicile or address here. Even if neither has a domicile, an address is sufficient."
-          },
-          {
-            "question": "Can anyone be a witness?",
-            "answer": "Any adult (18+) can be a witness regardless of relation, such as friends or relatives. Their signatures and seals are required."
-          },
-          {
-            "question": "How do I update my insurance or license name after marriage?",
-            "answer": "Separate procedures are required at each institution after the marriage is accepted. Insurance at your workplace/city hall, license at police station, and My Number Card at city hall."
-          },
-          {
-            "question": "Can I submit the form at night or on holidays?",
-            "answer": "Yes, 24/7/365 at the night duty counter. However, formal checks happen on weekdays (8:30-17:15), and you may be contacted if there are errors."
-          }
-        ],
-        "estimated_time": "About 15 minutes at the counter (if no document flaws)",
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "my-number-card",
           "national-health-insurance",
@@ -3631,63 +3551,44 @@
       },
       "pt": {
         "title": "Registro de Casamento",
-        "easy_explanation": "## Parabéns pelo seu casamento! Guia de Procedimentos da Prefeitura\n\nEste é o procedimento oficial para se casar legalmente no Japão. Ao enviar um \"Formulário de Registro de Casamento\" para a Prefeitura de Ota, vocês serão legalmente reconhecidos como um casal.\n\n### 📝 O que você precisa\n1.  Formulário de Registro de Casamento: 1 cópia (Requer assinaturas de 2 testemunhas adultas).\n2.  Documento de Identidade: Carteira de motorista, cartão My Number ou Zairyu Card.\n*Nota: Se você for estrangeiro, precisará de documentos adicionais de sua embaixada.*\n\n### 🏢 Onde enviar?\n*   Prefeitura de Ota, 1º andar, \"Divisão de Assuntos do Cidadão\" (Shimin-ka).\n\n### 🌙 Posso enviar à noite ou nos finais de semana?\nSim, 24 horas por dia, 7 dias por semana!\nVocê pode entregá-lo no balcão do guarda de segurança no 1º andar da Prefeitura.",
-        "bottom_line": "Traga seu formulário de Registro de Casamento (com assinaturas de 2 testemunhas) e identidade para a Prefeitura. É gratuito e pode ser enviado 24h!",
-        "amount_info": "Gratuito",
-        "target_audience": [
-          "Casais que planejam se casar na cidade de Ota"
-        ],
+        "easy_explanation": "## Registro de Casamento na Cidade de Ota\n\nEste é o procedimento para enviar um registro de casamento para a Cidade de Ota.\n\n### 📝 O que você precisa\n1. Carimbo do solicitante (o carimbo é opcional)\n2. Documentos de identidade (Identidade com foto, como carteira de motorista ou Cartão My Number. Se você não tiver um, ainda poderá se registrar, mas uma notificação será enviada pelo correio mais tarde)\n3. Notificação de mudança de endereço (se for se mudar/transferir)\n4. Formulário de consentimento dos pais (Para mulheres com 16 anos ou mais em 1º de abril de 2022 e que se casam com menos de 18 anos)\n\n### 🏢 Onde enviar?\n* Prefeitura de Ota, 1º andar, Divisão de Assuntos do Cidadão\n* Centros Administrativos (excluindo o Centro Administrativo de Ota)\n* Centros de Atendimento (apenas cidadãos japoneses)\n\n### 🎁 Passaporte de Apoio ao Casamento de Gunma\nDistribuímos o \"Passaporte de Apoio ao Casamento de Gunma (Compass)\", que oferece benefícios em lojas parceiras. Consulte o site \"Gunma Smile Life\" da Província de Gunma para obter detalhes.",
+        "bottom_line": "Traga sua identidade com foto, carimbo (opcional) e notificação de mudança de endereço (se aplicável) para a Divisão de Assuntos do Cidadão da Prefeitura, Centros Administrativos, etc.",
+        "amount_info": null,
+        "target_audience": [],
         "term_explanations": [],
         "five_w1h": {
-          "who": "Moradores da Cidade de Ota (ou se um tiver registro/domicílio em Ota)",
-          "what": "Enviar o Registro de Casamento",
-          "when": "24 horas, 365 dias (Checagem de documentos nos dias úteis 8:30-17:15)",
-          "where": "Prefeitura 1º Andar Divisão de Cidadãos / Centros Administrativos",
-          "why": "Para ser legalmente reconhecido como casal",
-          "how": "Traga o formulário e documento com foto (não aceita correio)"
+          "who": "Não especificado",
+          "what": "Enviar o registro de casamento",
+          "when": "Não especificado",
+          "where": "Prefeitura 1º Andar Divisão de Cidadãos / Centros Administrativos (exceto Ota) / Centros de Atendimento (apenas cidadãos japoneses)",
+          "why": "Não especificado",
+          "how": "Enviar no balcão"
         },
         "checklist": [
           {
-            "item": "Registro de Casamento (婚姻届)",
-            "note": "Disponível na Prefeitura ou livrarias",
+            "item": "Carimbo do solicitante",
+            "note": "O carimbo é opcional",
+            "required": false
+          },
+          {
+            "item": "Documentos de identidade",
+            "note": "Identidade com foto (Carteira de motorista, Cartão My Number, etc.)",
             "required": true
           },
           {
-            "item": "Documento de identidade de ambos (本人確認書類)",
-            "note": "Com foto (carteira de motorista, My Number, etc.)",
-            "required": true
+            "item": "Notificação de mudança de endereço",
+            "note": "Se for se mudar/transferir",
+            "required": false
           },
           {
-            "item": "Assinatura de 2 testemunhas (証人2名の署名・捺印)",
-            "note": "Devem ser adultos assinando no formulário",
-            "required": true
-          },
-          {
-            "item": "Transcrição do Registro Familiar (戸籍謄本)",
-            "note": "Se o domicílio registrado não for Ota. Emitido < 3 meses",
+            "item": "Consentimento dos pais",
+            "note": "Se menor de 18 anos (aplicável a mulheres com mais de 16 anos em 1º de abril de 2022)",
             "required": false
           }
         ],
         "form_guide": null,
-        "faq": [
-          {
-            "question": "Podemos enviar em qualquer um dos nossos domicílios/endereços?",
-            "answer": "Sim, na Prefeitura de Ota se um dos dois tiver endereço ou domicílio aqui."
-          },
-          {
-            "question": "Qualquer pessoa pode ser testemunha?",
-            "answer": "Qualquer adulto (18+) pode ser testemunha, incluindo amigos ou parentes. Assinatura e carimbo são obrigatórios."
-          },
-          {
-            "question": "Como altero o nome no seguro ou carteira após o casamento?",
-            "answer": "Procedimentos separados são necessários. Seguro no trabalho/prefeitura, carteira na polícia e Cartão My Number na prefeitura."
-          },
-          {
-            "question": "Posso enviar à noite ou nos feriados?",
-            "answer": "Sim, 24 horas por dia, 365 dias. Mas a checagem formal é nos dias úteis (8:30-17:15). Você será contatado se houver erros."
-          }
-        ],
-        "estimated_time": "Cerca de 15 minutos no balcão (sem erros nos documentos)",
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "my-number-card",
           "national-health-insurance",
