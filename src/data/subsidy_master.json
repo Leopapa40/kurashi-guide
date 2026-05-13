@@ -5604,114 +5604,54 @@
     "locales": {
       "ja": {
         "title": "離婚届（離婚するときの公的な手続き）",
-        "easy_explanation": "## 離婚を法的に成立させるための手続きです\n\n夫婦関係を解消するための届出です。話し合いで別れる「協議離婚」と、裁判所を通した「裁判離婚」で必要なものが異なります。\n\n### 📝 必要な持ち物（話し合いで別れる場合）\n1.  離婚届の用紙：1枚（右側に、成人している証人2名分のサインが必要です）。夫婦それぞれの自筆サインが必要です。\n2.  本人確認書類：運転免許証やマイナンバーカードなど。\n\n### 🏛️ 裁判所を通した場合（調停・裁判離婚）\n*   裁判等が確定した日から10日以内に提出しなければなりません。\n*   証人2名のサインは不要ですが、裁判所が発行した「調停調書」や「判決書」などの証明書類を一緒に提出する必要があります。\n\n### ⚠️ 苗字（氏）はどうなるの？\n離婚すると、結婚した時に苗字を変えた側は元の苗字（旧姓）に戻ります。\nもし「今のままの苗字を使い続けたい」という場合は、離婚届と一緒に『離婚の際に称していた氏を称する届』という別の書類を提出する必要があります。",
-        "bottom_line": "話し合いで別れる場合は、離婚届に証人2名のサインをもらって市役所へ提出します。元の苗字に戻りたくない場合は追加の書類提出が必要です。",
-        "amount_info": "手続き無料",
-        "target_audience": [
-          "協議離婚や裁判離婚を予定されている方"
-        ],
-        "term_explanations": [
-          {
-            "term": "戸籍謄本（こせきとうほん）",
-            "explanation": "家族全員の出生・結婚・死亡などの記録が載った公的書類。本籍地の市区町村で取得できます。"
-          },
-          {
-            "term": "本籍地（ほんせきち）",
-            "explanation": "戸籍が置かれている住所。離婚後は元の戸籍に戻るか、新しい戸籍を作るかを選択できます。"
-          },
-          {
-            "term": "交付（こうふ）",
-            "explanation": "市役所から書類・カード・証明書などを受け取ること。「発行してもらう」と同じ意味で使われます。"
-          },
-          {
-            "term": "協議離婚（きょうぎりこん）",
-            "explanation": "夫婦が話し合いで合意して離婚すること。裁判所を使わず、離婚届と証人2名の署名で手続きできます。日本の離婚の約87%がこの方式です。"
-          },
-          {
-            "term": "調停（ちょうてい）",
-            "explanation": "家庭裁判所で行われる話し合いの手続き。調停委員が仲介役となって離婚の条件などを話し合います。"
-          },
-          {
-            "term": "親権（しんけん）",
-            "explanation": "未成年の子どもを養育・監護する権利と義務。離婚する場合は必ずどちらかの親が親権者となる必要があります。"
-          }
-        ],
+        "easy_explanation": "## 太田市への離婚届の提出\n\n太田市へ離婚届を提出する際の手続きです。\n\n### 📝 届出人と届出期間\n*   **届出人**: 夫および妻（※調停・裁判離婚の場合は申立人）\n*   **効力発生日**: 届出の日から効力を生じます（※調停・裁判離婚の場合は調停成立・裁判確定の日から10日以内に届出が必要）\n\n### 🏢 届出場所\n*   太田市役所 市民課（1階）\n※行政センター等での受付は記載されていません。\n\n### ⚠️ 民法改正に関する注意点\n民法等の一部改正により、子について離婚後は共同親権または単独親権の定めをすることができるようになります（令和8年4月1日施行）。\nまた、民法改正により離婚届の様式も変更となります。すでに旧様式の届書をお持ちの方で未成年者がいる場合は、専用の別紙を記入のうえ、離婚届と一緒に提出してください。\n（※新しい離婚届は市民課窓口で配布しています）",
+        "bottom_line": "届出人の印鑑（任意）、写真付きの本人確認書類等を持参し、市役所市民課（1階）へ届け出てください。未成年者がいる場合は別紙の提出が必要です。",
+        "amount_info": null,
+        "target_audience": [],
+        "term_explanations": [],
         "five_w1h": {
-          "who": "夫婦関係を解消したい方",
-          "what": "離婚届を市役所に提出する",
-          "when": "いつでも提出可能（裁判離婚の場合は確定から10日以内）",
-          "where": "太田市役所1階 市民課 ／ 各行政センター窓口",
-          "why": "届出しないと法的に離婚が成立しません",
-          "how": "離婚届（協議の場合は証人2名の署名必要）と本人確認書類を持参"
+          "who": "夫および妻（※調停・裁判離婚の場合は申立人）",
+          "what": "離婚届の提出",
+          "when": "届出の日から効力を生じます（※調停・裁判離婚の場合は調停成立・裁判確定の日から10日以内）",
+          "where": "太田市役所 市民課（1階）",
+          "why": "記載なし",
+          "how": "窓口にて提出"
         },
         "checklist": [
           {
-            "item": "離婚届（法務省配布の全国共通様式）",
-            "note": "市役所市民課・各行政センター・法務局で入手",
+            "item": "離婚届",
+            "note": "市民課窓口で配布しています",
             "required": true
           },
           {
-            "item": "本人確認書類（2人分・協議離婚の場合）",
-            "note": "運転免許証・マイナンバーカード等。顔写真付きのもの各1点",
-            "required": true
-          },
-          {
-            "item": "証人2名の署名・捺印（協議離婚の場合）",
-            "note": "成人の証人2名が届書の証人欄に署名と押印すること",
-            "required": true
-          },
-          {
-            "item": "戸籍謄本（本籍地が太田市以外の場合）",
-            "note": "本籍地の市区町村で取得。発行から3か月以内",
+            "item": "届出人の印鑑",
+            "note": "押印は任意です",
             "required": false
           },
           {
-            "item": "調停調書・判決謄本（調停・裁判離婚の場合）",
-            "note": "裁判所から交付されたもの",
+            "item": "本人確認書類",
+            "note": "写真付きの本人確認書類（運転免許証、マイナンバーカードなど）",
+            "required": true
+          },
+          {
+            "item": "未成年者がいる場合の別紙",
+            "note": "すでに旧様式の届書をお持ちの方で未成年者がいる場合",
+            "required": false
+          },
+          {
+            "item": "戸籍法77条の2の届",
+            "note": "離婚後、婚姻当時の氏を称する場合",
+            "required": false
+          },
+          {
+            "item": "子の入籍届",
+            "note": "子の氏を変更する場合（※後日、家庭裁判所の許可が必要）",
             "required": false
           }
         ],
-        "form_guide": {
-          "form_name": "離婚届",
-          "fields": [
-            {
-              "field_name": "離婚の種別",
-              "how_to_fill": "「協議」「調停」「審判」「判決」から選択",
-              "example": "協議",
-              "note": "調停・審判・判決の場合は裁判所の書類も必要"
-            },
-            {
-              "field_name": "未成年の子の氏名",
-              "how_to_fill": "未成年の子がいる場合、親権者を明記して子の名前を記入",
-              "example": "山田花子（親権者：母）",
-              "note": "未成年の子の親権を必ず決めること"
-            }
-          ],
-          "tips": [
-            "協議離婚は夫婦合意のみで成立。調停・裁判の場合は裁判所での手続きが先",
-            "離婚後、子どもの姓・戸籍の変更には別途家庭裁判所への申立が必要な場合あり",
-            "夜間・休日は宿直窓口で受付可"
-          ]
-        },
-        "faq": [
-          {
-            "question": "協議離婚と調停離婚では届け出方法が違いますか？",
-            "answer": "協議離婚は夫婦の合意で離婚届を提出するだけです。調停離婚・裁判離婚の場合は審判書や判決書の謄本を添付して10日以内に届け出る必要があります。"
-          },
-          {
-            "question": "離婚届に必要な証人は誰でもなれますか？",
-            "answer": "協議離婚の場合、成年（18歳以上）の証人2名が必要です。調停・裁判離婚の場合は証人不要です。証人はサインと押印が必要です。"
-          },
-          {
-            "question": "離婚後、子どもの戸籍や苗字はどうなりますか？",
-            "answer": "離婚しても子どもの戸籍と苗字はすぐには変わりません。子どもを母親の戸籍に移したい場合は、家庭裁判所に「子の氏の変更許可申立て」を行い、その後で入籍届を提出する手続きが必要です。"
-          },
-          {
-            "question": "離婚届を出した後にやることはありますか？",
-            "answer": "主に①子どもの戸籍・氏の変更（希望する場合）②健康保険の加入変更③マイナンバーカード・免許証などの氏名変更④住民票の住所変更（引越す場合）が必要です。"
-          }
-        ],
-        "estimated_time": "窓口で約15分",
+        "form_guide": null,
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "child-allowance",
           "national-health-insurance",
@@ -5720,68 +5660,54 @@
       },
       "en": {
         "title": "Divorce Registration (Rikon-todoke)",
-        "easy_explanation": "## Official procedure for dissolving a marriage\n\nThis is the procedure to legally dissolve a marriage. The requirements differ if it is a divorce by mutual agreement (Kyogi Rikon) or through a family court (Saiban Rikon).\n\n### 📝 For Mutual Agreement Divorce\n1.  Divorce Registration Form: 1 copy (Requires signatures of 2 adult witnesses). Both spouses must sign.\n2.  ID Card (Driver's License, Residence Card, etc.).\n\n### 🏛️ For Court Divorce\n*   Must be submitted within 10 days of the court decision.\n*   Witnesses are NOT required, but you must attach the court documents (e.g., Mediation Record).\n\n### ⚠️ What happens to your last name?\nIf you changed your surname when you got married, you will legally return to your original maiden name. If you wish to keep your married name, you must submit an additional form.",
-        "bottom_line": "For a mutual divorce, bring the divorce form (signed by 2 witnesses) and ID to City Hall. If you want to keep your married surname, ask for the extra form.",
-        "amount_info": "No fee required",
-        "target_audience": [
-          "Couples planning to divorce"
-        ],
+        "easy_explanation": "## Divorce Registration in Ota City\n\nThis is the procedure to submit a divorce registration to Ota City.\n\n### 📝 Applicants and Period\n*   **Applicant**: Husband and wife (For mediation/court divorce: the petitioner)\n*   **Effective Date**: Effective from the date of notification (For mediation/court divorce: must be submitted within 10 days from the date of mediation establishment/court decision)\n\n### 🏢 Where to submit\n*   Ota City Hall 1st Floor, Citizens' Affairs Division\n\n### ⚠️ Note on Civil Code Amendment\nDue to the Civil Code amendment, the format of the divorce registration form will change. If you already have the old form and have minor children, you must fill out a separate attachment and submit it together with the divorce registration. (New divorce registration forms are distributed at the Citizens' Affairs Division counter.)",
+        "bottom_line": "Bring your photo ID and seal (optional) to the Citizens' Affairs Division on the 1st floor of City Hall. An attachment is required if you have minor children.",
+        "amount_info": null,
+        "target_audience": [],
         "term_explanations": [],
         "five_w1h": {
-          "who": "Those seeking to dissolve their marriage",
-          "what": "Submit Divorce Registration to City Hall",
-          "when": "Anytime (within 10 days of finalization for court divorces)",
-          "where": "City Hall 1F Citizens Affairs Division / Admin Centers",
-          "why": "Without this notification, the divorce is not legally recognized.",
-          "how": "Submit the form (requires 2 witnesses if mutual consent) with photo ID."
+          "who": "Husband and wife (Petitioner for mediation/court divorce)",
+          "what": "Submit divorce registration",
+          "when": "Effective from the date of notification (within 10 days for mediation/court divorce)",
+          "where": "Ota City Hall 1st Floor, Citizens' Affairs Division",
+          "why": "Not specified",
+          "how": "Submit at the counter"
         },
         "checklist": [
           {
-            "item": "Divorce Registration Form (離婚届)",
-            "note": "Available at City Hall or Legal Affairs Bureau.",
+            "item": "Divorce Registration Form",
+            "note": "Distributed at the Citizens' Affairs Division counter",
             "required": true
           },
           {
-            "item": "ID Document (本人確認書類)",
-            "note": "Driver's license, My Number Card, etc. with photo (for both people).",
-            "required": true
-          },
-          {
-            "item": "Signatures of 2 Witnesses (証人2名の署名・捺印)",
-            "note": "Required only for mutual consent divorce. Adults over 18.",
-            "required": true
-          },
-          {
-            "item": "Family Register Transcript (戸籍謄本)",
-            "note": "If registered domicile is not Ota City.",
+            "item": "Applicant's seal",
+            "note": "Stamping is optional",
             "required": false
           },
           {
-            "item": "Court Documents (調停調書・判決謄本)",
-            "note": "Mediation/Judgment documents required for court divorce.",
+            "item": "ID documents",
+            "note": "Photo ID (Driver's license, My Number Card, etc.)",
+            "required": true
+          },
+          {
+            "item": "Attachment for minor children",
+            "note": "Required if you have an old form and minor children",
+            "required": false
+          },
+          {
+            "item": "Notification under Article 77-2 of the Family Register Act",
+            "note": "To retain the married surname after divorce",
+            "required": false
+          },
+          {
+            "item": "Child's enrollment notification",
+            "note": "To change the child's surname (Requires Family Court permission later)",
             "required": false
           }
         ],
         "form_guide": null,
-        "faq": [
-          {
-            "question": "Is the submission method different for mutual consent vs. court divorce?",
-            "answer": "Mutual consent requires only the form signed by both parties. Court divorce requires court documents attached and submitted within 10 days."
-          },
-          {
-            "question": "Who can be a witness for the divorce registration?",
-            "answer": "Any two adults (18+) can be witnesses for mutual consent divorce. They must sign and affix their seal. No witnesses needed for court divorce."
-          },
-          {
-            "question": "What happens to the child's family register and surname?",
-            "answer": "They don't change automatically. To change the child's surname to the mother's, you must petition the Family Court for 'permission to change surname', then submit a notification."
-          },
-          {
-            "question": "What procedures are needed after divorce?",
-            "answer": "1. Change child's surname (if desired) 2. Change health insurance 3. Update My Number Card and driver's license names 4. Change address if moving."
-          }
-        ],
-        "estimated_time": "About 15 minutes at the counter",
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "child-allowance",
           "national-health-insurance",
@@ -5790,68 +5716,54 @@
       },
       "pt": {
         "title": "Registro de Divórcio",
-        "easy_explanation": "## Procedimento oficial para dissolver um casamento\n\nEste é o procedimento para dissolver legalmente um casamento.\n\n### 📝 Para Divórcio por Mútuo Acordo\n1.  Formulário de Registro de Divórcio: 1 cópia (Requer assinaturas de 2 testemunhas adultas). Ambos os cônjuges devem assinar.\n2.  Identidade (Zairyu Card, etc.).\n\n### 🏛️ Para Divórcio Judicial\n*   Deve ser enviado dentro de 10 dias após a decisão do tribunal.\n*   Testemunhas NÃO são necessárias, mas você deve anexar os documentos do tribunal.\n\n### ⚠️ O que acontece com seu sobrenome?\nSe você mudou de sobrenome ao se casar, voltará legalmente ao seu nome de solteira original. Se desejar manter seu nome de casada, deverá enviar um formulário adicional.",
-        "bottom_line": "Para um divórcio amigável, traga o formulário de divórcio (assinado por 2 testemunhas) e a identidade à Prefeitura.",
-        "amount_info": "Gratuito",
-        "target_audience": [
-          "Casais que planejam se divorciar"
-        ],
+        "easy_explanation": "## Registro de Divórcio na Cidade de Ota\n\nEste é o procedimento para enviar um registro de divórcio para a Cidade de Ota.\n\n### 📝 Solicitantes e Período\n*   **Solicitante**: Marido e mulher (Para divórcio por mediação/tribunal: o peticionário)\n*   **Data de Vigência**: Válido a partir da data de notificação (Para divórcio por mediação/tribunal: deve ser enviado em até 10 dias após o acordo/decisão judicial)\n\n### 🏢 Onde enviar\n*   Prefeitura de Ota, 1º andar, Divisão de Assuntos do Cidadão\n\n### ⚠️ Nota sobre a Emenda do Código Civil\nDevido à emenda do Código Civil, o formato do formulário de registro de divórcio será alterado. Se você já tem o formulário antigo e tem filhos menores, deve preencher um anexo separado e enviá-lo junto com o registro de divórcio. (Novos formulários são distribuídos no balcão da Divisão de Assuntos do Cidadão.)",
+        "bottom_line": "Traga sua identidade com foto e carimbo (opcional) para a Divisão de Assuntos do Cidadão no 1º andar da Prefeitura. Um anexo é necessário se você tiver filhos menores.",
+        "amount_info": null,
+        "target_audience": [],
         "term_explanations": [],
         "five_w1h": {
-          "who": "Pessoas querendo dissolver o casamento",
-          "what": "Enviar o Registro de Divórcio à Prefeitura",
-          "when": "Qualquer momento (em até 10 dias após o divórcio no tribunal)",
-          "where": "Prefeitura 1º Andar Divisão de Cidadãos / Centros",
-          "why": "Sem notificação, o divórcio não é legalmente válido.",
-          "how": "Envie o formulário (requer 2 testemunhas se for acordo) com ID com foto."
+          "who": "Marido e mulher (Peticionário para divórcio por mediação/tribunal)",
+          "what": "Enviar registro de divórcio",
+          "when": "Válido a partir da data de notificação (em até 10 dias para divórcio judicial)",
+          "where": "Prefeitura de Ota, 1º andar, Divisão de Assuntos do Cidadão",
+          "why": "Não especificado",
+          "how": "Enviar no balcão"
         },
         "checklist": [
           {
-            "item": "Registro de Divórcio (離婚届)",
-            "note": "Disponível na Prefeitura ou Bureau de Assuntos Legais.",
+            "item": "Formulário de Registro de Divórcio",
+            "note": "Distribuído no balcão da Divisão de Assuntos do Cidadão",
             "required": true
           },
           {
-            "item": "Documento de Identidade (本人確認書類)",
-            "note": "Com foto, para ambas as pessoas.",
-            "required": true
-          },
-          {
-            "item": "Assinaturas de 2 Testemunhas (証人2名の署名・捺印)",
-            "note": "Apenas para divórcio por acordo (maiores de 18).",
-            "required": true
-          },
-          {
-            "item": "Transcrição do Registro Familiar (戸籍謄本)",
-            "note": "Se o domicílio registrado não for Ota.",
+            "item": "Carimbo do solicitante",
+            "note": "O carimbo é opcional",
             "required": false
           },
           {
-            "item": "Documentos do Tribunal (調停調書・判決謄本)",
-            "note": "Apenas para divórcio judicial.",
+            "item": "Documentos de identidade",
+            "note": "Identidade com foto (Carteira de motorista, Cartão My Number, etc.)",
+            "required": true
+          },
+          {
+            "item": "Anexo para filhos menores",
+            "note": "Necessário se você tiver um formulário antigo e filhos menores",
+            "required": false
+          },
+          {
+            "item": "Notificação sob o Artigo 77-2",
+            "note": "Para manter o sobrenome de casada após o divórcio",
+            "required": false
+          },
+          {
+            "item": "Notificação de inscrição do filho",
+            "note": "Para mudar o sobrenome da criança (Requer permissão do Tribunal de Família posteriormente)",
             "required": false
           }
         ],
         "form_guide": null,
-        "faq": [
-          {
-            "question": "O envio é diferente entre divórcio por acordo ou tribunal?",
-            "answer": "Por acordo, basta o formulário assinado por ambos. Por tribunal, anexe documentos do tribunal em até 10 dias."
-          },
-          {
-            "question": "Quem pode ser testemunha do divórcio?",
-            "answer": "Quaisquer dois adultos (18+) para divórcio por acordo. Devem assinar e carimbar. Não há testemunhas para divórcio judicial."
-          },
-          {
-            "question": "O que acontece com o nome e registro da criança?",
-            "answer": "Não mudam sozinhos. Para mudar o nome para o da mãe, solicite permissão no Tribunal de Família."
-          },
-          {
-            "question": "O que fazer após o divórcio?",
-            "answer": "1. Mudar o nome da criança (se quiser) 2. Seguro saúde 3. Atualizar Cartão My Number e CNH 4. Mudar de endereço."
-          }
-        ],
-        "estimated_time": "Cerca de 15 minutos no balcão",
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "child-allowance",
           "national-health-insurance",
