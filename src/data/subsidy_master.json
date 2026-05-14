@@ -19427,175 +19427,141 @@
   {
     "id": "end-of-life-prep",
     "category": "life-events",
-    "original_url": "https://www.city.ota.gunma.jp/life/1/7/",
+    "original_url": "https://www.city.ota.gunma.jp/page/1039246.html",
     "locales": {
       "ja": {
-        "title": "終活・エンディングノート・相続の準備",
-        "easy_explanation": "「自分が亡くなった後、家族に迷惑をかけたくない」「財産や葬儀の希望をまとめておきたい」。そんな方のために、終活（しゅうかつ）の準備として「エンディングノート」の活用をお勧めしています。\n\n【エンディングノートとは】\n自分のこれまでの人生を振り返り、医療や介護の希望、葬儀の希望、財産（預貯金・保険）の情報、家族へのメッセージなどを書き留めておくノートです。\n※法的な効力（遺言書のような効力）はありませんが、残された家族が手続きをする際に大きな助けになります。\n\n【ノートの入手方法】\n市販のものを使うか、太田市内の地域包括支援センターで配布している場合もありますのでお問い合わせください。\n\n【相続や法的な相談】\n遺言書の作成や相続トラブルの防止については、太田市の「無料弁護士相談」や「無料司法書士相談」（要予約）をご利用ください。",
-        "bottom_line": "家族の負担を減らすため、元気なうちにエンディングノートを書き始めましょう。法的な遺言や相続の相談は無料法律相談へ。",
+        "title": "ご家族が亡くなったときの手続き（おくやみ）",
+        "easy_explanation": "## おくやみハンドブック・おくやみ手続きナビのご案内\n\n太田市では、ご遺族の皆様が市役所をはじめとしたさまざまな届出等の手続きをわかりやすく進めていただくことを願い、「おくやみハンドブック」を作成しました。\nおくやみハンドブックは株式会社鎌倉新書との官民協働事業により作成されたものです。\n\n### 📖 おくやみハンドブック\n太田市の公式ホームページからPDFファイル（約7.87MB）としてダウンロードできます。\n\n### 💻 おくやみ手続きナビ\n死亡届出後に行う数多くある手続きを、簡単な質問に答えていくだけで抽出し、手続き場所や必要書類などを確認することができるWebサービスです。\n\n**【お問い合わせ先】**\n市民生活部 市民課",
+        "bottom_line": "ご遺族が市役所等でのさまざまな届出手続きをわかりやすく進められるよう、太田市では「おくやみハンドブック」と「おくやみ手続きナビ」を提供しています。",
         "amount_info": null,
         "target_audience": [
-          "自分の老後や死後の準備をしておきたい方",
-          "エンディングノートを書きたい方",
-          "相続について不安がある方"
+          "ご家族が亡くなり、市役所等での手続きが必要なご遺族"
         ],
         "term_explanations": [
           {
-            "term": "終活（しゅうかつ）",
-            "explanation": "人生の終わりに向けて、医療・介護・葬儀・お墓・財産相続などの準備をすること。"
+            "term": "おくやみハンドブック",
+            "explanation": "ご遺族が市役所をはじめとしたさまざまな届出等の手続きをわかりやすく進められるよう作成された冊子です。株式会社鎌倉新書との官民協働事業により作成されました。"
           },
           {
-            "term": "エンディングノート",
-            "explanation": "自分の情報や希望を家族に伝えるためのノート。法的な強制力はありませんが、家族の負担を大幅に減らせます。"
-          },
-          {
-            "term": "遺言書（ゆいごんしょ）",
-            "explanation": "財産の分け方などを法的な効力を持って残す文書。エンディングノートとは違い厳格な書き方のルールがあります。"
+            "term": "おくやみ手続きナビ",
+            "explanation": "死亡届出後に行う数多くある手続きを、簡単な質問に答えていくだけで抽出し、手続き場所や必要書類などを確認することができるWebサービスです。"
           }
         ],
         "five_w1h": {
-          "who": "将来の準備をしておきたい太田市民",
-          "what": "エンディングノートの作成、または遺言・相続の無料相談",
-          "when": "元気で判断能力がしっかりしているうちに",
-          "where": "自宅（ノート記入） / 市民そうだん課（弁護士・司法書士相談）",
-          "why": "残された家族が各種手続きや相続で迷ったり揉めたりするのを防ぐため",
-          "how": "①エンディングノートを入手して書く→②法的な相談が必要なら無料相談を予約する"
+          "who": "ご遺族の皆様",
+          "what": "死亡届出後のさまざまな届出等の手続きの確認",
+          "when": "死亡届出後",
+          "where": "太田市役所（市民生活部 市民課）、おくやみ手続きナビ（Webサービス）",
+          "why": "さまざまな届出等の手続きをわかりやすく進めていただくため",
+          "how": "おくやみハンドブック（PDF）を参照する、またはおくやみ手続きナビで簡単な質問に答えて手続きを抽出する"
         },
         "checklist": [
           {
-            "item": "エンディングノートを入手する（市販のものでもOK）",
-            "note": "少しずつ書き進めましょう",
+            "item": "おくやみハンドブック（PDF）",
+            "note": "市ホームページからダウンロード可能（約7.87MB）",
             "required": false
           },
           {
-            "item": "書いたノートの保管場所を信頼できる家族に伝えておく",
-            "note": "見つけてもらえないと意味がありません",
-            "required": true
-          },
-          {
-            "item": "遺言書が必要な場合は、司法書士や弁護士に相談する",
-            "note": "市の無料相談が利用できます",
+            "item": "おくやみ手続きナビ（Webサービス）",
+            "note": "簡単な質問に答えるだけで、手続き場所や必要書類などを確認できます",
             "required": false
           }
         ],
         "form_guide": null,
-        "faq": [
-          {
-            "question": "エンディングノートに書いた通りに遺産を分けてもらえますか？",
-            "answer": "エンディングノートには法的な効力がないため、法的に確実な相続を希望する場合は「遺言書」を作成してください。"
-          },
-          {
-            "question": "何歳くらいから終活を始めるべきですか？",
-            "answer": "決まりはありませんが、病気などで判断能力が落ちる前に、元気なうちから少しずつ整理を始めるのがおすすめです。"
-          }
-        ],
-        "estimated_time": "無料法律相談: 1回30分（要予約）",
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "legal-aid"
         ]
       },
       "en": {
-        "title": "End-of-Life Planning, Ending Note, and Inheritance Preparation",
-        "easy_explanation": "'I don't want to burden my family after I pass away' or 'I want to organize my wishes for my assets and funeral.' For those people, we recommend using an 'Ending Note' to prepare for the end of life (Shukatsu).\n\n[What is an Ending Note?]\nIt's a notebook where you look back on your life and write down your wishes for medical care, nursing care, funeral, information on your assets (savings/insurance), and messages to your family.\n*It has no legal force (like a will), but it is a great help for your surviving family when making arrangements.\n\n[How to get the notebook]\nYou can use commercially available ones, or they may be distributed at Community Comprehensive Support Centers in Ota City, so please inquire.\n\n[Consultations on inheritance and legal matters]\nFor the creation of a will or prevention of inheritance troubles, please use Ota City's 'Free Lawyer Consultation' or 'Free Judicial Scrivener Consultation' (Reservation required).",
-        "bottom_line": "To reduce the burden on your family, start writing an Ending Note while you are healthy. For legal wills or inheritance consultations, go to free legal consultations.",
+        "title": "Procedures After the Death of a Family Member (Okuyami)",
+        "easy_explanation": "## Guide to Okuyami Handbook and Okuyami Procedure Navigator\n\nOta City has created the 'Okuyami Handbook' to help bereaved families smoothly navigate the various registration and administrative procedures at the City Hall and other offices.\nThe Okuyami Handbook was created as a public-private collaborative project with Kamakura Shinsho, Inc.\n\n### 📖 Okuyami Handbook\nIt can be downloaded as a PDF file (approx. 7.87MB) from the official Ota City website.\n\n### 💻 Okuyami Procedure Navigator\nA web service that allows you to extract the numerous procedures required after submitting a death registration simply by answering easy questions, and confirm the procedure locations and required documents.\n\n**[Contact Information]**\nCitizens' Life Department, Citizens' Affairs Division",
+        "bottom_line": "To help bereaved families smoothly navigate the various administrative procedures, Ota City provides the 'Okuyami Handbook' and the 'Okuyami Procedure Navigator'.",
         "amount_info": null,
         "target_audience": [
-          "自分の老後や死後の準備をしておきたい方",
-          "エンディングノートを書きたい方",
-          "相続について不安がある方"
+          "Bereaved families needing to complete post-death procedures"
         ],
-        "faq": [
-          {
-            "question": "Will my assets be divided exactly as written in the Ending Note?",
-            "answer": "Since the Ending Note has no legal force, please create a 'Will' if you want legally certain inheritance."
-          },
-          {
-            "question": "Around what age should I start end-of-life preparations?",
-            "answer": "There's no rule, but it is recommended to start organizing little by little while you are healthy, before your judgment declines due to illness, etc."
-          }
-        ],
+        "faq": [],
         "five_w1h": {
-          "who": "Ota City residents who want to prepare for their future",
-          "what": "Creating an Ending Note, or free consultation on wills/inheritance",
-          "when": "While you are healthy and have sound judgment",
-          "where": "At home (writing the note) / Citizen Consultation Division (Lawyer/Judicial Scrivener consultation)",
-          "why": "To prevent surviving family from getting lost or arguing over procedures or inheritance",
-          "how": "1. Get and write an Ending Note -> 2. Book a free consultation if legal advice is needed"
+          "who": "Bereaved families",
+          "what": "Confirming various registration and administrative procedures after death registration",
+          "when": "After submitting a death registration",
+          "where": "Ota City Hall (Citizens' Life Dept, Citizens' Affairs Div), Okuyami Procedure Navigator (Web)",
+          "why": "To help smoothly navigate the various procedures",
+          "how": "Refer to the Okuyami Handbook (PDF), or answer questions on the Okuyami Procedure Navigator"
         },
         "checklist": [
           {
-            "item": "Get an Ending Note (commercially available ones are OK)",
-            "note": "Write a little at a time",
+            "item": "Okuyami Handbook (PDF)",
+            "note": "Downloadable from the city website (approx. 7.87MB)",
             "required": false
           },
           {
-            "item": "Tell trusted family members where you keep the completed notebook",
-            "note": "It's meaningless if they can't find it",
-            "required": true
-          },
-          {
-            "item": "If you need a will, consult a judicial scrivener or lawyer",
-            "note": "You can use the city's free consultations",
+            "item": "Okuyami Procedure Navigator (Web Service)",
+            "note": "Extract procedures and confirm locations and required documents by answering simple questions",
             "required": false
           }
         ],
-        "estimated_time": "Free legal consultation: 30 minutes per session (Reservation required)",
+        "estimated_time": null,
         "related_articles": [
           "legal-aid"
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "Okuyami Handbook (おくやみハンドブック)",
+            "explanation": "A booklet to help bereaved families smoothly navigate various post-death procedures. Created as a public-private collaborative project with Kamakura Shinsho, Inc."
+          },
+          {
+            "term": "Okuyami Procedure Navigator (おくやみ手続きナビ)",
+            "explanation": "A web service that extracts the numerous procedures after death registration by answering simple questions, and confirms procedure locations and required documents."
+          }
+        ],
         "form_guide": null
       },
       "pt": {
-        "title": "Preparação para o Fim da Vida, Caderno de Despedida e Herança",
-        "easy_explanation": "'Não quero sobrecarregar minha família depois de falecer' ou 'Quero organizar meus desejos para meus bens e funeral.' Para essas pessoas, recomendamos o uso de um 'Caderno de Despedida' (Ending Note) para se preparar para o fim da vida (Shukatsu).\n\n[O que é um Caderno de Despedida?]\nÉ um caderno onde você relembra sua vida e anota seus desejos de cuidados médicos, cuidados de enfermagem, funeral, informações sobre seus bens (poupança/seguro) e mensagens para sua família.\n*Não tem força legal (como um testamento), mas é de grande ajuda para sua família sobrevivente ao tomar providências.\n\n[Como obter o caderno]\nVocê pode usar os disponíveis comercialmente, ou eles podem ser distribuídos nos Centros de Apoio Abrangente à Comunidade na Cidade de Ota, então por favor pergunte.\n\n[Consultas sobre herança e questões legais]\nPara a criação de um testamento ou prevenção de problemas de herança, use a 'Consulta Gratuita com Advogado' ou 'Consulta Gratuita com Escrivão Judicial' da Cidade de Ota (Reserva obrigatória).",
-        "bottom_line": "Para reduzir o fardo da sua família, comece a escrever um Caderno de Despedida enquanto estiver saudável. Para testamentos legais ou consultas sobre herança, vá para consultas jurídicas gratuitas.",
+        "title": "Procedimentos Após o Falecimento de um Familiar (Okuyami)",
+        "easy_explanation": "## Guia do Manual Okuyami e Navegador de Procedimentos Okuyami\n\nA Prefeitura de Ota criou o 'Manual Okuyami' para ajudar as famílias enlutadas a realizar de forma clara os diversos procedimentos de registro e administração na Prefeitura e outros órgãos.\nO Manual Okuyami foi criado como um projeto colaborativo público-privado com a Kamakura Shinsho, Inc.\n\n### 📖 Manual Okuyami (Okuyami Handbook)\nPode ser baixado como arquivo PDF (aprox. 7,87MB) no site oficial da Prefeitura de Ota.\n\n### 💻 Navegador de Procedimentos Okuyami\nUm serviço web que permite extrair os inúmeros procedimentos necessários após o registro de óbito simplesmente respondendo a perguntas simples, e confirmar os locais e documentos necessários.\n\n**[Contato]**\nDepartamento de Vida do Cidadão, Divisão de Assuntos do Cidadão",
+        "bottom_line": "Para ajudar famílias enlutadas a realizar os diversos procedimentos administrativos de forma clara, a Prefeitura de Ota fornece o 'Manual Okuyami' e o 'Navegador de Procedimentos Okuyami'.",
         "amount_info": null,
         "target_audience": [
-          "自分の老後や死後の準備をしておきたい方",
-          "エンディングノートを書きたい方",
-          "相続について不安がある方"
+          "Famílias enlutadas que precisam concluir procedimentos pós-óbito"
         ],
-        "faq": [
-          {
-            "question": "Meus bens serão divididos exatamente como escrito no Caderno de Despedida?",
-            "answer": "Como o Caderno de Despedida não tem força legal, por favor crie um 'Testamento' se desejar uma herança legalmente certa."
-          },
-          {
-            "question": "Com que idade devo começar as preparações para o fim da vida?",
-            "answer": "Não há regra, mas é recomendável começar a organizar pouco a pouco enquanto estiver saudável, antes que seu discernimento diminua devido a doenças, etc."
-          }
-        ],
+        "faq": [],
         "five_w1h": {
-          "who": "Residentes da Cidade de Ota que desejam se preparar para o futuro",
-          "what": "Criação de um Caderno de Despedida ou consulta gratuita sobre testamentos/herança",
-          "when": "Enquanto você está saudável e tem bom senso",
-          "where": "Em casa (escrevendo o caderno) / Divisão de Consulta ao Cidadão (Consulta com Advogado/Escrivão Judicial)",
-          "why": "Para evitar que a família sobrevivente se perca ou discuta sobre procedimentos ou heranças",
-          "how": "1. Obtenha e escreva um Caderno de Despedida -> 2. Marque uma consulta gratuita se aconselhamento jurídico for necessário"
+          "who": "Famílias enlutadas",
+          "what": "Confirmar os diversos procedimentos de registro após o registro de óbito",
+          "when": "Após apresentar o registro de óbito",
+          "where": "Prefeitura de Ota (Dept. Vida do Cidadão, Div. Assuntos do Cidadão), Navegador Okuyami (Web)",
+          "why": "Para ajudar a realizar de forma clara os diversos procedimentos",
+          "how": "Consulte o Manual Okuyami (PDF) ou responda a perguntas no Navegador de Procedimentos Okuyami"
         },
         "checklist": [
           {
-            "item": "Obtenha um Caderno de Despedida (os disponíveis comercialmente estão OK)",
-            "note": "Escreva um pouco de cada vez",
+            "item": "Manual Okuyami (PDF)",
+            "note": "Disponível para download no site da prefeitura (aprox. 7,87MB)",
             "required": false
           },
           {
-            "item": "Diga a membros de confiança da família onde você guarda o caderno preenchido",
-            "note": "Não tem sentido se não conseguirem encontrar",
-            "required": true
-          },
-          {
-            "item": "Se precisar de um testamento, consulte um escrivão judicial ou advogado",
-            "note": "Você pode usar as consultas gratuitas da cidade",
+            "item": "Navegador de Procedimentos Okuyami (Serviço Web)",
+            "note": "Extrai os procedimentos e confirma os locais e documentos necessários respondendo a perguntas simples",
             "required": false
           }
         ],
-        "estimated_time": "Consulta jurídica gratuita: 30 minutos por sessão (Reserva obrigatória)",
+        "estimated_time": null,
         "related_articles": [
           "legal-aid"
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "Manual Okuyami (おくやみハンドブック)",
+            "explanation": "Um livreto para ajudar as famílias a realizar de forma clara os procedimentos pós-óbito. Criado como projeto colaborativo público-privado com a Kamakura Shinsho, Inc."
+          },
+          {
+            "term": "Navegador de Procedimentos Okuyami (おくやみ手続きナビ)",
+            "explanation": "Serviço web que extrai os inúmeros procedimentos após o registro de óbito respondendo a perguntas simples, e confirma locais e documentos necessários."
+          }
+        ],
         "form_guide": null
       }
     },
