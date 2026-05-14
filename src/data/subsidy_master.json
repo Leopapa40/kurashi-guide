@@ -5234,94 +5234,39 @@
     "original_url": "https://www.city.ota.gunma.jp/site/mynumbercard/",
     "locales": {
       "ja": {
-        "title": "マイナンバーカードの作り方・受け取り方",
-        "easy_explanation": "## これ一枚で身分証にもコンビニ証明書発行にも使えます！\n\nマイナンバーカード（個人番号カード）は、顔写真付きの公的な身分証明書です。保険証として使えたり、コンビニで住民票を発行できたりと、生活がとても便利になります。\n\n### 📱 マイナンバーカードの作り方\n一番簡単なのはスマートフォンからの申請です。家に届いている申請書のQRコードを読み取り、スマホで顔写真を撮影して送信するだけで申請が完了します。（※市役所の窓口に行けば、写真撮影から申請まで手伝ってもらえます）\n\n### 🏢 受け取り方（カードが完成したら）\n申請から約1ヶ月後に、市役所から「ハガキ（交付通知書）」が家に届きます。ハガキが届いたら、必ず本人が市役所に取りに行きます。\n\n【取りに行く時の持ち物】\n1.  届いたハガキ\n2.  本人確認書類（運転免許証など。ない場合は保険証と年金手帳など2点）\n\n💡 ポイント：受け取る際に「暗証番号（数字4桁）」を機械に打ち込む必要があります。市役所に行く前に暗証番号を決めておきましょう。",
-        "bottom_line": "スマホで申請するのが一番簡単！約1ヶ月後にハガキが届いたら、免許証などの身分証を持って「必ず本人が」市役所へカードを取りに行きます。",
-        "amount_info": "初回無料",
+        "title": "マイナンバーカード",
+        "easy_explanation": "## マイナンバーカードに関する手続き窓口総合案内\n\nマイナンバーカードは、住民からの申請により無料で交付される顔写真付きのプラスチックカードです。身分証明書として使えるほか、マイナポータルでの行政手続きやコンビニ交付サービスに利用できます。\n\n### 📅 有効期限\n- **18歳以上の方**：発行日から10回目の誕生日まで\n- **18歳未満の方**：発行日から5回目の誕生日まで\n- **外国籍の方**：永住者は日本人と同じ。在留期限のある方は「在留期限と同じ日」まで。\n\n### 🏢 手続きできる場所と予約の要否\n手続き内容（申請、受け取り、電子証明書更新など）や場所によって受付時間や予約の要否が異なります。\n\n- **本庁舎1階 市民課**：平日(8:30-17:00)は全手続き予約不要。休日(8:30-12:00指定日)・夜間(17:30-19:30指定日)は要予約。\n- **藪塚本町庁舎**：平日(8:30-17:00)手続き可。※カードの受け取りのみ要予約。\n- **東・西サービスセンター**：平日17時以降および土日祝日は予約制。※カードの受け取りは全日要予約。\n- **各行政センター（太田除く）**：平日(8:30-17:00)予約不要。※電子証明書更新・暗証番号再設定・券面変更のみ（申請・受け取りは不可）。\n\n※予約は太田市の専用フォームから可能です。",
+        "bottom_line": "マイナンバーカードは申請により無料交付されます。各種手続き（申請、受取、電子証明書更新など）は本庁舎やサービスセンター等で可能ですが、休日・夜間や受取手続きには事前予約が必要な場合があります。",
+        "amount_info": "無料",
         "target_audience": [
-          "マイナンバーカードをまだ作っていない方"
+          "太田市でマイナンバーカードの手続きを行う方"
         ],
         "term_explanations": [
           {
+            "term": "マイナンバー（個人番号）",
+            "explanation": "日本国内の全住民に付番される12桁の番号。社会保障、税、災害対策の分野で使用されます。"
+          },
+          {
             "term": "マイナンバーカード",
-            "explanation": "国が発行する顔写真付きのICカード。個人番号（マイナンバー）が記載されており、身分証明書としても使えます。コンビニでの証明書取得やオンライン手続きに便利です。"
+            "explanation": "申請により無料交付される顔写真付きカード。ICチップを利用してオンライン上で確実に本人証明ができます。"
           },
           {
-            "term": "交付（こうふ）",
-            "explanation": "市役所から書類・カード・証明書などを受け取ること。「発行してもらう」と同じ意味で使われます。"
-          },
-          {
-            "term": "個人番号（こじんばんごう）",
-            "explanation": "国民一人ひとりに割り当てられた12桁の番号（マイナンバー）。税・社会保障・災害対策などの行政手続きで使われます。"
-          },
-          {
-            "term": "通知カード（つうちかーど）",
-            "explanation": "マイナンバーが記載された紙のカード。2020年5月以降は廃止されましたが、既に発行済みのカードは氏名・住所が変わるまで引き続き使えます。"
-          },
-          {
-            "term": "交付通知書（こうふつうちしょ）",
-            "explanation": "マイナンバーカードの申請後、約1〜2か月で自宅に届くはがき。窓口で受け取る際に必要です。"
-          },
-          {
-            "term": "住民票（じゅうみんひょう）",
-            "explanation": "氏名・生年月日・住所・世帯構成などが記載された公的書類。マイナンバーカードを使えばコンビニでも取得できます。"
+            "term": "電子証明書",
+            "explanation": "マイナンバーカードに搭載されている機能。マイナポータル利用やコンビニ交付などで本人確認を行うために必要です。"
           }
         ],
         "five_w1h": {
-          "who": "マイナンバーカードを作りたい方",
-          "what": "マイナンバーカードの交付申請と受け取りを行う",
-          "when": "いつでも申請可能。カードが出来上がったら窓口へ",
-          "where": "申請はオンライン等。受け取りは市役所窓口",
-          "why": "身分証やコンビニでの証明書発行、保険証として利用できます",
-          "how": "スマホ等でオンライン申請し、後日窓口へ受け取りに行く"
+          "who": "太田市でマイナンバーカードの手続きを行う方",
+          "what": "マイナンバーカードの各種手続き（申請、受け取り、電子証明書更新、暗証番号再設定など）",
+          "when": "平日、休日指定日、夜間指定日（場所により受付時間や予約要否が異なる）",
+          "where": "本庁舎、藪塚本町庁舎、東・西サービスセンター、各行政センター（太田除く）",
+          "why": "本人確認やオンライン行政手続、コンビニ証明書交付などに利用するため",
+          "how": "各窓口で手続き（※事前に予約が必要な窓口・時間帯あり）"
         },
-        "checklist": [
-          {
-            "item": "マイナンバーカード交付申請書（通知カードまたは個人番号通知書に同封）",
-            "note": "スマートフォン・PC・郵便での申請も可能",
-            "required": true
-          },
-          {
-            "item": "顔写真（縦4.5cm×横3.5cm）",
-            "note": "6か月以内に撮影したもの。スマートフォンでの申請は画像データで可",
-            "required": true
-          },
-          {
-            "item": "交付通知書（はがき）",
-            "note": "申請後1〜2か月で交付通知書が届く。窓口受取時に持参",
-            "required": true
-          },
-          {
-            "item": "通知カードまたは個人番号通知書",
-            "note": "窓口での受取時に返納",
-            "required": false
-          },
-          {
-            "item": "本人確認書類",
-            "note": "運転免許証等の顔写真付き書類1点、または保険証＋住民票等2点",
-            "required": true
-          }
-        ],
+        "checklist": [],
         "form_guide": null,
-        "faq": [
-          {
-            "question": "マイナンバーカードはどのくらいで受け取れますか？",
-            "answer": "申請からおよそ1〜2か月かかります。カードが出来上がると交付通知書（はがき）が届くので、市役所に受け取りに行く流れです。"
-          },
-          {
-            "question": "マイナンバーカードの申請はオンラインでできますか？",
-            "answer": "はい、スマートフォンやパソコンからオンライン申請が可能です。申請用IDは個人番号通知書や通知カードに記載されています。証明写真をスマホで撮影してそのまま送れます。"
-          },
-          {
-            "question": "マイナンバーカードがあると何が便利になりますか？",
-            "answer": "①コンビニで住民票・印鑑証明書が取得可能②健康保険証として利用可能③確定申告がオンラインで完結④マイナポータルで各種行政手続きのオンライン申請が可能になります。"
-          },
-          {
-            "question": "引越した場合、マイナンバーカードはどうすればよいですか？",
-            "answer": "住所変更後、市役所でカード裏面の住所を書き換えてもらう手続きが必要です（継続利用手続き）。手続きをしないとカードが失効する場合があります。"
-          }
-        ],
-        "estimated_time": "申請：約15分 / 受け取り：約20分",
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "address-change-procedure",
           "resident-card-copy",
@@ -5331,69 +5276,39 @@
         ]
       },
       "en": {
-        "title": "My Number Card Application",
-        "easy_explanation": "## The ultimate ID card in Japan!\n\nThe My Number Card is an official photo ID. It acts as your health insurance card and allows you to print official certificates (like your Residence Certificate) at any convenience store 24/7.\n\n### 📱 How to Apply\nThe easiest way is using your smartphone. Scan the QR code on your application form, take a selfie, and submit it online.\n\n### 🏢 How to Receive it\nAbout 1 month after applying, a Postcard (Kofu Tsuchisho) will arrive at your house. When it arrives, YOU MUST GO IN PERSON to City Hall to pick up the card.\n\n【What to bring】\n1.  The postcard that arrived.\n2.  ID (Residence Card, Driver's License, etc.).\n\n💡 *Tip: You will need to set a 4-digit PIN code when you receive it. Think of one before you go!*",
-        "bottom_line": "Apply easily via smartphone! When the postcard arrives a month later, bring your Residence Card and go to City Hall in person to pick it up.",
-        "amount_info": "Free for the first time",
+        "title": "My Number Card",
+        "easy_explanation": "## Comprehensive Guide to My Number Card Procedures\n\nThe My Number Card is a plastic card with a photo, issued free of charge upon application. It can be used as an ID, for administrative procedures on Myna Portal, and for convenience store issuance services.\n\n### 📅 Validity Period\n- **Aged 18 and over**: Until your 10th birthday after issuance\n- **Under 18**: Until your 5th birthday after issuance\n- **Foreign Nationals**: Permanent residents are the same as Japanese citizens. Those with a period of stay: Until the expiration date of your period of stay.\n\n### 🏢 Where to Apply and Reservation Requirements\nReception hours and reservation requirements differ depending on the procedure (application, receipt, electronic certificate renewal, etc.) and location.\n\n- **City Hall 1F Citizens' Affairs Div.**: Weekdays (8:30-17:00) no reservation needed for all procedures. Holidays/Nights (specified days only) require reservations.\n- **Yabuzukahonmachi Office**: Weekdays (8:30-17:00). *Receiving the card strictly requires a reservation.\n- **East/West Service Centers**: Weekdays after 17:00 and Weekends/Holidays require reservations. *Receiving the card strictly requires a reservation at all times.\n- **Admin Centers (excluding Ota)**: Weekdays (8:30-17:00) no reservation needed. *Limited to electronic certificate renewal, PIN reset, and face details update (Applications and receiving are not handled).\n\n*Reservations can be made via Ota City's dedicated online form.",
+        "bottom_line": "My Number Cards are issued free of charge. Various procedures can be done at City Hall or Service Centers, but advance reservations may be required for weekends, nights, or receiving the card.",
+        "amount_info": "Free",
         "target_audience": [
-          "Those who haven't made a My Number Card yet"
+          "Anyone processing My Number Card procedures in Ota City"
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "My Number (Individual Number)",
+            "explanation": "A 12-digit number assigned to all residents in Japan, used for social security, tax, and disaster response."
+          },
+          {
+            "term": "My Number Card",
+            "explanation": "A photo ID card issued free upon application. Features an IC chip for secure online identity verification."
+          },
+          {
+            "term": "Electronic Certificate",
+            "explanation": "A function embedded in the card, necessary for identity verification on Myna Portal or at convenience stores."
+          }
+        ],
         "five_w1h": {
-          "who": "Anyone who wants to get a My Number Card",
-          "what": "Apply for and receive a My Number Card",
-          "when": "Apply anytime. Go to the counter once the card is ready.",
-          "where": "Apply online/mail. Receive at City Hall.",
-          "why": "Useful as photo ID, health insurance, and to print certificates at convenience stores.",
-          "how": "Apply online with a smartphone, then pick it up at the counter."
+          "who": "Anyone processing My Number Card procedures in Ota City",
+          "what": "Various My Number Card procedures (Application, Receipt, Electronic Certificate Renewal, PIN Reset, etc.)",
+          "when": "Weekdays, specified holidays, and specified nights (hours and reservations vary by location)",
+          "where": "City Hall, Yabuzukahonmachi, East/West Service Centers, Admin Centers (except Ota)",
+          "why": "For identity verification, online administrative procedures, and convenience store certificate issuance.",
+          "how": "At the respective counters (*Advance reservation required for certain locations and times)"
         },
-        "checklist": [
-          {
-            "item": "My Number Card Application Form (マイナンバーカード交付申請書)",
-            "note": "Enclosed with Notification Card. Smartphone/PC apps available.",
-            "required": true
-          },
-          {
-            "item": "Facial Photo (顔写真)",
-            "note": "Taken within 6 months. Digital data is okay for online apps.",
-            "required": true
-          },
-          {
-            "item": "Issuance Notice Postcard (交付通知書)",
-            "note": "Arrives 1-2 months after applying. Bring when receiving.",
-            "required": true
-          },
-          {
-            "item": "Notification Card (通知カード)",
-            "note": "Must be returned when picking up the new card.",
-            "required": false
-          },
-          {
-            "item": "ID Document (本人確認書類)",
-            "note": "1 photo ID (Driver's License) or 2 non-photo IDs (Health Insurance).",
-            "required": true
-          }
-        ],
+        "checklist": [],
         "form_guide": null,
-        "faq": [
-          {
-            "question": "How long does it take to receive?",
-            "answer": "About 1 to 2 months after applying. When ready, an issuance notice (postcard) will arrive at your home."
-          },
-          {
-            "question": "Can I apply online?",
-            "answer": "Yes, from a smartphone or PC. The application ID is printed on your Notification Card. You can just take a photo with your phone and send it."
-          },
-          {
-            "question": "What is the benefit of having it?",
-            "answer": "1. Print certificates at convenience stores. 2. Use as health insurance. 3. E-Tax online filing. 4. Online applications via Myna Portal."
-          },
-          {
-            "question": "What if I move?",
-            "answer": "After moving, you must update the address on the back of the card at City Hall. The card may expire if you fail to do so."
-          }
-        ],
-        "estimated_time": "Application: ~15 mins. Receiving: ~20 mins at counter.",
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "address-change-procedure",
           "resident-card-copy",
@@ -5403,69 +5318,39 @@
         ]
       },
       "pt": {
-        "title": "Inscrição do Cartão My Number",
-        "easy_explanation": "## O cartão de identificação definitivo no Japão!\n\nO Cartão My Number é uma identidade oficial com foto. Ele funciona como seu cartão de seguro de saúde e permite imprimir certificados oficiais em lojas de conveniência 24h.\n\n### 📱 Como se inscrever\nA maneira mais fácil é usando seu smartphone. Digitalize o código QR, tire uma selfie e envie online.\n\n### 🏢 Como Receber\nCerca de 1 mês após a inscrição, um Cartão Postal (Kofu Tsuchisho) chegará à sua casa. Você DEVE IR PESSOALMENTE à Prefeitura para retirar o cartão.\n\n【O que trazer】\n1.  O cartão postal que chegou.\n2.  Identidade (Zairyu Card).\n\n💡 *Dica: Você precisará definir uma senha de 4 dígitos ao recebê-lo.*",
-        "bottom_line": "Inscreva-se facilmente pelo smartphone! Quando o cartão postal chegar um mês depois, traga seu Zairyu Card e vá pessoalmente à Prefeitura.",
-        "amount_info": "Gratuito na primeira vez",
+        "title": "Cartão My Number",
+        "easy_explanation": "## Guia Abrangente para Procedimentos do Cartão My Number\n\nO Cartão My Number é um cartão de plástico com foto, emitido gratuitamente mediante solicitação. Pode ser usado como identidade, para procedimentos administrativos no Myna Portal e para serviços de emissão em lojas de conveniência.\n\n### 📅 Período de Validade\n- **18 anos ou mais**: Até o seu 10º aniversário após a emissão\n- **Menores de 18 anos**: Até o seu 5º aniversário após a emissão\n- **Estrangeiros**: Residentes permanentes são iguais aos cidadãos japoneses. Aqueles com período de permanência: Até a data de validade do seu período de permanência.\n\n### 🏢 Onde Solicitar e Requisitos de Reserva\nO horário de atendimento e os requisitos de reserva variam dependendo do procedimento (solicitação, recebimento, renovação do certificado eletrônico, etc.) e do local.\n\n- **Prefeitura 1º Andar Div. Assuntos do Cidadão**: Dias úteis (8:30-17:00) sem necessidade de reserva para todos os procedimentos. Feriados/Noites (apenas dias especificados) exigem reservas.\n- **Escritório Yabuzukahonmachi**: Dias úteis (8:30-17:00). *Receber o cartão requer reserva estritamente.\n- **Centros de Atendimento Leste/Oeste**: Dias úteis após as 17:00 e fins de semana/feriados exigem reservas. *Receber o cartão requer reserva estritamente em todos os momentos.\n- **Centros Administrativos (exceto Ota)**: Dias úteis (8:30-17:00) sem necessidade de reserva. *Limitado à renovação do certificado eletrônico, redefinição de PIN e atualização de detalhes faciais (Solicitações e recebimentos não são tratados).\n\n*As reservas podem ser feitas através do formulário online dedicado da cidade de Ota.",
+        "bottom_line": "Os Cartões My Number são emitidos gratuitamente. Vários procedimentos podem ser feitos na Prefeitura ou Centros de Atendimento, mas reservas antecipadas podem ser necessárias para fins de semana, noites ou para receber o cartão.",
+        "amount_info": "Gratuito",
         "target_audience": [
-          "Aqueles que ainda não fizeram um Cartão My Number"
+          "Qualquer pessoa processando procedimentos do Cartão My Number na cidade de Ota"
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "My Number (Número Individual)",
+            "explanation": "Um número de 12 dígitos atribuído a todos os residentes no Japão, usado para previdência social, impostos e resposta a desastres."
+          },
+          {
+            "term": "Cartão My Number",
+            "explanation": "Um cartão de identidade com foto emitido gratuitamente mediante solicitação. Possui um chip IC para verificação segura de identidade online."
+          },
+          {
+            "term": "Certificado Eletrônico",
+            "explanation": "Uma função incorporada no cartão, necessária para verificação de identidade no Myna Portal ou em lojas de conveniência."
+          }
+        ],
         "five_w1h": {
-          "who": "Qualquer pessoa que queira o Cartão My Number",
-          "what": "Solicitar e receber o Cartão My Number",
-          "when": "Solicite a qualquer momento. Vá ao balcão quando o cartão estiver pronto.",
-          "where": "Solicite online. Receba na Prefeitura.",
-          "why": "Útil como identidade, seguro saúde e para imprimir certificados.",
-          "how": "Solicite online com o smartphone e retire no balcão."
+          "who": "Qualquer pessoa processando procedimentos do Cartão My Number na cidade de Ota",
+          "what": "Vários procedimentos do Cartão My Number (Solicitação, Recebimento, Renovação de Certificado Eletrônico, Redefinição de PIN, etc.)",
+          "when": "Dias úteis, feriados especificados e noites especificadas (horários e reservas variam de acordo com o local)",
+          "where": "Prefeitura, Yabuzukahonmachi, Centros Atendimento Leste/Oeste, Centros Admin (exceto Ota)",
+          "why": "Para verificação de identidade, procedimentos administrativos online e emissão de certificados em lojas de conveniência.",
+          "how": "Nos respectivos balcões (*Reserva antecipada necessária para certos locais e horários)"
         },
-        "checklist": [
-          {
-            "item": "Formulário de Solicitação (マイナンバーカード交付申請書)",
-            "note": "Enviado com o Cartão de Notificação. Pode solicitar por smartphone/PC.",
-            "required": true
-          },
-          {
-            "item": "Foto de Rosto (顔写真)",
-            "note": "Tirada nos últimos 6 meses. Foto digital permitida online.",
-            "required": true
-          },
-          {
-            "item": "Aviso de Emissão (交付通知書)",
-            "note": "Chega 1-2 meses após solicitar. Traga ao retirar.",
-            "required": true
-          },
-          {
-            "item": "Cartão de Notificação (通知カード)",
-            "note": "Deve ser devolvido ao retirar o novo cartão.",
-            "required": false
-          },
-          {
-            "item": "Documento de Identidade (本人確認書類)",
-            "note": "1 ID com foto ou 2 sem foto (Seguro Saúde).",
-            "required": true
-          }
-        ],
+        "checklist": [],
         "form_guide": null,
-        "faq": [
-          {
-            "question": "Quanto tempo demora?",
-            "answer": "Cerca de 1 a 2 meses. Um aviso (cartão-postal) chegará em casa quando pronto."
-          },
-          {
-            "question": "Posso solicitar online?",
-            "answer": "Sim, pelo smartphone ou PC usando o ID no Cartão de Notificação. Basta enviar uma foto."
-          },
-          {
-            "question": "Quais os benefícios?",
-            "answer": "1. Imprimir certificados. 2. Usar como seguro saúde. 3. Declaração de impostos online. 4. Portal Myna."
-          },
-          {
-            "question": "E se eu me mudar?",
-            "answer": "Deve atualizar o endereço no verso do cartão na Prefeitura, senão ele pode expirar."
-          }
-        ],
-        "estimated_time": "Solicitação: ~15 mins. Retirada: ~20 mins no balcão.",
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "address-change-procedure",
           "resident-card-copy",
