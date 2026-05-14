@@ -12430,7 +12430,7 @@
           },
           {
             "item": "本人確認書類（1点で良いもの）",
-            "note": "運転免許証、パスポート、マイナンバーカード、在留カードなど顔写真付きの公的証明書",
+            "note": "運転免許証、パスポート、マイナンバーカード、在留カード、特別永住者証明書など顔写真付きの公的証明書",
             "required": false
           },
           {
@@ -12481,7 +12481,7 @@
           },
           {
             "item": "ID Document (1 required)",
-            "note": "Official photo ID such as Driver's License, Passport, My Number Card, Residence Card, etc.",
+            "note": "Official photo ID such as Driver's License, Passport, My Number Card, Residence Card, Special Permanent Resident Certificate, etc.",
             "required": false
           },
           {
@@ -12542,7 +12542,7 @@
           },
           {
             "item": "Documento de Identidade (1 necessário)",
-            "note": "Documento oficial com foto, como Carteira de Motorista, Passaporte, Cartão My Number, Zairyu Card.",
+            "note": "Documento oficial com foto, como Carteira de Motorista, Passaporte, Cartão My Number, Zairyu Card, Certificado de Residente Permanente Especial, etc.",
             "required": false
           },
           {
