@@ -9286,111 +9286,27 @@
   {
     "id": "address-change-procedure",
     "category": "housing",
-    "original_url": "https://www.city.ota.gunma.jp/page/1026518.html",
+    "original_url": "https://www.city.ota.gunma.jp/site/hikkoshi/",
     "locales": {
       "ja": {
-        "title": "引越し後の各種住所変更手続き",
-        "easy_explanation": "## 引っ越したら必要な手続き\n市内で引っ越したとき（転居）や、太田市へ引っ越してきたとき（転入）は、住所変更の手続きが必要です。\n\n## 手続きの期限\n新しい住所に住み始めてから14日以内に市役所で手続きをしてください。\n\n## 住所変更に伴うその他の手続き\n住民票の異動と一緒に、以下の手続きも必要になる場合があります。\n- マイナンバーカードの住所変更\n- 国民健康保険、国民年金の住所変更\n- 児童手当、こども医療費受給者証の変更\n- 犬の登録変更\n- 水道などの使用開始手続き",
-        "bottom_line": "引っ越したら14日以内に市役所で住民票の住所変更が必要です。マイナンバーカード等も忘れずに手続きしましょう。",
+        "title": "住所変更（転入・転居・転出）および世帯に関する届出",
+        "easy_explanation": "## 引越しに伴う手続きについて\n\n太田市では、引っ越し（転入・転出・転居）や世帯の変更に関する手続きについて、オンラインでの事前確認や申請書作成サービスを提供しています。\n\n### 📝 手続きと必要書類の確認\n「**くらしの手続きガイド**」を利用すると、簡単な質問に答えるだけで手続き場所や必要書類などを確認できます。\n\n### 📱 申請書の事前作成サービス（ゆびナビぷらす）\nスマホやパソコンからいつでも、申請書の作成や住所異動に必要な持ち物の確認ができます。事前作成をしてから窓口へ行くと、**優先して案内**されます。\n*   事前作成サービスの対象窓口：太田市役所 1階市民課、藪塚本町庁舎 藪塚本町サービス係（※東・西サービスセンターや各行政センターでは事前作成による手続きはできません）\n\n### 🏢 通常の窓口手続き\n事前作成を行わない場合は、市民課窓口のほか、東・西サービスセンターや行政センター（太田行政センターを除く）においても手続きができます。",
+        "bottom_line": "引越しの手続きは「くらしの手続きガイド」で必要な持ち物を確認し、スマホから「事前作成サービス」を利用することで窓口で優先案内されます。",
         "amount_info": null,
-        "target_audience": [
-          "太田市に引っ越してきた方",
-          "市内で引っ越しをした方"
-        ],
-        "term_explanations": [
-          {
-            "term": "申請（しんせい）",
-            "explanation": "市役所の窓口や郵送・オンラインで「この制度を使いたい」と届け出ること。住所変更は転居届として14日以内に届け出ます。"
-          },
-          {
-            "term": "マイナンバーカード",
-            "explanation": "国が発行する顔写真付きのICカード。住所変更手続きをオンラインで行う際や、コンビニでの証明書取得に便利です。"
-          },
-          {
-            "term": "住民票（じゅうみんひょう）",
-            "explanation": "氏名・生年月日・住所・世帯構成などが記載された公的書類。引越しや各種申請の際によく必要になります。"
-          },
-          {
-            "term": "世帯主（せたいぬし）",
-            "explanation": "住民票に記載されている、その家（世帯）の代表者。手続きの「届出人」になることが多く、書類に名前を書く場面があります。"
-          }
-        ],
+        "target_audience": [],
+        "term_explanations": [],
         "five_w1h": {
-          "who": "太田市内での引越し（転居）、または太田市への転入・太田市からの転出を行う方",
-          "what": "住所変更に伴う住民票の異動届（転入届・転出届・転居届）",
-          "when": "引越し後14日以内（転入届は転出証明書の日付から14日以内）",
-          "where": "市役所1階市民課、または各行政センター（マイナポータルでのオンライン手続き可）",
-          "why": "住民票の住所が実際の居住地と一致するよう法律で届け出が義務付けられているため",
-          "how": "転出元で転出証明書を取得し、転入先の市役所で転入届を提出する。マイナンバーカードがあればオンライン申請も可"
+          "who": "記載なし",
+          "what": "住所変更（転入・転居・転出）および世帯に関する手続き",
+          "when": "記載なし",
+          "where": "太田市役所市民課、東・西サービスセンター、行政センター（太田除く）。※事前作成サービス利用時は市役所市民課・藪塚本町庁舎のみ",
+          "why": "記載なし",
+          "how": "窓口での届出（スマホ等での事前作成サービスを推奨）"
         },
-        "checklist": [
-          {
-            "item": "転居届・転入届・転出届（市民課窓口で入手）",
-            "note": "市内転居は「転居届」、市外からは「転入届」（転出証明書も必要）",
-            "required": true
-          },
-          {
-            "item": "本人確認書類（運転免許証・マイナンバーカード等）",
-            "note": "顔写真付きのもの1点",
-            "required": true
-          },
-          {
-            "item": "転出証明書（市外からの転入の場合）",
-            "note": "転出前の市区町村で発行してもらう。マイナンバーカード所持者はオンラインで転出手続き可",
-            "required": false
-          },
-          {
-            "item": "マイナンバーカード（持っている場合）",
-            "note": "住所変更の記載更新が必要。窓口に持参すること",
-            "required": false
-          },
-          {
-            "item": "国民健康保険証（加入している場合）",
-            "note": "住所変更に伴い更新が必要",
-            "required": false
-          }
-        ],
-        "form_guide": {
-          "form_name": "転居届（市内転居）／転入届",
-          "fields": [
-            {
-              "field_name": "異動年月日",
-              "how_to_fill": "実際に引越した（する）日付を記入",
-              "example": "令和7年5月15日",
-              "note": "引越し後14日以内に届け出ること"
-            },
-            {
-              "field_name": "新住所",
-              "how_to_fill": "引越し先の正確な住所（番地・号室まで）を記入",
-              "example": "太田市○○町○番地○号",
-              "note": "アパート・マンションは部屋番号も記入"
-            }
-          ],
-          "tips": [
-            "引越し後14日以内に届け出ること（義務）",
-            "マイナンバーカードを持っている場合は住所欄の書き換えが必要。窓口でお知らせを",
-            "転入時は国保・年金・子どもの手当等の住所変更も同時に手続きできる場合が多い"
-          ]
-        },
-        "faq": [
-          {
-            "question": "市内で引越した場合はどんな手続きが必要ですか？",
-            "answer": "太田市内での引越し（転居）の場合、転出届は不要で「転居届」のみ必要です。その後、マイナンバーカード・運転免許証・各種保険証などの住所変更も別途必要です。"
-          },
-          {
-            "question": "住所変更はまとめて一度にできますか？",
-            "answer": "市役所の窓口では住民票の住所変更と同時に、マイナンバーカードの住所書き換え、国民健康保険の変更も行えます。運転免許証は警察署・免許センターで別途手続きが必要です。"
-          },
-          {
-            "question": "住所変更を行わなかった場合はどうなりますか？",
-            "answer": "選挙の投票通知や行政からの郵便物が届かなくなります。また14日以内に転入届・転居届を行わない場合は過料が課せられる場合があります。"
-          },
-          {
-            "question": "マイナンバーカードの住所変更はどこでできますか？",
-            "answer": "住民票の変更と同じ窓口（市役所・各行政センター）でその場で行えます。カードと暗証番号が必要です。"
-          }
-        ],
-        "estimated_time": "窓口で約15〜20分（関連手続きをまとめて行う場合は30分程度）",
+        "checklist": [],
+        "form_guide": null,
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "my-number-card",
           "national-health-insurance",
@@ -9400,68 +9316,22 @@
         ]
       },
       "en": {
-        "title": "Address Change Procedures After Moving",
-        "easy_explanation": "## Procedures Required When Moving\nWhen moving within the city (relocation) or moving to Ota City (moving in), you must complete address change procedures.\n\n## Procedure Deadline\nPlease complete the procedures at City Hall within 14 days of moving into your new address.\n\n## Other Procedures Related to Address Change\nAlong with updating your Certificate of Residence, you may also need to update:\n- My Number Card address\n- National Health Insurance and National Pension address\n- Child Allowance and Child Medical Care Beneficiary Certificate\n- Dog registration\n- Procedures to start using water, etc.",
-        "bottom_line": "When you move, you must change the address on your Certificate of Residence at City Hall within 14 days. Don't forget to update your My Number Card, etc.",
+        "title": "Notification of Address Change (Moving in, Relocation, Moving out) and Household",
+        "easy_explanation": "## Regarding Moving Procedures\n\nOta City offers online services to check requirements and create application forms in advance for address changes (moving in, moving out, relocation) and changes in your household.\n\n### 📝 Checking Procedures and Required Documents\nBy using the \"**Kurashi no Tetsuzuki Guide**\" (Living Procedures Guide), you can easily find out where to go and what documents to bring by answering a few simple questions.\n\n### 📱 Advance Application Creation Service (Yubinavi Plus)\nYou can create your application form and check necessary belongings anytime from your smartphone or PC. If you use this service before visiting the counter, you will be **given priority**.\n*   Counters for Advance Creation: Ota City Hall 1F Citizens' Affairs Division, Yabuzukahonmachi Office (Cannot be processed at East/West Service Centers or Admin Centers)\n\n### 🏢 Regular Counter Procedures\nIf you do not use the advance creation service, you can complete the procedures at the Citizens' Affairs Division, East/West Service Centers, or Administrative Centers (excluding Ota Admin Center).",
+        "bottom_line": "For moving procedures, check the required items via the 'Living Procedures Guide'. Using the advance creation service on your smartphone grants priority at the counter.",
         "amount_info": null,
-        "target_audience": [
-          "Those who moved to Ota City",
-          "Those who moved within the city"
-        ],
+        "target_audience": [],
         "five_w1h": {
-          "who": "Those moving within Ota City, or moving in/out of Ota City",
-          "what": "Notification of change in Certificate of Residence (Moving-in, Moving-out, Relocation)",
-          "when": "Within 14 days of moving",
-          "where": "Citizens' Affairs Division at City Hall (1F) or administrative centers (online available via Myna Portal)",
-          "why": "Because the law requires your registered address to match your actual residence",
-          "how": "Get a move-out certificate from your old city and submit a move-in form. Online available if you have a My Number Card."
+          "who": "Not specified",
+          "what": "Address change (move-in/relocation/move-out) and household notifications",
+          "when": "Not specified",
+          "where": "Ota City Hall, East/West Service Centers, Admin Centers (except Ota). *If using advance creation: City Hall & Yabuzukahonmachi Office only.",
+          "why": "Not specified",
+          "how": "Apply at the counter (Advance creation via smartphone is recommended)"
         },
-        "checklist": [
-          {
-            "item": "Notification of Relocation / Moving in / Moving out (転居届・転入届・転出届)",
-            "note": "Available at the Citizens' Affairs Division.",
-            "required": true
-          },
-          {
-            "item": "ID Document (Driver's License, My Number Card, etc.) (本人確認書類)",
-            "note": "One item with a photo.",
-            "required": true
-          },
-          {
-            "item": "Move-out Certificate (if moving from outside the city) (転出証明書)",
-            "note": "Issued by your previous municipality. Online procedure available for My Number Card holders.",
-            "required": false
-          },
-          {
-            "item": "My Number Card (if you have one) (マイナンバーカード)",
-            "note": "Needs to be updated with the new address. Bring it to the counter.",
-            "required": false
-          },
-          {
-            "item": "National Health Insurance Card (if enrolled) (国民健康保険証)",
-            "note": "Needs to be updated along with the address change.",
-            "required": false
-          }
-        ],
-        "faq": [
-          {
-            "question": "What procedures are needed if I move within the city?",
-            "answer": "A move-out notice is not required; only a 'relocation notice' is needed. Address changes for your My Number Card, driver's license, and insurance cards are also required separately."
-          },
-          {
-            "question": "Can I do all address changes at once?",
-            "answer": "At City Hall, you can change your residence certificate, My Number Card, and National Health Insurance addresses simultaneously. Driver's licenses must be updated at a police station."
-          },
-          {
-            "question": "What happens if I don't change my address?",
-            "answer": "You won't receive voting notices or official mail. Also, failure to submit notices within 14 days may result in a fine."
-          },
-          {
-            "question": "Where can I change the address on my My Number Card?",
-            "answer": "At the same counter as your residence certificate. You will need your card and PIN."
-          }
-        ],
-        "estimated_time": "About 15-20 minutes at the counter (about 30 minutes if doing related procedures together)",
+        "checklist": [],
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "my-number-card",
           "national-health-insurance",
@@ -9473,68 +9343,22 @@
         "form_guide": null
       },
       "pt": {
-        "title": "Procedimentos de Mudança de Endereço Após a Mudança",
-        "easy_explanation": "## Procedimentos Necessários ao se Mudar\nAo se mudar dentro da cidade ou ao se mudar para a Cidade de Ota, é preciso fazer a mudança de endereço.\n\n## Prazo do Procedimento\nFaça o procedimento na Prefeitura em até 14 dias após começar a morar no novo endereço.\n\n## Outros Procedimentos de Mudança de Endereço\nJunto com a mudança no Atestado de Residência, você também pode precisar alterar:\n- O endereço no My Number Card\n- O endereço do Seguro de Saúde Nacional e da Pensão Nacional\n- Auxílio Infantil e Certificado de Assistência Médica Infantil\n- Registro do cachorro\n- Início do uso da água, etc.",
-        "bottom_line": "Ao se mudar, é preciso alterar o endereço no Atestado de Residência na Prefeitura em até 14 dias. Não se esqueça de atualizar o My Number Card e outros documentos.",
+        "title": "Notificação de Mudança de Endereço (Entrada, Mudança Interna, Saída) e Família",
+        "easy_explanation": "## Sobre Procedimentos de Mudança\n\nA Cidade de Ota oferece serviços online para verificar os requisitos e criar formulários de inscrição com antecedência para mudanças de endereço (entrada, saída, mudança interna) e alterações em sua família.\n\n### 📝 Verificação de Procedimentos e Documentos Necessários\nUsando o \"**Kurashi no Tetsuzuki Guide**\" (Guia de Procedimentos de Vida), você pode descobrir facilmente onde ir e quais documentos trazer respondendo a algumas perguntas simples.\n\n### 📱 Serviço de Criação Antecipada de Inscrição (Yubinavi Plus)\nVocê pode criar seu formulário de inscrição e verificar os itens necessários a qualquer momento pelo smartphone ou PC. Se você usar este serviço antes de visitar o balcão, você terá **prioridade no atendimento**.\n*   Balcões para Criação Antecipada: Prefeitura de Ota 1º Andar Divisão de Assuntos do Cidadão, Escritório de Yabuzukahonmachi (Não pode ser processado nos Centros de Atendimento Leste/Oeste ou Centros Administrativos)\n\n### 🏢 Procedimentos Normais no Balcão\nSe você não usar o serviço de criação antecipada, pode concluir os procedimentos na Divisão de Assuntos do Cidadão, Centros de Atendimento Leste/Oeste ou Centros Administrativos (exceto o Centro Administrativo de Ota).",
+        "bottom_line": "Para mudanças, verifique os itens necessários através do 'Guia de Procedimentos'. Usar o serviço de criação antecipada no smartphone garante prioridade no balcão.",
         "amount_info": null,
-        "target_audience": [
-          "Pessoas que se mudaram para a Cidade de Ota",
-          "Pessoas que se mudaram dentro da cidade"
-        ],
+        "target_audience": [],
         "five_w1h": {
-          "who": "Pessoas se mudando dentro de Ota, ou entrando/saindo de Ota",
-          "what": "Aviso de mudança no Atestado de Residência (Entrada, Saída, Mudança interna)",
-          "when": "Dentro de 14 dias após a mudança",
-          "where": "Divisão de Assuntos Cidadãos (1º andar) ou centros (online pelo Myna Portal)",
-          "why": "Porque a lei exige que o endereço registrado corresponda à residência real",
-          "how": "Pegue um atestado de saída da cidade antiga e entregue o de entrada. Online possível com o My Number Card."
+          "who": "Não especificado",
+          "what": "Notificações de mudança de endereço (entrada/mudança interna/saída) e família",
+          "when": "Não especificado",
+          "where": "Prefeitura de Ota, Centros de Atendimento Leste/Oeste, Centros Administrativos (exceto Ota). *Se usar criação antecipada: apenas Prefeitura e Yabuzukahonmachi.",
+          "why": "Não especificado",
+          "how": "Aplicar no balcão (Recomenda-se a criação antecipada via smartphone)"
         },
-        "checklist": [
-          {
-            "item": "Aviso de Mudança / Entrada / Saída (転居届・転入届・転出届)",
-            "note": "Disponível na Divisão de Assuntos Cidadãos.",
-            "required": true
-          },
-          {
-            "item": "Documento de Identidade (Carteira de Motorista, My Number Card, etc.) (本人確認書類)",
-            "note": "Um documento com foto.",
-            "required": true
-          },
-          {
-            "item": "Certificado de Saída (se vier de fora da cidade) (転出証明書)",
-            "note": "Emitido pela prefeitura anterior. Online disponível para quem tem My Number Card.",
-            "required": false
-          },
-          {
-            "item": "My Number Card (se possuir) (マイナンバーカード)",
-            "note": "Precisa ser atualizado com o novo endereço. Traga ao balcão.",
-            "required": false
-          },
-          {
-            "item": "Cartão do Seguro de Saúde Nacional (se inscrito) (国民健康保険証)",
-            "note": "Precisa ser atualizado com o endereço.",
-            "required": false
-          }
-        ],
-        "faq": [
-          {
-            "question": "O que preciso fazer se me mudar dentro da cidade?",
-            "answer": "Não é necessário atestado de saída, apenas o 'aviso de mudança interna'. Você também precisará atualizar o My Number Card, carteira de motorista e seguro de saúde separadamente."
-          },
-          {
-            "question": "Posso fazer todas as mudanças de endereço de uma vez?",
-            "answer": "Na Prefeitura, você pode atualizar o atestado de residência, o My Number Card e o Seguro de Saúde Nacional ao mesmo tempo. A carteira de motorista deve ser atualizada na polícia."
-          },
-          {
-            "question": "O que acontece se eu não mudar meu endereço?",
-            "answer": "Você não receberá avisos de votação ou correspondências oficiais. Não avisar em 14 dias pode resultar em multa."
-          },
-          {
-            "question": "Onde posso mudar o endereço do meu My Number Card?",
-            "answer": "No mesmo balcão do atestado de residência. Você precisará do cartão e da senha."
-          }
-        ],
-        "estimated_time": "Cerca de 15 a 20 minutos no balcão (cerca de 30 minutos se fizer outros procedimentos juntos)",
+        "checklist": [],
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "my-number-card",
           "national-health-insurance",
