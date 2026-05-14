@@ -17634,7 +17634,7 @@
     "locales": {
       "ja": {
         "title": "公害苦情について（騒音・悪臭など）",
-        "easy_explanation": "## 太田市の公害苦情の受付（環境対策課）\n\n太田市では、騒音、振動、悪臭、大気汚染、水質汚濁、土壌汚染についての苦情相談を環境対策課で受け付けています（※地盤沈下は群馬県東部環境事務所の管轄）。\n\n### 相談の前に（近隣トラブルへの注意）\n市役所がいきなり介入することで、「役所に言いつけた」と感情的になり、近隣関係が悪化する場合があります。原因者自身が迷惑をかけていることに気付いていないことも多いため、**まずは感情的にならずに原因者に理解を求めてみること**が推奨されています。\n※例：「申し訳ないですが、音が気になって眠れないので対策をお願いできませんか？」\n\n### 受付時のヒアリング事項\n相談の際は以下の情報が必要です。\n1. 相談者の住所、氏名、連絡先\n2. 公害の原因、場所、発生時間、頻度\n3. 原因者の名称、場所\n4. 被害状況\n※匿名での相談も可能ですが、調査が制限される場合があります。相談者の個人情報が原因者に伝えられることは絶対にありません。\n\n### 注意事項・介入できないケース\n- 法律で規制されていない事業場や、基準値以下の場合は、強制的な改善指導はできず「お願い」に留まります。\n- **民民の問題（民事上のトラブル）には介入できません**（例：近所の人の笛の音がうるさい、隣の家の草木がはみ出している、バーベキューの臭いなど）。現地確認のみで終了となる場合があります。\n\n### 相談しても解決しない場合\n当事者間で対立が激しい場合は、**群馬県の公害審査会**で紛争処理を行うか、**無料弁護士相談（市民そうだん課）**をご利用ください。",
+        "easy_explanation": "## 太田市の公害苦情の受付（環境対策課）\n\n太田市では、騒音、振動、悪臭、大気汚染、水質汚濁、土壌汚染についての苦情相談を環境対策課で受け付けています（※地盤沈下は群馬県東部環境事務所 0276-31-2517 にご相談ください）。\n\n### 相談の前に（近隣トラブルへの注意）\n市役所がいきなり介入することで、「役所に言いつけた」と感情的になり、近隣関係が悪化する場合があります。原因者自身が迷惑をかけていることに気付いていないことも多いため、**まずは感情的にならずに原因者に理解を求めてみること**が推奨されています。\n- **良い伝え方の例**：「申し訳ないですが、どうしても音が気になって眠れないので、何か対策をしていただけませんか？」\n- **悪い伝え方の例**：「うるさくって眠れねぇんだよ！その作業やめろ！」\nどうしても直接顔を合わせるのが気まずい場合は、同じ悩みを抱えている近所の人に相談して、一緒に伝えに行くのも良い方法です。\n\n### 公害苦情処理の流れ\n1. **受付**: 相談者の連絡先、原因・発生時間、原因者の情報、被害状況をお聞きします。\n2. **原因調査**: 状況に応じて原因者への事情聴取・立入調査、または相談者宅での被害状況の確認・測定を実施します。\n3. **改善依頼・指導等**: 状況に応じて原因者に改善依頼・指導を行います。\n4. **処理終了**: 法律に基づく指導ができない場合や、民民の問題であった場合は、現地確認のみで終了することもあります。\n\n### 注意事項・介入できないケース\n- 法律で規制されていない事業場や、測定結果が基準値以下の場合は、強制的な改善指導はできず「お願い」に留まります。\n- **民民の問題（民事上のトラブル）には介入できません**（例：近所の人の笛の音がうるさい、隣の家から草木がはみ出している、バーベキューの臭いなど）。\n\n### 相談しても解決しない場合\n当事者間で対立が激しい場合は、**群馬県の公害審査会**で紛争処理を行うことができます。重大な事件・広域案件・損害賠償問題は**総務省公害等調整委員会**へ。また、無料で弁護士に相談できる**法律相談会（市民そうだん課）**もご利用ください。",
         "bottom_line": "騒音や悪臭などの公害苦情は環境対策課で受け付けますが、民事上のトラブルには介入できません。いきなり役所に相談する前に、まずは当事者間で冷静に話し合うことが推奨されています。",
         "amount_info": null,
         "target_audience": [
@@ -17674,11 +17674,11 @@
         "faq": [
           {
             "question": "匿名で相談できますか？",
-            "answer": "匿名でも可能ですが、調査内容が制限される場合があります。なお、相談者の承諾なしに原因者へ個人情報を伝えることは絶対にありません。"
+            "answer": "匿名での相談も可能ですが、調査内容が制限されるため対応できない場合があります。承諾なしに原因者へ個人情報を伝えることは絶対にありませんが、苦情の内容によっては原因者に相談者が推測されてしまう場合もあります。"
           },
           {
             "question": "隣の家の草木がはみ出しているのですが、対応してもらえますか？",
-            "answer": "民民の問題（民事上のトラブル）に該当するため、市役所では介入できません。"
+            "answer": "公害法令に関係のない民民の問題（民事上のトラブル）に該当するため、市役所では介入できません。"
           }
         ],
         "estimated_time": null,
@@ -17690,7 +17690,7 @@
       },
       "en": {
         "title": "Pollution Complaints (Noise, Odors, etc.)",
-        "easy_explanation": "## Pollution Complaints Consultation in Ota City\n\nOta City's Environmental Measures Division accepts consultations regarding noise, vibration, foul odors, air pollution, water pollution, and soil contamination. (*Land subsidence is handled by the Gunma Prefectural Eastern Environment Office.)\n\n### Before Consulting (Note on Neighborhood Trouble)\nIf the city office suddenly intervenes, the person causing the issue may become emotional, worsening neighborhood relations. Often, they do not realize they are causing a nuisance. **It is recommended that you first try to calmly ask the person for understanding** without getting emotional.\n\n### Information Required for Consultation\nYou will be asked for:\n1. Your name, address, and contact info\n2. Cause, location, time, and frequency of the pollution\n3. Name and location of the person/business causing it\n4. Details of the damage\n*Anonymous consultations are accepted, but investigation may be limited. Your personal information will never be revealed to the other party.\n\n### Limitations (Cases Where the City Cannot Intervene)\n- If the source is not legally regulated or is below legal limits, the city can only \"request\" improvements, not force them.\n- **The city cannot intervene in civil disputes between individuals** (e.g., a neighbor's flute playing, overgrown branches from a neighbor's yard, BBQ smells). In such cases, the city may only conduct a site visit.\n\n### If the Problem is Not Resolved\nIf the conflict is severe, you may use the Gunma Prefectural Environmental Dispute Coordination Commission, or use the city's Free Lawyer Consultation service.",
+        "easy_explanation": "## Pollution Complaints Consultation in Ota City\n\nOta City's Environmental Measures Division accepts consultations regarding noise, vibration, foul odors, air pollution, water pollution, and soil contamination. (*For land subsidence, contact the Gunma Prefectural Eastern Environment Office at 0276-31-2517.)\n\n### Before Consulting (Note on Neighborhood Trouble)\nIf the city office suddenly intervenes, the person causing the issue may become emotional, worsening neighborhood relations. Often, they do not realize they are causing a nuisance. **It is recommended that you first try to calmly ask the person for understanding** without getting emotional.\n- **Good Example**: \"I'm sorry, but I can't sleep because of the noise. Could you please do something about it?\"\n- **Bad Example**: \"It's too noisy to sleep! Stop that work!\"\nIf it's awkward to talk to them alone, you might consult with other neighbors who have the same problem and go together.\n\n### Complaint Handling Process\n1. **Reception**: You will be asked for your contact info, the cause/time of the issue, the offender's info, and damage details.\n2. **Investigation**: The city may conduct site visits, take measurements, or interview the offender.\n3. **Guidance**: The city will request improvements or issue guidance if necessary.\n4. **Closure**: If the issue is a private civil dispute or falls outside legal regulations, the city can only do a site check and close the case.\n\n### Limitations (Cases Where the City Cannot Intervene)\n- If the source is not legally regulated or is below legal limits, the city can only \"request\" improvements, not force them.\n- **The city cannot intervene in civil disputes between individuals** (e.g., a neighbor's flute playing, overgrown branches, BBQ smells).\n\n### If the Problem is Not Resolved\nIf the conflict is severe, you may use the Gunma Prefectural Environmental Dispute Coordination Commission, or the Ministry of Internal Affairs and Communications Environmental Dispute Coordination Commission for major cases. You can also use the city's Free Lawyer Consultation service.",
         "bottom_line": "The Environmental Measures Division handles complaints about noise or odors, but cannot intervene in civil disputes between individuals. It is recommended to calmly discuss the issue with the other party first.",
         "amount_info": null,
         "target_audience": [
@@ -17699,7 +17699,11 @@
         "faq": [
           {
             "question": "Can I consult anonymously?",
-            "answer": "Yes, but investigations may be limited. Your personal info will never be shared with the other party without permission."
+            "answer": "Yes, but investigations may be limited. Your personal info will never be shared without permission, but the offender might guess who complained based on the nature of the complaint."
+          },
+          {
+            "question": "My neighbor's trees are growing into my yard. Can you help?",
+            "answer": "No. This is a private civil dispute between individuals, and the city cannot intervene."
           }
         ],
         "five_w1h": {
@@ -17742,7 +17746,7 @@
       },
       "pt": {
         "title": "Reclamações de Poluição (Ruído, Odores, etc.)",
-        "easy_explanation": "## Consulta sobre Poluição na Cidade de Ota\n\nA Divisão de Medidas Ambientais da Cidade de Ota aceita consultas sobre ruído, vibração, maus odores, poluição do ar, poluição da água e contaminação do solo.\n\n### Antes de Consultar (Nota sobre Problemas de Vizinhança)\nSe a prefeitura intervir de repente, a pessoa que está causando o problema pode se exaltar, piorando as relações na vizinhança. Muitas vezes, eles não percebem que estão incomodando. **Recomenda-se que você primeiro tente conversar com calma com a pessoa**, sem se emocionar.\n\n### Informações Necessárias para a Consulta\nSerão solicitadas:\n1. Seu nome, endereço e contato\n2. Causa, local, horário e frequência da poluição\n3. Nome e local da pessoa/empresa causadora\n4. Detalhes dos danos\n*Consultas anônimas são aceitas, mas a investigação pode ser limitada. Suas informações pessoais nunca serão reveladas à outra parte.\n\n### Limitações (Casos em que a Prefeitura Não Pode Intervir)\n- Se a fonte não for legalmente regulamentada ou estiver abaixo dos limites legais, a prefeitura só pode \"solicitar\" melhorias, não forçá-las.\n- **A prefeitura não pode intervir em disputas civis entre indivíduos** (ex: vizinho tocando flauta, galhos crescendo no seu quintal, cheiro de churrasco). Nesses casos, a prefeitura fará no máximo uma visita ao local.\n\n### Se o Problema Não For Resolvido\nSe o conflito for grave, você pode usar a Comissão de Coordenação de Disputas Ambientais da Província de Gunma, ou usar o serviço de Consulta Gratuita com Advogado da cidade.",
+        "easy_explanation": "## Consulta sobre Poluição na Cidade de Ota\n\nA Divisão de Medidas Ambientais da Cidade de Ota aceita consultas sobre ruído, vibração, maus odores, poluição do ar, poluição da água e contaminação do solo. (*Para subsidência de terra, contate o Escritório de Meio Ambiente Leste de Gunma: 0276-31-2517.)\n\n### Antes de Consultar (Nota sobre Problemas de Vizinhança)\nSe a prefeitura intervir de repente, a pessoa causadora pode se exaltar, piorando as relações na vizinhança. Muitas vezes, eles não percebem que estão incomodando. **Recomenda-se que você primeiro tente conversar com calma com a pessoa**, sem se emocionar.\n- **Bom Exemplo**: \"Desculpe, mas não consigo dormir por causa do barulho. Poderia fazer algo a respeito?\"\n- **Mau Exemplo**: \"Está muito barulho! Pare com isso!\"\nSe for constrangedor ir sozinho, fale com outros vizinhos que tenham o mesmo problema e vão juntos.\n\n### Processo de Tratamento de Reclamações\n1. **Recepção**: Serão solicitados seus dados, causa/horário do problema, informações do causador e detalhes do dano.\n2. **Investigação**: A prefeitura pode visitar o local, fazer medições ou entrevistar o causador.\n3. **Orientação**: A prefeitura solicitará melhorias ou emitirá orientações se necessário.\n4. **Encerramento**: Se o problema for uma disputa civil ou não tiver regulamentação legal, o caso pode ser encerrado apenas com uma verificação no local.\n\n### Limitações (Casos em que a Prefeitura Não Pode Intervir)\n- Se a fonte não for legalmente regulamentada ou estiver abaixo dos limites legais, a prefeitura só pode \"solicitar\" melhorias, não forçá-las.\n- **A prefeitura não pode intervir em disputas civis entre indivíduos** (ex: vizinho tocando flauta, galhos crescendo no seu quintal, cheiro de churrasco).\n\n### Se o Problema Não For Resolvido\nSe o conflito for grave, você pode usar a Comissão de Coordenação de Disputas Ambientais da Província de Gunma, ou o Ministério de Assuntos Internos e Comunicações para casos graves. Você também pode usar o serviço de Consulta Gratuita com Advogado da prefeitura.",
         "bottom_line": "A Divisão de Medidas Ambientais lida com reclamações sobre ruídos ou odores, mas não pode intervir em disputas civis entre indivíduos. Recomenda-se conversar calmamente com a outra parte primeiro.",
         "amount_info": null,
         "target_audience": [
@@ -17751,7 +17755,11 @@
         "faq": [
           {
             "question": "Posso consultar anonimamente?",
-            "answer": "Sim, mas as investigações podem ser limitadas. Suas informações pessoais nunca serão compartilhadas sem permissão."
+            "answer": "Sim, mas a investigação pode ser limitada. Suas informações nunca serão compartilhadas sem permissão, mas o infrator pode adivinhar quem reclamou com base na natureza da reclamação."
+          },
+          {
+            "question": "As árvores do meu vizinho estão crescendo no meu quintal. Podem ajudar?",
+            "answer": "Não. Esta é uma disputa civil privada entre indivíduos e a prefeitura não pode intervir."
           }
         ],
         "five_w1h": {
