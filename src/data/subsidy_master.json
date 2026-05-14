@@ -4194,101 +4194,35 @@
     "original_url": "https://www.city.ota.gunma.jp/page/2766.html",
     "locales": {
       "ja": {
-        "title": "死亡届（ご家族が亡くなられたとき）",
-        "easy_explanation": "## 悲しみのなか恐縮ですが、7日以内に手続きが必要です\n\nご家族が亡くなられた事実を市役所に報告し、戸籍から除籍するための公的な手続きです。葬儀や火葬を行うために、必ず最初に行う手続きとなります。\n\n### 📝 必要な持ち物\n1.  死亡届の用紙：右半分が病院の先生が書く「死亡診断書」になっています。必ず先生の記入・サインがあるものを持ってきてください。\n\n### ⏰ いつまでに？どこへ？\n*   期限：亡くなったことを知った日から7日以内（過ぎると罰金がかかる場合があります）\n*   場所：太田市役所の市民課、または各行政センター。夜間や休日も市役所1階の「当直室」で24時間受け付けています。\n\n### ⚠️ 大切なお知らせ（火葬について）\n死亡届を出すと同時に「火葬許可証」という紙が市役所から発行されます。これがないと火葬場（太田市斎場など）で火葬ができませんので、大切に保管して葬儀屋さんにお渡しください。\n\n💡 ポイント：最近は、葬儀屋さんがご遺族の代わりに市役所へ死亡届を提出してくれるケースが多いです。まずは葬儀屋さんに相談してみてください。",
-        "bottom_line": "ご家族が亡くなられたら「7日以内」に死亡届を提出します。病院でもらった死亡診断書（死亡届とセット）を持っていくと、火葬に必要な「火葬許可証」がもらえます。",
-        "amount_info": "手続き無料",
-        "target_audience": [
-          "ご家族や同居人が亡くなられた方"
-        ],
-        "term_explanations": [
-          {
-            "term": "死亡届（しぼうとどけ）",
-            "explanation": "人が亡くなった後に市役所へ提出する書類。医師が作成する「死亡診断書」と一体になった用紙を使います。死亡後7日以内に届け出ることが義務です。"
-          },
-          {
-            "term": "火葬許可証（かそうきょかしょう）",
-            "explanation": "遺体を火葬するために必要な許可書。死亡届を提出すると市役所から交付されます。火葬場に必ず提出が必要です。"
-          },
-          {
-            "term": "交付（こうふ）",
-            "explanation": "市役所から書類・カード・証明書などを受け取ること。「発行してもらう」と同じ意味で使われます。"
-          },
-          {
-            "term": "届出人（とどけでにん）",
-            "explanation": "届書を市役所に提出する人。死亡の場合は親族・同居人・家主なども届出人になれます。"
-          },
-          {
-            "term": "年金（ねんきん）",
-            "explanation": "老後や障害が残ったとき、または家族が亡くなったときに国から支給されるお金。亡くなった後は速やかに受給停止の手続きが必要です。"
-          }
-        ],
+        "title": "死亡届",
+        "easy_explanation": "## 太田市への死亡届の提出\n\n太田市へ死亡届を提出する際の手続きです。\n\n### 🏢 届出場所\n*   太田市役所 市民課（1階）\n*   各行政センター（※太田行政センターを除く）\n*   各サービスセンター（※日本国籍の方のみ）\n\n### ⚠️ 火葬・式場の予約について\n太田市斎場での火葬および式場を使用する場合は、あらかじめ予約が必要です。\n\n### 📝 関連するお手続き\n死亡届後のお手続きについては、太田市が発行している「**おくやみハンドブック**」をご確認ください。\nまた、国民健康保険や後期高齢者医療保険の加入者が亡くなられた場合、葬祭費支給申請のお手続き（担当：国民健康保険課・医療年金課）があります。",
+        "bottom_line": "死亡届（死亡診断書）を持参し、市役所または行政・サービスセンターへ届け出てください。斎場を利用する場合は事前の予約が必要です。",
+        "amount_info": null,
+        "target_audience": [],
+        "term_explanations": [],
         "five_w1h": {
-          "who": "亡くなられた方のご家族や親族",
-          "what": "死亡届を市役所に提出する",
-          "when": "死亡の事実を知った日から7日以内",
-          "where": "太田市役所1階 市民課",
-          "why": "火葬や葬儀を行うための許可をもらうために必要です",
-          "how": "死亡診断書が付いた死亡届を窓口に持参"
+          "who": "記載なし",
+          "what": "死亡届の提出および関連手続き（葬祭費支給申請など）",
+          "when": "記載なし",
+          "where": "太田市役所 市民課（1階）、各行政センター（太田除く）、各サービスセンター（日本国籍の方のみ）",
+          "why": "記載なし",
+          "how": "窓口にて提出"
         },
         "checklist": [
           {
-            "item": "死亡届（医師が作成する「死亡診断書」と一体の用紙）",
-            "note": "病院・診療所から死亡診断書付きの届書が渡される",
+            "item": "死亡診断書（死亡届）",
+            "note": "記載なし",
             "required": true
           },
           {
-            "item": "本人確認書類（届出人のもの）",
-            "note": "運転免許証・マイナンバーカード等。顔写真付きのもの1点",
-            "required": true
-          },
-          {
-            "item": "印鑑（届出人のもの）",
-            "note": "届書への押印に使用（シャチハタ不可の場合あり）",
-            "required": true
+            "item": "届出人の印鑑",
+            "note": "押印は任意です",
+            "required": false
           }
         ],
-        "form_guide": {
-          "form_name": "死亡届",
-          "fields": [
-            {
-              "field_name": "死亡者との続柄",
-              "how_to_fill": "届出人と故人の関係を記入",
-              "example": "長男",
-              "note": "親族や同居人、家主等が届出人になれる"
-            },
-            {
-              "field_name": "死亡した場所",
-              "how_to_fill": "病院名・住所または自宅住所を正確に記入",
-              "example": "○○病院（太田市○○町○番地）",
-              "note": "死亡診断書の記載と一致させること"
-            }
-          ],
-          "tips": [
-            "死亡後7日以内に届け出ること（国外の場合は3か月以内）",
-            "届出と同時に「火葬許可証」が交付される。火葬前に火葬場に提出が必要",
-            "年金・健康保険の資格喪失手続き等、関連する諸手続きも速やかに行うこと"
-          ]
-        },
-        "faq": [
-          {
-            "question": "死亡届の7日以内という期限はいつから数えますか？",
-            "answer": "死亡の事実を知った日から7日以内です（国外での死亡は3か月以内）。死亡診断書に記載された死亡日ではなく、「知った日」が起算点になります。"
-          },
-          {
-            "question": "死亡届を出す際に死亡診断書は原本が必要ですか？",
-            "answer": "はい、病院が発行した死亡診断書（または死体検案書）の原本が必要です。死亡届と死亡診断書は一体の書類になっていることが多く、病院から受け取ります。"
-          },
-          {
-            "question": "死亡届を出した後に必要な手続きは何ですか？",
-            "answer": "死亡届の後、①健康保険証の返却・資格喪失手続き②国民年金・厚生年金の停止手続き③印鑑登録の廃止④銀行口座の相続手続き等が必要です。一度に全て行う必要はありませんが、年金は速やかに停止しないと過払いになる場合があります。"
-          },
-          {
-            "question": "葬祭費の支給を受けられますか？",
-            "answer": "故人が国民健康保険に加入していた場合、葬祭を行った方に葬祭費が支給されます（太田市の場合は市民課に申請）。申請期限は葬祭日の翌日から2年以内です。"
-          }
-        ],
-        "estimated_time": "窓口で約15分",
+        "form_guide": null,
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "national-health-insurance",
           "seal-registration",
@@ -4296,59 +4230,35 @@
         ]
       },
       "en": {
-        "title": "Death Registration (Shibo-todoke)",
-        "easy_explanation": "## Must be submitted within 7 days of death.\n\nThis is the official procedure to report a death to the city hall. It is the very first procedure required to hold a funeral and cremation in Japan.\n\n### 📝 What you need\n1.  Death Registration Form: The right half of this form must be completed and signed by a doctor (Death Certificate / Shibou-shindansho).\n\n### ⏰ Deadline & Location\n*   Deadline: Within 7 days of learning of the death.\n*   Location: Ota City Hall. It is accepted 24/7 at the security desk on the 1st floor even on weekends/nights.\n\n### ⚠️ Important: Cremation Permit\nWhen you submit the death registration, City Hall will issue a \"Cremation Permit\" (Kasou Kyokasho). You cannot perform a cremation without this document.\n\n*Tip: In many cases, the funeral director (Sogiya) will submit the death registration to City Hall on your behalf. Please consult with them first.*",
-        "bottom_line": "Submit the Death Registration within 7 days of passing. Bring the doctor's death certificate to City Hall to receive the mandatory Cremation Permit.",
-        "amount_info": "No fee required",
-        "target_audience": [
-          "Family members of the deceased"
-        ],
+        "title": "Death Registration",
+        "easy_explanation": "## Death Registration in Ota City\n\nThis is the procedure for submitting a death registration to Ota City.\n\n### 🏢 Where to submit\n*   Ota City Hall 1st Floor, Citizens' Affairs Division\n*   Administrative Centers (Excluding Ota Admin Center)\n*   Service Centers (For Japanese nationals only)\n\n### ⚠️ Cremation and Ceremony Hall Reservation\nIf you plan to use the Ota City Crematorium for cremation or funeral services, you must make a reservation in advance.\n\n### 📝 Related Procedures\nFor procedures after submitting the death registration, please refer to the \"**Okuyami Handbook**\" (Bereavement Handbook) issued by Ota City.\nAdditionally, if the deceased was enrolled in National Health Insurance or Late-stage Medical Care for the Elderly, there is a procedure to apply for funeral expense benefits (handled by the National Health Insurance Division / Medical and Pension Division).",
+        "bottom_line": "Bring the death registration (death certificate) to City Hall, an Admin Center, or a Service Center. Advance reservations are required if using the city crematorium.",
+        "amount_info": null,
+        "target_audience": [],
         "term_explanations": [],
         "five_w1h": {
-          "who": "Family members or relatives of the deceased",
-          "what": "Submit the Death Registration to the City Hall",
-          "when": "Within 7 days of learning of the death",
-          "where": "City Hall 1F Citizens Affairs Division",
-          "why": "Required to obtain permission for cremation or funeral",
-          "how": "Bring the Death Registration attached with the Death Certificate to the counter"
+          "who": "Not specified",
+          "what": "Submit death registration and related procedures (e.g., funeral expense benefits)",
+          "when": "Not specified",
+          "where": "Ota City Hall (1F Citizens' Affairs), Admin Centers (except Ota), Service Centers (Japanese nationals only)",
+          "why": "Not specified",
+          "how": "Submit at the counter"
         },
         "checklist": [
           {
-            "item": "Death Registration / Death Certificate (死亡届)",
-            "note": "Provided by the hospital/clinic, filled by a doctor",
+            "item": "Death Certificate (Death Registration)",
+            "note": "Not specified",
             "required": true
           },
           {
-            "item": "Notifier's ID Document (本人確認書類)",
-            "note": "Driver's license, My Number Card, etc. with photo",
-            "required": true
-          },
-          {
-            "item": "Notifier's Seal/Inkan (印鑑)",
-            "note": "Used for sealing the form (self-inking rubber stamps may be rejected)",
-            "required": true
+            "item": "Notifier's seal",
+            "note": "Stamping is optional",
+            "required": false
           }
         ],
         "form_guide": null,
-        "faq": [
-          {
-            "question": "When does the 7-day limit start?",
-            "answer": "It starts from the day you learn of the death (within 3 months for deaths overseas), not necessarily the date of death on the certificate."
-          },
-          {
-            "question": "Do I need the original Death Certificate?",
-            "answer": "Yes. It's usually attached to the Death Registration form provided by the hospital."
-          },
-          {
-            "question": "What procedures are needed after the Death Registration?",
-            "answer": "Returning health insurance card, stopping pension payments, canceling seal registration, and bank inheritance procedures. Pension stoppage is urgent to avoid overpayments."
-          },
-          {
-            "question": "Can I receive Funeral Expenses?",
-            "answer": "If the deceased was enrolled in National Health Insurance, funeral costs can be subsidized. Apply within 2 years after the funeral date."
-          }
-        ],
-        "estimated_time": "About 15 minutes at the counter",
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "national-health-insurance",
           "seal-registration",
@@ -4357,58 +4267,34 @@
       },
       "pt": {
         "title": "Registro de Óbito",
-        "easy_explanation": "## Deve ser enviado dentro de 7 dias após o óbito.\n\nEste é o procedimento oficial para relatar uma morte à prefeitura. É o primeiro procedimento necessário para realizar um funeral e cremação no Japão.\n\n### 📝 O que você precisa\n1.  Formulário de Registro de Óbito: A metade direita deste formulário deve ser preenchida e assinada por um médico (Atestado de Óbito).\n\n### ⏰ Prazo e Local\n*   Prazo: Dentro de 7 dias após saber da morte.\n*   Local: Prefeitura de Ota. Aceito 24 horas por dia, 7 dias por semana no balcão de segurança.\n\n### ⚠️ Importante: Licença de Cremação\nAo enviar o registro de óbito, a Prefeitura emitirá uma \"Licença de Cremação\". Você não pode realizar uma cremação sem este documento.\n\n*Dica: Em muitos casos, o agente funerário enviará o registro de óbito à Prefeitura em seu nome.*",
-        "bottom_line": "Envie o Registro de Óbito dentro de 7 dias. Traga o atestado de óbito do médico à Prefeitura para receber a Licença de Cremação obrigatória.",
-        "amount_info": "Gratuito",
-        "target_audience": [
-          "Familiares do falecido"
-        ],
+        "easy_explanation": "## Registro de Óbito na Cidade de Ota\n\nEste é o procedimento para enviar um registro de óbito à Cidade de Ota.\n\n### 🏢 Onde enviar\n*   Prefeitura de Ota, 1º andar, Divisão de Assuntos do Cidadão\n*   Centros Administrativos (Exceto o Centro Administrativo de Ota)\n*   Centros de Atendimento (Apenas para cidadãos japoneses)\n\n### ⚠️ Reserva do Crematório e Salão de Cerimônias\nSe você planeja usar o Crematório da Cidade de Ota para cremação ou serviços funerários, deve fazer uma reserva com antecedência.\n\n### 📝 Procedimentos Relacionados\nPara procedimentos após o envio do registro de óbito, consulte o \"**Okuyami Handbook**\" (Manual de Luto) emitido pela Cidade de Ota.\nAlém disso, se o falecido estava inscrito no Seguro Nacional de Saúde ou Assistência Médica para Idosos (Koki Koreisha), existe um procedimento para solicitar o benefício de despesas de funeral (tratado pela Divisão de Seguro Nacional de Saúde / Divisão Médica e de Pensões).",
+        "bottom_line": "Traga o registro de óbito (atestado de óbito) à Prefeitura, Centro Administrativo ou Centro de Atendimento. Reservas antecipadas são necessárias para usar o crematório da cidade.",
+        "amount_info": null,
+        "target_audience": [],
         "term_explanations": [],
         "five_w1h": {
-          "who": "Familiares ou parentes do falecido",
-          "what": "Enviar o Registro de Óbito à Prefeitura",
-          "when": "Em até 7 dias após saber da morte",
-          "where": "Prefeitura 1º Andar Divisão de Cidadãos",
-          "why": "Necessário para obter permissão para cremação e funeral",
-          "how": "Traga o Registro de Óbito junto com o Certificado de Óbito"
+          "who": "Não especificado",
+          "what": "Enviar registro de óbito e procedimentos relacionados",
+          "when": "Não especificado",
+          "where": "Prefeitura de Ota (1º Andar), Centros Administrativos (exceto Ota), Centros de Atendimento (apenas japoneses)",
+          "why": "Não especificado",
+          "how": "Enviar no balcão"
         },
         "checklist": [
           {
-            "item": "Registro de Óbito / Certificado (死亡届)",
-            "note": "Fornecido pelo hospital, preenchido pelo médico",
+            "item": "Atestado de Óbito (Registro de Óbito)",
+            "note": "Não especificado",
             "required": true
           },
           {
-            "item": "Documento de identidade (本人確認書類)",
-            "note": "Do declarante, com foto",
-            "required": true
-          },
-          {
-            "item": "Carimbo/Inkan do declarante (印鑑)",
-            "note": "Para carimbar o formulário (carimbos de borracha podem não ser aceitos)",
-            "required": true
+            "item": "Carimbo do declarante",
+            "note": "O carimbo é opcional",
+            "required": false
           }
         ],
         "form_guide": null,
-        "faq": [
-          {
-            "question": "Quando começa o limite de 7 dias?",
-            "answer": "Do dia em que souber da morte (3 meses para mortes no exterior), não necessariamente a data no certificado."
-          },
-          {
-            "question": "Preciso do Certificado de Óbito original?",
-            "answer": "Sim. Normalmente vem anexo ao Registro de Óbito do hospital."
-          },
-          {
-            "question": "Que procedimentos são necessários após o registro?",
-            "answer": "Devolver cartão de seguro, cancelar pensão e registro de carimbo, além de herança bancária. Cancelar a pensão é urgente."
-          },
-          {
-            "question": "Posso receber auxílio funeral?",
-            "answer": "Se o falecido estava no Seguro Nacional, os custos do funeral podem ter subsídio. Peça em até 2 anos."
-          }
-        ],
-        "estimated_time": "Cerca de 15 minutos no balcão",
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "national-health-insurance",
           "seal-registration",
