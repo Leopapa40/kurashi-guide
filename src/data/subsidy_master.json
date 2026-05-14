@@ -17630,73 +17630,58 @@
   {
     "id": "neighbor-mediation",
     "category": "life-events",
-    "original_url": "https://www.city.ota.gunma.jp/page/2719.html",
+    "original_url": "https://www.city.ota.gunma.jp/page/1465.html",
     "locales": {
       "ja": {
-        "title": "近所トラブル・騒音の相談窓口",
-        "easy_explanation": "隣人の騒音、ゴミ出しのトラブル、境界線の問題、嫌がらせなどで悩んでいませんか？一人で抱え込まず、無料の相談窓口を利用しましょう。\n\n【主な相談窓口】\n▶ 無料弁護士相談（太田市）\n法律的なアドバイスが必要な場合\n📞 電話予約: 0276-47-1111（市役所代表）→ 市民そうだん課へ\n毎月複数回開催（要予約）\n\n▶ 消費生活センター（民事トラブル全般）\n📞 電話: 0276-47-1766\n\n▶ 法テラス（低収入の方向け）\n📞 電話: 0570-078374\n\n【注意点】\n近所トラブルは感情的になりがちです。まず第三者機関に相談し、直接対決は避けることをお勧めします。脅迫・不法行為があった場合は警察（110番）に相談してください。",
-        "bottom_line": "近所トラブルは一人で解決しようとせず、無料の弁護士相談や消費生活センターに早めに相談しましょう。",
+        "title": "公害苦情について（騒音・悪臭など）",
+        "easy_explanation": "## 太田市の公害苦情の受付（環境対策課）\n\n太田市では、騒音、振動、悪臭、大気汚染、水質汚濁、土壌汚染についての苦情相談を環境対策課で受け付けています（※地盤沈下は群馬県東部環境事務所の管轄）。\n\n### 相談の前に（近隣トラブルへの注意）\n市役所がいきなり介入することで、「役所に言いつけた」と感情的になり、近隣関係が悪化する場合があります。原因者自身が迷惑をかけていることに気付いていないことも多いため、**まずは感情的にならずに原因者に理解を求めてみること**が推奨されています。\n※例：「申し訳ないですが、音が気になって眠れないので対策をお願いできませんか？」\n\n### 受付時のヒアリング事項\n相談の際は以下の情報が必要です。\n1. 相談者の住所、氏名、連絡先\n2. 公害の原因、場所、発生時間、頻度\n3. 原因者の名称、場所\n4. 被害状況\n※匿名での相談も可能ですが、調査が制限される場合があります。相談者の個人情報が原因者に伝えられることは絶対にありません。\n\n### 注意事項・介入できないケース\n- 法律で規制されていない事業場や、基準値以下の場合は、強制的な改善指導はできず「お願い」に留まります。\n- **民民の問題（民事上のトラブル）には介入できません**（例：近所の人の笛の音がうるさい、隣の家の草木がはみ出している、バーベキューの臭いなど）。現地確認のみで終了となる場合があります。\n\n### 相談しても解決しない場合\n当事者間で対立が激しい場合は、**群馬県の公害審査会**で紛争処理を行うか、**無料弁護士相談（市民そうだん課）**をご利用ください。",
+        "bottom_line": "騒音や悪臭などの公害苦情は環境対策課で受け付けますが、民事上のトラブルには介入できません。いきなり役所に相談する前に、まずは当事者間で冷静に話し合うことが推奨されています。",
         "amount_info": null,
         "target_audience": [
-          "騒音・振動で困っている方",
-          "隣人とのトラブルで悩んでいる方",
-          "境界・ゴミ出しなどで揉めている方"
+          "事業活動等による騒音・悪臭・振動などの公害で困っている方"
         ],
         "term_explanations": [
           {
-            "term": "調停（ちょうてい）",
-            "explanation": "裁判所や第三者機関が間に入り、当事者間の話し合いで問題解決を目指す手続き。裁判より費用・時間がかかりません。"
+            "term": "公害",
+            "explanation": "事業活動その他の人の活動に伴って生ずる、大気汚染、水質汚濁、騒音、悪臭などで生活環境に被害が生じること。"
           },
           {
-            "term": "内容証明郵便（ないようしょうめいゆうびん）",
-            "explanation": "郵便局が手紙の内容を証明する特殊郵便。トラブル相手への正式な警告・要求に使われます。"
-          },
-          {
-            "term": "法テラス",
-            "explanation": "弁護士費用を立て替えてもらえる国の法律支援制度。収入が少ない方でも法的サービスを利用できます。"
+            "term": "民民（みんみん）の問題",
+            "explanation": "公害法令に関係のない、個人間（当事者同士）の民事上のトラブルのこと。市役所は介入できません。"
           }
         ],
         "five_w1h": {
-          "who": "近所トラブル（騒音・ゴミ・境界・嫌がらせ等）で困っている太田市民",
-          "what": "近所トラブルに関する無料相談（弁護士相談・消費生活センター・法テラス等）",
-          "when": "トラブルが発生したらできるだけ早めに（エスカレートする前に）",
-          "where": "太田市役所 市民そうだん課（弁護士相談 要予約）/ 消費生活センター（0276-47-1766）",
-          "why": "近所トラブルは放置すると深刻化し、法的紛争に発展することもあるため早期対応が重要",
-          "how": "①相談窓口に電話→②状況を説明（記録があれば持参）→③アドバイスに従い対応→④必要に応じ調停・弁護士依頼"
+          "who": "騒音や悪臭などの公害被害を受けている方",
+          "what": "公害（騒音・振動・悪臭・水質汚濁など）に関する苦情相談",
+          "when": "公害による被害を感じたとき",
+          "where": "産業環境部 環境対策課（太田市役所5階、TEL: 0276-47-1893）",
+          "why": "原因調査や、法令に基づく指導・改善依頼を行うため",
+          "how": "電話等で環境対策課へ相談し、状況（発生時間、原因者の場所など）を詳しく伝える"
         },
         "checklist": [
           {
-            "item": "トラブルの内容・日時・頻度を記録する",
-            "note": "騒音は動画・録音、ゴミ問題は写真が有効",
+            "item": "原因者との話し合いを検討する",
+            "note": "役所の介入で関係が悪化するのを防ぐため、まずは冷静に直接伝えることを推奨",
             "required": false
           },
           {
-            "item": "相手との経緯（話し合いをした・しないなど）をまとめておく",
-            "note": "相談時に状況を正確に伝えるため",
-            "required": false
-          },
-          {
-            "item": "脅迫・器物損壊などの違法行為があれば警察（110番）へ",
-            "note": "民事トラブルとは別対応",
-            "required": false
+            "item": "被害状況のメモ",
+            "note": "原因、場所、発生時間、頻度を正確に伝えられるようにする",
+            "required": true
           }
         ],
         "form_guide": null,
         "faq": [
           {
-            "question": "相談したら必ず相手に知られますか？",
-            "answer": "相談内容は秘密が守られます。相談者が希望しない限り、相手方に情報が伝わることはありません。"
+            "question": "匿名で相談できますか？",
+            "answer": "匿名でも可能ですが、調査内容が制限される場合があります。なお、相談者の承諾なしに原因者へ個人情報を伝えることは絶対にありません。"
           },
           {
-            "question": "弁護士相談は費用がかかりますか？",
-            "answer": "太田市の無料弁護士相談は初回30分無料です。継続して弁護士に依頼する場合は別途費用が発生します。"
-          },
-          {
-            "question": "賃貸住宅の騒音トラブルは大家に言えば解決しますか？",
-            "answer": "まず管理会社や大家に相談することを勧めます。対応がない場合は市の相談窓口にご連絡ください。"
+            "question": "隣の家の草木がはみ出しているのですが、対応してもらえますか？",
+            "answer": "民民の問題（民事上のトラブル）に該当するため、市役所では介入できません。"
           }
         ],
-        "estimated_time": "電話相談: 15〜30分。無料弁護士相談: 30分（要予約）",
+        "estimated_time": null,
         "related_articles": [
           "legal-aid",
           "consumer-center",
@@ -17704,119 +17689,107 @@
         ]
       },
       "en": {
-        "title": "Consultation Desk for Neighborhood Troubles & Noise",
-        "easy_explanation": "Are you troubled by a neighbor's noise, garbage disposal issues, boundary disputes, or harassment? Do not deal with it alone; use the free consultation desks.\n\n[Main Consultation Desks]\n▶ Free Lawyer Consultation (Ota City)\nFor legal advice\n📞 Phone reservation: 0276-47-1111 (City Hall Main) -> Citizen Consultation Division (Shimin Sodan-ka)\nHeld multiple times a month (Reservation required)\n\n▶ Consumer Affairs Center (General civil disputes)\n📞 Phone: 0276-47-1766\n\n▶ Houterasu (For low-income earners)\n📞 Phone: 0570-078374\n\n[Note]\nNeighborhood troubles tend to get emotional. We recommend consulting a third-party organization first and avoiding direct confrontation. If there is threats or illegal acts, consult the police (110).",
-        "bottom_line": "Do not try to solve neighborhood troubles alone. Consult free lawyer consultations or the Consumer Affairs Center early.",
+        "title": "Pollution Complaints (Noise, Odors, etc.)",
+        "easy_explanation": "## Pollution Complaints Consultation in Ota City\n\nOta City's Environmental Measures Division accepts consultations regarding noise, vibration, foul odors, air pollution, water pollution, and soil contamination. (*Land subsidence is handled by the Gunma Prefectural Eastern Environment Office.)\n\n### Before Consulting (Note on Neighborhood Trouble)\nIf the city office suddenly intervenes, the person causing the issue may become emotional, worsening neighborhood relations. Often, they do not realize they are causing a nuisance. **It is recommended that you first try to calmly ask the person for understanding** without getting emotional.\n\n### Information Required for Consultation\nYou will be asked for:\n1. Your name, address, and contact info\n2. Cause, location, time, and frequency of the pollution\n3. Name and location of the person/business causing it\n4. Details of the damage\n*Anonymous consultations are accepted, but investigation may be limited. Your personal information will never be revealed to the other party.\n\n### Limitations (Cases Where the City Cannot Intervene)\n- If the source is not legally regulated or is below legal limits, the city can only \"request\" improvements, not force them.\n- **The city cannot intervene in civil disputes between individuals** (e.g., a neighbor's flute playing, overgrown branches from a neighbor's yard, BBQ smells). In such cases, the city may only conduct a site visit.\n\n### If the Problem is Not Resolved\nIf the conflict is severe, you may use the Gunma Prefectural Environmental Dispute Coordination Commission, or use the city's Free Lawyer Consultation service.",
+        "bottom_line": "The Environmental Measures Division handles complaints about noise or odors, but cannot intervene in civil disputes between individuals. It is recommended to calmly discuss the issue with the other party first.",
         "amount_info": null,
         "target_audience": [
-          "騒音・振動で困っている方",
-          "隣人とのトラブルで悩んでいる方",
-          "境界・ゴミ出しなどで揉めている方"
+          "Those troubled by noise, odors, or vibrations from business activities, etc."
         ],
         "faq": [
           {
-            "question": "Will the other party definitely find out if I consult?",
-            "answer": "Consultation details are kept secret. Information won't be relayed to the other party unless you wish."
-          },
-          {
-            "question": "Does lawyer consultation cost money?",
-            "answer": "Ota City's free lawyer consultation is free for the first 30 minutes. If you continue to hire a lawyer, separate fees will apply."
-          },
-          {
-            "question": "Will noise trouble in a rental apartment be solved if I tell the landlord?",
-            "answer": "We recommend consulting the management company or landlord first. If there is no response, contact the city's consultation desk."
+            "question": "Can I consult anonymously?",
+            "answer": "Yes, but investigations may be limited. Your personal info will never be shared with the other party without permission."
           }
         ],
         "five_w1h": {
-          "who": "Ota City residents troubled by neighborhood issues (noise, garbage, boundaries, harassment, etc.)",
-          "what": "Free consultation regarding neighborhood troubles (Lawyer consultation, Consumer Affairs Center, Houterasu, etc.)",
-          "when": "As soon as possible after trouble occurs (before it escalates)",
-          "where": "Ota City Hall Citizen Consultation Division (Lawyer consultation requires reservation) / Consumer Affairs Center (0276-47-1766)",
-          "why": "Neighborhood troubles can worsen if left alone and develop into legal disputes, so early response is important",
-          "how": "1. Call consultation desk -> 2. Explain situation (bring records if any) -> 3. Act based on advice -> 4. Use mediation or hire a lawyer if necessary"
+          "who": "Those suffering from pollution (noise, odors, etc.)",
+          "what": "Consultation for pollution complaints",
+          "when": "When you experience damage or nuisance from pollution",
+          "where": "Environmental Measures Div. (Ota City Hall 5F, TEL: 0276-47-1893)",
+          "why": "To investigate the cause and issue guidance based on laws",
+          "how": "Contact the division and provide detailed information (time, location, etc.)"
         },
         "checklist": [
           {
-            "item": "Record the details, date, and frequency of the trouble",
-            "note": "Videos/audio are effective for noise, photos for garbage issues",
+            "item": "Consider talking to the person directly",
+            "note": "To prevent worsening relations, calmly discussing it first is recommended.",
             "required": false
           },
           {
-            "item": "Summarize the history with the other party (whether you talked, etc.)",
-            "note": "To convey the situation accurately during consultation",
-            "required": false
-          },
-          {
-            "item": "If there are illegal acts like threats or property damage, contact the police (110)",
-            "note": "Handled differently from civil disputes",
-            "required": false
+            "item": "Note the details of the damage",
+            "note": "Record the cause, location, time, and frequency.",
+            "required": true
           }
         ],
-        "estimated_time": "Phone consultation: 15-30 minutes. Free lawyer consultation: 30 minutes (Reservation required)",
+        "estimated_time": null,
         "related_articles": [
           "legal-aid",
           "consumer-center",
           "cultural-support"
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "Pollution (Kougai)",
+            "explanation": "Damage to the living environment caused by business or human activities, such as air pollution, water pollution, noise, or odors."
+          },
+          {
+            "term": "Civil Dispute (Min-min no Mondai)",
+            "explanation": "A private dispute between individuals not covered by pollution laws. The city cannot intervene."
+          }
+        ],
         "form_guide": null
       },
       "pt": {
-        "title": "Balcão de Consulta para Problemas de Vizinhança e Ruído",
-        "easy_explanation": "Você está incomodado/a com o barulho de um vizinho, problemas com o descarte de lixo, disputas de limites ou assédio? Não enfrente isso sozinho/a; use os balcões de consulta gratuitos.\n\n[Principais Balcões de Consulta]\n▶ Consulta Gratuita com Advogado (Cidade de Ota)\nPara aconselhamento jurídico\n📞 Reserva por telefone: 0276-47-1111 (Principal da Prefeitura) -> Divisão de Consulta ao Cidadão (Shimin Sodan-ka)\nRealizado várias vezes ao mês (Reserva obrigatória)\n\n▶ Centro de Defesa do Consumidor (Disputas civis gerais)\n📞 Telefone: 0276-47-1766\n\n▶ Houterasu (Para pessoas de baixa renda)\n📞 Telefone: 0570-078374\n\n[Nota]\nProblemas de vizinhança tendem a ficar emocionais. Recomendamos consultar uma organização terceirizada primeiro e evitar confrontos diretos. Se houver ameaças ou atos ilegais, consulte a polícia (110).",
-        "bottom_line": "Não tente resolver problemas de vizinhança sozinho/a. Consulte consultas gratuitas de advogados ou o Centro de Defesa do Consumidor com antecedência.",
+        "title": "Reclamações de Poluição (Ruído, Odores, etc.)",
+        "easy_explanation": "## Consulta sobre Poluição na Cidade de Ota\n\nA Divisão de Medidas Ambientais da Cidade de Ota aceita consultas sobre ruído, vibração, maus odores, poluição do ar, poluição da água e contaminação do solo.\n\n### Antes de Consultar (Nota sobre Problemas de Vizinhança)\nSe a prefeitura intervir de repente, a pessoa que está causando o problema pode se exaltar, piorando as relações na vizinhança. Muitas vezes, eles não percebem que estão incomodando. **Recomenda-se que você primeiro tente conversar com calma com a pessoa**, sem se emocionar.\n\n### Informações Necessárias para a Consulta\nSerão solicitadas:\n1. Seu nome, endereço e contato\n2. Causa, local, horário e frequência da poluição\n3. Nome e local da pessoa/empresa causadora\n4. Detalhes dos danos\n*Consultas anônimas são aceitas, mas a investigação pode ser limitada. Suas informações pessoais nunca serão reveladas à outra parte.\n\n### Limitações (Casos em que a Prefeitura Não Pode Intervir)\n- Se a fonte não for legalmente regulamentada ou estiver abaixo dos limites legais, a prefeitura só pode \"solicitar\" melhorias, não forçá-las.\n- **A prefeitura não pode intervir em disputas civis entre indivíduos** (ex: vizinho tocando flauta, galhos crescendo no seu quintal, cheiro de churrasco). Nesses casos, a prefeitura fará no máximo uma visita ao local.\n\n### Se o Problema Não For Resolvido\nSe o conflito for grave, você pode usar a Comissão de Coordenação de Disputas Ambientais da Província de Gunma, ou usar o serviço de Consulta Gratuita com Advogado da cidade.",
+        "bottom_line": "A Divisão de Medidas Ambientais lida com reclamações sobre ruídos ou odores, mas não pode intervir em disputas civis entre indivíduos. Recomenda-se conversar calmamente com a outra parte primeiro.",
         "amount_info": null,
         "target_audience": [
-          "騒音・振動で困っている方",
-          "隣人とのトラブルで悩んでいる方",
-          "境界・ゴミ出しなどで揉めている方"
+          "Pessoas incomodadas por ruído, odores ou vibrações"
         ],
         "faq": [
           {
-            "question": "A outra parte com certeza descobrirá se eu consultar?",
-            "answer": "Os detalhes da consulta são mantidos em segredo. As informações não serão repassadas à outra parte a menos que você queira."
-          },
-          {
-            "question": "A consulta com um advogado custa dinheiro?",
-            "answer": "A consulta gratuita com advogado da Cidade de Ota é gratuita nos primeiros 30 minutos. Se você continuar a contratar um advogado, taxas separadas serão aplicadas."
-          },
-          {
-            "question": "O problema de ruído em um apartamento alugado será resolvido se eu avisar o proprietário?",
-            "answer": "Recomendamos consultar a empresa de administração ou o proprietário primeiro. Se não houver resposta, entre em contato com o balcão de consulta da cidade."
+            "question": "Posso consultar anonimamente?",
+            "answer": "Sim, mas as investigações podem ser limitadas. Suas informações pessoais nunca serão compartilhadas sem permissão."
           }
         ],
         "five_w1h": {
-          "who": "Residentes da Cidade de Ota incomodados com problemas de vizinhança (ruído, lixo, limites, assédio, etc.)",
-          "what": "Consulta gratuita sobre problemas de vizinhança (Consulta com advogado, Centro de Defesa do Consumidor, Houterasu, etc.)",
-          "when": "O mais rápido possível após o problema ocorrer (antes que piore)",
-          "where": "Prefeitura da Cidade de Ota, Divisão de Consulta ao Cidadão (Consulta com advogado requer reserva) / Centro de Defesa do Consumidor (0276-47-1766)",
-          "why": "Problemas de vizinhança podem piorar se ignorados e se transformar em disputas legais, por isso uma resposta rápida é importante",
-          "how": "1. Ligue para o balcão de consulta -> 2. Explique a situação (traga registros, se houver) -> 3. Aja com base no conselho -> 4. Use mediação ou contrate um advogado se necessário"
+          "who": "Pessoas sofrendo com poluição (ruído, odores, etc.)",
+          "what": "Consulta para reclamações de poluição",
+          "when": "Quando você sofrer danos ou incômodos por poluição",
+          "where": "Divisão de Medidas Ambientais (Prefeitura 5º Andar, TEL: 0276-47-1893)",
+          "why": "Para investigar a causa e emitir orientações baseadas em leis",
+          "how": "Contate a divisão e forneça informações detalhadas (horário, local, etc.)"
         },
         "checklist": [
           {
-            "item": "Registre os detalhes, data e frequência do problema",
-            "note": "Vídeos/áudios são eficazes para ruído, fotos para problemas de lixo",
+            "item": "Considere falar com a pessoa diretamente",
+            "note": "Para evitar piorar as relações, recomenda-se discutir o assunto com calma primeiro.",
             "required": false
           },
           {
-            "item": "Resuma o histórico com a outra parte (se você conversou, etc.)",
-            "note": "Para transmitir a situação com precisão durante a consulta",
-            "required": false
-          },
-          {
-            "item": "Se houver atos ilegais, como ameaças ou danos à propriedade, contate a polícia (110)",
-            "note": "Tratado de forma diferente de disputas civis",
-            "required": false
+            "item": "Anote os detalhes do dano",
+            "note": "Registre a causa, local, horário e frequência.",
+            "required": true
           }
         ],
-        "estimated_time": "Consulta por telefone: 15-30 minutos. Consulta gratuita com advogado: 30 minutos (Reserva obrigatória)",
+        "estimated_time": null,
         "related_articles": [
           "legal-aid",
           "consumer-center",
           "cultural-support"
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "Poluição (Kougai)",
+            "explanation": "Danos ao ambiente de vida causados por atividades empresariais ou humanas, como poluição do ar, água, ruído ou odores."
+          },
+          {
+            "term": "Disputa Civil (Min-min no Mondai)",
+            "explanation": "Uma disputa privada entre indivíduos não coberta por leis de poluição. A prefeitura não pode intervir."
+          }
+        ],
         "form_guide": null
       }
     },
