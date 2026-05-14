@@ -15492,78 +15492,45 @@
   {
     "id": "legal-aid",
     "category": "life-events",
-    "original_url": "https://www.houterasu.or.jp/",
+    "original_url": "https://www.city.ota.gunma.jp/page/2719.html",
     "locales": {
       "ja": {
-        "title": "法テラス（無料法律相談・弁護士費用立替）",
-        "easy_explanation": "「借金が返せない」「近所トラブルで困っている」「離婚や相続で揉めている」など、法的な問題で困ったときは「法テラス（日本司法支援センター）」に相談できます。\n\n法テラス サポートダイヤル: 0570-078374（平日9:00〜21:00、土曜9:00〜17:00）\n\n法テラスは国が設立した機関で、弁護士・司法書士への相談費用が払えない方には費用を立て替える「審査なし・無料相談」制度があります。収入が一定以下の方は弁護士費用も立替してもらえ、分割返済が可能です。まずは電話でどんな問題か話してみてください。",
-        "bottom_line": "法的なトラブルでお金がなくても、法テラス（0570-078374）に電話すれば弁護士への無料相談につないでもらえます。",
+        "title": "無料弁護士相談",
+        "easy_explanation": "## 太田市 無料弁護士相談（市民そうだん課）\n\n群馬弁護士会所属の弁護士が無料で相談に応じ、法律的な助言を受けることができます。\n\n### 対象者と相談内容\n- **対象者**: 太田市にお住まいの方（※5月7日と10月8日の相談は群馬弁護士会主催のため県内在住の方も可）\n- **相談内容**: 法的な解釈をめぐる相談に限ります。\n（※気持ちの整理、常識に関する質問、書類作成など具体的な法的手続き、会社や事業に関する相談は不可）\n\n### 相談日時と場所\n- **日程**: 原則週1回（水曜9:30〜正午、または木曜13:30〜16:00）、毎月第3土曜（9:30〜正午）\n- **場所**: 太田市役所3階 市民そうだん課（※土曜日の相談は職員通用口へご来庁ください。職員が案内します）\n- **時間と回数**: 1回20分間。年度内(4月〜翌年3月)に一人あたり原則2回まで。\n\n### 相談方法とルール\n- **面談**（入室2名まで）または**電話相談**（市から電話差し上げます）が可能です。\n- 電話相談で資料を見ながら相談したい場合は、前日までに市民そうだん課へ資料をお持ちください。\n- 電子機器等による録音は禁止です。通訳のご用意はできません。\n\n### 予約方法（事前予約制）\n原則として相談日の2週間前から前日まで、市民そうだん課へ電話、窓口、Web（土曜相談はWeb予約のみ）で予約を受け付けます。予約時に面談か電話か伝えてください。\n※キャンセルは前日（閉庁日の場合は直前の開庁日）の午前中までに電話連絡が必要です。午後以降のキャンセルは1回の相談として扱われます。\n\n### その他の相談窓口\n- **太田市社会福祉協議会 無料法律相談**: 第3月曜 13:00〜16:00 (TEL: 0276-46-6208)\n- **群馬弁護士会無料電話相談**: 月〜金 13:00〜16:00 (TEL: 027-233-9333)\n- **ひまわりあんしんダイヤル**（高齢者・障がい者向け）: 平日9:00〜正午、13:00〜17:00 (TEL: 027-234-9321)\n- **中小企業リーガルサポートセンター**: 平日10:00〜正午、13:00〜16:00 (TEL: 027-233-2900)\n\n■ **相続ガイドブック**\n太田市では民間業者提供の「相続ガイドブック」を市役所や各行政センターで配布しています。\n\n**【お問い合わせ先】**\n市民生活部 市民そうだん課",
+        "bottom_line": "太田市にお住まいの方は、事前予約制で弁護士に無料相談（1回20分、年度内2回まで）ができます。法的な解釈に関する相談に限られます。",
         "amount_info": null,
         "target_audience": [
-          "借金・債務整理で困っている方",
-          "近所・家族・職場のトラブルを抱えている方",
-          "弁護士費用が払えない方",
-          "どの機関に相談すればいいかわからない方"
+          "太田市にお住まいで、法的な解釈に関する相談を希望する方"
         ],
         "term_explanations": [
           {
-            "term": "法テラス（ほうてらす）",
-            "explanation": "国が設立した「日本司法支援センター」の愛称。法的トラブルの相談先を案内し、資力が乏しい方には弁護士費用の立替制度を提供する。"
-          },
-          {
-            "term": "審査なし・無料法律相談（むりょうほうりつそうだん）",
-            "explanation": "弁護士による法律相談を無料で受けられる制度。収入や財産が一定基準以下の方が対象。"
-          },
-          {
-            "term": "債務整理（さいむせいり）",
-            "explanation": "借金を減額・免除・再建する法的手続き。任意整理・個人再生・自己破産などの方法がある。"
+            "term": "無料弁護士相談",
+            "explanation": "群馬弁護士会所属の弁護士が無料で法的な助言を行う太田市の制度。年度内2回まで利用可能。"
           }
         ],
         "five_w1h": {
-          "who": "法的問題を抱え、弁護士費用を支払うことが難しい方",
-          "what": "法律相談先の案内、弁護士・司法書士費用の立替",
-          "when": "法的トラブルが発生したとき（早めの相談が重要）",
-          "where": "電話（0570-078374）またはオンライン、全国の法テラス事務所",
-          "why": "経済的理由で法的支援を受けられない方でも、適切な法的救済を受けられるようにするため",
-          "how": "サポートダイヤルに電話→問題の種類を説明→適切な相談先・弁護士を紹介→必要に応じて費用立替の審査"
+          "who": "太田市にお住まいの方",
+          "what": "弁護士による無料法律相談",
+          "when": "水曜午前、木曜午後、または第3土曜午前（原則2週間前〜前日までに予約）",
+          "where": "太田市役所3階 市民そうだん課（土曜は職員通用口）、または電話",
+          "why": "法的な解釈をめぐる問題について助言を受けるため",
+          "how": "原則2週間前から前日までに、電話・窓口・Webで事前予約を行う"
         },
         "checklist": [
           {
-            "item": "法テラス サポートダイヤルに電話する（0570-078374）",
-            "note": "平日9〜21時、土曜9〜17時",
+            "item": "事前予約",
+            "note": "電話、窓口、Web（土曜はWebのみ）で予約。面談か電話（市から電話）か伝える",
             "required": true
           },
           {
-            "item": "問題の概要をメモしておく",
-            "note": "いつ・誰が・何をしたかを整理しておくとスムーズ",
-            "required": false
-          },
-          {
-            "item": "収入・財産状況を確認しておく",
-            "note": "無料相談の審査に必要",
-            "required": false
+            "item": "相談要点・資料の準備",
+            "note": "20分間のため要点を整理。電話相談で資料を見たい場合は前日までに持参",
+            "required": true
           }
         ],
         "form_guide": null,
-        "faq": [
-          {
-            "question": "お金がなくても相談できますか？",
-            "answer": "はい。相談は完全に無料です。弁護士費用も収入基準を満たせば立て替えてもらえます。"
-          },
-          {
-            "question": "外国語で相談できますか？",
-            "answer": "通訳が付く場合があります。まずサポートダイヤルにお電話ください。"
-          },
-          {
-            "question": "どんな問題でも相談できますか？",
-            "answer": "借金・離婚・相続・近所トラブル・労働問題・刑事事件など幅広く対応しています。まずは電話してみてください。"
-          },
-          {
-            "question": "弁護士費用の立替はどれくらいかかりますか？",
-            "answer": "立替後、月々5,000〜10,000円程度の分割返済が基本です。生活保護受給者は返済免除の場合もあります。"
-          }
-        ],
-        "estimated_time": "電話相談: 約30分。弁護士紹介から相談まで: 数日〜1週間程度",
+        "faq": [],
+        "estimated_time": "1回20分間",
         "related_articles": [
           "life-support",
           "dv-support",
@@ -15573,60 +15540,35 @@
         ]
       },
       "en": {
-        "title": "Houterasu (Free Legal Consultation & Lawyer Fee Advancement)",
-        "easy_explanation": "If you are facing legal issues such as \"I can't repay my debts,\" \"I'm having trouble with neighbors,\" or \"I'm dealing with divorce or inheritance disputes,\" you can consult \"Houterasu\" (Japan Legal Support Center).\n\nHouterasu Support Dial: 0570-078374 (Weekdays 9:00-21:00, Saturdays 9:00-17:00)\n\nHouterasu is a national organization that provides a \"free consultation\" system for those who cannot afford lawyer or judicial scrivener fees. If your income is below a certain level, they can advance lawyer fees for you, which you can repay in installments. Please call first to explain your problem.",
-        "bottom_line": "Even if you have no money for legal troubles, call Houterasu (0570-078374) to be connected to a free consultation with a lawyer.",
+        "title": "Free Lawyer Consultation",
+        "easy_explanation": "## Ota City Free Lawyer Consultation (Citizens' Consultation Div.)\n\nLawyers belonging to the Gunma Bar Association provide free consultations and legal advice.\n\n### Target Audience and Content\n- **Target**: Residents of Ota City (*Consultations on May 7 and Oct 8 are open to all Gunma Prefecture residents)\n- **Content**: Strictly limited to consultations on legal interpretations.\n(*Emotional venting, common-sense questions, specific procedures like document creation, and business matters are not accepted.)\n\n### Date, Time, and Location\n- **Schedule**: Once a week (Wed 9:30-Noon or Thu 13:30-16:00), and the 3rd Saturday of the month (9:30-Noon)\n- **Location**: Ota City Hall 3F Citizens' Consultation Div. (*On Saturdays, please enter through the staff entrance)\n- **Time & Limit**: 20 minutes per session. Up to 2 times per person per fiscal year (Apr-Mar).\n\n### Methods and Rules\n- **In-person** (up to 2 people) or **Phone consultation** (the city will call you).\n- For phone consultations, if you want the lawyer to look at documents, please bring them to the division by the day before.\n- Recording is prohibited. Interpreters are not provided.\n\n### Reservation (Advance Booking Required)\nBook via phone, counter, or Web (Saturday is Web only) from 2 weeks prior to the day before the consultation. State if you want in-person or phone.\n*Cancellations must be made by phone by noon the day before. Late cancellations count as one session.\n\n### Other Consultation Services\n- **Ota City Council of Social Welfare**: 3rd Mon 13:00-16:00 (TEL: 0276-46-6208)\n- **Gunma Bar Association Free Phone Consultation**: Mon-Fri 13:00-16:00 (TEL: 027-233-9333)\n- **Himawari Anshin Dial** (for elderly/disabled): Weekdays 9:00-Noon, 13:00-17:00 (TEL: 027-234-9321)\n- **SME Legal Support Center**: Weekdays 10:00-Noon, 13:00-16:00 (TEL: 027-233-2900)\n\n■ **Inheritance Guidebook**\nDistributed at the City Hall and Administrative Centers.\n\n**[Contact]**\nCitizens' Life Dept, Citizens' Consultation Division",
+        "bottom_line": "Ota City residents can book a free 20-minute consultation with a lawyer (up to twice a fiscal year) for advice strictly on legal interpretations.",
         "amount_info": null,
         "target_audience": [
-          "Those struggling with debt or debt consolidation",
-          "Those having trouble with neighbors, family, or at work",
-          "Those who cannot afford lawyer fees",
-          "Those who don't know where to consult"
+          "Ota City residents seeking legal interpretation advice"
         ],
         "five_w1h": {
-          "who": "Those with legal problems who have difficulty paying lawyer fees",
-          "what": "Guidance to legal consultation, advancement of lawyer/judicial scrivener fees",
-          "when": "When legal troubles occur (early consultation is important)",
-          "where": "By phone (0570-078374), online, or at Houterasu offices nationwide",
-          "why": "To ensure proper legal relief even for those who cannot afford legal support",
-          "how": "Call the Support Dial → Explain your issue → Get referred to appropriate consultation/lawyer → Undergo fee advancement screening if needed"
+          "who": "Residents of Ota City",
+          "what": "Free legal consultation by a lawyer",
+          "when": "Wed morning, Thu afternoon, or 3rd Sat morning (Book 2 weeks to 1 day prior)",
+          "where": "Ota City Hall 3F Citizens' Consultation Div. (Sat: staff entrance), or Phone",
+          "why": "To receive advice on legal interpretation issues",
+          "how": "Make an advance reservation by phone, at the counter, or online, generally two weeks to one day before"
         },
         "checklist": [
           {
-            "item": "Call the Houterasu Support Dial (0570-078374)",
-            "note": "Weekdays 9-21, Saturdays 9-17",
+            "item": "Advance Reservation",
+            "note": "Book via phone, counter, or Web (Sat: Web only). State in-person or phone (city calls you)",
             "required": true
           },
           {
-            "item": "Write down a summary of the problem",
-            "note": "Organize \"when, who, what\" to make the consultation smoother",
-            "required": false
-          },
-          {
-            "item": "Check your income and financial situation",
-            "note": "Required for the free consultation screening",
-            "required": false
+            "item": "Prepare points and documents",
+            "note": "Time is 20 min. For phone sessions, bring documents by the day before if needed",
+            "required": true
           }
         ],
-        "faq": [
-          {
-            "question": "Can I consult even if I have no money?",
-            "answer": "Yes, the consultation is completely free. Lawyer fees can also be advanced if you meet the income criteria."
-          },
-          {
-            "question": "Can I consult in a foreign language?",
-            "answer": "An interpreter may be provided. Please call the Support Dial first."
-          },
-          {
-            "question": "Can I consult about any kind of problem?",
-            "answer": "They handle a wide range of issues, including debt, divorce, inheritance, neighbor disputes, labor issues, and criminal cases. Please call them first."
-          },
-          {
-            "question": "How does the advancement of lawyer fees work?",
-            "answer": "After the fees are advanced, you will generally repay in installments of around ¥5,000 to ¥10,000 per month. Welfare recipients may be exempted from repayment."
-          }
-        ],
-        "estimated_time": "Phone consultation: approx. 30 minutes. From lawyer referral to consultation: a few days to 1 week",
+        "faq": [],
+        "estimated_time": "20 minutes per consultation",
         "related_articles": [
           "life-support",
           "dv-support",
@@ -15634,64 +15576,44 @@
           "consumer-center",
           "harassment-consultation"
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "Free Lawyer Consultation (無料弁護士相談)",
+            "explanation": "A system where lawyers from the Gunma Bar Association provide free legal advice to Ota City residents (up to twice a year)."
+          }
+        ],
         "form_guide": null
       },
       "pt": {
-        "title": "Houterasu (Consulta Jurídica Gratuita e Adiantamento de Honorários)",
-        "easy_explanation": "Se você estiver enfrentando problemas jurídicos como \"Não consigo pagar minhas dívidas\", \"Estou com problemas com vizinhos\" ou \"Estou lidando com disputas de divórcio ou herança\", você pode consultar o \"Houterasu\" (Centro de Apoio Jurídico do Japão).\n\nHouterasu Support Dial: 0570-078374 (Dias úteis 9:00-21:00, Sábados 9:00-17:00)\n\nO Houterasu é uma organização nacional que oferece um sistema de \"consulta gratuita\" para aqueles que não podem pagar por honorários de advogados ou escrivães judiciais. Se a sua renda estiver abaixo de um certo nível, eles podem adiantar os honorários do advogado, que você pode pagar em parcelas. Ligue primeiro para explicar o seu problema.",
-        "bottom_line": "Mesmo que você não tenha dinheiro para problemas jurídicos, ligue para o Houterasu (0570-078374) para ser conectado a uma consulta gratuita com um advogado.",
+        "title": "Consulta Gratuita com Advogado",
+        "easy_explanation": "## Consulta Gratuita com Advogado da Cidade de Ota\n\nAdvogados da Ordem de Gunma oferecem consultas e aconselhamento jurídico gratuitos.\n\n### Público-Alvo e Conteúdo\n- **Público**: Residentes de Ota (*Consultas em 7 de maio e 8 de out são abertas a todos de Gunma)\n- **Conteúdo**: Estritamente limitado a interpretações legais.\n(*Desabafos, questões de senso comum, criação de documentos e assuntos empresariais não são aceitos.)\n\n### Data, Horário e Local\n- **Programação**: 1 vez por semana (Qua 9:30-12:00 ou Qui 13:30-16:00), e 3º sábado (9:30-12:00)\n- **Local**: Prefeitura de Ota 3º Andar (*Aos sábados, entre pela entrada de funcionários)\n- **Tempo e Limite**: 20 minutos por sessão. Até 2 vezes por ano fiscal (Abr-Mar).\n\n### Métodos e Regras\n- **Presencial** (até 2 pessoas) ou **Telefone** (a cidade ligará para você).\n- Para consultas por telefone com análise de documentos, traga-os até o dia anterior.\n- Gravação é proibida. Não há intérpretes.\n\n### Reserva (Reserva Antecipada Necessária)\nAgende por telefone, balcão ou Web (Sábado apenas Web) de 2 semanas até a véspera. Informe se deseja presencial ou telefone.\n*Cancelamentos por telefone até o meio-dia da véspera. Cancelamentos tardios contam como uma sessão.\n\n### Outros Serviços de Consulta\n- **Bem-Estar Social de Ota**: 3ª Seg 13:00-16:00 (TEL: 0276-46-6208)\n- **Consulta por Telefone da Ordem de Gunma**: Seg-Sex 13:00-16:00 (TEL: 027-233-9333)\n- **Himawari Anshin Dial** (idosos/deficientes): Dias úteis 9:00-12:00, 13:00-17:00 (TEL: 027-234-9321)\n- **Suporte Jurídico PME**: Dias úteis 10:00-12:00, 13:00-16:00 (TEL: 027-233-2900)\n\n■ **Guia de Herança**\nDistribuído na Prefeitura e Centros Administrativos.\n\n**[Contato]**\nDepartamento de Vida do Cidadão, Divisão de Consulta ao Cidadão",
+        "bottom_line": "Residentes de Ota podem agendar uma consulta gratuita de 20 minutos com um advogado (até duas vezes por ano fiscal) para aconselhamento estritamente sobre interpretações legais.",
         "amount_info": null,
         "target_audience": [
-          "Pessoas lutando com dívidas ou reestruturação de dívidas",
-          "Pessoas com problemas com vizinhos, família ou no trabalho",
-          "Pessoas que não podem pagar honorários de advogados",
-          "Pessoas que não sabem onde se consultar"
+          "Residentes de Ota que buscam aconselhamento sobre interpretação legal"
         ],
         "five_w1h": {
-          "who": "Pessoas com problemas jurídicos que têm dificuldade em pagar honorários de advogados",
-          "what": "Orientação para consulta jurídica, adiantamento de honorários de advogados/escrivães judiciais",
-          "when": "Quando ocorrem problemas jurídicos (a consulta antecipada é importante)",
-          "where": "Por telefone (0570-078374), online, ou nos escritórios do Houterasu em todo o país",
-          "why": "Para garantir alívio jurídico adequado mesmo para aqueles que não podem pagar apoio jurídico",
-          "how": "Ligue para o Support Dial → Explique seu problema → Seja encaminhado para consulta/advogado apropriado → Passe pela triagem de adiantamento de honorários, se necessário"
+          "who": "Residentes da cidade de Ota",
+          "what": "Consulta jurídica gratuita com um advogado",
+          "when": "Qua de manhã, Qui à tarde, ou 3º Sáb de manhã (Agendar 2 sem a 1 dia antes)",
+          "where": "Prefeitura de Ota 3º Andar (Sáb: entrada de func.), ou Telefone",
+          "why": "Para receber aconselhamento sobre questões de interpretação legal",
+          "how": "Faça uma reserva com antecedência por telefone, no balcão ou online, geralmente duas semanas a um dia antes"
         },
         "checklist": [
           {
-            "item": "Ligue para o Houterasu Support Dial (0570-078374)",
-            "note": "Dias úteis 9-21, Sábados 9-17",
+            "item": "Reserva Antecipada",
+            "note": "Telefone, balcão ou Web (Sáb: apenas Web). Escolha presencial ou telefone (a cidade liga)",
             "required": true
           },
           {
-            "item": "Anote um resumo do problema",
-            "note": "Organize \"quando, quem, o quê\" para facilitar a consulta",
-            "required": false
-          },
-          {
-            "item": "Verifique sua renda e situação financeira",
-            "note": "Necessário para a triagem da consulta gratuita",
-            "required": false
+            "item": "Preparar pontos e documentos",
+            "note": "20 min. Para telefone, traga documentos até a véspera se necessário",
+            "required": true
           }
         ],
-        "faq": [
-          {
-            "question": "Posso consultar mesmo sem dinheiro?",
-            "answer": "Sim, a consulta é totalmente gratuita. Os honorários do advogado também podem ser adiantados se você atender aos critérios de renda."
-          },
-          {
-            "question": "Posso consultar em uma língua estrangeira?",
-            "answer": "Um intérprete pode ser providenciado. Por favor, ligue para o Support Dial primeiro."
-          },
-          {
-            "question": "Posso consultar sobre qualquer tipo de problema?",
-            "answer": "Eles lidam com uma ampla gama de problemas, incluindo dívidas, divórcio, herança, disputas entre vizinhos, problemas trabalhistas e casos criminais. Ligue primeiro."
-          },
-          {
-            "question": "Como funciona o adiantamento de honorários de advogados?",
-            "answer": "Após o adiantamento dos honorários, você geralmente pagará em parcelas de cerca de ¥5.000 a ¥10.000 por mês. Os beneficiários do Seguro de Vida (Seikatsu Hogo) podem ser isentos de pagamento."
-          }
-        ],
-        "estimated_time": "Consulta por telefone: aprox. 30 minutos. Do encaminhamento ao advogado até a consulta: alguns dias a 1 semana",
+        "faq": [],
+        "estimated_time": "1 sessão de 20 minutos",
         "related_articles": [
           "life-support",
           "dv-support",
@@ -15699,7 +15621,12 @@
           "consumer-center",
           "harassment-consultation"
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "Consulta Gratuita com Advogado (無料弁護士相談)",
+            "explanation": "Um sistema onde advogados da Ordem de Gunma fornecem aconselhamento jurídico gratuito para residentes de Ota (até duas vezes por ano)."
+          }
+        ],
         "form_guide": null
       }
     },
