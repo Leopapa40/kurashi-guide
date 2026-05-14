@@ -3602,7 +3602,7 @@
   {
     "id": "child-allowance",
     "category": "money",
-    "original_url": "https://www.city.ota.gunma.jp/site/kosodate/1014.html",
+    "original_url": "https://www.city.ota.gunma.jp/site/kosodate/1032.html",
     "locales": {
       "ja": {
         "title": "児童手当（子育て世帯への給付金）",
@@ -3617,18 +3617,6 @@
           {
             "term": "児童手当（じどうてあて）",
             "explanation": "子どもを育てる家庭に対して国が支給する手当です。高校生年代まで（18歳の誕生日後の最初の3月31日まで）の子どもを対象に毎月支給されます。"
-          },
-          {
-            "term": "認定請求書（にんていせいきゅうしょ）",
-            "explanation": "児童手当を受け取るために最初に提出する申請書類です。子どもが生まれたときや他の市区町村から引っ越してきたときに提出します。"
-          },
-          {
-            "term": "額改定（がくかいてい）",
-            "explanation": "受け取る手当の金額を変更することです。第2子以降が生まれたときなど、手当の対象となる子どもの数が変わった場合に手続きが必要です。"
-          },
-          {
-            "term": "別居監護（べっきょかんご）",
-            "explanation": "子どもと住所が異なる親が、その子どもを養育・監護している状態のことです。この場合は「別居監護申立書」を提出することで手当を受け取れる場合があります。"
           }
         ],
         "five_w1h": {
@@ -3664,11 +3652,6 @@
             "item": "本人確認書類（運転免許証・マイナンバーカード等）",
             "note": "顔写真付きのもの1点",
             "required": true
-          },
-          {
-            "item": "戸籍謄本または住民票（児童と請求者の関係確認）",
-            "note": "住民票が同一世帯の場合は省略可",
-            "required": false
           }
         ],
         "form_guide": {
@@ -3689,8 +3672,7 @@
           ],
           "tips": [
             "出生・転入の場合は出生日・転入日から15日以内に申請すること（遅れると受給開始が翌月になる）",
-            "公務員は勤務先で手続き（市役所ではなく職場に申請）",
-            "現況届は原則提出不要（案内が届いた一部の方のみ提出）"
+            "公務員は勤務先で手続き（市役所ではなく職場に申請）"
           ]
         },
         "faq": [
@@ -3707,8 +3689,8 @@
             "answer": "原則として子どもと同居している親（生計を維持する父または母）が申請します。両親が共働きの場合は所得が高い方が申請者になります。"
           },
           {
-            "question": "現況届の提出は毎年必要ですか？",
-            "answer": "2022年度からマイナンバーを活用した現況確認が導入され、多くの方は現況届の提出が不要になりました。ただし、一部の方（離婚調停中の方等）は引き続き提出が必要なため、案内が届いた方は必ず提出してください。"
+            "question": "公務員の場合はどこで手続きすればいいですか？",
+            "answer": "公務員の方は市役所ではなく、勤務先での支給となりますので、勤務先へ申請してください。"
           }
         ],
         "estimated_time": null,
@@ -3727,7 +3709,12 @@
         "target_audience": [
           "Those living in Ota City raising children of high school age or younger"
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "Child Allowance (Jido Teate)",
+            "explanation": "An allowance provided by the national government to households raising children. It is paid monthly for children up to high school age (until the first March 31st after their 18th birthday)."
+          }
+        ],
         "five_w1h": {
           "who": "Guardians raising children up to high school age (end of the fiscal year of age 18) (No income limit)",
           "what": "Application for Child Allowance (10,000 to 30,000 yen per month per child up to high school age)",
@@ -3761,11 +3748,6 @@
             "item": "ID Document (本人確認書類)",
             "note": "Driver's license, My Number Card, etc.",
             "required": true
-          },
-          {
-            "item": "Family Register Transcript or Resident Certificate (戸籍謄本または住民票)",
-            "note": "Can be omitted if in the same household",
-            "required": false
           }
         ],
         "form_guide": {
@@ -3773,8 +3755,7 @@
           "fields": [],
           "tips": [
             "In case of birth or moving in, apply within 15 days from the date of birth or moving in (if delayed, payment will start the following month).",
-            "Public servants must apply at their workplace (not at the city hall).",
-            "Current status report is generally not required (only required for some who receive a notice)."
+            "Public servants must apply at their workplace (not at the city hall)."
           ]
         },
         "faq": [
@@ -3791,8 +3772,8 @@
             "answer": "The parent with the higher income who maintains the livelihood should apply."
           },
           {
-            "question": "Is the annual status report required every year?",
-            "answer": "Since 2022, My Number linkage made the annual report unnecessary for most. However, if you receive a notification (e.g. going through divorce), you must submit it."
+            "question": "Where should public servants apply?",
+            "answer": "Public servants receive payments from their workplace, not the city hall. Please apply at your workplace."
           }
         ],
         "estimated_time": null,
@@ -3811,7 +3792,12 @@
         "target_audience": [
           "Moradores da cidade de Ota que criam filhos até a idade do ensino médio"
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "Abono Infantil (Jido Teate)",
+            "explanation": "Um abono fornecido pelo governo nacional para famílias que criam filhos. É pago mensalmente para crianças até a idade do ensino médio (até o primeiro 31 de março após seu 18º aniversário)."
+          }
+        ],
         "five_w1h": {
           "who": "Responsáveis que criam filhos até a idade do ensino médio (final do ano fiscal dos 18 anos) (Sem limite de renda)",
           "what": "Inscrição para o Subsídio Infantil (10.000 a 30.000 ienes por mês por criança até a idade do ensino médio)",
@@ -3845,11 +3831,6 @@
             "item": "Documento de identidade (本人確認書類)",
             "note": "Com foto",
             "required": true
-          },
-          {
-            "item": "Transcrição do Registro Familiar ou Certidão de Residência (戸籍謄本または住民票)",
-            "note": "Pode ser omitido se for a mesma residência",
-            "required": false
           }
         ],
         "form_guide": {
@@ -3857,8 +3838,7 @@
           "fields": [],
           "tips": [
             "Em caso de nascimento ou mudança, solicite dentro de 15 dias a partir da data de nascimento ou mudança (se atrasar, o pagamento iniciará no mês seguinte).",
-            "Servidores públicos devem solicitar em seu local de trabalho (não na prefeitura).",
-            "O relatório de status atual geralmente não é necessário (exigido apenas para alguns que recebem notificação)."
+            "Servidores públicos devem solicitar em seu local de trabalho (não na prefeitura)."
           ]
         },
         "faq": [
@@ -3877,6 +3857,10 @@
           {
             "question": "O relatório anual é obrigatório?",
             "answer": "Para a maioria não é mais necessário desde 2022 graças ao My Number. Se receber um aviso, deverá enviá-lo."
+          },
+          {
+            "question": "Onde os funcionários públicos devem se inscrever?",
+            "answer": "Funcionários públicos recebem pagamentos de seu local de trabalho, não da prefeitura. Por favor, inscreva-se no seu local de trabalho."
           }
         ],
         "estimated_time": null,
