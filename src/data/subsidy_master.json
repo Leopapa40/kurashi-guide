@@ -12305,85 +12305,71 @@
     "original_url": "https://www.city.ota.gunma.jp/page/1026450.html",
     "locales": {
       "ja": {
-        "title": "転入届（太田市へ引越してきた）",
-        "easy_explanation": "## 太田市へようこそ！引越し後14日以内に転入届を\n\n他の市区町村から太田市に引っ越してきた場合、太田市民として住民登録するための転入届が必要です。新しい家に住み始めてから14日以内に必ず手続きをしてください。\n\n### 📝 必要な持ち物\n1. 転出証明書：以前の住所の市区町村で発行してもらった証明書。\n   ※マイナンバーカードや住民基本台帳カードで特例転出手続きをした方は不要\n2. 本人確認書類：運転免許証・マイナンバーカード等（顔写真付き1点）\n3. マイナンバーカード・住民基本台帳カード：お持ちの方は住所変更が必要\n4. 国民健康保険資格確認書：加入している方\n\n### 🏢 手続きできる場所・受付時間\n- 太田市役所 市民課（本庁舎1階）・各行政センター：平日 8:30〜17:15\n- 各サービスセンター（土日祝も対応）：営業時間はサービスセンターにより異なります\n\n💡 引越し直後の月曜日や休日明けは窓口が混み合う場合があります。時間に余裕をもってお越しください。",
-        "bottom_line": "太田市へ引越したら住み始めてから14日以内に転入届を。転出証明書と本人確認書類を市役所市民課（平日8:30〜17:15）または各サービスセンターへ持参してください。",
+        "title": "転入届（他区市町村等から太田市へ）",
+        "easy_explanation": "## 他市区町村から太田市への引っ越し手続き\n\n他の市区町村から太田市へ住所を移した場合は、**太田市に住み始めてから14日以内**に転入届の手続きを行ってください。\n\n### 🏢 手続きできる場所\n- **太田市役所 市民課（本庁舎1階）**\n- **藪塚本町庁舎 藪塚本町サービス係（1階）**\n- **各行政センター**（※太田行政センターを除く、日本人のみ）\n- **各サービスセンター**（日本人のみ）\n\n> **⚠️ 【重要】一部手続きの窓口制限**\n> 以下の届出は、**「太田市役所 市民課」** または **「藪塚本町サービス係」** でのみ受け付けています（サービスセンターや行政センターでは手続きできません）。\n> - **外国人住民の方の転入届**（日本人住民と外国人住民が同一世帯の場合も含む）\n> - **マイナンバーカードや住民基本台帳カードを利用した特例転入**\n\n### 📝 手続きをする人\n本人 または 世帯主（同一世帯員でも可）。代理人が手続きする場合は「委任状」が必要です。\n\n※転入届以外の必要な手続き（健康保険など）は、オンラインの「くらしの手続きガイド」から確認できます。",
+        "bottom_line": "太田市に住み始めてから14日以内に転入届が必要です。外国人住民の方やマイナンバーカードでの特例転入の方は、市役所本庁舎か藪塚本町庁舎でのみ手続き可能です。",
         "amount_info": null,
         "target_audience": [
-          "他の市区町村から太田市に引っ越してきた方"
+          "他の市区町村等から太田市へ住所を移した方"
         ],
         "term_explanations": [
           {
-            "term": "住民票（じゅうみんひょう）",
-            "explanation": "氏名・生年月日・住所・世帯構成などが記載された公的書類。転入届を出すと太田市の住民として登録されます。"
+            "term": "転出証明書",
+            "explanation": "以前住んでいた市区町村で転出届を出した際に発行される証明書。転入の際に必ず必要になります。"
           },
           {
-            "term": "世帯主（せたいぬし）",
-            "explanation": "その家庭の代表者として住民票に記載される人のこと。同じ家に住む家族のうち1人が世帯主となります。"
-          },
-          {
-            "term": "転出証明書（てんしゅつしょうめいしょ）",
-            "explanation": "以前住んでいた市区町村が発行した証明書。転入届を提出する際に必要になります（マイナンバーカードで特例転出をした方は不要）。"
-          },
-          {
-            "term": "転入届（てんにゅうとどけ）",
-            "explanation": "他の市区町村から太田市へ引っ越してきたときに提出する書類。住み始めてから14日以内に手続きをする義務があります。"
-          },
-          {
-            "term": "特例転入（とくれいてんにゅう）",
-            "explanation": "マイナンバーカードや住民基本台帳カードを使って転出届を出した場合の転入手続きの方法。転出証明書が不要になります。"
+            "term": "特例転入",
+            "explanation": "マイナンバーカードや住民基本台帳カードを利用して転出届・転入届を行う方法。紙の転出証明書が不要になります。"
           }
         ],
         "five_w1h": {
-          "who": "他の市区町村または海外から太田市に引っ越してきた方",
-          "what": "転入届を提出して太田市の住民登録を行う",
-          "when": "新しい家に住み始めてから14日以内",
-          "where": "太田市役所 市民課（本庁舎1階）／各行政センター（太田行政センターを除く）／各サービスセンター",
-          "why": "届出しないと太田市の住民サービス（保険証・選挙等）が受けられません",
-          "how": "転出証明書・本人確認書類等を窓口に持参"
+          "who": "本人または世帯主（同一世帯員でも可。代理人は委任状が必要）",
+          "what": "転入届（他区市町村等から太田市へ）",
+          "when": "太田市に住み始めてから14日以内",
+          "where": "太田市役所 市民課、藪塚本町庁舎、各行政センター（太田除く）、各サービスセンター ※外国人や特例転入は本庁舎・藪塚本町のみ",
+          "why": "記載なし",
+          "how": "窓口にて手続き"
         },
         "checklist": [
           {
-            "item": "転入届（市役所市民課窓口で入手）",
-            "note": "引越し後14日以内に届け出ること",
+            "item": "住民異動届",
+            "note": "窓口または市ホームページからダウンロード可能",
             "required": true
           },
           {
-            "item": "転出証明書（前住所地の市区町村発行）",
-            "note": "前住所地の市役所等で交付を受けたもの。マイナンバーカード利用のオンライン転出の場合は不要",
+            "item": "転出証明書",
+            "note": "前住所の市区町村が発行したもの。※海外からの転入時は不要",
             "required": true
           },
           {
-            "item": "本人確認書類",
-            "note": "運転免許証・マイナンバーカード等。顔写真付きのもの1点",
+            "item": "窓口で手続きする方の本人確認書類",
+            "note": "運転免許証、マイナンバーカード、パスポート、在留カード等（顔写真付き）なら1点。健康保険資格確認書、年金手帳等の顔写真なしの場合は2点。",
             "required": true
           },
           {
-            "item": "マイナンバーカード（持っている場合）",
-            "note": "住所変更の記載更新が必要。窓口に持参すること",
+            "item": "在留カードまたは特別永住者証明書",
+            "note": "外国人住民の方のみ必要",
+            "required": false
+          },
+          {
+            "item": "マイナンバーカード・住民基本台帳カード",
+            "note": "お持ちの方のみ。前住所で特例転出をした場合はカードを使った特例転入となります。",
+            "required": false
+          },
+          {
+            "item": "委任状",
+            "note": "代理人が手続きする場合に必要（転入する本人が自筆）",
+            "required": false
+          },
+          {
+            "item": "世帯主との関係がわかる書類と和訳文",
+            "note": "外国人住民の方で、転出証明書の世帯構成から変更があった場合のみ（訳者の住所・氏名を明記）",
             "required": false
           }
         ],
         "form_guide": null,
-        "faq": [
-          {
-            "question": "転入届の14日以内とはいつから数えますか？",
-            "answer": "太田市に住み始めた日（実際に引越した日）から14日以内です。この期限を過ぎると過料が課せられる場合があります。"
-          },
-          {
-            "question": "転入届に必要な書類は何ですか？",
-            "answer": "①転出証明書（前住所地で発行）②本人確認書類（運転免許証・マイナンバーカード等）が基本です。マイナンバーカードをお持ちでオンライン転出をした場合は転出証明書は不要です。"
-          },
-          {
-            "question": "転入届を出した後に続けてやることはありますか？",
-            "answer": "転入届の後、①国民健康保険の加入手続き（14日以内）②マイナンバーカードの住所変更③運転免許証の住所変更（免許センター・警察署）が必要です。犬を飼っている場合は犬の登録の転入手続きも必要です。"
-          },
-          {
-            "question": "子どもがいる場合、学校の転校手続きはどうすればよいですか？",
-            "answer": "転入届と同時に市役所で「在学証明書」と「教科書給与証明書」の提出を受け付けています。これをもとに転入先の学校が決まります。直接教育委員会に相談することもできます。"
-          }
-        ],
-        "estimated_time": "窓口で約15〜20分（国民健康保険の手続きを同時に行う場合は30分程度）",
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "my-number-card",
           "national-health-insurance",
@@ -12393,74 +12379,60 @@
         ]
       },
       "en": {
-        "title": "Moving Into Ota City (Tennyu-todoke)",
-        "easy_explanation": "If you have moved to Ota City from another municipality or abroad, you must submit a Moving-in Notification (Tennyu-todoke).\n\nPlease complete this procedure within 14 days after starting to live at your new address. You will need the \"Moving-out Certificate\" issued by your previous municipality. If you completed a special moving-out procedure using your My Number Card, you do not need the certificate, but please bring your My Number Card.",
-        "bottom_line": "If you move to Ota City, submit a Moving-in Notification within 14 days of starting to live at your new address.",
+        "title": "Move-in Notification (From another municipality to Ota City)",
+        "easy_explanation": "## Moving to Ota City\n\nIf you have moved to Ota City from another municipality, you must submit a move-in notification **within 14 days of starting to live in Ota City**.\n\n### 🏢 Where to Apply\n- **Ota City Hall, Citizens' Affairs Division (1F)**\n- **Yabuzukahonmachi Office, Service Section (1F)**\n- **Administrative Centers** (Excluding Ota Admin Center, Japanese citizens only)\n- **Service Centers** (Japanese citizens only)\n\n> **⚠️ [IMPORTANT] Counter Restrictions**\n> The following notifications are **ONLY accepted at Ota City Hall or Yabuzukahonmachi Office** (cannot be processed at Service Centers or Admin Centers):\n> - **Move-in notifications for Foreign Residents** (including households with both Japanese and foreign residents)\n> - **Special move-in using a My Number Card or Juki Card**\n\n### 📝 Who Can Apply\nThe person themselves or the head of the household (or a member of the same household). If a proxy applies, a \"Power of Attorney\" (委任状) is required.",
+        "bottom_line": "Submit your move-in notification within 14 days of moving to Ota City. Foreign residents must apply at the main City Hall or Yabuzukahonmachi Office.",
         "amount_info": null,
         "target_audience": [
-          "Those moving into Ota City from another municipality",
-          "Those returning/moving to Ota City from abroad",
-          "Note: If moving within Ota City, submit a Change of Address Notification instead"
+          "Those who have moved to Ota City from another municipality"
         ],
         "five_w1h": {
-          "who": "The person moving or head of household (proxy requires a letter of attorney)",
-          "what": "Submit a Moving-in Notification",
-          "when": "Within 14 days after moving to the new address",
-          "where": "Ota City Hall Citizens' Affairs Division / Administrative Centers",
-          "why": "Required by the Basic Resident Registration Act to register your new address",
-          "how": "Bring your Moving-out Certificate and ID to the service counter"
+          "who": "The person or household head (Proxy requires a Power of Attorney)",
+          "what": "Move-in Notification (転入届)",
+          "when": "Within 14 days of starting to live in Ota City",
+          "where": "City Hall, Yabuzukahonmachi Office, Admin Centers (except Ota), Service Centers. *Foreign residents: City Hall or Yabuzukahonmachi only",
+          "why": "Not specified",
+          "how": "Apply at the designated counter"
         },
         "checklist": [
           {
-            "item": "Moving-out Certificate (転出証明書)",
-            "note": "Issued by previous municipality. Not required if using special online procedure.",
+            "item": "Resident Change Notification Form (住民異動届)",
+            "note": "Available at the counter or can be downloaded from the city website",
             "required": true
           },
           {
-            "item": "Identification documents (本人確認書類)",
-            "note": "Driver's License, Passport, etc.",
+            "item": "Move-out Certificate (転出証明書)",
+            "note": "Issued by your previous municipality. *Not required if moving from overseas.",
             "required": true
           },
           {
-            "item": "My Number Cards for all family members (マイナンバーカード)",
-            "note": "PIN code is required",
+            "item": "Identity Verification Document",
+            "note": "1 photo ID (Driver's license, My Number card, Residence card, etc.) or 2 non-photo IDs (Health insurance card, Pension handbook, etc.)",
+            "required": true
+          },
+          {
+            "item": "Residence Card or Special Permanent Resident Certificate",
+            "note": "Required for foreign residents",
             "required": false
           },
           {
-            "item": "Personal seal (印鑑)",
-            "note": "May be required for some procedures",
+            "item": "My Number Card / Juki Card",
+            "note": "If you have one. Used for special move-in procedures if you did a special move-out.",
             "required": false
           },
           {
-            "item": "Foreign residents: Residence Card or Special Permanent Resident Certificate (在留カード等)",
-            "note": "For all members moving",
+            "item": "Power of Attorney (委任状)",
+            "note": "Required if a proxy is applying (must be written by the applicant)",
             "required": false
           },
           {
-            "item": "Letter of attorney (委任状)",
-            "note": "If a proxy applies. Available on the Ota City website",
+            "item": "Document proving relationship to the household head & Translation",
+            "note": "For foreign residents ONLY IF the household composition changed from the move-out certificate. Must include the translator's name and address.",
             "required": false
           }
         ],
-        "faq": [
-          {
-            "question": "Can I submit the notification on a holiday?",
-            "answer": "Yes, the Citizens' Affairs Division counter (Joyful Counter) is open on Sundays only, from 8:30 AM to 5:15 PM (closed on national holidays). You can also update your My Number Card."
-          },
-          {
-            "question": "Can I submit the Moving-in Notification before I actually move?",
-            "answer": "No. You must complete the procedure after you have actually started living at your new address."
-          },
-          {
-            "question": "I lost my Moving-out Certificate. What should I do?",
-            "answer": "Please request a reissue of the Moving-out Certificate from your previous municipality."
-          },
-          {
-            "question": "What is required when moving in from abroad?",
-            "answer": "You will need Passports for all members moving (showing the re-entry stamp) as well as your Family Register (Koseki Tohon) and Address Record (Koseki no Fuhyo)."
-          }
-        ],
-        "estimated_time": "Counter: approx. 20-40 minutes (may take longer if you also need to register for National Health Insurance, etc.)",
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "my-number-card",
           "national-health-insurance",
@@ -12468,78 +12440,73 @@
           "address-change-procedure",
           "elementary-transfer"
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "Move-out Certificate (転出証明書)",
+            "explanation": "A certificate issued by your previous municipality when you submitted your move-out notification."
+          },
+          {
+            "term": "Special Move-in (特例転入)",
+            "explanation": "A move-in procedure using a My Number Card, which does not require a paper Move-out Certificate."
+          }
+        ],
         "form_guide": null
       },
       "pt": {
-        "title": "Mudança para a Cidade de Ota (Tennyu-todoke)",
-        "easy_explanation": "Se você se mudou de outra cidade ou do exterior para Ota, é necessário registrar o Aviso de Mudança (Tennyu-todoke).\n\nFaça esse procedimento em até 14 dias após começar a morar no novo endereço. Será necessário o \"Certificado de Mudança\" emitido pela sua cidade anterior. Caso tenha feito o procedimento especial de mudança com o My Number Card, o certificado não é necessário, mas não esqueça de trazer o seu My Number Card.",
-        "bottom_line": "Ao se mudar para Ota, registre o Aviso de Mudança em até 14 dias após começar a morar no novo endereço.",
+        "title": "Notificação de Entrada (De outro município para a cidade de Ota)",
+        "easy_explanation": "## Mudança para a cidade de Ota\n\nSe você se mudou para a cidade de Ota de outro município, você deve enviar uma notificação de entrada **dentro de 14 dias após começar a morar em Ota**.\n\n### 🏢 Onde Solicitar\n- **Prefeitura de Ota, Divisão de Assuntos do Cidadão (1º Andar)**\n- **Escritório de Yabuzukahonmachi, Seção de Serviços (1º Andar)**\n- **Centros Administrativos** (Exceto Ota, apenas cidadãos japoneses)\n- **Centros de Atendimento** (Apenas cidadãos japoneses)\n\n> **⚠️ [IMPORTANTE] Restrições de Balcão**\n> As seguintes notificações são **aceitas APENAS na Prefeitura de Ota ou no Escritório de Yabuzukahonmachi** (não podem ser processadas em Centros de Atendimento ou Administrativos):\n> - **Notificações de entrada para Residentes Estrangeiros** (incluindo famílias com residentes japoneses e estrangeiros)\n> - **Entrada especial usando um Cartão My Number ou Cartão Juki**\n\n### 📝 Quem Pode Solicitar\nA própria pessoa ou o chefe da família (ou um membro da mesma família). Se um procurador solicitar, é necessária uma \"Procuração\" (委任状).",
+        "bottom_line": "Envie sua notificação de entrada dentro de 14 dias após se mudar. Residentes estrangeiros devem solicitar na Prefeitura principal ou em Yabuzukahonmachi.",
         "amount_info": null,
         "target_audience": [
-          "Pessoas que se mudaram para Ota de outra cidade",
-          "Pessoas que retornaram/se mudaram do exterior para Ota",
-          "Nota: Se for se mudar dentro da cidade de Ota, o registro é o Aviso de Alteração de Endereço"
+          "Aqueles que se mudaram para a cidade de Ota de outro município"
         ],
         "five_w1h": {
-          "who": "A própria pessoa ou chefe de família (representantes precisam de procuração)",
-          "what": "Apresentar o Aviso de Mudança para Ota",
-          "when": "Em até 14 dias após começar a morar no novo endereço",
-          "where": "Prefeitura de Ota (Divisão de Cidadãos) / Centros Administrativos",
-          "why": "Obrigatório pela Lei de Registro Básico de Residentes para registrar o novo endereço",
-          "how": "Leve o Certificado de Mudança e seus documentos de identidade ao guichê"
+          "who": "A pessoa ou chefe da família (Procurador requer Procuração)",
+          "what": "Notificação de Entrada (転入届)",
+          "when": "Dentro de 14 dias após começar a morar em Ota",
+          "where": "Prefeitura, Yabuzukahonmachi, Centros Admin (exceto Ota), Centros de Atendimento. *Estrangeiros: apenas Prefeitura ou Yabuzukahonmachi",
+          "why": "Não especificado",
+          "how": "Inscreva-se no balcão designado"
         },
         "checklist": [
           {
+            "item": "Formulário de Notificação de Mudança de Residente (住民異動届)",
+            "note": "Disponível no balcão ou pode ser baixado no site da cidade",
+            "required": true
+          },
+          {
             "item": "Certificado de Mudança (転出証明書)",
-            "note": "Emitido pela cidade anterior. Não necessário se usou o procedimento online.",
+            "note": "Emitido pelo seu município anterior. *Não é necessário se estiver se mudando do exterior.",
             "required": true
           },
           {
-            "item": "Documentos de identidade (本人確認書類)",
-            "note": "Carteira de Motorista, Passaporte, etc.",
+            "item": "Documento de Verificação de Identidade",
+            "note": "1 com foto (Carteira de motorista, Cartão My Number, Zairyu Card, etc.) ou 2 sem foto (Cartão de seguro de saúde, Caderneta de pensão, etc.)",
             "required": true
           },
           {
-            "item": "My Number Card de todos os membros (マイナンバーカード)",
-            "note": "A senha será necessária",
+            "item": "Zairyu Card (Cartão de Permanência) ou Certificado de Residente Permanente Especial",
+            "note": "Necessário para residentes estrangeiros",
             "required": false
           },
           {
-            "item": "Carimbo pessoal (印鑑)",
-            "note": "Pode ser necessário dependendo do procedimento",
-            "required": false
-          },
-          {
-            "item": "Estrangeiros: Zairyu Card ou Certificado de Residente Permanente Especial (在留カード等)",
-            "note": "Para todos que estão se mudando",
+            "item": "Cartão My Number / Cartão Juki",
+            "note": "Se você tiver um. Usado para procedimentos especiais de entrada.",
             "required": false
           },
           {
             "item": "Procuração (委任状)",
-            "note": "Se for por representante. Disponível no site da Cidade de Ota",
+            "note": "Necessário se um procurador estiver solicitando (deve ser escrito pelo solicitante)",
+            "required": false
+          },
+          {
+            "item": "Documento que comprova a relação com o chefe da família e Tradução",
+            "note": "Para estrangeiros APENAS SE a composição familiar mudou desde o certificado de saída. A tradução deve incluir o nome e endereço do tradutor.",
             "required": false
           }
         ],
-        "faq": [
-          {
-            "question": "Posso fazer o registro em um dia de folga?",
-            "answer": "Sim, o guichê da Divisão de Cidadãos (Joyful Counter) funciona aos domingos, das 8h30 às 17h15 (fechado em feriados nacionais). Também é possível atualizar o My Number Card."
-          },
-          {
-            "question": "Posso entregar o Aviso de Mudança antes de me mudar?",
-            "answer": "Não. Você deve fazer o procedimento apenas após começar a morar no novo endereço."
-          },
-          {
-            "question": "Perdi meu Certificado de Mudança. O que faço?",
-            "answer": "Solicite a reemissão do Certificado de Mudança na prefeitura da sua cidade anterior."
-          },
-          {
-            "question": "O que é necessário ao se mudar do exterior?",
-            "answer": "Você precisará dos Passaportes de todos (com o carimbo de retorno ao Japão), além do Registro Familiar (Koseki Tohon) e do Histórico de Endereço (Koseki no Fuhyo)."
-          }
-        ],
-        "estimated_time": "No guichê: aprox. 20-40 minutos (pode demorar mais se for necessário registrar o Seguro Nacional de Saúde, etc.)",
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "my-number-card",
           "national-health-insurance",
@@ -12547,7 +12514,16 @@
           "address-change-procedure",
           "elementary-transfer"
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "Certificado de Mudança (転出証明書)",
+            "explanation": "Um certificado emitido pelo seu município anterior quando você enviou sua notificação de saída."
+          },
+          {
+            "term": "Entrada Especial (特例転入)",
+            "explanation": "Um procedimento de entrada usando o Cartão My Number, que dispensa o Certificado de Mudança em papel."
+          }
+        ],
         "form_guide": null
       }
     },
