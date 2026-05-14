@@ -70,6 +70,22 @@ const mapLayers = Object.entries(layerConfig as any).map(([key, cfg]: [string, a
     count,
   };
 });
+
+// 検索インデックス生成（ビルド時）
+const searchIndex = allItems
+  .filter(i => i.data.status === 'active')
+  .map(i => {
+    const loc = i.data.locales[lang] ?? i.data.locales['ja'];
+    const catMeta = CATEGORY_META[i.data.category as Category];
+    return {
+      id: i.data.id,
+      t: loc.title,
+      b: loc.bottom_line ?? '',
+      c: (catMeta as any)?.[lang] ?? i.data.category,
+      ci: catMeta?.icon ?? '',
+      m: i.data.municipality,
+    };
+  });
 ---
 
 <LightLayout
@@ -90,18 +106,22 @@ const mapLayers = Object.entries(layerConfig as any).map(([key, cfg]: [string, a
     <p class="hero__sub">{L('sub')}</p>
 
     <!-- 検索バー -->
-    <div class="hero__search">
-      <input
-        type="search"
-        placeholder={`🔍　${L('searchPh')}`}
-        class="hero__search-input"
-        id="hero-search"
-      />
-      <button
-        type="button"
-        class="hero__search-btn"
-        id="hero-search-btn"
-      >{L('searchBtn')}</button>
+    <div class="hero__search-wrap">
+      <div class="hero__search">
+        <input
+          type="search"
+          placeholder={`🔍　${L('searchPh')}`}
+          class="hero__search-input"
+          id="hero-search"
+          autocomplete="off"
+        />
+        <button
+          type="button"
+          class="hero__search-btn"
+          id="hero-search-btn"
+        >{L('searchBtn')}</button>
+      </div>
+      <div class="search-dropdown" id="search-dropdown" hidden></div>
     </div>
   </section>
 
@@ -227,18 +247,129 @@ const mapLayers = Object.entries(layerConfig as any).map(([key, cfg]: [string, a
     </div>
   </div>
 
-  <script>
+  <script is:inline define:vars={{ searchIndex, lang }}>
+    // ─── タブ切り替え ───
     document.getElementById('browse-tabs')?.addEventListener('click', (e) => {
-      const btn = (e.target as HTMLElement).closest('.browse-tab') as HTMLElement | null;
+      const btn = e.target.closest('.browse-tab');
       if (!btn) return;
       const tab = btn.dataset.tab;
-      // タブ切り替え
       document.querySelectorAll('.browse-tab').forEach(t => t.classList.remove('active'));
       btn.classList.add('active');
-      // パネル切り替え
       document.querySelectorAll('.browse-panel').forEach(p => p.classList.remove('active'));
-      document.getElementById(`panel-${tab}`)?.classList.add('active');
+      document.getElementById('panel-' + tab)?.classList.add('active');
     });
+
+    // ─── オートコンプリート検索 ───
+    (function() {
+      const input = document.getElementById('hero-search');
+      const btn = document.getElementById('hero-search-btn');
+      const dropdown = document.getElementById('search-dropdown');
+      if (!input || !btn || !dropdown) return;
+
+      const noResultText = { ja: '該当する記事がありません', en: 'No matching articles', pt: 'Nenhum artigo encontrado' };
+      let activeIdx = -1;
+      let currentResults = [];
+
+      function normalize(s) {
+        return s.toLowerCase()
+          .replace(/[\u30A1-\u30F6]/g, function(ch) {
+            return String.fromCharCode(ch.charCodeAt(0) - 0x60);
+          });
+      }
+
+      function search(query) {
+        if (query.length < 2) return [];
+        const q = normalize(query);
+        return searchIndex.filter(function(item) {
+          return normalize(item.t).includes(q) || normalize(item.b).includes(q);
+        }).slice(0, 8);
+      }
+
+      function render(results) {
+        activeIdx = -1;
+        currentResults = results;
+        if (results.length === 0 && input.value.length >= 2) {
+          dropdown.innerHTML = '<div class="search-dropdown__empty">' + (noResultText[lang] || noResultText.ja) + '</div>';
+          dropdown.hidden = false;
+          return;
+        }
+        if (results.length === 0) {
+          dropdown.hidden = true;
+          dropdown.innerHTML = '';
+          return;
+        }
+        dropdown.innerHTML = results.map(function(item, i) {
+          var href = '/' + lang + '/' + item.m + '/item/' + item.id + '/';
+          return '<a class="search-dropdown__item" href="' + href + '" data-idx="' + i + '">' +
+            '<span class="search-dropdown__icon">' + item.ci + '</span>' +
+            '<span class="search-dropdown__body">' +
+              '<span class="search-dropdown__title">' + item.t + '</span>' +
+              '<span class="search-dropdown__cat">' + item.c + '</span>' +
+            '</span>' +
+          '</a>';
+        }).join('');
+        dropdown.hidden = false;
+      }
+
+      function setActive(idx) {
+        var items = dropdown.querySelectorAll('.search-dropdown__item');
+        items.forEach(function(el) { el.classList.remove('search-dropdown__item--active'); });
+        if (idx >= 0 && idx < items.length) {
+          items[idx].classList.add('search-dropdown__item--active');
+          items[idx].scrollIntoView({ block: 'nearest' });
+        }
+        activeIdx = idx;
+      }
+
+      function navigateToFirst() {
+        if (currentResults.length > 0) {
+          var target = activeIdx >= 0 ? activeIdx : 0;
+          var item = currentResults[target];
+          window.location.href = '/' + lang + '/' + item.m + '/item/' + item.id + '/';
+        }
+      }
+
+      input.addEventListener('input', function() {
+        render(search(input.value.trim()));
+      });
+
+      input.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+          dropdown.hidden = true;
+          return;
+        }
+        if (e.key === 'ArrowDown') {
+          e.preventDefault();
+          if (currentResults.length > 0) setActive(Math.min(activeIdx + 1, currentResults.length - 1));
+          return;
+        }
+        if (e.key === 'ArrowUp') {
+          e.preventDefault();
+          if (currentResults.length > 0) setActive(Math.max(activeIdx - 1, 0));
+          return;
+        }
+        if (e.key === 'Enter') {
+          e.preventDefault();
+          navigateToFirst();
+        }
+      });
+
+      btn.addEventListener('click', navigateToFirst);
+
+      // 外側クリックでドロップダウン閉じる
+      document.addEventListener('click', function(e) {
+        if (!e.target.closest('.hero__search-wrap')) {
+          dropdown.hidden = true;
+        }
+      });
+
+      // フォーカス時に再表示
+      input.addEventListener('focus', function() {
+        if (input.value.trim().length >= 2) {
+          render(search(input.value.trim()));
+        }
+      });
+    })();
   </script>
 
   <!-- WebSite JSON-LD（SEO用 - サイト名認識） -->

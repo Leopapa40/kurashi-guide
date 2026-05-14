@@ -12397,221 +12397,186 @@
     "original_url": "https://www.city.ota.gunma.jp/page/2775.html",
     "locales": {
       "ja": {
-        "title": "住民票・戸籍証明書の取得",
-        "easy_explanation": "## 住民票の写しは窓口・郵送・コンビニで取得できます\n\n住所を証明する「住民票の写し」は、市役所の窓口だけでなく、郵送やお近くのコンビニでも取得できます。\n\n### 🏪 マイナンバーカードがあればコンビニが便利！\nマイナンバーカードをお持ちの方は、全国のコンビニのマルチコピー機で住民票の写しを取得できます。\n> キャンペーン情報（令和8年2月1日〜令和9年1月31日）: コンビニ交付の手数料が1通10円になっています（通常より大幅割引）。\n\n### 📝 窓口で手続きする場合の持ち物\n本人が請求する場合：\n1. 本人確認書類（運転免許証・マイナンバーカード等 顔写真付き1点）\n2. 印鑑（本人の）\n\n代理人が請求する場合：\n1. 委任状（本人が作成したもの）\n2. 代理人の本人確認書類・代理人の印鑑\n\n### 🏢 手続きできる場所\n- 太田市役所 市民課・各行政センター（太田行政センターを除く）・各サービスセンター\n- 郵送請求も可能（詳細は公式ページをご確認ください）\n\n💡 他人の住民票は、正当な理由がない限り請求できません。",
-        "bottom_line": "住民票の写しは市役所・サービスセンターの窓口、郵送、またはマイナンバーカードを使ったコンビニ交付で取得できます。令和9年1月末までコンビニ交付は1通10円のキャンペーン中。",
+        "title": "住民票の写しの請求",
+        "easy_explanation": "## 住民票の写しの取得方法\n\n住民票の写し等は「窓口」「郵送」「コンビニ交付」のいずれかで請求することができます。\n**※令和8年2月1日〜令和9年1月31日の1年間は、マイナンバーカードを利用したコンビニでの住民票取得手数料が1通10円となります（取得できるのは本人、同一世帯の方の住民票に限ります）。**\n\n### 🏢 窓口での請求\n- **請求できる場所**：太田市役所市民課窓口、各行政センター（太田除く）、各サービスセンター\n- **本人請求の場合**：本人の印鑑と、指定の本人確認書類が必要です（運転免許証など顔写真付きは1点、健康保険証など顔写真なしは2点必要）。\n- **代理人請求の場合**：代理人の印鑑・本人確認書類に加えて、**本人が全て自筆で記入・押印した委任状**が必要です。\n\n**【重要：マイナンバー入り住民票について】**\n聞き取りによる本人確認を行った場合や代理人による請求の場合、マイナンバーを記載した住民票の写しは直接手渡されず、**本人の住所地へ郵送**となりますのでご注意ください。\n\n### ✉️ 郵送での請求\n住民票郵送請求書、手数料分の定額小為替、請求者の身分証明書の写し（住所記載あり）、返信用封筒（切手貼付済）の4点を同封し、太田市役所市民課へ郵送してください。",
+        "bottom_line": "住民票の写しは窓口（市民課・サービスセンター等）、郵送、コンビニで取得できます。代理人がマイナンバー入り住民票を請求した場合、窓口での手渡しではなく本人宅への郵送となります。",
         "amount_info": null,
         "target_audience": [
-          "住民票の写しが必要な方",
-          "戸籍証明書などが必要な方"
+          "住民票の写し等の交付請求を行う方"
         ],
         "term_explanations": [
           {
-            "term": "マイナンバーカード",
-            "explanation": "国が発行する顔写真付きのICカード。コンビニのマルチコピー機で住民票の写しを取得できます（キャンペーン中は1通10円）。"
+            "term": "住民票の写し",
+            "explanation": "個人の住所・氏名・性別・生年月日・本籍・世帯主との続柄等を記載した証明書です。"
           },
           {
-            "term": "交付（こうふ）",
-            "explanation": "市役所から書類・カード・証明書などを受け取ること。「発行してもらう」と同じ意味で使われます。"
-          },
-          {
-            "term": "住民票（じゅうみんひょう）",
-            "explanation": "氏名・生年月日・住所・世帯構成などが記載された公的書類。引越しや各種申請の際によく必要になります。"
-          },
-          {
-            "term": "委任状（いにんじょう）",
-            "explanation": "本人の代わりに他の人（代理人）が手続きをする際に必要な書類。本人の署名・押印が必要です。"
-          },
-          {
-            "term": "住民票の写し（じゅうみんひょうのうつし）",
-            "explanation": "住民票の原本から内容を写した書類のこと。「住民票」として申請書などに求められる場合はこれを指すことがほとんどです。"
+            "term": "委任状",
+            "explanation": "本人に代わって代理人が手続きをする際に必要な文書。必ず委任する本人が全て記入し、押印する必要があります。"
           }
         ],
         "five_w1h": {
-          "who": "住民票の写しや各種証明書が必要な方（本人・代理人）",
-          "what": "住民票の写し等の交付請求を行う",
-          "when": "平日の窓口受付時間内、またはコンビニは早朝から深夜（マイナンバーカード利用）",
-          "where": "太田市役所 市民課 / 各行政センター / 各サービスセンター / コンビニ（マルチコピー機）",
-          "why": "各種契約・行政手続き・就職活動などで住所証明書類として必要になります",
-          "how": "本人確認書類を窓口に持参、または郵送、またはマイナンバーカードでコンビニ取得"
+          "who": "住民票の写し等の交付請求を行う方（本人または代理人）",
+          "what": "住民票の写しの請求",
+          "when": "記載なし",
+          "where": "太田市役所市民課窓口、各行政センター（太田除く）、各サービスセンター、郵送、コンビニ",
+          "why": "個人のプライバシー保護のため、他人の住民票の写し等は正当な理由がない限り請求できません。",
+          "how": "窓口請求、郵送請求、マイナンバーカードを利用したコンビニ交付のいずれか"
         },
         "checklist": [
           {
-            "item": "住民票交付申請書（窓口で入手またはマイナポータルでオンライン申請）",
-            "note": "市役所市民課・各行政センター・コンビニでも取得可",
+            "item": "本人の印鑑",
+            "note": "本人または代理人が窓口請求する場合に必要（代理人請求の場合は代理人の印鑑）",
             "required": true
           },
           {
-            "item": "本人確認書類",
-            "note": "運転免許証・マイナンバーカード等。顔写真付きのもの1点",
-            "required": true
-          },
-          {
-            "item": "代理人の場合：委任状と代理人の本人確認書類",
-            "note": "家族でも委任状が原則必要",
+            "item": "本人確認書類（1点で良いもの）",
+            "note": "運転免許証、パスポート、マイナンバーカード、在留カードなど顔写真付きの公的証明書",
             "required": false
           },
           {
-            "item": "手数料（1通200〜300円程度）",
-            "note": "窓口払い。コンビニ交付は100〜200円（市によって異なる）",
-            "required": true
+            "item": "本人確認書類（2点以上必要なもの）",
+            "note": "顔写真付き証明書がない場合。イ（健康保険証、年金手帳等）から2点、またはイとロ（学生証、社員証等）それぞれから1点が必要（ロから2点は不可）。",
+            "required": false
+          },
+          {
+            "item": "委任状",
+            "note": "代理人が請求する場合に必須。委任する本人が全項目（委任年月日、氏名・住所、押印、代理人氏名・住所、委任内容）を記載する必要があります。",
+            "required": false
+          },
+          {
+            "item": "住民票郵送請求書、定額小為替、返信用封筒、身分証の写し",
+            "note": "郵送で請求する場合の必須4点セット。定額小為替は郵便局で購入、身分証の写しは請求者の住所が記載されたもの。",
+            "required": false
           }
         ],
         "form_guide": null,
-        "faq": [
-          {
-            "question": "住民票はコンビニで取得できますか？",
-            "answer": "マイナンバーカードをお持ちの方は、全国のコンビニ（セブン-イレブン、ローソン、ファミリーマート等）で24時間取得できます。手数料は窓口より100円安いです。"
-          },
-          {
-            "question": "住民票の「世帯全員分」と「本人分のみ」の違いは何ですか？",
-            "answer": "「世帯全員分」は同じ住所に住む全員が記載されます。「本人分のみ」は請求した本人のみ記載されます。用途に応じて使い分けてください（例：銀行口座開設は本人分のみで可能な場合が多い）。"
-          },
-          {
-            "question": "本籍地が太田市以外でも戸籍証明書を取れますか？",
-            "answer": "2024年3月から、全国どこの市区町村でも戸籍証明書を取得できるようになりました（広域交付制度）。ただしコンビニ交付は本籍地のみ対応のため、本籍地以外で取得する場合は窓口での手続きになります。"
-          },
-          {
-            "question": "住民票を郵送で請求することはできますか？",
-            "answer": "はい、郵送請求が可能です。申請書、本人確認書類のコピー、返信用封筒（切手貼付）、手数料（定額小為替）を太田市役所市民課に郵送してください。"
-          }
-        ],
-        "estimated_time": "窓口：約5〜10分 / コンビニ：約2分",
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "my-number-card",
           "seal-registration"
         ]
       },
       "en": {
-        "title": "Obtaining a Certificate of Residence (Juminhyo)",
-        "easy_explanation": "To prove your address, you can obtain a \"Certificate of Residence\" (Juminhyo) at the City Hall counter. If you have a My Number Card, you can also get it anytime at multi-copy machines in convenience stores nationwide (7-Eleven, Lawson, etc.).\n\nObtaining it at a convenience store is cheaper than at the counter, and you can get it at night or on holidays. In addition, you can now obtain Family Register Certificates at the counter regardless of where your registered domicile is.",
-        "bottom_line": "If you need a Certificate of Residence, you can get it anytime at a convenience store for a lower fee if you have a My Number Card.",
+        "title": "Request for a Copy of Resident Record",
+        "easy_explanation": "## How to Obtain a Copy of Your Resident Record\n\nYou can request a copy of your Resident Record (Juminhyo) at the counter, by mail, or via convenience store issuance.\n***For 1 year from Feb 1, 2026 to Jan 31, 2027, the fee for issuance at convenience stores using a My Number Card is 10 yen per copy (Limited to Resident Records of the applicant and members of the same household).**\n\n### 🏢 Requesting at the Counter\n- **Locations**: City Hall Citizens' Affairs Div., Admin Centers (excluding Ota), Service Centers.\n- **Applying in person**: Requires your personal seal (inkan) and designated ID (1 valid photo ID like a driver's license, OR 2 non-photo IDs like health insurance).\n- **Applying via Proxy**: Requires the proxy's seal and ID, PLUS a **Letter of Attorney completely filled out and stamped by the applicant**.\n\n**【Important regarding Resident Records with My Number】**\nIf identity verification is done by verbal questioning, or if a proxy requests a Resident Record containing a My Number, it will NOT be handed directly over the counter. Instead, it will be **mailed directly to the applicant's registered address**.\n\n### ✉️ Requesting by Mail\nPlease enclose 4 items: Mail Request Form, Fixed-amount Postal Money Order (for the fee), copy of your ID (showing your address), and a stamped self-addressed return envelope. Mail these to the City Hall Citizens' Affairs Division.",
+        "bottom_line": "Available at the counter, by mail, or at convenience stores. Note: If a proxy requests a Resident Record with a My Number, it will be mailed to the applicant's home instead of handed to the proxy.",
         "amount_info": null,
         "target_audience": [
-          "Those who need a Certificate of Residence",
-          "Those who need Family Register or Seal Registration Certificates",
-          "Those who have a My Number Card and want to use convenience store issuance"
+          "Those requesting a copy of the Resident Record"
         ],
         "five_w1h": {
-          "who": "Anyone needing a Certificate of Residence or other certificates (person or proxy)",
-          "what": "Request the issuance of certificates like the Certificate of Residence",
-          "when": "Weekdays at the counter, or early morning to late night at convenience stores (using My Number Card)",
-          "where": "Ota City Hall Citizens' Affairs Division / Administrative Centers / Service Centers / Convenience Stores",
-          "why": "Often required as proof of address for contracts, administrative procedures, job hunting, etc.",
-          "how": "Bring ID to the counter, apply by mail, or use a My Number Card at a convenience store"
+          "who": "Those requesting a copy of the Resident Record (Applicant or Proxy)",
+          "what": "Requesting a copy of the Resident Record",
+          "when": "Not specified",
+          "where": "City Hall Citizens' Affairs Div, Admin Centers (except Ota), Service Centers, Mail, Convenience stores",
+          "why": "To protect privacy, requesting someone else's record is prohibited without a valid reason.",
+          "how": "At the counter, by mail, or at convenience stores (using My Number Card)"
         },
         "checklist": [
           {
-            "item": "Application form for Certificate of Residence (住民票交付申請書)",
-            "note": "Available at the counter or via MynaPortal online",
+            "item": "Personal Seal (Inkan)",
+            "note": "Applicant's seal (or proxy's seal if applying via proxy) is required at the counter.",
             "required": true
           },
           {
-            "item": "Identification documents (本人確認書類)",
-            "note": "Driver's License, My Number Card, etc. (1 photo ID)",
-            "required": true
-          },
-          {
-            "item": "If proxy: Letter of attorney and proxy's ID (委任状)",
-            "note": "Required even for family members generally",
+            "item": "ID Document (1 required)",
+            "note": "Official photo ID such as Driver's License, Passport, My Number Card, Residence Card, etc.",
             "required": false
           },
           {
-            "item": "Fee (approx. ¥200-300 per copy) (手数料)",
-            "note": "Pay at counter. Convenience store issuance is ¥100-200 (varies by city)",
-            "required": true
+            "item": "ID Documents (2 required)",
+            "note": "If no photo ID: Two items from Group A (Health Insurance, Pension Book), OR one from Group A and one from Group B (Student/Employee ID).",
+            "required": false
+          },
+          {
+            "item": "Letter of Attorney (Proxy Form)",
+            "note": "Required for proxies. Must be completely filled out and stamped by the person granting the proxy.",
+            "required": false
+          },
+          {
+            "item": "Mail Request Form, Postal Money Order, Return Envelope, ID Copy",
+            "note": "Required 4-piece set for mail requests.",
+            "required": false
           }
         ],
-        "faq": [
-          {
-            "question": "Can I get a Certificate of Residence at a convenience store?",
-            "answer": "If you have a My Number Card, you can get it 24 hours a day at convenience stores nationwide (7-Eleven, Lawson, FamilyMart, etc.). The fee is ¥100 cheaper than at the counter."
-          },
-          {
-            "question": "What is the difference between a certificate for the \"entire household\" and \"only myself\"?",
-            "answer": "The \"entire household\" certificate lists everyone living at the same address. \"Only myself\" lists just you. Use according to your needs (e.g., opening a bank account usually only requires \"only myself\")."
-          },
-          {
-            "question": "Can I get my Family Register Certificate even if my registered domicile is not in Ota City?",
-            "answer": "Since March 2024, you can obtain a Family Register Certificate at any municipality nationwide (wide-area issuance system). However, convenience store issuance is only available at your registered domicile, so you must visit the counter to get it elsewhere."
-          },
-          {
-            "question": "Can I request a Certificate of Residence by mail?",
-            "answer": "Yes, you can request it by mail. Send the application form, a copy of your ID, a return envelope with stamp, and the fee (Fixed Amount Postal Money Order) to the Citizens' Affairs Division of Ota City Hall."
-          }
-        ],
-        "estimated_time": "Counter: approx. 5-10 minutes / Convenience Store: approx. 2 minutes",
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "my-number-card",
           "seal-registration"
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "Copy of Resident Record (住民票の写し)",
+            "explanation": "A certificate stating an individual's address, name, sex, date of birth, registered domicile, and relationship to the head of household."
+          },
+          {
+            "term": "Letter of Attorney (委任状)",
+            "explanation": "A document required when a proxy applies on your behalf. Must be completely filled out and stamped by the applicant."
+          }
+        ],
         "form_guide": null
       },
       "pt": {
-        "title": "Obtenção do Certificado de Residência (Juminhyo)",
-        "easy_explanation": "Para comprovar seu endereço, você pode obter o \"Certificado de Residência\" (Juminhyo) no guichê da prefeitura ou em máquinas de cópia de lojas de conveniência em todo o país (7-Eleven, Lawson, etc.) se tiver o My Number Card.\n\nObter na loja de conveniência é mais barato e pode ser feito à noite ou em feriados. Além disso, os Certificados de Registro Familiar agora podem ser obtidos no guichê, independentemente de onde seja seu domicílio registrado.",
-        "bottom_line": "Se precisar de um Certificado de Residência, você pode obtê-lo mais barato e a qualquer momento em uma loja de conveniência, usando seu My Number Card.",
+        "title": "Solicitação de Cópia do Registro de Residente",
+        "easy_explanation": "## Como Obter uma Cópia do seu Registro de Residente\n\nVocê pode solicitar uma cópia do seu Registro de Residente (Juminhyo) no balcão, por correio ou em lojas de conveniência.\n***Por 1 ano, de 1º de fev. de 2026 a 31 de jan. de 2027, a taxa de emissão em lojas de conveniência usando o Cartão My Number é de 10 ienes (Limitado aos Registros de Residente do solicitante e membros da mesma família).**\n\n### 🏢 Solicitação no Balcão\n- **Locais**: Div. de Assuntos do Cidadão da Prefeitura, Centros Admin (exceto Ota), Centros de Atendimento.\n- **Solicitação pessoal**: Requer seu carimbo (inkan) e documento de identidade (1 com foto OU 2 sem foto, como seguro de saúde).\n- **Solicitação por Procurador**: Requer carimbo e identidade do procurador, MAIS uma **Procuração totalmente preenchida e carimbada pelo solicitante**.\n\n**【Importante sobre Registros contendo My Number】**\nSe a verificação de identidade for feita por questionamento verbal, ou se um procurador solicitar um Registro com o My Number impresso, ele NÃO será entregue diretamente no balcão. Em vez disso, será **enviado por correio diretamente para o endereço do solicitante**.\n\n### ✉️ Solicitação por Correio\nEnvie 4 itens: Formulário de Solicitação, Vale Postal (para a taxa), cópia da identidade (com endereço) e envelope de retorno com selo e endereço. Envie para a Divisão de Assuntos do Cidadão.",
+        "bottom_line": "Disponível no balcão, correio ou lojas de conveniência. Atenção: Se um procurador solicitar um registro com My Number, este será enviado para a casa do solicitante, não entregue ao procurador.",
         "amount_info": null,
         "target_audience": [
-          "Pessoas que precisam do Certificado de Residência",
-          "Pessoas que precisam do Certificado de Registro Familiar ou de Carimbo",
-          "Pessoas que têm o My Number Card e querem usar a emissão em lojas de conveniência"
+          "Pessoas solicitando cópia do Registro de Residente"
         ],
         "five_w1h": {
-          "who": "Qualquer pessoa que precise do Certificado de Residência ou outros certificados",
-          "what": "Solicitar a emissão de certificados, como o Certificado de Residência",
-          "when": "Dias úteis no guichê, ou de manhã cedo até tarde da noite nas lojas de conveniência",
-          "where": "Prefeitura de Ota (Divisão de Cidadãos) / Centros Administrativos / Centros de Serviços / Lojas de Conveniência",
-          "why": "Frequentemente exigido como comprovante de endereço para contratos, procedimentos administrativos, busca de emprego, etc.",
-          "how": "Leve a identidade ao guichê, solicite pelo correio, ou use o My Number Card em uma loja de conveniência"
+          "who": "Pessoas solicitando cópia do Registro de Residente (Solicitante ou Procurador)",
+          "what": "Solicitação de cópia do Registro de Residente",
+          "when": "Não especificado",
+          "where": "Div. Cidadão da Prefeitura, Centros Admin (exceto Ota), Centros Atendimento, Correio, Lojas de conveniência",
+          "why": "Para proteger a privacidade, pedir o registro de outra pessoa é proibido sem motivo justo.",
+          "how": "No balcão, por correio ou em lojas de conveniência (usando Cartão My Number)"
         },
         "checklist": [
           {
-            "item": "Formulário de solicitação do Certificado de Residência (住民票交付申請書)",
-            "note": "Disponível no guichê ou online pelo MynaPortal",
+            "item": "Carimbo Pessoal (Inkan)",
+            "note": "O carimbo do solicitante (ou do procurador, se via procurador) é exigido no balcão.",
             "required": true
           },
           {
-            "item": "Documento de identidade (本人確認書類)",
-            "note": "Carteira de Motorista, My Number Card, etc. (1 documento com foto)",
-            "required": true
-          },
-          {
-            "item": "Se for representante: Procuração e identidade do representante (委任状)",
-            "note": "Geralmente necessário mesmo para familiares",
+            "item": "Documento de Identidade (1 necessário)",
+            "note": "Documento oficial com foto, como Carteira de Motorista, Passaporte, Cartão My Number, Zairyu Card.",
             "required": false
           },
           {
-            "item": "Taxa (aprox. ¥200-300 por cópia) (手数料)",
-            "note": "Pague no guichê. Emissão na loja de conveniência é ¥100-200 (varia por cidade)",
-            "required": true
+            "item": "Documentos de Identidade (2 necessários)",
+            "note": "Sem documento com foto: Dois do Grupo A (Seguro Saúde, Caderneta de Pensão) OU um do Grupo A e um do B (ID de Estudante/Empregado).",
+            "required": false
+          },
+          {
+            "item": "Procuração (委任状)",
+            "note": "Necessário para procuradores. Deve ser totalmente preenchido e carimbado por quem concede a procuração.",
+            "required": false
+          },
+          {
+            "item": "Formulário, Vale Postal, Envelope de Retorno, Cópia de Identidade",
+            "note": "Conjunto de 4 itens necessários para solicitações por correio.",
+            "required": false
           }
         ],
-        "faq": [
-          {
-            "question": "Posso pegar o Certificado de Residência em uma loja de conveniência?",
-            "answer": "Se você tem o My Number Card, pode obtê-lo 24 horas por dia em lojas de conveniência em todo o país (7-Eleven, Lawson, FamilyMart, etc.). A taxa é ¥100 mais barata que no guichê."
-          },
-          {
-            "question": "Qual a diferença entre o certificado para \"toda a família\" e \"apenas para mim\"?",
-            "answer": "O certificado para \"toda a família\" lista todos que moram no mesmo endereço. \"Apenas para mim\" lista apenas você. Use conforme a exigência (ex: abrir uma conta bancária geralmente exige apenas \"apenas para mim\")."
-          },
-          {
-            "question": "Posso pegar meu Certificado de Registro Familiar mesmo se meu domicílio registrado não for em Ota?",
-            "answer": "Desde março de 2024, você pode obter o Certificado de Registro Familiar em qualquer prefeitura do país. No entanto, a emissão em lojas de conveniência só funciona para o seu domicílio registrado, então você deve ir ao guichê para solicitar de outro local."
-          },
-          {
-            "question": "Posso pedir o Certificado de Residência pelo correio?",
-            "answer": "Sim, é possível. Envie o formulário de solicitação, cópia da identidade, um envelope de retorno com selo e a taxa (Vale Postal) para a Divisão de Cidadãos da Prefeitura de Ota."
-          }
-        ],
-        "estimated_time": "No guichê: aprox. 5-10 minutos / Loja de Conveniência: aprox. 2 minutos",
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "my-number-card",
           "seal-registration"
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "Cópia do Registro de Residente (住民票の写し)",
+            "explanation": "Certificado informando endereço, nome, sexo, data de nascimento, domicílio e relação com o chefe da família."
+          },
+          {
+            "term": "Procuração (委任状)",
+            "explanation": "Documento necessário quando um procurador solicita em seu nome. Deve ser preenchido e carimbado pelo solicitante."
+          }
+        ],
         "form_guide": null
       }
     },
