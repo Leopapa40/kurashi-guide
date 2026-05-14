@@ -4587,218 +4587,213 @@
     "original_url": "https://www.city.ota.gunma.jp/page/2761.html",
     "locales": {
       "ja": {
-        "title": "印鑑登録（実印を作りたいとき）",
-        "easy_explanation": "## 車や家を買う時に必須！「実印」の登録手続き\n\n家を買ったり、自動車のローンを組んだりするときには、そのハンコが「間違いなく本人のものである」という市役所のお墨付きが必要です。このお墨付きをもらうための登録を「印鑑登録」と言い、登録されたハンコを「実印（じついん）」と呼びます。\n\n### 📝 本人が行く場合に必要な持ち物\n1.  登録したいハンコ（実印にするもの）\n2.  顔写真付きの身分証明書（マイナンバーカード、運転免許証など）\n\n💡 ポイント：顔写真付きの身分証があれば、その日のうちにすぐ登録が完了し、「印鑑登録証明書」を発行できます。\n（※写真付きの身分証がない場合は、家に確認の手紙が送られるため、その日中には登録できません）\n\n### 🚫 登録できないハンコに注意！\n*   ゴム印（シャチハタなど）や、プラスチックなど変形しやすいもの\n*   ふちが大きく欠けているハンコ\n*   サイズが小さすぎる（8ミリ未満）、または大きすぎる（25ミリより大きい）もの",
-        "bottom_line": "太田市で「実印」を登録する手続きです。登録したいハンコと運転免許証・マイナンバーカードを持っていけば、その日のうちにすぐ登録が完了します！",
-        "amount_info": "登録は無料",
+        "title": "印鑑登録・印鑑登録証明書",
+        "easy_explanation": "## 印鑑の登録手続き\n\n印鑑登録とは、登録者の財産などに関わる大変重要なものです。そのため、**印鑑の登録申請は本人が直接窓口に来て申請するのが原則**になります。\n太田市に住民登録している15歳以上の方が対象です（1人に付き1個まで）。\n\n### 🏢 手続きできる場所\n- **太田市役所 市民課（本庁舎1階）**\n- **藪塚本町庁舎 藪塚本町サービス係（1階）**\n- **各行政センター**（※太田行政センターを除く）\n- **各サービスセンター**\n※各行政センター・各サービスセンターでの印鑑登録は**日本人のみ**の受付となります。\n\n### 📝 登録手続きのパターン\n1. **本人が直接申請し、顔写真付き証明書がある場合**：即日登録完了。\n2. **本人が直接申請し、顔写真付き証明書がない場合**：\n   - **保証人方式**：太田市で印鑑登録している保証人が保証書を記入すれば即日登録完了。\n   - **照会・回答書方式**：後日自宅へ郵送される照会書を持参するため即日完了しません。\n3. **代理人が申請する場合**：即日完了しません（照会・回答書方式となります）。\n\n### 🚫 登録できない印鑑\n- ゴム印など変形しやすいもの\n- 8mm角に収まる小さすぎるもの、25mm角に収まらない大きすぎるもの\n- 職業や資格など氏名以外の事項を表しているもの\n- 逆彫り印章、ふちのないもの、破損しているもの など",
+        "bottom_line": "太田市に住民登録がある15歳以上の方が登録できます。登録手数料は200円。本人が顔写真付きの本人確認書類を持参すればその日のうちに登録できます。",
+        "amount_info": "1件 200円",
         "target_audience": [
-          "自動車の購入や不動産の契約などを予定している方",
-          "太田市に住民票がある15歳以上の方"
+          "太田市に住民登録している15歳以上の方"
         ],
         "term_explanations": [
           {
-            "term": "交付（こうふ）",
-            "explanation": "市役所から書類・カード・証明書などを受け取ること。「発行してもらう」と同じ意味で使われます。"
+            "term": "照会・回答書",
+            "explanation": "顔写真付き身分証がない場合や代理人申請の際に、本人確認のため市役所から転送不要で自宅に郵送される書類。これに記入・押印して再度窓口へ持参することで登録が完了します。"
           },
           {
-            "term": "印鑑登録（いんかんとうろく）",
-            "explanation": "自分の印鑑（はんこ）を市役所に登録すること。登録した印鑑を「実印」といい、不動産売買や公的な契約などで必要になります。"
-          },
-          {
-            "term": "実印（じついん）",
-            "explanation": "市役所に登録した正式な印鑑のこと。不動産の売買・ローンの契約・遺産相続など、法的に重要な手続きで必要になります。"
-          },
-          {
-            "term": "印鑑証明書（いんかんしょうめいしょ）",
-            "explanation": "市役所に登録した実印が本物であることを証明する書類。不動産取引や自動車の購入・ローン契約などで必要になります。"
-          },
-          {
-            "term": "印鑑登録証（いんかんとうろくしょう）",
-            "explanation": "印鑑登録が完了すると交付されるカード。印鑑証明書を取得する際に窓口やコンビニで必要になります。"
-          },
-          {
-            "term": "シャチハタ",
-            "explanation": "スタンプ式の量産品の印鑑（ゴム印）の一種。印面が変形するため、重要な書類には使用できません。印鑑登録もできません。"
+            "term": "印鑑登録証",
+            "explanation": "印鑑登録が完了すると発行されるカード。印鑑登録証明書の交付申請をする場合に必ず必要となります。"
           }
         ],
         "five_w1h": {
-          "who": "太田市に住民票があり、実印が必要な方（15歳以上）",
-          "what": "ハンコを「実印」として登録する手続きを行う",
-          "when": "平日営業時間内（実印が必要になった時いつでも）",
-          "where": "太田市役所1階 市民課 ／ 各行政センター窓口",
-          "why": "自動車購入や不動産契約などに実印の証明が必要になります",
-          "how": "登録する印鑑と顔写真付き本人確認書類を窓口に持参"
+          "who": "太田市に住民登録している15歳以上の方（15歳未満や意思能力を有しない方は不可）",
+          "what": "印鑑登録・印鑑登録証明書",
+          "when": "記載なし",
+          "where": "市民課（本庁舎・藪塚本町）、各行政センター（太田除く）、各サービスセンター ※行政センター・サービスセンターでの登録は日本人のみ",
+          "why": "登録者の財産などに関わる大変重要なものであるため",
+          "how": "本人が窓口で申請（原則）。顔写真付き証明書の有無や代理人申請により手続き方法が異なります。"
         },
         "checklist": [
           {
-            "item": "印鑑登録申請書（市役所窓口で入手）",
-            "note": "太田市市民課・各行政センター窓口で入手",
+            "item": "登録する印鑑",
+            "note": "1人に付き1個。ゴム印や規定サイズ外（8mm未満・25mm超過）などは登録不可。",
             "required": true
           },
           {
-            "item": "登録する印鑑（実印）",
-            "note": "8〜25mmの正方形内に収まるもの。ゴム印・既製品の三文判は不可",
-            "required": true
+            "item": "官公署発行の顔写真付き本人確認書類",
+            "note": "運転免許証、マイナンバーカード、パスポート、在留カード等。これがあれば即日登録可能。",
+            "required": false
           },
           {
-            "item": "本人確認書類（マイナンバーカードまたは運転免許証等）",
-            "note": "即日登録は顔写真付き公的書類が必要。ない場合は保証人の同行または郵便照会",
-            "required": true
+            "item": "顔写真のない本人確認書類",
+            "note": "健康保険証（資格確認書）、預金通帳、社員証など。顔写真付きがない場合の照会方式などで使用。",
+            "required": false
+          },
+          {
+            "item": "保証書",
+            "note": "顔写真付き証明書がなく、即日登録を希望する場合のみ。太田市に印鑑登録がある保証人の記入・押印が必要。",
+            "required": false
+          },
+          {
+            "item": "代理人選任届",
+            "note": "代理人が手続きする場合に必要（指定様式あり。裏面等を使用）。",
+            "required": false
+          },
+          {
+            "item": "代理人の本人確認書類",
+            "note": "代理人が手続きする場合に必要（運転免許証など）。",
+            "required": false
+          },
+          {
+            "item": "照会・回答書",
+            "note": "即日登録できないパターン（顔写真付き証明書なし・代理人申請）で、後日窓口へ持参する書類（市から自宅へ郵送されます）。",
+            "required": false
           }
         ],
-        "form_guide": {
-          "form_name": "印鑑登録申請書",
-          "fields": [
-            {
-              "field_name": "登録する印鑑の印影",
-              "how_to_fill": "申請書の所定欄に実際に捺印する",
-              "example": "（実印を押印）",
-              "note": "にじみやかすれのない鮮明な印影にすること"
-            }
-          ],
-          "tips": [
-            "マイナンバーカードまたは顔写真付き身分証があれば即日交付",
-            "保証人（既に印鑑登録済みの太田市民）が同行する方法でも登録可能",
-            "登録後に「印鑑登録証（カード）」が交付される。印鑑証明書の取得に必要"
-          ]
-        },
-        "faq": [
-          {
-            "question": "どんな印鑑でも印鑑登録できますか？",
-            "answer": "シャチハタ（インク浸透型）、ゴム製印鑑は登録できません。また、氏名以外の文字のみの印鑑、他の人と同じ印鑑も不可です。素材は木材・金属・樹脂製なら一般的に登録できます。"
-          },
-          {
-            "question": "印鑑証明書はどこで取得できますか？",
-            "answer": "太田市役所・各行政センター・コンビニ（マイナンバーカードが必要）で取得できます。コンビニは24時間365日対応しているため便利です。"
-          },
-          {
-            "question": "印鑑登録証（カード）を紛失した場合はどうすればよいですか？",
-            "answer": "すぐに市役所で登録廃止の手続きを行ってください。廃止後、新たに印鑑登録をやり直すことができます。悪用防止のため速やかに対応することが重要です。"
-          },
-          {
-            "question": "引越した場合、印鑑登録はどうなりますか？",
-            "answer": "転出すると太田市の印鑑登録は自動的に廃止されます。新住所地で改めて印鑑登録の手続きが必要です。"
-          }
-        ],
-        "estimated_time": "即日登録：窓口で約20分 / 照会書方式：申請当日＋後日受け取り",
+        "form_guide": null,
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "resident-card-copy",
           "death-registration"
         ]
       },
       "en": {
-        "title": "Seal Registration (Inkan Toroku)",
-        "easy_explanation": "## Register your official personal seal (Jitsuin) for major contracts!\n\nIn Japan, when buying a car, purchasing real estate, or making a major loan, you need an official seal registered with City Hall. This registered seal is called a \"Jitsuin\".\n\n### 📝 What you need (If applying in person)\n1.  The seal (Inkan/Hanko) you want to register.\n2.  Photo ID (Residence Card, My Number Card, Driver's License).\n\n💡 *Tip: If you bring a valid Photo ID, the registration is completed on the same day, and you can immediately print a \"Seal Registration Certificate\"!*\n\n### 🚫 Seals that CANNOT be registered:\n*   Rubber stamps (Shachihata) or easily deformable materials.\n*   Seals with chipped edges.\n*   Seals that are too small (under 8mm) or too big (over 25mm).",
-        "bottom_line": "To register your official seal for major contracts in Japan, bring your wooden/stone Hanko and your Residence Card to City Hall. It can be done same-day!",
-        "amount_info": "Registration is free",
+        "title": "Seal Registration / Seal Registration Certificate",
+        "easy_explanation": "## Seal (Inkan) Registration Procedures\n\nSeal registration is very important as it relates to your property and major contracts. Therefore, **the general rule is that the person registering must apply in person at the counter**.\nThose aged 15 and over registered as residents in Ota City are eligible (one seal per person).\n\n### 🏢 Where to Apply\n- **Ota City Hall, Citizens' Affairs Division (1F)**\n- **Yabuzukahonmachi Office, Service Section (1F)**\n- **Administrative Centers** (Excluding Ota Admin Center)\n- **Service Centers**\n*Seal registration at Administrative Centers and Service Centers is available to **Japanese citizens only**.\n\n### 📝 Application Methods\n1. **Applying in person with a photo ID**: Registration is completed on the same day.\n2. **Applying in person without a photo ID**:\n   - **Guarantor Method**: Completed on the same day if a guarantor (who already has a registered seal in Ota City) fills out the guarantee form.\n   - **Inquiry/Response Letter Method**: Not completed on the same day (a letter will be mailed to your home, which you must bring back later).\n3. **Applying by Proxy**: Not completed on the same day (Inquiry/Response Letter method applies).\n\n### 🚫 Seals that CANNOT be registered\n- Easily deformable seals like rubber stamps\n- Too small (fits within an 8mm square) or too large (cannot fit within a 25mm square)\n- Shows things other than the person's name (e.g., profession)\n- Missing borders, damaged, etc.",
+        "bottom_line": "Residents aged 15+ can register a seal. The fee is 200 yen. Registration can be completed on the same day if you bring a valid photo ID.",
+        "amount_info": "200 yen per registration",
         "target_audience": [
-          "Anyone aged 15+ living in Ota City planning to buy a car or house"
+          "Those aged 15 and over registered as residents in Ota City"
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "Inquiry/Response Letter (照会・回答書)",
+            "explanation": "A document mailed to your home by the city (non-forwardable) when lacking photo ID or using a proxy. Bring it back filled out to complete registration."
+          },
+          {
+            "term": "Seal Registration Card (印鑑登録証)",
+            "explanation": "A card issued upon successful registration. It is strictly required when applying for a Seal Registration Certificate."
+          }
+        ],
         "five_w1h": {
-          "who": "Those registered in Ota City (15+) needing a registered seal",
-          "what": "Register a seal (Jitsuin)",
-          "when": "Weekdays during office hours (whenever a registered seal is needed)",
-          "where": "City Hall 1F Citizens Affairs Division / Administrative Centers",
-          "why": "Proof of seal registration is needed for car purchases, real estate contracts, etc.",
-          "how": "Bring the seal to register and a photo ID to the counter"
+          "who": "Those aged 15 and over registered as residents in Ota City (Excludes those under 15 or lacking intent capacity)",
+          "what": "Seal Registration",
+          "when": "Not specified",
+          "where": "Citizens' Affairs Div (City Hall / Yabuzukahonmachi), Admin Centers (except Ota), Service Centers. *Admin/Service centers for Japanese only.",
+          "why": "Because it is highly important, relating to registered property and contracts.",
+          "how": "Apply in person at the counter (general rule). Requirements differ if lacking photo ID or using a proxy."
         },
         "checklist": [
           {
-            "item": "Seal Registration Application Form (印鑑登録申請書)",
-            "note": "Available at the counter",
+            "item": "The seal to be registered",
+            "note": "One per person. Cannot be a rubber stamp or outside size limits (8mm-25mm).",
             "required": true
           },
           {
-            "item": "Seal to be registered (登録する印鑑)",
-            "note": "Must fit within 8-25mm square. No rubber stamps or mass-produced items.",
-            "required": true
+            "item": "Official Photo ID",
+            "note": "Driver's license, My Number Card, Passport, Residence Card, etc. Required for same-day registration.",
+            "required": false
           },
           {
-            "item": "Photo ID Document (本人確認書類)",
-            "note": "My Number Card, Driver's license, etc. required for same-day registration.",
-            "required": true
+            "item": "Non-photo ID",
+            "note": "Health insurance card, bankbook, etc. Used for the inquiry letter method.",
+            "required": false
+          },
+          {
+            "item": "Guarantee Form (保証書)",
+            "note": "For same-day registration without a photo ID. Requires signature/seal of a guarantor registered in Ota City.",
+            "required": false
+          },
+          {
+            "item": "Proxy Appointment Notification (代理人選任届)",
+            "note": "Required if a proxy is applying.",
+            "required": false
+          },
+          {
+            "item": "Proxy's ID",
+            "note": "Required if a proxy is applying (e.g., Driver's license).",
+            "required": false
+          },
+          {
+            "item": "Inquiry/Response Letter (照会・回答書)",
+            "note": "For non-same-day registrations. Mailed to your home by the city, to be filled out and returned.",
+            "required": false
           }
         ],
         "form_guide": null,
-        "faq": [
-          {
-            "question": "Can I register any seal?",
-            "answer": "No. Rubber stamps (Shachihata) and self-inking stamps cannot be registered. Name-only seals or seals already registered by another person are also invalid. Wooden, metal, or resin seals are generally accepted."
-          },
-          {
-            "question": "Where can I get a Seal Registration Certificate?",
-            "answer": "You can get it at City Hall, Administrative Centers, or Convenience Stores (requires My Number Card). Convenience stores are available 24/7/365."
-          },
-          {
-            "question": "What if I lose my Seal Registration Card?",
-            "answer": "Immediately abolish the registration at City Hall to prevent misuse. You can register a new seal afterwards."
-          },
-          {
-            "question": "What happens if I move out of Ota City?",
-            "answer": "When you move out, the seal registration in Ota City is automatically abolished. You must register again at your new municipality."
-          }
-        ],
-        "estimated_time": "Same-day registration: about 20 minutes at the counter",
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "resident-card-copy",
           "death-registration"
         ]
       },
       "pt": {
-        "title": "Registro de Carimbo (Inkan Toroku)",
-        "easy_explanation": "## Registre seu carimbo pessoal oficial (Jitsuin) para contratos!\n\nNo Japão, ao comprar um carro, imóveis ou fazer um grande empréstimo, você precisa de um carimbo oficial registrado na Prefeitura. Este carimbo é chamado de \"Jitsuin\".\n\n### 📝 O que você precisa\n1.  O carimbo (Inkan/Hanko) que você deseja registrar.\n2.  Identidade com foto (Zairyu Card, Cartão My Number).\n\n💡 *Dica: Se você trouxer uma identidade com foto válida, o registro é concluído no mesmo dia!*\n\n### 🚫 Carimbos que NÃO podem ser registrados:\n*   Carimbos de borracha (Shachihata).\n*   Carimbos lascados ou quebrados.",
-        "bottom_line": "Para registrar seu carimbo oficial no Japão, traga seu Hanko de madeira/pedra e seu Zairyu Card para a Prefeitura. Pode ser feito no mesmo dia!",
-        "amount_info": "Registro gratuito",
+        "title": "Registro de Carimbo / Certificado de Registro de Carimbo",
+        "easy_explanation": "## Procedimentos para Registro de Carimbo (Inkan)\n\nO registro do carimbo é muito importante, pois está relacionado a propriedades e grandes contratos. Portanto, **a regra geral é que a própria pessoa deve solicitar pessoalmente no balcão**.\nPessoas com 15 anos ou mais registradas como residentes na cidade de Ota são elegíveis (um carimbo por pessoa).\n\n### 🏢 Onde Solicitar\n- **Prefeitura de Ota, Divisão de Assuntos do Cidadão (1º Andar)**\n- **Escritório de Yabuzukahonmachi, Seção de Serviços (1º Andar)**\n- **Centros Administrativos** (Exceto Centro Admin de Ota)\n- **Centros de Atendimento**\n*O registro de carimbo em Centros Administrativos e Centros de Atendimento está disponível **apenas para cidadãos japoneses**.\n\n### 📝 Métodos de Inscrição\n1. **Inscrição pessoal com documento com foto**: Concluído no mesmo dia.\n2. **Inscrição pessoal sem documento com foto**:\n   - **Método de Fiador**: Concluído no mesmo dia se um fiador (que já tenha carimbo registrado na cidade de Ota) preencher a garantia.\n   - **Método de Carta de Consulta/Resposta**: Não concluído no mesmo dia (uma carta será enviada para sua casa, que deve ser devolvida preenchida).\n3. **Inscrição por Procurador**: Não concluído no mesmo dia (Aplica-se o método de Carta de Consulta/Resposta).\n\n### 🚫 Carimbos que NÃO podem ser registrados\n- Carimbos deformáveis, como de borracha\n- Muito pequeno (menos de 8mm quadrados) ou muito grande (mais de 25mm quadrados)\n- Contém dados diferentes do nome (ex: profissão)\n- Sem borda, danificados, etc.",
+        "bottom_line": "Residentes com mais de 15 anos podem registrar um carimbo. A taxa é de 200 ienes. Pode ser concluído no mesmo dia se trouxer identidade com foto.",
+        "amount_info": "200 ienes por registro",
         "target_audience": [
-          "Moradores de Ota com mais de 15 anos"
+          "Residentes da cidade de Ota com 15 anos ou mais"
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "Carta de Consulta/Resposta (照会・回答書)",
+            "explanation": "Documento enviado para sua casa (sem reencaminhamento) se faltar identidade com foto ou usar procurador. Devolva preenchido para concluir."
+          },
+          {
+            "term": "Cartão de Registro de Carimbo (印鑑登録証)",
+            "explanation": "Cartão emitido ao concluir o registro. É estritamente necessário para solicitar o Certificado de Registro de Carimbo."
+          }
+        ],
         "five_w1h": {
-          "who": "Pessoas registradas em Ota (15+) precisando de um carimbo registrado",
-          "what": "Registrar um carimbo (Jitsuin)",
-          "when": "Dias úteis no horário de expediente",
-          "where": "Prefeitura 1º Andar Divisão de Cidadãos / Centros Administrativos",
-          "why": "Para compras de carros, contratos imobiliários, etc.",
-          "how": "Traga o carimbo e documento com foto ao balcão"
+          "who": "Residentes da cidade de Ota com 15 anos ou mais (Exceto menores de 15 ou sem capacidade legal)",
+          "what": "Registro de Carimbo",
+          "when": "Não especificado",
+          "where": "Div. Cidadão (Prefeitura / Yabuzukahonmachi), Centros Admin (exceto Ota), Centros Atendimento. *Admin/Atendimento apenas japoneses.",
+          "why": "Pois é altamente importante para registro de propriedades e contratos.",
+          "how": "Pessoalmente no balcão (regra). O procedimento varia se não tiver identidade com foto ou usar procurador."
         },
         "checklist": [
           {
-            "item": "Formulário de Registro de Carimbo (印鑑登録申請書)",
-            "note": "Disponível no balcão",
+            "item": "O carimbo a ser registrado",
+            "note": "Um por pessoa. Não pode ser de borracha ou fora dos limites de tamanho (8mm-25mm).",
             "required": true
           },
           {
-            "item": "Carimbo a ser registrado (登録する印鑑)",
-            "note": "Entre 8 e 25mm. Sem carimbos de borracha.",
-            "required": true
+            "item": "Documento Oficial com Foto",
+            "note": "Carteira de motorista, Cartão My Number, Passaporte, Zairyu Card, etc. Necessário para registro no mesmo dia.",
+            "required": false
           },
           {
-            "item": "Documento com foto (本人確認書類)",
-            "note": "Cartão My Number, carteira de motorista, etc.",
-            "required": true
+            "item": "Documento sem Foto",
+            "note": "Cartão de seguro de saúde, caderneta bancária, etc. Usado no método de carta de consulta.",
+            "required": false
+          },
+          {
+            "item": "Formulário de Garantia (保証書)",
+            "note": "Para registro no mesmo dia sem identidade com foto. Exige assinatura/carimbo de um fiador registrado na cidade de Ota.",
+            "required": false
+          },
+          {
+            "item": "Notificação de Nomeação de Procurador (代理人選任届)",
+            "note": "Necessário se um procurador estiver solicitando.",
+            "required": false
+          },
+          {
+            "item": "Identidade do Procurador",
+            "note": "Necessário se um procurador estiver solicitando.",
+            "required": false
+          },
+          {
+            "item": "Carta de Consulta/Resposta (照会・回答書)",
+            "note": "Para registros não concluídos no mesmo dia. Enviado para sua casa pela prefeitura, deve ser devolvido preenchido.",
+            "required": false
           }
         ],
         "form_guide": null,
-        "faq": [
-          {
-            "question": "Posso registrar qualquer carimbo?",
-            "answer": "Não. Carimbos de borracha (Shachihata) são inválidos. O material deve ser madeira, metal ou resina resistente."
-          },
-          {
-            "question": "Onde posso obter o certificado de registro?",
-            "answer": "Na Prefeitura, Centros Administrativos ou Lojas de Conveniência (requer Cartão My Number)."
-          },
-          {
-            "question": "O que fazer se perder o cartão de registro?",
-            "answer": "Cancele imediatamente na Prefeitura para evitar fraudes. Depois, registre um novo carimbo."
-          },
-          {
-            "question": "O que acontece se eu me mudar de Ota?",
-            "answer": "O registro em Ota é cancelado automaticamente. Você deve se registrar novamente na nova cidade."
-          }
-        ],
-        "estimated_time": "Registro no mesmo dia: cerca de 20 minutos no balcão",
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "resident-card-copy",
           "death-registration"
