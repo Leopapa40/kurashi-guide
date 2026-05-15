@@ -14610,74 +14610,35 @@
     "original_url": "https://www.city.ota.gunma.jp/page/2498.html",
     "locales": {
       "ja": {
-        "title": "高額療養費・限度額適用認定証",
-        "easy_explanation": "病院の医療費が高くなりすぎた場合、一定額を超えた分が後で戻ってくる「高額療養費制度」があります。また、入院前に「限度額適用認定証」を取得しておくと、窓口での支払いを最初から上限額に抑えられます。\n\n手続き先: 太田市役所 国民健康保険課（0276-47-1111）または加入している健康保険の窓口。\n\n70歳未満の方は所得に応じて月額の自己負担上限額が決まっています（最高で約252,600円＋αから最低で35,400円まで）。同じ世帯で複数の医療費がかかった場合は合算できる「世帯合算」も利用可能です。申請は診療月の翌月1日以降から2年以内に行う必要があります。",
-        "bottom_line": "医療費が高額になったら「高額療養費申請」または事前に「限度額適用認定証」を取得して、自己負担を上限額に抑えましょう。",
+        "title": "国民健康保険 高額療養費（70歳未満）",
+        "easy_explanation": "同じ人が、同じ月に、同じ医療機関で支払った金額が「自己負担限度額」を超えた場合、超過分が申請により支給される制度です。\n\n太田市の国民健康保険では、支給対象になった方へ診療を受けた月の約2か月後の下旬に通知が送られます。自分で翌月にすぐ申請するのではなく、通知が届くのを待ってから、通知に記載された場所で手続きを行ってください。\n\nまた、事前に入院などが分かっている場合は、「限度額適用認定証」を申請して提示することで、病院窓口での支払いを最初から限度額までに抑えることができます（※国保税を滞納していると交付されない場合があります）。",
+        "bottom_line": "対象者には約2か月後に市から通知が届きます。自分で窓口へ行くのではなく、通知を待ってから手続きしてください。",
         "amount_info": null,
         "target_audience": [
-          "国民健康保険加入者",
-          "1か月の医療費自己負担が高額になった方",
-          "入院が予定されている方"
+          "太田市の国民健康保険に加入している70歳未満の方で、医療費が高額になった方"
         ],
         "term_explanations": [
           {
             "term": "高額療養費（こうがくりょうようひ）",
-            "explanation": "1か月の医療費自己負担が一定額を超えた場合、超過分が後から払い戻される制度。"
+            "explanation": "支払った金額が自己負担限度額を超えた時に、申請により支給されるお金のことです。同じ世帯での合算も可能です。"
           },
           {
             "term": "限度額適用認定証（げんどがくてきようにんていしょう）",
-            "explanation": "入院・外来時に提示することで、窓口支払いを自己負担上限額に抑えられる証明書。事前申請が必要。"
-          },
-          {
-            "term": "世帯合算（せたいがっさん）",
-            "explanation": "同じ健康保険に加入する同世帯の複数人の医療費を合算し、高額療養費の計算に使う仕組み。"
+            "explanation": "医療費が高額になる場合に提示することで、同一医療機関での支払いを自己負担限度額までにできる認定証です。"
           }
         ],
         "five_w1h": {
-          "who": "国民健康保険に加入しており、1か月の医療費自己負担が高額になった太田市民",
-          "what": "自己負担上限額を超えた医療費の払い戻し、または入院前の上限額適用",
-          "when": "医療費が高額になった翌月以降（申請は2年以内）／入院前（限度額適用認定証の場合は事前）",
-          "where": "太田市役所 国民健康保険課、または各健康保険組合窓口",
-          "why": "高額な医療費による生活への影響を軽減するため",
-          "how": "【高額療養費】診療月翌月以降に申請書と領収書を持参→審査→払い戻し。【限度額適用認定証】入院前に申請→証明書を病院窓口に提示"
+          "who": "太田市の国民健康保険加入者（70歳未満）で限度額を超えた方",
+          "what": "高額療養費の支給申請、または限度額適用認定証の交付",
+          "when": "支給対象者への通知が届いた後（診療月の約2か月後下旬）",
+          "where": "送付された通知に記載されている場所",
+          "why": "自己負担限度額を超えた医療費を支給するため",
+          "how": "市から送られてきた通知の定めに従って申請する"
         },
-        "checklist": [
-          {
-            "item": "加入している健康保険を確認する（国保・社保・組合など）",
-            "note": "手続き先が異なる",
-            "required": true
-          },
-          {
-            "item": "診療明細・領収書を保管する",
-            "note": "高額療養費申請時に必要",
-            "required": true
-          },
-          {
-            "item": "入院予定がある場合は事前に限度額適用認定証を申請",
-            "note": "国保の場合は市役所窓口へ",
-            "required": false
-          }
-        ],
+        "checklist": [],
         "form_guide": null,
-        "faq": [
-          {
-            "question": "お金がなくても相談できますか？",
-            "answer": "はい。制度の説明・相談は無料です。国民健康保険課（0276-47-1111）へお問い合わせください。"
-          },
-          {
-            "question": "外国語で相談できますか？",
-            "answer": "通訳が付く場合があります。まずお電話でご相談ください。"
-          },
-          {
-            "question": "社会保険（会社の保険）でも使えますか？",
-            "answer": "はい。社会保険でも高額療養費制度があります。お勤め先の健保組合または協会けんぽにお問い合わせください。"
-          },
-          {
-            "question": "自動的に払い戻されますか？",
-            "answer": "国民健康保険の場合は申請が必要です。申請を忘れると払い戻されません。"
-          }
-        ],
-        "estimated_time": "限度額適用認定証の申請: 窓口で約15分。高額療養費の払い戻しまで: 申請から約3か月",
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "national-health-insurance",
           "elderly-medical-insurance",
@@ -14686,61 +14647,35 @@
         ]
       },
       "en": {
-        "title": "High-Cost Medical Care Benefit / Maximum Copayment Certificate",
-        "easy_explanation": "If your medical expenses at the hospital become too high, there is a 'High-Cost Medical Care Benefit' system where the amount exceeding a certain limit will be refunded later. Also, if you obtain a 'Maximum Copayment Certificate' before hospitalization, you can limit your payment at the counter to the maximum amount from the beginning.\n\nWhere to apply: Ota City Hall, National Health Insurance Division (0276-47-1111) or your health insurance counter.\n\nFor those under 70, the maximum monthly out-of-pocket amount is determined by income (ranging from a maximum of about ¥252,600 + α to a minimum of ¥35,400). You can also use 'Household Aggregation' to combine multiple medical expenses for those in the same household. Applications must be made within 2 years from the 1st of the month following the treatment month.",
-        "bottom_line": "If medical expenses are high, apply for the 'High-Cost Medical Care Benefit' or get a 'Maximum Copayment Certificate' in advance to limit your out-of-pocket expenses to the maximum amount.",
+        "title": "National Health Insurance - High-Cost Medical Care Benefit (Under 70)",
+        "easy_explanation": "If the medical expenses you paid at the same medical institution in the same month exceed the \"out-of-pocket maximum amount,\" the excess amount will be paid upon application.\n\nUnder Ota City's National Health Insurance, a notice will be sent to eligible individuals in the latter half of the month, approximately two months after the medical treatment. Please do not apply immediately the next month; wait for the notice to arrive and follow the instructions to apply at the location specified in the notice.\n\nAlso, if you know in advance that you will be hospitalized, you can apply for a \"Maximum Amount Application Certificate\" (Gendogaku Tekiyo Ninteisho). By presenting this, your payment at the hospital counter will be limited to your maximum amount from the start (Note: It may not be issued if you have unpaid National Health Insurance tax).",
+        "bottom_line": "A notice will be sent to eligible persons about two months later. Wait for the notice before applying.",
         "amount_info": null,
         "target_audience": [
-          "National Health Insurance enrollees",
-          "Those whose out-of-pocket medical expenses for one month have become high",
-          "Those scheduled for hospitalization"
+          "Ota City National Health Insurance enrollees under 70 whose medical expenses are high"
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "High-Cost Medical Care Benefit (Kogaku Ryoyohi)",
+            "explanation": "Money paid upon application when the amount you paid exceeds the out-of-pocket maximum limit."
+          },
+          {
+            "term": "Maximum Amount Application Certificate (Gendogaku Tekiyo Ninteisho)",
+            "explanation": "A certificate that limits your payment at the hospital counter to your maximum limit when medical expenses become high."
+          }
+        ],
         "five_w1h": {
-          "who": "Ota citizens enrolled in National Health Insurance whose out-of-pocket medical expenses for one month have become high",
-          "what": "Refund of medical expenses exceeding the maximum out-of-pocket amount, or application of the maximum amount before hospitalization",
-          "when": "From the month following the high medical expenses (application within 2 years) / Before hospitalization (in advance for Maximum Copayment Certificate)",
-          "where": "Ota City Hall, National Health Insurance Division, or each health insurance association counter",
-          "why": "To reduce the impact of high medical expenses on daily life",
-          "how": "[High-Cost Medical Care Benefit] Bring the application form and receipts after the month following the treatment month -> Review -> Refund. [Maximum Copayment Certificate] Apply before hospitalization -> Present the certificate at the hospital counter"
+          "who": "Ota City National Health Insurance enrollees (under 70) who exceeded the limit",
+          "what": "Application for High-Cost Medical Care Benefit or Maximum Amount Application Certificate",
+          "when": "After receiving the notice (approx. 2 months after treatment)",
+          "where": "The location specified in the notice",
+          "why": "To reimburse medical expenses exceeding the maximum out-of-pocket limit",
+          "how": "Follow the instructions in the notice sent by the city"
         },
-        "checklist": [
-          {
-            "item": "Check your health insurance (National Health Insurance, Social Insurance, Association, etc.)",
-            "note": "Where to apply differs",
-            "required": true
-          },
-          {
-            "item": "Keep medical statements and receipts",
-            "note": "Required when applying for High-Cost Medical Care Benefit",
-            "required": true
-          },
-          {
-            "item": "Apply for a Maximum Copayment Certificate in advance if hospitalization is planned",
-            "note": "For National Health Insurance, go to the City Hall counter",
-            "required": false
-          }
-        ],
+        "checklist": [],
         "form_guide": null,
-        "faq": [
-          {
-            "question": "Can I consult even if I have no money?",
-            "answer": "Yes. Explanation and consultation of the system are free. Please contact the National Health Insurance Division (0276-47-1111)."
-          },
-          {
-            "question": "Can I consult in a foreign language?",
-            "answer": "Interpreters may be available. Please call to consult first."
-          },
-          {
-            "question": "Can I use it with Social Insurance (company insurance)?",
-            "answer": "Yes. Social insurance also has a high-cost medical care benefit system. Please contact your employer's health insurance association or Kyokai Kenpo."
-          },
-          {
-            "question": "Will it be refunded automatically?",
-            "answer": "For National Health Insurance, an application is required. If you forget to apply, it will not be refunded."
-          }
-        ],
-        "estimated_time": "Application for Maximum Copayment Certificate: About 15 minutes at the counter. Until refund of High-Cost Medical Care Benefit: About 3 months from application",
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "national-health-insurance",
           "elderly-medical-insurance",
@@ -14749,61 +14684,35 @@
         ]
       },
       "pt": {
-        "title": "Benefício de Despesas Médicas de Alto Custo / Certificado de Limite Máximo de Copagamento",
-        "easy_explanation": "Se as despesas médicas no hospital ficarem muito altas, existe o sistema de 'Benefício de Despesas Médicas de Alto Custo', onde o valor que excede um certo limite será reembolsado posteriormente. Além disso, se você obtiver um 'Certificado de Limite Máximo de Copagamento' antes da internação, poderá limitar o pagamento no balcão ao valor máximo desde o início.\n\nOnde solicitar: Prefeitura de Ota, Divisão de Seguro Nacional de Saúde (0276-47-1111) ou no balcão do seu seguro de saúde.\n\nPara menores de 70 anos, o valor máximo mensal do próprio bolso é determinado pela renda (variando de um máximo de cerca de ¥252.600 + α a um mínimo de ¥35.400). Você também pode usar a 'Agregação Familiar' para combinar várias despesas médicas para pessoas da mesma família. As solicitações devem ser feitas dentro de 2 anos a partir do 1º dia do mês seguinte ao mês do tratamento.",
-        "bottom_line": "Se as despesas médicas forem altas, solicite o 'Benefício de Despesas Médicas de Alto Custo' ou obtenha um 'Certificado de Limite Máximo de Copagamento' com antecedência para limitar suas despesas do próprio bolso ao valor máximo.",
+        "title": "Seguro Nacional de Saúde - Benefício de Despesas Médicas de Alto Custo (Menores de 70 anos)",
+        "easy_explanation": "Se as despesas médicas que você pagou na mesma instituição médica no mesmo mês excederem o \"limite máximo de despesas do próprio bolso\", o valor excedente será pago mediante solicitação.\n\nNo Seguro Nacional de Saúde da cidade de Ota, um aviso será enviado às pessoas elegíveis na segunda metade do mês, cerca de dois meses após o tratamento médico. Não se inscreva imediatamente no mês seguinte; espere o aviso chegar e siga as instruções para solicitar no local especificado no aviso.\n\nAlém disso, se você souber com antecedência que será internado, pode solicitar um \"Certificado de Aplicação de Valor Máximo\" (Gendogaku Tekiyo Ninteisho). Ao apresentá-lo, seu pagamento no balcão do hospital será limitado ao seu valor máximo desde o início (Nota: Pode não ser emitido se você tiver impostos do Seguro Nacional de Saúde atrasados).",
+        "bottom_line": "Um aviso será enviado aos elegíveis cerca de dois meses depois. Aguarde o aviso antes de se inscrever.",
         "amount_info": null,
         "target_audience": [
-          "Inscritos no Seguro Nacional de Saúde",
-          "Aquelas cujas despesas médicas do próprio bolso por um mês se tornaram altas",
-          "Aqueles agendados para internação"
+          "Inscritos no Seguro Nacional de Saúde de Ota (menores de 70 anos) com altas despesas médicas"
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "Benefício de Despesas Médicas de Alto Custo (Kogaku Ryoyohi)",
+            "explanation": "Dinheiro pago mediante solicitação quando o valor pago excede o limite máximo do próprio bolso."
+          },
+          {
+            "term": "Certificado de Aplicação de Valor Máximo (Gendogaku Tekiyo Ninteisho)",
+            "explanation": "Um certificado que limita seu pagamento no balcão do hospital ao seu limite máximo."
+          }
+        ],
         "five_w1h": {
-          "who": "Cidadãos de Ota inscritos no Seguro Nacional de Saúde cujas despesas médicas do próprio bolso por um mês se tornaram altas",
-          "what": "Reembolso de despesas médicas que excedem o valor máximo do próprio bolso, ou aplicação do valor máximo antes da internação",
-          "when": "A partir do mês seguinte às altas despesas médicas (solicitação dentro de 2 anos) / Antes da internação (com antecedência para Certificado de Limite Máximo de Copagamento)",
-          "where": "Prefeitura de Ota, Divisão de Seguro Nacional de Saúde, ou cada balcão de associação de seguro de saúde",
-          "why": "Para reduzir o impacto das altas despesas médicas na vida diária",
-          "how": "[Benefício de Despesas Médicas de Alto Custo] Traga o formulário de solicitação e recibos após o mês seguinte ao mês do tratamento -> Análise -> Reembolso. [Certificado de Limite Máximo de Copagamento] Solicite antes da internação -> Apresente o certificado no balcão do hospital"
+          "who": "Inscritos no Seguro Nacional de Saúde de Ota (menores de 70) que excederam o limite",
+          "what": "Inscrição para Benefício de Despesas Médicas ou Certificado de Aplicação de Valor Máximo",
+          "when": "Após receber o aviso (cerca de 2 meses após o tratamento)",
+          "where": "O local especificado no aviso",
+          "why": "Para reembolsar despesas médicas que excedam o limite máximo do próprio bolso",
+          "how": "Siga as instruções no aviso enviado pela prefeitura"
         },
-        "checklist": [
-          {
-            "item": "Verifique seu seguro de saúde (Seguro Nacional de Saúde, Seguro Social, Associação, etc.)",
-            "note": "O local de solicitação difere",
-            "required": true
-          },
-          {
-            "item": "Guarde os extratos médicos e recibos",
-            "note": "Necessário ao solicitar o Benefício de Despesas Médicas de Alto Custo",
-            "required": true
-          },
-          {
-            "item": "Solicite um Certificado de Limite Máximo de Copagamento com antecedência se a internação estiver planejada",
-            "note": "Para o Seguro Nacional de Saúde, vá ao balcão da Prefeitura",
-            "required": false
-          }
-        ],
+        "checklist": [],
         "form_guide": null,
-        "faq": [
-          {
-            "question": "Posso consultar mesmo se não tiver dinheiro?",
-            "answer": "Sim. A explicação e a consulta do sistema são gratuitas. Entre em contato com a Divisão de Seguro Nacional de Saúde (0276-47-1111)."
-          },
-          {
-            "question": "Posso consultar em idioma estrangeiro?",
-            "answer": "Intérpretes podem estar disponíveis. Por favor, ligue para consultar primeiro."
-          },
-          {
-            "question": "Posso usar com o Seguro Social (seguro da empresa)?",
-            "answer": "Sim. O seguro social também tem um sistema de benefício de despesas médicas de alto custo. Entre em contato com a associação de seguro de saúde do seu empregador ou Kyokai Kenpo."
-          },
-          {
-            "question": "Será reembolsado automaticamente?",
-            "answer": "Para o Seguro Nacional de Saúde, é necessária uma solicitação. Se você esquecer de solicitar, não será reembolsado."
-          }
-        ],
-        "estimated_time": "Solicitação para Certificado de Limite Máximo de Copagamento: Cerca de 15 minutos no balcão. Até o reembolso do Benefício de Despesas Médicas de Alto Custo: Cerca de 3 meses após a solicitação",
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "national-health-insurance",
           "elderly-medical-insurance",
