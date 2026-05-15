@@ -15528,79 +15528,67 @@
     "original_url": "https://www.city.ota.gunma.jp/page/3115.html",
     "locales": {
       "ja": {
-        "title": "障害者手帳の申請（身体・精神・療育）",
-        "easy_explanation": "障害者手帳を持つと、医療費の助成・税金の控除・交通費の割引など多くの支援が受けられます。\n\n申請窓口: 太田市役所 社会支援課 障がい者福祉係（0276-47-1111）\n\n障害者手帳には3種類あります。①身体障害者手帳（視覚・聴覚・肢体不自由など）、②精神障害者保健福祉手帳（精神疾患・発達障害など）、③療育手帳（知的障害）。医師の診断書が必要で、申請から交付まで約1〜3か月かかります。「自分は対象にならないかも」と思っても、まずは窓口に相談してみてください。等級によって受けられる支援が異なります。",
-        "bottom_line": "障害がある方や家族は、太田市役所 社会支援課（0276-47-1111）に相談してください。手帳を取得することで、医療費・交通費・税金など様々な支援が受けられます。",
+        "title": "身体障害者手帳の交付",
+        "easy_explanation": "病気やけがなどにより身体に永続する障がいがある方が、各種の福祉制度を利用するために必要な「身体障害者手帳」の交付手続きです。\n\n障がいの程度により1級から6級までの手帳が交付されます（※7級では交付されません）。対象となる障がいの種類は、肢体・視覚・聴覚・平衡・音声・言語・そしゃく・心臓・腎臓・呼吸器・ぼうこう・直腸・小腸・免疫・肝臓です。\n\n申請には、指定された医師の診断書（作成から6か月以内）や写真（要件が厳しいため注意）などが必要です。申請窓口は福祉こども部 障がい福祉課です。",
+        "bottom_line": "身体に永続する障がいがある方が福祉制度を利用するための手帳です。福祉こども部 障がい福祉課で申請できます。",
         "amount_info": null,
         "target_audience": [
-          "身体・精神・知的に障害がある方",
-          "障害のある方を介護・養育している家族",
-          "太田市に住民票がある方"
+          "身体に永続する障がい（1〜6級に相当）がある方"
         ],
         "term_explanations": [
           {
             "term": "身体障害者手帳（しんたいしょうがいしゃてちょう）",
-            "explanation": "視覚・聴覚・肢体不自由・内部障害などがある方に交付される手帳。1〜6級の等級があり、等級により支援内容が異なる。"
-          },
-          {
-            "term": "精神障害者保健福祉手帳（せいしんしょうがいしゃほけんふくしてちょう）",
-            "explanation": "精神疾患（統合失調症・うつ病・発達障害など）がある方に交付される手帳。1〜3級の等級がある。"
-          },
-          {
-            "term": "療育手帳（りょういくてちょう）",
-            "explanation": "知的障害がある方に交付される手帳。群馬県では「みどりの手帳」とも呼ばれる。"
+            "explanation": "身体に永続する障がいがある方に交付される手帳。1級から6級（7級では交付されない）。対象：肢体・視覚・聴覚・平衡・音声・言語・そしゃく・心臓・腎臓・呼吸器・ぼうこう・直腸・小腸・免疫・肝臓。"
           }
         ],
         "five_w1h": {
-          "who": "身体・精神・知的障害がある太田市民、またはその家族",
-          "what": "障害者手帳の申請（身体障害者手帳・精神障害者保健福祉手帳・療育手帳のいずれか）",
-          "when": "障害の状態が一定期間継続した時点（医師の診断が得られたとき）",
-          "where": "太田市役所 社会支援課 障がい者福祉係",
-          "why": "手帳取得により医療費助成・税控除・交通機関割引・就労支援など多くの支援を受けられるため",
-          "how": "①窓口で相談→②医師に診断書作成を依頼→③申請書・診断書を提出→④審査（約1〜3か月）→⑤手帳交付"
+          "who": "身体に永続する障がいがある方",
+          "what": "身体障害者手帳の交付申請",
+          "when": "いつでも申請可能（※診断書は作成日から6か月以内のものが必要）",
+          "where": "福祉こども部 障がい福祉課",
+          "why": "各種の福祉制度を利用するため",
+          "how": "指定医師の診断書、写真、申請書などの必要書類を持参して窓口で申請する"
         },
         "checklist": [
           {
-            "item": "太田市役所 社会支援課に相談する（0276-47-1111）",
-            "note": "どの手帳が対象か確認できる",
+            "item": "申請書",
+            "note": "窓口または市ホームページからダウンロード可能",
             "required": true
           },
           {
-            "item": "主治医に診断書の作成を依頼する",
-            "note": "診断書は指定の様式が必要",
+            "item": "診断書（作成日から6か月以内のもの）",
+            "note": "身体障害者福祉法第15条に基づき指定された医師が作成したものに限る（指定医以外は受付不可）。診断書料は自己負担",
             "required": true
           },
           {
-            "item": "申請書を市役所から入手する",
-            "note": "窓口またはDL可",
+            "item": "写真1枚（縦4cm×横3cm）",
+            "note": "脱帽・上半身、撮影から1年以内のもの。ポラロイドやプリンター印刷は不可。不鮮明、サイズ不適合等の場合は再提出あり",
             "required": true
           },
           {
-            "item": "写真（縦4cm×横3cm）を準備する",
+            "item": "マイナンバーカード（または個人番号通知カード）",
             "note": "申請時に必要",
+            "required": true
+          },
+          {
+            "item": "はんこ",
+            "note": "朱肉を使うもの",
+            "required": true
+          },
+          {
+            "item": "在留カード",
+            "note": "日本国籍を有しない方のみ",
+            "required": false
+          },
+          {
+            "item": "窓口に来る方の本人確認書類",
+            "note": "運転免許証やパスポートなど。申請に来た方の確認用",
             "required": true
           }
         ],
         "form_guide": null,
-        "faq": [
-          {
-            "question": "お金がなくても相談できますか？",
-            "answer": "はい。相談・申請は無料です。診断書作成費用は実費がかかる場合があります。"
-          },
-          {
-            "question": "外国語で相談できますか？",
-            "answer": "通訳が付く場合があります。まずお電話（0276-47-1111）でご相談ください。"
-          },
-          {
-            "question": "軽度の障害でも申請できますか？",
-            "answer": "等級により対象となる場合があります。「自分は対象にならない」と諦めずにまず窓口にご相談ください。"
-          },
-          {
-            "question": "手帳を持つとどんな支援が受けられますか？",
-            "answer": "医療費助成・NHK受信料の減免・交通機関の割引・所得税・住民税の控除・就労支援などが受けられます。等級や手帳の種類により異なります。"
-          }
-        ],
-        "estimated_time": "窓口相談: 約1時間。申請から手帳交付まで: 約1〜3か月",
+        "faq": [],
+        "estimated_time": "申請受付から手帳交付まで1ヶ月程度かかります。",
         "related_articles": [
           "national-health-insurance",
           "nursing-care-insurance",
@@ -15608,66 +15596,67 @@
         ]
       },
       "en": {
-        "title": "Application for Disability Certificate (Physical, Mental, Intellectual)",
-        "easy_explanation": "Having a Disability Certificate allows you to receive many forms of support, such as medical expense subsidies, tax deductions, and transportation discounts.\n\nApplication counter: Ota City Hall, Social Support Division, Disabled Persons Welfare Section (0276-47-1111)\n\nThere are 3 types of Disability Certificates. ① Physical Disability Certificate (visual, auditory, physical disabilities, etc.), ② Mental Disability Health and Welfare Certificate (mental disorders, developmental disorders, etc.), ③ Rehabilitation Certificate (intellectual disabilities). A medical certificate from a doctor is required, and it takes about 1 to 3 months from application to issuance. Even if you think 'I might not be eligible,' please consult at the counter first. The support you can receive varies depending on the grade.",
-        "bottom_line": "If you or a family member have a disability, please consult the Ota City Hall Social Support Division (0276-47-1111). By obtaining a certificate, you can receive various support such as medical expenses, transportation fees, and taxes.",
+        "title": "Physical Disability Certificate Issuance",
+        "easy_explanation": "This is the procedure to issue a \"Physical Disability Certificate,\" which is required for individuals with permanent physical disabilities due to illness or injury to use various welfare systems.\n\nCertificates from Grade 1 to 6 are issued depending on the degree of disability (Note: Grade 7 is not eligible). The types of disabilities covered include limbs, vision, hearing, balance, voice, speech, chewing, heart, kidneys, respiratory organs, bladder, rectum, small intestine, immunity, and liver.\n\nApplication requires a medical certificate from a designated doctor (issued within 6 months) and a photograph (strict requirements apply). The application counter is the Disability Welfare Division (Shogai Fukushi-ka).",
+        "bottom_line": "A certificate for individuals with permanent physical disabilities to use welfare systems. Apply at the Disability Welfare Division.",
         "amount_info": null,
         "target_audience": [
-          "Those with physical, mental, or intellectual disabilities",
-          "Families caring for or raising a person with a disability",
-          "Ota City residents"
+          "Individuals with permanent physical disabilities (equivalent to Grades 1-6)"
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "Physical Disability Certificate (Shintai Shogaisha Techo)",
+            "explanation": "A certificate for permanent physical disabilities. Grades 1 to 6 (Grade 7 not eligible). Covers: limbs, vision, hearing, balance, voice, speech, chewing, heart, kidneys, respiratory, bladder, rectum, small intestine, immunity, liver."
+          }
+        ],
         "five_w1h": {
-          "who": "Ota citizens with physical, mental, or intellectual disabilities, or their families",
-          "what": "Application for a Disability Certificate (Physical Disability Certificate, Mental Disability Health and Welfare Certificate, or Rehabilitation Certificate)",
-          "when": "When the condition of the disability has continued for a certain period (when a doctor's diagnosis is obtained)",
-          "where": "Ota City Hall, Social Support Division, Disabled Persons Welfare Section",
-          "why": "Because obtaining a certificate allows you to receive many forms of support such as medical expense subsidies, tax deductions, transportation discounts, and employment support",
-          "how": "① Consult at the counter -> ② Ask a doctor to prepare a medical certificate -> ③ Submit the application form and medical certificate -> ④ Review (about 1 to 3 months) -> ⑤ Certificate issuance"
+          "who": "Individuals with permanent physical disabilities",
+          "what": "Application for the issuance of a Physical Disability Certificate",
+          "when": "Anytime (medical certificate must be issued within 6 months)",
+          "where": "Disability Welfare Division, Children and Welfare Department",
+          "why": "To utilize various welfare systems",
+          "how": "Submit the required documents such as a medical certificate from a designated doctor, a photograph, and the application form at the counter."
         },
         "checklist": [
           {
-            "item": "Consult Ota City Hall Social Support Division (0276-47-1111)",
-            "note": "You can confirm which certificate you are eligible for",
+            "item": "Application Form",
+            "note": "Available at the counter or downloadable from the city website.",
             "required": true
           },
           {
-            "item": "Ask your attending physician to prepare a medical certificate",
-            "note": "A designated format is required for the medical certificate",
+            "item": "Medical Certificate (issued within 6 months)",
+            "note": "Must be issued by a doctor designated under Article 15 of the Physical Disabilities Welfare Act. Others are not accepted. The cost is self-borne.",
             "required": true
           },
           {
-            "item": "Obtain an application form from the City Hall",
-            "note": "Available at the counter or can be downloaded",
+            "item": "One Photograph (4cm tall x 3cm wide)",
+            "note": "Upper body, no hat, taken within 1 year. Polaroid or printed from a home printer not accepted. Strict rules apply.",
             "required": true
           },
           {
-            "item": "Prepare a photo (4cm long x 3cm wide)",
-            "note": "Required upon application",
+            "item": "My Number Card (or Notification Card)",
+            "note": "Required at the time of application.",
+            "required": true
+          },
+          {
+            "item": "Personal Seal (Hanko)",
+            "note": "Must use red ink pad (Shuniku).",
+            "required": true
+          },
+          {
+            "item": "Residence Card",
+            "note": "Only for non-Japanese nationals.",
+            "required": false
+          },
+          {
+            "item": "Identity verification document of the person coming to the counter",
+            "note": "Such as a driver's license or passport.",
             "required": true
           }
         ],
         "form_guide": null,
-        "faq": [
-          {
-            "question": "Can I consult even if I have no money?",
-            "answer": "Yes. Consultation and application are free. You may have to pay actual expenses for the issuance of a medical certificate."
-          },
-          {
-            "question": "Can I consult in a foreign language?",
-            "answer": "Interpreters may be available. Please call (0276-47-1111) to consult first."
-          },
-          {
-            "question": "Can I apply even for a mild disability?",
-            "answer": "You may be eligible depending on the grade. Don't give up thinking 'I won't be eligible', and consult the counter first."
-          },
-          {
-            "question": "What kind of support can I receive if I have a certificate?",
-            "answer": "You can receive medical expense subsidies, NHK subscription fee reductions/exemptions, public transportation discounts, income tax and residence tax deductions, and employment support. It varies depending on the grade and type of certificate."
-          }
-        ],
-        "estimated_time": "Counter consultation: About 1 hour. From application to certificate issuance: About 1 to 3 months",
+        "faq": [],
+        "estimated_time": "It takes about 1 month from application acceptance to certificate issuance.",
         "related_articles": [
           "national-health-insurance",
           "nursing-care-insurance",
@@ -15675,66 +15664,67 @@
         ]
       },
       "pt": {
-        "title": "Solicitação de Certificado de Deficiência (Física, Mental, Intelectual)",
-        "easy_explanation": "Ter um Certificado de Deficiência permite que você receba muitas formas de apoio, como subsídios para despesas médicas, deduções fiscais e descontos em transporte.\n\nBalcão de solicitação: Prefeitura de Ota, Divisão de Apoio Social, Seção de Bem-Estar para Pessoas com Deficiência (0276-47-1111)\n\nExistem 3 tipos de Certificados de Deficiência. ① Certificado de Deficiência Física (visual, auditiva, deficiências físicas, etc.), ② Certificado de Saúde e Bem-Estar de Deficiência Mental (transtornos mentais, transtornos de desenvolvimento, etc.), ③ Certificado de Reabilitação (deficiências intelectuais). Um atestado médico de um médico é necessário e leva cerca de 1 a 3 meses desde a solicitação até a emissão. Mesmo que você pense 'posso não ser elegível', por favor, consulte no balcão primeiro. O apoio que você pode receber varia dependendo do grau.",
-        "bottom_line": "Se você ou um membro da família tem uma deficiência, por favor, consulte a Divisão de Apoio Social da Prefeitura de Ota (0276-47-1111). Ao obter um certificado, você pode receber vários apoios, como despesas médicas, taxas de transporte e impostos.",
+        "title": "Emissão do Certificado de Deficiência Física",
+        "easy_explanation": "Este é o procedimento para emissão do \"Certificado de Deficiência Física\", necessário para indivíduos com deficiências físicas permanentes devido a doença ou lesão usarem vários sistemas de bem-estar.\n\nCertificados de Grau 1 a 6 são emitidos dependendo do grau de deficiência (Nota: Grau 7 não é elegível). Os tipos de deficiências cobertos incluem membros, visão, audição, equilíbrio, voz, fala, mastigação, coração, rins, órgãos respiratórios, bexiga, reto, intestino delgado, imunidade e fígado.\n\nA inscrição requer um atestado médico de um médico designado (emitido nos últimos 6 meses) e uma fotografia (aplicam-se requisitos rigorosos). O balcão de atendimento é a Divisão de Bem-Estar para Deficientes (Shogai Fukushi-ka).",
+        "bottom_line": "Um certificado para pessoas com deficiências físicas permanentes usarem sistemas de bem-estar. Inscreva-se na Divisão de Bem-Estar para Deficientes.",
         "amount_info": null,
         "target_audience": [
-          "Aquelas com deficiências físicas, mentais ou intelectuais",
-          "Famílias cuidando ou criando uma pessoa com deficiência",
-          "Moradores da Cidade de Ota"
+          "Indivíduos com deficiências físicas permanentes (equivalente aos Graus 1-6)"
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "Certificado de Deficiência Física (Shintai Shogaisha Techo)",
+            "explanation": "Um certificado para deficiências físicas permanentes. Graus 1 a 6 (Grau 7 não é elegível). Abrange: membros, visão, audição, equilíbrio, voz, fala, coração, rins, respiração, etc."
+          }
+        ],
         "five_w1h": {
-          "who": "Cidadãos de Ota com deficiências físicas, mentais ou intelectuais, ou suas famílias",
-          "what": "Solicitação para um Certificado de Deficiência (Certificado de Deficiência Física, Certificado de Saúde e Bem-Estar de Deficiência Mental, ou Certificado de Reabilitação)",
-          "when": "Quando a condição da deficiência continuou por um certo período (quando um diagnóstico médico é obtido)",
-          "where": "Prefeitura de Ota, Divisão de Apoio Social, Seção de Bem-Estar para Pessoas com Deficiência",
-          "why": "Porque obter um certificado permite que você receba muitas formas de apoio, como subsídios para despesas médicas, deduções fiscais, descontos em transporte e apoio ao emprego",
-          "how": "① Consulte no balcão -> ② Peça a um médico para preparar um atestado médico -> ③ Envie o formulário de solicitação e o atestado médico -> ④ Análise (cerca de 1 a 3 meses) -> ⑤ Emissão do certificado"
+          "who": "Indivíduos com deficiências físicas permanentes",
+          "what": "Solicitação para emissão de um Certificado de Deficiência Física",
+          "when": "A qualquer momento (o atestado médico deve ter sido emitido em até 6 meses)",
+          "where": "Divisão de Bem-Estar para Deficientes, Departamento da Criança e Bem-Estar",
+          "why": "Para utilizar vários sistemas de assistência e bem-estar",
+          "how": "Apresente os documentos necessários, como atestado médico de um médico designado, uma fotografia e o formulário de inscrição no balcão."
         },
         "checklist": [
           {
-            "item": "Consulte a Divisão de Apoio Social da Prefeitura de Ota (0276-47-1111)",
-            "note": "Você pode confirmar para qual certificado é elegível",
+            "item": "Formulário de Inscrição",
+            "note": "Disponível no balcão ou no site da prefeitura.",
             "required": true
           },
           {
-            "item": "Peça ao seu médico assistente para preparar um atestado médico",
-            "note": "Um formato designado é necessário para o atestado médico",
+            "item": "Atestado Médico (emitido nos últimos 6 meses)",
+            "note": "Deve ser emitido por médico designado pelo Artigo 15. Outros não são aceitos. O custo é pago por você.",
             "required": true
           },
           {
-            "item": "Obtenha um formulário de solicitação na Prefeitura",
-            "note": "Disponível no balcão ou pode ser baixado",
+            "item": "Uma Fotografia (4cm de altura x 3cm de largura)",
+            "note": "Sem chapéu, parte superior do corpo, tirada no último ano. Polaroid ou impressão caseira não são aceitas.",
             "required": true
           },
           {
-            "item": "Prepare uma foto (4cm de comprimento x 3cm de largura)",
-            "note": "Necessário na solicitação",
+            "item": "My Number Card (ou Cartão de Notificação)",
+            "note": "Obrigatório no momento da inscrição.",
+            "required": true
+          },
+          {
+            "item": "Carimbo Pessoal (Hanko)",
+            "note": "Deve usar almofada de tinta vermelha (Shuniku).",
+            "required": true
+          },
+          {
+            "item": "Cartão de Residência (Zairyu Card)",
+            "note": "Apenas para estrangeiros.",
+            "required": false
+          },
+          {
+            "item": "Documento de identidade da pessoa que vier ao balcão",
+            "note": "Como carteira de motorista ou passaporte.",
             "required": true
           }
         ],
         "form_guide": null,
-        "faq": [
-          {
-            "question": "Posso consultar mesmo se não tiver dinheiro?",
-            "answer": "Sim. A consulta e a solicitação são gratuitas. Você pode ter que pagar despesas reais pela emissão de um atestado médico."
-          },
-          {
-            "question": "Posso consultar em idioma estrangeiro?",
-            "answer": "Intérpretes podem estar disponíveis. Por favor, ligue (0276-47-1111) para consultar primeiro."
-          },
-          {
-            "question": "Posso solicitar mesmo para uma deficiência leve?",
-            "answer": "Você pode ser elegível dependendo do grau. Não desista pensando 'não serei elegível', e consulte o balcão primeiro."
-          },
-          {
-            "question": "Que tipo de apoio posso receber se tiver um certificado?",
-            "answer": "Você pode receber subsídios de despesas médicas, reduções/isenções da taxa de assinatura da NHK, descontos em transporte público, deduções de imposto de renda e imposto de residência, e apoio ao emprego. Varia dependendo do grau e tipo de certificado."
-          }
-        ],
-        "estimated_time": "Consulta no balcão: Cerca de 1 hora. Da solicitação à emissão do certificado: Cerca de 1 a 3 meses",
+        "faq": [],
+        "estimated_time": "Leva cerca de 1 mês desde a aceitação da inscrição até a emissão do certificado.",
         "related_articles": [
           "national-health-insurance",
           "nursing-care-insurance",
