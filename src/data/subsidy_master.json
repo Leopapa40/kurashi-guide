@@ -12675,79 +12675,28 @@
     "locales": {
       "ja": {
         "title": "住居確保給付金",
-        "easy_explanation": "📞 相談窓口: 0276-48-8177（太田市自立相談支援センター）\n太田市役所 南庁舎2階。平日8:30〜17:15。\n\n一人で抱え込まないでください。あなたは悪くありません。\n\n住居確保給付金は、失業や収入減少で家賃が払えなくなった方に、最大9か月間、家賃相当額を直接家主に支払う制度です。「もうすぐ追い出される」「家賃を滞納してしまった」という方は、今すぐ相談してください。申請には就職活動の意志が必要ですが、ハローワークへの登録を一緒にサポートします。",
-        "bottom_line": "失業・収入減で家賃が払えなくなったら、太田市自立相談支援センター（0276-48-8177）へ。最大9か月間、家賃を支援します。",
-        "amount_info": null,
+        "easy_explanation": "離職、廃業、または給与の減少により経済的に困窮し、住居を喪失した方またはその恐れがある方を対象に、家賃相当額（上限あり）を支給する制度です。公共職業安定所（ハローワーク）に求職申込みを行い、誠実かつ熱心に求職活動を行うことが要件となります。窓口は太田市役所 南庁舎1階の社会支援課です。",
+        "bottom_line": "失業や収入減で家賃にお困りの方は、社会支援課（0276-47-1957）へご相談ください。要件を満たせば家賃相当額が支給されます。",
+        "amount_info": "基準額: 1人世帯78,000円、2人世帯115,000円、3人世帯140,000円。家賃上限額: 1人世帯30,700円、2人世帯37,000円、3人世帯39,900円。支給期間: 原則3か月（最大9か月）",
         "target_audience": [
           "離職・廃業から2年以内の方",
           "収入が一定基準以下に減少した方",
           "ハローワークへの登録・求職活動ができる方",
           "太田市に居住している方"
         ],
-        "term_explanations": [
-          {
-            "term": "住居確保給付金（じゅうきょかくほきゅうふきん）",
-            "explanation": "家賃が払えなくなった方に、市が家主へ直接家賃を支払う制度。最大9か月間受給可能。"
-          },
-          {
-            "term": "自立相談支援センター（じりつそうだんしえんセンター）",
-            "explanation": "生活に困っている方の相談窓口。太田市役所南庁舎2階にあり、各種支援制度の案内や就労サポートを行う。"
-          },
-          {
-            "term": "扶養義務者（ふようぎむしゃ）",
-            "explanation": "親・子・兄弟姉妹など、法律上扶養する義務がある親族のこと。"
-          }
-        ],
+        "term_explanations": [],
         "five_w1h": {
-          "who": "離職・廃業または収入が激減し、家賃が払えなくなった太田市居住者",
+          "who": "離職日もしくは廃業日から2年以内の方、または給与等減少で同程度の状況にある方（収入・資産等の要件あり）",
           "what": "家賃相当額を市が家主に直接支給（上限あり）",
-          "when": "離職・廃業から2年以内、または収入が急減した時点から",
-          "where": "太田市役所 南庁舎2階 太田市自立相談支援センター",
+          "when": "離職日もしくは廃業日から2年以内、または給与減少等（受付時間：午前8:30〜12:00、午後13:00〜17:00）",
+          "where": "太田市役所 南庁舎1階 社会支援課 窓口",
           "why": "住居を失うと再就職・生活再建がさらに困難になるため",
-          "how": "相談センターに連絡 → 面談・書類確認 → 申請 → 審査後に支給開始（原則3か月、最大9か月延長可）"
+          "how": "申請書等の様式をダウンロードして記入し、南庁舎1階の社会支援課窓口へ持参・提出する"
         },
-        "checklist": [
-          {
-            "item": "相談センターに電話（0276-48-8177）",
-            "note": "まず電話で状況を伝える",
-            "required": true
-          },
-          {
-            "item": "離職票・廃業届（離職・廃業の場合）",
-            "note": "収入減の場合は給与明細等",
-            "required": true
-          },
-          {
-            "item": "賃貸借契約書",
-            "note": "家賃・家主情報の確認のため",
-            "required": true
-          },
-          {
-            "item": "本人確認書類",
-            "note": "マイナンバーカード等",
-            "required": true
-          }
-        ],
+        "checklist": [],
         "form_guide": null,
-        "faq": [
-          {
-            "question": "お金がなくても相談できますか？",
-            "answer": "はい。相談は完全に無料です。"
-          },
-          {
-            "question": "外国語で相談できますか？",
-            "answer": "通訳が付く場合があります。まずお電話ください。"
-          },
-          {
-            "question": "フリーランス・自営業でも申請できますか？",
-            "answer": "廃業から2年以内であれば申請可能です。収入が激減した場合も対象になる場合があります。"
-          },
-          {
-            "question": "家賃の一部だけ払えない場合も対象ですか？",
-            "answer": "収入と家賃のバランスにより判定されます。まず相談窓口にご連絡ください。"
-          }
-        ],
-        "estimated_time": "初回相談: 約1時間。申請から支給開始まで: 約2〜3週間",
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "life-support",
           "emergency-loan",
@@ -12758,9 +12707,9 @@
       },
       "en": {
         "title": "Housing Security Benefit",
-        "easy_explanation": "📞 Consultation Desk: 0276-48-8177 (Ota City Self-Reliance Consultation Support Center)\nOta City Hall South Building 2nd Floor. Weekdays 8:30-17:15.\n\nYou are not alone. It's not your fault.\n\nThe Housing Security Benefit is a system that pays an amount equivalent to your rent directly to your landlord for up to 9 months if you are unable to pay rent due to unemployment or decreased income. If you feel 'I'm going to be kicked out soon' or 'I have fallen behind on my rent', please consult us immediately. Applying requires an intention to look for a job, but we will support you with registering at Hello Work together.",
-        "bottom_line": "If you can't pay your rent due to unemployment or income decrease, contact the Ota City Self-Reliance Consultation Support Center (0276-48-8177). We will support your rent for up to 9 months.",
-        "amount_info": null,
+        "easy_explanation": "[Translation Required] 離職、廃業、または給与の減少により経済的に困窮し、住居を喪失した方またはその恐れがある方を対象に、家賃相当額（上限あり）を支給する制度です。公共職業安定所（ハローワーク）に求職申込みを行い、誠実かつ熱心に求職活動を行うことが要件となります。窓口は太田市役所 南庁舎1階の社会支援課です。",
+        "bottom_line": "[Translation Required] 失業や収入減で家賃にお困りの方は、社会支援課（0276-47-1957）へご相談ください。要件を満たせば家賃相当額が支給されます。",
+        "amount_info": "[Translation Required] 基準額: 1人世帯78,000円、2人世帯115,000円、3人世帯140,000円。家賃上限額: 1人世帯30,700円、2人世帯37,000円、3人世帯39,900円。支給期間: 原則3か月（最大9か月）",
         "target_audience": [
           "Those who have left their job or closed their business within the last 2 years",
           "Those whose income has decreased below a certain standard",
@@ -12769,59 +12718,17 @@
         ],
         "term_explanations": [],
         "five_w1h": {
-          "who": "Residents of Ota City who cannot pay rent due to job loss, business closure, or a sharp drop in income",
+          "who": "[Translation Required] 離職日もしくは廃業日から2年以内の方、または給与等減少で同程度の状況にある方（収入・資産等の要件あり）",
           "what": "The city directly pays an amount equivalent to rent to the landlord (up to a limit)",
-          "when": "From the time of leaving a job/closing a business within 2 years, or from the point when income drops sharply",
-          "where": "Ota City Hall South Building 2nd Floor, Ota City Self-Reliance Consultation Support Center",
+          "when": "[Translation Required] 離職日もしくは廃業日から2年以内、または給与減少等（受付時間：午前8:30〜12:00、午後13:00〜17:00）",
+          "where": "[Translation Required] 太田市役所 南庁舎1階 社会支援課 窓口",
           "why": "Because losing housing makes re-employment and rebuilding life even more difficult",
-          "how": "Contact the consultation center -> Interview and document check -> Apply -> Payment starts after screening (in principle 3 months, extendable up to 9 months)"
+          "how": "[Translation Required] 申請書等の様式をダウンロードして記入し、南庁舎1階の社会支援課窓口へ持参・提出する"
         },
-        "checklist": [
-          {
-            "item": "Call the consultation center (0276-48-8177)",
-            "note": "First, explain your situation by phone",
-            "required": true
-          },
-          {
-            "item": "Separation notice/business closure notice (in case of job loss/business closure)",
-            "note": "Pay slips, etc., in case of income decrease",
-            "required": true
-          },
-          {
-            "item": "Lease contract",
-            "note": "To confirm rent and landlord information",
-            "required": true
-          },
-          {
-            "item": "Identity verification document",
-            "note": "My Number Card, etc.",
-            "required": true
-          }
-        ],
+        "checklist": [],
         "form_guide": null,
-        "faq": [
-          {
-            "question": "Can I consult even if I have no money?",
-            "answer": "Yes. Consultation is completely free."
-          },
-          {
-            "question": "Can I consult in a foreign language?",
-            "answer": "An interpreter may be available. Please call us first."
-          },
-          {
-            "question": "Can freelancers or self-employed individuals apply?",
-            "answer": "You can apply if it's within 2 years of closing your business. You may also be eligible if your income has sharply decreased."
-          },
-          {
-            "question": "Am I eligible if I cannot pay only a part of the rent?",
-            "answer": "It will be determined based on the balance between your income and rent. Please contact the consultation desk first."
-          },
-          {
-            "question": "Is this service free?",
-            "answer": "Yes, consultation and application support are free of charge."
-          }
-        ],
-        "estimated_time": "Initial consultation: About 1 hour. From application to start of payment: About 2 to 3 weeks",
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "life-support",
           "emergency-loan",
@@ -12832,9 +12739,9 @@
       },
       "pt": {
         "title": "Benefício de Segurança Habitacional",
-        "easy_explanation": "📞 Balcão de Consulta: 0276-48-8177 (Centro de Apoio à Autossuficiência da Cidade de Ota)\nPrefeitura de Ota, Edifício Sul, 2º Andar. Dias úteis, 8:30-17:15.\n\nVocê não está sozinho/a. Não é sua culpa.\n\nO Benefício de Segurança Habitacional é um sistema que paga um valor equivalente ao seu aluguel diretamente ao seu senhorio por até 9 meses, se você não conseguir pagar o aluguel devido a desemprego ou diminuição de renda. Se você sente que 'vou ser expulso logo' ou 'atrasei meu aluguel', por favor, consulte-nos imediatamente. A solicitação exige a intenção de procurar um emprego, mas nós o apoiaremos no registro no Hello Work juntos.",
-        "bottom_line": "Se você não pode pagar o aluguel devido a desemprego ou queda de renda, entre em contato com o Centro de Apoio à Autossuficiência da Cidade de Ota (0276-48-8177). Apoiaremos o seu aluguel por até 9 meses.",
-        "amount_info": null,
+        "easy_explanation": "[Translation Required] 離職、廃業、または給与の減少により経済的に困窮し、住居を喪失した方またはその恐れがある方を対象に、家賃相当額（上限あり）を支給する制度です。公共職業安定所（ハローワーク）に求職申込みを行い、誠実かつ熱心に求職活動を行うことが要件となります。窓口は太田市役所 南庁舎1階の社会支援課です。",
+        "bottom_line": "[Translation Required] 失業や収入減で家賃にお困りの方は、社会支援課（0276-47-1957）へご相談ください。要件を満たせば家賃相当額が支給されます。",
+        "amount_info": "[Translation Required] 基準額: 1人世帯78,000円、2人世帯115,000円、3人世帯140,000円。家賃上限額: 1人世帯30,700円、2人世帯37,000円、3人世帯39,900円。支給期間: 原則3か月（最大9か月）",
         "target_audience": [
           "Aqueles que deixaram o emprego ou fecharam o negócio nos últimos 2 anos",
           "Aqueles cuja renda diminuiu abaixo de um determinado padrão",
@@ -12843,59 +12750,17 @@
         ],
         "term_explanations": [],
         "five_w1h": {
-          "who": "Moradores da Cidade de Ota que não podem pagar o aluguel devido a perda de emprego, fechamento de negócio ou queda acentuada na renda",
+          "who": "[Translation Required] 離職日もしくは廃業日から2年以内の方、または給与等減少で同程度の状況にある方（収入・資産等の要件あり）",
           "what": "A cidade paga diretamente um valor equivalente ao aluguel ao senhorio (até um limite)",
-          "when": "A partir do momento em que sai do emprego/fecha o negócio em até 2 anos, ou a partir do momento em que a renda cai drasticamente",
-          "where": "Prefeitura de Ota, Edifício Sul, 2º Andar, Centro de Apoio à Autossuficiência da Cidade de Ota",
+          "when": "[Translation Required] 離職日もしくは廃業日から2年以内、または給与減少等（受付時間：午前8:30〜12:00、午後13:00〜17:00）",
+          "where": "[Translation Required] 太田市役所 南庁舎1階 社会支援課 窓口",
           "why": "Porque perder a moradia torna a reempregabilidade e a reconstrução da vida ainda mais difíceis",
-          "how": "Contate o centro de consulta -> Entrevista e verificação de documentos -> Solicitar -> O pagamento começa após a triagem (em princípio 3 meses, extensível por até 9 meses)"
+          "how": "[Translation Required] 申請書等の様式をダウンロードして記入し、南庁舎1階の社会支援課窓口へ持参・提出する"
         },
-        "checklist": [
-          {
-            "item": "Ligue para o centro de consulta (0276-48-8177)",
-            "note": "Primeiro, explique sua situação por telefone",
-            "required": true
-          },
-          {
-            "item": "Aviso de separação/aviso de fechamento de negócio (em caso de perda de emprego/fechamento de negócio)",
-            "note": "Recibos de pagamento, etc., em caso de diminuição de renda",
-            "required": true
-          },
-          {
-            "item": "Contrato de aluguel",
-            "note": "Para confirmar o aluguel e as informações do senhorio",
-            "required": true
-          },
-          {
-            "item": "Documento de verificação de identidade",
-            "note": "My Number Card, etc.",
-            "required": true
-          }
-        ],
+        "checklist": [],
         "form_guide": null,
-        "faq": [
-          {
-            "question": "Posso consultar mesmo se não tiver dinheiro?",
-            "answer": "Sim. A consulta é totalmente gratuita."
-          },
-          {
-            "question": "Posso consultar em uma língua estrangeira?",
-            "answer": "Um intérprete pode estar disponível. Por favor, ligue para nós primeiro."
-          },
-          {
-            "question": "Trabalhadores autônomos ou freelancers podem solicitar?",
-            "answer": "Você pode solicitar se estiver dentro de 2 anos após o fechamento do seu negócio. Você também pode ser elegível se sua renda tiver diminuído acentuadamente."
-          },
-          {
-            "question": "Sou elegível se não puder pagar apenas uma parte do aluguel?",
-            "answer": "Isso será determinado com base no equilíbrio entre sua renda e o aluguel. Por favor, entre em contato com o balcão de consulta primeiro."
-          },
-          {
-            "question": "Este serviço é gratuito?",
-            "answer": "Sim, a consulta e o apoio para inscrição são gratuitos."
-          }
-        ],
-        "estimated_time": "Consulta inicial: Cerca de 1 hora. Da solicitação ao início do pagamento: Cerca de 2 a 3 semanas",
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "life-support",
           "emergency-loan",
