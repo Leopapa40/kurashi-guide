@@ -2548,9 +2548,7 @@
     "category_tags": [
       "money"
     ],
-    "record_bindings": [
-      "life-support"
-    ]
+    "record_bindings": []
   },
   {
     "term": "住居確保給付金（じゅうきょかくほきゅうふきん）",
@@ -2560,7 +2558,6 @@
       "money"
     ],
     "record_bindings": [
-      "life-support",
       "housing-benefit"
     ],
     "record_overrides": {

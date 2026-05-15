@@ -12569,9 +12569,9 @@
     "original_url": "https://www.city.ota.gunma.jp/page/2900.html",
     "locales": {
       "ja": {
-        "title": "生活保護・生活困窮者自立支援",
-        "easy_explanation": "📞 まずここに電話してください: 0276-47-1111（太田市役所 代表）\n太田市役所 南庁舎2階「太田市自立相談支援センター」: 0276-48-8177\n\nあなたは悪くありません。一人で抱え込まないでください。\n\n生活保護は、病気・失業・高齢などで生活費が足りなくなったとき、国と市が最低限の生活を保障する制度です。「働けないから申請できない」は間違いです。体が不自由な方、仕事が見つからない方、誰でも相談できます。\n\n生活困窮者自立支援制度は、生活保護に至る前の段階で相談できる窓口です。家賃が払えない方には「住居確保給付金」、就職活動を支援する「就労準備支援事業」など、あなたの状況に合った支援を一緒に考えます。",
-        "bottom_line": "お金がなくて生活できないと感じたら、今すぐ太田市自立相談支援センター（0276-48-8177）に電話してください。相談は無料で、秘密は守られます。",
+        "title": "生活保護制度",
+        "easy_explanation": "生活保護には、生活、住宅、教育、医療、介護、出産、生業、葬祭の8つの扶助があります。受給には、世帯単位で資産や能力などを活用し、それでも最低生活費が足りない場合に支給されます。\n手続きは、相談→申請→調査（訪問調査等）→決定→通知の流れとなります。\n窓口は南庁舎1階 福祉事務所（0276-47-1957）です。",
+        "bottom_line": "生活に困窮した場合に最低限度の生活を保障する制度です。まずは太田市福祉事務所へご相談ください。",
         "amount_info": null,
         "target_audience": [
           "生活費が足りなくなった方",
@@ -12579,65 +12579,19 @@
           "住む場所がなくなりそうな方",
           "太田市に住民票がある方"
         ],
-        "term_explanations": [
-          {
-            "term": "生活保護（せいかつほご）",
-            "explanation": "国が定めた最低生活費を下回る収入・資産の世帯に、不足分を支給する制度。食費・家賃・医療費なども対象。"
-          },
-          {
-            "term": "生活困窮者自立支援制度（せいかつこんきゅうしゃじりつしえんせいど）",
-            "explanation": "生活保護を受ける前の段階で相談できる窓口。就職支援・住居支援・家計改善など幅広いサポートを提供。"
-          },
-          {
-            "term": "住居確保給付金（じゅうきょかくほきゅうふきん）",
-            "explanation": "失業などで家賃が払えなくなった方に、一定期間、家賃相当額を支給する制度。"
-          }
-        ],
+        "term_explanations": [],
         "five_w1h": {
-          "who": "生活が苦しく、最低生活費を下回る収入・資産しかない太田市民",
-          "what": "生活保護費（食費・家賃・医療費など）の支給、または生活困窮者向け各種支援",
-          "when": "困ったと感じたとき、いつでも相談可能（平日8:30〜17:15）",
-          "where": "太田市役所 南庁舎2階 太田市自立相談支援センター",
-          "why": "収入や資産が国の定めた最低生活費を下回っており、自力での生活維持が困難なため",
-          "how": "まず電話または窓口に相談 → 担当者との面接 → 資産・収入調査 → 必要に応じて生活保護申請"
+          "who": "生活に困窮し、最低限度の生活費が足りない世帯",
+          "what": "生活保護（8つの扶助）の受給",
+          "when": "月曜日から金曜日の午前8時30分から午後5時15分（土日祝日、年末年始を除く）",
+          "where": "南庁舎1階 太田市福祉事務所（社会支援課）",
+          "why": "世帯員全員が資産・能力等を活用しても最低限度の生活費が足りないため",
+          "how": "太田市福祉事務所の窓口にて相談→申請→調査（訪問調査等）→決定→通知"
         },
-        "checklist": [
-          {
-            "item": "まず電話で相談する（0276-48-8177）",
-            "note": "予約不要。相談だけでも可",
-            "required": true
-          },
-          {
-            "item": "収入・資産の状況をメモしておく",
-            "note": "預貯金・不動産・生命保険など",
-            "required": false
-          },
-          {
-            "item": "本人確認書類（マイナンバーカード等）を持参",
-            "note": "申請時に必要",
-            "required": false
-          }
-        ],
+        "checklist": [],
         "form_guide": null,
-        "faq": [
-          {
-            "question": "お金がなくても相談できますか？",
-            "answer": "はい。相談は完全に無料です。費用は一切かかりません。"
-          },
-          {
-            "question": "外国語で相談できますか？",
-            "answer": "通訳が付く場合があります。まずお電話でご相談ください（0276-48-8177）。"
-          },
-          {
-            "question": "「働けるのに生活保護を申請してもいいですか？」",
-            "answer": "はい。就職活動中の方や、健康上の理由で今すぐ働けない方も申請できます。まず相談窓口にお越しください。"
-          },
-          {
-            "question": "家族に知られますか？",
-            "answer": "相談内容は秘密が守られます。ただし扶養義務者への確認連絡が行われる場合があります。"
-          }
-        ],
-        "estimated_time": "初回相談: 約1時間。申請から決定まで: 約14日以内",
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "housing-benefit",
           "emergency-loan",
@@ -12647,9 +12601,9 @@
         ]
       },
       "en": {
-        "title": "Livelihood Protection and Self-Reliance Support",
-        "easy_explanation": "📞 Consultation Desk: 0276-48-8177 (Ota City Self-Reliance Consultation Support Center)\nOta City Hall South Building 2nd Floor. Weekdays 8:30-17:15.\n\nYou are not alone. It's not your fault.\n\nIf you have lost your income due to unemployment or illness, or if you feel like you cannot maintain your livelihood because you don't have enough money, please contact us immediately. We offer consultations and support, such as Livelihood Protection (welfare) which provides the shortfall for living expenses, rent, and medical fees. Please don't suffer alone; reach out to us.",
-        "bottom_line": "If you feel you cannot survive without money, call the Ota City Self-Reliance Consultation Support Center at 0276-48-8177 right away. Consultations are free and confidential.",
+        "title": "Livelihood Protection System",
+        "easy_explanation": "Livelihood protection includes 8 types of assistance: livelihood, housing, education, medical, nursing care, maternity, occupational, and funeral. It is provided on a household basis when the minimum living expenses are still insufficient even after utilizing assets and abilities.\nThe procedure is: Consultation -> Application -> Investigation (home visit, etc.) -> Decision -> Notification.\nThe counter is the Welfare Office (0276-47-1957) on the 1st floor of the South Building.",
+        "bottom_line": "This is a system that guarantees a minimum standard of living when you are in financial distress. First, please consult with the Ota City Welfare Office.",
         "amount_info": null,
         "target_audience": [
           "Those who have run out of living expenses",
@@ -12659,54 +12613,17 @@
         ],
         "term_explanations": [],
         "five_w1h": {
-          "who": "Ota City residents who are struggling to live and have income/assets below the minimum living standard",
-          "what": "Provision of Livelihood Protection benefits (food, rent, medical fees, etc.) or various support for those in need",
-          "when": "Anytime you feel troubled (Weekdays 8:30-17:15)",
-          "where": "Ota City Hall South Building 2nd Floor, Ota City Self-Reliance Consultation Support Center",
-          "why": "Because your income and assets are below the nationally defined minimum living standard, making it difficult to maintain your life on your own",
-          "how": "First, consult by phone or at the counter -> Interview with a staff member -> Asset/income investigation -> Apply for Livelihood Protection if necessary"
+          "who": "Households that are in financial distress and lack minimum living expenses",
+          "what": "Receiving Livelihood Protection (8 types of assistance)",
+          "when": "Monday to Friday, 8:30 AM to 5:15 PM (excluding weekends, holidays, and year-end/New Year holidays)",
+          "where": "Ota City Hall South Building 1st Floor, Ota City Welfare Office (Social Support Division)",
+          "why": "Because the minimum living expenses are insufficient even if all household members utilize their assets and abilities",
+          "how": "Consultation at the Ota City Welfare Office -> Application -> Investigation (home visit, etc.) -> Decision -> Notification"
         },
-        "checklist": [
-          {
-            "item": "First, consult by phone (0276-48-8177)",
-            "note": "No reservation required. Consultation only is okay",
-            "required": true
-          },
-          {
-            "item": "Take notes on your income and asset situation",
-            "note": "Savings, real estate, life insurance, etc.",
-            "required": false
-          },
-          {
-            "item": "Bring an identity verification document (My Number Card, etc.)",
-            "note": "Required when applying",
-            "required": false
-          }
-        ],
+        "checklist": [],
         "form_guide": null,
-        "faq": [
-          {
-            "question": "Can I consult even if I have no money?",
-            "answer": "Yes. Consultation is completely free. It won't cost you anything at all."
-          },
-          {
-            "question": "Can I consult in a foreign language?",
-            "answer": "An interpreter may be available. Please consult by phone first (0276-48-8177)."
-          },
-          {
-            "question": "Can I apply for livelihood protection even if I am capable of working?",
-            "answer": "Yes. Those who are job hunting or cannot work right now due to health reasons can also apply. Please visit the consultation desk first."
-          },
-          {
-            "question": "Will my family find out?",
-            "answer": "The content of the consultation is kept secret. However, we may contact those with a legal obligation to support you to confirm their situation."
-          },
-          {
-            "question": "Is this service free?",
-            "answer": "Yes, consultation and application support are free of charge."
-          }
-        ],
-        "estimated_time": "Initial consultation: About 1 hour. From application to decision: Within about 14 days",
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "housing-benefit",
           "emergency-loan",
@@ -12716,9 +12633,9 @@
         ]
       },
       "pt": {
-        "title": "Proteção de Subsistência e Apoio à Autossuficiência",
-        "easy_explanation": "📞 Balcão de Consulta: 0276-48-8177 (Centro de Apoio à Autossuficiência da Cidade de Ota)\nPrefeitura de Ota, Edifício Sul, 2º Andar. Dias úteis, 8:30-17:15.\n\nVocê não está sozinho/a. Não é sua culpa.\n\nSe você perdeu sua renda devido a desemprego ou doença, ou se sente que não consegue sobreviver por falta de dinheiro, entre em contato conosco imediatamente. Oferecemos consultas e apoio, como a Proteção de Subsistência (assistência social) que cobre a falta de despesas de subsistência, aluguel e custos médicos. Por favor, não sofra sozinho/a; procure-nos.",
-        "bottom_line": "Se você sente que não consegue sobreviver por falta de dinheiro, ligue imediatamente para o Centro de Apoio à Autossuficiência da Cidade de Ota (0276-48-8177). As consultas são gratuitas e confidenciais.",
+        "title": "Sistema de Proteção de Subsistência",
+        "easy_explanation": "A proteção de subsistência inclui 8 tipos de assistência: subsistência, habitação, educação, assistência médica, cuidados de enfermagem, maternidade, ocupacional e funeral. É fornecida por família quando as despesas mínimas de subsistência ainda são insuficientes mesmo após a utilização de bens e habilidades.\nO procedimento é: Consulta -> Inscrição -> Investigação (visita domiciliar, etc.) -> Decisão -> Notificação.\nO balcão é o Escritório de Bem-Estar (0276-47-1957) no 1º andar do Edifício Sul.",
+        "bottom_line": "Este é um sistema que garante um padrão mínimo de vida quando você está em dificuldades financeiras. Primeiro, consulte o Escritório de Bem-Estar da Cidade de Ota.",
         "amount_info": null,
         "target_audience": [
           "Aqueles que ficaram sem despesas de subsistência",
@@ -12728,54 +12645,17 @@
         ],
         "term_explanations": [],
         "five_w1h": {
-          "who": "Moradores da Cidade de Ota que estão com dificuldades para viver e têm renda/bens abaixo do padrão mínimo de subsistência",
-          "what": "Provisão de benefícios de Proteção de Subsistência (alimentação, aluguel, custos médicos, etc.) ou vários apoios para os necessitados",
-          "when": "A qualquer momento que você se sentir com problemas (Dias úteis, 8:30-17:15)",
-          "where": "Prefeitura de Ota, Edifício Sul, 2º Andar, Centro de Apoio à Autossuficiência da Cidade de Ota",
-          "why": "Porque sua renda e bens estão abaixo do padrão mínimo de subsistência definido nacionalmente, tornando difícil manter sua vida por conta própria",
-          "how": "Primeiro, consulte por telefone ou no balcão -> Entrevista com um funcionário -> Investigação de bens/renda -> Solicitar a Proteção de Subsistência se necessário"
+          "who": "Famílias que estão em dificuldades financeiras e carecem de despesas mínimas de subsistência",
+          "what": "Receber Proteção de Subsistência (8 tipos de assistência)",
+          "when": "De segunda a sexta-feira, das 8h30 às 17h15 (exceto fins de semana, feriados e feriados de fim de ano/ano novo)",
+          "where": "Prefeitura de Ota, Edifício Sul, 1º Andar, Escritório de Bem-Estar da Cidade de Ota (Divisão de Apoio Social)",
+          "why": "Porque as despesas mínimas de subsistência são insuficientes mesmo que todos os membros da família utilizem seus bens e habilidades",
+          "how": "Consulta no Escritório de Bem-Estar da Cidade de Ota -> Inscrição -> Investigação (visita domiciliar, etc.) -> Decisão -> Notificação"
         },
-        "checklist": [
-          {
-            "item": "Primeiro, consulte por telefone (0276-48-8177)",
-            "note": "Não requer reserva. Apenas consulta está ok",
-            "required": true
-          },
-          {
-            "item": "Faça anotações sobre sua situação de renda e bens",
-            "note": "Poupanças, imóveis, seguro de vida, etc.",
-            "required": false
-          },
-          {
-            "item": "Traga um documento de verificação de identidade (My Number Card, etc.)",
-            "note": "Necessário ao solicitar",
-            "required": false
-          }
-        ],
+        "checklist": [],
         "form_guide": null,
-        "faq": [
-          {
-            "question": "Posso consultar mesmo se não tiver dinheiro?",
-            "answer": "Sim. A consulta é totalmente gratuita. Não custará nada."
-          },
-          {
-            "question": "Posso consultar em uma língua estrangeira?",
-            "answer": "Um intérprete pode estar disponível. Por favor, consulte por telefone primeiro (0276-48-8177)."
-          },
-          {
-            "question": "Posso solicitar a proteção de subsistência mesmo se for capaz de trabalhar?",
-            "answer": "Sim. Aqueles que estão procurando emprego ou não podem trabalhar agora por motivos de saúde também podem solicitar. Por favor, visite o balcão de consulta primeiro."
-          },
-          {
-            "question": "Minha família vai descobrir?",
-            "answer": "O conteúdo da consulta é mantido em segredo. No entanto, podemos contatar aqueles com obrigação legal de apoiá-lo/a para confirmar a situação."
-          },
-          {
-            "question": "Este serviço é gratuito?",
-            "answer": "Sim, a consulta e o apoio para inscrição são gratuitos."
-          }
-        ],
-        "estimated_time": "Consulta inicial: Cerca de 1 hora. Da solicitação à decisão: Dentro de cerca de 14 dias",
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "housing-benefit",
           "emergency-loan",
