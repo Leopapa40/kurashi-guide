@@ -12776,207 +12776,84 @@
   {
     "id": "emergency-loan",
     "category": "money",
-    "original_url": "https://otashakyo.jp/",
+    "original_url": "https://otashakyo.jp/business/%e8%87%aa%e7%ab%8b%e7%9b%b8%e8%ab%87%e6%94%af%e6%8f%b4%e3%82%bb%e3%83%b3%e3%82%bf%e3%83%bc%e4%ba%8b%e6%a5%ad/",
     "locales": {
       "ja": {
-        "title": "緊急小口資金・生活福祉資金（社会福祉協議会）",
-        "easy_explanation": "📞 太田市社会福祉協議会: 0276-48-1240\n住所: 太田市飯塚町69-3（多文化共生センター内）\n\n一人で抱え込まないでください。あなたは悪くありません。\n\n突然の病気・失業・災害などで急にお金が必要になったとき、太田市社会福祉協議会が低利・無利子で生活費を貸し付ける「生活福祉資金貸付制度」があります。緊急に少額が必要な場合は「緊急小口資金」として最大10万円を借りられます。低所得・高齢・障害者世帯が主な対象ですが、失業者や収入が急減した方も相談できます。",
-        "bottom_line": "急にお金が必要になったら、太田市社会福祉協議会（0276-48-1240）に相談してください。生活福祉資金の貸付で乗り越えられる場合があります。",
+        "title": "自立相談支援（小口生活資金貸付・生活福祉資金貸付）",
+        "easy_explanation": "📞 太田市社会福祉協議会 自立相談支援センター: 0276-48-8177\n住所: 太田市浜町2番35号 太田市役所南庁舎2階\n\n生活に困りごとや不安を抱えている場合は、まずは自立相談支援センターにご相談ください。支援員が相談を受けて、どのような支援が必要かを一緒に考え、自立に向けた支援を行います。市や県から委託を受け、生活費や医療費など一時的に生活が困難な低所得世帯、障がい者、高齢者世帯に対して「小口生活資金貸付」や「生活福祉資金貸付」を行っています。\n\n※新型コロナウイルス感染症の影響による特例貸付（緊急小口資金等）は令和4年9月末で受付終了しました。",
+        "bottom_line": "生活やお金に困っている場合は、太田市役所南庁舎2階の「自立相談支援センター（0276-48-8177）」にご相談ください。",
         "amount_info": null,
         "target_audience": [
-          "低所得・失業などで生活費に困っている方",
-          "高齢・障害者世帯",
-          "急な出費（病気・冠婚葬祭等）で一時的に資金が必要な方"
+          "生活費、医療費等一時的に生活が困難な低所得世帯",
+          "生活に不安を抱えた低所得、障がい者及び高齢者世帯"
         ],
-        "term_explanations": [
-          {
-            "term": "生活福祉資金貸付制度（せいかつふくしけんたいふせいど）",
-            "explanation": "都道府県の社会福祉協議会が運営する公的な貸付制度。低所得世帯・高齢者世帯・障害者世帯などが対象。"
-          },
-          {
-            "term": "緊急小口資金（きんきゅうこぐちしきん）",
-            "explanation": "緊急で10万円以内の生活費が必要なときに使える短期の貸付制度。"
-          },
-          {
-            "term": "社会福祉協議会（しゃかいふくしきょうぎかい）",
-            "explanation": "地域の福祉サービスを推進する公的な機関。市区町村ごとに設置されている。"
-          }
-        ],
+        "term_explanations": [],
         "five_w1h": {
-          "who": "低所得・失業・高齢・障害などで生活に困窮している太田市民",
-          "what": "生活費・医療費・教育費などの貸付（低利または無利子）",
-          "when": "急に資金が必要になったとき、いつでも相談可能（平日8:30〜17:00）",
-          "where": "太田市社会福祉協議会（太田市飯塚町69-3）",
-          "why": "緊急の出費や収入の急減で最低限の生活が維持できないため",
-          "how": "電話で相談 → 面談 → 必要書類提出 → 審査 → 貸付決定・振込"
+          "who": "一時的に生活が困難な低所得世帯、障がい者及び高齢者世帯",
+          "what": "自立に向けた相談支援と資金の貸付",
+          "when": "平日 午前8時30分～午後5時15分（年末年始・土・日・祝日を除く）",
+          "where": "太田市社会福祉協議会 自立相談支援センター（太田市役所南庁舎2階）",
+          "why": "経済的自立や生活意欲の向上を図り、安定した生活を送れるようにするため",
+          "how": "まずは自立相談支援センターの窓口または電話（0276-48-8177）で相談し、支援員と一緒に支援プランを作成する"
         },
-        "checklist": [
-          {
-            "item": "社会福祉協議会に電話（0276-48-1240）",
-            "note": "まず相談する",
-            "required": true
-          },
-          {
-            "item": "収入・資産の状況をメモしておく",
-            "note": "通帳・給与明細など",
-            "required": false
-          },
-          {
-            "item": "本人確認書類",
-            "note": "マイナンバーカード・運転免許証等",
-            "required": true
-          }
-        ],
+        "checklist": [],
         "form_guide": null,
-        "faq": [
-          {
-            "question": "お金がなくても相談できますか？",
-            "answer": "はい。相談は完全に無料です。"
-          },
-          {
-            "question": "外国語で相談できますか？",
-            "answer": "通訳が付く場合があります。まずお電話ください。"
-          },
-          {
-            "question": "返済できるか心配です",
-            "answer": "返済計画は収入に合わせて一緒に考えます。まず相談してください。"
-          },
-          {
-            "question": "すぐにお金が必要です。どのくらいで受け取れますか？",
-            "answer": "緊急小口資金は審査後最短数日〜1週間程度が目安ですが、状況により異なります。"
-          }
-        ],
-        "estimated_time": "初回相談: 約1時間。審査〜振込: 1〜2週間程度",
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "life-support",
           "housing-benefit"
         ]
       },
       "en": {
-        "title": "Emergency Loan / Welfare Fund Loan",
-        "easy_explanation": "📞 Ota City Social Welfare Council: 0276-48-1240\nAddress: 69-3 Iizukacho, Ota City (Inside Multicultural Coexistence Center)\n\nYou are not alone. It's not your fault.\n\nWhen you suddenly need money due to illness, unemployment, or a disaster, there is a \"Livelihood Welfare Fund Loan System\" where the Ota City Social Welfare Council lends living expenses at low or no interest. If you urgently need a small amount, you can borrow up to ¥100,000 as an \"Emergency Small Amount Loan\". It is mainly targeted at low-income, elderly, and disabled households, but those who are unemployed or whose income has sharply decreased can also consult.",
-        "bottom_line": "If you suddenly need money, consult the Ota City Social Welfare Council (0276-48-1240). You may be able to overcome it with a livelihood welfare fund loan.",
+        "title": "Independence Consultation Support (Small Lifestyle Loans & Welfare Loans)",
+        "easy_explanation": "📞 Ota City Social Welfare Council Independence Consultation Support Center: 0276-48-8177\nAddress: Ota City Hall South Building 2F, 2-35 Hamacho, Ota City\n\nIf you have concerns or anxieties about your daily life, please consult with the Independence Consultation Support Center first. Support staff will discuss your situation with you, think together about what kind of support is necessary, and provide support towards your independence. Entrusted by the city and prefecture, they provide 'Small Lifestyle Loans' and 'Lifestyle Welfare Loans' to low-income households, people with disabilities, and elderly households who are temporarily facing difficulties with living expenses or medical expenses.\n\n* Note: The special loan system (such as emergency small amount loans) related to COVID-19 ended its application period at the end of September 2022.",
+        "bottom_line": "If you are struggling with daily life or finances, please consult the Independence Consultation Support Center (0276-48-8177) on the 2nd floor of the Ota City Hall South Building.",
         "amount_info": null,
         "target_audience": [
-          "Those who are struggling with living expenses due to low income, unemployment, etc.",
-          "Elderly and disabled households",
-          "Those who temporarily need funds for sudden expenses (illness, ceremonial occasions, etc.)"
+          "Low-income households temporarily facing difficulties with living expenses or medical expenses",
+          "Low-income households, people with disabilities, and elderly households with anxieties about living"
         ],
         "term_explanations": [],
         "five_w1h": {
-          "who": "Ota City residents who are struggling to live due to low income, unemployment, old age, disability, etc.",
-          "what": "Loans for living expenses, medical expenses, education expenses, etc. (low or no interest)",
-          "when": "Anytime you urgently need funds (Weekdays 8:30-17:00)",
-          "where": "Ota City Social Welfare Council (69-3 Iizukacho, Ota City)",
-          "why": "Because the minimum standard of living cannot be maintained due to sudden expenses or a sharp drop in income",
-          "how": "Consult by phone -> Interview -> Submit required documents -> Screening -> Loan decision / transfer"
+          "who": "Low-income households, people with disabilities, and elderly households temporarily facing living difficulties",
+          "what": "Consultation support towards independence and loan of funds",
+          "when": "Weekdays 8:30 AM to 5:15 PM (Excluding year-end/new year holidays, weekends, and national holidays)",
+          "where": "Ota City Social Welfare Council Independence Consultation Support Center (Ota City Hall South Building 2F)",
+          "why": "To promote economic independence and the desire to live, and to help people lead a stable life",
+          "how": "First, consult at the Independence Consultation Support Center counter or by phone (0276-48-8177), and create a support plan together with a support worker."
         },
-        "checklist": [
-          {
-            "item": "Call the Social Welfare Council (0276-48-1240)",
-            "note": "Consult first",
-            "required": true
-          },
-          {
-            "item": "Make a note of your income and asset situation",
-            "note": "Bankbook, salary slips, etc.",
-            "required": false
-          },
-          {
-            "item": "Identity verification document",
-            "note": "My Number Card, driver's license, etc.",
-            "required": true
-          }
-        ],
+        "checklist": [],
         "form_guide": null,
-        "faq": [
-          {
-            "question": "Can I consult even if I have no money?",
-            "answer": "Yes. Consultation is completely free."
-          },
-          {
-            "question": "Can I consult in a foreign language?",
-            "answer": "An interpreter may be available. Please call us first."
-          },
-          {
-            "question": "I am worried about whether I can repay.",
-            "answer": "We will think about a repayment plan together according to your income. Please consult us first."
-          },
-          {
-            "question": "I need money immediately. How long will it take to receive it?",
-            "answer": "The emergency small amount loan takes about a few days to a week after screening, but it depends on the situation."
-          },
-          {
-            "question": "Is this service free?",
-            "answer": "Yes, consultation and application support are free of charge."
-          }
-        ],
-        "estimated_time": "Initial consultation: About 1 hour. Screening to transfer: About 1 to 2 weeks",
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "life-support",
           "housing-benefit"
         ]
       },
       "pt": {
-        "title": "Empréstimo de Emergência / Empréstimo de Fundo de Bem-Estar",
-        "easy_explanation": "📞 Conselho de Bem-Estar Social da Cidade de Ota: 0276-48-1240\nEndereço: 69-3 Iizukacho, Cidade de Ota (Dentro do Centro de Coexistência Multicultural)\n\nVocê não está sozinho/a. Não é sua culpa.\n\nQuando você de repente precisa de dinheiro devido a doença, desemprego ou um desastre, existe o \"Sistema de Empréstimo de Fundo de Bem-Estar de Subsistência\", onde o Conselho de Bem-Estar Social da Cidade de Ota empresta despesas de subsistência com juros baixos ou nulos. Se você precisar urgentemente de uma pequena quantia, pode pedir emprestado até ¥100.000 como um \"Empréstimo de Pequeno Valor de Emergência\". É voltado principalmente para famílias de baixa renda, idosos e deficientes, mas aqueles que estão desempregados ou cuja renda caiu drasticamente também podem consultar.",
-        "bottom_line": "Se você precisar de dinheiro de repente, consulte o Conselho de Bem-Estar Social da Cidade de Ota (0276-48-1240). Você pode conseguir superar isso com um empréstimo de fundo de bem-estar de subsistência.",
+        "title": "Apoio de Consulta de Independência (Pequenos Empréstimos e Empréstimos de Bem-Estar)",
+        "easy_explanation": "📞 Centro de Apoio de Consulta de Independência do Conselho de Bem-Estar Social da Cidade de Ota: 0276-48-8177\nEndereço: Ota City Hall South Building 2F, 2-35 Hamacho, Ota City\n\nSe você tiver preocupações ou ansiedades sobre sua vida diária, consulte primeiro o Centro de Apoio de Consulta de Independência. A equipe de apoio discutirá sua situação com você, pensará junto sobre que tipo de apoio é necessário e fornecerá apoio em direção à sua independência. Encarregados pela cidade e província, eles fornecem 'Pequenos Empréstimos de Estilo de Vida' e 'Empréstimos de Bem-Estar de Estilo de Vida' para famílias de baixa renda, pessoas com deficiência e famílias de idosos que estão temporariamente enfrentando dificuldades com despesas de subsistência ou despesas médicas.\n\n* Nota: O sistema de empréstimo especial (como empréstimos de emergência de pequeno valor) relacionado à COVID-19 encerrou seu período de inscrição no final de setembro de 2022.",
+        "bottom_line": "Se você está com dificuldades com a vida diária ou finanças, consulte o Centro de Apoio de Consulta de Independência (0276-48-8177) no 2º andar do Ota City Hall South Building.",
         "amount_info": null,
         "target_audience": [
-          "Aqueles que estão lutando com as despesas de subsistência devido à baixa renda, desemprego, etc.",
-          "Famílias de idosos e deficientes",
-          "Aqueles que precisam temporariamente de fundos para despesas repentinas (doença, ocasiões cerimoniais, etc.)"
+          "Famílias de baixa renda enfrentando temporariamente dificuldades com despesas de subsistência ou médicas",
+          "Famílias de baixa renda, pessoas com deficiência e idosos com ansiedade em relação à vida"
         ],
         "term_explanations": [],
         "five_w1h": {
-          "who": "Moradores da Cidade de Ota que estão lutando para viver devido à baixa renda, desemprego, velhice, deficiência, etc.",
-          "what": "Empréstimos para despesas de subsistência, despesas médicas, despesas de educação, etc. (juros baixos ou nulos)",
-          "when": "A qualquer momento que você precisar urgentemente de fundos (Dias úteis, 8:30-17:00)",
-          "where": "Conselho de Bem-Estar Social da Cidade de Ota (69-3 Iizukacho, Cidade de Ota)",
-          "why": "Porque o padrão mínimo de vida não pode ser mantido devido a despesas repentinas ou queda acentuada na renda",
-          "how": "Consulte por telefone -> Entrevista -> Enviar documentos necessários -> Triagem -> Decisão de empréstimo / transferência"
+          "who": "Famílias de baixa renda, pessoas com deficiência e famílias de idosos enfrentando dificuldades temporárias de subsistência",
+          "what": "Apoio de consulta para independência e empréstimo de fundos",
+          "when": "Dias úteis, das 8:30 às 17:15 (Excluindo feriados de fim de ano/ano novo, fins de semana e feriados nacionais)",
+          "where": "Centro de Apoio de Consulta de Independência do Conselho de Bem-Estar Social da Cidade de Ota (Ota City Hall South Building 2F)",
+          "why": "Para promover a independência econômica e o desejo de viver, e para ajudar as pessoas a levar uma vida estável",
+          "how": "Primeiro, consulte no balcão do Centro de Apoio de Consulta de Independência ou por telefone (0276-48-8177) e crie um plano de apoio junto com um assistente social."
         },
-        "checklist": [
-          {
-            "item": "Ligue para o Conselho de Bem-Estar Social (0276-48-1240)",
-            "note": "Consulte primeiro",
-            "required": true
-          },
-          {
-            "item": "Anote a situação da sua renda e bens",
-            "note": "Caderneta bancária, comprovantes de salário, etc.",
-            "required": false
-          },
-          {
-            "item": "Documento de verificação de identidade",
-            "note": "My Number Card, carteira de motorista, etc.",
-            "required": true
-          }
-        ],
+        "checklist": [],
         "form_guide": null,
-        "faq": [
-          {
-            "question": "Posso consultar mesmo se não tiver dinheiro?",
-            "answer": "Sim. A consulta é totalmente gratuita."
-          },
-          {
-            "question": "Posso consultar em uma língua estrangeira?",
-            "answer": "Um intérprete pode estar disponível. Por favor, ligue para nós primeiro."
-          },
-          {
-            "question": "Estou preocupado/a se poderei pagar.",
-            "answer": "Pensaremos em um plano de reembolso juntos, de acordo com sua renda. Por favor, consulte-nos primeiro."
-          },
-          {
-            "question": "Preciso de dinheiro imediatamente. Quanto tempo levará para receber?",
-            "answer": "O empréstimo de pequeno valor de emergência leva de alguns dias a uma semana após a triagem, mas depende da situação."
-          },
-          {
-            "question": "Este serviço é gratuito?",
-            "answer": "Sim, a consulta e o apoio para inscrição são gratuitos."
-          }
-        ],
-        "estimated_time": "Consulta inicial: Cerca de 1 hora. Triagem até transferência: Cerca de 1 a 2 semanas",
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "life-support",
           "housing-benefit"
