@@ -2511,263 +2511,77 @@
     "locales": {
       "ja": {
         "title": "太田市住宅リフォーム支援事業補助金",
-        "easy_explanation": "## 自宅のリフォーム費用を最大20万円分「OTACO」で還元します！\n\n太田市民の方が、市内にある自宅をリフォーム・修繕する場合に、工事費用の一部を太田市のデジタル金券「OTACO（オタコ）」でプレゼントする制度です。\n\n### 💰 いくらもらえるの？\n*   補助金額: 対象工事費（税抜）の 30% に相当するOTACOポイント\n*   最大ポイント: 20万円分（OTACO）\n\n### ✅ 対象となる条件\n*   太田市内に住民票があり、自分の住んでいる家をリフォームする方\n*   工事費用が 20万円以上（税抜） であること\n*   市税などを滞納していないこと\n*   太田市に登録されている市内の施工業者 に工事を依頼すること\n\n### ⚠️ 絶対に守るべき注意点\n*   工事を始める前（未着工） に必ず申請が必要です！\n*   予算がなくなり次第終了になりますのでお早めに。\n*   OTACOポイントがもらえるので、スマートフォン等でOTACOアプリの登録が必要です。",
+        "easy_explanation": "## 自宅のリフォーム費用を最大20万円分「OTACO」で還元します！\n\n太田市民の方が、市内にある自宅をリフォームする場合に、工事費用の一部を太田市のデジタル金券「OTACO（オタコ）」でプレゼントする制度です。\n\n### 💰 いくらもらえるの？\n* 補助金額: 対象工事費の30%に相当するOTACOポイント\n* 最大ポイント: 20万円分\n\n### ✅ 主な対象条件\n* 申請日の前日において建築後10年以上経過した建物\n* 対象工事費が税込10万円以上の工事であること\n* リフォームする家に2年以上継続して住んでいる方\n* 市に登録されている施工業者（登録業者）を利用すること\n* 住宅用火災警報器が設置されている（または工事完了までに設置する）こと\n\n### ⚠️ 注意点\n* 工事着工前の申請が必須です。\n* 実際の申請書の提出は、施工業者が市役所窓口へ行います。",
         "bottom_line": "太田市内の家を市内の業者でリフォームすると、工事費の30%（最大20万円分）が市のデジタル通貨「OTACO」でもらえるお得な制度です。必ず工事前に申請を！",
         "amount_info": "最大 20万OTACO",
         "target_audience": [
           "太田市内で自宅のリフォームや修繕を考えている方"
         ],
-        "term_explanations": [
-          {
-            "term": "OTACO（オタコ）",
-            "explanation": "太田市が発行するデジタル金券（電子商品券）です。スマートフォンのアプリで受け取り・利用でき、本補助金では補助額がこのOTACOで交付されます。"
-          },
-          {
-            "term": "登録業者（とうろくぎょうしゃ）",
-            "explanation": "住宅リフォーム補助金を取り扱うことができる市内の施工業者として、太田市に登録された業者のことです。この登録業者に工事を依頼することが補助金の条件です。"
-          },
-          {
-            "term": "補助対象工事費（ほじょたいしょうこうじひ）",
-            "explanation": "補助金の計算のもとになる工事費のことです。税込10万円以上の工事が対象で、補助額はこの金額の30%（最大20万円）のOTACOが交付されます。"
-          },
-          {
-            "term": "固定資産課税台帳（こていしさんかぜいだいちょう）",
-            "explanation": "市区町村が土地・建物の所有者や評価額を記録した台帳です。建物の所有者を確認するために使われ、登記がない場合の所有証明に用いられます。"
-          },
-          {
-            "term": "住宅用火災警報器（じゅうたくようかさいけいほうき）",
-            "explanation": "火災を早期に感知して警報音で知らせる機器です。法律で全住宅への設置が義務付けられています。本補助金では設置済みまたは工事完了までに設置することが条件です。"
-          }
-        ],
+        "term_explanations": [],
         "five_w1h": {
-          "who": "太田市内に住宅を所有し、2年以上居住している方（市税等の滞納がない方）",
+          "who": "太田市内に住宅を所有し、2年以上居住している方（建築後10年以上経過した建物が対象）",
           "what": "住宅リフォーム支援事業補助金（対象工事費の30％、最大20万円をOTACOで交付）",
           "when": "令和8年4月21日(火)～令和9年1月29日(金) ※予算に達し次第終了、工事着工前の申請必須",
           "where": "まちづくり推進課（市役所7階）住宅リフォーム支援事業窓口",
           "why": "市内経済の活性化および住宅所有者の居住環境向上を図るため",
           "how": "市の登録業者を利用し、施工業者が窓口へ申請書を提出する"
         },
-        "checklist": [
-          {
-            "item": "住宅改修補助金申請書（太田市所定様式）",
-            "note": "太田市建築課またはホームページから入手",
-            "required": true
-          },
-          {
-            "item": "工事見積書（施工業者作成）",
-            "note": "必ず市内業者に依頼すること（市外業者は対象外）",
-            "required": true
-          },
-          {
-            "item": "工事箇所の写真（施工前）",
-            "note": "工事前の現状がわかる写真。申請前に撮影しておく",
-            "required": true
-          },
-          {
-            "item": "建物の登記事項証明書または固定資産税の納税通知書",
-            "note": "申請者が所有者であることの確認に使用",
-            "required": true
-          },
-          {
-            "item": "市税等の完納証明書",
-            "note": "太田市税務課で取得",
-            "required": true
-          },
-          {
-            "item": "住民票（申請者のもの）",
-            "note": "居住実態の確認。発行から3か月以内",
-            "required": false
-          }
-        ],
-        "form_guide": {
-          "form_name": "太田市住宅改修補助金申請書",
-          "fields": [
-            {
-              "field_name": "工事内容",
-              "how_to_fill": "屋根・外壁・内装等、工事の種類と内容を具体的に記入",
-              "example": "外壁塗装・防水工事",
-              "note": "補助対象工事かどうか事前に担当課に確認を"
-            },
-            {
-              "field_name": "工事業者名",
-              "how_to_fill": "市内に本店・支店を有する業者を記入",
-              "example": "○○建設株式会社（太田市○○町）",
-              "note": "市外業者は補助対象外"
-            }
-          ],
-          "tips": [
-            "工事着工前に申請・交付決定を受けること（着工後の申請は不可）",
-            "補助率・上限額は工事の種類によって異なる。事前に建築課に確認を",
-            "完了後に工事完了報告書と施工後の写真の提出が必要"
-          ]
-        },
-        "faq": [
-          {
-            "question": "どんなリフォーム工事が補助対象になりますか？",
-            "answer": "太田市内の業者が施工する住宅改修工事（外壁・屋根・水回り・内装など幅広い工事）が対象です。ただし店舗部分や新築・増築工事は対象外です。補助率や上限は年度によって変わるため、事前確認が必須です。"
-          },
-          {
-            "question": "補助金はいつ申請すればよいですか？",
-            "answer": "工事着工前に申請が必要です。着工後の申請は原則として受け付けられません。また予算に限りがあるため、申請は早めに行ってください（先着順が多い）。"
-          },
-          {
-            "question": "市内業者でなければなりませんか？",
-            "answer": "はい、太田市内に事業所がある登録業者への発注が条件です。市外業者に発注した場合は補助対象外になります。市役所窓口で登録業者一覧を確認できます。"
-          },
-          {
-            "question": "複数のリフォーム工事をまとめて申請できますか？",
-            "answer": "はい、同一住宅への複数工事を一度にまとめて申請できます。ただし補助上限額が決まっているため、優先度の高い工事から計画することをお勧めします。"
-          }
-        ],
-        "estimated_time": "書類準備に2〜3日、申請窓口での手続き約30分、審査期間1〜2週間",
+        "checklist": [],
+        "form_guide": null,
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "solar-power-business-incentive",
           "housing-seismic-retrofit"
         ]
       },
       "en": {
-        "title": "Housing Reform Support Subsidy",
-        "easy_explanation": "## Get up to 200,000 yen back in \"OTACO\" for home renovations!\n\nWhen Ota citizens renovate or repair their homes within the city, this system rewards a portion of the construction costs in \"OTACO\", Ota City's digital currency.\n\n### 💰 How much can you get?\n*   Subsidy Amount: OTACO points equivalent to 30% of the eligible construction cost (excluding tax).\n*   Maximum limit: 200,000 points (OTACO)\n\n### ✅ Conditions\n*   You must be an Ota City resident renovating your own home.\n*   The construction cost must be over 200,000 yen (excluding tax).\n*   You must hire a registered construction company located within Ota City.\n\n### ⚠️ Crucial Note\n*   You must apply BEFORE the construction starts!",
-        "bottom_line": "Renovate your home in Ota City using a local contractor and get 30% of the cost (up to 200,000 yen) back in OTACO digital currency. Apply before starting!",
-        "amount_info": "Up to 200,000 OTACO",
+        "title": "Ota City Housing Reform Support Subsidy",
+        "easy_explanation": "## Get up to 200,000 yen worth of \"OTACO\" for home renovation costs!\n\nThis is a system where Ota City residents who renovate their homes within the city will receive a portion of the construction costs as Ota City's digital currency \"OTACO\".\n\n### 💰 How much can I get?\n* Subsidy amount: OTACO points equivalent to 30% of the eligible construction costs\n* Maximum points: 200,000 yen worth\n\n### ✅ Main Eligibility Conditions\n* A building that has passed at least 10 years since construction as of the day before application\n* Eligible construction costs must be 100,000 yen or more (including tax)\n* You must have lived continuously in the house to be renovated for at least 2 years\n* You must use a contractor registered with the city\n* Residential fire alarms must be installed (or installed by the completion of construction)\n\n### ⚠️ Notes\n* Application before the start of construction is strictly required.\n* The actual submission of the application form will be done by the contractor at the city hall counter.",
+        "bottom_line": "If you renovate your home in Ota City using a city-registered contractor, you can receive 30% of the construction cost (up to 200,000 yen) in the city's digital currency \"OTACO\". Application before construction is required!",
+        "amount_info": "Max 200,000 OTACO",
         "target_audience": [
-          "Ota City residents planning home renovations"
+          "Those planning to renovate or repair their home in Ota City"
         ],
         "term_explanations": [],
         "five_w1h": {
-          "who": "Those who own a house in Ota City and have lived there for 2+ years (no tax arrears)",
-          "what": "Home Renovation Support Subsidy (30% of target cost, up to 200,000 yen in OTACO)",
-          "when": "Until budget runs out. Must apply before starting construction",
-          "where": "City Planning Division (City Hall 7F) Housing Renovation Window",
-          "why": "To boost local economy and improve living environment for homeowners",
-          "how": "Use a registered city contractor who will submit the application form for you"
+          "who": "Those who own a house in Ota City and have lived there for at least 2 years (applicable to buildings built at least 10 years ago)",
+          "what": "Housing Reform Support Subsidy (30% of eligible construction costs, up to 200,000 yen issued in OTACO)",
+          "when": "April 21, 2026 to January 29, 2027 *Ends when the budget is reached, application before construction is mandatory",
+          "where": "Community Development Promotion Division (City Hall 7F) Housing Reform Support Subsidy Counter",
+          "why": "To revitalize the local economy and improve the living environment of homeowners",
+          "how": "Use a city-registered contractor, and the contractor will submit the application form to the counter"
         },
-        "checklist": [
-          {
-            "item": "Application form (住宅改修補助金申請書)",
-            "note": "Available at Architecture Division or website",
-            "required": true
-          },
-          {
-            "item": "Quotation from contractor (工事見積書)",
-            "note": "Must be a contractor registered in the city",
-            "required": true
-          },
-          {
-            "item": "Photos before construction (工事箇所の写真)",
-            "note": "Take photos of the current state before applying",
-            "required": true
-          },
-          {
-            "item": "Property registration certificate or property tax notice (建物の登記事項証明書または固定資産税の納税通知書)",
-            "note": "To verify ownership",
-            "required": true
-          },
-          {
-            "item": "Certificate of full tax payment (市税等の完納証明書)",
-            "note": "Get at City Tax Division",
-            "required": true
-          },
-          {
-            "item": "Resident certificate (住民票)",
-            "note": "Issued within 3 months to confirm residency",
-            "required": false
-          }
-        ],
+        "checklist": [],
         "form_guide": null,
-        "faq": [
-          {
-            "question": "What kind of renovations are eligible?",
-            "answer": "Broad range of housing renovations (exterior, roof, plumbing, interior) done by registered city contractors. Store parts or new constructions are not eligible."
-          },
-          {
-            "question": "When should I apply for the subsidy?",
-            "answer": "You must apply before construction starts. Applications after starting are generally not accepted. Apply early as it's first-come, first-served."
-          },
-          {
-            "question": "Must I use a city contractor?",
-            "answer": "Yes, using a registered contractor in Ota City is a strict condition. Outside contractors are not eligible."
-          },
-          {
-            "question": "Can I apply for multiple renovations at once?",
-            "answer": "Yes, multiple works on the same house can be combined. However, prioritize due to the subsidy limit."
-          }
-        ],
-        "estimated_time": "2-3 days for documents, 30 mins at counter, 1-2 weeks for screening",
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "solar-power-business-incentive",
           "housing-seismic-retrofit"
         ]
       },
       "pt": {
-        "title": "Subsídio de Apoio à Reforma Habitacional",
-        "easy_explanation": "## Receba até 200.000 ienes de volta em \"OTACO\" para reformas em casa!\n\nQuando os cidadãos de Ota reformam ou reparam suas casas dentro da cidade, este sistema recompensa uma parte dos custos de construção em \"OTACO\", a moeda digital da Cidade de Ota.\n\n### 💰 Quanto você pode receber?\n*   Valor do Subsídio: Pontos OTACO equivalentes a 30% do custo da construção elegível (sem impostos).\n*   Limite máximo: 200.000 pontos (OTACO)\n\n### ✅ Condições\n*   Você deve ser um residente da Cidade de Ota reformando sua própria casa.\n*   O custo da construção deve ser superior a 200.000 ienes (sem impostos).\n*   Você deve contratar uma empresa de construção registrada localizada na Cidade de Ota.\n\n### ⚠️ Nota Crucial\n*   Você deve se inscrever ANTES do início da obra!",
-        "bottom_line": "Reforme sua casa na Cidade de Ota usando um empreiteiro local e receba 30% do custo (até 200.000 ienes) de volta na moeda digital OTACO. Inscreva-se antes de começar!",
-        "amount_info": "Até 200.000 OTACO",
+        "title": "Subsídio de Apoio à Reforma Habitacional da Cidade de Ota",
+        "easy_explanation": "## Receba até 200.000 ienes em \"OTACO\" para custos de reforma da casa!\n\nEste é um sistema onde os residentes da cidade de Ota que reformarem suas casas dentro da cidade receberão uma parte dos custos de construção na moeda digital da cidade de Ota \"OTACO\".\n\n### 💰 Quanto posso receber?\n* Valor do subsídio: Pontos OTACO equivalentes a 30% dos custos de construção elegíveis\n* Pontos máximos: equivalente a 200.000 ienes\n\n### ✅ Principais Condições de Elegibilidade\n* Um edifício que tenha passado pelo menos 10 anos desde a construção no dia anterior à inscrição\n* Os custos de construção elegíveis devem ser de 100.000 ienes ou mais (imposto incluído)\n* Você deve ter vivido continuamente na casa a ser reformada por pelo menos 2 anos\n* Você deve usar um empreiteiro registrado na cidade\n* Alarmes de incêndio residenciais devem ser instalados (ou instalados até a conclusão da obra)\n\n### ⚠️ Notas\n* A inscrição antes do início da construção é estritamente necessária.\n* A submissão real do formulário de inscrição será feita pelo empreiteiro no balcão da prefeitura.",
+        "bottom_line": "Se você reformar sua casa na cidade de Ota usando um empreiteiro registrado na cidade, você pode receber 30% do custo de construção (até 200.000 ienes) na moeda digital da cidade \"OTACO\". Inscrição antes da construção é obrigatória!",
+        "amount_info": "Max 200.000 OTACO",
         "target_audience": [
-          "Residentes da cidade de Ota que planejam reformas em casa"
+          "Aqueles que planejam reformar ou reparar sua casa na cidade de Ota"
         ],
         "term_explanations": [],
         "five_w1h": {
-          "who": "Pessoas com casa na Cidade de Ota residentes há mais de 2 anos (sem atraso de impostos)",
-          "what": "Subsídio de Reforma Residencial (30% do custo, até 200.000 OTACO)",
-          "when": "Até o orçamento acabar. Aplicar antes de iniciar a obra",
-          "where": "Divisão de Planejamento (Prefeitura 7º Andar) Balcão de Reforma",
-          "why": "Para estimular a economia local e melhorar as condições de moradia",
-          "how": "Use um empreiteiro registrado na cidade para enviar o formulário"
+          "who": "Aqueles que possuem uma casa na cidade de Ota e viveram lá por pelo menos 2 anos (aplicável a edifícios construídos há pelo menos 10 anos)",
+          "what": "Subsídio de Apoio à Reforma Habitacional (30% dos custos de construção elegíveis, até 200.000 ienes emitidos em OTACO)",
+          "when": "21 de abril de 2026 a 29 de janeiro de 2027 *Termina quando o orçamento for atingido, a inscrição antes da construção é obrigatória",
+          "where": "Divisão de Promoção do Desenvolvimento Comunitário (Prefeitura 7º Andar) Balcão de Subsídios de Apoio à Reforma Habitacional",
+          "why": "Para revitalizar a economia local e melhorar o ambiente de vida dos proprietários de casas",
+          "how": "Use um empreiteiro registrado na cidade, e o empreiteiro enviará o formulário de inscrição ao balcão"
         },
-        "checklist": [
-          {
-            "item": "Formulário de inscrição (住宅改修補助金申請書)",
-            "note": "Disponível na Divisão de Arquitetura ou site",
-            "required": true
-          },
-          {
-            "item": "Orçamento do empreiteiro (工事見積書)",
-            "note": "Deve ser um empreiteiro registrado na cidade",
-            "required": true
-          },
-          {
-            "item": "Fotos antes da obra (工事箇所の写真)",
-            "note": "Tire fotos antes de se inscrever",
-            "required": true
-          },
-          {
-            "item": "Certificado de registro da propriedade ou aviso de imposto (建物の登記事項証明書または固定資産税の納税通知書)",
-            "note": "Para confirmar a propriedade",
-            "required": true
-          },
-          {
-            "item": "Certificado de pagamento de impostos (市税等の完納証明書)",
-            "note": "Obtenha na Divisão de Impostos",
-            "required": true
-          },
-          {
-            "item": "Certificado de residência (住民票)",
-            "note": "Emitido há menos de 3 meses",
-            "required": false
-          }
-        ],
+        "checklist": [],
         "form_guide": null,
-        "faq": [
-          {
-            "question": "Que tipos de reformas são elegíveis?",
-            "answer": "Reformas residenciais amplas (fachada, telhado, encanamento, interior) por empreiteiros registrados. Construções novas ou áreas comerciais não são elegíveis."
-          },
-          {
-            "question": "Quando devo solicitar o subsídio?",
-            "answer": "Deve aplicar antes do início da obra. Inscrições após o início não são aceitas. Aplique cedo pois as vagas são limitadas."
-          },
-          {
-            "question": "Devo usar um empreiteiro da cidade?",
-            "answer": "Sim, usar um empreiteiro registrado na Cidade de Ota é obrigatório. Forasteiros não são elegíveis."
-          },
-          {
-            "question": "Posso solicitar várias reformas de uma vez?",
-            "answer": "Sim, mas priorize os trabalhos mais importantes devido ao limite do subsídio."
-          }
-        ],
-        "estimated_time": "2-3 dias para documentos, 30 min no balcão, 1-2 semanas para triagem",
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "solar-power-business-incentive",
           "housing-seismic-retrofit"
