@@ -12597,7 +12597,8 @@
           "emergency-loan",
           "municipal-housing-application",
           "suicide-prevention",
-          "dv-support"
+          "dv-support",
+          "homeless-support"
         ]
       },
       "en": {
@@ -12629,7 +12630,8 @@
           "emergency-loan",
           "municipal-housing-application",
           "suicide-prevention",
-          "dv-support"
+          "dv-support",
+          "homeless-support"
         ]
       },
       "pt": {
@@ -12661,7 +12663,8 @@
           "emergency-loan",
           "municipal-housing-application",
           "suicide-prevention",
-          "dv-support"
+          "dv-support",
+          "homeless-support"
         ]
       }
     },
@@ -12702,7 +12705,8 @@
           "emergency-loan",
           "municipal-housing-application",
           "suicide-prevention",
-          "dv-support"
+          "dv-support",
+          "homeless-support"
         ]
       },
       "en": {
@@ -12734,7 +12738,8 @@
           "emergency-loan",
           "municipal-housing-application",
           "suicide-prevention",
-          "dv-support"
+          "dv-support",
+          "homeless-support"
         ]
       },
       "pt": {
@@ -12766,7 +12771,8 @@
           "emergency-loan",
           "municipal-housing-application",
           "suicide-prevention",
-          "dv-support"
+          "dv-support",
+          "homeless-support"
         ]
       }
     },
@@ -18514,153 +18520,81 @@
     "original_url": "https://www.city.ota.gunma.jp/page/2899.html",
     "locales": {
       "ja": {
-        "title": "住む場所がないときの一時生活支援",
-        "easy_explanation": "「家賃が払えなくて家を出なければならない」「ネットカフェで寝泊まりしている」など、住む場所がなくて困っている方に向けて、太田市は一定期間の宿泊場所や食事を提供する「一時生活支援事業」を行っています。\n\n【支援の内容】\n・一定期間の宿泊場所の提供（無料）\n・食事や衣類の提供\n・今後の生活や住まいを見つけるための相談支援\n\n【相談窓口】\n太田市役所 社会支援課（生活困窮者自立支援担当）\n📞 電話: 0276-47-1851\n\nまずは窓口かお電話でご相談ください。今の状況を一緒に整理し、生活を立て直すためのサポートを行います。",
-        "bottom_line": "住む場所がなくて困ったら、すぐに太田市役所社会支援課（0276-47-1851）へ。無料の宿泊場所と食事の支援があります。",
+        "title": "住む場所がないときの相談（自立相談支援事業）",
+        "easy_explanation": "「家賃が払えなくて家を出なければならない」「ネットカフェ等で寝泊まりしている」など、住む場所がなくて困っている方は、まずは「太田市自立相談支援センター」にご相談ください。\n\n専門の支援員が状況をお聞きし、住居確保給付金（家賃補助）の申請や、今後の生活を立て直すための具体的な支援プランを一緒に考え、自立に向けたサポートを行います。\n\n※太田市役所南庁舎2階に窓口があります。",
+        "bottom_line": "住む場所がなくて困ったら、太田市役所南庁舎2階の「太田市自立相談支援センター」へご相談ください。",
         "amount_info": null,
         "target_audience": [
-          "住む場所を失った方",
-          "家賃が払えず退去を迫られている方",
-          "ネットカフェ等で寝泊まりしている方"
+          "住宅を喪失している方",
+          "家賃が払えず住宅を喪失するおそれのある方"
         ],
-        "term_explanations": [
-          {
-            "term": "生活困窮者自立支援制度",
-            "explanation": "生活に困っている方が自立できるよう、相談窓口で一人ひとりの状況に合わせた支援計画を作る制度です。"
-          },
-          {
-            "term": "一時生活支援事業",
-            "explanation": "住居を持たない方に、一定期間、宿泊場所や衣食を提供する国の制度。太田市でも実施しています。"
-          }
-        ],
+        "term_explanations": [],
         "five_w1h": {
-          "who": "住む場所がない、または失うおそれのある太田市で生活している方",
-          "what": "宿泊場所・食事の提供と、住居確保に向けた相談支援",
-          "when": "住む場所がなくて困ったらすぐに",
-          "where": "太田市役所 社会支援課（TEL: 0276-47-1851）",
-          "why": "路上生活等を防ぎ、健康で安全な生活を取り戻して自立してもらうため",
-          "how": "①社会支援課に相談→②状況の確認と面談→③一時的な宿泊先の提供→④今後の生活再建の計画を立てる"
+          "who": "住宅を喪失している方、または喪失するおそれのある生活に困っている方",
+          "what": "自立に向けた相談と、具体的な支援プランの作成",
+          "when": "住む場所がなくて困ったとき（開庁時間内）",
+          "where": "太田市役所南庁舎2階「太田市自立相談支援センター」",
+          "why": "生活の困りごとや不安を解消し、自立に向けた支援を行うため",
+          "how": "自立相談支援センターの窓口で相談し、支援員と一緒に支援プランを作成する"
         },
-        "checklist": [
-          {
-            "item": "太田市役所社会支援課（0276-47-1851）に電話または直接行く",
-            "note": "まずは相談することが第一歩です",
-            "required": true
-          },
-          {
-            "item": "現在の所持金や健康状態を伝える",
-            "note": "最適な支援内容を決めるために必要です",
-            "required": false
-          }
-        ],
+        "checklist": [],
         "form_guide": null,
-        "faq": [
-          {
-            "question": "所持金が全くないのですが支援を受けられますか？",
-            "answer": "はい。宿泊場所や食事は無料で提供されます。まずご相談ください。"
-          },
-          {
-            "question": "ずっとそこに住むことはできますか？",
-            "answer": "あくまで「一時的」な支援です。その間に、生活保護の申請やアパート探しなどのサポートを行います。"
-          }
-        ],
-        "estimated_time": "即日〜数日以内に支援開始",
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "life-support",
           "housing-benefit"
         ]
       },
       "en": {
-        "title": "Temporary Living Support for Those Without a Place to Live",
-        "easy_explanation": "For those who are in trouble with no place to live, such as \"I have to leave my house because I can't pay the rent\" or \"I am sleeping in a net cafe,\" Ota City conducts a \"Temporary Living Support Project\" that provides accommodation and meals for a certain period of time.\n\n[Details of Support]\n- Provision of accommodation for a certain period (free)\n- Provision of meals and clothing\n- Consultation support for finding a future livelihood and housing\n\n[Consultation Desk]\nOta City Hall, Social Support Division (in charge of self-reliance support for the needy)\n📞 Phone: 0276-47-1851\n\nFirst, please consult with us at the counter or by phone. We will organize your current situation together and provide support to rebuild your life.",
-        "bottom_line": "If you are in trouble with no place to live, immediately contact the Ota City Hall Social Support Division (0276-47-1851). Free accommodation and meal support are available.",
+        "title": "Consultation for Those Without Housing (Self-Reliance Consultation Support)",
+        "easy_explanation": "If you are struggling with a place to live, such as \"I have to leave my home because I can't pay the rent\" or \"I am sleeping in a net cafe,\" please first consult with the \"Ota City Self-Reliance Consultation Support Center.\"\n\nSpecialized support staff will listen to your situation, consider concrete support plans such as applying for the Housing Security Benefit (rent subsidy), and provide support for your independence.\n\n* The counter is located on the 2nd floor of the Ota City Hall South Building.",
+        "bottom_line": "If you have no place to live, please consult the 'Ota City Self-Reliance Consultation Support Center' on the 2nd floor of the Ota City Hall South Building.",
         "amount_info": null,
         "target_audience": [
-          "Those who have lost their place to live",
-          "Those who are being forced to leave because they cannot pay rent",
-          "Those who are sleeping in net cafes, etc."
+          "Those who have lost their housing",
+          "Those who cannot pay rent and are at risk of losing their housing"
         ],
         "term_explanations": [],
         "five_w1h": {
-          "who": "Those living in Ota City who have no place to live or are at risk of losing it",
-          "what": "Provision of accommodation and meals, and consultation support to secure housing",
-          "when": "As soon as you are in trouble with no place to live",
-          "where": "Ota City Hall, Social Support Division (TEL: 0276-47-1851)",
-          "why": "To prevent rough sleeping, etc., and to help them regain a healthy and safe life and become independent",
-          "how": "1. Consult with the Social Support Division -> 2. Confirm the situation and have an interview -> 3. Provide temporary accommodation -> 4. Make a plan to rebuild your life in the future"
+          "who": "Those who have lost their housing, or are in need and at risk of losing their housing",
+          "what": "Consultation for independence and creation of a concrete support plan",
+          "when": "When you have no place to live (during office hours)",
+          "where": "Ota City Self-Reliance Consultation Support Center (Ota City Hall South Building 2F)",
+          "why": "To resolve life's difficulties and anxieties and provide support towards independence",
+          "how": "Consult at the Self-Reliance Consultation Support Center counter and create a support plan with a support worker"
         },
-        "checklist": [
-          {
-            "item": "Call or go directly to the Ota City Hall Social Support Division (0276-47-1851)",
-            "note": "Consultation is the first step",
-            "required": true
-          },
-          {
-            "item": "Report your current cash on hand and health condition",
-            "note": "Necessary to determine the most appropriate support details",
-            "required": false
-          }
-        ],
+        "checklist": [],
         "form_guide": null,
-        "faq": [
-          {
-            "question": "Can I receive support even if I have no money at all?",
-            "answer": "Yes. Accommodation and meals are provided free of charge. Please consult with us first."
-          },
-          {
-            "question": "Can I live there forever?",
-            "answer": "It is strictly a \"temporary\" support. During that time, we will provide support such as applying for welfare and searching for an apartment."
-          }
-        ],
-        "estimated_time": "Support starts on the same day to within a few days",
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "life-support",
           "housing-benefit"
         ]
       },
       "pt": {
-        "title": "Apoio de Vida Temporário para Quem Não Tem Onde Morar",
-        "easy_explanation": "Para aqueles que estão com problemas e não têm onde morar, como \"Tenho que sair de casa porque não consigo pagar o aluguel\" ou \"Estou dormindo em um cibercafé\", a Cidade de Ota conduz um \"Projeto de Apoio à Vida Temporária\" que oferece acomodação e refeições por um determinado período de tempo.\n\n[Detalhes do Apoio]\n- Fornecimento de acomodação por um determinado período (gratuito)\n- Fornecimento de refeições e roupas\n- Apoio de consultoria para encontrar um meio de vida futuro e moradia\n\n[Balcão de Consultas]\nPrefeitura de Ota, Divisão de Apoio Social (responsável pelo apoio à autossuficiência para os necessitados)\n📞 Telefone: 0276-47-1851\n\nEm primeiro lugar, consulte-nos no balcão ou por telefone. Organizaremos sua situação atual juntos e forneceremos apoio para reconstruir sua vida.",
-        "bottom_line": "Se você estiver com problemas sem ter onde morar, entre em contato imediatamente com a Divisão de Apoio Social da Prefeitura de Ota (0276-47-1851). Acomodação gratuita e apoio às refeições estão disponíveis.",
+        "title": "Consulta para Pessoas Sem Moradia (Apoio de Consulta de Independência)",
+        "easy_explanation": "Se você está com dificuldades de ter um lugar para morar, como \"Tenho que sair de casa porque não posso pagar o aluguel\" ou \"Estou dormindo em um cyber café\", consulte primeiro o \"Ota City Self-Reliance Consultation Support Center\".\n\nUma equipe de apoio especializada ouvirá sua situação, pensará em planos de apoio concretos com você, como solicitar o Subsídio de Segurança Habitacional (subsídio de aluguel), e fornecerá apoio para sua independência.\n\n* O balcão está localizado no 2º andar do Ota City Hall South Building.",
+        "bottom_line": "Se você não tem onde morar, consulte o 'Ota City Self-Reliance Consultation Support Center' no 2º andar do Ota City Hall South Building.",
         "amount_info": null,
         "target_audience": [
-          "Aqueles que perderam seu lugar para morar",
-          "Aqueles que estão sendo forçados a sair porque não podem pagar o aluguel",
-          "Aqueles que estão dormindo em cibercafés, etc."
+          "Pessoas que perderam sua moradia",
+          "Pessoas que não podem pagar o aluguel e correm o risco de perder sua moradia"
         ],
         "term_explanations": [],
         "five_w1h": {
-          "who": "Aqueles que moram na Cidade de Ota e não têm onde morar ou correm o risco de perdê-lo",
-          "what": "Fornecimento de alojamento e refeições, e apoio de consultoria para garantir a habitação",
-          "when": "Assim que você tiver problemas sem ter onde morar",
-          "where": "Prefeitura de Ota, Divisão de Apoio Social (TEL: 0276-47-1851)",
-          "why": "Para evitar que as pessoas durmam nas ruas, etc., e ajudá-las a recuperar uma vida saudável e segura e a se tornarem independentes",
-          "how": "1. Consulte a Divisão de Apoio Social -> 2. Confirme a situação e faça uma entrevista -> 3. Forneça acomodação temporária -> 4. Faça um plano para reconstruir sua vida no futuro"
+          "who": "Pessoas que perderam a moradia ou que estão passando por necessidades e correm o risco de perder a moradia",
+          "what": "Consulta para independência e criação de um plano de apoio concreto",
+          "when": "Quando você não tem onde morar (durante o horário de expediente)",
+          "where": "Ota City Self-Reliance Consultation Support Center (Ota City Hall South Building 2F)",
+          "why": "Para resolver as dificuldades e ansiedades da vida e fornecer apoio em direção à independência",
+          "how": "Consulte no balcão do Centro de Apoio de Consulta de Independência e crie um plano de apoio com um assistente social"
         },
-        "checklist": [
-          {
-            "item": "Ligue ou vá diretamente para a Divisão de Apoio Social da Prefeitura de Ota (0276-47-1851)",
-            "note": "A consulta é o primeiro passo",
-            "required": true
-          },
-          {
-            "item": "Informe o seu dinheiro disponível atual e as suas condições de saúde",
-            "note": "Necessário para determinar os detalhes de suporte mais apropriados",
-            "required": false
-          }
-        ],
+        "checklist": [],
         "form_guide": null,
-        "faq": [
-          {
-            "question": "Posso receber apoio mesmo se não tiver dinheiro nenhum?",
-            "answer": "Sim. Acomodação e refeições são fornecidas gratuitamente. Por favor, consulte-nos primeiro."
-          },
-          {
-            "question": "Posso morar lá para sempre?",
-            "answer": "É estritamente um apoio \"temporário\". Durante esse período, forneceremos suporte, como a solicitação de assistência social e a busca por um apartamento."
-          }
-        ],
-        "estimated_time": "O apoio começa no mesmo dia a dentro de alguns dias",
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "life-support",
           "housing-benefit"
