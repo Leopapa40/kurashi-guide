@@ -10790,243 +10790,96 @@
     "original_url": "https://www.city.ota.gunma.jp/page/2614.html",
     "locales": {
       "ja": {
-        "title": "空き店舗家賃支援補助金",
-        "easy_explanation": "## 制度の目的\n空き店舗リフォーム補助金と同様に、市内の空き店舗を活用して新規に出店する方に対し、店舗の「家賃」の一部を補助する制度です。\n\n## 補助内容\n店舗の賃借料（家賃）の一部を、営業開始から数ヶ月間（または1年間）補助し、開業当初の資金負担を軽減します。\n\n## 主な要件\n- 指定エリアの空き店舗を賃借すること\n- 対象となる業種（小売・飲食など）であること\n※契約や営業開始前に市への相談・申請が必要です。",
-        "bottom_line": "市内の空き店舗を借りて新しくお店を開く方に、開業後一定期間の家賃の一部を補助します。",
-        "amount_info": "月額家賃の一定割合を数ヶ月間補助（上限あり）",
+        "title": "空き店舗対策家賃支援事業補助金",
+        "easy_explanation": "## 補助金の目的\n空き店舗の解消と有効利用の促進を図り、市内における商業の健全な発展と地域経済の活性化に寄与することを目的に、店舗等の家賃に要する経費の一部について補助金を交付します。\n\n## 対象となる経費\n空き店舗の賃借料\n※敷金、礼金、共益費等賃借料に付随する経費を除きます。\n\n## 主な要件\n- 指定区域内の空き店舗を賃借すること\n- 事業実施後3年以上継続して営業すること\n- 当該交付申請の時点で当該店舗の開店をしていないこと\n※必ず店舗開店前に市への事前相談と申請が必要です。",
+        "bottom_line": "市内指定区域の空き店舗を賃借して新たにお店を開く方に、店舗等の家賃の一部を一定期間補助します。",
+        "amount_info": "対象経費の2分の1以内。補助上限：月額3万円以内。補助期間：6ヶ月",
         "target_audience": [
           "空き店舗を借りて開業予定の方"
         ],
-        "term_explanations": [
-          {
-            "term": "賃借料（ちんしゃくりょう）",
-            "explanation": "建物や土地を借りるために毎月払うお金（家賃）のことです。敷金・礼金・共益費は含まれません。本補助金では家賃の2分の1以内（月額上限3万円）が補助されます。"
-          },
-          {
-            "term": "指定区域（していくいき）",
-            "explanation": "補助金の対象となる地域のことです。本補助金では都市計画法に規定する特定の用途地域（近隣商業地域・商業地域等）内の店舗が対象です。"
-          },
-          {
-            "term": "フランチャイズ店（ふらんちゃいずてん）",
-            "explanation": "本部企業と契約して、その屋号・商品・サービスを使って営業する店舗です。市外に本店があるチェーン店・フランチャイズ店は本補助金の対象外です。"
-          },
-          {
-            "term": "営業報告書（えいぎょうほうこくしょ）",
-            "explanation": "補助金を受けた後に、継続して営業していることを証明するために提出する書類です。本補助金では事業実施後3年間、毎年度末に提出が必要です。"
-          },
-          {
-            "term": "都市計画法（としけいかくほう）",
-            "explanation": "都市の健全な発展のために、土地の使い方（用途地域）を定めた法律です。「商業地域」「近隣商業地域」など、地域ごとに建てられる建物の種類が決まっています。"
-          }
-        ],
+        "term_explanations": [],
         "five_w1h": {
-          "who": "太田市指定区域内の空き店舗を借りて新たに店舗を開設しようとする方（市内在住・市税等滞納なし・3年以上継続営業できる方）",
-          "what": "空き店舗対策家賃支援事業補助金（店舗家賃の1/2以内、月額上限3万円×6ヶ月分、最大18万円）",
-          "when": "申請期間：令和8年5月1日(金)〜令和8年9月30日(水)（先着順、予算に達し次第終了）。開店前の申請が必須。",
-          "where": "産業ミライ推進課（書類一式をまず事前相談してから提出）",
+          "who": "市内指定区域内の空き店舗を借用して営業しようとする者かつ太田市に住所を有する方（世帯全員が市税等を滞納していない、事業実施後3年以上継続して営業できる、交付申請時点で当該店舗の開店をしていない等の条件あり）",
+          "what": "空き店舗対策家賃支援事業補助金（対象経費の2分の1以内、月額上限3万円以内、補助期間6ヶ月）",
+          "when": "申請期間：令和8年5月1日(金)から令和8年9月30日(水)まで（先着順、予算に達し次第終了）。※必ず開店前の申請が必要です。",
+          "where": "産業環境部 産業ミライ推進課",
           "why": "空き店舗の解消・有効利用を促進し、市内商業の発展と地域経済の活性化を図るため",
-          "how": "事前に産業ミライ推進課へ相談し、必要書類（案内チラシ参照）を提出する"
+          "how": "申請希望者は必ず事前に相談してください。書類が整っている場合のみ受理されます。"
         },
         "checklist": [
           {
-            "item": "空き店舗家賃補助申請書（太田市所定様式）",
-            "note": "太田市産業政策課またはホームページから入手",
+            "item": "必要書類一式",
+            "note": "公式ページの「補助金申請に必要な書類の一覧」PDFを必ず確認してください",
             "required": true
-          },
-          {
-            "item": "賃貸借契約書（写し）",
-            "note": "店舗の賃貸借契約書。家賃額・契約期間が確認できるもの",
-            "required": true
-          },
-          {
-            "item": "家賃の支払いを証明する書類（領収書・振込明細等）",
-            "note": "実際に家賃を支払っていることの確認に使用",
-            "required": true
-          },
-          {
-            "item": "市税等の完納証明書",
-            "note": "太田市税務課で取得。発行から3か月以内",
-            "required": true
-          },
-          {
-            "item": "住民票（申請者のもの）",
-            "note": "太田市内在住であることの確認。発行から3か月以内",
-            "required": true
-          },
-          {
-            "item": "事業開始届または開業届（写し）",
-            "note": "新たに事業を開始したことの確認に使用",
-            "required": false
           }
         ],
         "form_guide": null,
-        "faq": [
-          {
-            "question": "家賃支援補助金はいつから申請できますか？",
-            "answer": "店舗開業（賃貸借契約締結）後に申請できます。ただし補助期間の起算点は契約日または開業日になるため、なるべく早く申請することをお勧めします。"
-          },
-          {
-            "question": "補助金の上限と期間はどのくらいですか？",
-            "answer": "月額上限や補助率・補助期間は年度によって変わります。最新の要件は市役所産業政策課または太田市ウェブサイトでご確認ください。"
-          },
-          {
-            "question": "空き店舗リフォーム補助金と同時に申請できますか？",
-            "answer": "リフォーム補助金と家賃補助は別々の制度のため、要件を満たせばどちらも申請できます。同一経費への二重補助は不可ですが、制度の併用は認められる場合があります。"
-          },
-          {
-            "question": "補助期間終了後も店舗を続けなければなりませんか？",
-            "answer": "補助金の要件として、一定期間の事業継続が義務付けられる場合があります。要件期間内に閉店・転出した場合は補助金の返還を求められることがあります。"
-          }
-        ],
-        "estimated_time": "書類準備に3〜5日、申請窓口での手続き約30分、審査期間2〜4週間",
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "empty-store-reform-subsidy",
           "sales-channel-expansion-subsidy"
         ]
       },
       "en": {
-        "title": "Vacant Store Rent Support Subsidy",
-        "easy_explanation": "## Purpose of the System\nSimilar to the vacant store renovation subsidy, this is a system that subsidizes part of the \"rent\" of the store for those who open a new store using a vacant store in the city.\n\n## Subsidy Details\nA portion of the store's rent is subsidized for a few months (or 1 year) after the start of business, reducing the financial burden at the beginning of opening.\n\n## Main Requirements\n- Must rent a vacant store in a designated area\n- Must be an eligible industry (retail, restaurant, etc.)\n* Note: Consultation and application to the city are required before concluding a contract or starting business.",
-        "bottom_line": "We subsidize a portion of the rent for a certain period after opening for those who rent a vacant store in the city and open a new business.",
-        "amount_info": "Subsidizes a certain percentage of the monthly rent for a few months (with a maximum limit)",
+        "title": "Vacant Store Rent Support Project Subsidy",
+        "easy_explanation": "## Subsidy Purpose\nTo promote the elimination and effective use of vacant stores, contributing to the sound development of commerce and revitalization of the local economy by subsidizing part of the store rent.\n\n## Eligible Expenses\nRent for a vacant store\n* Note: Expenses incidental to the rent, such as security deposits, key money, and common area fees, are excluded.\n\n## Main Requirements\n- Must be a rented vacant store in designated areas within the city.\n- Must continue to operate for 3 years or more.\n- The store must not be open at the time of the subsidy application.\n* Note: Prior consultation and application to the city are strictly required before opening the store.",
+        "bottom_line": "Subsidizes a portion of the store rent for a certain period for those who rent a vacant store in designated areas of the city to open a new business.",
+        "amount_info": "Up to 1/2 of eligible expenses. Maximum limit: 30,000 yen per month. Subsidy period: 6 months.",
         "target_audience": [
           "Those planning to rent a vacant store to start a business"
         ],
         "term_explanations": [],
         "five_w1h": {
-          "who": "Those who intend to open a new store by renting a vacant store in the designated area of Ota City (Residents of the city, no delinquency in city taxes, and able to continue business for at least 3 years)",
-          "what": "Vacant Store Countermeasures Rent Support Project Subsidy (Up to 1/2 of store rent, monthly maximum 30,000 yen x 6 months, maximum 180,000 yen)",
-          "when": "Application period: Friday, May 1, 2026 to Wednesday, September 30, 2026 (First-come, first-served basis, ends when budget is reached). Application before opening is strictly required.",
-          "where": "Industrial Future Promotion Division (Consult in advance and then submit the complete set of documents)",
+          "who": "Those who plan to rent a vacant store in designated areas within the city for business and are residents of Ota City (conditions apply: all household members have no unpaid city taxes, can continue business for at least 3 years, and the store is not open at the time of application).",
+          "what": "Vacant Store Rent Support Project Subsidy (up to 1/2 of eligible expenses, max 30,000 yen/month, for 6 months)",
+          "when": "Application period: Friday, May 1, 2026 to Wednesday, September 30, 2026 (first-come, first-served basis, ends when budget is reached). * Application before opening is strictly required.",
+          "where": "Industrial Environment Department, Industrial Future Promotion Division",
           "why": "To promote the elimination and effective use of vacant stores, and to foster commercial development and revitalize the local economy",
-          "how": "Consult with the Industrial Future Promotion Division in advance and submit the necessary documents (refer to the guide flyer)"
+          "how": "Applicants must consult in advance. Applications will only be accepted if all documents are complete."
         },
         "checklist": [
           {
-            "item": "Vacant Store Rent Subsidy Application Form (空き店舗家賃補助申請書)",
-            "note": "Obtain from the Ota City Industrial Policy Division or the website",
+            "item": "Complete set of required documents",
+            "note": "Please be sure to check the PDF (List of documents required for subsidy application) on the official website.",
             "required": true
-          },
-          {
-            "item": "Lease Agreement (copy) (賃貸借契約書)",
-            "note": "Store lease agreement. Must confirm the rent amount and contract period",
-            "required": true
-          },
-          {
-            "item": "Documents proving the payment of rent (receipt, transfer slip, etc.)",
-            "note": "Used to confirm that you are actually paying the rent",
-            "required": true
-          },
-          {
-            "item": "Certificate of complete payment of city taxes, etc. (市税等の完納証明書)",
-            "note": "Obtain from the Ota City Taxation Division. Issued within the last 3 months",
-            "required": true
-          },
-          {
-            "item": "Certificate of Residence (for the applicant) (住民票)",
-            "note": "Confirmation of living in Ota City. Issued within the last 3 months",
-            "required": true
-          },
-          {
-            "item": "Notification of Start of Business or Notification of Opening (copy) (事業開始届または開業届)",
-            "note": "Used to confirm that a new business has started",
-            "required": false
           }
         ],
         "form_guide": null,
-        "faq": [
-          {
-            "question": "When can I apply for the rent support subsidy?",
-            "answer": "You can apply after opening the store (concluding the lease agreement). However, since the start date of the subsidy period will be the contract date or the opening date, we recommend applying as soon as possible."
-          },
-          {
-            "question": "What is the upper limit and period of the subsidy?",
-            "answer": "The monthly maximum limit, subsidy rate, and subsidy period change depending on the fiscal year. Please check the latest requirements with the City Hall Industrial Policy Division or the Ota City website."
-          },
-          {
-            "question": "Can I apply for it at the same time as the vacant store renovation subsidy?",
-            "answer": "Because the renovation subsidy and the rent subsidy are separate systems, you can apply for both if you meet the requirements. Double subsidization for the same expense is not possible, but combined use of the systems may be allowed."
-          },
-          {
-            "question": "Do I have to continue the store even after the subsidy period ends?",
-            "answer": "As a requirement for the subsidy, you may be obliged to continue your business for a certain period of time. If you close your store or move out within the required period, you may be asked to return the subsidy."
-          }
-        ],
-        "estimated_time": "3-5 days for document preparation, about 30 minutes for procedures at the counter, 2-4 weeks for screening",
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "empty-store-reform-subsidy",
           "sales-channel-expansion-subsidy"
         ]
       },
       "pt": {
-        "title": "Subsídio de Apoio ao Aluguel de Loja Vazia",
-        "easy_explanation": "## Objetivo do Sistema\nSemelhante ao subsídio para reforma de loja vazia, este é um sistema que subsidia parte do \"aluguel\" da loja para quem abre uma nova loja utilizando uma loja vazia na cidade.\n\n## Detalhes do Subsídio\nUma parte do aluguel da loja é subsidiada por alguns meses (ou 1 ano) após o início do negócio, reduzindo a carga financeira no início da abertura.\n\n## Requisitos Principais\n- Deve alugar uma loja vazia numa área designada\n- Deve ser uma indústria elegível (varejo, restaurante, etc.)\n* Nota: A consulta e a inscrição na prefeitura são obrigatórias antes da celebração do contrato ou do início do negócio.",
-        "bottom_line": "Subsidiamos uma parte do aluguel por um certo período após a abertura para aqueles que alugam uma loja vazia na cidade e abrem um novo negócio.",
-        "amount_info": "Subsidia uma certa porcentagem do aluguel mensal por alguns meses (com limite máximo)",
+        "title": "Subsídio para o Projeto de Apoio ao Aluguel de Medidas para Lojas Vazias",
+        "easy_explanation": "## Objetivo do Subsídio\nPromover a eliminação e o uso efetivo de lojas vazias, contribuindo para o desenvolvimento comercial e a revitalização da economia local, subsidiando parte do aluguel da loja.\n\n## Despesas Elegíveis\nAluguel de uma loja vazia\n* Nota: Despesas inerentes ao aluguel, como depósito caução, luvas e taxas de condomínio, estão excluídas.\n\n## Requisitos Principais\n- Deve alugar uma loja vazia em áreas designadas da cidade.\n- Deve continuar operando por 3 anos ou mais.\n- A loja não deve estar aberta no momento do pedido de subsídio.\n* Nota: Consulta prévia e inscrição na prefeitura são estritamente necessárias antes de abrir a loja.",
+        "bottom_line": "Subsidia uma parte do aluguel da loja por um determinado período para quem aluga uma loja vazia em áreas designadas da cidade para abrir um novo negócio.",
+        "amount_info": "Até 1/2 das despesas elegíveis. Limite máximo: 30.000 ienes por mês. Período do subsídio: 6 meses.",
         "target_audience": [
           "Aqueles que planejam alugar uma loja vazia para iniciar um negócio"
         ],
         "term_explanations": [],
         "five_w1h": {
-          "who": "Aqueles que pretendem abrir uma nova loja alugando uma loja vazia na área designada da Cidade de Ota (Residentes da cidade, sem atrasos nos impostos municipais e capazes de continuar os negócios por pelo menos 3 anos)",
-          "what": "Subsídio do Projeto de Apoio ao Aluguel de Contramedidas de Loja Vazia (Até 1/2 do aluguel da loja, máximo mensal 30.000 ienes x 6 meses, máximo 180.000 ienes)",
-          "when": "Período de inscrição: Sexta-feira, 1º de maio de 2026 a quarta-feira, 30 de setembro de 2026 (Por ordem de chegada, termina quando o orçamento for atingido). A inscrição antes da abertura é estritamente necessária.",
-          "where": "Divisão de Promoção do Futuro Industrial (Consulte com antecedência e depois envie o conjunto completo de documentos)",
+          "who": "Aqueles que planejam alugar uma loja vazia em áreas designadas da cidade para negócios e são residentes da cidade de Ota (condições: todos os membros da família não têm impostos municipais não pagos, podem continuar os negócios por pelo menos 3 anos, e a loja não está aberta no momento da inscrição).",
+          "what": "Subsídio do Projeto de Apoio ao Aluguel de Medidas para Lojas Vazias (até 1/2 das despesas, máximo de 30.000 ienes/mês, por 6 meses)",
+          "when": "Período de inscrição: Sexta-feira, 1º de maio de 2026 a quarta-feira, 30 de setembro de 2026 (por ordem de chegada, termina quando o orçamento for atingido). * A inscrição antes da abertura é estritamente necessária.",
+          "where": "Departamento de Meio Ambiente Industrial, Divisão de Promoção do Futuro Industrial",
           "why": "Para promover a eliminação e o uso eficaz de lojas vazias e para promover o desenvolvimento comercial e revitalizar a economia local",
-          "how": "Consulte a Divisão de Promoção do Futuro Industrial com antecedência e envie os documentos necessários (consulte o folheto guia)"
+          "how": "Os candidatos devem consultar com antecedência. As inscrições só serão aceitas se todos os documentos estiverem completos."
         },
         "checklist": [
           {
-            "item": "Formulário de Inscrição para Subsídio de Aluguel de Loja Vazia (空き店舗家賃補助申請書)",
-            "note": "Obtenha na Divisão de Política Industrial da Cidade de Ota ou no site",
+            "item": "Conjunto completo de documentos necessários",
+            "note": "Certifique-se de verificar o PDF (Lista de documentos necessários para o pedido de subsídio) no site oficial.",
             "required": true
-          },
-          {
-            "item": "Contrato de Locação (cópia) (賃貸借契約書)",
-            "note": "Contrato de locação da loja. Deve confirmar o valor do aluguel e o período do contrato",
-            "required": true
-          },
-          {
-            "item": "Documentos comprovativos do pagamento de renda (recibo, talão de transferência, etc.)",
-            "note": "Usado para confirmar que você está realmente pagando o aluguel",
-            "required": true
-          },
-          {
-            "item": "Certificado de pagamento integral de impostos municipais, etc. (市税等の完納証明書)",
-            "note": "Obtenha na Divisão de Tributação da Cidade de Ota. Emitido nos últimos 3 meses",
-            "required": true
-          },
-          {
-            "item": "Certificado de Residência (para o requerente) (住民票)",
-            "note": "Confirmação de residência na Cidade de Ota. Emitido nos últimos 3 meses",
-            "required": true
-          },
-          {
-            "item": "Aviso de Início de Negócio ou Aviso de Abertura (cópia) (事業開始届または開業届)",
-            "note": "Usado para confirmar que um novo negócio foi iniciado",
-            "required": false
           }
         ],
         "form_guide": null,
-        "faq": [
-          {
-            "question": "Quando posso solicitar o subsídio de apoio ao aluguel?",
-            "answer": "Você pode se inscrever após a abertura da loja (celebração do contrato de locação). No entanto, como a data de início do período do subsídio será a data do contrato ou a data de abertura, recomendamos a inscrição o mais rápido possível."
-          },
-          {
-            "question": "Qual é o limite superior e o período do subsídio?",
-            "answer": "O limite máximo mensal, a taxa de subsídio e o período do subsídio mudam dependendo do ano fiscal. Verifique os requisitos mais recentes com a Divisão de Política Industrial da Prefeitura ou no site da Cidade de Ota."
-          },
-          {
-            "question": "Posso solicitá-lo ao mesmo tempo que o subsídio de reforma de loja vazia?",
-            "answer": "Como o subsídio de reforma e o subsídio de aluguel são sistemas separados, você pode solicitar ambos se atender aos requisitos. O duplo subsídio para a mesma despesa não é possível, mas o uso combinado dos sistemas pode ser permitido."
-          },
-          {
-            "question": "Tenho que manter a loja mesmo depois de terminar o período do subsídio?",
-            "answer": "Como requisito para o subsídio, você pode ser obrigado a continuar seu negócio por um certo período de tempo. Se você fechar sua loja ou se mudar dentro do período exigido, poderá ser solicitado que devolva o subsídio."
-          }
-        ],
-        "estimated_time": "3-5 dias para preparação de documentos, cerca de 30 minutos para procedimentos no balcão, 2-4 semanas para análise",
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "empty-store-reform-subsidy",
           "sales-channel-expansion-subsidy"
