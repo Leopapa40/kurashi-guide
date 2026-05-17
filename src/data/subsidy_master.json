@@ -10682,278 +10682,99 @@
   {
     "id": "empty-store-reform-subsidy",
     "category": "money",
-    "original_url": "https://www.city.ota.gunma.jp/page/2613.html",
+    "original_url": "https://www.city.ota.gunma.jp/page/2612.html",
     "locales": {
       "ja": {
-        "title": "空き店舗リフォーム補助金",
-        "easy_explanation": "## 補助金の目的\n商店街の活性化を図るため、市内の空き店舗を利用して新しく事業を始める方に対し、店舗の改装（リフォーム）費用の一部を補助します。\n\n## 対象となる事業\n小売業、飲食業、サービス業など。\n\n## 主な要件\n- 指定されたエリア内の空き店舗であること\n- 一定期間以上継続して営業すること\n- 市内の施工業者を利用して改装を行うこと\n※工事着工前の申請が必要です。",
-        "bottom_line": "市内の空き店舗を改装して新しくお店を開く方に、改装費用の一部を補助します。",
-        "amount_info": "対象経費の一定割合（上限あり）",
+        "title": "空き店舗対策リフォーム支援事業補助金",
+        "easy_explanation": "## 補助金の目的\n空き店舗の解消と有効利用の促進を図り、市内における商業の健全な発展と地域経済の活性化に寄与するため。\n\n## 対象となる事業\n情報通信業、各種小売業、専門サービス業、飲食サービス業、生活関連サービス業、医療業など。\n\n## 主な要件\n- 指定区域内の空き店舗を賃借すること（自己所有は対象外）\n- 事業実施後3年以上継続して営業すること\n- 市内に拠点をもつ施工業者等を利用して改装・購入を行うこと\n※必ず工事着工および備品購入前の申請・事前相談が必要です。",
+        "bottom_line": "市内指定区域の空き店舗を賃借して新たにお店を開く方に、リフォーム工事費・備品購入費の一部を補助します。",
+        "amount_info": "対象経費（税抜）の2分の1以内。上限: 近隣商業・商業地域200万円、その他対象地域100万円",
         "target_audience": [
-          "空き店舗を利用して開業予定の方"
+          "市内指定区域の空き店舗を賃借して開業予定の方（太田市在住者）"
         ],
-        "term_explanations": [
-          {
-            "term": "産業ミライ推進課（さんぎょうみらいすいしんか）",
-            "explanation": "太田市役所にある部署で、中小企業の支援や産業振興に関する補助金・助成金の窓口です。本補助金の申請・相談窓口になります。"
-          },
-          {
-            "term": "実績報告書（じっせきほうこくしょ）",
-            "explanation": "補助金を使った工事が終了した後に提出する書類です。工事終了後1ヶ月以内に提出しないと、補助金が取り消されることがあります。"
-          },
-          {
-            "term": "空き店舗（あきてんぽ）",
-            "explanation": "テナント（借り手）が入っておらず、使われていない状態の店舗や事務所スペースのことです。太田市では空き店舗を活用した開業を支援する補助金制度を設けています。"
-          },
-          {
-            "term": "交付申請書（こうふしんせいしょ）",
-            "explanation": "補助金の支給を受けるために提出する申請書類です。工事着工・備品購入の前に提出する必要があります。着工後の申請は対象外になります。"
-          }
-        ],
+        "term_explanations": [],
         "five_w1h": {
-          "who": "空き店舗を利用して事業を開始する方（またはリフォームを希望する方）",
+          "who": "市内指定区域の空き店舗を賃借して営業しようとする方で、太田市に住所を有する方",
           "what": "空き店舗対策リフォーム支援事業補助金",
           "when": "必ず工事着工および備品購入前に申請、工事終了後1ヶ月以内に実績報告",
-          "where": "産業ミライ推進課",
+          "where": "産業環境部 産業ミライ推進課（本庁舎5階）",
           "why": "空き店舗の活用による市内商業の振興と地域経済の活性化を図るため",
           "how": "消防本部等への事前相談を済ませ、交付申請書と必要書類を窓口へ提出する"
         },
         "checklist": [
           {
-            "item": "空き店舗改修補助金申請書（太田市所定様式）",
-            "note": "太田市産業政策課またはホームページから入手",
+            "item": "必要書類一式",
+            "note": "公式ページの「補助金申請に必要な書類の一覧」PDFを必ず確認してください",
             "required": true
-          },
-          {
-            "item": "工事見積書（施工業者作成）",
-            "note": "改修内容と金額が明記されたもの",
-            "required": true
-          },
-          {
-            "item": "店舗の賃貸借契約書（写し）",
-            "note": "空き店舗の賃借人であることの確認に使用",
-            "required": true
-          },
-          {
-            "item": "工事箇所の写真（施工前）",
-            "note": "改修前の現状がわかる写真",
-            "required": true
-          },
-          {
-            "item": "市税等の完納証明書",
-            "note": "太田市税務課で取得",
-            "required": true
-          },
-          {
-            "item": "事業計画書",
-            "note": "開業する事業の内容・収支計画を記載",
-            "required": true
-          },
-          {
-            "item": "営業許可証（写し）",
-            "note": "飲食店等、許認可が必要な業種の場合",
-            "required": false
           }
         ],
-        "form_guide": {
-          "form_name": "空き店舗改修補助金申請書",
-          "fields": [
-            {
-              "field_name": "改修内容",
-              "how_to_fill": "内装・設備等、改修する箇所と内容を具体的に記入",
-              "example": "内装リフォーム・厨房設備設置",
-              "note": "対象外工事（外構・駐車場等）は含めない"
-            },
-            {
-              "field_name": "開業予定日",
-              "how_to_fill": "改修工事完了後の開業予定日を記入",
-              "example": "令和7年9月1日",
-              "note": "開業後に完了報告書の提出が必要"
-            }
-          ],
-          "tips": [
-            "工事着工前に申請・交付決定を受けること（着工後は不可）",
-            "対象区域内の空き店舗であることが要件。事前に産業政策課に確認を",
-            "補助上限額や補助率は年度により変わる場合あり"
-          ]
-        },
-        "faq": [
-          {
-            "question": "空き店舗リフォーム補助金の対象になる空き店舗とはどんなものですか？",
-            "answer": "太田市内の商業地域等にある空き店舗が対象です。自己所有の空き店舗と、賃借した空き店舗の両方が対象になる場合があります。具体的な対象エリア・要件は市役所産業政策課に確認してください。"
-          },
-          {
-            "question": "リフォーム後どんな業種で使用してもよいですか？",
-            "answer": "原則として商業・サービス業などの店舗としての使用が条件です。住居転用や倉庫・駐車場への転用は補助対象外となります。"
-          },
-          {
-            "question": "家賃補助と同時に利用できますか？",
-            "answer": "太田市の空き店舗家賃支援補助金と組み合わせて利用できる場合があります。ただし同一経費への二重補助は不可のため、それぞれの要件と組み合わせ可否を事前に確認してください。"
-          },
-          {
-            "question": "補助金の申請は工事前でなければなりませんか？",
-            "answer": "はい、工事着工前に申請することが必要です。着工後の申請は受け付けられません。また予算には上限があるため、早めの相談・申請をお勧めします。"
-          }
-        ],
-        "estimated_time": "書類準備に1週間程度、申請窓口での手続き約30分、審査期間2〜4週間",
+        "form_guide": null,
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "empty-store-rent-support",
           "sales-channel-expansion-subsidy"
         ]
       },
       "en": {
-        "title": "Vacant Store Renovation Subsidy",
-        "easy_explanation": "## Purpose of the Subsidy\nTo revitalize shopping districts, the city provides a subsidy for a portion of the renovation costs to those who start a new business using a vacant store in the city.\n\n## Eligible Businesses\nRetail, restaurants, service industries, etc.\n\n## Main Requirements\n- Must be a vacant store within the designated area\n- Must continue to operate for a certain period of time\n- Must use a contractor within the city for renovations\n* Note: An application is required before starting construction.",
-        "bottom_line": "We subsidize part of the renovation costs for those who open a new store by renovating a vacant store in the city.",
-        "amount_info": "A certain percentage of eligible expenses (with a maximum limit)",
+        "title": "Vacant Store Renovation Support Project Subsidy",
+        "easy_explanation": "## Subsidy Purpose\nTo promote the elimination and effective use of vacant stores, contributing to the sound development of commerce and revitalization of the local economy.\n\n## Target Businesses\nInformation and communications, retail, specialized services, restaurants, daily life-related services, medical services, etc.\n\n## Main Requirements\n- Must be a rented vacant store in designated areas within the city.\n- Must continue to operate for 3 years or more.\n- Must use a contractor headquartered or based in the city for renovations.\n* Note: Application and prior consultation must be made before starting construction or purchasing equipment.",
+        "bottom_line": "Subsidizes part of the renovation and equipment purchase costs for those who rent a vacant store in designated areas of the city and open a new business.",
+        "amount_info": "Up to 1/2 of eligible expenses (excluding tax). Maximum limit: 2 million yen for neighborhood commercial/commercial zones, 1 million yen for other target zones.",
         "target_audience": [
-          "Those planning to open a business using a vacant store"
+          "Those planning to start a business by renting a vacant store in designated areas (Ota City residents)"
         ],
         "term_explanations": [],
         "five_w1h": {
-          "who": "Those starting a business using a vacant store (or those who wish to renovate)",
+          "who": "Those who plan to rent a vacant store in designated areas within the city for business and are residents of Ota City.",
           "what": "Vacant Store Countermeasures Renovation Support Project Subsidy",
           "when": "Apply strictly before starting construction and purchasing equipment; submit a performance report within 1 month after construction is completed",
-          "where": "Industrial Future Promotion Division",
+          "where": "Industrial Future Promotion Division (City Hall 5th Floor)",
           "why": "To promote commercial development in the city and revitalize the local economy by utilizing vacant stores",
           "how": "Complete preliminary consultations with the Fire Department, etc., and submit the application form and required documents to the counter"
         },
         "checklist": [
           {
-            "item": "Vacant Store Renovation Subsidy Application Form (空き店舗改修補助金申請書)",
-            "note": "Obtain from the Ota City Industrial Policy Division or the website",
+            "item": "Complete set of required documents",
+            "note": "Please be sure to check the PDF (List of documents required for subsidy application) on the official website.",
             "required": true
-          },
-          {
-            "item": "Construction Estimate (工事見積書)",
-            "note": "Prepared by the contractor, clearly stating the details and amount of renovation",
-            "required": true
-          },
-          {
-            "item": "Store Lease Agreement (copy) (店舗の賃貸借契約書)",
-            "note": "Used to confirm that you are the lessee of the vacant store",
-            "required": true
-          },
-          {
-            "item": "Photos of the construction area (before construction)",
-            "note": "Photos showing the current condition before renovation",
-            "required": true
-          },
-          {
-            "item": "Certificate of complete payment of city taxes, etc. (市税等の完納証明書)",
-            "note": "Obtain from the Ota City Taxation Division",
-            "required": true
-          },
-          {
-            "item": "Business Plan (事業計画書)",
-            "note": "Describe the content of the business to be opened and the income and expenditure plan",
-            "required": true
-          },
-          {
-            "item": "Business License (copy) (営業許可証)",
-            "note": "For industries that require licenses or permits, such as restaurants",
-            "required": false
           }
         ],
         "form_guide": null,
-        "faq": [
-          {
-            "question": "What kind of vacant store is eligible for the vacant store renovation subsidy?",
-            "answer": "Vacant stores in commercial areas, etc. in Ota City are eligible. Both self-owned vacant stores and leased vacant stores may be eligible. Please check with the City Hall Industrial Policy Division for specific target areas and requirements."
-          },
-          {
-            "question": "Can I use it for any type of business after renovation?",
-            "answer": "As a general rule, the condition is that it is used as a store for commerce, service industries, etc. Conversion to a residence or to a warehouse/parking lot is not eligible for the subsidy."
-          },
-          {
-            "question": "Can I use it at the same time as the rent subsidy?",
-            "answer": "You may be able to use it in combination with Ota City's vacant store rent support subsidy. However, since double subsidization for the same expense is not possible, please check the requirements for each and whether they can be combined in advance."
-          },
-          {
-            "question": "Must the subsidy application be made before construction?",
-            "answer": "Yes, you must apply before starting construction. Applications after the start of construction will not be accepted. Also, since there is an upper limit to the budget, we recommend consulting and applying early."
-          }
-        ],
-        "estimated_time": "About 1 week to prepare documents, about 30 minutes for procedures at the counter, review period 2-4 weeks",
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "empty-store-rent-support",
           "sales-channel-expansion-subsidy"
         ]
       },
       "pt": {
-        "title": "Subsídio para Reforma de Loja Vazia",
-        "easy_explanation": "## Objetivo do Subsídio\nPara revitalizar distritos comerciais, a cidade fornece um subsídio para parte dos custos de reforma àqueles que iniciam um novo negócio usando uma loja vazia na cidade.\n\n## Negócios Elegíveis\nVarejo, restaurantes, indústrias de serviços, etc.\n\n## Requisitos Principais\n- Deve ser uma loja vazia dentro da área designada\n- Deve continuar a operar por um determinado período de tempo\n- Deve usar um empreiteiro dentro da cidade para as reformas\n* Nota: Uma inscrição é necessária antes de iniciar a construção.",
-        "bottom_line": "Subsidiamos parte dos custos de reforma para aqueles que abrem uma nova loja reformando uma loja vazia na cidade.",
-        "amount_info": "Uma certa porcentagem de despesas elegíveis (com limite máximo)",
+        "title": "Subsídio para o Projeto de Apoio à Reforma de Medidas para Lojas Vazias",
+        "easy_explanation": "## Objetivo do Subsídio\nPromover a eliminação e o uso efetivo de lojas vazias, contribuindo para o desenvolvimento comercial e a revitalização da economia local.\n\n## Negócios Elegíveis\nInformação e comunicação, varejo, serviços especializados, restaurantes, serviços relacionados à vida diária, serviços médicos, etc.\n\n## Requisitos Principais\n- Deve ser uma loja vazia alugada em áreas designadas da cidade.\n- Deve continuar operando por 3 anos ou mais.\n- Deve usar um empreiteiro sediado ou com base na cidade para as reformas.\n* Nota: A inscrição e a consulta prévia devem ser feitas antes de iniciar a construção ou comprar equipamentos.",
+        "bottom_line": "Subsidia parte dos custos de reforma e compra de equipamentos para quem alugar uma loja vazia em áreas designadas da cidade e abrir um novo negócio.",
+        "amount_info": "Até 1/2 das despesas elegíveis (sem impostos). Limite máximo: 2 milhões de ienes para zonas comerciais/comerciais de bairro, 1 milhão de ienes para outras zonas elegíveis.",
         "target_audience": [
-          "Aqueles que planejam abrir um negócio usando uma loja vazia"
+          "Aqueles que planejam abrir um negócio alugando uma loja vazia em áreas designadas (residentes da cidade de Ota)"
         ],
         "term_explanations": [],
         "five_w1h": {
-          "who": "Aqueles que iniciam um negócio usando uma loja vazia (ou aqueles que desejam reformar)",
+          "who": "Aqueles que planejam alugar uma loja vazia em áreas designadas dentro da cidade para negócios e são residentes da cidade de Ota.",
           "what": "Subsídio do Projeto de Apoio à Reforma de Contramedidas para Lojas Vazias",
           "when": "Inscreva-se estritamente antes de iniciar a construção e comprar equipamentos; envie um relatório de desempenho no prazo de 1 mês após a conclusão da construção",
-          "where": "Divisão de Promoção do Futuro Industrial",
+          "where": "Divisão de Promoção do Futuro Industrial (Prefeitura, 5º andar)",
           "why": "Para promover o desenvolvimento comercial na cidade e revitalizar a economia local através da utilização de lojas vazias",
           "how": "Conclua as consultas preliminares com o Corpo de Bombeiros, etc., e envie o formulário de inscrição e os documentos necessários ao balcão"
         },
         "checklist": [
           {
-            "item": "Formulário de Inscrição para Subsídio de Reforma de Loja Vazia (空き店舗改修補助金申請書)",
-            "note": "Obtenha na Divisão de Política Industrial da Cidade de Ota ou no site",
+            "item": "Conjunto completo de documentos necessários",
+            "note": "Certifique-se de verificar o PDF (Lista de documentos necessários para o pedido de subsídio) no site oficial.",
             "required": true
-          },
-          {
-            "item": "Estimativa de Construção (工事見積書)",
-            "note": "Preparado pelo empreiteiro, informando claramente os detalhes e o valor da reforma",
-            "required": true
-          },
-          {
-            "item": "Contrato de Locação da Loja (cópia) (店舗の賃貸借契約書)",
-            "note": "Usado para confirmar que você é o locatário da loja vazia",
-            "required": true
-          },
-          {
-            "item": "Fotos da área de construção (antes da construção)",
-            "note": "Fotos mostrando a condição atual antes da reforma",
-            "required": true
-          },
-          {
-            "item": "Certificado de pagamento integral de impostos municipais, etc. (市税等の完納証明書)",
-            "note": "Obtenha na Divisão de Tributação da Cidade de Ota",
-            "required": true
-          },
-          {
-            "item": "Plano de Negócios (事業計画書)",
-            "note": "Descreva o conteúdo do negócio a ser aberto e o plano de receitas e despesas",
-            "required": true
-          },
-          {
-            "item": "Licença Comercial (cópia) (営業許可証)",
-            "note": "Para indústrias que exigem licenças ou autorizações, como restaurantes",
-            "required": false
           }
         ],
         "form_guide": null,
-        "faq": [
-          {
-            "question": "Que tipo de loja vazia é elegível para o subsídio de reforma de loja vazia?",
-            "answer": "Lojas vazias em áreas comerciais, etc. na Cidade de Ota são elegíveis. Tanto lojas vazias próprias quanto lojas vazias alugadas podem ser elegíveis. Verifique com a Divisão de Política Industrial da Prefeitura as áreas e os requisitos específicos."
-          },
-          {
-            "question": "Posso usá-lo para qualquer tipo de negócio após a reforma?",
-            "answer": "Como regra geral, a condição é que seja usado como loja para comércio, indústrias de serviços, etc. A conversão para residência ou para depósito/estacionamento não é elegível para o subsídio."
-          },
-          {
-            "question": "Posso usá-lo ao mesmo tempo que o subsídio de aluguel?",
-            "answer": "Você pode usá-lo em combinação com o subsídio de apoio ao aluguel de lojas vazias da Cidade de Ota. No entanto, uma vez que o duplo subsídio para a mesma despesa não é possível, verifique os requisitos para cada um e se eles podem ser combinados com antecedência."
-          },
-          {
-            "question": "A solicitação de subsídio deve ser feita antes da construção?",
-            "answer": "Sim, você deve se inscrever antes de iniciar a construção. Inscrições após o início da construção não serão aceitas. Além disso, como há um limite máximo para o orçamento, recomendamos que consulte e se inscreva com antecedência."
-          }
-        ],
-        "estimated_time": "Cerca de 1 semana para preparar os documentos, cerca de 30 minutos para os procedimentos no balcão, período de análise de 2 a 4 semanas",
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "empty-store-rent-support",
           "sales-channel-expansion-subsidy"
