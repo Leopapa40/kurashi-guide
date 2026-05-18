@@ -10941,8 +10941,8 @@
     "locales": {
       "ja": {
         "title": "米国関税対策支援策",
-        "easy_explanation": "## 制度の概要\n国際的な貿易摩擦や米国の関税引き上げなどの影響を受け、売上減少などの経営的打撃を受けている市内の中小企業を支援する緊急措置です。\n\n## 支援の内容\n影響を受けた企業に対する「特別融資枠」の設置や、経営相談窓口の開設などを行っています。\n資金繰りの悪化を防ぐため、通常の融資制度よりも要件が緩和されている場合があります。\n\n## 相談方法\nまずは市役所の産業支援担当窓口にご相談ください。",
-        "bottom_line": "貿易摩擦や関税の影響で業績が悪化している企業に対する、資金繰り等の緊急支援措置です。",
+        "easy_explanation": "## 制度の概要\n米国自動車関税措置などの影響を受けている市内の中小企業を支援するための総合案内ページです。特定の補助金単体ではなく、市・県・国や各種支援機関の支援策リンクがまとめられています。\n\n## 主な支援策（太田市）\n以下の7つの支援策が案内されています。\n1. 米国自動車関税措置等に伴う特別相談窓口\n2. 先端設備導入計画の認定\n3. 自社製品販路開拓事業助成金\n4. 太田市ぐんま技術革新チャレンジ補助金（※令和7年度は受付終了）\n5. 中小企業者向け融資制度のご案内\n6. ビジネスマッチングフェア\n7. DX推進補助金\n\n## 相談方法\nまずは太田市役所 産業環境部 産業ミライ推進課の「特別相談窓口」、または太田商工会議所にご相談ください。",
+        "bottom_line": "貿易摩擦や関税の影響を受けている事業者向けの総合支援ポータルです。まずは「特別相談窓口」をご利用ください。",
         "amount_info": null,
         "target_audience": [
           "米国の関税等の影響を受けている市内事業者"
@@ -10969,62 +10969,14 @@
           "who": "米国関税措置等の影響を受けている市内中小企業・小規模事業者",
           "what": "太田市・群馬県・国が連携した総合的な関税対策支援策（相談窓口設置、融資制度、補助金、経営支援等）",
           "when": "随時（各支援策の申請期間は個別に確認）",
-          "where": "太田市産業ミライ推進課、太田商工会議所、太田市新田商工会、各金融機関など",
+          "where": "太田市 産業環境部 産業ミライ推進課、太田商工会議所など",
           "why": "米国関税措置による市内ものづくり産業・自動車関連産業への影響を最小化するため",
           "how": "まず特別相談窓口（市役所）または太田商工会議所へ相談し、状況に応じて各支援策を活用する"
         },
-        "checklist": [
-          {
-            "item": "米国関税支援補助金申請書（太田市所定様式）",
-            "note": "太田市産業政策課またはホームページから入手（最新様式を確認）",
-            "required": true
-          },
-          {
-            "item": "米国向け輸出または米国産品輸入の実績を証明する書類",
-            "note": "輸出入申告書・インボイス等。影響を受けていることの証明に必要",
-            "required": true
-          },
-          {
-            "item": "市税等の完納証明書",
-            "note": "太田市税務課で取得",
-            "required": true
-          },
-          {
-            "item": "直近の決算書または確定申告書",
-            "note": "売上への影響を確認するため",
-            "required": true
-          },
-          {
-            "item": "被害・損失の詳細を記した書類",
-            "note": "関税措置による具体的な影響額・内容を説明する資料",
-            "required": true
-          },
-          {
-            "item": "法人の場合：登記事項証明書",
-            "note": "発行から3か月以内のもの",
-            "required": false
-          }
-        ],
+        "checklist": [],
         "form_guide": null,
-        "faq": [
-          {
-            "question": "米国関税対策支援策の対象は誰ですか？",
-            "answer": "米国への輸出または米国からの輸入で影響を受けている太田市内の中小企業・事業者が主な対象です。具体的な対象要件は公募要領または市役所産業政策課にご確認ください。"
-          },
-          {
-            "question": "支援の内容（補助・融資・相談）はどれですか？",
-            "answer": "補助金・融資・専門家相談などの複数の支援メニューがある場合があります。事業の状況に応じて最適な支援策を選べるため、まず市の産業政策課または商工会議所に相談することをお勧めします。"
-          },
-          {
-            "question": "関税の影響を受けていることの証明は必要ですか？",
-            "answer": "取引実績・輸出入実績の証明書類（契約書・送り状等）の提出が求められる場合があります。どのような書類が必要かは申請前に窓口で確認してください。"
-          },
-          {
-            "question": "他の補助金と組み合わせて申請できますか？",
-            "answer": "同一経費への二重補助は不可ですが、異なる経費に対する別の補助金との併用は認められる場合があります。まず窓口に相談して最適な組み合わせを検討してください。"
-          }
-        ],
-        "estimated_time": "初回相談：約30〜60分 / 申請書類準備：1〜2週間",
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "sme-loan-guide",
           "safety-net-guarantee-2-certification"
@@ -11032,73 +10984,42 @@
       },
       "en": {
         "title": "US Tariff Countermeasure Support Measures",
-        "easy_explanation": "## Overview of the System\nThis is an emergency measure to support small and medium-sized enterprises in the city that have suffered management blows such as a decline in sales due to the impact of international trade friction and the raising of tariffs by the United States.\n\n## Details of Support\nWe are setting up a \"special loan framework\" and opening management consultation desks for affected companies.\nTo prevent a deterioration of cash flow, the requirements may be more relaxed than the usual loan systems.\n\n## How to Consult\nFirst, please consult with the industrial support desk at City Hall.",
-        "bottom_line": "These are emergency support measures, such as cash flow assistance, for companies whose business performance has deteriorated due to trade friction and tariffs.",
+        "easy_explanation": "## Overview\nThis is a comprehensive guide page for small and medium-sized enterprises in the city affected by US automobile tariff measures. It provides links to support measures from the city, prefecture, national government, and various support organizations.\n\n## Main Support Measures (Ota City)\nThe following 7 support measures are provided:\n1. Special Consultation Desk for US Automobile Tariff Measures\n2. Certification of Advanced Facility Introduction Plans\n3. Subsidy for Developing Sales Channels for Own Products\n4. Ota City Gunma Tech Innovation Challenge Subsidy (*Closed for FY 2025)\n5. Financing System for Small and Medium Enterprises\n6. Business Matching Fair\n7. DX Promotion Subsidy\n\n## How to Consult\nPlease first consult the \"Special Consultation Desk\" at the Industrial Future Promotion Division, Industrial Environment Department, Ota City Hall, or the Ota Chamber of Commerce and Industry.",
+        "bottom_line": "This is a comprehensive support portal for businesses affected by trade friction and tariffs. Please use the 'Special Consultation Desk' first.",
         "amount_info": null,
         "target_audience": [
           "Businesses in the city affected by US tariffs, etc."
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "Tariff",
+            "explanation": "Taxes imposed on goods imported from foreign countries. The US imposing high tariffs on automobiles has affected Ota City's automobile-related industries."
+          },
+          {
+            "term": "Advanced Facility Introduction Plan",
+            "explanation": "A system where the city certifies plans for small and medium-sized enterprises to introduce the latest equipment to improve productivity."
+          },
+          {
+            "term": "Financing System",
+            "explanation": "A support system for borrowing money from financial institutions."
+          },
+          {
+            "term": "DX Promotion",
+            "explanation": "An initiative to use digital technology in business operations to improve efficiency and create new services."
+          }
+        ],
         "five_w1h": {
-          "who": "Small and medium-sized enterprises and micro enterprises in the city affected by US tariff measures, etc.",
+          "who": "Small and medium-sized enterprises in the city affected by US tariff measures",
           "what": "Comprehensive tariff countermeasure support measures coordinated by Ota City, Gunma Prefecture, and the national government (establishment of consultation desks, loan systems, subsidies, management support, etc.)",
           "when": "As needed (Check individually for the application period of each support measure)",
-          "where": "Ota City Industrial Future Promotion Division, Ota Chamber of Commerce and Industry, Ota City Nitta Chamber of Commerce and Industry, financial institutions, etc.",
+          "where": "Industrial Future Promotion Division, Industrial Environment Department, Ota City Hall, and Ota Chamber of Commerce and Industry",
           "why": "To minimize the impact of US tariff measures on the manufacturing and automobile-related industries in the city",
           "how": "First, consult with the special consultation desk (City Hall) or the Ota Chamber of Commerce and Industry, and use each support measure depending on the situation"
         },
-        "checklist": [
-          {
-            "item": "US Tariff Support Subsidy Application Form (米国関税支援補助金申請書)",
-            "note": "Obtain from the Ota City Industrial Policy Division or the website (check the latest format)",
-            "required": true
-          },
-          {
-            "item": "Documents proving the record of exports to the US or imports of US products",
-            "note": "Export/import declarations, invoices, etc. Necessary to prove that you are affected",
-            "required": true
-          },
-          {
-            "item": "Certificate of complete payment of city taxes, etc. (市税等の完納証明書)",
-            "note": "Obtain from the Ota City Taxation Division",
-            "required": true
-          },
-          {
-            "item": "Most recent financial statements or tax return",
-            "note": "To confirm the impact on sales",
-            "required": true
-          },
-          {
-            "item": "Documents detailing the damage and loss",
-            "note": "Materials explaining the specific amount and content of the impact caused by the tariff measures",
-            "required": true
-          },
-          {
-            "item": "For corporations: Certificate of Registered Matters (登記事項証明書)",
-            "note": "Issued within the last 3 months",
-            "required": false
-          }
-        ],
+        "checklist": [],
         "form_guide": null,
-        "faq": [
-          {
-            "question": "Who is eligible for the US tariff countermeasure support measures?",
-            "answer": "Small and medium-sized enterprises and businesses in Ota City that are affected by exports to or imports from the United States are the main targets. Please check the application guidelines or the City Hall Industrial Policy Division for specific eligibility requirements."
-          },
-          {
-            "question": "Which are the support details (subsidy, loan, consultation)?",
-            "answer": "There may be multiple support menus such as subsidies, loans, and expert consultations. Since you can choose the optimal support measure according to the business situation, we recommend that you first consult with the City's Industrial Policy Division or the Chamber of Commerce and Industry."
-          },
-          {
-            "question": "Do I need proof that I am affected by tariffs?",
-            "answer": "You may be asked to submit documentary evidence of your transaction record and export/import record (contracts, invoices, etc.). Please check at the counter what documents are required before applying."
-          },
-          {
-            "question": "Can I apply in combination with other subsidies?",
-            "answer": "Double subsidies for the same expense are not allowed, but combined use with other subsidies for different expenses may be permitted. First, consult with the counter and consider the best combination."
-          }
-        ],
-        "estimated_time": "Initial consultation: About 30-60 minutes / Application document preparation: 1-2 weeks",
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "sme-loan-guide",
           "safety-net-guarantee-2-certification"
@@ -11106,73 +11027,42 @@
       },
       "pt": {
         "title": "Medidas de Apoio às Contramedidas Tarifárias dos EUA",
-        "easy_explanation": "## Visão Geral do Sistema\nEsta é uma medida de emergência para apoiar pequenas e médias empresas na cidade que sofreram golpes na administração, como uma queda nas vendas devido ao impacto do atrito comercial internacional e ao aumento das tarifas pelos Estados Unidos.\n\n## Detalhes do Apoio\nEstamos estabelecendo uma \"estrutura especial de empréstimos\" e abrindo balcões de consultoria de gestão para as empresas afetadas.\nPara evitar uma deterioração do fluxo de caixa, os requisitos podem ser mais flexíveis do que os sistemas de empréstimos habituais.\n\n## Como Consultar\nPrimeiro, consulte o balcão de apoio industrial na Prefeitura.",
-        "bottom_line": "Estas são medidas de apoio de emergência, como assistência de fluxo de caixa, para empresas cujo desempenho nos negócios se deteriorou devido a atritos comerciais e tarifas.",
+        "easy_explanation": "## Visão Geral\nEsta é uma página de guia abrangente para pequenas e médias empresas na cidade afetadas pelas medidas tarifárias de automóveis dos EUA. Fornece links para medidas de apoio da cidade, província, governo nacional e várias organizações de apoio.\n\n## Principais Medidas de Apoio (Cidade de Ota)\nAs seguintes 7 medidas de apoio são fornecidas:\n1. Balcão de Consulta Especial para Medidas Tarifárias de Automóveis dos EUA\n2. Certificação de Planos de Introdução de Instalações Avançadas\n3. Subsídio para Desenvolvimento de Canais de Vendas para Produtos Próprios\n4. Subsídio de Desafio de Inovação Tecnológica de Gunma da Cidade de Ota (*Fechado para o ano fiscal de 2025)\n5. Sistema de Financiamento para Pequenas e Médias Empresas\n6. Feira de Correspondência de Negócios\n7. Subsídio de Promoção DX\n\n## Como Consultar\nPor favor, consulte primeiro o \"Balcão de Consulta Especial\" na Divisão de Promoção do Futuro Industrial, Departamento de Meio Ambiente Industrial, Prefeitura de Ota, ou a Câmara de Comércio e Indústria de Ota.",
+        "bottom_line": "Este é um portal de suporte abrangente para empresas afetadas por atritos comerciais e tarifas. Por favor, use primeiro o 'Balcão de Consulta Especial'.",
         "amount_info": null,
         "target_audience": [
           "Empresas na cidade afetadas pelas tarifas dos EUA, etc."
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "Tarifa",
+            "explanation": "Impostos cobrados sobre mercadorias importadas de países estrangeiros."
+          },
+          {
+            "term": "Plano de Introdução de Instalações Avançadas",
+            "explanation": "Um sistema onde a cidade certifica planos para pequenas e médias empresas introduzirem os equipamentos mais recentes para melhorar a produtividade."
+          },
+          {
+            "term": "Sistema de Financiamento",
+            "explanation": "Um sistema de apoio para empréstimos de instituições financeiras."
+          },
+          {
+            "term": "Promoção de DX",
+            "explanation": "Uma iniciativa para usar tecnologia digital nas operações de negócios para melhorar a eficiência e criar novos serviços."
+          }
+        ],
         "five_w1h": {
-          "who": "Pequenas e médias empresas e microempresas na cidade afetadas pelas medidas tarifárias dos EUA, etc.",
+          "who": "Pequenas e médias empresas na cidade afetadas pelas medidas tarifárias dos EUA",
           "what": "Medidas abrangentes de apoio às contramedidas tarifárias coordenadas pela Cidade de Ota, Província de Gunma e o governo nacional (estabelecimento de balcões de consulta, sistemas de empréstimo, subsídios, apoio à gestão, etc.)",
           "when": "Conforme necessário (Verifique individualmente o período de inscrição para cada medida de apoio)",
-          "where": "Divisão de Promoção do Futuro Industrial da Cidade de Ota, Câmara de Comércio e Indústria de Ota, Câmara de Comércio e Indústria de Nitta da Cidade de Ota, instituições financeiras, etc.",
+          "where": "Divisão de Promoção do Futuro Industrial, Departamento de Meio Ambiente Industrial, Prefeitura de Ota e Câmara de Comércio e Indústria de Ota",
           "why": "Para minimizar o impacto das medidas tarifárias dos EUA nas indústrias de manufatura e relacionadas a automóveis na cidade",
           "how": "Primeiro, consulte o balcão especial de consultas (Prefeitura) ou a Câmara de Comércio e Indústria de Ota e use cada medida de apoio de acordo com a situação"
         },
-        "checklist": [
-          {
-            "item": "Formulário de Inscrição para Subsídio de Apoio Tarifário dos EUA (米国関税支援補助金申請書)",
-            "note": "Obtenha na Divisão de Política Industrial da Cidade de Ota ou no site (verifique o formato mais recente)",
-            "required": true
-          },
-          {
-            "item": "Documentos que comprovem o registro de exportações para os EUA ou importações de produtos dos EUA",
-            "note": "Declarações de exportação/importação, faturas, etc. Necessário para provar que você foi afetado",
-            "required": true
-          },
-          {
-            "item": "Certificado de pagamento integral de impostos municipais, etc. (市税等の完納証明書)",
-            "note": "Obtenha na Divisão de Tributação da Cidade de Ota",
-            "required": true
-          },
-          {
-            "item": "Demonstrações financeiras mais recentes ou declaração de imposto",
-            "note": "Para confirmar o impacto nas vendas",
-            "required": true
-          },
-          {
-            "item": "Documentos detalhando os danos e perdas",
-            "note": "Materiais explicando o valor específico e o conteúdo do impacto causado pelas medidas tarifárias",
-            "required": true
-          },
-          {
-            "item": "Para corporações: Certificado de Matérias Registradas (登記事項証明書)",
-            "note": "Emitido nos últimos 3 meses",
-            "required": false
-          }
-        ],
+        "checklist": [],
         "form_guide": null,
-        "faq": [
-          {
-            "question": "Quem é elegível para as medidas de apoio às contramedidas tarifárias dos EUA?",
-            "answer": "Pequenas e médias empresas e negócios na Cidade de Ota que são afetados por exportações para ou importações dos Estados Unidos são os alvos principais. Verifique as diretrizes de inscrição ou a Divisão de Política Industrial da Prefeitura para os requisitos específicos de elegibilidade."
-          },
-          {
-            "question": "Quais são os detalhes do apoio (subsídio, empréstimo, consulta)?",
-            "answer": "Pode haver vários menus de apoio, como subsídios, empréstimos e consultas com especialistas. Como você pode escolher a medida de apoio ideal de acordo com a situação dos negócios, recomendamos que primeiro consulte a Divisão de Política Industrial da Cidade ou a Câmara de Comércio e Indústria."
-          },
-          {
-            "question": "Preciso de prova de que fui afetado pelas tarifas?",
-            "answer": "Você pode ser solicitado a enviar provas documentais de seu histórico de transações e histórico de exportação/importação (contratos, faturas, etc.). Verifique no balcão quais documentos são necessários antes de se inscrever."
-          },
-          {
-            "question": "Posso me inscrever em combinação com outros subsídios?",
-            "answer": "Não são permitidos subsídios duplos para a mesma despesa, mas pode ser permitido o uso combinado com outros subsídios para despesas diferentes. Primeiro, consulte o balcão e considere a melhor combinação."
-          }
-        ],
-        "estimated_time": "Consulta inicial: Cerca de 30-60 minutos / Preparação do documento de inscrição: 1-2 semanas",
+        "faq": [],
+        "estimated_time": null,
         "related_articles": [
           "sme-loan-guide",
           "safety-net-guarantee-2-certification"
