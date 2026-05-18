@@ -3783,7 +3783,18 @@
           "health-checkup-specific",
           "address-change-procedure",
           "move-out-notification",
-          "move-in-notification"
+          "move-in-notification",
+          "evacuation-map",
+          "multilingual-consultation",
+          "high-cost-medical",
+          "retirement-procedure",
+          "job-start-procedure",
+          "labor-consultation",
+          "disability-certificate",
+          "tax-reduction",
+          "work-injury-claim",
+          "job-search-support",
+          "traffic-accident-help"
         ]
       },
       "en": {
@@ -3879,7 +3890,18 @@
           "health-checkup-specific",
           "address-change-procedure",
           "move-out-notification",
-          "move-in-notification"
+          "move-in-notification",
+          "evacuation-map",
+          "multilingual-consultation",
+          "high-cost-medical",
+          "retirement-procedure",
+          "job-start-procedure",
+          "labor-consultation",
+          "disability-certificate",
+          "tax-reduction",
+          "work-injury-claim",
+          "job-search-support",
+          "traffic-accident-help"
         ]
       },
       "pt": {
@@ -3975,7 +3997,18 @@
           "health-checkup-specific",
           "address-change-procedure",
           "move-out-notification",
-          "move-in-notification"
+          "move-in-notification",
+          "evacuation-map",
+          "multilingual-consultation",
+          "high-cost-medical",
+          "retirement-procedure",
+          "job-start-procedure",
+          "labor-consultation",
+          "disability-certificate",
+          "tax-reduction",
+          "work-injury-claim",
+          "job-search-support",
+          "traffic-accident-help"
         ]
       }
     },
@@ -5066,7 +5099,9 @@
           "resident-card-copy",
           "marriage-registration",
           "divorce-registration",
-          "move-in-notification"
+          "move-in-notification",
+          "water-utility",
+          "visa-guide"
         ]
       },
       "en": {
@@ -5108,7 +5143,9 @@
           "resident-card-copy",
           "marriage-registration",
           "divorce-registration",
-          "move-in-notification"
+          "move-in-notification",
+          "water-utility",
+          "visa-guide"
         ]
       },
       "pt": {
@@ -5150,7 +5187,9 @@
           "resident-card-copy",
           "marriage-registration",
           "divorce-registration",
-          "move-in-notification"
+          "move-in-notification",
+          "water-utility",
+          "visa-guide"
         ]
       }
     },
@@ -6631,7 +6670,8 @@
           "birth-registration",
           "vaccination-schedule",
           "child-abuse-report",
-          "multilingual-consultation"
+          "multilingual-consultation",
+          "pregnancy-sos"
         ]
       },
       "en": {
@@ -6696,7 +6736,8 @@
           "birth-registration",
           "vaccination-schedule",
           "child-abuse-report",
-          "multilingual-consultation"
+          "multilingual-consultation",
+          "pregnancy-sos"
         ]
       },
       "pt": {
@@ -6761,7 +6802,8 @@
           "birth-registration",
           "vaccination-schedule",
           "child-abuse-report",
-          "multilingual-consultation"
+          "multilingual-consultation",
+          "pregnancy-sos"
         ]
       }
     },
@@ -8986,7 +9028,8 @@
           "national-health-insurance",
           "move-in-notification",
           "move-out-notification",
-          "marriage-registration"
+          "marriage-registration",
+          "water-utility"
         ]
       },
       "en": {
@@ -9011,7 +9054,8 @@
           "national-health-insurance",
           "move-in-notification",
           "move-out-notification",
-          "marriage-registration"
+          "marriage-registration",
+          "water-utility"
         ],
         "term_explanations": [],
         "form_guide": null
@@ -9038,7 +9082,8 @@
           "national-health-insurance",
           "move-in-notification",
           "move-out-notification",
-          "marriage-registration"
+          "marriage-registration",
+          "water-utility"
         ],
         "term_explanations": [],
         "form_guide": null
@@ -11657,7 +11702,9 @@
           "national-health-insurance",
           "dog-registration",
           "address-change-procedure",
-          "elementary-transfer"
+          "elementary-transfer",
+          "multilingual-consultation",
+          "water-utility"
         ]
       },
       "en": {
@@ -11720,7 +11767,9 @@
           "national-health-insurance",
           "dog-registration",
           "address-change-procedure",
-          "elementary-transfer"
+          "elementary-transfer",
+          "multilingual-consultation",
+          "water-utility"
         ],
         "term_explanations": [
           {
@@ -11794,7 +11843,9 @@
           "national-health-insurance",
           "dog-registration",
           "address-change-procedure",
-          "elementary-transfer"
+          "elementary-transfer",
+          "multilingual-consultation",
+          "water-utility"
         ],
         "term_explanations": [
           {
@@ -12039,7 +12090,14 @@
           "municipal-housing-application",
           "suicide-prevention",
           "dv-support",
-          "homeless-support"
+          "homeless-support",
+          "labor-consultation",
+          "legal-aid",
+          "disability-certificate",
+          "consumer-center",
+          "addiction-support",
+          "tax-reduction",
+          "job-search-support"
         ]
       },
       "en": {
@@ -12072,7 +12130,14 @@
           "municipal-housing-application",
           "suicide-prevention",
           "dv-support",
-          "homeless-support"
+          "homeless-support",
+          "labor-consultation",
+          "legal-aid",
+          "disability-certificate",
+          "consumer-center",
+          "addiction-support",
+          "tax-reduction",
+          "job-search-support"
         ]
       },
       "pt": {
@@ -12105,7 +12170,14 @@
           "municipal-housing-application",
           "suicide-prevention",
           "dv-support",
-          "homeless-support"
+          "homeless-support",
+          "labor-consultation",
+          "legal-aid",
+          "disability-certificate",
+          "consumer-center",
+          "addiction-support",
+          "tax-reduction",
+          "job-search-support"
         ]
       }
     },
@@ -12119,7 +12191,7 @@
     "locales": {
       "ja": {
         "title": "住居確保給付金",
-        "easy_explanation": "離職、廃業、または給与の減少により経済的に困窮し、住居を喪失した方またはその恐れがある方を対象に、家賃相当額（上限あり）を支給する制度です。公共職業安定所（ハローワーク）に求職申込みを行い、誠実かつ熱心に求職活動を行うことが要件となります。窓口は太田市役所 南庁舎1階の社会支援課です。",
+        "easy_explanation": "離職、廃業、または給与の減少により経済的に困窮し、住居を喪失した方またはその恐れがある方を対象に、家賃相当額（上限あり）を支給する制度です。公共職業安定所（ハローワーク）に求職申込みを行い、誠実かつ熱心に求職活動を行うことが要件となります。窓口は太田市役所 南庁舎1階の社会支援課（☎ 0276-47-1957）です。",
         "bottom_line": "失業や収入減で家賃にお困りの方は、社会支援課（0276-47-1957）へご相談ください。要件を満たせば家賃相当額が支給されます。",
         "amount_info": "基準額: 1人世帯78,000円、2人世帯115,000円、3人世帯140,000円。家賃上限額: 1人世帯30,700円、2人世帯37,000円、3人世帯39,900円。支給期間: 原則3か月（最大9か月）",
         "target_audience": [
@@ -12152,7 +12224,7 @@
       },
       "en": {
         "title": "Housing Security Benefit",
-        "easy_explanation": "[Translation Required] 離職、廃業、または給与の減少により経済的に困窮し、住居を喪失した方またはその恐れがある方を対象に、家賃相当額（上限あり）を支給する制度です。公共職業安定所（ハローワーク）に求職申込みを行い、誠実かつ熱心に求職活動を行うことが要件となります。窓口は太田市役所 南庁舎1階の社会支援課です。",
+        "easy_explanation": "[Translation Required] 離職、廃業、または給与の減少により経済的に困窮し、住居を喪失した方またはその恐れがある方を対象に、家賃相当額（上限あり）を支給する制度です。公共職業安定所（ハローワーク）に求職申込みを行い、誠実かつ熱心に求職活動を行うことが要件となります。窓口は太田市役所 南庁舎1階の社会支援課です。 (☎ 0276-47-1957)",
         "bottom_line": "[Translation Required] 失業や収入減で家賃にお困りの方は、社会支援課（0276-47-1957）へご相談ください。要件を満たせば家賃相当額が支給されます。",
         "amount_info": "[Translation Required] 基準額: 1人世帯78,000円、2人世帯115,000円、3人世帯140,000円。家賃上限額: 1人世帯30,700円、2人世帯37,000円、3人世帯39,900円。支給期間: 原則3か月（最大9か月）",
         "target_audience": [
@@ -12185,7 +12257,7 @@
       },
       "pt": {
         "title": "Benefício de Segurança Habitacional",
-        "easy_explanation": "[Translation Required] 離職、廃業、または給与の減少により経済的に困窮し、住居を喪失した方またはその恐れがある方を対象に、家賃相当額（上限あり）を支給する制度です。公共職業安定所（ハローワーク）に求職申込みを行い、誠実かつ熱心に求職活動を行うことが要件となります。窓口は太田市役所 南庁舎1階の社会支援課です。",
+        "easy_explanation": "[Translation Required] 離職、廃業、または給与の減少により経済的に困窮し、住居を喪失した方またはその恐れがある方を対象に、家賃相当額（上限あり）を支給する制度です。公共職業安定所（ハローワーク）に求職申込みを行い、誠実かつ熱心に求職活動を行うことが要件となります。窓口は太田市役所 南庁舎1階の社会支援課です。 (☎ 0276-47-1957)",
         "bottom_line": "[Translation Required] 失業や収入減で家賃にお困りの方は、社会支援課（0276-47-1957）へご相談ください。要件を満たせば家賃相当額が支給されます。",
         "amount_info": "[Translation Required] 基準額: 1人世帯78,000円、2人世帯115,000円、3人世帯140,000円。家賃上限額: 1人世帯30,700円、2人世帯37,000円、3人世帯39,900円。支給期間: 原則3か月（最大9か月）",
         "target_audience": [
@@ -12738,7 +12810,8 @@
           "housing-benefit",
           "child-abuse-report",
           "legal-aid",
-          "consumer-center"
+          "consumer-center",
+          "addiction-support"
         ]
       },
       "en": {
@@ -12789,7 +12862,8 @@
           "housing-benefit",
           "child-abuse-report",
           "legal-aid",
-          "consumer-center"
+          "consumer-center",
+          "addiction-support"
         ],
         "term_explanations": [
           {
@@ -12851,7 +12925,8 @@
           "housing-benefit",
           "child-abuse-report",
           "legal-aid",
-          "consumer-center"
+          "consumer-center",
+          "addiction-support"
         ],
         "term_explanations": [
           {
@@ -13355,7 +13430,9 @@
           "national-health-insurance",
           "pregnancy-notification",
           "visa-guide",
-          "japanese-class"
+          "japanese-class",
+          "foreign-school-entry",
+          "cultural-support"
         ]
       },
       "en": {
@@ -13422,7 +13499,9 @@
           "national-health-insurance",
           "pregnancy-notification",
           "visa-guide",
-          "japanese-class"
+          "japanese-class",
+          "foreign-school-entry",
+          "cultural-support"
         ]
       },
       "pt": {
@@ -13479,7 +13558,9 @@
           "national-health-insurance",
           "pregnancy-notification",
           "visa-guide",
-          "japanese-class"
+          "japanese-class",
+          "foreign-school-entry",
+          "cultural-support"
         ]
       }
     },
@@ -14494,7 +14575,11 @@
           "dv-support",
           "labor-consultation",
           "consumer-center",
-          "harassment-consultation"
+          "harassment-consultation",
+          "neighbor-mediation",
+          "net-trouble-help",
+          "traffic-accident-help",
+          "end-of-life-prep"
         ]
       },
       "en": {
@@ -14532,7 +14617,11 @@
           "dv-support",
           "labor-consultation",
           "consumer-center",
-          "harassment-consultation"
+          "harassment-consultation",
+          "neighbor-mediation",
+          "net-trouble-help",
+          "traffic-accident-help",
+          "end-of-life-prep"
         ],
         "term_explanations": [
           {
@@ -14577,7 +14666,11 @@
           "dv-support",
           "labor-consultation",
           "consumer-center",
-          "harassment-consultation"
+          "harassment-consultation",
+          "neighbor-mediation",
+          "net-trouble-help",
+          "traffic-accident-help",
+          "end-of-life-prep"
         ],
         "term_explanations": [
           {
