@@ -13074,11 +13074,11 @@
   {
     "id": "evacuation-map",
     "category": "safety",
-    "original_url": "https://www.city.ota.gunma.jp/page/1692.html",
+    "original_url": "https://www.city.ota.gunma.jp/",
     "locales": {
       "ja": {
         "title": "避難場所・ハザードマップ（太田市防災マップ）",
-        "easy_explanation": "📞 太田市役所 防災安全課: 0276-47-1111（代表）\n災害時の緊急情報: 太田市公式LINEに登録\n\n「地震が来たらどこに逃げる？」——今すぐ確認してください。\n\n太田市では「太田市防災マップ」と「太田市避難所マップ」を公式サイトで公開しています。洪水・土砂災害・地震それぞれのハザードマップで、自分の家の危険度と、最寄りの避難場所を確認できます。\n\n防災マップはPDF形式でダウンロードでき、スマートフォンに保存しておけば停電時でも確認できます。今のうちに家族で確認し、「どこに逃げるか」「どう連絡し合うか」を話し合っておきましょう。",
+        "easy_explanation": "📞 太田市役所 危機管理室: 0276-47-1916（直通）\n災害時の緊急情報: 太田市公式LINEに登録\n\n「地震が来たらどこに逃げる？」——今すぐ確認してください。\n\n太田市では「太田市防災マップ」と「太田市避難所マップ」を公式サイトで公開しています。洪水・土砂災害・地震それぞれのハザードマップで、自分の家の危険度と、最寄りの避難場所を確認できます。\n\n防災マップはPDF形式でダウンロードでき、日本語のほか、英語版（English）およびポルトガル語版（Português）の翻訳版も用意されています。スマートフォンに保存しておけば停電時でも確認できます。今のうちに家族で確認し、「どこに逃げるか」「どう連絡し合うか」を話し合っておきましょう。",
         "bottom_line": "太田市防災マップを今すぐ確認し、自宅のハザードと最寄りの避難場所を家族で共有しておきましょう。",
         "amount_info": null,
         "target_audience": [
@@ -13103,7 +13103,7 @@
           "who": "太田市在住のすべての市民",
           "what": "洪水・土砂・地震のハザード情報と最寄り避難場所の確認",
           "when": "今すぐ（災害前に確認することが重要）",
-          "where": "太田市公式サイト（スマートフォン・PCで確認）",
+          "where": "太田市公式ホームページ（危機管理室の防災マップページ）",
           "why": "災害発生時に慌てず安全に避難するため、事前に逃げ場所を知っておく必要があるため",
           "how": "防災マップページにアクセス → 自宅の住所周辺を確認 → 避難場所をメモ・スマホに保存"
         },
@@ -13158,31 +13158,31 @@
       },
       "en": {
         "title": "Evacuation Map and Hazard Map (Ota City Disaster Prevention Map)",
-        "easy_explanation": "📞 Ota City Hall Disaster Prevention and Safety Division: 0276-47-1111 (Main)\nEmergency info: Register for Ota City Official LINE\n\nYou are not alone. It's okay to ask for help.\n\"Where should I go if an earthquake hits?\" — Please check right now.\n\nOta City provides the \"Ota City Disaster Prevention Map\" and \"Ota City Evacuation Center Map\" on the official website. You can check the risk level of your home and the nearest evacuation centers for floods, landslides, and earthquakes.\n\nThe maps can be downloaded in PDF format and saved on your smartphone so you can view them even during power outages. Check them with your family now and discuss \"where to evacuate\" and \"how to contact each other\".",
+        "easy_explanation": "📞 Ota City Hall Crisis Management Office: 0276-47-1916 (Direct)\nDisaster Emergency Information: Register on the Ota City Official LINE\n\n\"Where will you run if an earthquake strikes?\" — Please check right now.\n\nOta City publishes the \"Ota City Disaster Prevention Map\" and \"Ota City Evacuation Map\" on its official website. You can check the risk level of your home and the nearest evacuation shelters on the respective hazard maps for floods, sediment disasters, and earthquakes.\n\nThe disaster prevention maps are available for download in PDF format. In addition to Japanese, translated versions in English and Portuguese are also available. Saving it on your smartphone allows you to check it even during a power outage. Talk with your family beforehand about \"where to evacuate\" and \"how to contact each other.\"",
         "bottom_line": "Check the Ota City Disaster Prevention Map right now and share your home's hazard risk and the nearest evacuation centers with your family.",
         "faq": [
           {
-            "question": "Is this service free?",
-            "answer": "Yes, consultation is free. The disaster prevention maps are available for free, and evacuation centers are also free to use."
+            "question": "Can I use the evacuation shelters even if I don't have money?",
+            "answer": "Yes. The disaster prevention maps are published for free, and evacuation shelters are completely free to use."
           },
           {
             "question": "Can I consult in a foreign language?",
-            "answer": "Yes, multilingual life guides are available. The foreign resident consultation desk (0276-48-1001) is also available to help."
+            "answer": "Yes. Ota City provides multi-language living guides. You can also contact the Ota City Foreign Resident Consultation Desk (0276-48-1001)."
           },
           {
-            "question": "Do I have to evacuate immediately if an evacuation instruction is issued?",
-            "answer": "If an \"Evacuation Instruction\" is issued, everyone must evacuate immediately. For \"Evacuation of the Elderly, etc.\", elderly people, people with disabilities, and infants evacuate first."
+            "question": "Do I have to evacuate immediately when an evacuation order is issued?",
+            "answer": "Yes. Everyone must evacuate immediately when an 'Evacuation Order' (Evacuation Level 4) is issued. 'Evacuation of the Elderly, etc.' (Evacuation Level 3) means elderly people, disabled individuals, and infants should evacuate first."
           },
           {
-            "question": "Can I bring my pet to the evacuation center?",
-            "answer": "Many evacuation centers do not allow pets. Please check in advance for facilities that allow \"evacuating with pets\"."
+            "question": "Can I bring my pet to the evacuation shelter?",
+            "answer": "Many evacuation shelters do not allow pets inside. Please check in advance for shelters that accept 'evacuation with pets' (pet-friendly shelters)."
           }
         ],
         "five_w1h": {
           "who": "All citizens living in Ota City",
           "what": "Check hazard info for floods, landslides, and earthquakes, and find the nearest evacuation center",
           "when": "Right now (It is important to check before a disaster occurs)",
-          "where": "Ota City Official Website (Check on your smartphone or PC)",
+          "where": "Ota City Official Website (Crisis Management Office page)",
           "why": "To know where to escape in advance so that you can evacuate safely without panicking when a disaster occurs",
           "how": "Access the Disaster Prevention Map page → Check the hazard risk around your home address → Note down the evacuation center or save it on your smartphone"
         },
@@ -13220,36 +13220,49 @@
           "All people living in Ota City",
           "Foreign residents (multilingual versions available)"
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "Hazard Map",
+            "explanation": "A map showing areas predicted to be affected by disasters such as floods, sediment disasters, and earthquakes, along with evacuation shelters."
+          },
+          {
+            "term": "Designated Evacuation Shelter",
+            "explanation": "Facilities designated by the city where people can evacuate during a disaster. These are often schools or community centers."
+          },
+          {
+            "term": "Evacuation Information",
+            "explanation": "Evacuation calls issued by the city according to warning levels, such as 'Evacuation of the Elderly, etc.' and 'Evacuation Order'."
+          }
+        ],
         "form_guide": null
       },
       "pt": {
         "title": "Mapa de Evacuação e Mapa de Risco (Mapa de Prevenção de Desastres da Cidade de Ota)",
-        "easy_explanation": "📞 Divisão de Prevenção de Desastres e Segurança da Prefeitura de Ota: 0276-47-1111 (Geral)\nInfo de emergência: Inscreva-se no LINE Oficial da Cidade de Ota\n\nVocê não está sozinho/a. Tudo bem pedir ajuda.\n\"Para onde devo fugir se houver um terremoto?\" — Por favor, verifique agora mesmo.\n\nA Cidade de Ota disponibiliza o \"Mapa de Prevenção de Desastres da Cidade de Ota\" e o \"Mapa de Centros de Evacuação da Cidade de Ota\" no site oficial. Você pode verificar o nível de risco da sua casa e os centros de evacuação mais próximos para inundações, deslizamentos de terra e terremotos.\n\nOs mapas podem ser baixados em formato PDF e salvos no seu smartphone para que você possa visualizá-los mesmo durante quedas de energia. Verifique-os com sua família agora e discuta \"para onde evacuar\" e \"como entrar em contato\".",
+        "easy_explanation": "📞 Prefeitura de Ota - Sala de Gerenciamento de Crises: 0276-47-1916 (Direto)\nInformações de Emergência em Desastres: Registre-se no LINE Oficial de Ota\n\n\"Para onde você vai fugir se ocorrer um terremoto?\" — Por favor, verifique agora mesmo.\n\nA Cidade de Ota publica o \"Mapa de Prevenção de Desastres de Ota\" e o \"Mapa de Abrigos de Ota\" em seu site oficial. Você pode verificar o nível de risco de sua casa e os abrigos de evacuação mais próximos nos respectivos mapas de riscos para enchentes, deslizamentos de terra e terremotos.\n\nOs mapas de prevenção de desastres estão disponíveis para download em formato PDF. Além do japonês, também estão disponíveis versões traduzidas em inglês e português. Salvar o mapa em seu smartphone permite que você o consulte mesmo durante uma queda de energia. Converse com sua família com antecedência sobre \"para onde evacuar\" e \"como entrar em contato uns com os outros\".",
         "bottom_line": "Verifique o Mapa de Prevenção de Desastres da Cidade de Ota agora mesmo e compartilhe o risco da sua casa e os centros de evacuação mais próximos com sua família.",
         "faq": [
           {
-            "question": "Este serviço é gratuito?",
-            "answer": "Sim, a consulta é gratuita. Os mapas de prevenção de desastres estão disponíveis gratuitamente e os centros de evacuação também são gratuitos."
+            "question": "Posso usar os abrigos de evacuação mesmo se não tiver dinheiro?",
+            "answer": "Sim. Os mapas de prevenção de desastres são publicados gratuitamente e o uso dos abrigos de evacuação é totalmente gratuito."
           },
           {
             "question": "Posso consultar em uma língua estrangeira?",
-            "answer": "Guias de vida multilíngues estão disponíveis. O balcão de consulta para estrangeiros (0276-48-1001) também está disponível para ajudar."
+            "answer": "Sim. A Cidade de Ota oferece guias de vida multilíngues. Você também pode entrar em contato com o Balcão de Consulta para Residentes Estrangeiros de Ota (0276-48-1001)."
           },
           {
-            "question": "Tenho que evacuar imediatamente se uma instrução de evacuação for emitida?",
-            "answer": "Se uma \"Instrução de Evacuação\" for emitida, todos devem evacuar imediatamente. Para a \"Evacuação de Idosos, etc.\", os idosos, pessoas com deficiência e bebês evacuam primeiro."
+            "question": "Preciso evacuar imediatamente quando uma ordem de evacuação for emitida?",
+            "answer": "Sim. Todos devem evacuar imediatamente quando uma 'Ordem de Evacuação' (Nível de Evacuação 4) for emitida. A 'Evacuação de Idosos, etc.' (Nível de Evacuação 3) significa que idosos, pessoas com deficiência e bebês devem evacuar primeiro."
           },
           {
-            "question": "Posso levar meu animal de estimação para o centro de evacuação?",
-            "answer": "Muitos centros de evacuação não permitem animais de estimação. Verifique com antecedência as instalações que permitem \"evacuação com animais de estimação\"."
+            "question": "Posso levar meu animal de estimação para o abrigo de evacuação?",
+            "answer": "Muitos abrigos de evacuação não permitem animais de estimação em seu interior. Por favor, verifique com antecedência os abrigos que aceitam 'evacuação com animais de estimação'."
           }
         ],
         "five_w1h": {
           "who": "Todos os cidadãos que moram na Cidade de Ota",
           "what": "Verificar informações de risco para inundações, deslizamentos e terremotos, e encontrar o centro de evacuação mais próximo",
           "when": "Agora mesmo (É importante verificar antes que um desastre ocorra)",
-          "where": "Site Oficial da Cidade de Ota (Verifique no smartphone ou PC)",
+          "where": "Site Oficial da Prefeitura de Ota (página da Sala de Gerenciamento de Crises)",
           "why": "Para saber para onde fugir com antecedência para poder evacuar com segurança sem pânico quando ocorrer um desastre",
           "how": "Acesse a página do Mapa de Prevenção de Desastres → Verifique o risco em torno do seu endereço → Anote o centro de evacuação ou salve no seu smartphone"
         },
@@ -13287,7 +13300,20 @@
           "Todas as pessoas que moram na Cidade de Ota",
           "Residentes estrangeiros (versões multilíngues disponíveis)"
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "Mapa de Riscos (Hazard Map)",
+            "explanation": "Um mapa que mostra as áreas que devem ser afetadas por desastres como enchentes, deslizamentos de terra e terremotos, juntamente com os abrigos de evacuação."
+          },
+          {
+            "term": "Abrigo de Evacuação Designado",
+            "explanation": "Instalações designadas pela cidade para onde as pessoas podem evacuar em caso de desastre. Geralmente são escolas ou centros comunitários."
+          },
+          {
+            "term": "Informações de Evacuação",
+            "explanation": "Chamadas de evacuação emitidas pela cidade de acordo com os níveis de alerta, como 'Evacuação de Idosos, etc.' e 'Ordem de Evacuação'."
+          }
+        ],
         "form_guide": null
       }
     },
