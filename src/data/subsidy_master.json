@@ -12841,7 +12841,7 @@
     "locales": {
       "ja": {
         "title": "児童虐待通報（189番・いちはやく）",
-        "easy_explanation": "📞 児童虐待の相談・通報: 189（いちはやく）\n24時間365日・通話無料・匿名OK\n太田市子育て支援センター: 0276-47-1111（代表）\n\nあなたが気づいたことが、子どもを救う第一歩になります。\n\n「子どもの泣き声が毎日続いている」「あざがあるのに親が説明できない」「食事を与えてもらっていないようだ」——そんな心配があれば、189番に電話してください。通告は義務ではなく「してもよい」権利ですが、子どもの命を守るためにためらわないでください。通告した人の情報は一切知らされません。\n\n「虐待してしまいそう」という親御さんも、189番または子育て支援センターに相談してください。責めるためではなく、一緒に解決策を考えます。",
+        "easy_explanation": "📞 児童虐待の相談・通報: 189（いちはやく）\n24時間365日・通話無料・匿名OK\n太田市こども家庭センター（子育てそうだん課）: 0276-47-1911\n群馬県東部児童相談所: 0276-57-6111\n\nあなたが気づいたことが、子どもを救う第一歩になります。\n\n「子どもの泣き声が毎日続いている」「あざがあるのに親が説明できない」「食事を与えてもらっていないようだ」——そんな心配があれば、189番に電話してください。通告は義務であり、子どもの命を守るためにためらわないでください。通告した人の情報は一切知らされません。\n\n「虐待してしまいそう」という親御さんも、189番、東部児童相談所、またはこども家庭センターに相談してください。責めるためではなく、一緒に解決策を考えます。",
         "bottom_line": "子どもへの虐待が疑われたら189番（いちはやく）へ。24時間無料・匿名OK。あなたの勇気が子どもを守ります。",
         "amount_info": null,
         "target_audience": [
@@ -12867,13 +12867,13 @@
           "who": "近所で虐待を疑う住民、または子育てに悩む親",
           "what": "虐待の相談・通報。児童相談所が調査・支援を行う",
           "when": "24時間365日いつでも",
-          "where": "電話（189）から。太田市は群馬県中央児童相談所が管轄",
+          "where": "電話（189）または群馬県東部児童相談所（0276-57-6111）。太田市は群馬県東部児童相談所が管轄",
           "why": "子どもは自分で助けを求めることが難しく、周囲の大人の通報が唯一の救済手段となるため",
           "how": "189に電話 → 状況を伝える → 児童相談所が調査・必要なら一時保護"
         },
         "checklist": [
           {
-            "item": "189に電話する",
+            "item": "189、東部児童相談所、またはこども家庭センターに電話する",
             "note": "「確信が持てない」でも大丈夫。相談だけでOK",
             "required": true
           }
@@ -12906,7 +12906,7 @@
       },
       "en": {
         "title": "Child Abuse Reporting (Dial 189)",
-        "easy_explanation": "📞 Child Abuse Consultation/Reporting: 189\n24 hours a day, 365 days a year / Toll-free / Anonymous OK\nOta City Child Support Center: 0276-47-1111 (Main)\n\nYou are not alone. It's not your fault.\n\nYour awareness can be the first step in saving a child. If you have concerns such as \"a child is crying every day,\" \"a child has bruises that the parents cannot explain,\" or \"it seems a child is not being fed,\" please call 189. Although reporting is not an obligation but a right, please do not hesitate to protect a child's life. The information of the person reporting will never be disclosed.\n\nParents who feel they might abuse their children can also consult by calling 189 or the Child Support Center. We are here to think of solutions together, not to blame.",
+        "easy_explanation": "📞 Child Abuse Consultation/Reporting: 189\n24 hours a day, 365 days a year / Toll-free / Anonymous OK\nOta City Child Family Center (Child Counseling Division): 0276-47-1911\nGunma Prefecture Tobu Child Guidance Center: 0276-57-6111\n\nYou are not alone. It's not your fault.\n\nYour awareness can be the first step in saving a child. If you have concerns such as \"a child is crying every day,\" \"a child has bruises that the parents cannot explain,\" or \"it seems a child is not being fed,\" please call 189. It is a duty to report child abuse, so please do not hesitate to protect a child's life. The information of the person reporting will never be disclosed.\n\nParents who feel they might abuse their children can also consult by calling 189, the Tobu Child Guidance Center, or the Child Family Center. We are here to think of solutions together, not to blame.",
         "bottom_line": "If child abuse is suspected, dial 189. 24 hours free and anonymous OK. Your courage protects children.",
         "amount_info": null,
         "target_audience": [
@@ -12918,13 +12918,13 @@
           "who": "Residents who suspect abuse in their neighborhood, or parents struggling with childcare",
           "what": "Consultation and reporting of abuse. The Child Guidance Center will investigate and provide support.",
           "when": "Anytime, 24 hours a day, 365 days a year",
-          "where": "By phone (189). Ota City is under the jurisdiction of the Gunma Prefecture Central Child Guidance Center.",
+          "where": "By phone (189) or Gunma Prefecture Tobu Child Guidance Center (0276-57-6111). Ota City is under the jurisdiction of the Gunma Prefecture Tobu Child Guidance Center.",
           "why": "Because children have difficulty seeking help on their own, and reporting by adults around them is the only means of rescue.",
           "how": "Call 189 → Explain the situation → The Child Guidance Center investigates and provides temporary protection if necessary."
         },
         "checklist": [
           {
-            "item": "Call 189 (189に電話する)",
+            "item": "Call 189, Tobu Child Guidance Center, or Child Family Center (189、東部児童相談所、またはこども家庭センターに電話する)",
             "note": "It's OK even if you're not completely sure. Just consulting is fine.",
             "required": true
           }
@@ -12957,12 +12957,25 @@
           "child-support-center",
           "pregnancy-notification"
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "189 (Ichihayaku)",
+            "explanation": "A dedicated hotline for consultation and reporting of child abuse. Calling it connects to the nearest Child Guidance Center. Available 24 hours, free of charge."
+          },
+          {
+            "term": "Child Abuse (児童虐待)",
+            "explanation": "A general term for physical violence, psychological abuse, sexual abuse, and neglect (abandonment) of children under the age of 18."
+          },
+          {
+            "term": "Child Guidance Center (児童相談所)",
+            "explanation": "A specialized institution for child welfare. It responds to child abuse reports, provides temporary protection, and offers parenting consultation."
+          }
+        ],
         "form_guide": null
       },
       "pt": {
         "title": "Denúncia de Abuso Infantil (Ligue 189)",
-        "easy_explanation": "📞 Consulta/Denúncia de Abuso Infantil: 189\n24 horas por dia, 365 dias por ano / Ligação gratuita / Anônimo OK\nCentro de Apoio à Criança da Cidade de Ota: 0276-47-1111 (Geral)\n\nVocê não está sozinho/a. Não é sua culpa.\n\nSua percepção pode ser o primeiro passo para salvar uma criança. Se você tiver preocupações como \"uma criança está chorando todos os dias\", \"uma criança tem hematomas que os pais não conseguem explicar\" ou \"parece que uma criança não está sendo alimentada\", por favor, ligue para 189. Embora a denúncia não seja uma obrigação, mas um direito, não hesite em proteger a vida de uma criança. As informações de quem denuncia nunca serão divulgadas.\n\nPais que sentem que podem abusar de seus filhos também podem consultar ligando para 189 ou para o Centro de Apoio à Criança. Estamos aqui para pensar em soluções juntos, não para culpar.",
+        "easy_explanation": "📞 Consulta/Denúncia de Abuso Infantil: 189\n24 horas por dia, 365 dias por ano / Ligação gratuita / Anônimo OK\nCentro de Apoio à Criança e Família de Ota (Divisão de Consulta Infantil): 0276-47-1911\nCentro de Orientação Infantil Tobu da Província de Gunma: 0276-57-6111\n\nVocê não está sozinho/a. Não é sua culpa.\n\nSua percepção pode ser o primeiro passo para salvar uma criança. Se você tiver preocupações como \"uma criança está chorando todos os dias\", \"uma criança tem hematomas que os pais não conseguem explicar\" ou \"parece que uma criança não está sendo alimentada\", por favor, ligue para 189. É um dever denunciar o abuso infantil, por isso não hesite em proteger a vida de uma criança. As informações de quem denuncia nunca serão divulgadas.\n\nPais que sentem que podem abusar de seus filhos também podem consultar ligando para 189, para o Centro de Orientação Infantil Tobu ou para o Centro de Apoio à Criança e Família. Estamos aqui para pensar em soluções juntos, não para culpar.",
         "bottom_line": "Se houver suspeita de abuso infantil, ligue para 189. 24 horas gratuito e anônimo OK. Sua coragem protege as crianças.",
         "amount_info": null,
         "target_audience": [
@@ -12974,13 +12987,13 @@
           "who": "Moradores que suspeitam de abuso na vizinhança ou pais com dificuldades na criação dos filhos",
           "what": "Consulta e denúncia de abuso. O Centro de Orientação Infantil investigará e fornecerá apoio.",
           "when": "A qualquer momento, 24 horas por dia, 365 dias por ano",
-          "where": "Por telefone (189). A Cidade de Ota está sob a jurisdição do Centro Central de Orientação Infantil da Província de Gunma.",
+          "where": "Por telefone (189) ou Centro de Orientação Infantil Tobu da Província de Gunma (0276-57-6111). A Cidade de Ota está sob a jurisdição do Centro de Orientação Infantil Tobu da Província de Gunma.",
           "why": "Porque as crianças têm dificuldade em procurar ajuda sozinhas, e a denúncia por adultos ao redor é o único meio de resgate.",
           "how": "Ligue para 189 → Explique a situação → O Centro de Orientação Infantil investiga e fornece proteção temporária, se necessário."
         },
         "checklist": [
           {
-            "item": "Ligue para 189 (189に電話する)",
+            "item": "Ligue para 189, Centro de Orientação Infantil Tobu ou Centro de Apoio à Criança e Família (189、東部児童相談所、またはこども家庭センターに電話する)",
             "note": "Tudo bem mesmo se não tiver certeza. Apenas consultar está bem.",
             "required": true
           }
@@ -13013,7 +13026,20 @@
           "child-support-center",
           "pregnancy-notification"
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "189 (Ichihayaku)",
+            "explanation": "Linha direta dedicada para consulta e denúncia de abuso infantil. Ao ligar, você será conectado ao Centro de Orientação Infantil mais próximo. Disponível 24 horas, gratuito."
+          },
+          {
+            "term": "Abuso Infantil (児童虐待)",
+            "explanation": "Termo geral para violência física, abuso psicológico, abuso sexual e negligência (abandono) de crianças menores de 18 anos."
+          },
+          {
+            "term": "Centro de Orientação Infantil (児童相談所)",
+            "explanation": "Instituição especializada em bem-estar infantil. Atende a denúncias de abuso, fornece proteção temporária e consultas sobre criação de filhos."
+          }
+        ],
         "form_guide": null
       }
     },
