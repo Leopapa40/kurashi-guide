@@ -12533,15 +12533,15 @@
         ],
         "term_explanations": [
           {
-            "term": "Yorisoi Hotline (よりそいホットライン)",
+            "term": "Yorisoi Hotline",
             "explanation": "A toll-free phone consultation service available 24/7/365 to listen to your worries. 0120-279-338."
           },
           {
-            "term": "Unified Mental Health Consultation Dial (こころの健康相談統一ダイヤル)",
+            "term": "Unified Mental Health Consultation Dial",
             "explanation": "A national phone number (0570-064-556) that automatically connects you to the public counseling center in your local area."
           },
           {
-            "term": "Inochi Sasaeru Consultation (いのちささえる相談)",
+            "term": "Inochi Sasaeru Consultation",
             "explanation": "A face-to-face consultation service by appointment with specialists, held at the Ota City Hall Disability Welfare Division and Ota City Health Center."
           }
         ],
@@ -12568,24 +12568,20 @@
         "form_guide": null,
         "faq": [
           {
-            "question": "Can I consult even if I have no money?",
-            "answer": "Yes. Consultation is completely free. It's a toll-free number, so there are no call charges."
+            "question": "Can I consult even if I don't have money?",
+            "answer": "Yes. Consultation is completely free of charge. The hotline is a toll-free number, so there are no phone charges."
           },
           {
             "question": "Can I consult in a foreign language?",
-            "answer": "The Yorisoi Hotline (0120-279-338) offers multilingual support."
+            "answer": "Yes. The Yorisoi Hotline (0120-279-338) supports foreign languages."
           },
           {
-            "question": "Do I have to say my name?",
-            "answer": "You don't have to say your name. You can consult anonymously."
+            "question": "Do I have to give my name?",
+            "answer": "No. You do not need to give your name. You can consult anonymously."
           },
           {
-            "question": "I am worried about a family member. What should I do?",
-            "answer": "You can also call the same number to consult as a family member. Please tell us, 'I am worried about someone important to me...'"
-          },
-          {
-            "question": "Is this service free?",
-            "answer": "Yes. The Yorisoi Hotline (0120-279-338) is toll-free, 24 hours a day."
+            "question": "I am worried about my family member. Can I consult?",
+            "answer": "Yes. You can consult as a family member using the same number. Please say, \"I am worried about my loved one...\""
           }
         ],
         "estimated_time": "Telephone consultation: From 15 minutes (you can talk as much as you want)",
@@ -12609,15 +12605,15 @@
         ],
         "term_explanations": [
           {
-            "term": "Linha Direta Yorisoi (よりそいホットライン)",
+            "term": "Linha Direta Yorisoi",
             "explanation": "Um serviço de consulta telefônica gratuito disponível 24 horas por dia, 7 dias por semana, 365 dias por ano para ouvir suas preocupações. 0120-279-338."
           },
           {
-            "term": "Dial Unificado de Consulta de Saúde Mental (こころの健康相談統一ダイヤル)",
+            "term": "Dial Unificado de Consulta de Saúde Mental",
             "explanation": "Um número de telefone nacional (0570-064-556) que o conecta automaticamente ao centro de aconselhamento público em sua área local."
           },
           {
-            "term": "Consulta Inochi Sasaeru (いのちささえる相談)",
+            "term": "Consulta Inochi Sasaeru",
             "explanation": "Um serviço de consulta presencial com agendamento prévio com especialistas, realizado na Divisão de Bem-estar para Pessoas com Deficiência de Ota e no Centro de Saúde de Ota."
           }
         ],
@@ -12645,23 +12641,19 @@
         "faq": [
           {
             "question": "Posso consultar mesmo se não tiver dinheiro?",
-            "answer": "Sim. A consulta é totalmente gratuita. É um número com ligação gratuita, portanto não há custos de chamada."
+            "answer": "Sim. A consulta é totalmente gratuita. A linha direta é um número gratuito, portanto, não há tarifas telefônicas."
           },
           {
             "question": "Posso consultar em uma língua estrangeira?",
-            "answer": "O Yorisoi Hotline (0120-279-338) oferece suporte multilíngue."
+            "answer": "Sim. A Linha Direta Yorisoi (0120-279-338) oferece atendimento em vários idiomas."
           },
           {
-            "question": "Tenho que dizer meu nome?",
-            "answer": "Você não precisa dizer seu nome. Você pode consultar anonimamente."
+            "question": "Preciso dizer meu nome?",
+            "answer": "Não. Você não precisa dizer seu nome. Você pode consultar anonimamente."
           },
           {
-            "question": "Estou preocupado com um membro da família. O que devo fazer?",
-            "answer": "Você também pode ligar para o mesmo número para consultar como um membro da família. Por favor, diga-nos: 'Estou preocupado com alguém importante para mim...'"
-          },
-          {
-            "question": "Este serviço é gratuito?",
-            "answer": "Sim. O Yorisoi Hotline (0120-279-338) é gratuito, 24 horas por dia."
+            "question": "Estou preocupado/a com o meu familiar. Posso consultar?",
+            "answer": "Sim. Você pode ligar como familiar usando o mesmo número. Por favor, diga: \"Estou preocupado/a com meu ente querido...\""
           }
         ],
         "estimated_time": "Consulta telefônica: A partir de 15 minutos (você pode falar o quanto quiser)",
