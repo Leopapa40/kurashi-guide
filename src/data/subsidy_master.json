@@ -12992,11 +12992,11 @@
             "explanation": "A dedicated hotline for consultation and reporting of child abuse. Calling it connects to the nearest Child Guidance Center. Available 24 hours, free of charge."
           },
           {
-            "term": "Child Abuse (児童虐待)",
+            "term": "Child Abuse",
             "explanation": "A general term for physical violence, psychological abuse, sexual abuse, and neglect (abandonment) of children under the age of 18."
           },
           {
-            "term": "Child Guidance Center (児童相談所)",
+            "term": "Child Guidance Center",
             "explanation": "A specialized institution for child welfare. It responds to child abuse reports, provides temporary protection, and offers parenting consultation."
           }
         ],
@@ -13057,11 +13057,11 @@
             "explanation": "Linha direta dedicada para consulta e denúncia de abuso infantil. Ao ligar, você será conectado ao Centro de Orientação Infantil mais próximo. Disponível 24 horas, gratuito."
           },
           {
-            "term": "Abuso Infantil (児童虐待)",
+            "term": "Abuso Infantil",
             "explanation": "Termo geral para violência física, abuso psicológico, abuso sexual e negligência (abandono) de crianças menores de 18 anos."
           },
           {
-            "term": "Centro de Orientação Infantil (児童相談所)",
+            "term": "Centro de Orientação Infantil",
             "explanation": "Instituição especializada em bem-estar infantil. Atende a denúncias de abuso, fornece proteção temporária e consultas sobre criação de filhos."
           }
         ],
