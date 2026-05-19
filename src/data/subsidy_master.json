@@ -12945,10 +12945,6 @@
           {
             "question": "Will the name of the person who reported be revealed?",
             "answer": "The reporter's information will never be revealed. We accept anonymous reports."
-          },
-          {
-            "question": "Is this service free?",
-            "answer": "Yes, consultation is free of charge."
           }
         ],
         "estimated_time": "Phone consultation: A few minutes to 30 minutes",
@@ -13014,10 +13010,6 @@
           {
             "question": "O nome da pessoa que denunciou será revelado?",
             "answer": "As informações do denunciante nunca serão reveladas. Aceitamos denúncias anônimas."
-          },
-          {
-            "question": "Este serviço é gratuito?",
-            "answer": "Sim, a consulta é gratuita."
           }
         ],
         "estimated_time": "Consulta por telefone: Alguns minutos a 30 minutos",
