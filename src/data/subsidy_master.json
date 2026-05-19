@@ -12451,7 +12451,7 @@
     "locales": {
       "ja": {
         "title": "こころの健康相談・自殺防止ホットライン",
-        "easy_explanation": "📞 今すぐ話せる相談窓口:\n・いのちの電話: 0570-783-556（毎日16時〜21時、毎月10日は8時〜翌8時）\n・こころの健康相談統一ダイヤル: 0570-064-556\n・よりそいホットライン: 0120-279-338（24時間）\n\nあなたは悪くありません。一人で抱え込まないでください。\n\n死にたい、消えてしまいたい、誰にも言えない苦しさを抱えているとき、電話一本で話を聞いてくれる人がいます。話すことで気持ちが楽になることがあります。名前を言わなくても大丈夫です。どんな小さなことでも、今の気持ちをそのまま話してください。",
+        "easy_explanation": "📞 太田市の相談窓口（予約制）:\n・いのちささえる相談: 0276-47-1828（障がい福祉課）または 0276-46-5115（太田市保健センター）\n※毎週金曜日 午後1時〜3時、精神保健福祉士や社会福祉士等の専門家が個別に相談に応じます。\n\n📞 今すぐ話せる相談窓口（全国・県）:\n・よりそいホットライン: 0120-279-338（24時間365日対応・通話無料）\n・いのちの電話: 0570-783-556（毎日16時〜21時、毎月10日は8時〜翌8時）\n・こころの健康相談統一ダイヤル: 0570-064-556（お近くの公的相談窓口に接続）\n※群馬県のLINE相談「こころのオンライン相談＠ぐんま」なども利用できます。\n\nあなたは悪くありません。一人で抱え込まないでください。\n\n死にたい、消えてしまいたい、誰にも言えない苦しさを抱えているとき、電話一本で話を聞いてくれる人がいます。名前を言わなくても大丈夫です。どんな小さなことでも、今の気持ちをそのまま話してください。",
         "bottom_line": "つらいとき、一人で抱え込まないでください。「よりそいホットライン 0120-279-338」は24時間無料で話を聞きます。",
         "amount_info": null,
         "target_audience": [
@@ -12462,30 +12462,35 @@
         "term_explanations": [
           {
             "term": "よりそいホットライン",
-            "explanation": "24時間365日、無料で話を聞いてくれる電話相談窓口。0120-279-338。"
+            "explanation": "24時間365日、通話無料で悩みを相談できる電話窓口。0120-279-338。"
           },
           {
             "term": "こころの健康相談統一ダイヤル",
-            "explanation": "全国共通の電話番号（0570-064-556）で、その地域の相談機関につながる。"
+            "explanation": "全国共通の電話番号（0570-064-556）で、電話をかけた所在地の公的な相談機関に自動で接続される窓口。"
           },
           {
-            "term": "自殺対策（じさつたいさく）",
-            "explanation": "太田市も「太田市自殺対策推進計画」に基づき、相談窓口の充実と啓発活動を行っている。"
+            "term": "いのちささえる相談",
+            "explanation": "太田市役所の障がい福祉課や太田市保健センターで実施している、専門資格者による予約制の個別面談・相談窓口。"
           }
         ],
         "five_w1h": {
           "who": "死にたい・消えたいという気持ちになっている方、または心がつらい方",
           "what": "電話やSNSによる無料の傾聴・相談サービス",
           "when": "24時間365日（窓口により異なる）",
-          "where": "電話・スマートフォンから。太田市役所でも相談可能",
+          "where": "電話・スマートフォンから。または太田市役所 障がい福祉課（0276-47-1828）や太田市保健センター（0276-46-5115）での予約制面接相談",
           "why": "一人で抱え込まず、話すことで気持ちが楽になり、次の一歩を考えられるようになるため",
           "how": "電話する → 話を聞いてもらう → 必要に応じて専門機関を紹介してもらう"
         },
         "checklist": [
           {
             "item": "まず電話してみる（0120-279-338 よりそいホットライン）",
-            "note": "名前を言わなくても大丈夫",
+            "note": "24時間対応・通話料無料・匿名OK",
             "required": true
+          },
+          {
+            "item": "太田市の「いのちささえる相談」を予約する（金曜の面接相談）",
+            "note": "障がい福祉課（0276-47-1828）または保健センター（0276-46-5115）へ電話予約",
+            "required": false
           }
         ],
         "form_guide": null,
@@ -12518,7 +12523,7 @@
       },
       "en": {
         "title": "Mental Health Consultation / Suicide Prevention Hotline",
-        "easy_explanation": "📞 Consultation Desks Available Now:\n・Inochi no Denwa (Lifeline): 0570-783-556 (Every day 16:00-21:00, 10th of every month 8:00-8:00 next day)\n・Mental Health Consultation Dial: 0570-064-556\n・Yorisoi Hotline: 0120-279-338 (24 hours, toll-free)\n\nYou are not alone. You don't have to face this alone.\n\nWhen you have thoughts of ending your life, wanting to disappear, and carrying pain you can't tell anyone, there is someone who will listen to you with just one phone call. Talking can make you feel better. You don't have to tell us your name. Please tell us how you feel right now, no matter how small it may seem. The Yorisoi Hotline offers multilingual support.",
+        "easy_explanation": "📞 Ota City Consultation (Appointment Required):\n- Inochi Sasaeru Consultation: 0276-47-1828 (Disability Welfare Division) or 0276-46-5115 (Ota City Health Center)\n*Every Friday 13:00-15:00. Mental health professionals provide counseling.\n\n📞 Phone/SNS Consultation (National/Prefectural):\n- Yorisoi Hotline: 0120-279-338 (24 hours a day, 365 days a year / Toll-free)\n- Inochi no Denwa: 0570-783-556 (Every day 16:00-21:00, 10th of every month 8:00 to 8:00 next day)\n- Kokoro no Kenko Sodan Unified Dial: 0570-064-556 (Connects to local public counseling centers)\n*Gunma Prefecture's LINE consultation \"Kokoro no Online Sodan @ Gunma\" is also available.\n\nYou are not alone. It's not your fault.\n\nWhen you feel like dying, disappearing, or are carrying pain you cannot tell anyone, there are people who will listen to you over the phone. You do not need to give your name. Please talk about your current feelings, no matter how small.",
         "bottom_line": "When you are having a hard time, you don't have to face this alone. The \"Yorisoi Hotline 0120-279-338\" will listen to you 24 hours a day, toll-free.",
         "amount_info": null,
         "target_audience": [
@@ -12526,20 +12531,38 @@
           "Those whose hearts are aching and feel they can't tell anyone",
           "Those who are worried that a loved one is a person who is thinking about suicide"
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "Yorisoi Hotline (よりそいホットライン)",
+            "explanation": "A toll-free phone consultation service available 24/7/365 to listen to your worries. 0120-279-338."
+          },
+          {
+            "term": "Unified Mental Health Consultation Dial (こころの健康相談統一ダイヤル)",
+            "explanation": "A national phone number (0570-064-556) that automatically connects you to the public counseling center in your local area."
+          },
+          {
+            "term": "Inochi Sasaeru Consultation (いのちささえる相談)",
+            "explanation": "A face-to-face consultation service by appointment with specialists, held at the Ota City Hall Disability Welfare Division and Ota City Health Center."
+          }
+        ],
         "five_w1h": {
           "who": "Those who have thoughts of ending your life, wanting to disappear, or whose hearts are aching",
           "what": "Free listening and consultation services via phone or social media",
           "when": "24 hours a day, 365 days a year (varies by consultation desk)",
-          "where": "From your phone or smartphone. You can also consult at Ota City Hall",
+          "where": "By phone or smartphone. Face-to-face counseling by appointment is also available at Ota City Hall Disability Welfare Division (0276-47-1828) or Ota City Health Center (0276-46-5115).",
           "why": "Because by not facing it alone and talking about it, your feelings can ease, and you will be able to think about the next step",
           "how": "Make a phone call -> Have someone listen to you -> Be introduced to specialized institutions if necessary"
         },
         "checklist": [
           {
-            "item": "First, try calling (0120-279-338 Yorisoi Hotline)",
-            "note": "You don't have to tell us your name",
+            "item": "Call Yorisoi Hotline first (0120-279-338 よりそいホットライン)",
+            "note": "24 hours / Toll-free / Anonymous OK",
             "required": true
+          },
+          {
+            "item": "Book Ota City \"Inochi Sasaeru Consultation\" (Friday face-to-face counseling)",
+            "note": "Call Disability Welfare Division (0276-47-1828) or Health Center (0276-46-5115) to make an appointment",
+            "required": false
           }
         ],
         "form_guide": null,
@@ -12576,7 +12599,7 @@
       },
       "pt": {
         "title": "Consulta de Saúde Mental / Linha Direta de Prevenção ao Suicídio",
-        "easy_explanation": "📞 Balcões de Consulta Disponíveis Agora:\n・Inochi no Denwa (Linha de Vida): 0570-783-556 (Todos os dias 16:00-21:00, dia 10 de cada mês 8:00-8:00 do dia seguinte)\n・Linha de Consulta de Saúde Mental: 0570-064-556\n・Yorisoi Hotline: 0120-279-338 (24 horas, ligação gratuita)\n\nVocê não está sozinho/a. Você não precisa enfrentar isso sozinho/a.\n\nQuando você tem pensamentos de acabar com a vida, querer desaparecer, e carregar uma dor que não pode contar a ninguém, há alguém que vai ouvi-lo/a com apenas um telefonema. Falar pode fazer você se sentir melhor. Você não precisa nos dizer o seu nome. Por favor, diga-nos como você se sente agora, não importa o quão pequeno pareça. O Yorisoi Hotline oferece suporte multilíngue.",
+        "easy_explanation": "📞 Consultas da Cidade de Ota (Agendamento Necessário):\n- Consulta Inochi Sasaeru (Apoio à Vida): 0276-47-1828 (Divisão de Bem-estar para Pessoas com Deficiência) ou 0276-46-5115 (Centro de Saúde de Ota)\n*Todas as sextas-feiras das 13:00 às 15:00. Profissionais de saúde mental prestam aconselhamento.\n\n📞 Canais de Aconselhamento por Telefone/SNS (Nacional/Provincial):\n- Linha Direta Yorisoi: 0120-279-338 (24 horas por dia, 365 dias por ano / Ligação gratuita)\n- Inochi no Denwa: 0570-783-556 (Todos os dias das 16:00 às 21:00, todo dia 10 das 8:00 às 8:00 do dia seguinte)\n- Dial Unificado de Consulta de Saúde Mental Kokoro: 0570-064-556 (Conecta aos centros públicos de consulta locais)\n*A consulta via LINE da Província de Gunma \"Kokoro no Online Sodan @ Gunma\" também está disponível.\n\nVocê não está sozinho/a. Não é sua culpa.\n\nQuando você sentir vontade de morrer, desaparecer ou estiver carregando uma dor que não pode contar a ninguém, existem pessoas que o ouvirão pelo telefone. Você não precisa dizer seu nome. Fale sobre seus sentimentos atuais, não importa quão pequenos pareçam.",
         "bottom_line": "Quando você estiver passando por momentos difíceis, você não precisa enfrentar isso sozinho/a. O \"Yorisoi Hotline 0120-279-338\" irá ouvi-lo/a 24 horas por dia, com ligação gratuita.",
         "amount_info": null,
         "target_audience": [
@@ -12584,20 +12607,38 @@
           "Aqueles cujos corações estão doendo e sentem que não podem contar a ninguém",
           "Aqueles que estão preocupados que um ente querido seja uma pessoa que está pensando em suicídio"
         ],
-        "term_explanations": [],
+        "term_explanations": [
+          {
+            "term": "Linha Direta Yorisoi (よりそいホットライン)",
+            "explanation": "Um serviço de consulta telefônica gratuito disponível 24 horas por dia, 7 dias por semana, 365 dias por ano para ouvir suas preocupações. 0120-279-338."
+          },
+          {
+            "term": "Dial Unificado de Consulta de Saúde Mental (こころの健康相談統一ダイヤル)",
+            "explanation": "Um número de telefone nacional (0570-064-556) que o conecta automaticamente ao centro de aconselhamento público em sua área local."
+          },
+          {
+            "term": "Consulta Inochi Sasaeru (いのちささえる相談)",
+            "explanation": "Um serviço de consulta presencial com agendamento prévio com especialistas, realizado na Divisão de Bem-estar para Pessoas com Deficiência de Ota e no Centro de Saúde de Ota."
+          }
+        ],
         "five_w1h": {
           "who": "Aqueles que têm pensamentos de acabar com a vida, querer desaparecer, ou cujos corações estão doendo",
           "what": "Serviços gratuitos de escuta e consulta por telefone ou redes sociais",
           "when": "24 horas por dia, 365 dias por ano (varia de acordo com o balcão de consulta)",
-          "where": "Do seu telefone ou smartphone. Você também pode consultar na Prefeitura da Cidade de Ota",
+          "where": "Por telefone ou smartphone. O atendimento presencial com agendamento também está disponível na Divisão de Bem-estar para Pessoas com Deficiência de Ota (0276-47-1828) ou no Centro de Saúde de Ota (0276-46-5115).",
           "why": "Porque não enfrentando isso sozinho/a e falando sobre isso, seus sentimentos podem aliviar, e você poderá pensar no próximo passo",
           "how": "Fazer um telefonema -> Ter alguém para ouvi-lo/a -> Ser apresentado a instituições especializadas se necessário"
         },
         "checklist": [
           {
-            "item": "Primeiro, tente ligar (0120-279-338 Yorisoi Hotline)",
-            "note": "Você não precisa nos dizer seu nome",
+            "item": "Ligue para a Linha Direta Yorisoi primeiro (0120-279-338 よりそいホットライン)",
+            "note": "24 horas / Ligação gratuita / Anônimo OK",
             "required": true
+          },
+          {
+            "item": "Agendar a \"Consulta Inochi Sasaeru\" de Ota (aconselhamento presencial às sextas-feiras)",
+            "note": "Ligue para a Divisão de Bem-estar para Pessoas com Deficiência (0276-47-1828) ou Centro de Saúde (0276-46-5115) para agendar",
+            "required": false
           }
         ],
         "form_guide": null,
