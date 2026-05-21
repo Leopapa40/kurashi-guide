@@ -17211,190 +17211,216 @@
     "locales": {
       "ja": {
         "title": "被災者支援・り災証明書の申請",
-        "easy_explanation": "地震・台風・水害などの災害で家が壊れたり、浸水したりした場合、「り災証明書（りさいしょうめいしょ）」を申請することで各種支援を受けられます。\n\n【り災証明書とは】\n市が家屋の被害程度を調査し、証明する書類です。住宅ローン減免・義援金・各種支援制度を申請する際に必要です。\n\n【り災証明書の申請先】\n太田市役所 建築指導課または危機管理課\n📞 電話: 0276-47-1111（代表）→担当課へ\n\n【受けられる可能性がある支援】\n・被災者生活再建支援金（最大300万円）\n・太田市災害見舞金\n・住宅ローン返済猶予\n・市税の減免\n\n被害があったらまず写真を撮り、早めに市役所に連絡してください。",
-        "bottom_line": "災害で家が被害を受けたらまず写真を撮り、り災証明書を申請しましょう。各種支援金や減税の申請に必要な重要書類です。",
+        "easy_explanation": "地震・台風・水害などの災害で家が壊れたり、浸水したりした場合、「り災証明書」を申請することで各種支援を受けられます。\n\n【り災証明書とは】\n市が家屋の被害程度を調査し、証明する書類です。支援金や市税の減免、保険請求などを申請する際に必要になります。\n\n【り災証明書の申請先（自然災害）】\n太田市役所 危機管理室 危機管理係（低層棟3階）\n📞 電話: 0276-47-1916（直通）\n※火災によるり災証明書は、所轄の消防署（中央・東部・西部消防署）が窓口です。\n\n【被災者生活再建支援金の申請先】\n太田市役所 社会支援課 管理係（南庁舎1階）\n📞 電話: 0276-47-1827（直通）\n※住宅が全壊・大規模半壊した世帯や、半壊してやむを得ず解体した「解体世帯」などが対象となります。\n\n被害があったら、片付けや修理をする前に、まずスマホ等で被害状況の写真を撮影し、早めに申請してください。",
+        "bottom_line": "災害で自宅が被害を受けたら、まずは修理前に写真を撮影し、「り災証明書」の申請を行いましょう。生活再建のための重要な書類です。",
         "amount_info": null,
         "target_audience": [
-          "地震・台風・水害等で住宅被害を受けた方",
-          "り災証明書が必要な方",
-          "被災者生活再建支援を申請したい方"
+          "地震や台風、大雨などの自然災害で住宅や建物に被害を受けた方",
+          "被害状況を証明するための「り災証明書」が必要な方",
+          "「被災者生活再建支援金」などの生活再建支援制度を利用したい方"
+        ],
+        "five_w1h": {
+          "who": "太田市内で災害により住宅などに被害を受けた被災世帯の世帯主など",
+          "what": "り災証明書の申請および被災者生活再建支援金などの各種支援制度の利用",
+          "when": "災害発生後、速やかに（被災者生活再建支援金の申請期限は、基礎支援金が災害発生日から13ヶ月以内、加算支援金が37ヶ月以内）",
+          "where": "り災証明書：危機管理室（TEL: 0276-47-1916）／被災者生活再建支援金：社会支援課（TEL: 0276-47-1827）",
+          "why": "被害程度を公的に証明し、生活再建支援金、市税減免、融資や保険請求などの手続きを円滑に進めるため",
+          "how": "1. 被災箇所の写真を撮影（修理前） → 2. 危機管理室へ「り災証明書」の交付申請 → 3. 市による現地調査・証明書交付 → 4. 該当する支援金（社会支援課）や税減免などの申請"
+        },
+        "checklist": [
+          {
+            "item": "被害状況の写真を撮影する（修理前）",
+            "note": "部屋の四隅、外壁、屋根など、被害の程度がわかる写真を必ず修理する前に撮影してください。重要な証拠になります。",
+            "required": true
+          },
+          {
+            "item": "り災証明書の申請書を提出する",
+            "note": "危機管理室（低層棟3階）に申請書を提出してください。郵送やオンラインでの申請も可能です。",
+            "required": true
+          },
+          {
+            "item": "生活再建支援金などの申請を行う（該当世帯のみ）",
+            "note": "社会支援課（南庁舎1階）へ、り災証明書を添えて申請してください。基礎支援金は13ヶ月以内、加算支援金は37ヶ月以内が期限です。",
+            "required": false
+          }
+        ],
+        "form_guide": null,
+        "faq": [
+          {
+            "question": "一部損壊でもり災証明書は発行されますか？",
+            "answer": "はい。被害が軽微な「一部損壊」であっても、調査のうえで証明書が発行されます。各種支援や税の減免等で必要になる場合がありますので申請してください。"
+          },
+          {
+            "question": "すでに片付けや修理をしてしまった場合は申請できませんか？",
+            "answer": "修理前の被害状況がわかる写真があれば申請可能です。写真がない場合でも、状況によっては受け付けられることがありますので、まずは窓口へご相談ください。"
+          },
+          {
+            "question": "アパートなどの賃貸住宅に住んでいる場合も申請できますか？",
+            "answer": "はい。アパートなどの賃貸住宅であっても、入居者が家財の被害や部屋の損壊について「り災証明書」を申請することが可能です。"
+          }
+        ],
+        "estimated_time": "り災証明書の交付：申請から通常1〜4週間程度（大規模な災害時は調査に時間を要する場合があります）",
+        "related_articles": [
+          "evacuation-map",
+          "disaster-prep-guide",
+          "tax-reduction"
         ],
         "term_explanations": [
           {
-            "term": "り災証明書（りさいしょうめいしょ）",
-            "explanation": "市が家屋の被害程度を調査し、「全壊・大規模半壊・半壊・一部損壊」などを証明する書類。各種支援申請に必要。"
+            "term": "り災証明書",
+            "explanation": "災害による住家の被害程度（全壊、大規模半壊、中規模半壊、半壊、準半壊、一部損壊）を市が調査し、公的に証明する書類。"
           },
           {
-            "term": "被災者生活再建支援金（ひさいしゃせいかつさいけんしえんきん）",
-            "explanation": "住宅が全壊・大規模半壊した世帯に最大300万円が支給される国の制度。り災証明書が申請に必要。"
+            "term": "被災者生活再建支援金",
+            "explanation": "自然災害で住宅が全壊するなど著しい被害を受けた世帯の生活再建を支援するため、国や県・市から支給される支援金（最大300万円）。"
           },
           {
-            "term": "罹災（りさい）",
-            "explanation": "災害にあうこと。り災証明書の「り災」はこの漢字。"
+            "term": "解体世帯",
+            "explanation": "住宅が半壊、または住宅の敷地に被害が生じ、その住宅をそのまま利用することが困難なため、やむを得ず解体した世帯。"
           }
-        ],
-        "five_w1h": {
-          "who": "太田市内で災害により住宅等に被害を受けた方",
-          "what": "り災証明書の申請と、それに基づく各種被災者支援制度の利用",
-          "when": "被害が発生したらできるだけ早く（支援制度には申請期限がある場合があります）",
-          "where": "太田市役所 建築指導課・危機管理課（TEL: 0276-47-1111）",
-          "why": "被害の程度を公的に証明することで、各種支援金・税減免・保険請求が円滑に進むため",
-          "how": "①被害箇所を写真撮影→②市役所に連絡→③職員が現地調査→④り災証明書発行→⑤各支援制度へ申請"
-        },
-        "checklist": [
-          {
-            "item": "被害箇所の写真を撮る（部屋の隅々・外壁・屋根等）",
-            "note": "修理前に必ず撮影。証明書申請の根拠になります",
-            "required": true
-          },
-          {
-            "item": "市役所（0276-47-1111）に被害の報告をする",
-            "note": "電話で状況を伝えるだけでOK",
-            "required": true
-          },
-          {
-            "item": "住宅ローンがある場合は金融機関に返済猶予を相談",
-            "note": "災害時の返済猶予制度があります",
-            "required": false
-          }
-        ],
-        "form_guide": null,
-        "faq": [
-          {
-            "question": "一部壊れただけでもり災証明書をもらえますか？",
-            "answer": "はい。「一部損壊」でも証明書が発行されます。まず申請してください。"
-          },
-          {
-            "question": "修理してしまった後でも申請できますか？",
-            "answer": "修理前の写真があれば申請可能です。修理前に必ず写真を撮っておいてください。"
-          },
-          {
-            "question": "賃貸住宅に住んでいますが申請できますか？",
-            "answer": "家屋への調査はオーナー申請が基本ですが、被害状況によっては入居者も申請できます。市役所にご確認ください。"
-          }
-        ],
-        "estimated_time": "り災証明書発行: 申請から1〜4週間（被害規模により異なる）",
-        "related_articles": [
-          "evacuation-map",
-          "disaster-prep-guide",
-          "tax-reduction"
         ]
       },
       "en": {
-        "title": "Disaster Victim Support and Disaster Certificate Application",
-        "easy_explanation": "If your house is damaged or flooded due to an earthquake, typhoon, or flood, you can apply for a \"Disaster Certificate (り災証明書)\" to receive various types of support.\n\n[What is a Disaster Certificate?]\nIt is an official document issued by the city that certifies the extent of damage to your house. It is required when applying for mortgage reductions, condolence money, and other support systems.\n\n[Where to Apply]\nOta City Hall, Building Guidance Division or Crisis Management Division\n📞 Phone: 0276-47-1111 (Main) → Ask for the relevant division\n\n[Potential Support Available]\n- Livelihood Recovery Support Grant for Disaster Victims (Up to ¥3,000,000)\n- Ota City Disaster Condolence Money\n- Mortgage repayment grace period\n- City tax reduction\n\nIf you suffer damage, please take photos first and contact City Hall as soon as possible.",
-        "bottom_line": "If your house is damaged in a disaster, take photos first and apply for a Disaster Certificate. It is a crucial document needed to apply for support grants and tax reductions.",
+        "title": "Disaster Victim Support & Disaster Certificate Application",
+        "easy_explanation": "If your house is damaged or flooded due to earthquakes, typhoons, or floods, you can receive various support by applying for a \"Disaster Certificate.\"\n\n[What is a Disaster Certificate?]\nIt is an official document certified by the city after investigating the extent of damage to your house. It is required when applying for support grants, city tax reductions, and insurance claims.\n\n[Where to Apply for a Disaster Certificate (Natural Disasters)]\nOta City Hall, Crisis Management Division (Low-rise Building, 3rd Floor)\n📞 Phone: 0276-47-1916 (Direct)\n*For fire-related certificates, contact your local fire station.\n\n[Where to Apply for Livelihood Recovery Support Grants]\nOta City Hall, Social Support Division (South Building, 1st Floor)\n📞 Phone: 0276-47-1827 (Direct)\n*Households whose homes were totally/seriously damaged, or half-damaged and subsequently demolished (\"Demolished Households\"), are eligible.\n\nIf damaged, take photos of the damage first before cleaning up or repairing, and apply as soon as possible.",
+        "bottom_line": "If your home is damaged in a disaster, take photos first before making repairs and apply for a Disaster Certificate. It is a crucial document for recovery support.",
         "amount_info": null,
         "target_audience": [
-          "Those whose houses were damaged by earthquakes, typhoons, floods, etc.",
-          "Those who need a Disaster Certificate",
-          "Those who want to apply for Livelihood Recovery Support for Disaster Victims"
+          "Those whose houses or buildings were damaged by natural disasters such as earthquakes, typhoons, or heavy rain",
+          "Those who need a Disaster Certificate to prove the extent of damage",
+          "Those who wish to use support systems such as Livelihood Recovery Support Grants"
         ],
         "five_w1h": {
-          "who": "People whose houses, etc., in Ota City have been damaged by a disaster",
-          "what": "Applying for a Disaster Certificate and using various disaster victim support systems based on it",
-          "when": "As soon as possible after the damage occurs (some support systems have application deadlines)",
-          "where": "Ota City Hall, Building Guidance Division / Crisis Management Division (TEL: 0276-47-1111)",
-          "why": "To officially certify the extent of damage, allowing support grants, tax reductions, and insurance claims to proceed smoothly",
-          "how": "1. Take photos of the damaged areas → 2. Contact City Hall → 3. City staff conducts an on-site investigation → 4. Disaster Certificate is issued → 5. Apply for each support system"
+          "who": "Householders whose homes in Ota City have been damaged by a disaster",
+          "what": "Applying for a Disaster Certificate and using various support systems such as Livelihood Recovery Support Grants",
+          "when": "As soon as possible after the damage occurs (The application deadline is 13 months for the basic grant and 37 months for the additional grant)",
+          "where": "Disaster Certificate: Crisis Management Division (0276-47-1916) / Support Grants: Social Support Division (0276-47-1827)",
+          "why": "To officially certify the extent of damage, enabling smooth processing of support grants, tax reductions, and insurance claims",
+          "how": "1. Take photos of the damage (before repair) -> 2. Apply for a Disaster Certificate at the Crisis Management Division -> 3. City staff conducts an onsite survey -> 4. Apply for support grants or tax reductions"
         },
         "checklist": [
           {
-            "item": "Take photos of the damaged areas (every corner of the room, outer walls, roof, etc.)",
-            "note": "Be sure to take photos before repairs. They serve as evidence for the certificate application",
+            "item": "Take photos of the damaged areas (before repair)",
+            "note": "Be sure to take photos of room corners, outer walls, and the roof before making repairs. They serve as crucial evidence.",
             "required": true
           },
           {
-            "item": "Report the damage to City Hall (0276-47-1111)",
-            "note": "Just explaining the situation over the phone is fine",
+            "item": "Submit the Disaster Certificate application",
+            "note": "Submit the application to the Crisis Management Division (3rd Floor). Mail-in and online applications are also available.",
             "required": true
           },
           {
-            "item": "If you have a mortgage, consult your financial institution about a repayment grace period",
-            "note": "There are repayment grace period systems during disasters",
+            "item": "Apply for support grants (only eligible households)",
+            "note": "Apply at the Social Support Division (South Building, 1st Floor) with your Disaster Certificate. The deadline is 13 months for basic grants and 37 months for additional grants.",
             "required": false
           }
         ],
         "form_guide": null,
         "faq": [
           {
-            "question": "Can I get a Disaster Certificate even if it is only partially damaged?",
-            "answer": "Yes. Certificates are issued even for \"partial damage.\" Please apply first."
+            "question": "Is a Disaster Certificate issued even for minor damage?",
+            "answer": "Yes. Even for minor \"partial damage,\" a certificate can be issued after an investigation. Please apply as it may be needed for tax reductions or other support."
           },
           {
-            "question": "Can I still apply if I have already repaired it?",
-            "answer": "You can apply if you have photos taken before the repairs. Be sure to take photos before repairing."
+            "question": "Can I still apply if I have already cleaned up or repaired my home?",
+            "answer": "You can apply if you have photos showing the damage before repairs. If you do not have photos, please consult with the office."
           },
           {
-            "question": "I live in a rental property. Can I apply?",
-            "answer": "House investigations are generally applied for by the owner, but depending on the damage, tenants can also apply. Please check with City Hall."
+            "question": "Can I apply if I live in a rental property?",
+            "answer": "Yes. Tenants of apartments or rental houses can also apply for a Disaster Certificate for their household goods or damage to their rooms."
           }
         ],
-        "estimated_time": "Issuance of Disaster Certificate: 1 to 4 weeks from application (varies by extent of damage)",
+        "estimated_time": "Issuance: Normally 1 to 4 weeks from application (It may take longer in large-scale disasters due to the volume of surveys)",
         "related_articles": [
           "evacuation-map",
           "disaster-prep-guide",
           "tax-reduction"
         ],
-        "term_explanations": []
+        "term_explanations": [
+          {
+            "term": "Disaster Certificate",
+            "explanation": "An official document certified by the city indicating the level of damage to a residence (such as totally destroyed, half destroyed, or partially damaged)."
+          },
+          {
+            "term": "Livelihood Recovery Support Grant",
+            "explanation": "A grant program (up to 3 million yen) funded by the national, prefectural, and city governments to support the recovery of households severely affected by natural disasters."
+          },
+          {
+            "term": "Demolished Households",
+            "explanation": "Households whose homes were half destroyed or had ground damage and had to be demolished because they were too dangerous to live in."
+          }
+        ]
       },
       "pt": {
-        "title": "Apoio a Vítimas de Desastres e Solicitação do Certificado de Desastre",
-        "easy_explanation": "Se a sua casa for danificada ou inundada devido a um terremoto, tufão ou enchente, você pode solicitar um \"Certificado de Desastre (り災証明書)\" para receber vários tipos de apoio.\n\n[O que é um Certificado de Desastre?]\nÉ um documento oficial emitido pela prefeitura que certifica a extensão dos danos à sua casa. É necessário ao solicitar redução de financiamento imobiliário, dinheiro de condolências e outros sistemas de apoio.\n\n[Onde Solicitar]\nPrefeitura de Ota, Divisão de Orientação de Construção ou Divisão de Gerenciamento de Crises\n📞 Telefone: 0276-47-1111 (Geral) → Peça a divisão responsável\n\n[Apoio Potencial Disponível]\n- Subsídio de Apoio à Reconstrução da Vida para Vítimas de Desastres (Até ¥3.000.000)\n- Dinheiro de Condolências por Desastres da Cidade de Ota\n- Período de carência para pagamento de financiamento imobiliário\n- Redução de impostos municipais\n\nSe sofrer danos, tire fotos primeiro e entre em contato com a Prefeitura o mais rápido possível.",
-        "bottom_line": "Se a sua casa for danificada em um desastre, tire fotos primeiro e solicite um Certificado de Desastre. É um documento crucial necessário para solicitar subsídios de apoio e redução de impostos.",
+        "title": "Apoio a Vítimas de Desastres e Solicitação de Certificado de Desastre",
+        "easy_explanation": "Se a sua casa for danificada ou inundada devido a terremotos, tufões ou enchentes, você poderá receber vários apoios solicitando o \"Certificado de Desastre\".\n\n[O que é o Certificado de Desastre?]\nÉ um documento oficial emitido pela prefeitura após investigar a extensão dos danos à sua casa. É necessário para solicitar subsídios de apoio, redução de impostos municipais e seguros.\n\n[Onde Solicitar o Certificado de Desastre (Desastres Naturais)]\nPrefeitura de Ota, Divisão de Gerenciamento de Crises (Prédio de Baixa Altura, 3º Andar)\n📞 Telefone: 0276-47-1916 (Direto)\n*Para incêndios, o canal de atendimento é o Corpo de Bombeiros local.\n\n[Onde Solicitar o Subsídio de Apoio à Reconstrução da Vida]\nPrefeitura de Ota, Divisão de Assistência Social (Prédio Sul, 1º Andar)\n📞 Telefone: 0276-47-1827 (Direto)\n*Famílias com casas totalmente/gravemente danificadas, ou parcialmente danificadas e posteriormente demolidas (\"Famílias de Domicílios Demolidos\"), são qualificadas.\n\nSe houver danos, tire fotos antes de limpar ou reparar e solicite o documento o mais rápido possível.",
+        "bottom_line": "Se a sua casa for danificada em um desastre, tire fotos antes de fazer reparos e solicite o Certificado de Desastre. É essencial para obter suporte financeiro.",
         "amount_info": null,
         "target_audience": [
-          "Pessoas cujas casas foram danificadas por terremotos, tufões, enchentes, etc.",
-          "Pessoas que precisam de um Certificado de Desastre",
-          "Pessoas que desejam solicitar o Apoio à Reconstrução da Vida para Vítimas de Desastres"
+          "Pessoas cujas casas ou edifícios foram danificados por desastres naturais, como terremotos, tufões ou chuvas fortes",
+          "Pessoas que precisam de um Certificado de Desastre para comprovar a extensão dos danos",
+          "Pessoas que desejam utilizar os sistemas de apoio, como o Subsídio de Apoio à Reconstrução da Vida"
         ],
         "five_w1h": {
-          "who": "Pessoas cujas casas, etc., na Cidade de Ota foram danificadas por um desastre",
-          "what": "Solicitar um Certificado de Desastre e usar vários sistemas de apoio a vítimas de desastres com base nele",
-          "when": "O mais rápido possível após a ocorrência dos danos (alguns sistemas de apoio têm prazos de solicitação)",
-          "where": "Prefeitura de Ota, Divisão de Orientação de Construção / Divisão de Gerenciamento de Crises (TEL: 0276-47-1111)",
-          "why": "Para certificar oficialmente a extensão dos danos, permitindo que subsídios de apoio, reduções de impostos e pedidos de seguro ocorram sem problemas",
-          "how": "1. Tire fotos das áreas danificadas → 2. Entre em contato com a Prefeitura → 3. Funcionários da prefeitura realizam uma investigação no local → 4. O Certificado de Desastre é emitido → 5. Solicite cada sistema de apoio"
+          "who": "Chefes de família cujas casas na Cidade de Ota foram danificadas por um desastre",
+          "what": "Solicitação do Certificado de Desastre e uso de vários sistemas de apoio, como o Subsídio de Apoio à Reconstrução da Vida",
+          "when": "O mais rápido possível após o desastre (O prazo de solicitação é de 13 meses para o subsídio básico e 37 meses para o adicional)",
+          "where": "Certificado de Desastre: Divisão de Gerenciamento de Crises (0276-47-1916) / Subsídio de Apoio: Divisão de Assistência Social (0276-47-1827)",
+          "why": "Para certificar oficialmente a extensão dos danos, permitindo o processamento rápido de subsídios de apoio, reduções de impostos e seguros",
+          "how": "1. Tire fotos dos danos (antes do reparo) -> 2. Solicite o Certificado de Desastre na Divisão de Gerenciamento de Crises -> 3. Equipe da prefeitura realiza vistoria no local -> 4. Solicite os subsídios ou reduções de impostos"
         },
         "checklist": [
           {
-            "item": "Tirar fotos das áreas danificadas (todos os cantos do cômodo, paredes externas, telhado, etc.)",
-            "note": "Certifique-se de tirar fotos antes dos reparos. Elas servem como prova para a solicitação do certificado",
+            "item": "Tirar fotos das áreas danificadas (antes de reparar)",
+            "note": "Tire fotos dos cantos dos cômodos, paredes externas e telhado antes dos reparos. Elas servem como provas importantes.",
             "required": true
           },
           {
-            "item": "Relatar os danos à Prefeitura (0276-47-1111)",
-            "note": "Apenas explicar a situação por telefone é suficiente",
+            "item": "Enviar a solicitação do Certificado de Desastre",
+            "note": "Entregue a solicitação na Divisão de Gerenciamento de Crises (3º Andar). Também é possível solicitar por correio ou online.",
             "required": true
           },
           {
-            "item": "Se você tiver um financiamento imobiliário, consulte sua instituição financeira sobre um período de carência para pagamento",
-            "note": "Existem sistemas de período de carência durante desastres",
+            "item": "Solicitar os subsídios de apoio (apenas famílias elegíveis)",
+            "note": "Solicite na Divisão de Assistência Social (Prédio Sul, 1º Andar) apresentando o Certificado. O prazo é de 13 meses para o básico e 37 meses para o adicional.",
             "required": false
           }
         ],
         "form_guide": null,
         "faq": [
           {
-            "question": "Posso obter um Certificado de Desastre mesmo se for apenas um dano parcial?",
-            "answer": "Sim. Os certificados são emitidos mesmo para \"danos parciais\". Por favor, solicite primeiro."
+            "question": "O Certificado de Desastre é emitido mesmo para danos parciais?",
+            "answer": "Sim. Mesmo para danos classificados como \"danos parciais\", o certificado é emitido após a vistoria. Solicite, pois pode ser necessário para descontos de impostos."
           },
           {
-            "question": "Posso solicitar mesmo se já tiver feito os reparos?",
-            "answer": "Você pode solicitar se tiver fotos tiradas antes dos reparos. Certifique-se de tirar fotos antes de consertar."
+            "question": "Posso solicitar se já tiver limpado ou consertado a casa?",
+            "answer": "Você pode solicitar se tiver fotos que mostrem os danos antes dos reparos. Se não tiver fotos, consulte o balcão de atendimento."
           },
           {
-            "question": "Eu moro em uma propriedade alugada. Posso solicitar?",
-            "answer": "A investigação da casa é geralmente solicitada pelo proprietário, mas dependendo dos danos, os inquilinos também podem solicitar. Verifique com a Prefeitura."
+            "question": "Quem mora de aluguel também pode solicitar?",
+            "answer": "Sim. Moradores de apartamentos ou casas alugadas também podem solicitar o Certificado de Desastre para comprovar danos em seus bens ou no quarto."
           }
         ],
-        "estimated_time": "Emissão do Certificado de Desastre: 1 a 4 semanas após a solicitação (varia de acordo com a extensão dos danos)",
+        "estimated_time": "Emissão: Normalmente de 1 a 4 semanas após o pedido (pode demorar mais em desastres de grande escala devido ao volume de vistorias)",
         "related_articles": [
           "evacuation-map",
           "disaster-prep-guide",
           "tax-reduction"
         ],
-        "term_explanations": []
+        "term_explanations": [
+          {
+            "term": "Certificado de Desastre",
+            "explanation": "Documento oficial emitido pela prefeitura certificando o grau de dano de uma residência (como destruição total, parcial, entre outros)."
+          },
+          {
+            "term": "Subsídio de Apoio à Reconstrução da Vida",
+            "explanation": "Programa de subsídio (até 3 milhões de ienes) financiado pelos governos federal, estadual e municipal para apoiar famílias com residências gravemente danificadas por desastres naturais."
+          },
+          {
+            "term": "Famílias de Domicílios Demolidos",
+            "explanation": "Famílias cujas casas foram parcialmente destruídas ou tiveram danos no terreno e precisaram ser demolidas devido ao perigo de desabamento."
+          }
+        ]
       }
     },
     "municipality": "ota-city",
